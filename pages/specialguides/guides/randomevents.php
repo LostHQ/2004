@@ -83,7 +83,7 @@ XP given = Level in that skill * 10
 <table><tr><td><img src="img/special_guides/randomevents/ent.png"></td><td>Sometimes you will find your tree you are cutting has turned into an Ent. If you continue chopping the Ent, your axe will break. You can fix your axe at Bob's axes in Lumbridge, for a small fee.</td></tr></table>
 <br>
 <h4>Axe Splitting</h4>
-<table><tr><td>Your axe head will fly off a few squares away when you are woodcutting. Pick up the head and re-attach it to the axe handle by 'using' them together.</td><td><img src="img/wip.png"></td></tr></table>
+<table><tr><td>Your axe head will fly off a few squares away when you are woodcutting. Pick up the head and re-attach it to the axe handle by 'using' them together.</td><td><img src="img/special_guides/randomevents/axe_head.png"></td></tr></table>
 <hr>
 <h3>Thieving Random Events</h3>
 <h4>Watchman</h4>
