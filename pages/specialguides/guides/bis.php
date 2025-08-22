@@ -488,13 +488,9 @@ clearAllEquipment();
         <td>+10 Crush Attack<br>+6 Strength Bonus<br>+3 Prayer Bonus</td>
     </tr>
     <tr>
-        <td rowspan="2">Weapon</td>
-        <td><div class="centered-content"><canvas data-itemname="dragon_mace" data-show-label="inline"></canvas>*</div></td>
+        <td>Weapon</td>
+        <td><canvas data-itemname="dragon_mace" data-show-label="inline"></canvas></td>
         <td>+60 Crush Attack<br>+55 Strength Bonus<br>+5 Prayer Bonus</td>
-    </tr>
-    <tr>
-        <td><div class="centered-content"><canvas data-itemname="dragon_spear_p" data-show-label="inline"></canvas>*</div></td>
-        <td>+55 Crush Attack<br>+60 Strength Bonus<br>Poison Damage</td>
     </tr>
     <tr>
         <td rowspan="2">Chest</td>
@@ -537,7 +533,6 @@ clearAllEquipment();
         <td>Pick based on enemy</td>
     </tr>
 </table>
-*Both Dragon Mace and Dragon Spear have a fast tick of 4, but Dragon Mace has a +5 Prayer Bonus and can be equipped with a shield. Dragon Spear offers the advantage of poison.
 <hr>
 <h3 id="offence-stabslash">Stab/Slash Offence</h3>
 <table>
@@ -591,13 +586,9 @@ clearAllEquipment();
         <td>+10 Stab/Slash Attack<br>+6 Strength Bonus<br>+3 Prayer Bonus</td>
     </tr>
     <tr>
-        <td rowspan="2">Weapon</td>
-        <td><div class="centered-content"><canvas data-itemname="dragon_longsword" data-show-label="inline"></canvas>*</div></td>
+        <td>Weapon</td>
+        <td><canvas data-itemname="dragon_longsword" data-show-label="inline"></canvas></td>
         <td>+69 Slash Attack<br>+71 Strength Bonus</td>
-    </tr>
-    <tr>
-        <td><div class="centered-content"><canvas data-itemname="dragon_spear_p" data-show-label="inline"></canvas>*</div></td>
-        <td>+58 Stab Attack<br>+60 Strength Bonus<br>Poison Damage</td>
     </tr>
     <tr>
         <td rowspan="2">Chest</td>
@@ -640,7 +631,6 @@ clearAllEquipment();
         <td>Pick based on enemy</td>
     </tr>
 </table>
-*The Dragon Spear offers a faster tick rate (4 ticks instead of 5) as well as poison damage compared to the Dragon Longsword. Use the Dragon Longsword for Slashing or more defence bonuses.
 <hr>
 <h3 id="offence-ranged">Ranged Offence</h3>
 <table>
@@ -860,7 +850,7 @@ clearAllEquipment();
 </table>
 *Use the Unholy Symbol instead of the Holy Symbol when overhead prayers are active, as the former provides better offensive stats.
 <hr>
-This special report was written on LostHQ by Fallnight. Thanks to Geerin and Fran 2004 for corrections.
+This special report was written on LostHQ by Fallnight. Thanks to Geerin, Fran 2004, and Timondg for corrections.
 <br><br>
-This special report was entered into the database on Wed, Jul 30, 2025, at 11:51:20 PM by Halogod35 and was last updated on Wed, Aug 06, 2025, at 09:07:28 PM by Collin.
+This special report was entered into the database on Wed, Jul 30, 2025, at 11:51:20 PM by Halogod35 and was last updated on Thu, Aug 21, 2025, at 11:45:22 PM by Halogod35.
 HTML; }
