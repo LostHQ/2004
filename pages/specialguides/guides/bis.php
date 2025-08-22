@@ -860,7 +860,7 @@ clearAllEquipment();
 </table>
 *Use the Unholy Symbol instead of the Holy Symbol when overhead prayers are active, as the former provides better offensive stats.
 <hr>
-This special report was written on 2004HQ by Fallnight. Thanks to Geerin and Fran 2004 for corrections.
+This special report was written on LostHQ by Fallnight. Thanks to Geerin and Fran 2004 for corrections.
 <br><br>
 This special report was entered into the database on Wed, Jul 30, 2025, at 11:51:20 PM by Halogod35 and was last updated on Wed, Aug 06, 2025, at 09:07:28 PM by Collin.
 HTML; }

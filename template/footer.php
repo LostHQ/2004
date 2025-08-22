@@ -25,7 +25,7 @@
                 <div id="site-options-backdrop" hidden></div>
                 <div id="site-options-modal" hidden>
                   <div id="site-options-content">
-                    <h2>2004HQ Website Options</h2>
+                    <h2>LostHQ Website Options</h2>
                     <label>Menu Styles:<br>
                       <select id="style-select">
                         <option value="default">Modern (RS Look)</option>

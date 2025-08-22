@@ -42,7 +42,7 @@ function getPageContent() {
 function getSelectionMenu() { 
   global $guideLookup;
 return <<<HTML
-<h2>2004HQ Treasure Trails Guides</h2>
+<h2>LostHQ Treasure Trails Guides</h2>
 <h3>WARNING:</h3>
 This guides below obviously contains spoilers on how to solve the clues. Don't look 
 if you want to figure this stuff out for yourself.  For the coordinate clues, 

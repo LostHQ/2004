@@ -16,9 +16,9 @@ $breadcrumbMap = [
 
 function renderBreadcrumbs() {
     global $meta_data, $breadcrumbMap;
-    $parts = explode(' > ', '2004HQ > '.$meta_data['title']);
+    $parts = explode(' > ', 'LostHQ > '.$meta_data['title']);
     $breadcrumbs = [];
-    $breadcrumbs[] = '<a href="?">2004HQ</a>';
+    $breadcrumbs[] = '<a href="?">LostHQ</a>';
 
     if (isset($parts[1]) && isset($breadcrumbMap[$parts[1]])) {
         $breadcrumbs[] = '<a href="' . htmlspecialchars($breadcrumbMap[$parts[1]]) . '">' . htmlspecialchars($parts[1]) . '</a>';
@@ -33,7 +33,7 @@ function renderBreadcrumbs() {
 
 $breadcumbOut = renderBreadcrumbs();
 
-if ($breadcumbOut != '<a href="?">2004HQ</a>') {
+if ($breadcumbOut != '<a href="?">LostHQ</a>') {
     echo <<<HTML
     <table style="background-color:black;text-align:center;align-items:center;" class="main-menu">
         <tbody>

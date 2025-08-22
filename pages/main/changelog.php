@@ -11,7 +11,7 @@ function getPageContent() {
 <div style="display: inline-block; border: 1px solid #ccc;">
   <table width="100%" class="calculators">
     <tr>
-      <th colspan="3">2004HQ is brought to you by</th>
+      <th colspan="3">LostHQ is brought to you by</th>
     </tr>
     <tr>
       <td width="50%">Moley</td>
