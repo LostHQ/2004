@@ -1,5 +1,5 @@
 # DISABLE DIRECTORY INDEXES
 Options -Indexes
-ErrorDocument 404 https://2004hq.com/?p=404
-ErrorDocument 403 https://2004hq.com/?p=403
-ErrorDocument 401 https://2004hq.com/?p=403
+ErrorDocument 404 https://2004.losthq.rs/?p=404
+ErrorDocument 403 https://2004.losthq.rs/?p=403
+ErrorDocument 401 https://2004.losthq.rs/?p=403
