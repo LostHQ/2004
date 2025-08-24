@@ -16,6 +16,7 @@
         <tr>
           <td style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
             <a href="?"><img src="img/2004hq.png" width="312" height="100"></a>
+            <?php include 'template/oldurl.php'; ?>
             <?php include 'template/menu.php'; ?>
             <?php include 'template/breadcrumbs.php'; ?>
             <table style="background-color:black;" cellpadding="0" cellspacing="0"><tbody><tr><td><img src="img/fm_top.gif"></td></tr></tbody></table>
