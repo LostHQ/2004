@@ -56,12 +56,12 @@ function runCalc() {
         "High Level Alchemy": {xp: 65, level: 55 },
         "Charge Water Orb": {xp: 56, level: 56 },
         "Lvl-4 Enchant": {xp: 67, level: 57 },
+        "Watchtower Teleport": {xp: 68, level: 58 },
         "Charge Earth Orb": {xp: 70, level: 60 },
-        "Watchtower Teleport": {xp: 68, level: 61 },
         "Charge Fire Orb": {xp: 73, level: 63 },
         "Charge Air Orb": {xp: 76, level: 66 },
         "Lvl-5 Enchant": {xp: 78, level: 68 },
-        "Charge": {xp: 180, level: 80 },
+        "Charge": {xp: 180, level: 80 }
     };
     
     updateProgressBar(currentXP, targetXP);
