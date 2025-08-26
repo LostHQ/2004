@@ -120,10 +120,10 @@ function getCalcContent() { return <<<HTML
                 <option value="70">Rune 2h Sword (+70)</option>
 
                 <!-- Dragon -->
-                <option value="40">Dragon Dagger (+40)</option>
-                <option value="55">Dragon Mace (+55)</option>
+                <option value="40" data-special="1.15">Dragon Dagger (+40)</option>
+                <option value="55" data-special="1.50">Dragon Mace (+55)</option>
                 <option value="60">Dragon Spear (+60)</option>
-                <option value="71">Dragon Longsword (+71)</option>
+                <option value="71" data-special="1.25">Dragon Longsword (+71)</option>
                 <option value="85">Dragon Battleaxe (+85)</option>
 
                 <!-- Misc -->
@@ -280,5 +280,8 @@ function getCalcContent() { return <<<HTML
     </div>
     <hr>
     <h2>Your Max Hit: <span id="maxHit" class="gold-text"></span></h2>
+    <div id="specialDiv" style="display:none;">
+        <h3>Max Hit with Special Attack: <span id="specialResult" class="gold-text"></span></h3>
+    </div>
 </div>
 HTML.getJavaScriptVersion('js/calculators/max_hit.js'); }
