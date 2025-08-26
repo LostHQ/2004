@@ -281,7 +281,7 @@ If you are having troubles identifying a key, hover the cursor over the icon to 
     <tr>
         <td><canvas data-itemname="sinister_key" data-show-label="true"></canvas></td>
         <td>Opens a chest containing 9 herbs.</td>
-        <td>Kill Salarin the Twisted in the Yannile Agility Dungeon.</td>
+        <td>Kill Salarin the Twisted in the Yanille Agility Dungeon.</td>
         <td>✔️</td>
     </tr>
     <!-- Shade keys for Shades of Mort'ton [be sure to check debug name]
