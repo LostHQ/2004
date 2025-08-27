@@ -12,11 +12,9 @@ function getSkillContent($skill) { return <<<HTML
                 Smelting converts your ores into bars. This is done at furnaces.
                 To convert your ore into bars select an ore in your inventory then left click on a furnace. If you want to smelt several lots of ore at once, left clicking on the furnace will bring up a list of metals.  Right click on a metal to select the quantity you want to make.
             </td>
-            <!-- broken for now, until we can actually find this image
             <td>
-                <img src="https://web.archive.org/web/20050206173625im_/http://www.runescape.com/img/rs2/manual/smithing/smithingfurnace.gif">
+                <img src="img/skillguides/smithingfurnace.gif">
             </td>
-            -->
         </tr>
     </table>
     <hr>
@@ -156,7 +154,7 @@ function getSkillContent($skill) { return <<<HTML
     <table>
         <tr>
             <td valign="top">
-                <img src="img/skillguides/anvil.png" width="200px">
+                <img src="img/skillguides/smithinganvil.gif">
             </td>
             <td valign="top">
                 The smithing levels required to forge a metal type are the same as those required to smelt it.
