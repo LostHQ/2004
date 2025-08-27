@@ -12,9 +12,11 @@ function getSkillContent($skill) { return <<<HTML
                 Smelting converts your ores into bars. This is done at furnaces.
                 To convert your ore into bars select an ore in your inventory then left click on a furnace. If you want to smelt several lots of ore at once, left clicking on the furnace will bring up a list of metals.  Right click on a metal to select the quantity you want to make.
             </td>
+            <!-- broken for now, until we can actually find this image
             <td>
                 <img src="https://web.archive.org/web/20050206173625im_/http://www.runescape.com/img/rs2/manual/smithing/smithingfurnace.gif">
             </td>
+            -->
         </tr>
     </table>
     <hr>
@@ -145,7 +147,7 @@ function getSkillContent($skill) { return <<<HTML
     To convert your bars into armour and weapons you must forge them at an anvil.
     <br><br>
     Select a bar from your inventory, then select an anvil. You will be given a screen to decide what sort of equipment you would like to make. You will  be shown how many bars are needed to make types of object. If this is written in green then you have enough bars to make the item, if it is written in red then you do not.
-    <img src="https://web.archive.org/web/20050206173625im_/http://www.runescape.com/img/rs2/manual/smithing/smithinginterface.gif">
+    <img src="img/skillguides/smithinginterface.gif">
     <br><br>
     The name of the objects will be written in black or white. If the name is written in white then you have the smithing level required to make it. If it is written in black then you do not.
     <br>    <br>
@@ -154,7 +156,7 @@ function getSkillContent($skill) { return <<<HTML
     <table>
         <tr>
             <td valign="top">
-                <img src="https://oldschool.runescape.wiki/images/thumb/Anvil.png/200px-Anvil.png?a1e23">
+                <img src="img/skillguides/anvil.png" width="200px">
             </td>
             <td valign="top">
                 The smithing levels required to forge a metal type are the same as those required to smelt it.

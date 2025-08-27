@@ -2,7 +2,7 @@
 function getSkillContent($skill) { return <<<HTML
 <h2>$skill Skill Guide</h2>
 <p>
-    Crafting is rumoured to be a slow, useless and boring skill, but once you get into it there's lots to do! You can make everything from pots to collect flour in, to dragonhide armour for rangers. Crafting can be found all over the RuneScape world. In the amulets people wear, the vials you use in herblore and the Mystic Staves Magicians battle with. These items are all made in crafting.
+    Crafting is rumoured to be a slow, useless, and boring skill, but once you get into it there's lots to do! You can make everything from pots to collect flour in, to dragonhide armour for rangers. Crafting can be found all over the RuneScape world. In the amulets people wear, the vials you use in herblore and the Mystic Staves Magicians battle with. These items are all made in crafting.
     <br><br>
     <table class="calculators">
         <tr>
@@ -21,7 +21,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>1</td>
             <td><canvas data-itemname="wool" data-show-label="true"></canvas></td>
             <td>
-                <img src="https://oldschool.runescape.wiki/images/thumb/Spinning_wheel_%28Seers%27_Village%29.png/151px-Spinning_wheel_%28Seers%27_Village%29.png" width=32px><br>
+                <img src="img/skillguides/spinning_wheel.png" width=32px><br>
                 Spinning Wheel
             </td>
             <td><canvas data-itemname="ball_of_wool" data-show-label="true"></canvas></td>
@@ -41,7 +41,7 @@ function getSkillContent($skill) { return <<<HTML
                 <canvas data-itemname="softclay" data-show-label="true"></canvas>
             </td>
             <td>
-                <img src="https://oldschool.runescape.wiki/images/archive/20170727073604%21Potter%27s_Wheel.png" width=32px><br>
+                <img src="img/skillguides/potters_wheel.png" width=32px><br>
                 Potter's wheel
             </td>
             <td><canvas data-itemname="pot_unfired" data-show-label="true"></canvas></td>
@@ -50,7 +50,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>1</td>
             <td><canvas data-itemname="pot_unfired" data-show-label="true"></canvas></td>
             <td>
-                <img src="https://oldschool.runescape.wiki/images/archive/20210830111523%21Pottery_Oven.png" width=32px><br>
+                <img src="img/skillguides/pottery_oven.png" width=32px><br>
                 Pottery Oven
             </td>
             <td><canvas data-itemname="pot_empty" data-show-label="true"></canvas></td>
@@ -69,7 +69,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>
                 <canvas data-itemname="ring_mould" data-show-label="inline"></canvas>
                 <div style="display: flex; align-items: center; gap: 6px; flex-direction: row; justify-content: center;">
-                    <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" alt="Furnace" width=32px>
+                    <img src="img/skillguides/furnace.png" alt="Furnace" width=32px>
                     <div class="item-label" style="color: white;">Furnace</div>
                 </div>
             </td>
@@ -83,7 +83,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>
                 <canvas data-itemname="necklace_mould" data-show-label="inline"></canvas>
                 <div style="display: flex; align-items: center; gap: 6px; flex-direction: row; justify-content: center;">
-                    <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" alt="Furnace" width=32px>
+                    <img src="img/skillguides/furnace.png" alt="Furnace" width=32px>
                     <div class="item-label" style="color: white;">Furnace</div>
                 </div>
             </td>
@@ -95,7 +95,7 @@ function getSkillContent($skill) { return <<<HTML
                 <canvas data-itemname="softclay" data-show-label="true"></canvas>
             </td>
             <td>
-                <img src="https://oldschool.runescape.wiki/images/archive/20170727073604%21Potter%27s_Wheel.png" width=32px><br>
+                <img src="img/skillguides/potters_wheel.png" width=32px><br>
                 Potter's wheel
             </td>
             <td><canvas data-itemname="piedish_unfired" data-show-label="true"></canvas></td>
@@ -104,7 +104,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>7</td>
             <td><canvas data-itemname="piedish_unfired" data-show-label="true"></canvas></td>
             <td>
-                <img src="https://oldschool.runescape.wiki/images/archive/20210830111523%21Pottery_Oven.png" width=32px><br>
+                <img src="img/skillguides/pottery_oven.png" width=32px><br>
                 Pottery Oven
             </td>
             <td><canvas data-itemname="piedish" data-show-label="true"></canvas></td>
@@ -127,7 +127,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>
                 <canvas data-itemname="amulet_mould" data-show-label="inline"></canvas>
                 <div style="display: flex; align-items: center; gap: 6px; flex-direction: row; justify-content: center;">
-                    <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" alt="Furnace" width=32px>
+                    <img src="img/skillguides/furnace.png" alt="Furnace" width=32px>
                     <div class="item-label" style="color: white;">Furnace</div>
                 </div>
             </td>
@@ -139,7 +139,7 @@ function getSkillContent($skill) { return <<<HTML
                 <canvas data-itemname="softclay" data-show-label="true"></canvas>
             </td>
             <td>
-                <img src="https://oldschool.runescape.wiki/images/archive/20170727073604%21Potter%27s_Wheel.png" width=32px><br>
+                <img src="img/skillguides/potters_wheel.png" width=32px><br>
                 Potter's wheel
             </td>
             <td><canvas data-itemname="bowl_unfired" data-show-label="true"></canvas></td>
@@ -148,7 +148,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>8</td>
             <td><canvas data-itemname="bowl_unfired" data-show-label="true"></canvas></td>
             <td>
-                <img src="https://oldschool.runescape.wiki/images/archive/20210830111523%21Pottery_Oven.png" width=32px><br>
+                <img src="img/skillguides/pottery_oven.png" width=32px><br>
                 Pottery Oven
             </td>
             <td><canvas data-itemname="bowl_empty" data-show-label="true"></canvas></td>
@@ -166,7 +166,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>10</td>
             <td><canvas data-itemname="flax" data-show-label="true"></canvas></td>
             <td>
-                <img src="https://oldschool.runescape.wiki/images/thumb/Spinning_wheel_%28Seers%27_Village%29.png/151px-Spinning_wheel_%28Seers%27_Village%29.png" width=32px><br>
+                <img src="img/skillguides/spinning_wheel.png" width=32px><br>
                 Spinning Wheel
             </td>
             <td><canvas data-itemname="bow_string" data-show-label="true"></canvas></td>
@@ -209,7 +209,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>
                 <canvas data-itemname="holy_symbol_mould" data-show-label="inline"></canvas>
                 <div style="display: flex; align-items: center; gap: 6px; flex-direction: row; justify-content: center;">
-                    <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" alt="Furnace" width=32px>
+                    <img src="img/skillguides/furnace.png" alt="Furnace" width=32px>
                     <div class="item-label" style="color: white;">Furnace</div>
                 </div>
             </td>
@@ -230,7 +230,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>
                 <canvas data-itemname="unholy_symbol_mould" data-show-label="inline"></canvas>
                 <div style="display: flex; align-items: center; gap: 6px; flex-direction: row; justify-content: center;">
-                    <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" alt="Furnace" width=32px>
+                    <img src="img/skillguides/furnace.png" alt="Furnace" width=32px>
                     <div class="item-label" style="color: white;">Furnace</div>
                 </div>
             </td>
@@ -260,7 +260,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>
                 <canvas data-itemname="ring_mould" data-show-label="inline"></canvas>
                 <div style="display: flex; align-items: center; gap: 6px; flex-direction: row; justify-content: center;">
-                    <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" alt="Furnace" width=32px>
+                    <img src="img/skillguides/furnace.png" alt="Furnace" width=32px>
                     <div class="item-label" style="color: white;">Furnace</div>
                 </div>
             </td>
@@ -275,7 +275,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>
                 <canvas data-itemname="necklace_mould" data-show-label="inline"></canvas>
                 <div style="display: flex; align-items: center; gap: 6px; flex-direction: row; justify-content: center;">
-                    <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" alt="Furnace" width=32px>
+                    <img src="img/skillguides/furnace.png" alt="Furnace" width=32px>
                     <div class="item-label" style="color: white;">Furnace</div>
                 </div>
             </td>
@@ -291,7 +291,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>
                 <canvas data-itemname="amulet_mould" data-show-label="inline"></canvas>
                 <div style="display: flex; align-items: center; gap: 6px; flex-direction: row; justify-content: center;">
-                    <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" alt="Furnace" width=32px>
+                    <img src="img/skillguides/furnace.png" alt="Furnace" width=32px>
                     <div class="item-label" style="color: white;">Furnace</div>
                 </div>
             </td>
@@ -312,7 +312,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>
                 <canvas data-itemname="ring_mould" data-show-label="inline"></canvas>
                 <div style="display: flex; align-items: center; gap: 6px; flex-direction: row; justify-content: center;">
-                    <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" alt="Furnace" width=32px>
+                    <img src="img/skillguides/furnace.png" alt="Furnace" width=32px>
                     <div class="item-label" style="color: white;">Furnace</div>
                 </div>
             </td>
@@ -336,7 +336,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>
                 <canvas data-itemname="necklace_mould" data-show-label="inline"></canvas>
                 <div style="display: flex; align-items: center; gap: 6px; flex-direction: row; justify-content: center;">
-                    <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" alt="Furnace" width=32px>
+                    <img src="img/skillguides/furnace.png" alt="Furnace" width=32px>
                     <div class="item-label" style="color: white;">Furnace</div>
                 </div>
             </td>
@@ -352,7 +352,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>
                 <canvas data-itemname="amulet_mould" data-show-label="inline"></canvas>
                 <div style="display: flex; align-items: center; gap: 6px; flex-direction: row; justify-content: center;">
-                    <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" alt="Furnace" width=32px>
+                    <img src="img/skillguides/furnace.png" alt="Furnace" width=32px>
                     <div class="item-label" style="color: white;">Furnace</div>
                 </div>
             </td>
@@ -379,7 +379,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>
                 <canvas data-itemname="ring_mould" data-show-label="inline"></canvas>
                 <div style="display: flex; align-items: center; gap: 6px; flex-direction: row; justify-content: center;">
-                    <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" alt="Furnace" width=32px>
+                    <img src="img/skillguides/furnace.png" alt="Furnace" width=32px>
                     <div class="item-label" style="color: white;">Furnace</div>
                 </div>
             </td>
@@ -403,7 +403,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>
                 <canvas data-itemname="necklace_mould" data-show-label="inline"></canvas>
                 <div style="display: flex; align-items: center; gap: 6px; flex-direction: row; justify-content: center;">
-                    <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" alt="Furnace" width=32px>
+                    <img src="img/skillguides/furnace.png" alt="Furnace" width=32px>
                     <div class="item-label" style="color: white;">Furnace</div>
                 </div>
             </td>
@@ -433,7 +433,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>
                 <canvas data-itemname="ring_mould" data-show-label="inline"></canvas>
                 <div style="display: flex; align-items: center; gap: 6px; flex-direction: row; justify-content: center;">
-                    <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" alt="Furnace" width=32px>
+                    <img src="img/skillguides/furnace.png" alt="Furnace" width=32px>
                     <div class="item-label" style="color: white;">Furnace</div>
                 </div>
             </td>
@@ -464,7 +464,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>
                 <canvas data-itemname="amulet_mould" data-show-label="inline"></canvas>
                 <div style="display: flex; align-items: center; gap: 6px; flex-direction: row; justify-content: center;">
-                    <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" alt="Furnace" width=32px>
+                    <img src="img/skillguides/furnace.png" alt="Furnace" width=32px>
                     <div class="item-label" style="color: white;">Furnace</div>
                 </div>
             </td>
@@ -494,7 +494,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>
                 <canvas data-itemname="ring_mould" data-show-label="inline"></canvas>
                 <div style="display: flex; align-items: center; gap: 6px; flex-direction: row; justify-content: center;">
-                    <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" alt="Furnace" width=32px>
+                    <img src="img/skillguides/furnace.png" alt="Furnace" width=32px>
                     <div class="item-label" style="color: white;">Furnace</div>
                 </div>
             </td>
@@ -509,7 +509,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>
                 <canvas data-itemname="necklace_mould" data-show-label="inline"></canvas>
                 <div style="display: flex; align-items: center; gap: 6px; flex-direction: row; justify-content: center;">
-                    <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" alt="Furnace" width=32px>
+                    <img src="img/skillguides/furnace.png" alt="Furnace" width=32px>
                     <div class="item-label" style="color: white;">Furnace</div>
                 </div>
             </td>
@@ -607,7 +607,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>
                 <canvas data-itemname="amulet_mould" data-show-label="inline"></canvas>
                 <div style="display: flex; align-items: center; gap: 6px; flex-direction: row; justify-content: center;">
-                    <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" alt="Furnace" width=32px>
+                    <img src="img/skillguides/furnace.png" alt="Furnace" width=32px>
                     <div class="item-label" style="color: white;">Furnace</div>
                 </div>
             </td>
@@ -635,7 +635,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>
                 <canvas data-itemname="necklace_mould" data-show-label="inline"></canvas>
                 <div style="display: flex; align-items: center; gap: 6px; flex-direction: row; justify-content: center;">
-                    <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" alt="Furnace" width=32px>
+                    <img src="img/skillguides/furnace.png" alt="Furnace" width=32px>
                     <div class="item-label" style="color: white;">Furnace</div>
                 </div>
             </td>
@@ -694,7 +694,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>
                 <canvas data-itemname="amulet_mould" data-show-label="inline"></canvas>
                 <div style="display: flex; align-items: center; gap: 6px; flex-direction: row; justify-content: center;">
-                    <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" alt="Furnace" width=32px>
+                    <img src="img/skillguides/furnace.png" alt="Furnace" width=32px>
                     <div class="item-label" style="color: white;">Furnace</div>
                 </div>
             </td>

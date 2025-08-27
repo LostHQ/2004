@@ -12,7 +12,7 @@ function getSkillContent($skill) { return <<<HTML
 
 
     </td>
-    <td valign="top"><img src="https://web.archive.org/web/20050204063837im_/http://www.runescape.com/img/rs2/manual/ranging.gif"></td></tr></table>
+    <td valign="top"><img src="img/skillguides/ranging.gif"></td></tr></table>
 
 
     Enemies attacked by ranging will attempt to run directly to attack you in hand to hand combat. If you shoot at a monster from the other side of a fence or piece of furniture then the monster will not be able to get to you. If the monster does not have any ranged attacks then you can continue to hit it without receiving any damage yourself.  A ranger will use the terrain he is in to gain advantage over an enemy, as they are relatively weak in hand to hand combat.

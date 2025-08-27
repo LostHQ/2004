@@ -8,8 +8,8 @@ function getSkillContent($skill) { return <<<HTML
 
     <table style="text-align: center;" align="center">
     <tr>
-    <td><img style="display: inline;display: block; margin: 0 auto 0 auto;" src="https://web.archive.org/web/20061102162750im_/http://www.runescape.com/img/kbase/skills/firemaking/screenshots/firemaking_options.gif" alt="[image]"></td>
-    <td><img style="display: inline;display: block; margin: 0 auto 0 auto;" src="https://web.archive.org/web/20061102162750im_/http://www.runescape.com/img/kbase/skills/firemaking/screenshots/firemaking_main2.jpg" alt="[image]"></td>
+    <td><img style="display: inline;display: block; margin: 0 auto 0 auto;" src="img/skillguides/firemaking_options.gif" alt="[image]"></td>
+    <td><img style="display: inline;display: block; margin: 0 auto 0 auto;" src="img/skillguides/firemaking_main2.jpg" alt="[image]"></td>
     </tr>
     </table><br>
     The following table shows what wood types are available in RuneScape, as well as the level required to light them and the experience gained from doing so.<br>

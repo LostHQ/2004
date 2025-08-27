@@ -4,11 +4,11 @@ function getSkillContent($skill) { return <<<HTML
 <p>
     <h3>Woodcutting - The Basics</h3>
     <b>Introduction</b><br>
-    <br>One of the simplest ways in which people make a living in RuneScape, is through the woodcutters trade. <br><br>The woodcutting skill can benefit you in many ways, many of which involves using your logs for Firemaking, or members can use them to fletch items.<br><br><img style="display: inline;display: block; margin: 0 auto 0 auto;" src="https://web.archive.org/web/20061102142813im_/http://www.runescape.com/img/kbase/skills/woodcutting/screenshots/woodcuting_main.jpg" alt="[image]"><br><br>To chop down a tree, just click on a tree and select chop down tree. If you have an axe in your inventory and sufficient woodcutting level, you will attempt to chop down the tree. Although woodcutting is not a member skill, some items that can be cut using this skill require member status.
+    <br>One of the simplest ways in which people make a living in RuneScape, is through the woodcutters trade. <br><br>The woodcutting skill can benefit you in many ways, many of which involves using your logs for Firemaking, or members can use them to fletch items.<br><br><img style="display: inline;display: block; margin: 0 auto 0 auto;" src="img/skillguides/woodcuting_main.jpg" alt="[image]"><br><br>To chop down a tree, just click on a tree and select chop down tree. If you have an axe in your inventory and sufficient woodcutting level, you will attempt to chop down the tree. Although woodcutting is not a member skill, some items that can be cut using this skill require member status.
     <br><br>
     The symbol below indicates the location of the rarer trees on your maps:
     <br><br>
-    <img style="display: inline;display: block; margin: 0 auto 0 auto;" src="https://web.archive.org/web/20061102142813im_/http://www.runescape.com/img/kbase/key_icons/rare_trees.gif" alt="[image]">
+    <img style="display: inline;display: block; margin: 0 auto 0 auto;" src="img/skillguides/rare_trees.gif" alt="[image]">
     <hr>
     <h3>Trees</h3>
     There are several types of trees all over the RuneScape world, the table below shows the types of trees available and where to cut them.
