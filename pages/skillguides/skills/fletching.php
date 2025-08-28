@@ -7,7 +7,7 @@ function getSkillContent($skill) { return <<<HTML
     <table>
         <tr>
             <td>To make bows you first need to acquire some wood. Depending on the type of tree you chop down you can get different sorts of logs. Next use a knife with the logs to cut them into either a shortbow or a longbow. To make a bow string you need to find a flax plant and use it with a spinning wheel. Finally add the string to the bow to complete it.</td>
-            <td><img src="img/skillguides/woodcutting.gif"></td>
+            <td><img src="img/skillguides/woodcutting/woodcutting.gif"></td>
         </tr>
     </table>
     <br>
