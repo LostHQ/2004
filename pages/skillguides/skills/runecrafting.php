@@ -20,23 +20,14 @@ function getSkillContent($skill) { return <<<HTML
     <h3>Locating rune temples</h3>
     <table>
         <tr>
-            <td>
-                To locate each temple, take the talisman and select the locate option.
-                The talisman will pull in the direction where the rune temple is located. 
-                <br>
-                Because runecrafting is an ancient skill that has been forgotten until recently, the elemental temples have become ruined. When you find the ruins of the temple you are looking for, use your talisman on these ruins.
-            </td>
-            <td>
-                <img src="img/skillguides/runecraft/locate.gif">
-            </td>
+            <td>To locate each temple, take the talisman and select the locate option. The talisman will pull in the direction where the rune temple is located.<br>Because runecrafting is an ancient skill that has been forgotten until recently, the elemental temples have become ruined. When you find the ruins of the temple you are looking for, use your talisman on these ruins.</td>
+            <td><img src="img/skillguides/runecraft/locate.gif"></td>
         </tr>
     </table>
     <br>
     <table>
         <tr>
-            <td>
-                <img src="img/skillguides/runecraft/craftingrune.gif">
-            </td>
+            <td><img src="img/skillguides/runecraft/craftingrune.gif"></td>
             <td>
                 This will magically teleport you to a restored version of the temple, where you will be able to convert your rune essences into rune stones.
                 <br><br>

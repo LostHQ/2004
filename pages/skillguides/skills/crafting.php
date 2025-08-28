@@ -726,5 +726,91 @@ function getSkillContent($skill) { return <<<HTML
             <td><canvas data-itemname="black_dragonhide_body" data-show-label="true"></canvas></td>
         </tr>
     </table>
+    <h3>Pottery</h3>
+    Bowls, pots and pie dishes can all be made by crafting. Clay is obtained by <a href="?p=skillguides&skill=mining" class="c">mining</a>.<br>To make the clay workable it needs to be softened first. Use a jug of water with the clay and it will be turned into soft clay. Take the clay to a potter's wheel. There is one in the barbarian village.
+    <br><br>
+    <table>
+        <tr>
+            <td>Use the clay on the potter's wheel and select what object you would like to make. If you have the correct crafting level you will make an unfired piece of pottery. If you want to make several of the same object, simply right-click and select the number you wish to produce. Use it on the pottery oven and as long as it doesn't crack upon heating, you will have made yourself a nice new piece of pottery.</td>
+            <td><img src="img/skillguides/crafting/pottery.gif"></td>
+        </tr>
+    </table>
+    <h3>Leather</h3>
+    Leather is made from cow hides, so you will need to find a cow field and kill some cows.
+    <br><br>
+    <table>
+        <tr>
+            <td><img src="img/skillguides/crafting/leather.gif"></td>
+            <td>Once you have a cow hide, take it to the tannery in Al Kharid. You can then craft your leather into leather armour, boots or gloves. You will need to get a needle and some thread from a crafting shop. Right-click the needle in your inventory and use it on a piece of leather, then as long as you have some thread the screen below will be opened, and you will be given a choice of leather objects to make.</td>
+        </tr> 
+    </table>
+    <br>
+    Simply click on the item you want to make and if you have enough thread you will craft it. If you want to make several of the same object, simply right-click and select the number you wish to produce.
+    <br><br>
+    <img src="img/skillguides/crafting/leather.jpg">
+    <br><br>
+    There are 3 types of leather - normal, hard and dragon. You are given the choice of either normal or hard leather when you get your cow hides converted by the tanner. Expect to pay a little more for hardened leather. Dragon leather is made in the same way as normal leather, except dragon hides are used instead of cow hides.
+    <br><br>
+    Kill a dragon to collect it's hide, then speak to a tanner in the same way, and you get the option to make dragon leather if you have any dragonhides in your inventory. The cost for converting dragonhides is more expensive than hardened leather however. Use a needle and thread again and a smaller crafting display is shown with the items that you can craft from dragon leather.
+    <br><br>
+    Adding studs to a leather body or chaps increases it's strength. Studs can be smithed from steel, then used with the leather item to make it studded. Studs can only be used on normal leather.
+    <h3>Gems</h3>
+    Gems are rare objects you will occasionally find, they can be made more valuable by cutting them. Once a gem is cut it can also be used when you are making gold jewelry.
+    <br><br>
+    You will need to buy a chisel from a general store or a crafting shop. Select the chisel from your inventory and then the gem you wish to cut. If you find your crafting level is not high enough to cut the gem you may want to make a bit more pottery or leather to raise your crafting level first.
+    <h3>Holy and Unholy symbols</h3>
+    You need a crafting level of 16 to craft silver bars. To make silver bars see the <a href="?p=skillguides&skill=mining" class="c">mining</a> and <a href="?p=skillguides&skill=smithing" class="c">smithing</a> guides.
+    <br><br>
+    <table>
+        <tr>
+            <td><img src="img/skillguides/crafting/spinning.gif"></td>
+            <td>You will need a holy symbol mould which can be bought from a crafting shop. Then use your silver bar on a furnace and you will be able to make a holy symbol of Saradomin.<!-- (added later) If you want to make several of the same object, simply right-click and select the number you wish to produce.--><br>You can either sell your holy symbol to the general store or you can make it into an object that makes your prayers last longer. If you want to use your holy symbol you will need some string. To make string, buy a pair of shears from a general store. Use the shears on a sheep to get some wool.</td>
+        </tr>
+    </table>
+    <br>
+    <table>
+        <tr>
+            <td>Use the wool on a spinning wheel to spin it into a ball. Then you can use your ball of wool on your holy symbol to give it a string. Finally you will need to get your holy symbol blessed. This can only be done by taking it to a monk called Brother Jered or by using a completed prayer book. Brother Jered is upstairs in the monastery. You will need a prayer level of 31 to get in to talk to him.</td>
+            <td><img src="img/skillguides/crafting/monk.gif"></td>
+        </tr>
+    </table>
+    <br>
+    Runescape members may also come across an unholy symbol mould which can be used to make unholy symbols in the same way and requires a crafting level of 17 to use. When they get the mould they will also be told how to get their unholy symbols enchanted.
+    <h3>Jewelery and amulets</h3>
+    <table>
+        <tr>
+            <td><img src="img/skillguides/crafting/furnace.gif"></td>
+            <td>To make gold bars see the <a href="?p=skillguides&skill=mining" class="c">mining</a> and <a href="?p=skillguides&skill=smithing" class="c">smithing</a> guides. You can make amulets, necklaces, and rings from gold bars. Buy the appropriate moulds from a crafting shop.<br><br>Use a gold bar on a furnace and select the object you would like to make.</td>
+        </tr>
+    </table>
+    <br>
+    Putting gems in your gold jewelry can increase the smithing level required quite a lot, but it also increases the value of what you are making.
+    <br><br>
+    All the gold jewelry can be sold for a good price, but amulets and rings with jewels in them can also be <a href="?p=skillguides&skill=magic" class="c">enchanted at a high enough magic level</a> to give various bonuses. First of all your amulet will need a string, this is made in the same way as the string for the holy amulets of Saradomin. Then it can be enchanted using the magic skill.
+    <h3>Glassmaking</h3>
+    <table>
+        <tr>
+            <td>To make some glass, you will first need to get some seaweed. This can be obtained by big net fishing, or found on Entrana Island. Heat the seaweed to get soda ash.<br><br>Then use a bucket on a sandpit, to get a bucket of sand. With both soda ash and sand in your inventory, you can then use a furnace on either one to make molten glass.</td>
+            <td><img src="img/skillguides/crafting/sandpit.gif"></td>
+        </tr>
+    </table>
+    <br>
+    Use this molten glass with a glass-blowing pipe, which can also be found on Entrana. You will then be asked what object you would like to make. If you want to make several of the same object, simply right-click and select the number you wish to produce.
+    <h3>Bowstrings</h3>
+    You can make bowstrings by using flax on a spinning wheel. If you want to make several of the same object, simply right-click and select the number you wish to produce.
+    <br><br>
+    Making bow strings gives a good amount of crafting experience and the bowstrings are useful for making bows (see the <a href="?p=skillguides&skill=fletching" class="c">fletching guide</a>.)
+    <h3>Battlestaffs</h3>
+    First get an unpowered orb (see glassmaking).
+    <br><br>
+    You will need to enchant the orb. You can make fire orbs, earth orbs, water orbs and air orbs. Take an orb to a magic obelisk (either the obelisk of air, the obelisk of earth, the obelisk of water or the obelisk of fire) and cast the appropriate orb enchantment spell on the obelisk. This requires a high magic level (see magic guide). The obelisks are not in easily accesible areas.
+    <br><br>
+    Then buy a battlestaff from a staff shop on a members server. Use the battlestaff with a charged orb to make an elemental battlestaff.
+    <br><br>
+    The crafting levels needed to attach the orbs to the staffs are shown in the table at the top of this page.
+    <h3>Crafting Guild</h3>
+    The crafting Guild can be entered by players who have a crafting level of at least 40 and who are wearing a brown apron. It is located west of Port Sarim and north of Rimmington.
+    <br><br>
+    Inside the guild players will find a number of things to help them craft, including a pottery oven, potter's wheels, spinning wheels, a sink, a number of gold and silver rocks, as well as a tanner.
 </p>
 HTML; }
