@@ -63,8 +63,13 @@ function getSkillContent($skill) { return <<<HTML
         </tr>
     </table>
     *Bronze pickaxes spawn in a few locations across RuneScape: Barbarian Village - house with spinning wheel and Lumbridge Castle gatehouse (<span data-floors="US">3rd floor</span>)
-    <br><br>
-    Players who have completed the <a href="?p=questguides&quest=shilovillage" class="c">Shilo Village</a> quest will have access to some special rocks solely for mining gems from. These rocks contain Sapphires, Rubies, Emeralds, Diamonds, Red Topaz, Opals and Jade gems.
+    <br>
+    <table>
+        <tr>
+            <td>Players who have completed the <a href="?p=questguides&quest=shilovillage" class="c">Shilo Village</a> quest will have access to some special rocks solely for mining gems from. These rocks contain Sapphires, Rubies, Emeralds, Diamonds, Red Topaz, Opals and Jade gems.</td>
+            <td><img src="img/skillguides/mining/gemrocks.gif"></td>
+        </tr>
+    </table>
     <h3>Mining levels</h3>
     <table class="calculators">
         <tr>
