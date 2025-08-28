@@ -38,91 +38,91 @@ function getSkillContent($skill) { return <<<HTML
             <th>Prayer Effect</th>
         </tr>
             <td>1</td>
-            <td><img src="img/skillguides/prayericons/thickskin.gif"></td>
+            <td><img src="img/skillguides/prayer/thickskin.gif"></td>
 			<td>Thick Skin</td>
 			<td>Increases your defence by 5%.</td>
         <tr>
         </tr>
             <td>4</td>
-            <td><img src="img/skillguides/prayericons/burstofstrength.gif"></td>
+            <td><img src="img/skillguides/prayer/burstofstrength.gif"></td>
 			<td>Burst of Strength</td>
 			<td>Increases your strength by 5%.</td>
         <tr>
         </tr>
             <td>7</td>
-            <td><img src="img/skillguides/prayericons/clarityofthought.gif"></td>
+            <td><img src="img/skillguides/prayer/clarityofthought.gif"></td>
 			<td>Clarity of Thought</td>
 			<td>Increases your attack by 5%.</td>
         <tr>
         </tr>
             <td>10</td>
-            <td><img src="img/skillguides/prayericons/rockskin.gif"></td>
+            <td><img src="img/skillguides/prayer/rockskin.gif"></td>
 			<td>Rock Skin</td>
 			<td>Increases your defence by 10%.</td>
         <tr>
         </tr>
             <td>13</td>
-            <td><img src="img/skillguides/prayericons/superhumanstrength.gif"></td>
+            <td><img src="img/skillguides/prayer/superhumanstrength.gif"></td>
 			<td>Superhuman Strength</td>
 			<td>Increases your strength by 10%.</td>
         <tr>
         </tr>
             <td>16</td>
-            <td><img src="img/skillguides/prayericons/improvedreflexes.gif"></td>
+            <td><img src="img/skillguides/prayer/improvedreflexes.gif"></td>
 			<td>Improved Reflexes</td>
 			<td>Increases your attack by 10%.</td>
         <tr>
         </tr>
             <td>19</td>
-            <td><img src="img/skillguides/prayericons/rapidrestore.gif"></td>
+            <td><img src="img/skillguides/prayer/rapidrestore.gif"></td>
 			<td>Rapid Restore</td>
 			<td>2x restore rate for stats except prayer/hp.</td>
         <tr>
         </tr>
             <td>22</td>
-            <td><img src="img/skillguides/prayericons/rapidheal.gif"></td>
+            <td><img src="img/skillguides/prayer/rapidheal.gif"></td>
 			<td>Rapid Heal</td>
 			<td>2x restore rate for Hitpoints.</td>
         <tr>
         </tr>
             <td>25</td>
-            <td><img src="img/skillguides/prayericons/protectitems.gif"></td>
+            <td><img src="img/skillguides/prayer/protectitems.gif"></td>
 			<td>Protect Item</td>
 			<td>Keep 1 extra item if you die. [Note this WILL NOT protect clue scrolls!]</td>
         <tr>
         </tr>
             <td>28</td>
-            <td><img src="img/skillguides/prayericons/steelskin.gif"></td>
+            <td><img src="img/skillguides/prayer/steelskin.gif"></td>
 			<td>Steel Skin</td>
 			<td>Increases your defence by 15%.</td>
         <tr>
         </tr>
             <td>31</td>
-            <td><img src="img/skillguides/prayericons/ultimatestrength.gif"></td>
+            <td><img src="img/skillguides/prayer/ultimatestrength.gif"></td>
 			<td>Ultimate Strength</td>
 			<td>Increases your strength by 15%.</td>
         <tr>
         </tr>
             <td>34</td>
-            <td><img src="img/skillguides/prayericons/incrediblereflexes.gif"></td>
+            <td><img src="img/skillguides/prayer/incrediblereflexes.gif"></td>
 			<td>Incredible Reflexes</td>
 			<td>Increases your attack by 15%.</td>
         <tr>
         </tr>
             <td>37</td>
-            <td><img src="img/skillguides/prayericons/protectionfrommagic.gif"></td>
+            <td><img src="img/skillguides/prayer/protectionfrommagic.gif"></td>
 			<td>Protection From Magic</td>
 			<td>Protects you from magical attacks.</td>
         <tr>
         </tr>
             <td>40</td>
-            <td><img src="img/skillguides/prayericons/protectionfromranged.gif"></td>
+            <td><img src="img/skillguides/prayer/protectionfromranged.gif"></td>
 			<td>Protection From Missiles</td>
 			<td>Protects you from ranged attacks.</td>
         <tr>
         </tr>
             <td>43</td>
-            <td><img src="img/skillguides/prayericons/protectionfrommelee.gif"></td>
+            <td><img src="img/skillguides/prayer/protectionfrommelee.gif"></td>
 			<td>Protection From Melee</td>
 			<td>Protects you from melee attacks.</td>
         <tr></tbody>
