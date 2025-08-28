@@ -4,29 +4,24 @@ function getSkillContent($skill) { return <<<HTML
 <p>
     The ranged skill is used for attacking players or monsters from a distance with weapons such as bows and arrows, throwing knives and many others. This skill is useful if you prefer to fight a foe from a distance, using hit and run tactics to avoid damage yourself. Range is also particularly effective against Mages, so is a useful skill when fighting magic users.
     <br><br>
-    <table cellpadding="3"><tr><td>
-
     To use a bow you need to wield it. You must also wield some appropriate arrows or bolts.
-
-    Click to attack a monster or player and you will shoot your arrows/bolts until you do something else or are attacked. You cannot shoot a player or monster if you do not have a direct line of sight. (For example, if there is wall or tree between you and the monster.)
-
-
-    </td>
-    <td valign="top"><img src="img/skillguides/ranging.gif"></td></tr></table>
-
-
+    <table cellpadding="3">
+        <tr>
+            <td>Click to attack a monster or player and you will shoot your arrows/bolts until you do something else or are attacked. You cannot shoot a player or monster if you do not have a direct line of sight. (For example, if there is wall or tree between you and the monster.)</td>
+        <td><img src="img/skillguides/ranging/ranging.gif"></td>
+        </tr>
+    </table>
     Enemies attacked by ranging will attempt to run directly to attack you in hand to hand combat. If you shoot at a monster from the other side of a fence or piece of furniture then the monster will not be able to get to you. If the monster does not have any ranged attacks then you can continue to hit it without receiving any damage yourself.  A ranger will use the terrain he is in to gain advantage over an enemy, as they are relatively weak in hand to hand combat.
-
+    <br><br>
     A number of your arrows will land on the ground by your target so you can go and use them again, however some will be lost as they are damaged upon impact.
-
-    <br>
-
-
-    <b>Ranging Guild</b>
-    <br>
-    Experienced rangers (40) may enter the Ranging Guild in the Seers' Village, where they may practice shooting at targets and live foes of various levels. The Guild also offers a selection of items for sale, including a wide range of thrown weapons.
-
-
+    <br><br>
+    For further information on the selection of bows available to make please see our <a href="?p=skillguides&skill=fletching" class="c">fletching</a> guide.
+    <!-- released later
+    <br><br>
+    A similar table to the one below can be opened in the game by clicking the ranging skill icon in the stats menu.
+    -->
+    <h3>Ranging Guild</h3>
+    Experienced rangers (level 40) may enter the Ranging Guild in the Seers' Village, where they may practice shooting at targets and live foes of various levels. The Guild also offers a selection of items for sale, including a wide range of thrown weapons.
     <h3>Bow wield Requirements</h3>
     <table class="calculators">
     <tr>
@@ -137,13 +132,6 @@ function getSkillContent($skill) { return <<<HTML
         </tr>
         <tr>
             <td>
-                <canvas data-itemname="hardleather_body"></canvas><br>
-                Hard Leather Body
-            </td>
-            <td>1<br>(10 Defence)</td>
-        </tr>
-        <tr>
-            <td>
                 <canvas data-itemname="leather_cowl"></canvas>
                 <canvas data-itemname="leather_body"></canvas>
                 <canvas data-itemname="leather_chaps"></canvas>
@@ -151,6 +139,13 @@ function getSkillContent($skill) { return <<<HTML
                 Cowl, Leather body, chaps, & vambraces
             </td>
             <td>1</td>
+        </tr>
+        <tr>
+            <td>
+                <canvas data-itemname="hardleather_body"></canvas><br>
+                Hard Leather Body
+            </td>
+            <td>1<br>(10 Defence)</td>
         </tr>
         <tr>
             <td>

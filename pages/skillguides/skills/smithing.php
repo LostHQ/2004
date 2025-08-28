@@ -2,23 +2,25 @@
 function getSkillContent($skill) { return <<<HTML
 <h2>$skill Skill Guide</h2>
 <p>
+    The smithing skill is used to convert ores, obtained by mining, into weapons and armour.
+    Many players find that making equipment and selling it to shops and other players is a good way to make money.
+    <br>
     <table>
         <tr>
             <td valign="top">
-                The smithing skill is used to convert ores, obtained by mining, into weapons and armour.
-                Many players find that making equipment and selling it to shops and other players is a good way to make money.
-                <br><br>
+                
                 Smithing has two stages: smelting and smithing.
+                <br>
                 Smelting converts your ores into bars. This is done at furnaces.
                 To convert your ore into bars select an ore in your inventory then left click on a furnace. If you want to smelt several lots of ore at once, left clicking on the furnace will bring up a list of metals.  Right click on a metal to select the quantity you want to make.
             </td>
             <td>
-                <img src="img/skillguides/smithingfurnace.gif">
+                <img src="img/skillguides/smithing/smithingfurnace.gif">
             </td>
         </tr>
     </table>
     <hr>
-    <h2>Ores / Smelting Chart</h2>
+    <h3>Ores / Smelting Chart</h3>
     You will need different combinations of ores and different smithing levels to make each bar.
     Some of these requirements are shown below. There are even more bars to make at higher levels.
     <br><br>
@@ -139,13 +141,13 @@ function getSkillContent($skill) { return <<<HTML
     </table>
     <br><br>
     <hr>
-    <h2>Smithing/Forging items</h2>
+    <h3>Smithing/Forging items</h3>
     You will need a hammer which can be bought from any general store.
     <br>
     To convert your bars into armour and weapons you must forge them at an anvil.
     <br><br>
     Select a bar from your inventory, then select an anvil. You will be given a screen to decide what sort of equipment you would like to make. You will  be shown how many bars are needed to make types of object. If this is written in green then you have enough bars to make the item, if it is written in red then you do not.
-    <img src="img/skillguides/smithinginterface.gif">
+    <img src="img/skillguides/smithing/smithinginterface.gif">
     <br><br>
     The name of the objects will be written in black or white. If the name is written in white then you have the smithing level required to make it. If it is written in black then you do not.
     <br>    <br>
@@ -154,7 +156,7 @@ function getSkillContent($skill) { return <<<HTML
     <table>
         <tr>
             <td valign="top">
-                <img src="img/skillguides/smithinganvil.gif">
+                <img src="img/skillguides/smithing/smithinganvil.gif">
             </td>
             <td valign="top">
                 The smithing levels required to forge a metal type are the same as those required to smelt it.
