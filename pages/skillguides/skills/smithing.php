@@ -263,7 +263,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>-</td>
         </tr>
         <tr>
-            <td>Arrow heads</td>
+            <td>Arrowheads</td>
             <td><canvas data-itemname="bronze_arrowheads" data-size="28px"></canvas><br>5</td>
             <td><canvas data-itemname="iron_arrowheads" data-size="28px"></canvas><br>20</td>
             <td><canvas data-itemname="steel_arrowheads" data-size="28px"></canvas><br>35</td>
@@ -281,7 +281,7 @@ function getSkillContent($skill) { return <<<HTML
             <td><canvas data-itemname="rune_scimitar" data-size="28px"></canvas><br>90</td>
         </tr>
         <tr>
-            <td>Long sword</td>
+            <td>Longsword</td>
             <td><canvas data-itemname="bronze_longsword" data-size="28px"></canvas><br>6</td>
             <td><canvas data-itemname="iron_longsword" data-size="28px"></canvas><br>21</td>
             <td><canvas data-itemname="steel_longsword" data-size="28px"></canvas><br>36</td>
@@ -356,7 +356,7 @@ function getSkillContent($skill) { return <<<HTML
             <td><canvas data-itemname="rune_battleaxe" data-size="28px"></canvas><br>95</td>
         </tr>
         <tr>
-            <td>Chainmail body</td>
+            <td>Chainbody</td>
             <td><canvas data-itemname="bronze_chainbody" data-size="28px"></canvas><br>11</td>
             <td><canvas data-itemname="iron_chainbody" data-size="28px"></canvas><br>26</td>
             <td><canvas data-itemname="steel_chainbody" data-size="28px"></canvas><br>41</td>
@@ -365,7 +365,7 @@ function getSkillContent($skill) { return <<<HTML
             <td><canvas data-itemname="rune_chainbody" data-size="28px"></canvas><br>96</td>
         </tr>
         <tr>
-            <td>Kite shield</td>
+            <td>Kiteshield</td>
             <td><canvas data-itemname="bronze_kiteshield" data-size="28px"></canvas><br>12</td>
             <td><canvas data-itemname="iron_kiteshield" data-size="28px"></canvas><br>27</td>
             <td><canvas data-itemname="steel_kiteshield" data-size="28px"></canvas><br>42</td>
@@ -392,7 +392,7 @@ function getSkillContent($skill) { return <<<HTML
             <td><canvas data-itemname="rune_2h_sword" data-size="28px"></canvas><br>99</td>
         </tr>
         <tr>
-            <td>Platemail legs</td>
+            <td>Platelegs</td>
             <td><canvas data-itemname="bronze_platelegs" data-size="28px"></canvas><br>16</td>
             <td><canvas data-itemname="iron_platelegs" data-size="28px"></canvas><br>31</td>
             <td><canvas data-itemname="steel_platelegs" data-size="28px"></canvas><br>46</td>
@@ -401,7 +401,7 @@ function getSkillContent($skill) { return <<<HTML
             <td><canvas data-itemname="rune_platelegs" data-size="28px"></canvas><br>99</td>
         </tr>
         <tr>
-            <td>Platemail skirt</td>
+            <td>Plateskirt</td>
             <td><canvas data-itemname="bronze_plateskirt" data-size="28px"></canvas><br>16</td>
             <td><canvas data-itemname="iron_plateskirt" data-size="28px"></canvas><br>31</td>
             <td><canvas data-itemname="steel_plateskirt" data-size="28px"></canvas><br>46</td>
@@ -410,7 +410,7 @@ function getSkillContent($skill) { return <<<HTML
             <td><canvas data-itemname="rune_plateskirt" data-size="28px"></canvas><br>99</td>
         </tr>
         <tr>
-            <td>Platemail body</td>
+            <td>Platebody</td>
             <td><canvas data-itemname="bronze_platebody" data-size="28px"></canvas><br>18</td>
             <td><canvas data-itemname="iron_platebody" data-size="28px"></canvas><br>33</td>
             <td><canvas data-itemname="steel_platebody" data-size="28px"></canvas><br>48</td>
