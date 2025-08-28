@@ -8,7 +8,6 @@ function getSkillContent($skill) { return <<<HTML
     <table>
         <tr>
             <td valign="top">
-                
                 Smithing has two stages: smelting and smithing.
                 <br>
                 Smelting converts your ores into bars. This is done at furnaces.
@@ -19,8 +18,7 @@ function getSkillContent($skill) { return <<<HTML
             </td>
         </tr>
     </table>
-    <hr>
-    <h3>Ores / Smelting Chart</h3>
+    <h3>Ores / smithing levels chart</h3>
     You will need different combinations of ores and different smithing levels to make each bar.
     Some of these requirements are shown below. There are even more bars to make at higher levels.
     <br><br>
@@ -139,18 +137,17 @@ function getSkillContent($skill) { return <<<HTML
         <td>85</td>
         </tr>
     </table>
-    <br><br>
-    <hr>
-    <h3>Smithing/Forging items</h3>
+    <h3>Forging items</h3>
     You will need a hammer which can be bought from any general store.
     <br>
     To convert your bars into armour and weapons you must forge them at an anvil.
     <br><br>
     Select a bar from your inventory, then select an anvil. You will be given a screen to decide what sort of equipment you would like to make. You will  be shown how many bars are needed to make types of object. If this is written in green then you have enough bars to make the item, if it is written in red then you do not.
+    <br><br>
     <img src="img/skillguides/smithing/smithinginterface.gif">
     <br><br>
     The name of the objects will be written in black or white. If the name is written in white then you have the smithing level required to make it. If it is written in black then you do not.
-    <br>    <br>
+    <br><br>
     Select what you would like to make and provided you have the required smithing levels and number of bars, your object will be made.
     <br><br>
     <table>
@@ -162,12 +159,13 @@ function getSkillContent($skill) { return <<<HTML
                 The smithing levels required to forge a metal type are the same as those required to smelt it.
                 However at the levels given you will only be able to forge the most basic items in that metal (mostly daggers). A few levels past these base smithing levels you will be able to make a wider variety of things. For example at smithing level 4 you will be able to make bronze short swords.
                 <br>
-                The gold and silver bars are not used to smith weapons instead they are used in the crafting skill</a>.
+                The gold and silver bars are not used to smith weapons instead they are used in the <a href="?p=skillguides&skill=crafting" class="c">crafting skill</a>.
             </td>
         </tr>
     </table>
+    <br>
+    The following is a table showing at what level you can forge various items.<!-- (added later) A similar table to the one below can be opened in the game by clicking the smithing skill icon in the stats menu.-->
     <br><br>
-    The following is a table showing at what level you can forge various items. A similar table to the one below can be opened in the game by clicking the smithing skill icon in the stats menu.
     <table class="calculators">
         <tr>
             <th rowspan=2>Item</th>

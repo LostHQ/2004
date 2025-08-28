@@ -2,16 +2,22 @@
 function getSkillContent($skill) { return <<<HTML
 <h2>$skill Skill Guide</h2>
 <p>
-    Firemaking - The Basics<br>
-    Introduction<br>
-    <br>Left-click on the tinderbox in your inventory so that it is outlined in white. Then left-click on the logs to use them with the tinderbox. You will then place the logs on the ground and attempt to light the fire. <br>Alternatively, you can drop the logs on the ground and left-click on the tinderbox so that it is outlined in white. Then left-click on the logs to use the tinderbox with the logs.<br><br>Your chances of lighting the fire quickly, will depend on your firemaking level.<br><br>Tinderboxes can be bought from General Stores, occasionally so can logs if other players have sold them to the stores. However, for a more reliable way to secure logs, please refer to the woodcutting section of the manual.<br>
-
-    <table style="text-align: center;" align="center">
-    <tr>
-    <td><img style="display: inline;display: block; margin: 0 auto 0 auto;" src="img/skillguides/firemaking_options.gif" alt="[image]"></td>
-    <td><img style="display: inline;display: block; margin: 0 auto 0 auto;" src="img/skillguides/firemaking_main2.jpg" alt="[image]"></td>
-    </tr>
-    </table><br>
+    Making a fire is useful for cooking food without having to go and find a range.
+    <table>
+        <tr>
+            <td>To make a fire, left-click on the tinderbox in your inventory so that it is outlined in white, then left-click on the logs to use them with the tinderbox. You will then place the logs on the ground and attempt to light the fire.</td>
+            <td><img src="img/skillguides/firemaking/lightingafire.gif" alt="[image]"></td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td><img src="img/skillguides/firemaking/firemaking_options.gif" alt="[image]"></td>
+            <td>Alternatively, you can drop the logs on the ground and right-click the logs then select 'Light logs'.<br><br>Your chances of lighting the fire quickly, will depend on your firemaking level.</td>
+        </tr>
+    </table>
+    <br>
+    Tinderboxes can be bought from General Stores. Occasionally, so can logs if other players have sold them to the stores. However, for a more reliable way to secure logs, please refer to the <a href="?p=skillguides&skill=woodcutting" class="c">woodcutting</a> section of the manual.
+    <br><br>
     The following table shows what wood types are available in RuneScape, as well as the level required to light them and the experience gained from doing so.<br>
     <br>
     <table class="calculators">
@@ -80,8 +86,6 @@ function getSkillContent($skill) { return <<<HTML
             <td>Yes</td>
         </tr>
     </table>
-    <br><br>
-    <span style="text-align: center; display: block;">Please remember that this is not a members only skill. However, some of the items to light fires may require you to be a member. 
-        Maple logs are only available on a members server however, you can burn them on any server.</span>
+    <span style="text-align: center; display: block;">Maple logs are only available on a members server however, you can burn them on any server.</span>
 </p>
 HTML; }

@@ -3,11 +3,14 @@ function getSkillContent($skill) { return <<<HTML
 <h2>$skill Skill Guide</h2>
 <p>
     Fishing is a quick way of getting food to heal yourself. There are various sorts of fishing spots in the game. You will need to buy the correct fishing equipment to match the fishing spot. Fishing equipment can be bought from fishing shops. 
-    <br><br>
-    Typically a fishing spot will have a left click option and a right click option.<br>
-    These options are net, bait, harpoon, lure and cage. <br>
-    Click on the correct option and if you have the correct equipment you will attempt to catch a fish.<br>
-
+    <br>
+    <table>
+        <tr>
+            <td>Typically a fishing spot will have a left click option and a right click option. These options are net, bait, harpoon, lure and cage.<br><br>Click on the correct option and if you have the correct equipment you will attempt to catch a fish.</td>
+            <td><img src="img/skillguides/fishing/fishingchoices.gif" alt="[image]"></td>
+        </tr>
+    </table>
+    <br>
     <table class="calculators">
         <tr>
             <th>Fish</th>
@@ -174,5 +177,87 @@ function getSkillContent($skill) { return <<<HTML
             <td colspan=2>Trawler<br>Mini-Game</td>
         </tr>
     </table>
+    <h3>Types of Fishing</h3>
+    <b>Net fishing</b>
+    <table width="100%">
+        <tr>
+            <td><b>Location:</b> Found in many sea fishing locations<br><br><b>Required items:</b> Net</td>
+            <td><img src="img/skillguides/fishing/netfishing.gif" alt="[image]"></td>
+        </tr>
+    </table>
+    <br>
+    <b>Sea bait fishing</b>
+    <table width="100%">
+        <tr>
+            <td><b>Location:</b> Found in many sea fishing locations<br><br><b>Required items:</b> Fishing rod, Fishing bait</td>
+            <td><img src="img/skillguides/fishing/seabaitfishing.gif" alt="[image]"></td>
+        </tr>
+    </table>
+    <br>
+    <b>Fly fishing</b>
+    <table width="100%">
+        <tr>
+            <td><b>Location:</b> Found in many river fishing locations<br><br><b>Required items:</b> Fly Fishing rod, Feathers</td>
+            <td><img src="img/skillguides/fishing/flyfishing.gif" alt="[image]"></td>
+        </tr>
+    </table>
+    <br>
+    <b>River bait fishing</b>
+    <table width="100%">
+        <tr>
+            <td><b>Location:</b> Found in many river fishing locations<br><br><b>Required items:</b> Fishing rod, Fishing bait</td>
+            <td><img src="img/skillguides/fishing/riverbaitfishing.gif" alt="[image]"></td>
+        </tr>
+    </table>
+    <br>
+    <b>Harpoon fishing</b>
+    <table width="100%">
+        <tr>
+            <td><b>Location:</b> Found in Karamja and in many sea fishing locations on the members servers.<br><br><b>Required items:</b> Harpoon</td>
+            <td><img src="img/skillguides/fishing/harpoonfishing.gif" alt="[image]"></td>
+        </tr>
+    </table>
+    <br>
+    <b>Lobster fishing</b>
+    <table width="100%">
+        <tr>
+            <td><b>Location:</b> Found in Karamja and in many sea fishing locations on the members servers.<br><br><b>Required items:</b> Lobster pot</td>
+            <td><img src="img/skillguides/fishing/lobsterfishing.gif" alt="[image]"></td>
+        </tr>
+    </table>
+    <br>
+    <b>Big net fishing</b>
+    <table width="100%">
+        <tr>
+            <td><b>Location:</b> Found at Catherby and the fishing guild.<br><br><b>Required items:</b> Big net</td>
+            <td><img src="img/skillguides/fishing/bignetfishing.gif" alt="[image]"></td>
+        </tr>
+    </table>
+    <br>
+    <b>Shark fishing</b>
+    <table width="100%">
+        <tr>
+            <td><b>Location:</b> Found at Catherby and the fishing guild.<br><br><b>Required items:</b> Harpoon</td>
+            <td><img src="img/skillguides/fishing/sharkfishing.gif" alt="[image]"></td>
+        </tr>
+    </table>
+    <!-- added in nov 2004
+    <br>
+    <b>Karambwan Vessel fishing</b>
+    <table width="100%">
+        <tr>
+            <td><b>Location:</b> South of Brimhaven.<br><br><b>Required items:</b> Karamabwan Vessel, Raw Karambwanji</td>
+            <td><img src="img/skillguides/fishing/karamfishing.gif" alt="[image]"></td>
+        </tr>
+    </table>
+    -->
+    <h3>Fishing Guild</h3>
+    When you have reached a fishing level of 68 or higher you will be able to enter the Fishing Guild, located to the north of Ardougne.
+    <br>
+    Inside you will find a number of different fishing spots, along with a number of ranges and a bank.
+    <h3>Caskets</h3>
+    Players using a big net to fish, will occasionally find a casket. These are rare items that usually contain a nice surpise for the lucky fisherman who finds one.
+    <br>
+    To open a casket and see what is inside, simply click on it in your inventory. Caskets can contain many different items including money, gems, runecrafting talismans, or even rare items like half keys!
 </p>
 HTML; }
