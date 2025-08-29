@@ -15,7 +15,7 @@ $options = [
     "http" => [
         "method" => "GET",
         "header" => [
-            "User-Agent: Mozilla/5.0 (compatible; 2004HQ-Proxy/1.0)",
+            "User-Agent: Mozilla/5.0 (compatible; LostHQ-Proxy/1.0)",
             "Referer: https://2004.losthq.rs"
         ]
     ]
