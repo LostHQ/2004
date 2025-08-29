@@ -41,7 +41,7 @@ Ranged: Arrows, unfinished bow, bowstring
 <br><br>
 Armor and items allowed on Entrana includes: jewellery, capes, robes, hats, potions, and a knife.
 <br><br>
-<div data-progress>Head to Port Sarim and right-click and select the quick travel option to get to Entrana (you will be searched when you click this still). They will only take you to Entrana if you have no weapons or armour with you.</div>
+<div data-progress>Head to Port Sarim <!--and right-click and select the quick travel option to get --> and talk to the Monks of Entrana to travel to Entrana (you will be searched<!-- when you click this still-->). They will only take you to Entrana if you have no weapons or armour with you.</div>
 <br><br>
 <div data-progress>Once on the Island go northeast to the bridge. Cross it and head west to the ladder. A Cave monk will warn you that once you go down the ladder, you can't go back up. The only exit will bring you to level 32 of the wilderness just north of the Boneyard.</div>
 <br><br>

@@ -1,12 +1,30 @@
 <?php
 function getSkillContent($skill) { return <<<HTML
 <h2>$skill Skill Guide</h2>
-<hr>
-<b><font color="Green">Gnomes' Course</font></b><br>
+Agility is a skill that can be used to get over, up and through various obstacles, often as a short cut, or to get into new areas.
+<br><br>
+<!-- missing image named ropeswing.gif. Add to right side if found -->
+Typical examples of where you use your agility skill are to squeeze through a pipe, swing on a rope over a hole, or use some handholds to climb up a wall.
+<br><br>
+Just click on the obstacle you wish to get past, and if you have the appropriate agility skill level you will attempt it.
+<br><br>
+You will never fail some obstacles once you reach the appropriate agility level. On other obstacles it is possible to fall off, which will cause you to lose hitpoints.
+<br><br>
+A good way to advance your agility skill is to use the obstacle courses. By going round the obstacle course in the correct order you can get an agility experience bonus from the course. This is in addition to the normal agility skill experience you get from attempting single obstacles.
+<br><br>
+<table>
+    <tr>
+        <td>Players with low-levels of ability might want to use the obstacle course in the tree gnome stronghold.<br><br>At level 35 you can also enter the obstacle course at the barbarian outpost.<br><br>There is also a high level obstacle course at the very north of the wilderness.</td>
+        <td><img src="img/skillguides/agility/logbalance.jpg"></td>
+    </tr>
+</table>
 <br>
+As well as allowing you to get through various obstacles, agility is also used to recover energy after running. The higher the level of agility you have, the faster you will notice your energy after running refilling back to normal, letting you run further more quickly. Players with very high levels of agility will find that they can move quickly around the world of RuneScape and that they recover their run energy very quickly.
+<hr>
+<h3>Gnomes' Course</font></h3>
 Located in the Gnomes' Stronghold North West of Ardougne, this is where you will have to start to train initially. You will see Gnome trainers around the course encouraging you to go faster and also ready to help you out with any questions.
 <br><br>
-<img src="img/skillguides/agility_gnome.png" width="250">
+<img src="img/skillguides/agility/agility_gnome.png">
 <br><br>
 Move through the course in the order explained below:
 <br><br>
@@ -82,13 +100,12 @@ Congratulations on completing a whole lap! Heres how the xp works for this cours
     </tr>
 </table>
 <hr>
-<b><font color="Orange">Barbarians' Course</font></b>
-<br><br>
+<h3>Barbarians' Course</h3>
 Located right at the top of the World, you will have to go far North from Ardougne and past Baxtorian falls to access the Barbarian Outpost where this course is at. To enter the outpost, you must have completed the <a href="?p=questguides&quest=barcrawl">Barcrawl</a>. To then enter the agility course you must squeeze through the Pipe which requires level 35 agility.
 <br><br>
 But the crucial difference with this course is that you could get hit damage if you fail crossing the obstacle and fall in the spikes or the pond. This is usually a small amount and depends on your maximum hits so you will never get killed. However it is a good idea to bring food with you.
 <br><br>
-<img src="img/skillguides/agility_barb.png" width="250">
+<img src="img/skillguides/agility/agility_barb.png">
 <br><br>
 Move through the course in the order explained below:
 <br><br>
@@ -157,13 +174,12 @@ Congratulations on completing a whole lap! Heres how the xp works for this cours
 </table>
 <p>Note: <i>The course itself has no Agility requirement, but accessing it requires 35 Agility to crawl through the entrance pipe.</i></p>
 <hr>
-<b><font color="Red">Wilderness Course</font></b>
-<br><br>
+<h3>Wilderness Course</h3>
 Located deep in the members' area of the wilderness (level 52 and up) you will require level 52 agility to cross the initial ridge to gain access to this area. However sometimes you will still fail and fall into the pit of White Wolves. PKers do often come by to attack, so taking this risk is up to you - but the xp reward per lap is much great (look at the table below).
 <br><br>
 You are also at risk here from failing obstacles and if you fall into the spike pit, you will have to climb the ladder out of the dungeon of skeletons. Either way, don't forget to bring food with you and any armour and weapons you might wish to defend yourself with.
 <br><br>
-<img src="img/skillguides/agility_wild.png" width="250">
+<img src="img/skillguides/agility/agility_wild.png">
 <br><br>
 Move through the course in the order explained below:
 <br><br>
@@ -231,8 +247,7 @@ Congratulations on completing a whole lap! Heres how the xp works for this cours
     </tr>
 </table>
 <hr>
-<b><font color="Yellow">Other Obstacles</font></b>
-<br><br>
+<h3>Other Obstacles</h3>
 <table class="calculators">
     <tr>
         <th>Level</th>

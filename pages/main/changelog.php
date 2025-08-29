@@ -55,6 +55,11 @@ function getPageContent() {
       <td>Fallnight</td>
       <td>Fran 2004</td>
     </tr>
+    <tr>
+      <td>Timondg</td>
+      <td></td>
+      <td>Shrigis</td>
+    </tr>
   </table>
 </div>
 <hr>
@@ -117,6 +122,8 @@ function getPageContent() {
     </tr>
   </thead>
   <tbody>
+    <tr><td>29/08/2025</td><td>Updated all skill guides</td></tr>
+    <tr><td>26/08/2025</td><td>Added Key guide</td></tr>
     <tr><td>21/08/2025</td><td>Migrated to losthq.rs domain</td></tr>
     <tr><td>06/08/2025</td><td>Added Random Events guide</td></tr>
     <tr><td>04/08/2025</td><td>Added Coal Trucks guide</td></tr>

@@ -2,20 +2,12 @@
 function getSkillContent($skill) { return <<<HTML
 <h2>$skill Skill Guide</h2>
 <p>
-    Herblore is used to make different sorts of potions and poisons.<br>
-    <br>
-    Before you can use herblore you will need to complete the <a href="?p=questguides&quest=druidicritual">Druidic Ritual</a> quest.<br>
-    <hr>
+    Herblore is used to make different sorts of potions and poisons. Before you can use herblore you will need to complete the <a href="?p=questguides&quest=druidicritual">Druidic Ritual</a> quest.
     <h3>Identifying Herbs</h3>
-    A lot of the herbs you find in the game will be unidentified.<br>
-    <br>
-    To be able to use them you will first need to use your herblore skill to identify them.<br>
-    <br>
-    Just click on a herb to identify it and if you are high enough level it will then become an identified herb type.<br>
-    <br>
-    As your herblore level gets higher you will be able to identify more and more different herbs.<br>
-    <br>
-    The chart below shows what level you need to identify each herb.<br>
+    A lot of the herbs you find in the game will be unidentified. To be able to use them you will first need to use your herblore skill to identify them. Just click on a herb to identify it and if you are high enough level it will then become an identified herb type. As your herblore level gets higher you will be able to identify more and more different herbs.
+    <br><br>
+    The following is a table showing at what level you will be able to identify each herb.
+    <br><br>
     <table class="calculators">
         <tr>
             <th>Level<br>Requirement</th>
@@ -96,18 +88,18 @@ function getSkillContent($skill) { return <<<HTML
             <td>15</td>
         </tr>
     </table>
-    <hr>
     <h3>Mixing Potions</h3>
-    You will need a vial. These can be bought from shops such as the herblore shop in Taverley or made using glassmaking crafting.<br>
-    <br>
-    Fill the vial with water from a sink or fountain.<br>
-    <br>
-    To make potions you will need a combination of the unfinished potion and one other ingredient as shown in the table below.<br>
-    <br>
-    You must add your herb to your vial of water first and then the other ingredient.<br>
-    <br>
-    As you reach higher levels you will be able to make more types of potions.<br>
-    <br>
+    <!-- an image named mixpotion.gif goes on the right side of this wall of text if ever found -->
+    You will need a vial. These can be bought from shops such as the herblore shop in Taverley or made using glassmaking (see the <a href="?p=skillguides&skill=crafting" class="c">crafting</a> guide).
+    <br><br>
+    Fill the vial with water from a sink or fountain.
+    <br><br>
+    To make potions you will need a combination of the unfinished potion and one other ingredient as shown in the table below.
+    <br><br>
+    You must add your herb to your vial of water first and then the other ingredient.
+    <br><br>
+    As you reach higher levels you will be able to make more types of potions.
+    <h3>Potion Ingredients</h3>
     <table class="calculators">
         <tr>
             <th>Level<br>Requirement</th>
@@ -282,11 +274,8 @@ function getSkillContent($skill) { return <<<HTML
             <td>175</td>
         </tr>
     </table>
-    <hr>
     <h3>Ground Ingredients</h3>
-    The unicorn and dragon scale need to be ground before they can be used in the potions.<br>
-    <br>
-    To grind them use the pestle and mortar bought from the herblore shop.<br>
+    The unicorn and dragon scale need to be ground before they can be used in the potions. To grind them use the pestle and mortar bought from the herblore shop.
     <br><br>
     <table width="98%" cellpadding="1" cellspacing="0" class="calculators">
         <tr>
@@ -305,14 +294,20 @@ function getSkillContent($skill) { return <<<HTML
             <td><canvas data-itemname="dragon_scale_dust"></canvas><br>Ground dragon scale</td>
         </tr>
     </table>
-    <hr>
-    <h3>Weapon poison</h3>
-    The weapon poison can only be used only on certain weapons such as arrows and daggers.<br>
+    <h3>Weapon Poison</h3>
+    <table>
+        <tr>
+            <td><canvas data-itemname="weapon_poison"></canvas></td>
+            <td>The weapon poison can only be used only on certain weapons such as arrows and daggers. Players can be poisoned by other player's poisoned weapons or by a poisonous npc.</td>
+        </tr>
+    </table>
     <br>
-    Players can be poisoned by other player's poisoned weapons or by a poisonous npc.<br>
-    <br>
-    A player will slowly take damage from the poison until it either wears off or they drink an anti-poison potion.<br>
-    <br>
-    The potion also grants a small immunity so that the drinker cannot be poisoned for a short while.
+    <table>
+        <tr>
+            <td>A player will slowly take damage from the poison until it either wears off or they drink an anti-poison potion. The potion also grants a small immunity so that the drinker cannot be poisoned for a short while.</td>
+            <td><canvas data-itemname="3doseantipoison"></canvas></td>
+        </tr>
+    </table>
+    
 </p>
 HTML; }

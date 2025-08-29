@@ -2,14 +2,17 @@
 function getSkillContent($skill) { return <<<HTML
 <h2>$skill Skill Guide</h2>
 <p>
-    Runecrafting is used to make different sorts of Runes, for use in magic.
+    Runecrafting is used to make different sorts of Runes, for use in <a href="?p=skillguides&skill=magic" class="c">Magic</a>.
     Before you can use runecrafting you will need to complete the <a href="?p=questguides&quest=runemysteries" class="c">Rune Mysteries</a> quest.
     <h3>Mining rune essences</h3>
     The location of the source of Rune essence is a closely guarded secret, so you will need to find various NPCs around the game world to take you to it.
     <br><br>
-    <table><tr><td><canvas data-itemname="blankrune"></canvas></td><td>
-    Once there, you can click on the large essence stones to mine them with a pickaxe. You then need to take the essences you have mined to an elemental temple to turn these essences into magical runes.
-    </td></tr></table> 
+    <table>
+        <tr>
+            <td><canvas data-itemname="blankrune"></canvas></td>
+            <td>Once there, you can click on the large essence stones to mine them with a pickaxe (see <a href="?p=skillguides&skill=mining" class="c">Mining</a>). You then need to take the essences you have mined to an elemental temple to turn these essences into magical runes.</td>
+        </tr>
+    </table>
     <br>
     These temples are hidden throughout RuneScape, but you can locate them with the help of a runecrafting talisman. Some examples of talismans are shown in the table below.
     <br><br>
@@ -17,27 +20,22 @@ function getSkillContent($skill) { return <<<HTML
     <h3>Locating rune temples</h3>
     <table>
         <tr>
-            <td>
-                To locate each temple, take the talisman and select the locate option.
-                The talisman will pull in the direction where the rune temple is located. 
-                <br>
-                Because runecrafting is an ancient skill that has been forgotten until recently, the elemental temples have become ruined. When you find the ruins of the temple you are looking for, use your talisman on these ruins.
-            </td>
-            <td>
-                <img src="https://oldschool.runescape.wiki/images/thumb/Air_Altar_outside.png/280px-Air_Altar_outside.png?6240c">
-            </td>
+            <td>To locate each temple, take the talisman and select the locate option. The talisman will pull in the direction where the rune temple is located.<br>Because runecrafting is an ancient skill that has been forgotten until recently, the elemental temples have become ruined. When you find the ruins of the temple you are looking for, use your talisman on these ruins.</td>
+            <td><img src="img/skillguides/runecraft/locate.gif"></td>
         </tr>
     </table>
+    <br>
     <table>
         <tr>
+            <td><img src="img/skillguides/runecraft/craftingrune.gif"></td>
             <td>
-                <img src="https://oldschool.runescape.wiki/images/thumb/Water_Altar_outside.png/300px-Water_Altar_outside.png?92951">
-            </td>
-            <td>
-                This will magically teleport you to a restored version of the temple, where you will be able to convert your rune essences into rune stones. When you have finished crafting your runes, click on the glowing portal to return to the ruins where you entered the temple.
+                This will magically teleport you to a restored version of the temple, where you will be able to convert your rune essences into rune stones.
+                <br><br>
+                When you have finished crafting your runes, click on the glowing portal to return to the ruins where you entered the temple.
             </td>
         </tr>
     </table>
+    <br>
     The following table shows what levels are required to runecraft various runes.<!-- (not implmented yet) A similar table to the one below can be opened in the game by clicking the runecraft skill icon in the stats menu. -->
     <br><br>
     <table width="100%" cellpadding="1" cellspacing="0" class="calculators">

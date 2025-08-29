@@ -34,7 +34,22 @@ function runCalc() {
         const totalStrengthBonus = parseInt(document.getElementById("strengthBonus").value) || 0;
 
         maxHit = Math.floor(((effectiveStrength * (totalStrengthBonus + 64)) + 320) / 640);
-    
+
+        // Calculate max hit of special attack if applicable
+        const specialDiv = document.getElementById("specialDiv");
+        const specialResult = document.getElementById("specialResult");
+
+        const selected = meleeWeaponBonus.options[meleeWeaponBonus.selectedIndex];
+        const specialMultiplier = parseFloat(selected.dataset.special);
+        
+        if (!isNaN(specialMultiplier)) {
+            const specialHit = Math.floor(maxHit * specialMultiplier);
+            document.getElementById("specialResult").textContent = specialHit;
+            specialDiv.style.display = "block";
+        } else {
+            specialDiv.style.display = "none";
+        }
+
     } else if (!document.getElementById("rangedOptions").classList.contains("hidden")) {
         const rangedLevel = parseInt(document.getElementById("rangedLevel").value);
         const rangedFightingStyle = parseInt(document.getElementById("rangedFightingStyle").value);

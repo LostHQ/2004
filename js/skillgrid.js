@@ -7,13 +7,13 @@ window.addEventListener("pageshow", () => {
     "attack", "hitpoints", "mining",
     "strength", "agility", "smithing",
     "defence", "herblore", "fishing",
-    "ranged", "thieving", "cooking",
+    "ranging", "thieving", "cooking",
     "prayer", "crafting", "firemaking",
     "magic", "fletching", "woodcutting",
     "runecrafting"
   ];
 
-  const combatSkills = ["attack", "strength", "defence", "ranged", "hitpoints"];
+  const combatSkills = ["attack", "strength", "defence", "ranging", "hitpoints"];
 
   if (!canvas) return;
 

@@ -2,23 +2,23 @@
 function getSkillContent($skill) { return <<<HTML
 <h2>$skill Skill Guide</h2>
 <p>
+    The smithing skill is used to convert ores, obtained by mining, into weapons and armour.
+    Many players find that making equipment and selling it to shops and other players is a good way to make money.
+    <br>
     <table>
         <tr>
             <td valign="top">
-                The smithing skill is used to convert ores, obtained by mining, into weapons and armour.
-                Many players find that making equipment and selling it to shops and other players is a good way to make money.
-                <br><br>
                 Smithing has two stages: smelting and smithing.
+                <br>
                 Smelting converts your ores into bars. This is done at furnaces.
                 To convert your ore into bars select an ore in your inventory then left click on a furnace. If you want to smelt several lots of ore at once, left clicking on the furnace will bring up a list of metals.  Right click on a metal to select the quantity you want to make.
             </td>
             <td>
-                <img src="https://web.archive.org/web/20050206173625im_/http://www.runescape.com/img/rs2/manual/smithing/smithingfurnace.gif">
+                <img src="img/skillguides/smithing/smithingfurnace.gif">
             </td>
         </tr>
     </table>
-    <hr>
-    <h2>Ores / Smelting Chart</h2>
+    <h3>Ores / smithing levels chart</h3>
     You will need different combinations of ores and different smithing levels to make each bar.
     Some of these requirements are shown below. There are even more bars to make at higher levels.
     <br><br>
@@ -137,35 +137,35 @@ function getSkillContent($skill) { return <<<HTML
         <td>85</td>
         </tr>
     </table>
-    <br><br>
-    <hr>
-    <h2>Smithing/Forging items</h2>
+    <h3>Forging items</h3>
     You will need a hammer which can be bought from any general store.
     <br>
     To convert your bars into armour and weapons you must forge them at an anvil.
     <br><br>
     Select a bar from your inventory, then select an anvil. You will be given a screen to decide what sort of equipment you would like to make. You will  be shown how many bars are needed to make types of object. If this is written in green then you have enough bars to make the item, if it is written in red then you do not.
-    <img src="https://web.archive.org/web/20050206173625im_/http://www.runescape.com/img/rs2/manual/smithing/smithinginterface.gif">
+    <br><br>
+    <img src="img/skillguides/smithing/smithinginterface.gif">
     <br><br>
     The name of the objects will be written in black or white. If the name is written in white then you have the smithing level required to make it. If it is written in black then you do not.
-    <br>    <br>
+    <br><br>
     Select what you would like to make and provided you have the required smithing levels and number of bars, your object will be made.
     <br><br>
     <table>
         <tr>
             <td valign="top">
-                <img src="https://oldschool.runescape.wiki/images/thumb/Anvil.png/200px-Anvil.png?a1e23">
+                <img src="img/skillguides/smithing/smithinganvil.gif">
             </td>
             <td valign="top">
                 The smithing levels required to forge a metal type are the same as those required to smelt it.
                 However at the levels given you will only be able to forge the most basic items in that metal (mostly daggers). A few levels past these base smithing levels you will be able to make a wider variety of things. For example at smithing level 4 you will be able to make bronze short swords.
                 <br>
-                The gold and silver bars are not used to smith weapons instead they are used in the crafting skill</a>.
+                The gold and silver bars are not used to smith weapons instead they are used in the <a href="?p=skillguides&skill=crafting" class="c">crafting skill</a>.
             </td>
         </tr>
     </table>
+    <br>
+    The following is a table showing at what level you can forge various items.<!-- (added later) A similar table to the one below can be opened in the game by clicking the smithing skill icon in the stats menu.-->
     <br><br>
-    The following is a table showing at what level you can forge various items. A similar table to the one below can be opened in the game by clicking the smithing skill icon in the stats menu.
     <table class="calculators">
         <tr>
             <th rowspan=2>Item</th>
@@ -261,7 +261,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>-</td>
         </tr>
         <tr>
-            <td>Arrow heads</td>
+            <td>Arrowheads</td>
             <td><canvas data-itemname="bronze_arrowheads" data-size="28px"></canvas><br>5</td>
             <td><canvas data-itemname="iron_arrowheads" data-size="28px"></canvas><br>20</td>
             <td><canvas data-itemname="steel_arrowheads" data-size="28px"></canvas><br>35</td>
@@ -279,7 +279,7 @@ function getSkillContent($skill) { return <<<HTML
             <td><canvas data-itemname="rune_scimitar" data-size="28px"></canvas><br>90</td>
         </tr>
         <tr>
-            <td>Long sword</td>
+            <td>Longsword</td>
             <td><canvas data-itemname="bronze_longsword" data-size="28px"></canvas><br>6</td>
             <td><canvas data-itemname="iron_longsword" data-size="28px"></canvas><br>21</td>
             <td><canvas data-itemname="steel_longsword" data-size="28px"></canvas><br>36</td>
@@ -354,7 +354,7 @@ function getSkillContent($skill) { return <<<HTML
             <td><canvas data-itemname="rune_battleaxe" data-size="28px"></canvas><br>95</td>
         </tr>
         <tr>
-            <td>Chainmail body</td>
+            <td>Chainbody</td>
             <td><canvas data-itemname="bronze_chainbody" data-size="28px"></canvas><br>11</td>
             <td><canvas data-itemname="iron_chainbody" data-size="28px"></canvas><br>26</td>
             <td><canvas data-itemname="steel_chainbody" data-size="28px"></canvas><br>41</td>
@@ -363,7 +363,7 @@ function getSkillContent($skill) { return <<<HTML
             <td><canvas data-itemname="rune_chainbody" data-size="28px"></canvas><br>96</td>
         </tr>
         <tr>
-            <td>Kite shield</td>
+            <td>Kiteshield</td>
             <td><canvas data-itemname="bronze_kiteshield" data-size="28px"></canvas><br>12</td>
             <td><canvas data-itemname="iron_kiteshield" data-size="28px"></canvas><br>27</td>
             <td><canvas data-itemname="steel_kiteshield" data-size="28px"></canvas><br>42</td>
@@ -390,7 +390,7 @@ function getSkillContent($skill) { return <<<HTML
             <td><canvas data-itemname="rune_2h_sword" data-size="28px"></canvas><br>99</td>
         </tr>
         <tr>
-            <td>Platemail legs</td>
+            <td>Platelegs</td>
             <td><canvas data-itemname="bronze_platelegs" data-size="28px"></canvas><br>16</td>
             <td><canvas data-itemname="iron_platelegs" data-size="28px"></canvas><br>31</td>
             <td><canvas data-itemname="steel_platelegs" data-size="28px"></canvas><br>46</td>
@@ -399,7 +399,7 @@ function getSkillContent($skill) { return <<<HTML
             <td><canvas data-itemname="rune_platelegs" data-size="28px"></canvas><br>99</td>
         </tr>
         <tr>
-            <td>Platemail skirt</td>
+            <td>Plateskirt</td>
             <td><canvas data-itemname="bronze_plateskirt" data-size="28px"></canvas><br>16</td>
             <td><canvas data-itemname="iron_plateskirt" data-size="28px"></canvas><br>31</td>
             <td><canvas data-itemname="steel_plateskirt" data-size="28px"></canvas><br>46</td>
@@ -408,7 +408,7 @@ function getSkillContent($skill) { return <<<HTML
             <td><canvas data-itemname="rune_plateskirt" data-size="28px"></canvas><br>99</td>
         </tr>
         <tr>
-            <td>Platemail body</td>
+            <td>Platebody</td>
             <td><canvas data-itemname="bronze_platebody" data-size="28px"></canvas><br>18</td>
             <td><canvas data-itemname="iron_platebody" data-size="28px"></canvas><br>33</td>
             <td><canvas data-itemname="steel_platebody" data-size="28px"></canvas><br>48</td>

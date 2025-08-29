@@ -3,6 +3,7 @@ $speciallist = array(
     "bis" => "Best-in-Slot Gear",
     "chateffects" => "Chat Colors and Effects",
     "coaltrucks" => "Coal Trucks",
+    "keys" => "Key Guide",
     "kittencare" => "Kitten Care",
     "music" => "Music Locations",
     "randomevents" => "Random Events",

@@ -1,24 +1,33 @@
 <?php
 function getSkillContent($skill) { return <<<HTML
 <h2>$skill Skill Guide</h2>
-<hr>
 <p>
-    <h3>Introduction</h3>
-    As well as using magic spells you can also pray to the gods of RuneScape to give you an advantage. To view the available prayers, select the prayer icon from your interface. You can see what each prayer does by moving your mouse over the icon.
-    <br><br>
-    The list of prayers shown will light up when you are at the appropriate level to use them. If the icon for the prayer is darkened then you are not at a high enough level to use that prayer.
-    <br><br>
+    <h3>Using Prayers</h3>
+    <table>
+        <tr>
+            <td>As well as using magic spells you can also pray to the gods of RuneScape to give you an advantage. To view the available prayers, select the prayer icon from your interface. You can see what each prayer does by moving your mouse over the icon.<br><br>The list of prayers shown will light up when you are at the appropriate level to use them. If the icon for the prayer is darkened then you are not at a high enough level to use that prayer.</td>
+            <td><img src="img/skillguides/prayer/prayer1.gif"></td>
+        </tr>
+    </table>
+    <br>
     Each of the prayers can be turned on or off individually. Whilst a prayer is in use, your player will be given an advantage depending on the prayer. To activate a prayer just left click on it. The icon will light up to indicate the prayer is active. Click on the prayer again to deactivate it.
     <br><br>
-    Whilst you have prayers active your prayer-points will slowly drain down to zero. The more prayers you use at once, and the more powerful they are, the faster your points will drain. When you runout of prayer-points all the effects will be deactivated, and can't be used again until you recharge your prayer-points.
-    <br><br>
+    <table>
+        <tr>
+            <td>Whilst you have prayers active your prayer-points will slowly drain down to zero. The more prayers you use at once, and the more powerful they are, the faster your points will drain. When you runout of prayer-points all the effects will be deactivated, and can't be used again until you recharge your prayer-points.</td>
+            <td><img src="img/skillguides/prayer/prayer2.gif"></td>
+        </tr>
+    </table>
+    <br>
     To recharge your prayer-points you must find a church in the game, and left click on the altar to recharge. You are then ready to use the different prayers again.
     <br><br>
-    <img src="img/skillguides/prayer1.jpg" width="450">
-    <br><br>
     To use the prayers for longer, and to use the higher-level prayers in the game you need to increase your total prayer-points. You do this by burying bones from monsters you kill. Take the bones, and then left click on them in your inventory to bury them. You need to bury quite a lot of bones to advance a level, but luckily they are quite easy to come by.
+    <h3>The Monastery</h3>
+    Players with a prayer level of 31 or greater may enter the Monastery located west of Edgeville.
+    <br><br>
+    Inside they will find an altar that when prayed at will give a temporary prayer boost. Also players will be able to get their holy symbols enchanted by Brother Jered, as well as find some priest robes to take.
     <hr>
-    <h3>Prayer List</h3>
+    <h3>Prayers</h3>
     There are many different types of prayers. Below is a table of each prayer and the effect it has when you use it. When using prayers, your Prayer points will be consumed. When you run out of Prayer points you will have to visit an altar to recharge them. Members can also drink Prayer potions to restore prayer.
     <br><br>
     <table cellpadding="1" cellspacing="0" class="calculators">
@@ -29,91 +38,91 @@ function getSkillContent($skill) { return <<<HTML
             <th>Prayer Effect</th>
         </tr>
             <td>1</td>
-            <td><img src="img/skillguides/prayericons/thickskin.gif"></td>
+            <td><img src="img/skillguides/prayer/thickskin.gif"></td>
 			<td>Thick Skin</td>
 			<td>Increases your defence by 5%.</td>
         <tr>
         </tr>
             <td>4</td>
-            <td><img src="img/skillguides/prayericons/burstofstrength.gif"></td>
+            <td><img src="img/skillguides/prayer/burstofstrength.gif"></td>
 			<td>Burst of Strength</td>
 			<td>Increases your strength by 5%.</td>
         <tr>
         </tr>
             <td>7</td>
-            <td><img src="img/skillguides/prayericons/clarityofthought.gif"></td>
+            <td><img src="img/skillguides/prayer/clarityofthought.gif"></td>
 			<td>Clarity of Thought</td>
 			<td>Increases your attack by 5%.</td>
         <tr>
         </tr>
             <td>10</td>
-            <td><img src="img/skillguides/prayericons/rockskin.gif"></td>
+            <td><img src="img/skillguides/prayer/rockskin.gif"></td>
 			<td>Rock Skin</td>
 			<td>Increases your defence by 10%.</td>
         <tr>
         </tr>
             <td>13</td>
-            <td><img src="img/skillguides/prayericons/superhumanstrength.gif"></td>
+            <td><img src="img/skillguides/prayer/superhumanstrength.gif"></td>
 			<td>Superhuman Strength</td>
 			<td>Increases your strength by 10%.</td>
         <tr>
         </tr>
             <td>16</td>
-            <td><img src="img/skillguides/prayericons/improvedreflexes.gif"></td>
+            <td><img src="img/skillguides/prayer/improvedreflexes.gif"></td>
 			<td>Improved Reflexes</td>
 			<td>Increases your attack by 10%.</td>
         <tr>
         </tr>
             <td>19</td>
-            <td><img src="img/skillguides/prayericons/rapidrestore.gif"></td>
+            <td><img src="img/skillguides/prayer/rapidrestore.gif"></td>
 			<td>Rapid Restore</td>
 			<td>2x restore rate for stats except prayer/hp.</td>
         <tr>
         </tr>
             <td>22</td>
-            <td><img src="img/skillguides/prayericons/rapidheal.gif"></td>
+            <td><img src="img/skillguides/prayer/rapidheal.gif"></td>
 			<td>Rapid Heal</td>
 			<td>2x restore rate for Hitpoints.</td>
         <tr>
         </tr>
             <td>25</td>
-            <td><img src="img/skillguides/prayericons/protectitems.gif"></td>
+            <td><img src="img/skillguides/prayer/protectitems.gif"></td>
 			<td>Protect Item</td>
 			<td>Keep 1 extra item if you die. [Note this WILL NOT protect clue scrolls!]</td>
         <tr>
         </tr>
             <td>28</td>
-            <td><img src="img/skillguides/prayericons/steelskin.gif"></td>
+            <td><img src="img/skillguides/prayer/steelskin.gif"></td>
 			<td>Steel Skin</td>
 			<td>Increases your defence by 15%.</td>
         <tr>
         </tr>
             <td>31</td>
-            <td><img src="img/skillguides/prayericons/ultimatestrength.gif"></td>
+            <td><img src="img/skillguides/prayer/ultimatestrength.gif"></td>
 			<td>Ultimate Strength</td>
 			<td>Increases your strength by 15%.</td>
         <tr>
         </tr>
             <td>34</td>
-            <td><img src="img/skillguides/prayericons/incrediblereflexes.gif"></td>
+            <td><img src="img/skillguides/prayer/incrediblereflexes.gif"></td>
 			<td>Incredible Reflexes</td>
 			<td>Increases your attack by 15%.</td>
         <tr>
         </tr>
             <td>37</td>
-            <td><img src="img/skillguides/prayericons/protectionfrommagic.gif"></td>
+            <td><img src="img/skillguides/prayer/protectionfrommagic.gif"></td>
 			<td>Protection From Magic</td>
 			<td>Protects you from magical attacks.</td>
         <tr>
         </tr>
             <td>40</td>
-            <td><img src="img/skillguides/prayericons/protectionfromranged.gif"></td>
+            <td><img src="img/skillguides/prayer/protectionfromranged.gif"></td>
 			<td>Protection From Missiles</td>
 			<td>Protects you from ranged attacks.</td>
         <tr>
         </tr>
             <td>43</td>
-            <td><img src="img/skillguides/prayericons/protectionfrommelee.gif"></td>
+            <td><img src="img/skillguides/prayer/protectionfrommelee.gif"></td>
 			<td>Protection From Melee</td>
 			<td>Protects you from melee attacks.</td>
         <tr></tbody>
