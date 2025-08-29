@@ -122,6 +122,7 @@ function getPageContent() {
     </tr>
   </thead>
   <tbody>
+    <tr><td>29/08/2025</td><td>Updated all skill guides</td></tr>
     <tr><td>26/08/2025</td><td>Added Key guide</td></tr>
     <tr><td>21/08/2025</td><td>Migrated to losthq.rs domain</td></tr>
     <tr><td>06/08/2025</td><td>Added Random Events guide</td></tr>
