@@ -827,6 +827,65 @@ window.onclick = function(event) {
   }
 }
 
+function searchInSharedTable(sharedTableName, searchTerm, visitedTables = new Set()) {
+  if (visitedTables.has(sharedTableName)) {
+    return false;
+  }
+  
+  const sharedTable = sharedDrops[sharedTableName];
+  if (!sharedTable || !sharedTable.roll_table) return false;
+  
+  visitedTables.add(sharedTableName);
+  
+  for (const roll of sharedTable.roll_table) {
+    const [itemName] = roll.item;
+    
+    if (itemName.startsWith('~')) {
+      const nestedTableName = itemName.slice(1);
+      const nestedTable = sharedDrops[nestedTableName];
+      
+      if (nestedTableName.toLowerCase().includes(searchTerm) || 
+          (nestedTable && nestedTable.name && nestedTable.name.toLowerCase().includes(searchTerm))) {
+        visitedTables.delete(sharedTableName);
+        return true;
+      } else if (searchInSharedTable(nestedTableName, searchTerm, visitedTables)) {
+        visitedTables.delete(sharedTableName);
+        return true;
+      }
+    } else {
+      if (itemName.includes('aboveground =') && itemName.includes('underground =')) {
+        const parts = itemName.split('|').map(part => part.trim());
+        for (const part of parts) {
+          if (part.startsWith('aboveground =')) {
+            const abovegroundItem = part.replace('aboveground =', '').trim();
+            const readable = itemList[abovegroundItem]?.toLowerCase() || "";
+            if (abovegroundItem.toLowerCase().includes(searchTerm) || readable.includes(searchTerm)) {
+              visitedTables.delete(sharedTableName);
+              return true;
+            }
+          } else if (part.startsWith('underground =')) {
+            const undergroundItem = part.replace('underground =', '').trim();
+            const readable = itemList[undergroundItem]?.toLowerCase() || "";
+            if (undergroundItem.toLowerCase().includes(searchTerm) || readable.includes(searchTerm)) {
+              visitedTables.delete(sharedTableName);
+              return true;
+            }
+          }
+        }
+      } else {
+        const readable = itemList[itemName]?.toLowerCase() || "";
+        if (itemName.toLowerCase().includes(searchTerm) || readable.includes(searchTerm)) {
+          visitedTables.delete(sharedTableName);
+          return true;
+        }
+      }
+    }
+  }
+  
+  visitedTables.delete(sharedTableName);
+  return false;
+}
+
 document.getElementById('itemSearch').addEventListener('input', function() {
   activeSearchTerm = this.value.trim().toLowerCase();
   const select = document.getElementById('npcSelect');
@@ -877,9 +936,43 @@ document.getElementById('itemSearch').addEventListener('input', function() {
           }
         } else if (roll.item) {
           const [itemName] = roll.item;
-          const readable = itemList[itemName]?.toLowerCase() || "";
-          if (itemName.toLowerCase().includes(activeSearchTerm) || readable.includes(activeSearchTerm)) {
-            foundInRoll = true;
+          
+          if (itemName.startsWith('~')) {
+            const sharedTableName = itemName.slice(1);
+            const sharedTable = sharedDrops[sharedTableName];
+            
+            if (sharedTableName.toLowerCase().includes(activeSearchTerm) || 
+                (sharedTable && sharedTable.name && sharedTable.name.toLowerCase().includes(activeSearchTerm))) {
+              foundInRoll = true;
+            } else if (searchInSharedTable(sharedTableName, activeSearchTerm)) {
+              foundInRoll = true;
+            }
+          } else {
+            if (itemName.includes('aboveground =') && itemName.includes('underground =')) {
+              const parts = itemName.split('|').map(part => part.trim());
+              for (const part of parts) {
+                if (part.startsWith('aboveground =')) {
+                  const abovegroundItem = part.replace('aboveground =', '').trim();
+                  const readable = itemList[abovegroundItem]?.toLowerCase() || "";
+                  if (abovegroundItem.toLowerCase().includes(activeSearchTerm) || readable.includes(activeSearchTerm)) {
+                    foundInRoll = true;
+                    break;
+                  }
+                } else if (part.startsWith('underground =')) {
+                  const undergroundItem = part.replace('underground =', '').trim();
+                  const readable = itemList[undergroundItem]?.toLowerCase() || "";
+                  if (undergroundItem.toLowerCase().includes(activeSearchTerm) || readable.includes(activeSearchTerm)) {
+                    foundInRoll = true;
+                    break;
+                  }
+                }
+              }
+            } else {
+              const readable = itemList[itemName]?.toLowerCase() || "";
+              if (itemName.toLowerCase().includes(activeSearchTerm) || readable.includes(activeSearchTerm)) {
+                foundInRoll = true;
+              }
+            }
           }
         }
         
