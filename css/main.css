@@ -597,3 +597,18 @@ A.pink:hover {
   .subtable tr + tr td {
     border: none;
   }
+
+.main-page tr {
+    height: 128px;
+    vertical-align: top;
+}
+.main-page td {
+    text-align: center;
+    vertical-align: middle;
+}
+.main-page td img {
+    max-height: 126px;
+    max-width: 100px;
+    display: block;
+    margin: 0 auto;
+}
