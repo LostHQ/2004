@@ -69,42 +69,42 @@ clearAllEquipment();
     <tr>
         <td>Head</td>
         <td><canvas data-itemname="dragon_med_helm" data-show-label="inline"></canvas></td>
-        <td>+32 Crush Resistance</td>
+        <td>+32 Crush Defence</td>
     </tr>
     <tr>
         <td>Cape</td>
         <td><canvas data-itemname="cape_of_legends" data-show-label="inline"></canvas></td>
-        <td>+7 Crush Resistance</td>
+        <td>+7 Crush Defence</td>
     </tr>
     <tr>
         <td>Neck</td>
         <td><canvas data-itemname="gnome_amulet" data-show-label="inline"></canvas></td>
-        <td>+13 Crush Resistance</td>
+        <td>+13 Crush Defence</td>
     </tr>
     <tr>
         <td>Weapon</td>
         <td><canvas data-itemname="dragon_longsword" data-show-label="inline"></canvas></td>
-        <td>+2 Crush Resistance</td>
+        <td>+2 Crush Defence</td>
     </tr>
     <tr>
         <td>Chest</td>
         <td><canvas data-itemname="rune_chainbody" data-show-label="inline"></canvas></td>
-        <td>+78 Crush Resistance</td>
+        <td>+78 Crush Defence</td>
     </tr>
     <tr>
         <td>Shield</td>
         <td><canvas data-itemname="dragon_sq_shield" data-show-label="inline"></canvas></td>
-        <td>+48 Crush Resistance</td>
+        <td>+48 Crush Defence</td>
     </tr>
     <tr>
         <td>Legs</td>
         <td><canvas data-itemname="rune_platelegs" data-show-label="inline"></canvas></td>
-        <td>+47 Crush Resistance</td>
+        <td>+47 Crush Defence</td>
     </tr>
     <tr>
         <td rowspan="2">Gloves</td>
         <td><canvas data-itemname="steel_gauntlets"></canvas><canvas data-itemname="gauntlets_of_chaos"></canvas><canvas data-itemname="gauntlets_of_cooking"></canvas><canvas data-itemname="gauntlets_of_goldsmithing"></canvas><br>Any Family Crest Gauntlets</td>
-        <td rowspan="2">+7 Crush Resistance</td>
+        <td rowspan="2">+7 Crush Defence</td>
     </tr>
     <tr>
         <td><canvas data-itemname="klanks_gauntlets" data-show-label="inline"></canvas></td>
@@ -112,7 +112,7 @@ clearAllEquipment();
     <tr>
         <td>Boots</td>
         <td><canvas data-itemname="boots_ranger" data-show-label="inline"></canvas></td>
-        <td>+4 Crush Resistance</td>
+        <td>+4 Crush Defence</td>
     </tr>
 </table>
 <hr>
@@ -147,17 +147,17 @@ clearAllEquipment();
     <tr>
         <td>Head</td>
         <td><canvas data-itemname="dragon_med_helm" data-show-label="inline"></canvas></td>
-        <td>+33 Stab Resistance</td>
+        <td>+33 Stab Defence</td>
     </tr>
     <tr>
         <td>Cape</td>
         <td><canvas data-itemname="cape_of_legends" data-show-label="inline"></canvas></td>
-        <td>+7 Stab Resistance</td>
+        <td>+7 Stab Defence</td>
     </tr>
     <tr>
         <td>Neck</td>
         <td><canvas data-itemname="gnome_amulet" data-show-label="inline"></canvas></td>
-        <td>+13 Stab Resistance</td>
+        <td>+13 Stab Defence</td>
     </tr>
     <tr>
         <td>Weapon</td>
@@ -167,22 +167,22 @@ clearAllEquipment();
     <tr>
         <td>Chest</td>
         <td><canvas data-itemname="rune_platebody" data-show-label="inline"></canvas></td>
-        <td>+82 Stab Resistance</td>
+        <td>+82 Stab Defence</td>
     </tr>
     <tr>
         <td>Shield</td>
         <td><canvas data-itemname="dragon_sq_shield" data-show-label="inline"></canvas></td>
-        <td>+50 Stab Resistance</td>
+        <td>+50 Stab Defence</td>
     </tr>
     <tr>
         <td>Legs</td>
         <td><canvas data-itemname="rune_platelegs" data-show-label="inline"></canvas></td>
-        <td>+51 Stab Resistance</td>
+        <td>+51 Stab Defence</td>
     </tr>
     <tr>
         <td rowspan="2">Gloves</td>
         <td><canvas data-itemname="steel_gauntlets"></canvas><canvas data-itemname="gauntlets_of_chaos"></canvas><canvas data-itemname="gauntlets_of_cooking"></canvas><canvas data-itemname="gauntlets_of_goldsmithing"></canvas><br>Any Family Crest Gauntlets</td>
-        <td rowspan="2">+8 Stab Resistance</td>
+        <td rowspan="2">+8 Stab Defence</td>
     </tr>
     <tr>
         <td><canvas data-itemname="klanks_gauntlets" data-show-label="inline"></canvas></td>
@@ -190,7 +190,7 @@ clearAllEquipment();
     <tr>
         <td>Boots</td>
         <td><canvas data-itemname="boots_ranger" data-show-label="inline"></canvas></td>
-        <td>+2 Stab Resistance</td>
+        <td>+2 Stab Defence</td>
     </tr>
 </table>
 <hr>
@@ -225,32 +225,32 @@ clearAllEquipment();
     <tr>
         <td>Head</td>
         <td><canvas data-itemname="dragon_med_helm" data-show-label="inline"></canvas></td>
-        <td>+35 Slash Resistance</td>
+        <td>+35 Slash Defence</td>
     </tr>
     <tr>
         <td>Cape</td>
         <td><canvas data-itemname="cape_of_legends" data-show-label="inline"></canvas></td>
-        <td>+7 Slash Resistance</td>
+        <td>+7 Slash Defence</td>
     </tr>
     <tr>
         <td>Neck</td>
         <td><canvas data-itemname="gnome_amulet" data-show-label="inline"></canvas></td>
-        <td>+13 Slash Resistance</td>
+        <td>+13 Slash Defence</td>
     </tr>
     <tr>
         <td>Weapon</td>
         <td><canvas data-itemname="dragon_longsword" data-show-label="inline"></canvas></td>
-        <td>+3 Slash Resistance</td>
+        <td>+3 Slash Defence</td>
     </tr>
     <tr>
         <td>Chest</td>
         <td><canvas data-itemname="rune_platebody" data-show-label="inline"></canvas></td>
-        <td>+80 Slash Resistance</td>
+        <td>+80 Slash Defence</td>
     </tr>
     <tr>
         <td rowspan="2">Shield</td>
         <td><canvas data-itemname="dragon_sq_shield" data-show-label="inline"></canvas></td>
-        <td>+52 Slash Resistance</td>
+        <td>+52 Slash Defence</td>
     </tr>
     <tr>
         <td><div class="centered-content"><canvas data-itemname="antidragonbreathshield" data-show-label="inline"></canvas>*</div></td>
@@ -259,12 +259,12 @@ clearAllEquipment();
     <tr>
         <td>Legs</td>
         <td><canvas data-itemname="rune_platelegs" data-show-label="inline"></canvas></td>
-        <td>+49 Slash Resistance</td>
+        <td>+49 Slash Defence</td>
     </tr>
     <tr>
         <td rowspan="2">Gloves</td>
         <td><canvas data-itemname="steel_gauntlets"></canvas><canvas data-itemname="gauntlets_of_chaos"></canvas><canvas data-itemname="gauntlets_of_cooking"></canvas><canvas data-itemname="gauntlets_of_goldsmithing"></canvas><br>Any Family Crest Gauntlets</td>
-        <td rowspan="2">+9 Slash Resistance</td>
+        <td rowspan="2">+9 Slash Defence</td>
     </tr>
     <tr>
         <td><canvas data-itemname="klanks_gauntlets" data-show-label="inline"></canvas></td>
@@ -272,10 +272,10 @@ clearAllEquipment();
     <tr>
         <td>Boots</td>
         <td><canvas data-itemname="boots_ranger" data-show-label="inline"></canvas></td>
-        <td>+3 Slash Resistance</td>
+        <td>+3 Slash Defence</td>
     </tr>
 </table>
-*Dragons primarily deal slash damage in melee, making this slash-defence build ideal when combined with a Dragonfire shield.
+*Dragons deal slash damage in melee, making this slash-defence build ideal when combined with a Dragonfire shield.
 <hr>
 <h3 id="defence-ranged">Ranged Defence</h3>
 <table>
@@ -308,17 +308,17 @@ clearAllEquipment();
     <tr>
         <td>Head</td>
         <td><canvas data-itemname="dragon_med_helm" data-show-label="inline"></canvas></td>
-        <td>+34 Ranged Resistance</td>
+        <td>+34 Ranged Defence</td>
     </tr>
     <tr>
         <td>Cape</td>
         <td><canvas data-itemname="cape_of_legends" data-show-label="inline"></canvas></td>
-        <td>+7 Ranged Resistance</td>
+        <td>+7 Ranged Defence</td>
     </tr>
     <tr>
         <td>Neck</td>
         <td><canvas data-itemname="amulet_of_defence" data-show-label="inline"></canvas></td>
-        <td>+7 Ranged Resistance</td>
+        <td>+7 Ranged Defence</td>
     </tr>
     <tr>
         <td>Weapon</td>
@@ -328,27 +328,27 @@ clearAllEquipment();
     <tr>
         <td>Chest</td>
         <td><canvas data-itemname="rune_platebody" data-show-label="inline"></canvas></td>
-        <td>+80 Ranged Resistance</td>
+        <td>+80 Ranged Defence</td>
     </tr>
     <tr>
         <td>Shield</td>
         <td><canvas data-itemname="dragon_sq_shield" data-show-label="inline"></canvas></td>
-        <td>+50 Ranged Resistance</td>
+        <td>+50 Ranged Defence</td>
     </tr>
     <tr>
         <td>Legs</td>
         <td><canvas data-itemname="rune_platelegs" data-show-label="inline"></canvas></td>
-        <td>+49 Ranged Resistance</td>
+        <td>+49 Ranged Defence</td>
     </tr>
     <tr>
         <td>Gloves</td>
         <td><canvas data-itemname="ice_gloves" data-show-label="inline"></canvas></td>
-        <td>+2 Ranged Resistance</td>
+        <td>+2 Ranged Defence</td>
     </tr>
     <tr>
         <td>Boots</td>
         <td><div class="centered-content"><canvas data-itemname="leather_boots"></canvas>&nbsp;&nbsp;Any boots</td></div>
-        <td>All give +0 Ranged Resistance</td>
+        <td>All give +0 Ranged Defence</td>
     </tr>
 </table>
 <hr>
@@ -370,7 +370,7 @@ clearAllEquipment();
     'elemental_shield',
     'black_dragonhide_chaps',
     'black_dragon_vambraces',
-    'boots_ranger',
+    'boots_wizard',
     null,
     'pearl_bolt'
 );</script>
@@ -383,20 +383,20 @@ clearAllEquipment();
     <tr>
         <td>Head</td>
         <td><canvas data-itemname="robinhoodhat" data-show-label="inline"></canvas></td>
-        <td>+4 Magic Resistance</td>
+        <td>+4 Magic Defence</td>
     </tr>
     <tr>
         <td>Cape</td>
         <td><canvas data-itemname="zamorak_cape"></canvas><canvas data-itemname="guthix_cape"></canvas><canvas data-itemname="saradomin_cape"></canvas><br>God cape</td>
-        <td>+10 Magic Resistance</td>
+        <td>+10 Magic Defence</td>
     </tr>
     <tr>
         <td>Neck</td>
         <td><canvas data-itemname="amulet_of_defence" data-show-label="inline"></canvas></td>
-        <td>+7 Magic Resistance</td>
+        <td>+7 Magic Defence</td>
     </tr>
     <tr>
-        <td rowspan="2">Weapon</td>
+        <td rowspan="3">Weapon</td>
         <td><canvas data-itemname="crossbow" data-show-label="inline"></canvas></td>
         <td>Excellent with Pearl Bolts</td>
     </tr>
@@ -405,29 +405,33 @@ clearAllEquipment();
         <td>Fast Tick + Poison damage</td>
     </tr>
     <tr>
+    <td><canvas data-itemname="mystic_air_staff"></canvas><canvas data-itemname="mystic_water_staff"></canvas><canvas data-itemname="mystic_earth_staff"></canvas><canvas data-itemname="mystic_fire_staff"></canvas><br>Any Elemental Staff*</td>
+        <td>+10 Magic Defence</td>
+    </tr>
+    <tr>
         <td>Chest</td>
         <td><canvas data-itemname="black_dragonhide_body" data-show-label="inline"></canvas></td>
-        <td>+45 Magic Resistance</td>
+        <td>+45 Magic Defence</td>
     </tr>
     <tr>
         <td>Shield</td>
         <td><canvas data-itemname="elemental_shield" data-show-label="inline"></canvas></td>
-        <td>+6 Magic Resistance</td>
+        <td>+6 Magic Defence</td>
     </tr>
     <tr>
         <td>Legs</td>
         <td><canvas data-itemname="black_dragonhide_chaps" data-show-label="inline"></canvas></td>
-        <td>+23 Magic Resistance</td>
+        <td>+23 Magic Defence</td>
     </tr>
     <tr>
         <td>Gloves</td>
         <td><canvas data-itemname="black_dragon_vambraces" data-show-label="inline"></canvas></td>
-        <td>+8 Magic Resistance</td>
+        <td>+8 Magic Defence</td>
     </tr>
     <tr>
         <td>Boots</td>
         <td><canvas data-itemname="boots_wizard" data-show-label="inline"></canvas></td>
-        <td>+4 Magic Resistance</td>
+        <td>+4 Magic Defence</td>
     </tr>
     <tr>
         <td>Ammo</td>
@@ -435,6 +439,7 @@ clearAllEquipment();
         <td>+48 Ranged Strength Bonus</td>
     </tr>
 </table>
+*If a player wants to maximize Magic defence for whatever reason, all staffs provide a +10 Magic defence bonus. Keep in mind, their Magic attack bonuses are too low to be practical for casting combat spells. Battle and Mystic staffs, give higher melee bonuses than regular staffs, making them somewhat better for physical combat.
 <hr>
 <h3 id="offence-crush">Crush Offence</h3>
 <table>
@@ -761,7 +766,7 @@ clearAllEquipment();
     </tr>
     <tr>
         <td>Weapon</td>
-        <td><canvas data-itemname="mystic_air_staff"></canvas><canvas data-itemname="mystic_water_staff"></canvas><canvas data-itemname="mystic_earth_staff"></canvas><canvas data-itemname="mystic_fire_staff"></canvas><br>Any Elemental Stave*</td>
+        <td><canvas data-itemname="mystic_air_staff"></canvas><canvas data-itemname="mystic_water_staff"></canvas><canvas data-itemname="mystic_earth_staff"></canvas><canvas data-itemname="mystic_fire_staff"></canvas><br>Any Elemental Staff*</td>
         <td>+10 Magic Attack</td>
     </tr>
     <tr>
@@ -794,7 +799,7 @@ clearAllEquipment();
         <td>+4 Magic Attack</td>
     </tr>
 </table>
-*While all staves offer +10 magic bonus, Battle and Mystic Staves offer more melee bonuses than normal staves.
+*While all staffs offer +10 magic bonus, Battle and Mystic Staffs offer more melee bonuses than normal staffs.
 <hr>
 <h3 id="prayer">Prayer Bonus</h3>
 <table>
@@ -852,5 +857,5 @@ clearAllEquipment();
 <hr>
 This special report was written on LostHQ by Fallnight. Thanks to Geerin, Fran 2004, and Timondg for corrections.
 <br><br>
-This special report was entered into the database on Wed, Jul 30, 2025, at 11:51:20 PM by Halogod35 and was last updated on Thu, Aug 21, 2025, at 11:45:22 PM by Halogod35.
+This special report was entered into the database on Wed, Jul 30, 2025, at 11:51:20 PM by Halogod35 and was last updated on Sat, Sept 6, 2025, at 11:25:02 AM by Halogod35.
 HTML; }
