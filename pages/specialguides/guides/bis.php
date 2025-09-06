@@ -687,11 +687,10 @@ clearAllEquipment();
     <tr>
         <td rowspan="2">Weapon</td>
         <td><canvas data-itemname="magic_shortbow" data-show-label="inline"></canvas></td>
-        <td>+69 Ranged Attack</td>
+        <td rowspan="2">+69 Ranged Attack</td>
     </tr>
     <tr>
         <td><div class="centered-content"><canvas data-itemname="magic_longbow" data-show-label="inline"></canvas>*</div></td>
-        <td>+69 Ranged Attack</td>
     </tr>
     <tr>
         <td>Chest</td>
