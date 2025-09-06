@@ -74,6 +74,7 @@ function runCalc() {
             "Pot unfired": { xp: 6.3, level: 1 },
             "Pot empty": { xp: 12.6, level: 1 },
             "Beer Glass": { xp: 17.5, level: 1 },
+            "Molten Glass": { xp: 20, level: 1 },
             "PieDish unfired": { xp: 15, level: 7 },
             "PieDish": { xp: 25, level: 7 },
             "Bowl unfired": { xp: 18, level: 8 },
