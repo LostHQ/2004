@@ -63,7 +63,7 @@ This guide lists everything that can boost stats in RuneScape.
     -->
     <tr>
         <td><canvas data-itemname="wizards_mind_bomb" data-show-label="true"></canvas></td>
-        <td>-4 Attack<br>-3 Defence<br>-3 Strength<br>+3 Magic</td>
+        <td>-(5% + 1) Attack<br>-(5% + 1) Strength<br>-(5% + 1) Defence<br>+(2% + 2) Magic</td>
         <td><canvas data-itemname="coins_3" data-size="25"></canvas><br>3 coins</td>
         <td>Rising Sun Inn (Falador)</td>
     </tr>
@@ -125,7 +125,7 @@ This guide lists everything that can boost stats in RuneScape.
     </tr>
     <tr>
         <td><canvas data-itemname="dragon_battleaxe" data-show-label="true"></canvas></td>
-        <td>-10% Attack, Defence, Magic, Ranged.<br>+(avg stats drained + 10) Strength</td>
+        <td>-10% Attack, Defence, Magic, Ranged<br>+(avg stats drained + 10) Strength</td>
         <td>Hero's Quest<br>60 Attack</td>
     </tr>
     <tr>
@@ -137,5 +137,5 @@ This guide lists everything that can boost stats in RuneScape.
 <hr>
 This special report was written by Halogod35.
 <br><br>
-This special report was entered into the database on Mon, Sep 08, 2025, at 04:54:27 AM by Halogod35 and was last updated on Mon, Sep 08, 2025, at 04:54:27 AM by Halogod35.
+This special report was entered into the database on Mon, Sep 08, 2025, at 04:54:27 AM by Halogod35 and was last updated on Mon, Sep 08, 2025, at 12:12:54 PM by Halogod35.
 HTML; }
