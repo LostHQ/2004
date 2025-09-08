@@ -122,6 +122,7 @@ function getPageContent() {
     </tr>
   </thead>
   <tbody>
+    <tr><td>08/09/2025</td><td>Added Stat Boosting guide</td></tr>
     <tr><td>03/09/2025</td><td>Added Strength and Hitpoints skill guides</td></tr>
     <tr><td>29/08/2025</td><td>Updated all skill guides</td></tr>
     <tr><td>26/08/2025</td><td>Added Key guide</td></tr>

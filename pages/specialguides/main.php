@@ -7,7 +7,8 @@ $speciallist = array(
     "kittencare" => "Kitten Care",
     "music" => "Music Locations",
     "randomevents" => "Random Events",
-    "specialattacks" => "Special Attacks"
+    "specialattacks" => "Special Attacks",
+    "statboosting" => "Stat Boosting"
 );
 
 function getExtraHeaderContent() { 
