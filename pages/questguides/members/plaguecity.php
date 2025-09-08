@@ -1,7 +1,7 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
-<a href="#zombiemusiq" style="color: yellow; text-decoration: none; font-weight: bold;">ZombieMusiq Video Guide at bottom of page!</a>
+<a href="#zombiemusiq" class="c">ZombieMusiq Video Guide at bottom of page!</a>
 <br><br>
 <b>Description:</b> A shadow of disease has overcast Ardounge. Edmond's daugher Elena has gone missing in West Ardougne whilst trying to help the plague victims there. See if you can find out what's going on.
 <br><br>

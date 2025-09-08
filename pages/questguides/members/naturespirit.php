@@ -1,7 +1,7 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
-<!-- <a href="#zombiemusiq" style="color: yellow; text-decoration: none; font-weight: bold;">ZombieMusiq Video Guide at bottom of page!</a> 
+<!-- <a href="#zombiemusiq" class="c">ZombieMusiq Video Guide at bottom of page!</a> 
 <br><br> -->
 <b>Description:</b> After saving the holy man Drezel, he's seeking some assistance again.
 This time he has a special request for any adventurous sorts to search for the Druid 'Filliman Tarlock' and brave the terrors that infest the swamp of Mort Myre.

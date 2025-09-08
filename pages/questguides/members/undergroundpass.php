@@ -1,7 +1,7 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
-<a href="#zombiemusiq" style="color: yellow; text-decoration: none; font-weight: bold;">ZombieMusiq Video Guide at bottom of page!</a>
+<a href="#zombiemusiq" class="c">ZombieMusiq Video Guide at bottom of page!</a>
 <br><br>
 <b>Description:</b> The Underground Pass, sealed for thousands of years, has now been reopened to reveal a complex labyrinth of tunnels and chasms. You must find a way through, and get one step closer to the evil King Tyras. But the road is long and it could be lonely. When fatigue starts to take it's toll, mental strength is what you'll need...
 <br><br>

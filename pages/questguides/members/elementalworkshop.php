@@ -1,7 +1,7 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
-<a href="#zombiemusiq" style="color: yellow; text-decoration: none; font-weight: bold;">ZombieMusiq Video Guide at bottom of page!</a>
+<a href="#zombiemusiq" class="c">ZombieMusiq Video Guide at bottom of page!</a>
 <br><br>
 <b>Description:</b> Hundreds of years ago a mineral was found that had the ability to change the property of magic. The magicians, fearing the effect this may have on there profession, sealed this workshop forever; or so they had hoped. See if you can rediscover the lost knowledge of elemental ore.
 <br><br>

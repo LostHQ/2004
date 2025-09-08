@@ -1,7 +1,7 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
-<!-- <a href="#zombiemusiq" style="color: yellow; text-decoration: none; font-weight: bold;">ZombieMusiq Video Guide at bottom of page!</a> 
+<!-- <a href="#zombiemusiq" class="c">ZombieMusiq Video Guide at bottom of page!</a> 
 <br><br> -->
 <b>Description:</b> Recently contact has been lost with the temple to Saradomin on Misthalins' Eastern border. King Roald would be very interested to know what has caused this lack of communication, and seeks an adventurer willing to report back to him on the situation.
 <br><br>

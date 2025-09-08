@@ -1,7 +1,7 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
-<a href="#zombiemusiq" style="color: yellow; text-decoration: none; font-weight: bold;">ZombieMusiq Video Guide at bottom of page!</a>
+<a href="#zombiemusiq" class="c">ZombieMusiq Video Guide at bottom of page!</a>
 <br><br>
 <b>Description:</b> The observatory in South West Ardougne has been ransacked by a family of nearby goblins. Can you help the professors to rebuild it? Use your skills at crafting to make the various parts, and fight your way through the cavern under the observatory. Use the telescope and the stars hold a secret for you.
 <br><br>

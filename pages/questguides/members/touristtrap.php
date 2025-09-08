@@ -1,7 +1,7 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
-<a href="#zombiemusiq" style="color: yellow; text-decoration: none; font-weight: bold;">ZombieMusiq Video Guide at bottom of page!</a>
+<a href="#zombiemusiq" class="c">ZombieMusiq Video Guide at bottom of page!</a>
 <br><br>
 <b>Description:</b> South of Al Kharid a new desert pass has opened up, leading to the dangers of the Kharid desert. Don your desert garb and make sure your waterskin is full before heading off into the trackless dunes in search of desert adventure.
 <br><br>
