@@ -60,7 +60,7 @@ clearAllEquipment();
     null,
     null
 );</script>
-<table class="calculators">
+<table class="table">
     <tr>
         <th>Slot</th>
         <th>Item</th>
@@ -138,7 +138,7 @@ clearAllEquipment();
     null,
     null
 );</script>
-<table class="calculators">
+<table class="table">
     <tr>
         <th>Slot</th>
         <th>Item</th>
@@ -216,7 +216,7 @@ clearAllEquipment();
     null,
     null
 );</script>
-<table class="calculators">
+<table class="table">
     <tr>
         <th>Slot</th>
         <th>Item</th>
@@ -299,7 +299,7 @@ clearAllEquipment();
     null,
     null
 );</script>
-<table class="calculators">
+<table class="table">
     <tr>
         <th>Slot</th>
         <th>Item</th>
@@ -374,7 +374,7 @@ clearAllEquipment();
     null,
     'pearl_bolt'
 );</script>
-<table class="calculators">
+<table class="table">
     <tr>
         <th>Slot</th>
         <th>Item</th>
@@ -463,7 +463,7 @@ clearAllEquipment();
     null,
     null
 );</script>
-<table class="calculators">
+<table class="table">
     <tr>
         <th>Slot</th>
         <th>Item</th>
@@ -561,7 +561,7 @@ clearAllEquipment();
     null,
     null
 );</script>
-<table class="calculators">
+<table class="table">
     <tr>
         <th>Slot</th>
         <th>Item</th>
@@ -659,7 +659,7 @@ clearAllEquipment();
     null,
     'rune_arrow_p'
 );</script>
-<table class="calculators">
+<table class="table">
     <tr>
         <th>Slot</th>
         <th>Item</th>
@@ -742,7 +742,7 @@ clearAllEquipment();
     null,
     null
 );</script>
-<table class="calculators">
+<table class="table">
     <tr>
         <th>Slot</th>
         <th>Item</th>
@@ -822,7 +822,7 @@ clearAllEquipment();
     null,
     null
 );</script>
-<table class="calculators">
+<table class="table">
     <tr>
         <th>Slot</th>
         <th>Item</th>

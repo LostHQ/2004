@@ -23,7 +23,7 @@ function getSkillContent($skill) { return <<<HTML
     <h3>Ranging Guild</h3>
     Experienced rangers (level 40) may enter the Ranging Guild in the Seers' Village, where they may practice shooting at targets and live foes of various levels. The Guild also offers a selection of items for sale, including a wide range of thrown weapons.
     <h3>Bow wield Requirements</h3>
-    <table class="calculators">
+    <table class="table">
     <tr>
         <th>Bow Type</th>
         <th>Ranged level</th>
@@ -125,7 +125,7 @@ function getSkillContent($skill) { return <<<HTML
 
     <h3>Ranging Armour wield Requirements</h3>
     
-    <table class="calculators">
+    <table class="table">
         <tr>
             <th>Armour Type</td>
             <th>Ranged to wield</th>

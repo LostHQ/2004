@@ -2,7 +2,7 @@
 function getGuideContent($guide) { return <<<HTML
 <h2>Treasure Trails $guide Guide</h2>
 <p>Challenges will not be in a clue scroll like all the other clues, they will be in challenge scrolls. When you get a challenge scroll you will need to figure out the answer, return to who ever gave you the challenge, and give him/her the answer. Currently, there are only very few challenges, here's a list:
-<table class="calculators">
+<table class="table">
   <tr> 
     <th>Challenge Clue:</th>
     <th>Solution</th>

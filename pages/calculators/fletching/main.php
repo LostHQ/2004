@@ -42,7 +42,7 @@ function getCalcContent() { return <<<HTML
             <option value="incompleteArrows">Incomplete</option>
         </select>
     </div>
-    <table id="resultsTable" class="calculators">
+    <table id="resultsTable" class="table">
         <thead>
             <tr>
                 <th>Level</th>

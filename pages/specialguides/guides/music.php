@@ -28,7 +28,7 @@ Quick Links<br>
 <a href="#y">Y</a> 
 <a href="#z">Z</a>
 <br><br>
-<table class="calculators">
+<table class="table">
     <tr>
         <th>Song</th>
         <th>Location</th>

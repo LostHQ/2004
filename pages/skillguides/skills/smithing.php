@@ -22,7 +22,7 @@ function getSkillContent($skill) { return <<<HTML
     You will need different combinations of ores and different smithing levels to make each bar.
     Some of these requirements are shown below. There are even more bars to make at higher levels.
     <br><br>
-    <table class="calculators">
+    <table class="table">
         <tr>
             <th>Bar</th>
             <th>Ores required per bar</th>
@@ -166,7 +166,7 @@ function getSkillContent($skill) { return <<<HTML
     <br>
     The following is a table showing at what level you can forge various items.<!-- (added later) A similar table to the one below can be opened in the game by clicking the smithing skill icon in the stats menu.-->
     <br><br>
-    <table class="calculators">
+    <table class="table">
         <tr>
             <th rowspan=2>Item</th>
             <th colspan=6>Level Requirement to Smith</th>

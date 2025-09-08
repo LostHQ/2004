@@ -30,7 +30,7 @@ function getSkillContent($skill) { return <<<HTML
     <h3>Prayers</h3>
     There are many different types of prayers. Below is a table of each prayer and the effect it has when you use it. When using prayers, your Prayer points will be consumed. When you run out of Prayer points you will have to visit an altar to recharge them. Members can also drink Prayer potions to restore prayer.
     <br><br>
-    <table cellpadding="1" cellspacing="0" class="calculators">
+    <table cellpadding="1" cellspacing="0" class="table">
         <tbody><tr>
             <th>Level</th>
             <th>Picture</th>
@@ -131,7 +131,7 @@ function getSkillContent($skill) { return <<<HTML
     <h3>The Experience Table</h3>
     There are many different types of bones you can bury in the RuneScape world. Below is a table of different bones that you can bury. Different types of bones give different amounts of experience. Some bones are harder to get than others.
     <br><br>
-    <table cellpadding="1" cellspacing="0" class="calculators">
+    <table cellpadding="1" cellspacing="0" class="table">
         <tbody><tr>
             <th>Picture</th>
             <th>Bone Name</th>
@@ -177,7 +177,7 @@ function getSkillContent($skill) { return <<<HTML
     <h3>Where to get Bones</h3>
     Now you know the basics or prayer, but you may be asking yourself, "where can I get some of these bones to bury?" Well, you could always buy the bones, but that could really put a hole in your bank. The cheapest way to raise prayer is to just kill monsters for the bones. <font color="red">If the text is red, it means the monster is in a members only area.</font>
     <br><br>
-    <table cellpadding="1" cellspacing="0" class="calculators">
+    <table cellpadding="1" cellspacing="0" class="table">
         <tbody>
             <tr>
                 <th><div class="centered-content"><canvas data-itemname=bones></canvas> Regular Bones <canvas data-itemname=bones></canvas></div></th>
@@ -190,7 +190,7 @@ function getSkillContent($skill) { return <<<HTML
         </tbody>
     </table>
     <br><br>
-    <table cellpadding="1" cellspacing="0" class="calculators">
+    <table cellpadding="1" cellspacing="0" class="table">
         <tbody>
             <tr>
                 <th>
@@ -205,7 +205,7 @@ function getSkillContent($skill) { return <<<HTML
         </tbody>
     </table>
     <br><br>
-    <table cellpadding="1" cellspacing="0" class="calculators">
+    <table cellpadding="1" cellspacing="0" class="table">
         <tbody>
             <tr>
                 <th><div class="centered-content"><canvas data-itemname=bat_bones></canvas> Bat Bones <canvas data-itemname=bat_bones></canvas></div></th>
@@ -226,7 +226,7 @@ function getSkillContent($skill) { return <<<HTML
         </tbody>
     </table>
     <br><br>
-    <table cellpadding="1" cellspacing="0" class="calculators">
+    <table cellpadding="1" cellspacing="0" class="table">
         <tbody>
             <tr>
                 <th><div class="centered-content"><canvas data-itemname=wolf_bones></canvas> Wolf Bones <canvas data-itemname=wolf_bones></canvas></div></th>
@@ -248,7 +248,7 @@ function getSkillContent($skill) { return <<<HTML
         </tbody>
     </table>
     <br><br>
-    <table cellpadding="1" cellspacing="0" class="calculators">
+    <table cellpadding="1" cellspacing="0" class="table">
         <tbody>
             <tr>
                 <th><div class="centered-content"><canvas data-itemname=big_bones></canvas> Big Bones <canvas data-itemname=big_bones></canvas></div></th>
@@ -277,7 +277,7 @@ function getSkillContent($skill) { return <<<HTML
         </tbody>
     </table>
     <br><br>
-    <table cellpadding="1" cellspacing="0" class="calculators">
+    <table cellpadding="1" cellspacing="0" class="table">
         <tbody>
             <tr>
                 <th><div class="centered-content"><canvas data-itemname=babydragon_bones></canvas> Babydragon Bones <canvas data-itemname=babydragon_bones></canvas></div></th>
@@ -295,7 +295,7 @@ function getSkillContent($skill) { return <<<HTML
         </tbody>
     </table>
     <br><br>
-    <table cellpadding="1" cellspacing="0" class="calculators">
+    <table cellpadding="1" cellspacing="0" class="table">
         <tbody>
             <tr>
                 <th><div class="centered-content"><canvas data-itemname=dragon_bones></canvas> Dragon Bones <canvas data-itemname=dragon_bones></canvas></div></th>

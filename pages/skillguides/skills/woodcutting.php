@@ -15,7 +15,7 @@ function getSkillContent($skill) { return <<<HTML
     <h3>Trees</h3>
     There are several types of trees all over the RuneScape world, the table below shows the types of trees available and where to cut them.
     <br><br>
-    <table class="calculators">
+    <table class="table">
         <tr>
             <th>Tree</td>
             <th>Level required</td>
@@ -60,7 +60,7 @@ function getSkillContent($skill) { return <<<HTML
     <h3>Axes</h3>
     Woodcutters need to be familiar with the tools of their trade. Below is a table that shows the types of woodcutting axes available. Axes can be obtained in either of the following ways:
     <br><br>
-    <table class="calculators">
+    <table class="table">
         <tr>
             <th>Axe</td>
             <th>Level required*</td>

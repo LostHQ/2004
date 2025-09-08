@@ -5,7 +5,7 @@ function getSkillContent($skill) { return <<<HTML
     Attack level dictates how often you hit an enemy. In short, the higher your attack level, the less 0's you hit.
     <br><br>
     Attack level also dictates what weapons a player can wield. The higher your attack level, the stronger weapons you have the ability to wield.
-    <table cellpadding="1" cellspacing="0" class="calculators">
+    <table cellpadding="1" cellspacing="0" class="table">
         <tbody><tr>
             <th>Level</th>
             <th>Metal</th>

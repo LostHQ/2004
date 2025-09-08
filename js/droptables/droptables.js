@@ -325,7 +325,7 @@ function renderDrops(npcData, searchTerm = "") {
   }
 
   let hasContent = false;
-  html += '<table class="calculators" width="100%">';
+  html += '<table class="table" width="100%">';
   if (guaranteedRows.length > 0) {
 
     html += '<tr><th colspan="3">Always Drops</th></tr>';
@@ -675,7 +675,7 @@ function openSharedTableModal(sharedTableName, searchTerm = "", parentChance = n
     `${chainPath} → ${sharedTable.name || sharedTableName}` : 
     (sharedTable.name || sharedTableName);
   
-  let tableHtml = '<table class="calculators" width="100%">';
+  let tableHtml = '<table class="table" width="100%">';
   if (parentChance) {
     tableHtml += '<tr><th>Item</th><th>Amount</th><th>Chance</th><th>Total Chance</th></tr>';
   } else {

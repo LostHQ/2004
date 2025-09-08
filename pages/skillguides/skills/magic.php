@@ -23,7 +23,7 @@ function getSkillContent($skill) { return <<<HTML
     <h3>Rune Types</h3>
     To cast spells in the game you need the correct runes. Each of the runes has a different power, and is used for a different category of spell. Information about each of the runes is shown below:
     <br><br>
-    <table class="calculators">
+    <table class="table">
         <tr>
             <th colspan="2">Runes</th>
         </tr>
@@ -104,7 +104,7 @@ function getSkillContent($skill) { return <<<HTML
     <br><br>
     Below is a table showing at what level you can enchant each item of jewellery, and what the effects of enchanting them are.
     <br><br>
-    <table class="calculators">
+    <table class="table">
         <tr>
             <th>Item name</th>
             <th>Level to enchant</th>

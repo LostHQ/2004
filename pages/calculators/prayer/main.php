@@ -22,7 +22,7 @@ function getCalcContent() { return <<<HTML
     </div>
     <div class="progress-bar-root" id="progress-bar-root"></div>
     <hr>
-    <table id="resultsTable" class="calculators">
+    <table id="resultsTable" class="table">
         <thead>
             <tr>
                 <th>Bone Type</th>

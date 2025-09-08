@@ -25,7 +25,7 @@ function getSkillContent($skill) { return <<<HTML
     <h3>Pickaxes</h3>
     The following is a table showing at what level you can wield the different Pickaxes. The better the Pickaxe, the more chance you have of sucessfully mining the ore.<!-- (added later) A similar table to the one below can be opened in the game by clicking the mining skill icon in the stats menu.-->
     <br><br>
-    <table class="calculators">
+    <table class="table">
         <tr>
             <th>Pickaxe</th>
             <th>Level required</th>
@@ -71,7 +71,7 @@ function getSkillContent($skill) { return <<<HTML
         </tr>
     </table>
     <h3>Mining levels</h3>
-    <table class="calculators">
+    <table class="table">
         <tr>
             <th>Ore</th>
             <th>Level required</th>

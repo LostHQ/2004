@@ -7,7 +7,7 @@ Some weapons in RuneScape have special attacks available for them. There are man
 <br><br>
 They are activated by the player by clicking on the special attack bar under the Combat Options interface. Special attacks have an energy bar that is drained when you use the attack; this is drained of varying amounts according to which weapon is used. The special energy bar regenerates at rate of 10% every 30 seconds, requiring 5 minutes to regenerate from empty to full.
 <br><br>
-<table class="calculators" width="100%">
+<table class="table" width="100%">
     <tr>
         <th colspan="4"><canvas data-itemname="dragon_battleaxe" data-show-label="inline"></canvas></th>
     </tr>
@@ -30,7 +30,7 @@ They are activated by the player by clicking on the special attack bar under the
     </tr>
 </table>
 <br><br>
-<table class="calculators" width="100%">
+<table class="table" width="100%">
     <tr>
         <th colspan="4"><canvas data-itemname="dragon_dagger" data-show-label="inline"></canvas></th>
     </tr>
@@ -53,7 +53,7 @@ They are activated by the player by clicking on the special attack bar under the
     </tr>
 </table>
 <br><br>
-<table class="calculators" width="100%">
+<table class="table" width="100%">
     <tr>
         <th colspan="4"><canvas data-itemname="dragon_longsword" data-show-label="inline"></canvas></th>
     </tr>
@@ -76,7 +76,7 @@ They are activated by the player by clicking on the special attack bar under the
     </tr>
 </table>
 <br><br>
-<table class="calculators" width="100%">
+<table class="table" width="100%">
     <tr>
         <th colspan="4"><canvas data-itemname="dragon_mace" data-show-label="inline"></canvas></th>
     </tr>
@@ -100,7 +100,7 @@ They are activated by the player by clicking on the special attack bar under the
 </table>
 *Contrary to the official description, this attack has increased accuracy.
 <br><br>
-<table class="calculators" width="100%">
+<table class="table" width="100%">
     <tr>
         <th colspan="4"><canvas data-itemname="dragon_spear" data-show-label="inline"></canvas></th>
     </tr>
@@ -123,7 +123,7 @@ They are activated by the player by clicking on the special attack bar under the
     </tr>
 </table>
 <br><br>
-<table class="calculators" width="100%">
+<table class="table" width="100%">
     <tr>
         <th colspan="4"><canvas data-itemname="excalibur" data-show-label="inline"></canvas></th>
     </tr>
@@ -146,7 +146,7 @@ They are activated by the player by clicking on the special attack bar under the
     </tr>
 </table>
 <br><br>
-<table class="calculators" width="100%">
+<table class="table" width="100%">
     <tr>
         <th colspan="4"><canvas data-itemname="magic_shortbow" data-show-label="inline"></canvas></th>
     </tr>
@@ -170,7 +170,7 @@ They are activated by the player by clicking on the special attack bar under the
 </table>
 *Contrary to the official description, this attack has increased accuracy.
 <br><br>
-<table class="calculators" width="100%">
+<table class="table" width="100%">
     <tr>
         <th colspan="4"><canvas data-itemname="magic_longbow" data-show-label="inline"></canvas></th>
     </tr>
@@ -193,7 +193,7 @@ They are activated by the player by clicking on the special attack bar under the
     </tr>
 </table>
 <br><br>
-<table class="calculators" width="100%">
+<table class="table" width="100%">
     <tr>
         <th colspan="4"><canvas data-itemname="rune_thrownaxe" data-show-label="inline"></canvas></th>
     </tr>

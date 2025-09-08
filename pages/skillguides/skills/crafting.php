@@ -4,7 +4,7 @@ function getSkillContent($skill) { return <<<HTML
 <p>
     Crafting is rumoured to be a slow, useless, and boring skill, but once you get into it there's lots to do! You can make everything from pots to collect flour in, to dragonhide armour for rangers. Crafting can be found all over the RuneScape world. In the amulets people wear, the vials you use in herblore and the Mystic Staves Magicians battle with. These items are all made in crafting.
     <br><br>
-    <table class="calculators">
+    <table class="table">
         <tr>
             <th>Crafting Level</th>
             <th>Ingredients</th>

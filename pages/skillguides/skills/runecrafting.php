@@ -38,7 +38,7 @@ function getSkillContent($skill) { return <<<HTML
     <br>
     The following table shows what levels are required to runecraft various runes.<!-- (not implmented yet) A similar table to the one below can be opened in the game by clicking the runecraft skill icon in the stats menu. -->
     <br><br>
-    <table width="100%" cellpadding="1" cellspacing="0" class="calculators">
+    <table width="100%" cellpadding="1" cellspacing="0" class="table">
         <tr>
             <th>Level</th>
             <th>Rune</th>
@@ -105,7 +105,7 @@ function getSkillContent($skill) { return <<<HTML
     <br><br>
     At higher levels you can make up to 10 runes from a single essence, depending on the rune you are crafting.
     <br><br>
-    <table width="100%" cellpadding="1" cellspacing="0" class="calculators">
+    <table width="100%" cellpadding="1" cellspacing="0" class="table">
         <thead>
             <tr>
                 <th rowspan=2>Rune</th>

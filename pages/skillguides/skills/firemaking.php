@@ -20,7 +20,7 @@ function getSkillContent($skill) { return <<<HTML
     <br><br>
     The following table shows what wood types are available in RuneScape, as well as the level required to light them and the experience gained from doing so.<br>
     <br>
-    <table class="calculators">
+    <table class="table">
         <tr>
             <th>Wood Type</th>
             <th>Level required</th>

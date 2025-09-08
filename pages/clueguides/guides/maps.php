@@ -3,7 +3,7 @@ function getGuideContent($guide) { return <<<HTML
 <h2>Treasure Trails $guide Guide</h2>
 <h3>Maps</h3>
 <p>Sometimes you might get a clue scroll, and when you open it up to read it, all you see is a map. Your task is now to find out where that place is, and then, like the pirates always do, take the steps shown on your map, and dig where X marks the spot ;) To dig, you'll need your trusty spade. Here's a list of the different maps:
-<table class="calculators" width="100%">
+<table class="table" width="100%">
   <tr>
     <th colspan=2>Easy Clues</th>
   </tr>
@@ -21,7 +21,7 @@ function getGuideContent($guide) { return <<<HTML
   </tr>
 </table>
 <hr>
-<table class="calculators" width="100%">
+<table class="table" width="100%">
   <tr>
     <th colspan=2>Medium Clues</th>
   </tr>
@@ -35,7 +35,7 @@ function getGuideContent($guide) { return <<<HTML
   </tr>
 </table>
 <hr>
-<table class="calculators" width="100%">
+<table class="table" width="100%">
   <tr>
     <th colspan=2>Hard Clues</th>
   </tr>
@@ -90,7 +90,7 @@ function getGuideContent($guide) { return <<<HTML
 </table>
 <hr>
 <h3>Puzzles</h3>
-<table class="calculators" width="100%">
+<table class="table" width="100%">
   <tr>
     <th colspan=2>Castle Puzzle Box Solver</th>
   </tr>

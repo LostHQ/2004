@@ -131,7 +131,7 @@ function renderXpTable() {
     if (!xpDiv) return console.error('no .xp-table container found');
 
     const table = document.createElement('table');
-    table.classList.add('calculators');
+    table.classList.add('table');
     table.style.width = '90%';
 
     const totalLevels = 98;

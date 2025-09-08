@@ -10,7 +10,7 @@ Sextant - Murphy the trawler sailor in Port Khazard<br>
 Watch - Monk in the Clock Tower<br>
 Navigation Chart - Observatory  (Speak to one of the men.)<br>
 <br>
-<table class="calculators">
+<table class="table">
   <tr>
     <th colspan="2">Medium Clues</th>
   </tr>
@@ -258,7 +258,7 @@ Navigation Chart - Observatory  (Speak to one of the men.)<br>
   </tr>
 </table>
 <hr>
-<table class="calculators">
+<table class="table">
   <tr>
     <th colspan="2">Hard Clues</th>
   </tr>

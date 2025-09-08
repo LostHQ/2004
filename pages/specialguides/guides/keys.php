@@ -5,7 +5,7 @@ This guide will tell you all you need to know about the different keys in Runesc
 <br><br>
 If you are having troubles identifying a key, hover the cursor over the icon to preview its examine text and compare it to the examine text of a key in game. Dashes under "Keep?" means it's up to you whether you want to keep the key or not.
 <br><br>
-<table class="calculators">
+<table class="table">
     <tr>
         <th width="20%">Key Name</th>
         <th>How it's Used</th>

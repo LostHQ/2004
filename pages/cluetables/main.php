@@ -43,7 +43,7 @@ function getPageContent() {
 </table>
 <div class="easyTable">
     <br><br>
-    <table width="100%" class="calculators">
+    <table width="100%" class="table">
         <thead>
             <tr>
                 <th colspan="3">Easy Casket Rewards</th>
@@ -60,7 +60,7 @@ function getPageContent() {
 </div>
 <div class="mediumTable">
     <br><br>
-    <table width="100%" class="calculators">
+    <table width="100%" class="table">
         <thead>
             <tr>
                 <th colspan="3">Medium Casket Rewards</th>
@@ -77,7 +77,7 @@ function getPageContent() {
 </div>
 <div class="hardTable">
     <br><br>
-    <table width="100%" class="calculators">
+    <table width="100%" class="table">
         <thead>
             <tr>
                 <th colspan="3">Hard Casket Rewards</th>

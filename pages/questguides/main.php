@@ -86,7 +86,7 @@ function getPageContent() {
             echo renderMiniQuestList($miniquestlist);
         }
         echo '<br><hr>
-        <table class="calculators">
+        <table class="table">
             <tr>
                 <th>Required for all<br>Free Quests</th>
             <tr>
@@ -214,7 +214,7 @@ function renderQuestListOldschool(array $questlist): string {
     // Determine the max rows needed
     $maxRows = max(count($freeQuests), count($membersQuests));
 
-    $html = '<table class="calculators">';
+    $html = '<table class="table">';
     $html .= '<thead><tr><th>Free Quests</th><th>Members Quests</th></tr></thead><tbody>';
 
     // Render rows
@@ -246,7 +246,7 @@ function renderMiniQuestList(array $miniquestlist): string {
 
 
 function renderMiniQuestListOldschool(array $miniquestlist): string {
-    $html = '<table class="calculators">';
+    $html = '<table class="table">';
     $html .= '<thead><tr><th>Mini Quests</th></tr></thead><tbody>';
 
     foreach ($miniquestlist as $questKey => $questName) {

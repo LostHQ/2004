@@ -150,7 +150,7 @@ function renderOldSchoolTable(canvas) {
   ];
 
   const table = document.createElement("table");
-  table.className = "calculators";
+  table.className = "table";
   table.style.cellPadding = "1";
   table.style.cellSpacing = "0";
 

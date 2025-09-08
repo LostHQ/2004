@@ -8,7 +8,7 @@ function getSkillContent($skill) { return <<<HTML
     <br><br>
     The following is a table showing at what level you will be able to identify each herb.
     <br><br>
-    <table class="calculators">
+    <table class="table">
         <tr>
             <th>Level<br>Requirement</th>
             <th>Unidentified<br>Herb</th>
@@ -100,7 +100,7 @@ function getSkillContent($skill) { return <<<HTML
     <br><br>
     As you reach higher levels you will be able to make more types of potions.
     <h3>Potion Ingredients</h3>
-    <table class="calculators">
+    <table class="table">
         <tr>
             <th>Level<br>Requirement</th>
             <th>Herb and<br>Unf Potion</th>
@@ -277,7 +277,7 @@ function getSkillContent($skill) { return <<<HTML
     <h3>Ground Ingredients</h3>
     The unicorn and dragon scale need to be ground before they can be used in the potions. To grind them use the pestle and mortar bought from the herblore shop.
     <br><br>
-    <table width="98%" cellpadding="1" cellspacing="0" class="calculators">
+    <table width="98%" cellpadding="1" cellspacing="0" class="table">
         <tr>
             <th>Start</th>
             <th>Use with</th>

@@ -348,7 +348,7 @@ A.pink:hover {
         color: #fff;
         cursor: default;
     }
-    .calculators {
+    .table {
         a {
             color: white;
             text-decoration: none;
@@ -363,6 +363,7 @@ A.pink:hover {
         }
 
         table {
+            border-spacing: 2px;
             margin: 20px auto;
             border-collapse: collapse;
             align-items: center;
@@ -370,16 +371,20 @@ A.pink:hover {
         }
 
         th,td {
-            border: 1px solid #382418;
-            padding: 5px;
+            padding: 6px;
             text-align: center;
             vertical-align: center;
         }
 
         th {
-            background-color: #222;
-            color: gold;
+            
+            background-color: #382418;
         }
+
+        td {
+            border: 1px solid #382418;
+        }
+
         td.rare {
             border: 2px solid rgb(130, 93, 0) !important;
         }

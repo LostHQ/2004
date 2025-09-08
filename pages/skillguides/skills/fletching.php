@@ -13,7 +13,7 @@ function getSkillContent($skill) { return <<<HTML
     <br>
     Rarer types of wood are harder to acquire, but make better bows which shoot more accurately. The table below lists the different types of bow you can make.
     <h3>Different types of bow</h3>
-    <table width="100%" cellpadding="1" cellspacing="0" class="calculators">
+    <table width="100%" cellpadding="1" cellspacing="0" class="table">
         <tr>
             <th colspan="4">Bow type</th>
             <th>Fletching Level</th>
@@ -113,7 +113,7 @@ function getSkillContent($skill) { return <<<HTML
     <h3>Making arrows</h3>
     To make an arrow-shaft just use a knife with some ordinary logs. Add a feather to the arrow shaft, and finally add an arrow-head to complete the arrow. Arrow heads can either be purchased from the member's archery shop, or smithed at an anvil. Better arrow heads will inflict more damage, but you will require a better bow to fire them. The table belows lists the different arrow types:
     <br><br>
-    <table width="100%" cellpadding="1" cellspacing="0" class="calculators">
+    <table width="100%" cellpadding="1" cellspacing="0" class="table">
         <tr>
             <th>Arrow Type</th>
             <th>Fletching Level</th>
@@ -163,7 +163,7 @@ function getSkillContent($skill) { return <<<HTML
     <br><br>
     Below is a table showing the level requirements to add tips to bolts.
     <br><br>
-    <table cellpadding="1" cellspacing="0" class="calculators">
+    <table cellpadding="1" cellspacing="0" class="table">
         <tr>
             <th>Bolt tip</th>
             <th>Fletching Level</th>
@@ -186,7 +186,7 @@ function getSkillContent($skill) { return <<<HTML
     <br><br>
     Below is a table showing the level requirements to make and wield darts.
     <br><br>
-    <table width="100%" cellpadding="1" cellspacing="0" class="calculators">
+    <table width="100%" cellpadding="1" cellspacing="0" class="table">
         <tr>
             <th>Dart Type</th>
             <th>Smithing level to make dart tips</th>

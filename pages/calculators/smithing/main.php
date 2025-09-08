@@ -41,7 +41,7 @@ function getCalcContent() { return <<<HTML
         </select>
     </div>
     
-    <table id="resultsTable" class="calculators">
+    <table id="resultsTable" class="table">
         <thead>
             <tr>
                 <th>Level</th>

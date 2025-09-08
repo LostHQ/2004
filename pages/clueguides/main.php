@@ -52,7 +52,7 @@ Coordinate clues with you or your treasure will not be revealed.<br>
 <br>
 <hr>
 <h3>Clue Guides</h3>
-<table class="calculators">
+<table class="table">
   <thead>
     <tr>
       <th colspan=2>Select your clue type to see<br>the relevant guides for that clue.</th>
@@ -124,7 +124,7 @@ Search for "Clue Scroll"
 <br><br>
 <h3>Common Farming Locations</h3>
 Here is a list of commonly farmed NPCs and their locations.
-<table class="calculators">
+<table class="table">
   <tr>
     <th>Scroll</th>
     <th>NPC/Location</th>

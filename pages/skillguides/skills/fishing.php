@@ -11,7 +11,7 @@ function getSkillContent($skill) { return <<<HTML
         </tr>
     </table>
     <br>
-    <table class="calculators">
+    <table class="table">
         <tr>
             <th>Fish</th>
             <th>Level<br>Required</th>

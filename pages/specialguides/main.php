@@ -47,7 +47,7 @@ function getPageContent() {
 }
 
 function renderSpecialList(array $speciallist): string {
-    $html = '<table class="calculators" style="width: 40%;">';
+    $html = '<table class="table" style="width: 40%;">';
     $html .= '<thead><tr><th>Guides</th></tr></thead><tbody>';
 
     foreach ($speciallist as $specialKey => $specialName) {

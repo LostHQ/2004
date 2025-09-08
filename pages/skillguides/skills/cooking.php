@@ -14,7 +14,7 @@ function getSkillContent($skill) { return <<<HTML
 	<br><br>
 	The table below will show you the foods you can cook, the level requirements to cook them, and how much each food heals. Clicking the item names in the table will take you to instructions for making that item, all of which are listed below the table.
 	<br><br>
-	<table width="100%" cellpadding="1" cellspacing="0" class="calculators">
+	<table width="100%" cellpadding="1" cellspacing="0" class="table">
 		<tbody>
 			<tr> 
 			<th>Food</th>

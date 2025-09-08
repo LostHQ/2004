@@ -9,7 +9,7 @@ function getPageContent() {
 
     return <<<HTML
 <div style="display: inline-block; border: 1px solid #ccc;">
-  <table width="100%" class="calculators">
+  <table width="100%" class="table">
     <tr>
       <th colspan="3">LostHQ is brought to you by</th>
     </tr>
@@ -22,7 +22,7 @@ function getPageContent() {
       <td>Collin</td>
     </tr>
   </table>
-  <table width="100%" class="calculators">
+  <table width="100%" class="table">
     <tr>
       <th colspan="3">Special thanks to our additional Contributors:</th>
     </tr>
@@ -31,7 +31,7 @@ function getPageContent() {
       <td>Akg</td>
     </tr>
   </table>
-  <table width="100%" class="calculators">
+  <table width="100%" class="table">
     <tr>
       <th colspan="3">Bug Hunter's Club:</th>
     </tr>
@@ -122,6 +122,7 @@ function getPageContent() {
     </tr>
   </thead>
   <tbody>
+    <tr><td>08/09/2025</td><td>Updated theme of tables to match 2004scape</td></tr>
     <tr><td>08/09/2025</td><td>Added Stat Boosting guide</td></tr>
     <tr><td>03/09/2025</td><td>Added Strength and Hitpoints skill guides</td></tr>
     <tr><td>29/08/2025</td><td>Updated all skill guides</td></tr>

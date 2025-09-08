@@ -27,7 +27,7 @@ function getCalcContent() { return <<<HTML
     <button onclick="setMode('chests')">Chests</button>
     <button onclick="setMode('pickabledoors')">Doors</button>
     <br><br>
-    <table id="resultsTable" class="calculators">
+    <table id="resultsTable" class="table">
         <thead>
             <tr>
                 <th>Level</th>

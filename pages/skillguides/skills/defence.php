@@ -96,7 +96,7 @@ function getSkillContent($skill) { return <<<HTML
 </table>
 <hr>
 <h3>Level up table</h3>
-<table class="calculators">
+<table class="table">
     <tr>
         <th>Armor</th>
         <th>Level required</th>

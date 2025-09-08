@@ -25,7 +25,7 @@ function getCalcContent() { return <<<HTML
     <button onclick="setMode('courses')">Courses</button>
     <button onclick="setMode('shortcuts')">Shortcuts</button>
     <br><br>
-    <table id="resultsTable" class="calculators" width="100%">
+    <table id="resultsTable" class="table" width="100%">
         <thead>
             <tr>
                 <th>Level</th>

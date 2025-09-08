@@ -4,7 +4,7 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
 This guide lists everything that can boost stats in RuneScape.
 <br><br>
 <h3>Stat Boosting Alcohol</h3>
-<table class="calculators">
+<table class="table">
     <tr>
         <th width="22%">Beer</th>
         <th width="29%">Effect</th>
@@ -69,7 +69,7 @@ This guide lists everything that can boost stats in RuneScape.
     </tr>
 </table>
 <h3>Stat Boosting Potions</h3>
-<table class="calculators" width="100%">
+<table class="table" width="100%">
     <tr>
         <th>Potion</th>
         <th>Effect</th>
@@ -117,7 +117,7 @@ This guide lists everything that can boost stats in RuneScape.
     </tr>
 </table>
 <h3>Special Attacks</h3>
-<table class="calculators" width="100%">
+<table class="table" width="100%">
     <tr>
         <th width="20%">Weapon</th>
         <th>Effect</th>

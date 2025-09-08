@@ -37,7 +37,7 @@ Climb over this net, almost at the end now.<br>
 Crawl through these pipes to end up on the other side.<br>
 Congratulations on completing a whole lap! Heres how the xp works for this course.
 <br><br>
-<table class="calculators">
+<table class="table">
     <tr>
         <th>Level</th>
         <th>Obstacle</th>
@@ -116,7 +116,7 @@ Edge over the spikes by walking across the ledge (could fall into the spikes).<b
 Now jump over each of these three crumbling walls.<br>
 Congratulations on completing a whole lap! Heres how the xp works for this course.
 <br><br>
-<table class="calculators">
+<table class="table">
     <tr>
         <th>Level</th>
         <th>Obstacle</th>
@@ -190,7 +190,7 @@ Balance over this pit by walking across the log (could fall into spikes).<br>
 Now walk past some skeletons and climb up the rocks to finish.<br>
 Congratulations on completing a whole lap! Heres how the xp works for this course.
 <br><br>
-<table class="calculators">
+<table class="table">
     <tr>
         <th>Level</th>
         <th>Obstacle</th>
@@ -248,7 +248,7 @@ Congratulations on completing a whole lap! Heres how the xp works for this cours
 </table>
 <hr>
 <h3>Other Obstacles</h3>
-<table class="calculators">
+<table class="table">
     <tr>
         <th>Level</th>
         <th>Obstacle</th>

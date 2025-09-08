@@ -2,7 +2,7 @@
 function getGuideContent($guide) { return <<<HTML
 <h2>Treasure Trails $guide Guide</h2>
 <p>Riddles are primarily to test your Runescape knowledge. If you remember most of the stuff you learned through quests and other information, you shouldn't have a problem with these. However, since there's one or two things that might have slipped your mind, here's a list of the current riddles:
-<table class="calculators">
+<table class="table">
   <tr>
     <th colspan="2">Easy Clues</th>
   </tr>
@@ -108,7 +108,7 @@ function getGuideContent($guide) { return <<<HTML
   </tr>
 </table>
 <hr>
-<table class="calculators">
+<table class="table">
   <tr>
     <th colspan="2">Medium Clues</th>
   </tr>
@@ -138,7 +138,7 @@ function getGuideContent($guide) { return <<<HTML
   </tr>
 </table>
 <hr>
-<table class="calculators">
+<table class="table">
   <tr>
     <th colspan="2">Hard Clues</th>
   </tr>
@@ -216,7 +216,7 @@ function getGuideContent($guide) { return <<<HTML
   </tr>
 </table>
 <hr>
-<table class="calculators">
+<table class="table">
   <tr>
     <th colspan="2">Notes/Inscriptions</th>
   </tr>
