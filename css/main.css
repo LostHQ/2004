@@ -3,7 +3,14 @@ html {
 }
 
 body {
+    margin: 0;
+    color: white;
+    background-color: black;
     min-height: 100%;
+}
+
+a {
+    color: #90c040;
 }
 
 .main-menu {

@@ -1,17 +1,23 @@
-<body style="<?php echo $background; ?>" text="white" link="#90c040" alink="#90c040" vlink="#90c040" topmargin="0" leftmargin="0"
-<?php if (function_exists('onBodyLoad')) { echo 'onload="'.onBodyLoad().'"'; } ?>
->
+<body<?= function_exists('onBodyLoad') ? ' onload="'.onBodyLoad().'"': '' ?>>
 <table width="100%" height="100%" cellpadding="0" cellspacing="0"><tbody><tr>
 <td style="display:flex;justify-content:center;align-items:center;">
   <div style="LEFT: 0px; TOP: 0px; WIDTH: 600px; POSITION: relative;">
+    <?php if ($holiday) { ?>
+      <table cellpadding="0" cellspacing="0"><tbody><tr></tr>
+        <td><img src="<?= $edge_a ?>" width="100" height="43" hspace="0" vspace="0"></td>
+        <td><img src="img/edge_c.jpg" width="400" height="42" hspace="0" vspace="0"></td>
+        <td><img src="<?= $edge_d ?>" width="100" height="43" hspace="0" vspace="0"></td>
+      </tr></tbody></table>
+      <table width="600" cellpadding="0" cellspacing="0" background="<?= $background ?>">
+    <?php } else { ?>
+      <table cellpadding="0" cellspacing="0"><tbody><tr></tr>
+        <td><img src="img/edge_a.jpg" width="100" height="43" hspace="0" vspace="0"></td>
+        <td><img src="img/edge_c.jpg" width="400" height="42" hspace="0" vspace="0"></td>
+        <td><img src="img/edge_d.jpg" width="100" height="43" hspace="0" vspace="0"></td>
+      </tr></tbody></table>
+      <table width="600" cellpadding="0" cellspacing="0" background="img/background2.jpg">
+    <?php } ?>
 
-    <table cellpadding="0" cellspacing="0"><tbody><tr>
-      <td><img src="<?php echo $edge_a; ?>" width="100" height="43" hspace="0" vspace="0"></td>
-      <td><img src="img/edge_c.jpg" width="400" height="42" hspace="0" vspace="0"></td>
-      <td><img src="<?php echo $edge_d; ?>" width="100" height="43" hspace="0" vspace="0"></td>
-    </tr></tbody></table>
-
-    <table width="600" cellpadding="0" cellspacing="0" background="img/background2.jpg">
       <tbody>
         <tr>
           <td style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
