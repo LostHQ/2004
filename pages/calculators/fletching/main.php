@@ -26,7 +26,7 @@ function getCalcContent() { return <<<HTML
     <button onclick="setMode('complete')">Fletching & Stringing</button>
     <button onclick="setMode('unstrung')">Unstrung</button>
     <button onclick="setMode('stringing')">Stringing</button>
-    <button onclick="setMode('arrows')">Arrows/Bolts</button>
+    <button onclick="setMode('arrows')">Arrows/Bolts/Darts</button>
     <br><br>
     <div class="input-group" id="arrowSelection" style="display: none">
         <label for="arrowType">

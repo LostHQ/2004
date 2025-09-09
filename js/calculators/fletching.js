@@ -28,16 +28,22 @@ function runCalc() {
     
     const arrows = {
         "Arrow Shaft x15": [7.5, 1],
+        "Bronze Dart x10": [18, 1],
         "Headless Arrow x15": [22.5, 1],
         "Bronze Arrow x15": [42, 1],
         "Opal Bolt x10": [31, 11],
         "Iron Arrow x15": [60, 15],
+        "Iron Dart x10": [38, 22],
         "Steel Arrow x15": [97.5, 30],
+        "Steel Dart x10": [75, 37],
         "Pearl Bolt x10": [64, 41],
         "Mithril Arrow x15": [135, 45],
         "Barbed Bolt x10": [95, 51],
+        "Mithril Dart x10": [112, 52],
         "Adamant Arrow x15": [172.5, 60],
-        "Rune Arrow x15": [210, 75]
+        "Adamant Dart x10": [150, 67],
+        "Rune Arrow x15": [210, 75],
+        "Rune Dart x10": [188, 81]
     };
 
     const incomplete = {
