@@ -2,11 +2,11 @@
     <tbody>
         <tr>
             <td class="e">
-                <a href="?">Main Menu</a>
-                - <a href="https://2004.lostcity.rs/worldmap" target="_blank">World Map</a>
-                - <a href="https://2004.lostcity.rs/hiscores" target="_blank">Hiscores</a>
-                - <a href="https://lostcity.markets" target="_blank">Market Place</a>
-                - <a href="https://discord.gg/jdFmMvz33j" target="_blank">Discord</a>
+                <a class="c" href="?">Main Menu</a>
+                - <a class="c" onclick="window.open('https://2004.lostcity.rs/worldmap', 'World Map', 'width=800,height=600');">World Map</a>
+                - <a class="c" onclick="window.open('https://2004.lostcity.rs/hiscores', 'Hiscores', 'width=800,height=600');">Hiscores</a>
+                - <a class="c" onclick="window.open('https://lostcity.markets', 'Markets', 'width=800,height=600');">Markets</a>
+                - <a class="c" onclick="window.open('https://discord.gg/jdFmMvz33j', 'Discord', 'width=800,height=600');">Discord</a>
             </td>
         </tr>
     </tbody>
