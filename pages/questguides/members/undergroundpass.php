@@ -8,6 +8,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <b>Difficulty: <font color="Red">Experienced</font></b>
 <br><br>
 <b>Length: <font color="Red">Long</font></b><br>
+<h3>Required Quests:</h3>
 <ul style="list-style-type: none;">
 <li><div data-progress>Biohazard</div></li>
 <li><div data-progress>Plague City</div></li>
@@ -15,20 +16,20 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h3>Items & Skills Needed:</h3>
 <ul style="list-style-type: none;">
 <li><div data-progress>25 Ranged</div></li>
-<li><div data-progress><canvas data-itemname="rope" data-size="25"></canvas>&nbsp;&nbsp;2 ropes</div><br></li>
+<li><div data-progress><canvas data-itemname="rope" data-size="25"></canvas>&nbsp;&nbsp;2-6 ropes</div><br></li>
 <li><div data-progress><canvas data-itemname="shortbow" data-size="25"></canvas>&nbsp;&nbsp;Any bow</div><br></li>
-<li><div data-progress><canvas data-itemname="bronze_arrow" data-size="25"></canvas>&nbsp;&nbsp;1-5 arrows</div><br></li>
+<li><div data-progress><canvas data-itemname="bronze_arrow" data-size="25"></canvas>&nbsp;&nbsp;1-10 arrows of any type</div><br></li>
 <li><div data-progress><canvas data-itemname="spade" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress>The ability to defeat three level 91 demons (safespottable)</div></li>
 </ul>
 <h3>Recommended:</h3>
 <ul style="list-style-type: none;">
 <li><div data-progress>79 Combat</div></li>
-<li><div data-progress>50 Agility</div></li>
-<li><div data-progress>50 Thieving</div></li>
-<li><div data-progress>43 Prayer</div></li>
-<li><div data-progress>Decent armor/weapon/spells</div></li>
-<li><div data-progress><i>Lots</i> of food</div></li>
+<li><div data-progress>50 Agility to have a better success rate on agility checks</div></li>
+<li><div data-progress>50 Thieving to access a shortcut</div></li>
+<li><div data-progress>43 Prayer for Protect from Melee</div></li>
+<li><div data-progress>Decent magic armor & spells</div></li>
+<li><div data-progress><i>Lots</i> of good food</div></li>
 <li><div data-progress>Teleports to Ardougne</div></li>
 <li><div data-progress>Runes for Telekinetic Grab</div></li>
 </ul>
@@ -39,112 +40,157 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <hr>
 <h3>Instructions:</h3>
 <br>
-<div data-progress>Start by talking to King Lathas, who is on the <span data-floors="US">2nd floor</span> of the Paladin Tower in Ardougne, he will tell you about the quest and tells you to talk to one of his scouts.</div>
+<div data-progress>Start by talking to King Lathas, who is on the <span data-floors="US">2nd floor</span> of the Paladin Tower in Ardougne. Accept the quest to find a way through the underground pass. He will tell you a scout, named Koftik, will meet you at the entrance in West Ardougne.</div>
 <br><br>
-<div data-progress>Head to west Ardournge and go as west as you can go and you should find Koftik, talk to him and then enter the cave near him.</div>
+<div data-progress>Head to West Ardounge. You should find Koftik in the north-west corner near a cave entrance. Talk to him and then enter the cave.</div>
 <br><br>
-<div data-progress>Now there are two choices: if you brought two ropes, you can use one on a stalactite, or you can take the Agility route by climbing over the rockslides. I recommend climbing the rockslides.</div>
+<hr>
+<h3>First Level</h3>
+<div data-progress>Upon entry, you find two paths to avoid the swamp in the middle. If you brought extra ropes, you can use one on a stalactite to the north, or you can take the Agility route by climbing over the rockslides to the south. I recommend climbing the rockslides, as you will need ropes later.</div>
 <br><br>
-<div data-progress>On the other side of the swamp, you'll meet Koftik again, talk to him and you get a damp cloth use it on the arrows you took to get a fire arrow, talk to him again to get another damp cloth and wrap it around the other arrows, repeat until you have round about 10 fire arrows. Use these arrows on the fire near by to set them alight.</div>
+<div data-progress>You will need two inventory spots for this next step. Talk to Koftik again, who will give you a cloth he found. Use the cloth on an arrow you brought. You can do this multiple times in case you fail. Koftik can give you multiple cloths. Use these arrows on the fire nearby to set them alight.</div>
 <br><br>
-<img src="img/questimages/underground1.jpg" height="100" width="100"><br>
+<img src="img/questimages/underground1.jpg"><br>
 <br>
-<div data-progress>Now, go around the cliff to the north and you should be behind a fence, try shooting at the guide ropes that hold the bridge up. When you hit it you are automatically taken across it. Positioning is critical when shooting at the ropes, you should stand at the center of the fence's length.</div>
+<div data-progress>Now, go around the cliff to the north, and you should be behind a fence. Try shooting at the guide ropes that hold the bridge up. When you hit it, you are automatically taken across it. Positioning is critical when shooting at the ropes; you should stand at the center of the fence's length.</div>
 <br><br>
-<div data-progress>Now head north and pick up the plank that is guarded by blessed spiders then head south and follow the path.</div>
+<div data-progress>Head north and pick up the plank that is guarded by blessed spiders, then head south and follow the path.</div>
 <br><br>
-<div data-progress>You should find a gap with a pole shaped rock above it, use your rope on the rock to get across. Follow the path and go down the small alley climbing over a rockslide. After you climb it there should be another to the west that you should climb as well.</div>
+<div data-progress>You should find a gap with a pole-shaped rock above it. If you have a low agility level, you may fail this part multiple times and lose your rope. Try and use your rope on the rock to get across.</div>
 <br><br>
-<div data-progress>Now you should find Koftik, talk to him and you will find that he is slowly being possessed.</div>
+<div data-progress>Follow the path and go down the small alley climbing over a rockslide. After you climb it there should be another to the west that you should climb as well.</div>
 <br><br>
-Here is the grid. The right order to successfully cross is...<br>
-<div data-progress>First row. 1 spot from north</div><br>
-<div data-progress>Second row. 2 spot from north</div><br>
-<div data-progress>Third row. 2 spot from north</div><br>
-<div data-progress>Fourth row. 2 stop from north</div><br>
-<div data-progress>Fifth row. 2 spot from north</div><br>
-<div data-progress>Find the block you can stand on in the first row</div><br>
-<div data-progress>Then try path 1, 2, or 3.</div><br>
-<br>
-Once you find one of those that work, (path 3 in the example) try again path's 1, 2, or 3.<br>
-Continue this process until you find a safe path across if you fall climb back up on protruding rocks or you will continue to receive hits.
+<div data-progress>Follow the path climbing over two rockslides until you meet up with Koftik again. Talk to him, and you will find that he is slowly being possessed.</div>
 <br><br>
-<img src="img/questimages/underground2.jpg" height="350" width="350">
+Here is the 5x5 grid. It is basically a game of process of elimination and a memory game. Each safe path to cross is different for each account.
 <br><br>
-<div data-progress>Once across pull the lever and the portcullis should open, you automatically walk through. Follow the path to were the zombies are and either run through the west alley if you are not at all good at thieving, or if you are try to search the odd markings on the west alley and disarm the traps.</div>
+<div data-progress>Find the “square” you can stand on in the first row. Once you find that, then the next one can branch out to any tile adjacent.</div>
 <br><br>
-<img src="img/questimages/underground3.jpg" height="350" width="350">
+<div data-progress>Continue this process until you find a safe path across. If you fall, climb back up on protruding rocks or you will continue to receive hits.</div>
 <br><br>
-<div data-progress>When you are across all the traps there should be a well in the middle of the room. This part is quite easy, go up the north road and notice there are flat rocks on the floor, use the plank on the flat rocks to cross until you get to the the orb of light. Pick it up, then return to the well.</div>
+<img src="img/questimages/underground2.jpg" width="450">
 <br><br>
-<img src="img/questimages/underground4.jpg" height="350" width="350">
+NOTE: If you plan to do the Regicide quest in the future, it's best to keep your character's path noted.
 <br><br>
-<div data-progress>Run across the northwest path trying not to get hit by the enemies, pick up the orb of light and return to the well.</div>
+<div data-progress>Once across, pull the lever to the south, and the portcullis should open; you will automatically walk through.</div>
 <br><br>
-<div data-progress>The west path is the same as the north path, just use your plank on the flat rocks pick the orb of light up and return to the well.</div>
+<img src="img/questimages/underground3.jpg" width="450">
 <br><br>
-<div data-progress>This is the easiest path, the south west path, search the flat stone under the orb. When you try to pick it up, you'll be asked whether you want to disarm it. If you fail, you will be damaged by a swinging log. If you succeed return back to the well.</div>
+<div data-progress>Follow the path to where the zombies are and a furnace to the north.</div>
 <br><br>
-<div data-progress>Now either run across the path with the strange markings or search the odd markings and disarm the traps to return to the room with the zombies. Use all the orbs with the furnace and go back across to the room with the well, either by disarming the traps or running through.</div>
+Before entering the west alley, look on both sides of the walls until you see the multiple odd markings on either side. These are the traps. You can either search them and disarm them with high thieving, or skip them by performing the running skip. To perform a running skip, stop your character right before the trap, then click the tile right after the trap. The game does not register your character on the trap tile, just the tiles adjacent to it.
 <br><br>
-<img src="img/questimages/underground5.jpg" height="350" width="350">
+<div data-progress>When you have cleared all the wall traps, there should be a well and a skeleton you can search for an old journal in the middle of the room. Read to learn more about what we are doing next.</div>
 <br><br>
-<div data-progress>Climb down the well and search the crates nearby, one will contain some food. Now run across the path to get to some cages. Pick the lock on the cage to the southeast, then use the spade on the mud to get through a tunnel.</div>
+<img src="img/questimages/underground4.jpg" width="450">
 <br><br>
-<img src="img/questimages/underground6.jpg" height="350" width="350">
+<div data-progress>Go up the north road and notice there are flat rocks on the floor, use the plank on the flat rocks to cross until you get to the the orb of light. Pick it up, then return to the well.</div>
 <br><br>
-<div data-progress>Head west and cross the ledge to reach another difficult part. If you are a level 50+ thief then pick lock the gate and then the other gate or, if you're not good at Thieving like me, you'll need to cross the stone bridges to get to the other end.</div>
+<div data-progress>The west path is the same as the north path. Use your plank on the flat rocks pick the orb of light up and return to the well.</div>
 <br><br>
-<img src="img/questimages/underground7.jpg" height="350" width="350">
+<div data-progress>Turn on Protect from melee, if you wish, and run into the northwest path. Pick up the Orb of Light and return to the well.</div>
+<br><br>
+<div data-progress>The south west path is a thieving check, search the flat stone under the orb. When you try to pick it up, you'll be asked whether you want to disarm it. If you fail, you will be damaged by a swinging log. If you succeed, you should now have all 4 orbs. Return back to the well.</div>
+<br><br>
+<div data-progress>Avoiding the wall traps again, make your way to the furnace to the east with the zombies. Use all the orbs with the furnace, destroying them.</div>
+<br><br>
+<img src="img/questimages/underground5.jpg" width="450">
+<br><br>
+<div data-progress>Avoiding the wall traps, return to the well. Pray at the altar if you need to, then climb down the well to the next level.</div>
+<br><br>
+<hr>
+<h3>Second Level</h3>
+<div data-progress>Search the crates nearby; one will contain some food.</div>
+<br><br>
+<div data-progress>Now run west to the cages. Pick the lock on the southeast cage, then use the spade on the mud to get through a tunnel.</div>
+<br><br>
+<img src="img/questimages/underground6.jpg" width="450">
+<br><br>
+<div data-progress>Head west and cross the ledge past the giant rats to reach another difficult part. If you fail to cross this ledge, go north and east back to the cages. Repeat the previous step to get back to the ledge.</div>
+<br><br>
+<div data-progress>If you are a level 50+ Thieving, then run all the way south and picklock the two gates to get across. If you're not good at Thieving like me, follow the correct path to get to the east side of the map. There are 3 intersections you will find. First intersection go south, second go north, third go north. You should end up on the east side.</div>
+<br><br>
+<img src="img/questimages/underground7.jpg" width="450">
 <br><br>
 <div data-progress>Follow the path south and go through the obstacle pipe.</div>
 <br><br>
-<div data-progress>Search the Unicorn Cage for a railing. Go around to where the boulder is.</div>
+<div data-progress>Search the Unicorn Cage for a railing. Go around south to where the boulder is.</div>
 <br><br>
-<div data-progress>Use the Railing Pipe to move the boulder. Go back to the unicorn cage and search it for the unicorn horn.</div>
+<div data-progress>Use the Railing Pipe to push the boulder down the hill. You can discard the pipe now.</div>
 <br><br>
-<div data-progress>Now enter the tunnel nearby.</div>
+<div data-progress>Go back to the unicorn cage and search it for the unicorn horn. Keep it on you for the next well.</div>
 <br><br>
-<div data-progress>Continue down the path past Zombies.</div>
+<div data-progress>Enter the north tunnel. Continue north past the Zombies until you find 3 Paladins.</div>
 <br><br>
-<div data-progress>Talk to Carl the Paladin, he gives you food and a prayer potion. Then slaughter all of the paladins for Crests.</div>
+<div data-progress>Talk to Carl the Paladin, he gives you food and a prayer potion. Then slaughter all of the paladins for Crests. Keep track of which Paladins you have already killed as they respawn. Each Crest is also in different colors. Be aware, if you don't bring 3 different crests to the well, it won't unlock the door.</div>
 <br><br>
-<div data-progress>Continue down the path and use the plank on the flat rock to disarm it.</div>
+Protip: To safe spot the Paladins with magic, attack them, then run west into the tunnel out of their wander radius. Lure them to the west side of the south stalagmite. They will try to pull you into their wander radius, but can't due to the stalagmite.
 <br><br>
-<div data-progress>Use the Unicorn Horn and Crests on the well type thing and go through the door. (Note this is the well you use your iban staff on to recharge it once you hae finished the quest and have used all the charges)</div>
+<div data-progress>Once you have all 3 different Crests and the Unicorn horn, continue down the west path and use the skip run method or plank on the flat rock to safely cross it.</div>
 <br><br>
-<div data-progress>Before doing any of this you should go down to the south entrance and talk to the dwarf which will tell you about the witch. only after talking with the dwarfs until they mention a witch that is friends with iban, you can pick up the cat when you see the witch searching for it through the window. IF YOU DON'T DO THIS YOU CAN'T PICK UP THE CAT!</div>
+<div data-progress>Use the Unicorn Horn and 3 Crests on the well. You should get game dialogue saying the door has unlocked. Go through the door. (Note: this is the well you use your iban staff on to recharge it once you have finished the quest and have used all the charges)</div>
 <br><br>
-<div data-progress>In this area, go to the south along the east wall until you get to the south wall then head back up the east wall until you get to a bridge thing, cross it then go to the hut to the south and search the window. The witch is looking for her cat, to find it follow this pattern north, west, north, west etc etc… until you find the cat, then go back to the witches hut, use the cat on the door or knock on the door, I can't remember which, while she is playing with the cat, open the door, and search the chest inside.</div>
+<hr>
+<h3>Third Level</h3>
+<div data-progress>Walk along the east edge of the cave until you get to the south hole in the wall with the stairs. Go down the stairs.</div>
 <br><br>
-<div data-progress>Go back to where you found the cat, then go west and south to the demons. Head to the southwest of the huge, maze-like area. Kill the three special demons—it might take a while to find them—and collect their amulets. Open the nearby Chest for the Soul of Iban. Smear it on the Doll.</div>
+<div data-progress>Go west along the fence and find three dwarves there, Niloof, Klank, and Kamen. Speak to Niloof, who will tell you about the witch above. He will also provide you with 2 pies and 2 pizzas. Now that you know about the witch, you can help find her cat. IF YOU DON'T DO THIS STEP, YOU CAN'T PICK UP THE CAT!</div>
 <br><br>
-<div data-progress>When you go back to dwarves or if you fall your at the dwarves, you should end in a HUGE open area. Go to the southwest for some Dwarves. After you've got the Witch's items, talk to all the dwarfs, Klank will give you Klank's Gauntlets and a tinderbox. Take the Bucket. Empty the single indoor barrel in the house for Dwarf Brew.</div>
+Anytime you fall on the agility checks above, you may lose 20 hitpoints and will end up just north of the stairs. You can always visit the dwarves if you wish, as Kamen can offer you food. Be aware, he also offers you a dwarf's brew, which can decrease your agility level by 4.
 <br><br>
-<div data-progress>Go east in this area to reach Iban's tomb. Use the Dwarf Brew on it, then set it on fire with a tinderbox. Take Iban's flesh and smear it on the Doll. *You can now drop your Tinderbox*</div>
+<div data-progress>Go back to where you came from, to the south stairs, and climb up. Once up on the ledge again, go east from the stairs, then north. Once you reach your first bridge to the west, complete your first agility check and jump over the gap.</div>
 <br><br>
-<div data-progress>Head to the northeast. To where all the spiders are. Kill the huge spider to get blood. Smear it on the doll.</div>
+<div data-progress>The Witch's house is just south of you. If you knock on the door or search the window, you realize she is searching for her cat. The cat is nearby on the ledges. Go back north onto the bridge, going west, and complete the agility check again. Now go north west until you find a black cat. Pick it up.</div>
 <br><br>
-<img src="img/questimages/underground8.jpg" height="350" width="350">
+<div data-progress>Go back to the witch's hut and use the cat on the door. The witch will be distracted now that her cat has returned. You can enter and search the chest just inside for the doll of Iban, the history of Iban book, super attack potion, and a restore potion. Leave the house.</div>
 <br><br>
-<div data-progress>Go upstairs (stairs are to the northwest and south).</div>
+<hr>
+<h3>Iban's Tomb</h3>
+You must now complete the ritual explained in the book again to defeat Iban. You can gather all four items in any order you wish.
+<h4>Iban's Shadow</h4>
+<div data-progress>From the witch's house, you can see demons just west. Find your way there and kill each of them to collect the amulets they drop. You can safespot each one by staying on the bridge, not entering their platform. The last demon requires an agility check, but if you have telekinetic runes, you can kill and telekinetic grab the amulet it drops, avoiding the agility check.</div>
 <br><br>
-<div data-progress>Go all the way northwest of the Maze. Wear Klank's Gauntlets, and Search Cages. The soulless will bite you, but will fail because you're wearing nice Gauntlets =) The cage that contains the dove is very hard to find but keep at it and you should find it.</div>
+<div data-progress>Open the nearby Chest for Iban's Shadow. Use it on the Doll.</div>
+<h4>Iban's Body</h4>
+<div data-progress>Go back to the dwarves and talk to Klank and Kamen. You will receive Klank's Gauntlets and a tinderbox.</div>
+<br><br>
+<div data-progress>Take the Bucket spawn in the west house. Now go to the east house, use bucket on the barrel to empty the barrel for Dwarf Brew.</div>
+<br><br>
+<div data-progress>Go far south-east in this area to reach Iban's tomb. Use the Dwarf Brew on it, then set it on fire with a tinderbox. You will automatically find Iban's ashes. Use it on the Doll. You can now drop your Tinderbox and bucket.</div>
+<h4>Iban's Blood</h4>
+<div data-progress>Head to the northeast part of the map to where all the spiders are. Protect from Melee if you wish and Kill the huge spider to get Iban's blood. BEWARE, once you kill the big spider, all the smaller ones will become aggressive. Use the blood on the doll.</div>
+<br><br>
+<img src="img/questimages/underground8.jpg" width="450">
 <br>
+<h4>Iban's Dove</h4>
+<div data-progress>Wear Klank's Gauntlets for the next part to avoid getting bitten by the soulless.</div>
+<br><br>
+<div data-progress>Go upstairs, back to the cave with all the bridge platforms. Make your way to the west edge, going north. You will find 16 soulless in cages in the north-west corner.</div>
+<br><br>
+<div data-progress>Search each Cage until you find the Dove. Each Cage you search the soulless will try to bite you, but if you are wearing Klank's Gauntlet's you will avoid all damage.</div>
+<br><br>
 Note: When looking for the dove, remember there are two cage sections—one in the northwestern corner and another slightly farther south.
 <br><br>
-<div data-progress>Now for the Final Battle. Head to the middle of the maze, kill some Iban Disciples for Zamorak Robes, wear them, and go inside. Before entering the temple, make sure you have two or three empty inventory slots. In order to enter the temple you cannot have anything in your weapon inventory except for the Robe of Zamorak. If you need food Klank will sell some to you.</div>
+<hr>
+<h3>Final Battle</h3>
+<div data-progress>Head to the middle of the maze; from the soulless, take the bridges south. Kill an Iban Disciple for Zamorak Robes. You must only have a Zamorak robe top and bottom equipped to go inside.</div>
 <br><br>
-<div data-progress>Iban will see you have the only weapon to destroy him, the complete Doll. He will blast spells at you! Which are monster legs coming up from the floor in my opinion. Make sure that you have 3 empty spots of inventory.</div>
+<div data-progress>You can now drop all quest materials to make space, except for the doll. Make sure you have two empty inventory slots and are at full health. All you need are your valuables, the doll, food, and a teleport out.</div>
 <br><br>
-<div data-progress>Run towards him, hopefully dodging the shots, and throw the Doll into the Well. Iban will die. Stay there after throwing the doll; it will take a little while for the blasts to stop.</div>
+<div data-progress>Search the doll to make sure you have completed the ritual and smeared all 4 items of iban on it.</div>
 <br><br>
-<div data-progress>You will be flung into an underground area. Talk to the helper again and he'll take you outside.</div>
+Note that the left click on the doll is Search. This interrupts your actions. Be ready to right-click the doll to use it! The blast spells inside the room also stun and damage you.
+<br><br>
+<div data-progress>Run towards the well, hopefully dodging the shots, and right click USE DOLL on WELL. Iban will die. Stay there after throwing the doll; it will take a little while for the blasts to stop.</div>
+<br><br>
+<div data-progress>Once completed, Iban will be banished from Gelinor. You will be given 15 death runes and 30 fire runes, and the Staff of Iban from looting the body.</div>
+<br><br>
+<div data-progress>You will be flung into a part of the underground pass. Either Teleport to Ardounge or talk to the scout again, and he'll take you outside. Speak to the King and inform him you made it through.</div>
 $questComplete
 <span id="zombiemusiq"></span>
 <iframe width="450" height="253" src="https://www.youtube.com/embed/JPCLqBultWg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <hr>
-This quest guide was written by Swaty and quackmann. Thanks to Stormer, jimfromtx, ImaGasLT, jfta0007, u gone lol, einsteinman, Master242424, and martori for corrections.
+This quest guide was written by Swaty and quackmann. Thanks to Stormer, jimfromtx, ImaGasLT, jfta0007, u gone lol, einsteinman, Master242424, martori, and Fran 2004 for corrections.
 <br><br>
-This quest guide was entered into the database on Mon, Apr 19, 2004, at 08:03:18 PM by DRAVAN and CJH and was last updated on Sat, Aug 07, 2004, at 11:06:43 PM.
+This quest guide was entered into the database on Mon, Apr 19, 2004, at 08:03:18 PM by DRAVAN and CJH and was last updated on Tue, Sep 09, 2025, at 05:07:34 AM by Fran 2004.
 HTML; }
