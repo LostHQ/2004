@@ -8,6 +8,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <b>Length: <font color="Red">Long</font></b><br>
 <h3>Items & Skills Needed:</h3>
 <ul style="list-style-type: none;">
+<li><div data-progress>32 Quest Points (required by Champions' Guild)</div><br></li>
 <li><div data-progress><canvas data-itemname="bowl_unfired" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="wizards_mind_bomb" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="lobster_pot" data-size="25" data-show-label="inline"></canvas></div><br></li>
@@ -39,9 +40,13 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <hr>
 <h3>Finding the Map Pieces</h3>
-<div data-progress>Go to the Oracle (located on Ice Mountain north of the Dwarven Mines) with your Silk, Mind Bomb, Unfired bowl, and Lobster pot. She'll tell you about a door in the mines. Go down into the mine and find the door on the eastern side. Inside, your items will disappear, and you'll find a chest containing a map piece.</div>
+<div data-progress>Go to the Oracle (located on Ice Mountain north of the Dwarven Mines) with your Silk, Mind Bomb, Unfired bowl, and Lobster pot. She'll tell you about a door in the mines. Climb down the ladder into the mines and find the door on the eastern side, not the immediate one but the next one. Inside, your items will disappear, and you'll find a chest containing a map piece.</div>
 <br><br>
-<div data-progress>Grab some food if needed. Head to Melzar's Maze (south of the Crafting Guild) and use your key on the door. Kill giant rats until one drops a red key. Use it on the northwest door, then go up the ladder.</div>
+<div data-progress>Grab you gear and some food if needed. Head to Melzar's Maze (south of the Crafting Guild) and use your key on the door.</div>
+<br><br>
+NOTE: When looking for keys DO NOT kill one spawn over and over. This is because there is a specific monster that will drop the key and only that one monster, every time it is killed.
+<br><br>
+<div data-progress>Kill giant rats until one drops a red key. Use it on the northwest door, then go up the ladder.</div>
 <br><br>
 <div data-progress>Kill ghosts until one drops an orange key. Use it on the second door from the north. Many people mess this up—make sure it's the right one.</div>
 <br><br>
@@ -49,7 +54,9 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <div data-progress>Kill zombies until one drops a blue key. Use it on the northwest door. Kill Melzar the Mad until he drops a magenta key. Use it to proceed.</div>
 <br><br>
-<div data-progress>Kill the Lesser Demon to get the final (green) key. The lesser demon can be safespotted standing near the western most door. Use the key on the door, then check the chest to get another map piece.</div>
+<div data-progress>You will now face a lesser demon. The lesser demon can be safespotted standing near the western most door. Kill the Lesser Demon to get the final (green) key. Use the key on the door, then check the chest to get another map piece.</div>
+<br><br>
+<img src="img/questimages/dragonslayer3.png" width="450">
 <br><br>
 <div data-progress>Stop by a bank. Choose one of the following: A) A bow and arrows/runes for combat spells and runes to cast Telekinetic Grab or B) 10,000 gp. If you brought the 10k, you don't need runes. If you're planning to kill Wormbrain, you'll need to telegrab the map piece.</div>
 <br><br>
@@ -72,6 +79,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <div data-progress>Head to your ship (The Lady Lumbridge), go below deck, and talk to Ned. Off to Crandor!</div>
 <br><br>
 <div data-progress>After arriving, the ship will be damaged. Disembark and climb the hill.</div>
+<br><br>
 <img src="img/questimages/dragonslayer2.png">
 <br><br>
 <div data-progress>Once you reach the top, enter the dungeon. Follow the path past King Scorpions. Evade them and walk north to another upward path. Go up, dodge the Lesser Demon, then enter the cave.</div>

@@ -12,6 +12,10 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress><canvas data-itemname="bones" data-size="25"></canvas>&nbsp;&nbsp;25 Bones</div><br></li>
 <li><div data-progress><canvas data-itemname="coins_1" data-size="25"></canvas>&nbsp;&nbsp;1 coin</div><br></li>
 </ul>
+<h3>Recommended:</h3>
+<ul style="list-style-type: none;">
+<li><div data-progress>41 Combat (avoids aggro from level 20 Dark Wizards)</div></li>
+</ul>
 <b>Starting Location:</b> The Gypsy in her tent at Varrock Square
 <br><br>
 <b>Reward:</b> 3 Quest points, Silverlight (which is useful for weakening any kind of demon)
