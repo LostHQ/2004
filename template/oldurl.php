@@ -11,7 +11,7 @@
 </style>
 
 <div class="oldurl">
-    We've migrated to <a href="https://2004.losthq.rs" class="c">2004.LostHq.rs</a>!<br>
+    We've migrated to <a href="https://2004.losthq.rs">2004.LostHq.rs</a>!<br>
     Please update your bookmarks.<br>
     We are in the process of rebranding to LostHQ for longevity.
 </div>

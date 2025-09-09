@@ -16,7 +16,7 @@ function getSkillContent($skill) { return <<<HTML
     <br><br>
     <table>
         <tr>
-            <td>For more information on a spell move your mouse cursor over the spell. A description of the spell and a list of which are runes are required is shown at the bottom of the window. Each required rune has 2 numbers shown below a picture of it. The 1st number indicates how many of that rune you have, and the 2nd number indicates how many you require. The numbers will be drawn in red for runes which you do not have a sufficient number of to cast the spell. Runes can be obtained in a number of ways. Mages can make their own runes using the runecrafting skill (see the <a href="?p=skillguides&skill=runecrafting" class="c">runecrafting</a> guide). Other ways to get runes include buying them in magic shops in towns such as Varrock and Port Sarim or by killing monsters.</td>
+            <td>For more information on a spell move your mouse cursor over the spell. A description of the spell and a list of which are runes are required is shown at the bottom of the window. Each required rune has 2 numbers shown below a picture of it. The 1st number indicates how many of that rune you have, and the 2nd number indicates how many you require. The numbers will be drawn in red for runes which you do not have a sufficient number of to cast the spell. Runes can be obtained in a number of ways. Mages can make their own runes using the runecrafting skill (see the <a href="?p=skillguides&skill=runecrafting">runecrafting</a> guide). Other ways to get runes include buying them in magic shops in towns such as Varrock and Port Sarim or by killing monsters.</td>
             <td><img src="img/skillguides/magic/magictab3.gif"></td>
         </tr>
     </table>
@@ -100,7 +100,7 @@ function getSkillContent($skill) { return <<<HTML
     <br>
     Inside the Magic Guild you will find a useful magic shop which sells a variety of runes and staffs for mages, including the extremely rare soul runes. There is also a small training area filled with zombies, as well as magical portals to various other parts of the RuneScape world all accessible from within this guild.
     <h3>Enchanting Jewellery</h3>
-    Players of the correct magic level will be able to enchant various items of jewellery that can be bought from shops or other players, or make them using the <a href="?p=skillguides&skill=crafting" class="c">crafting</a> skill.
+    Players of the correct magic level will be able to enchant various items of jewellery that can be bought from shops or other players, or make them using the <a href="?p=skillguides&skill=crafting">crafting</a> skill.
     <br><br>
     Below is a table showing at what level you can enchant each item of jewellery, and what the effects of enchanting them are.
     <br><br>

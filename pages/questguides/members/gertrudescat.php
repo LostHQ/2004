@@ -1,7 +1,7 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
-<a href="#zombiemusiq" class="c">ZombieMusiq Video Guide at bottom of page!</a>
+<a href="#zombiemusiq">ZombieMusiq Video Guide at bottom of page!</a>
 <br><br>
 <b>Description:</b> Gertrude's cat has been missing for some time now - for her piece of mind her prized pet must be rescued. Handling cats isn't an easy business. They get hungry and need plenty of attention but if you're the pet type, then this is the quest for you!
 <br><br>

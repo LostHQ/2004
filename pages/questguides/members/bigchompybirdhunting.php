@@ -1,7 +1,7 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
-<a href="#zombiemusiq" class="c">ZombieMusiq Video Guide at bottom of page!</a>
+<a href="#zombiemusiq">ZombieMusiq Video Guide at bottom of page!</a>
 <br><br>
 <b>Description:</b> Rantz the Ogre needs to feed his demanding children, Fycie and Bugs so he wants to go Big Chompy Bird hunting. Problem is, he's all fingers and thumbs when it comes to making ogre arrows. Could someone please give him a hand.
 <br><br>

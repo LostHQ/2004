@@ -66,7 +66,7 @@ function getSkillContent($skill) { return <<<HTML
     <br>
     <table>
         <tr>
-            <td>Players who have completed the <a href="?p=questguides&quest=shilovillage" class="c">Shilo Village</a> quest will have access to some special rocks solely for mining gems from. These rocks contain Sapphires, Rubies, Emeralds, Diamonds, Red Topaz, Opals and Jade gems.</td>
+            <td>Players who have completed the <a href="?p=questguides&quest=shilovillage">Shilo Village</a> quest will have access to some special rocks solely for mining gems from. These rocks contain Sapphires, Rubies, Emeralds, Diamonds, Red Topaz, Opals and Jade gems.</td>
             <td><img src="img/skillguides/mining/gemrocks.gif"></td>
         </tr>
     </table>

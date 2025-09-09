@@ -2,7 +2,7 @@
 function getSkillContent($skill) { return <<<HTML
 <h2>$skill Skill Guide</h2>
 <p>
-    Woodcutting is a skill used to cut logs from trees. These logs can be used in <a href="?p=skillguides&skill=fletching" class="c">fletching</a> and <a href="?p=skillguides&skill=firemaking" class="c">firemaking</a>.
+    Woodcutting is a skill used to cut logs from trees. These logs can be used in <a href="?p=skillguides&skill=fletching">fletching</a> and <a href="?p=skillguides&skill=firemaking">firemaking</a>.
     <br>
     <table>
         <tr>

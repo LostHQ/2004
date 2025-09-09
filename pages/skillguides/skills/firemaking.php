@@ -16,7 +16,7 @@ function getSkillContent($skill) { return <<<HTML
         </tr>
     </table>
     <br>
-    Tinderboxes can be bought from General Stores. Occasionally, so can logs if other players have sold them to the stores. However, for a more reliable way to secure logs, please refer to the <a href="?p=skillguides&skill=woodcutting" class="c">woodcutting</a> section of the manual.
+    Tinderboxes can be bought from General Stores. Occasionally, so can logs if other players have sold them to the stores. However, for a more reliable way to secure logs, please refer to the <a href="?p=skillguides&skill=woodcutting">woodcutting</a> section of the manual.
     <br><br>
     The following table shows what wood types are available in RuneScape, as well as the level required to light them and the experience gained from doing so.<br>
     <br>

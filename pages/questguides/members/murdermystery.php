@@ -1,7 +1,7 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
-<a href="#zombiemusiq" class="c">ZombieMusiq Video Guide at bottom of page!</a>
+<a href="#zombiemusiq">ZombieMusiq Video Guide at bottom of page!</a>
 <br><br>
 <b>Description:</b> Lord Sinclair, a highly respected Nobleman of Kandarin has been found murdered in his mansion. Despite the presence of a large number of guards all working hard to solve the crime, local law enforcement officers are totally baffled. Can you use your razor sharp analytical mind to uncover the evidence and unmask the culprit?
 <br><br>

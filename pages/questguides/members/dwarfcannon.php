@@ -1,7 +1,7 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
-<a href="#zombiemusiq" class="c">ZombieMusiq Video Guide at bottom of page!</a>
+<a href="#zombiemusiq">ZombieMusiq Video Guide at bottom of page!</a>
 <br><br>
 <b>Description:</b> For several years now the dwarven black guard have been developing the lastest in projectile warfare. Now with the constant attack of goblin renegades, the dwarven troops who protect the mines need to put this secret weapon into action. Only with your help can the true power of this cannon be harnessed!
 <br><br>

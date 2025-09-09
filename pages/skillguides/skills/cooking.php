@@ -4,7 +4,7 @@ function getSkillContent($skill) { return <<<HTML
 <p>
 	There are a variety of different foods you can cook in RuneScape. Food is useful because eating it will heal lost hit points. As you practice your cooking, your character will get better. You will burn food less often, and you will be able to make better food which heals you more.
 	<br><br>
-	To cook food you will need to use one of the many stoves which are scattered around the map. Alternatively if there aren't any stoves nearby you can build a campfire and use that. For more information on building fires please see our <a href="?p=skillguides&skill=firemaking" class="c">Firemaking</a> section.
+	To cook food you will need to use one of the many stoves which are scattered around the map. Alternatively if there aren't any stoves nearby you can build a campfire and use that. For more information on building fires please see our <a href="?p=skillguides&skill=firemaking">Firemaking</a> section.
 	<br><br>
 	A guide to the different foods you can cook is shown below. In addition to the foods listed there are also some low-level foods and drinks which can be bought directly from the shops and pubs in RuneScape.<!-- (will be added later) A similar table can be opened in the game by clicking the cooking skill icon in the stats menu.-->
 	<h3>Cooking Items</h3>

@@ -1,7 +1,7 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
-<a href="#zombiemusiq" class="c">ZombieMusiq Video Guide at bottom of page!</a>
+<a href="#zombiemusiq">ZombieMusiq Video Guide at bottom of page!</a>
 <br><br>
 <b>Description:</b> A young boy who lives in Taverley has kicked his ball into the garden of a scary old lady. He asks you to get it back for him. This proves more difficult than it first sounds.
 <br><br>

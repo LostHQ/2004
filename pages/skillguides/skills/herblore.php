@@ -90,7 +90,7 @@ function getSkillContent($skill) { return <<<HTML
     </table>
     <h3>Mixing Potions</h3>
     <!-- an image named mixpotion.gif goes on the right side of this wall of text if ever found -->
-    You will need a vial. These can be bought from shops such as the herblore shop in Taverley or made using glassmaking (see the <a href="?p=skillguides&skill=crafting" class="c">crafting</a> guide).
+    You will need a vial. These can be bought from shops such as the herblore shop in Taverley or made using glassmaking (see the <a href="?p=skillguides&skill=crafting">crafting</a> guide).
     <br><br>
     Fill the vial with water from a sink or fountain.
     <br><br>

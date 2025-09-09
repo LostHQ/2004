@@ -159,7 +159,7 @@ function getSkillContent($skill) { return <<<HTML
                 The smithing levels required to forge a metal type are the same as those required to smelt it.
                 However at the levels given you will only be able to forge the most basic items in that metal (mostly daggers). A few levels past these base smithing levels you will be able to make a wider variety of things. For example at smithing level 4 you will be able to make bronze short swords.
                 <br>
-                The gold and silver bars are not used to smith weapons instead they are used in the <a href="?p=skillguides&skill=crafting" class="c">crafting skill</a>.
+                The gold and silver bars are not used to smith weapons instead they are used in the <a href="?p=skillguides&skill=crafting">crafting skill</a>.
             </td>
         </tr>
     </table>

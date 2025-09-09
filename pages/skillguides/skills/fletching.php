@@ -182,7 +182,7 @@ function getSkillContent($skill) { return <<<HTML
         </tr>
     </table>
     <h3>Throwing Darts</h3>
-    Once you have completed the <a href="?p=questguides&quest=touristtrap" class="c">Tourist Trap</a> quest you will be able to fletch darts to throw at your enemies. Firstly use your <a href="?p=skillguides&skill=smithing" class="c">smithing skill</a> to make metal bars into dart tips. Then add a feather to each dart tip to complete the dart. Darts are not as powerful as arrows or throwing knives. Players may poison their darts to do more damage to their opponents. Each weapon poison vial contains enough poison for 5 darts.
+    Once you have completed the <a href="?p=questguides&quest=touristtrap">Tourist Trap</a> quest you will be able to fletch darts to throw at your enemies. Firstly use your <a href="?p=skillguides&skill=smithing">smithing skill</a> to make metal bars into dart tips. Then add a feather to each dart tip to complete the dart. Darts are not as powerful as arrows or throwing knives. Players may poison their darts to do more damage to their opponents. Each weapon poison vial contains enough poison for 5 darts.
     <br><br>
     Below is a table showing the level requirements to make and wield darts.
     <br><br>

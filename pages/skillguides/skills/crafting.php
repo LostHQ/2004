@@ -727,7 +727,7 @@ function getSkillContent($skill) { return <<<HTML
         </tr>
     </table>
     <h3>Pottery</h3>
-    Bowls, pots and pie dishes can all be made by crafting. Clay is obtained by <a href="?p=skillguides&skill=mining" class="c">mining</a>.<br>To make the clay workable it needs to be softened first. Use a jug of water with the clay and it will be turned into soft clay. Take the clay to a potter's wheel. There is one in the barbarian village.
+    Bowls, pots and pie dishes can all be made by crafting. Clay is obtained by <a href="?p=skillguides&skill=mining">mining</a>.<br>To make the clay workable it needs to be softened first. Use a jug of water with the clay and it will be turned into soft clay. Take the clay to a potter's wheel. There is one in the barbarian village.
     <br><br>
     <table>
         <tr>
@@ -759,7 +759,7 @@ function getSkillContent($skill) { return <<<HTML
     <br><br>
     You will need to buy a chisel from a general store or a crafting shop. Select the chisel from your inventory and then the gem you wish to cut. If you find your crafting level is not high enough to cut the gem you may want to make a bit more pottery or leather to raise your crafting level first.
     <h3>Holy and Unholy symbols</h3>
-    You need a crafting level of 16 to craft silver bars. To make silver bars see the <a href="?p=skillguides&skill=mining" class="c">mining</a> and <a href="?p=skillguides&skill=smithing" class="c">smithing</a> guides.
+    You need a crafting level of 16 to craft silver bars. To make silver bars see the <a href="?p=skillguides&skill=mining">mining</a> and <a href="?p=skillguides&skill=smithing">smithing</a> guides.
     <br><br>
     <table>
         <tr>
@@ -780,13 +780,13 @@ function getSkillContent($skill) { return <<<HTML
     <table>
         <tr>
             <td><img src="img/skillguides/crafting/furnace.gif"></td>
-            <td>To make gold bars see the <a href="?p=skillguides&skill=mining" class="c">mining</a> and <a href="?p=skillguides&skill=smithing" class="c">smithing</a> guides. You can make amulets, necklaces, and rings from gold bars. Buy the appropriate moulds from a crafting shop.<br><br>Use a gold bar on a furnace and select the object you would like to make.</td>
+            <td>To make gold bars see the <a href="?p=skillguides&skill=mining">mining</a> and <a href="?p=skillguides&skill=smithing">smithing</a> guides. You can make amulets, necklaces, and rings from gold bars. Buy the appropriate moulds from a crafting shop.<br><br>Use a gold bar on a furnace and select the object you would like to make.</td>
         </tr>
     </table>
     <br>
     Putting gems in your gold jewelry can increase the smithing level required quite a lot, but it also increases the value of what you are making.
     <br><br>
-    All the gold jewelry can be sold for a good price, but amulets and rings with jewels in them can also be <a href="?p=skillguides&skill=magic" class="c">enchanted at a high enough magic level</a> to give various bonuses. First of all your amulet will need a string, this is made in the same way as the string for the holy amulets of Saradomin. Then it can be enchanted using the magic skill.
+    All the gold jewelry can be sold for a good price, but amulets and rings with jewels in them can also be <a href="?p=skillguides&skill=magic">enchanted at a high enough magic level</a> to give various bonuses. First of all your amulet will need a string, this is made in the same way as the string for the holy amulets of Saradomin. Then it can be enchanted using the magic skill.
     <h3>Glassmaking</h3>
     <table>
         <tr>
@@ -799,7 +799,7 @@ function getSkillContent($skill) { return <<<HTML
     <h3>Bowstrings</h3>
     You can make bowstrings by using flax on a spinning wheel. If you want to make several of the same object, simply right-click and select the number you wish to produce.
     <br><br>
-    Making bow strings gives a good amount of crafting experience and the bowstrings are useful for making bows (see the <a href="?p=skillguides&skill=fletching" class="c">fletching guide</a>.)
+    Making bow strings gives a good amount of crafting experience and the bowstrings are useful for making bows (see the <a href="?p=skillguides&skill=fletching">fletching guide</a>.)
     <h3>Battlestaffs</h3>
     First get an unpowered orb (see glassmaking).
     <br><br>

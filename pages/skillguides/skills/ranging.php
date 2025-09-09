@@ -15,7 +15,7 @@ function getSkillContent($skill) { return <<<HTML
     <br><br>
     A number of your arrows will land on the ground by your target so you can go and use them again, however some will be lost as they are damaged upon impact.
     <br><br>
-    For further information on the selection of bows available to make please see our <a href="?p=skillguides&skill=fletching" class="c">fletching</a> guide.
+    For further information on the selection of bows available to make please see our <a href="?p=skillguides&skill=fletching">fletching</a> guide.
     <!-- released later
     <br><br>
     A similar table to the one below can be opened in the game by clicking the ranging skill icon in the stats menu.

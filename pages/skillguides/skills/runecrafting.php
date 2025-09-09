@@ -2,15 +2,15 @@
 function getSkillContent($skill) { return <<<HTML
 <h2>$skill Skill Guide</h2>
 <p>
-    Runecrafting is used to make different sorts of Runes, for use in <a href="?p=skillguides&skill=magic" class="c">Magic</a>.
-    Before you can use runecrafting you will need to complete the <a href="?p=questguides&quest=runemysteries" class="c">Rune Mysteries</a> quest.
+    Runecrafting is used to make different sorts of Runes, for use in <a href="?p=skillguides&skill=magic">Magic</a>.
+    Before you can use runecrafting you will need to complete the <a href="?p=questguides&quest=runemysteries">Rune Mysteries</a> quest.
     <h3>Mining rune essences</h3>
     The location of the source of Rune essence is a closely guarded secret, so you will need to find various NPCs around the game world to take you to it.
     <br><br>
     <table>
         <tr>
             <td><canvas data-itemname="blankrune"></canvas></td>
-            <td>Once there, you can click on the large essence stones to mine them with a pickaxe (see <a href="?p=skillguides&skill=mining" class="c">Mining</a>). You then need to take the essences you have mined to an elemental temple to turn these essences into magical runes.</td>
+            <td>Once there, you can click on the large essence stones to mine them with a pickaxe (see <a href="?p=skillguides&skill=mining">Mining</a>). You then need to take the essences you have mined to an elemental temple to turn these essences into magical runes.</td>
         </tr>
     </table>
     <br>
