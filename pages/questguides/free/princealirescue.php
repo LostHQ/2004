@@ -18,8 +18,11 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress><canvas data-itemname="bronze_bar" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="pink_skirt" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="beer" data-size="25"></canvas>&nbsp;&nbsp;3 beers</div><br></li>
-<li><div data-progress><canvas data-itemname="rope" data-size="25"></canvas>&nbsp;&nbsp;Rope (or<canvas data-itemname="ball_of_wool" data-size="25"></canvas>&nbsp;4 balls of wool to obtain rope from Ned)</div><br></li>
-<li><div data-progress><canvas data-itemname="coins_100" data-size="25"></canvas>&nbsp;&nbsp;100 coins</div><br></li>
+<li><div data-progress><canvas data-itemname="rope" data-size="25"></canvas>&nbsp;&nbsp;Rope (or<canvas data-itemname="ball_of_wool" data-size="25"></canvas>&nbsp;4 balls of wool or<canvas data-itemname="coins_5" data-size="25"></canvas>&nbsp;15 coins to obtain rope from Ned)</div><br></li>
+</ul>
+<h3>Recommended:</h3>
+<ul style="list-style-type: none;">
+<li><div data-progress><canvas data-itemname="coins_25" data-size="25"></canvas>&nbsp;&nbsp;30-40 coins for the Al Kharid toll gate</div><br></li>
 </ul>
 <b>Starting Location:</b> Talk to Hassan in the Al Kharid palace
 <br><br>

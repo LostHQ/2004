@@ -10,7 +10,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <ul style="list-style-type: none;">
 <li><div data-progress><canvas data-itemname="cadavaberries" data-size="25" data-show-label="inline"></canvas></div><br></li>
 </ul>
-<b>Starting Location:</b> Juliet's house, just west of Varrock on the north side of the road<br>
+<b>Starting Location:</b> Romeo who is south of Varrock's central fountain OR Juliet in her house just west of Varrock on the north side of the road<br>
 <br>
 <b>Reward:</b> 5 Quest points
 <br><br>
