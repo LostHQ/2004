@@ -18,6 +18,7 @@ switch ($p) {
     case 'itemdb':
     case 'wallpapers':
     case 'specialguides':
+    case 'tools':
     case 'playerinfo':
         include 'pages/'.$p.'/main.php';
         break;
