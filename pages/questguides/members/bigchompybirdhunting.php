@@ -18,7 +18,10 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress><canvas data-itemname="bronze_axe" data-size="25"></canvas>&nbsp;&nbsp;Any woodcutting axe</div><br></li>
 <li><div data-progress><canvas data-itemname="feather" data-size="25"></canvas>&nbsp;&nbsp;About 100 feathers</div><br></li>
 <li><div data-progress><canvas data-itemname="wolf_bones" data-size="25"></canvas>&nbsp;&nbsp;About 4-5 wolf bones</div><br></li>
-<li><div data-progress>Weapons/armor to kill a level 64 wolf</div><br></li>
+</ul>
+<h3>Recommended:</h3>
+<ul style="list-style-type: none;">
+<li><div data-progress>Weapons/armor to kill a level 64 wolf if necessary</div><br></li>
 </ul>
 <b>Starting Location:</b> Southeast of Ogre City, which is southeast of Yanille
 <br><br>
