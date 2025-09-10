@@ -9,27 +9,26 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h3>Items & Skills Needed:</h3>
 <ul style="list-style-type: none;">
 <li><div data-progress>32 Quest Points (required by Champions' Guild)</div><br></li>
-<li><div data-progress><canvas data-itemname="bowl_unfired" data-size="25" data-show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas data-itemname="bowl_unfired" data-size="25"></canvas>&nbsp;&nbsp;Unfired bowl (requires 8 Crafting to make)</div><br></li>
 <li><div data-progress><canvas data-itemname="wizards_mind_bomb" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="lobster_pot" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="silk" data-size="25" data-show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas data-itemname="silk" data-size="25"></canvas></div>&nbsp;&nbsp;Silk (30 coins or can be stolen with 20 Thieving)<br></li>
 <li><div data-progress><canvas data-itemname="hammer" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="antidragonbreathshield" data-size="25"></canvas>&nbsp;&nbsp;Dragonfire shield (obtained during the quest)</div><br></li>
-<li><div data-progress><canvas data-itemname="nails" data-size="25"></canvas>&nbsp;&nbsp;12 nails or <canvas data-itemname="steel_bar" data-size="25"></canvas>&nbsp;&nbsp;6 steel bars</div><br></li>
+<li><div data-progress><canvas data-itemname="nails" data-size="25"></canvas>&nbsp;&nbsp;12 nails or <canvas data-itemname="steel_bar" data-size="25"></canvas>&nbsp;&nbsp;6 steel bars (requires 34 Smithing to make)</div><br></li>
 <li><div data-progress><canvas data-itemname="woodplank" data-size="25"></canvas>&nbsp;&nbsp;3 planks</div><br></li>
 <li><div data-progress><canvas data-itemname="coins_1000" data-size="25"></canvas>&nbsp;&nbsp;2,000 coins (and an extra 10,000 coins if you can't cast Telekinetic Grab)</div><br></li>
 </ul>
 <b>Telekinetic Grab:</b>
 <br>
 <ul style="list-style-type: none;">
-<li><div data-progress>33 Magic (can be boosted with a Wizard's Mind Bomb)</div><br></li>
+<li><div data-progress>33 Magic (or 31 Magic and a +2 boost from a Wizard's Mind Bomb)</div><br></li>
 <li><div data-progress><canvas data-itemname="lawrune" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="airrune" data-size="25" data-show-label="inline"></canvas></div><br></li>
 </ul>
 <h3>Recommended:</h3>
 <ul style="list-style-type: none;">
 <li><div data-progress>45 Combat</div></li>
-<li><div data-progress>43 Prayer</div></li>
 <li><div data-progress><canvas data-itemname="lobster" data-size="25"></canvas>Lobster or better food</div><br></li>
 <li><div data-progress><canvas data-itemname="adamant_platebody" data-size="25"></canvas>Adamant or better armor (if using melee)</div><br></li>
 <li><div data-progress>A friend to bring you more food</div><br></li>
@@ -45,6 +44,8 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <div data-progress>Go to the house between the fence and the cliff, at the northwest corner of Edgeville, and talk to Oziach.</div>
 <br><br>
+<img src="img/questimages/dragonslayer4.png" width="450">
+<br><br>
 <div data-progress>Ask him about Rune platebody, the Dragonfire Shield, and the map pieces. Be sure to exhaust every dialogue option. He should give you a key to Melzar's Maze.</div>
 <br><br>
 <h3>Thalzar's Map Piece</h3>
@@ -52,16 +53,16 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <div data-progress>Head to the dwarven camp south of Ice Mountain and climb down the ladder into the mines.</div>
 <br><br>
-<div data-progress>Go south past the first minecarts, then east to find a door. Simply, click the door to go inside, and your quest items needed will disappear. Inside, open the chest in the center of the room and search to find a map piece.</div>
+<div data-progress>Go south past the first minecarts, then east to find a door. Simply, click the door to go inside, and your quest items needed will disappear. Inside, open the chest in the center of the room and search to find a map piece. You must "click here to continue" before it can go into inventory.</div>
 <br><br>
 <h3>Lozar's Map Piece</h3>
 <div data-progress>From the Dwarven mines, leave the room and walk south until you see stairs to the east, and go up. You are now in East Falador.</div>
 <br><br>
-<div data-progress>Grab you gear and some food if needed. Head to Melzar's Maze (south of the Crafting Guild) and use your key on the door.</div>
-<br><br>
 <div data-progress>Walk to the bank and bank everything except your Mage or Range gear, 2,000 coins, some food, Melzar's Key, 3 planks, 12 nails, and a hammer. Also, bring either 10,000 coins or Telegrab runes and a Wizard's Mind Bomb if you need to boost your magic.</div>
 <br><br>
 <div data-progress>Head to Port Sarim, south of Falador. Enter the jail south of the food shop and find a goblin named Wormbrain.</div>
+<br><br>
+<img src="img/questimages/dragonslayer5.png">
 <br><br>
 <div data-progress>If using Telegrab, kill him through the bars and telegrab the map piece that he drops. If you don't have at least 33 Magic after boosts, you will have to talk to him and pay him 10,000 coins.</div>
 <br><br>
@@ -75,13 +76,17 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h3>Melzar's Map Piece</h3>
 <div data-progress>Head to Melzar's Maze, which is between the Crafting Guild and Rimmington, and use your key on the door.</div>
 <br><br>
+<img src="img/questimages/dragonslayer6.png" width="450">
+<br><br>
 Inside, you will see multiple colored doors leading to ladders. You must go through the right sequence of doors to get to the end of the maze. Getting through the door is based on the monsters in the room.
 <br><br>
 NOTE: Only one specific monster in the room will always give you a key, while the others are just distractions. So, when looking for keys, DO NOT kill one spawn over and over.
 <br><br>
 <div data-progress>Kill giant rats until one drops a red key. Use it on the northwest door, then go up the ladder.</div>
 <br><br>
-<div data-progress>Kill ghosts until one drops an orange key. Use it on the second door from the north. Many people mess this up—make sure it's the right one.</div>
+<div data-progress>Kill ghosts until one drops an orange key. There are four doors on the Eastern side. In the picture below, the 3 north-eastern doors are visible. Go in the middle one, to the right of the bookshelf.</div>
+<br><br>
+<img src="img/questimages/dragonslayer7.png" width="450">
 <br><br>
 <div data-progress>Kill skeletons until you get a yellow key. Use it on the most southwestern door. Follow the corridor and go down the 3 ladders to the basement until you reach zombies.</div>
 <br><br>
@@ -93,7 +98,7 @@ NOTE: Only one specific monster in the room will always give you a key, while th
 <br><br>
 <img src="img/questimages/dragonslayer3.png" width="450">
 <br><br>
-<div data-progress>Open and search the chest to get the last map piece. Use all map pieces on each other to form the full map.</div>
+<div data-progress>Open and search the chest to get the last map piece. You must "click here to continue" before it can go into inventory. Use all map pieces on each other to form the full map.</div>
 <br><br>
 <h3>The Fight with Elvarg</h3>
 <div data-progress>Make your way to Lumbridge. Go into Lumbridge Castle and go up the northern stairs once, and enter the Duke's room.</div>
@@ -116,7 +121,7 @@ NOTE: Only one specific monster in the room will always give you a key, while th
 <br><br>
 <div data-progress>Once you reach the top, enter the dungeon. Follow the path past King Scorpions. Evade them and walk north to another upward path. Go up, dodge the Lesser Demon, then enter the cave.</div>
 <br><br>
-<div data-progress>Inside, dodge the skeletons and walk deeper into the cave. Head south toward the Lesser Demons and look for a "secret" wall with an “Open” command. Your character will memorize this location for future access.</div>
+<div data-progress>Inside, dodge the skeletons and walk deeper into the cave. Head south toward the Lesser Demons and look for a "secret" wall with an "Open" command. Your character will memorize this location for future access.</div>
 <br><br>
 Here is a picture of the wall:
 <br>
@@ -128,6 +133,10 @@ NOTE: If you die during your fight with Elvarg and have unlocked this secret doo
 <br><br>
 Protip: Elvarg's max hit if you are wearing the Dragonfire shield is 10. So be sure you eat enough to be above 10 hitpoints at all times. If using melee, best to be on Accurate to hit more often. You can switch to Aggressive to hit harder, but you may not land a hit as often.
 <br><br>
+Pictured below is the location of the flinch spot. This spot is on the south side of the room, between the lava pool and the bricks in a "Y" shape. Lure Elvarg on the northern side of the "Y" to begin. 
+<br><br>
+<img src="img/questimages/dragonslayer8.png">
+<br><br>
 <div data-progress>After defeating Elvarg, you'll be teleported outside. Congratulations — you've completed Dragon Slayer! Go buy that Rune platebody, you legend.</div>
 <br><br>
 <div data-progress>If a skeleton attacks you, don't panic. From here, either use your emergency teleport or go through the secret door again just south. Go east to find a rope and climb up.</div>
@@ -138,5 +147,5 @@ Protip: Elvarg's max hit if you are wearing the Dragonfire shield is 10. So be s
 $questComplete
 This quest guide was written on RuneHQ by Catherine and Ghou Lies. Thanks to Weezy, firespyrit, evomasta, stormer, DRAVAN, Axelman, Ghou Lies, and Fran 2004 for corrections.
 <br><br>
-This quest guide was entered into the database on Fri, Feb 06, 2004, at 09:11:17 PM by Chownuggs and was last updated on Wed, Sept 10, 2025, at 08:18:43 AM by Fran 2004.
+This quest guide was entered into the database on Fri, Feb 06, 2004, at 09:11:17 PM by Chownuggs and was last updated on Wed, Sept 10, 2025, at 12:48:26 AM by Fran 2004.
 HTML; }
