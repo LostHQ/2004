@@ -8,11 +8,11 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <b>Length: <font color="Red">Long</font></b><br>
 <h3>Items & Skills Needed:</h3>
 <ul style="list-style-type: none;">
-<li><div data-progress>32 Quest Points (required by Champions' Guild)</div><br></li>
+<li><div data-progress>32 Quest points to enter the Champions' Guild</div><br></li>
 <li><div data-progress><canvas data-itemname="bowl_unfired" data-size="25"></canvas>&nbsp;&nbsp;Unfired bowl (requires 8 Crafting to make)</div><br></li>
 <li><div data-progress><canvas data-itemname="wizards_mind_bomb" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="lobster_pot" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="silk" data-size="25"></canvas></div>&nbsp;&nbsp;Silk (30 coins or can be stolen with 20 Thieving)<br></li>
+<li><div data-progress><canvas data-itemname="silk" data-size="25"></canvas></div>&nbsp;&nbsp;Silk (can be purchased for 2-30 coins or can be stolen with 20 Thieving)<br></li>
 <li><div data-progress><canvas data-itemname="hammer" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="antidragonbreathshield" data-size="25"></canvas>&nbsp;&nbsp;Dragonfire shield (obtained during the quest)</div><br></li>
 <li><div data-progress><canvas data-itemname="nails" data-size="25"></canvas>&nbsp;&nbsp;12 nails or <canvas data-itemname="steel_bar" data-size="25"></canvas>&nbsp;&nbsp;6 steel bars (requires 34 Smithing to make)</div><br></li>
@@ -29,8 +29,10 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h3>Recommended:</h3>
 <ul style="list-style-type: none;">
 <li><div data-progress>45 Combat</div></li>
-<li><div data-progress><canvas data-itemname="lobster" data-size="25"></canvas>Lobster or better food</div><br></li>
-<li><div data-progress><canvas data-itemname="adamant_platebody" data-size="25"></canvas>Adamant or better armor (if using melee)</div><br></li>
+<li><div data-progress><canvas data-itemname="lobster" data-size="25"></canvas>&nbsp;&nbsp;Lobster or better food</div><br></li>
+<li><div data-progress><canvas data-itemname="adamant_platebody" data-size="25"></canvas>&nbsp;&nbsp;Adamant or better armor (if using melee)</div><br></li>
+<li><div data-progress><canvas data-itemname="lawrune" data-size="25"></canvas>&nbsp;&nbsp;Runes for Teleport to Lumbridge</div><br></li>
+<li><div data-progress><canvas data-itemname="ring_of_dueling_8" data-size="25"></canvas>&nbsp;&nbsp;Ring of dueling (for an emergency teleport)</div><br></li>
 <li><div data-progress>A friend to bring you more food</div><br></li>
 </ul>
 <b>Starting Location:</b> Guildmaster in the Champion's Guild
@@ -40,7 +42,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <hr>
 <h3>Instructions:</h3>
 <br>
-<div data-progress>Enter the Champions Guild, southwest outside of Varrock. You will need 32 Quest Points to enter. Talk to the Champion's Guild master. Ask him about the Rune platebody, and he'll tell you about Oziach. His house is near Edgeville.</div>
+<div data-progress>Enter the Champions Guild, southwest outside of Varrock. You will need 32 Quest Points to enter. Talk to the Champion's Guild master. Ask him about the Rune platebody, and he'll tell you about Oziach.</div>
 <br><br>
 <div data-progress>Go to the house between the fence and the cliff, at the northwest corner of Edgeville, and talk to Oziach.</div>
 <br><br>
@@ -58,7 +60,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h3>Lozar's Map Piece</h3>
 <div data-progress>From the Dwarven mines, leave the room and walk south until you see stairs to the east, and go up. You are now in East Falador.</div>
 <br><br>
-<div data-progress>Walk to the bank and bank everything except your Mage or Range gear, 2,000 coins, some food, Melzar's Key, 3 planks, 12 nails, and a hammer. Also, bring either 10,000 coins or Telegrab runes and a Wizard's Mind Bomb if you need to boost your magic.</div>
+<div data-progress>Walk to the bank and bank everything except your Mage or Range gear, 2,000 coins, some food, Melzar's Key, 3 planks, 12 nails, and a hammer. Also, bring either 10,000 coins or Telegrab runes and a Wizard's Mind Bomb if you need to boost your magic. Bring a teleport to Lumbridge if you wish.</div>
 <br><br>
 <div data-progress>Head to Port Sarim, south of Falador. Enter the jail south of the food shop and find a goblin named Wormbrain.</div>
 <br><br>
@@ -101,7 +103,7 @@ NOTE: Only one specific monster in the room will always give you a key, while th
 <div data-progress>Open and search the chest to get the last map piece. You must "click here to continue" before it can go into inventory. Use all map pieces on each other to form the full map.</div>
 <br><br>
 <h3>The Fight with Elvarg</h3>
-<div data-progress>Make your way to Lumbridge. Go into Lumbridge Castle and go up the northern stairs once, and enter the Duke's room.</div>
+<div data-progress>If you brought your runes to teleport to Lumbridge, teleport to Lumbridge. Otherwise, make your way to Lumbridge. Once at Lumbridge, go into Lumbridge Castle and go up the northern stairs once, and enter the Duke's room.</div>
 <br><br>
 <div data-progress>Talk to the Duke. Ask about a shield to protect against dragons. He'll give you the Dragonfire Shield. It's advised to drop it, get another, and pick up the first one — just in case you die later. You can get as many as you like.</div>
 <br><br>
@@ -111,15 +113,13 @@ NOTE: Only one specific monster in the room will always give you a key, while th
 <br><br>
 <div data-progress>Right-click to use the map on Ned. He'll tell you to meet him at the ship.</div>
 <br><br>
-<div data-progress>Head to the bank to prepare for the boss fight. Bring an Attack & Strength potion, food, emergency teleport (Ring of Dueling is a cheap option, must be unequipped to rub), armor, weapons, and most importantly, your Dragonfire Shield. This boss CANNOT be safe-spotted, but can be flinched, which requires run energy to perform.</div>
+<div data-progress>Head to the bank to prepare for the boss fight. Bring an Attack & Strength potion, food, emergency teleport (Ring of Dueling is a cheap option, must be unequipped to rub), armor, weapons, and most importantly, your Dragonfire Shield. This boss CANNOT be safe-spotted.</div>
 <br><br>
 <div data-progress>Head to your ship, Lady Lumbridge, go below deck, and talk to Ned. Off to Crandor!</div>
 <br><br>
-<div data-progress>After arriving, the ship will be damaged. Disembark and climb the hill. Follow the map below to reach the center of Crandor.</div>
+<div data-progress>After arriving, the ship will be damaged. Disembark and climb the hill. Follow the map below to reach the center of Crandor, avoiding the King Scorpions and Lesser Demons. Once you reach the top, enter the dungeon.</div>
 <br><br>
 <img src="img/questimages/dragonslayer2.png">
-<br><br>
-<div data-progress>Once you reach the top, enter the dungeon. Follow the path past King Scorpions. Evade them and walk north to another upward path. Go up, dodge the Lesser Demon, then enter the cave.</div>
 <br><br>
 <div data-progress>Inside, dodge the skeletons and walk deeper into the cave. Head south toward the Lesser Demons and look for a "secret" wall with an "Open" command. Your character will memorize this location for future access.</div>
 <br><br>
@@ -129,16 +129,13 @@ Here is a picture of the wall:
 <br><br>
 NOTE: If you die during your fight with Elvarg and have unlocked this secret door, you do not need to repair Lady Lumbridge again. Take a boat to Musa Point and go to the Volcano. There is a rope into the Volcano, then the secret door is just north of the spiders. You can now try to defeat Elvarg again.
 <br><br>
-<div data-progress>Re-enter the secret wall and go back north to the East door. Get ready to fight Elvard, a level 86 green dragon. Drink your Attack and Strength potions, make sure your Dragonfire Shield is equipped, and enter the door.</div>
+<div data-progress>Re-enter the secret wall and go back north to the East door. Get ready to fight Elvarg, a level 86 green dragon. Drink your Attack and Strength potions, make sure your Dragonfire Shield is equipped, and enter the door.</div>
 <br><br>
 Protip: Elvarg's max hit if you are wearing the Dragonfire shield is 10. So be sure you eat enough to be above 10 hitpoints at all times. If using melee, best to be on Accurate to hit more often. You can switch to Aggressive to hit harder, but you may not land a hit as often.
 <br><br>
-Pictured below is the location of the flinch spot. This spot is on the south side of the room, between the lava pool and the bricks in a "Y" shape. Lure Elvarg on the northern side of the "Y" to begin. 
-<br><br>
-<img src="img/questimages/dragonslayer8.png">
-<br><br>
 <div data-progress>After defeating Elvarg, you'll be teleported outside. Congratulations — you've completed Dragon Slayer! Go buy that Rune platebody, you legend.</div>
 <br><br>
+<h3>Finishing Up</h3>
 <div data-progress>If a skeleton attacks you, don't panic. From here, either use your emergency teleport or go through the secret door again just south. Go east to find a rope and climb up.</div>
 <br><br>
 <div data-progress>You are now at the top of Karamja Volcano. Make your way to the dock and leave Karamja. If you cannot afford to pay the toll, pick 10 bananas to fill the crate for Luthas near the dock to get 30gp to afford a trip to Port Sarim.</div>
