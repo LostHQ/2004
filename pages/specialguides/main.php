@@ -17,7 +17,7 @@ $minigameslist = array(
     //+ "duelarena" => "Duel Arena",
     "fishingtrawler" => "Fishing Trawler",
     // "gamesroom" => "Burthorpe Games Room",
-    //+ "gnomeball" => "Gnome Ball",
+    "gnomeball" => "Gnome Ball",
     //+ "rangingguild" => "Ranging Guild",
     // "shadesofmort" => "Shades of Mort'ton"
 );
