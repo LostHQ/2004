@@ -48,11 +48,15 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h3>First Level</h3>
 <div data-progress>Upon entry, you find two paths to avoid the swamp in the middle. If you brought extra ropes, you can use one on a stalactite to the north, or you can take the Agility route by climbing over the rockslides to the south. I recommend climbing the rockslides, as you will need ropes later.</div>
 <br><br>
-<div data-progress>You will need two inventory spots for this next step. Talk to Koftik again, who will give you a cloth he found. Use the cloth on an arrow you brought. You can do this multiple times in case you fail. Koftik can give you multiple cloths. Use these arrows on the fire nearby to set them alight.</div>
+<div data-progress>Note: You will need two inventory spots for this next step. If you wish to keep as much food with you as possible, you may drop two food items at the edge in the north-west corner before the bridge that you will telekinetic grab later when you cross to the other side, NOT behind the fence.</div>
+<br><br>
+<div data-progress>Talk to Koftik again, who will give you a cloth he found. Use the cloth on an arrow you brought. You can do this multiple times in case you fail. Koftik can give you multiple cloths. Use these arrows on the fire nearby to set them alight.</div>
 <br><br>
 <img src="img/questimages/underground1.jpg"><br>
 <br>
 <div data-progress>Now, go around the cliff to the north, and you should be behind a fence. Try shooting at the guide ropes that hold the bridge up. When you hit it, you are automatically taken across it. Positioning is critical when shooting at the ropes; you should stand at the center of the fence's length.</div>
+<br><br>
+If you dropped your food earlier to telegrab, telekinetic grab the food you dropped before they despawn.
 <br><br>
 <div data-progress>Head north and pick up the plank that is guarded by blessed spiders, then head south and follow the path.</div>
 <br><br>
