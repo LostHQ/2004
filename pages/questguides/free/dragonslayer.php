@@ -14,88 +14,129 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress><canvas data-itemname="lobster_pot" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="silk" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="hammer" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="antidragonbreathshield" data-size="25" data-show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas data-itemname="antidragonbreathshield" data-size="25"></canvas>&nbsp;&nbsp;Dragonfire shield (obtained during the quest)</div><br></li>
 <li><div data-progress><canvas data-itemname="nails" data-size="25"></canvas>&nbsp;&nbsp;12 nails or <canvas data-itemname="steel_bar" data-size="25"></canvas>&nbsp;&nbsp;6 steel bars</div><br></li>
 <li><div data-progress><canvas data-itemname="woodplank" data-size="25"></canvas>&nbsp;&nbsp;3 planks</div><br></li>
-<li><div data-progress><canvas data-itemname="coins_1000" data-size="25"></canvas>&nbsp;&nbsp;2,000 coins (or an extra 10,000 coins if you can't cast Telekinetic Grab)</div><br></li>
-<li><div data-progress>Any items you think you need to defeat Elvarg (the green dragon)</div><br></li>
+<li><div data-progress><canvas data-itemname="coins_1000" data-size="25"></canvas>&nbsp;&nbsp;2,000 coins (and an extra 10,000 coins if you can't cast Telekinetic Grab)</div><br></li>
 </ul>
-<ul style="list-style-type: none;">
 <b>Telekinetic Grab:</b>
-<br><br>
-<li><div data-progress>33 Magic</div><br></li>
+<br>
+<ul style="list-style-type: none;">
+<li><div data-progress>33 Magic (can be boosted with a Wizard's Mind Bomb)</div><br></li>
 <li><div data-progress><canvas data-itemname="lawrune" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="airrune" data-size="25" data-show-label="inline"></canvas></div><br></li>
 </ul>
-<b>Starting Location:</b> Champion's Guild
+<h3>Recommended:</h3>
+<ul style="list-style-type: none;">
+<li><div data-progress>45 Combat</div></li>
+<li><div data-progress>43 Prayer</div></li>
+<li><div data-progress><canvas data-itemname="lobster" data-size="25"></canvas>Lobster or better food</div><br></li>
+<li><div data-progress><canvas data-itemname="adamant_platebody" data-size="25"></canvas>Adamant or better armor (if using melee)</div><br></li>
+<li><div data-progress>A friend to bring you more food</div><br></li>
+</ul>
+<b>Starting Location:</b> Guildmaster in the Champion's Guild
 <br><br>
 <b>Reward:</b> 2 Quest points, 20,000 Strength XP, 20,000 Defence XP. Completing the quest allows you to buy and equip Rune platebody (84,500 gp) and Green Dragonhide Body (10,400 gp) from Oziach.
 <br><br>
 <hr>
 <h3>Instructions:</h3>
 <br>
-<div data-progress>Talk to the Champion's Guild master. Ask him about the Rune platebody, and he'll tell you about Oziach. His house is near Edgeville.</div>
+<div data-progress>Enter the Champions Guild, southwest outside of Varrock. You will need 32 Quest Points to enter. Talk to the Champion's Guild master. Ask him about the Rune platebody, and he'll tell you about Oziach. His house is near Edgeville.</div>
 <br><br>
-<div data-progress>Talk to Oziach. Ask him about Rune platebody, the Dragonfire Shield, and the map pieces. He should give you a key to Melzar's Maze.</div>
+<div data-progress>Go to the house between the fence and the cliff, at the northwest corner of Edgeville, and talk to Oziach.</div>
 <br><br>
-<hr>
-<h3>Finding the Map Pieces</h3>
-<div data-progress>Go to the Oracle (located on Ice Mountain north of the Dwarven Mines) with your Silk, Mind Bomb, Unfired bowl, and Lobster pot. She'll tell you about a door in the mines. Climb down the ladder into the mines and find the door on the eastern side, not the immediate one but the next one. Inside, your items will disappear, and you'll find a chest containing a map piece.</div>
+<div data-progress>Ask him about Rune platebody, the Dragonfire Shield, and the map pieces. Be sure to exhaust every dialogue option. He should give you a key to Melzar's Maze.</div>
+<br><br>
+<h3>Thalzar's Map Piece</h3>
+<div data-progress>From Oziach's house, head west toward Ice Mountain with your Silk, Mind Bomb, Unfired bowl, and Lobster pot. Go to the Oracle at the top of the mountain to the north. Speak to her about a map piece. She'll tell you about a door in the mines.</div>
+<br><br>
+<div data-progress>Head to the dwarven camp south of Ice Mountain and climb down the ladder into the mines.</div>
+<br><br>
+<div data-progress>Go south past the first minecarts, then east to find a door. Simply, click the door to go inside, and your quest items needed will disappear. Inside, open the chest in the center of the room and search to find a map piece.</div>
+<br><br>
+<h3>Lozar's Map Piece</h3>
+<div data-progress>From the Dwarven mines, leave the room and walk south until you see stairs to the east, and go up. You are now in East Falador.</div>
 <br><br>
 <div data-progress>Grab you gear and some food if needed. Head to Melzar's Maze (south of the Crafting Guild) and use your key on the door.</div>
 <br><br>
-NOTE: When looking for keys DO NOT kill one spawn over and over. This is because there is a specific monster that will drop the key and only that one monster, every time it is killed.
+<div data-progress>Walk to the bank and bank everything except your Mage or Range gear, 2,000 coins, some food, Melzar's Key, 3 planks, 12 nails, and a hammer. Also, bring either 10,000 coins or Telegrab runes and a Wizard's Mind Bomb if you need to boost your magic.</div>
+<br><br>
+<div data-progress>Head to Port Sarim, south of Falador. Enter the jail south of the food shop and find a goblin named Wormbrain.</div>
+<br><br>
+<div data-progress>If using Telegrab, kill him through the bars and telegrab the map piece that he drops. If you don't have at least 33 Magic after boosts, you will have to talk to him and pay him 10,000 coins.</div>
+<br><br>
+<h3>Repairing Lady Lumbridge</h3>
+<div data-progress>While you are here, go to the southern dock of Port Sarim and speak to Klarense, who owns Lady Lumbridge, but ask if he is willing to sell it. Pay him 2k gold for the ship.</div>
+<br><br>
+<div data-progress>Cross the plank to board the ship and climb the ladder to go below deck.</div>
+<br><br>
+<div data-progress>Look just south of the ladder to find the hole. Use your planks on the hole to repair it. Each plank will take 4 nails.</div>
+<br><br>
+<h3>Melzar's Map Piece</h3>
+<div data-progress>Head to Melzar's Maze, which is between the Crafting Guild and Rimmington, and use your key on the door.</div>
+<br><br>
+Inside, you will see multiple colored doors leading to ladders. You must go through the right sequence of doors to get to the end of the maze. Getting through the door is based on the monsters in the room.
+<br><br>
+NOTE: Only one specific monster in the room will always give you a key, while the others are just distractions. So, when looking for keys, DO NOT kill one spawn over and over.
 <br><br>
 <div data-progress>Kill giant rats until one drops a red key. Use it on the northwest door, then go up the ladder.</div>
 <br><br>
 <div data-progress>Kill ghosts until one drops an orange key. Use it on the second door from the north. Many people mess this up—make sure it's the right one.</div>
 <br><br>
-<div data-progress>Kill skeletons until you get a yellow key. Use it on the most southwestern door. Go down the ladders until you reach zombies.</div>
+<div data-progress>Kill skeletons until you get a yellow key. Use it on the most southwestern door. Follow the corridor and go down the 3 ladders to the basement until you reach zombies.</div>
 <br><br>
-<div data-progress>Kill zombies until one drops a blue key. Use it on the northwest door. Kill Melzar the Mad until he drops a magenta key. Use it to proceed.</div>
+<div data-progress>Kill zombies until one drops a blue key. Use it on the northwest door.</div>
 <br><br>
-<div data-progress>You will now face a lesser demon. The lesser demon can be safespotted standing near the western most door. Kill the Lesser Demon to get the final (green) key. Use the key on the door, then check the chest to get another map piece.</div>
+<div data-progress>Kill Melzar the Mad until he drops a magenta key. Use it on the north door to proceed.</div>
+<br><br>
+<div data-progress>You will now face a lesser demon to obtain your final key. The lesser demon can be safespotted standing near the magenta door you just came through. Kill the Lesser Demon to get the green key. Use the key on the door.</div>
 <br><br>
 <img src="img/questimages/dragonslayer3.png" width="450">
 <br><br>
-<div data-progress>Stop by a bank. Choose one of the following: A) A bow and arrows/runes for combat spells and runes to cast Telekinetic Grab or B) 10,000 gp. If you brought the 10k, you don't need runes. If you're planning to kill Wormbrain, you'll need to telegrab the map piece.</div>
+<div data-progress>Open and search the chest to get the last map piece. Use all map pieces on each other to form the full map.</div>
 <br><br>
-<div data-progress>Mages/Archers: Go to the Port Sarim jail and attack Wormbrain. When he dies, use Telekinetic Grab on the map piece.</div>
+<h3>The Fight with Elvarg</h3>
+<div data-progress>Make your way to Lumbridge. Go into Lumbridge Castle and go up the northern stairs once, and enter the Duke's room.</div>
 <br><br>
-<div data-progress>Use all map pieces on each other to form the full map.</div>
+<div data-progress>Talk to the Duke. Ask about a shield to protect against dragons. He'll give you the Dragonfire Shield. It's advised to drop it, get another, and pick up the first one — just in case you die later. You can get as many as you like.</div>
 <br><br>
-<div data-progress>If you can't telegrab: Talk to Wormbrain in the Port Sarim jail. Ask about the map piece. He'll eventually offer to sell it for 10k. Pay him, and you'll receive the map piece. Combine all pieces to form the full map.</div>
+<div data-progress>Go to Draynor Village, just west of Lumbridge.</div>
 <br><br>
-<hr>
-<h3>Repairing Lady Lumbridge and the Fight with Elvarg</h3>
-<div data-progress>Go to Lumbridge Castle and talk to the Duke. Ask about a shield to protect against dragons. He'll give you the Dragonfire Shield. It's advised to drop it, get another, and pick up the first one—just in case you die later.</div>
+<div data-progress>In Draynor, find Ned, who is wearing all blue, either in the house just south of the quest symbol on the map or wandering outside. Talk to him. He mentions he is a sailor, so ask him to sail you to Crandor.</div>
 <br><br>
-<div data-progress>Withdraw 2,000 coins, a hammer, 3 planks, 12 nails, and your map. Go to Port Sarim, then head to the far east end of the southernmost dock.</div>
+<div data-progress>Right-click to use the map on Ned. He'll tell you to meet him at the ship.</div>
 <br><br>
-<div data-progress>Talk to the captain. After some dialogue, he'll offer to sell you the ship. Buy it, board the ship, and go below deck. Use your planks on the hole near you to repair it.</div>
+<div data-progress>Head to the bank to prepare for the boss fight. Bring an Attack & Strength potion, food, emergency teleport (Ring of Dueling is a cheap option, must be unequipped to rub), armor, weapons, and most importantly, your Dragonfire Shield. This boss CANNOT be safe-spotted, but can be flinched, which requires run energy to perform.</div>
 <br><br>
-<div data-progress>Go to Draynor and talk to Ned. He'll offer to sail you to Crandor. Give him the map, and he'll tell you to meet him at the ship. Now's the time to prepare: bring potions, food, armor, weapons (magic or ranged), and most importantly—your Dragonfire Shield.</div>
+<div data-progress>Head to your ship, Lady Lumbridge, go below deck, and talk to Ned. Off to Crandor!</div>
 <br><br>
-<div data-progress>Head to your ship (The Lady Lumbridge), go below deck, and talk to Ned. Off to Crandor!</div>
-<br><br>
-<div data-progress>After arriving, the ship will be damaged. Disembark and climb the hill.</div>
+<div data-progress>After arriving, the ship will be damaged. Disembark and climb the hill. Follow the map below to reach the center of Crandor.</div>
 <br><br>
 <img src="img/questimages/dragonslayer2.png">
 <br><br>
 <div data-progress>Once you reach the top, enter the dungeon. Follow the path past King Scorpions. Evade them and walk north to another upward path. Go up, dodge the Lesser Demon, then enter the cave.</div>
 <br><br>
-<div data-progress>Inside, dodge the skeletons and walk deeper into the cave. Go through the door. This is a good time to drink any stat-boosting potions. If you forgot your Dragonfire Shield, now's the time to leave and retrieve it.</div>
+<div data-progress>Inside, dodge the skeletons and walk deeper into the cave. Head south toward the Lesser Demons and look for a "secret" wall with an “Open” command. Your character will memorize this location for future access.</div>
 <br><br>
-<div data-progress>Time to face Elvarg (Level 86). She hits hard for her level—when I fought her, she maxed a 10. Eat food as needed and stay focused. Don't let her finish you off.</div>
-<br><br>
-<div data-progress>After defeating Elvarg, you'll be teleported outside. If a skeleton attacks you, don't panic. Head south toward the Lesser Demons and look for a “secret” wall with an “Open” command. Your character will memorize this location for future access. From here, either teleport to Lumbridge or sell items at the general store to afford a trip off Karamja.</div>
-<br><br>
-Here is a picture of the wall:<br>
+Here is a picture of the wall:
+<br>
 <img src="img/questimages/dragonslayer1.png" width="450">
 <br><br>
-<div data-progress>Congratulations—you've completed Dragon Slayer! Go buy that Rune platebody, you legend.</div>
-$questComplete
-This quest guide was written on RuneHQ by Catherine and Ghou Lies. Thanks to Weezy, firespyrit, evomasta, stormer, DRAVAN, Axelman, and Ghou Lies for corrections.
+NOTE: If you die during your fight with Elvarg and have unlocked this secret door, you do not need to repair Lady Lumbridge again. Take a boat to Musa Point and go to the Volcano. There is a rope into the Volcano, then the secret door is just north of the spiders. You can now try to defeat Elvarg again.
 <br><br>
-This quest guide was entered into the database on Fri, Feb 06, 2004, at 09:11:17 PM by Chownuggs and was last updated on Tue, Jul 06, 2004, at 08:25:23 AM.
+<div data-progress>Re-enter the secret wall and go back north to the East door. Get ready to fight Elvard, a level 86 green dragon. Drink your Attack and Strength potions, make sure your Dragonfire Shield is equipped, and enter the door.</div>
+<br><br>
+Protip: Elvarg's max hit if you are wearing the Dragonfire shield is 10. So be sure you eat enough to be above 10 hitpoints at all times. If using melee, best to be on Accurate to hit more often. You can switch to Aggressive to hit harder, but you may not land a hit as often.
+<br><br>
+<div data-progress>After defeating Elvarg, you'll be teleported outside. Congratulations — you've completed Dragon Slayer! Go buy that Rune platebody, you legend.</div>
+<br><br>
+<div data-progress>If a skeleton attacks you, don't panic. From here, either use your emergency teleport or go through the secret door again just south. Go east to find a rope and climb up.</div>
+<br><br>
+<div data-progress>You are now at the top of Karamja Volcano. Make your way to the dock and leave Karamja. If you cannot afford to pay the toll, pick 10 bananas to fill the crate for Luthas near the dock to get 30gp to afford a trip to Port Sarim.</div>
+<br><br>
+<div data-progress>Speak to Oziach and tell him the dragon is dead. You can now wear a Rune Platebody and Green Dragonhide body!</div>
+$questComplete
+This quest guide was written on RuneHQ by Catherine and Ghou Lies. Thanks to Weezy, firespyrit, evomasta, stormer, DRAVAN, Axelman, Ghou Lies, and Fran 2004 for corrections.
+<br><br>
+This quest guide was entered into the database on Fri, Feb 06, 2004, at 09:11:17 PM by Chownuggs and was last updated on Wed, Sept 10, 2025, at 08:18:43 AM by Fran 2004.
 HTML; }
