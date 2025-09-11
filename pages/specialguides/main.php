@@ -11,6 +11,19 @@ $speciallist = array(
     "statboosting" => "Stat Boosting"
 );
 
+$guildlist = array(
+    "championsguild" => "Champions' Guild",
+    "cooksguild" => "Cook's Guild",
+    "craftingguild" => "Crafting Guild",
+    "fishingguild" => "Fishing Guild",
+    "herosguild" => "Hero's Guild",
+    "legendsguild" => "Legends Guild",
+    "magicguild" => "Magic Guild",
+    "miningguild" => "Mining Guild",
+    "prayerguild" => "Prayer Guild",
+    "rangingguild" => "Rangers Guild"
+);
+
 $minigameslist = array(
     // "agilityarena" => "Brimhaven Agility Arena",
     // "castlewars" => "Castle Wars",
@@ -18,7 +31,6 @@ $minigameslist = array(
     "fishingtrawler" => "Fishing Trawler",
     // "gamesroom" => "Burthorpe Games Room",
     "gnomeball" => "Gnome Ball",
-    //+ "rangingguild" => "Ranging Guild",
     // "shadesofmort" => "Shades of Mort'ton"
 );
 
@@ -27,18 +39,21 @@ function getExtraHeaderContent() {
 }
 
 function getPageContent() {
-    global $meta_data, $siteOptStyle, $speciallist, $minigameslist;
+    global $meta_data, $siteOptStyle, $speciallist, $minigameslist, $guildlist;
     ob_start();
 
     $guide = $_GET['guide'] ?? null;
+    $guilds = $_GET['guilds'] ?? null;
     $minigame = $_GET['minigames'] ?? null;
 
-    if (!$guide && !$minigame) {
+    if (!$guide && !$minigame && !$guilds) {
         $meta_data['title'] = 'Special Guides';
         $meta_data['og:title'] = $meta_data['title'];
         $meta_data['og:image'] = 'img/genie.png';
         echo '<h3>Select the guide you would like to view a guide for:</h3>';
         echo renderSpecialList($speciallist);
+        echo '<br>';
+        echo renderGuildsList($guildlist);
         echo '<br>';
         echo renderMiniGamesList($minigameslist);
         echo '<br>';
@@ -54,6 +69,23 @@ function getPageContent() {
             $meta_data['og:image'] = 'img/genie.png';
 
             echo getSpecialGuide($guideName);
+        } else {
+            $stopload = true;
+            redirect("404");
+            exit;
+        }
+    } elseif ($guilds) {
+        $currGuild = htmlspecialchars($guilds);
+        $filePath = 'pages/specialguides/guilds/' . $currGuild . '.php';
+    
+        if (file_exists($filePath)) {
+            include $filePath;
+            $guildName = $guildlist[$currGuild] ?? ucfirst($currGuild);
+            $meta_data['title'] = 'Special Guides > ' . $guildName;
+            $meta_data['og:title'] = $meta_data['title'];
+            $meta_data['og:image'] = 'img/genie.png';
+    
+            echo getSpecialGuide($guildName);
         } else {
             $stopload = true;
             redirect("404");
@@ -88,6 +120,19 @@ function renderSpecialList(array $speciallist): string {
     foreach ($speciallist as $specialKey => $specialName) {
         $url = "?p=specialguides&guide=" . urlencode($specialKey);
         $html .= '<tr><td><a href="' . $url . '">' . htmlspecialchars($specialName) . '</a></td></tr>';
+    }
+
+    $html .= '</tbody></table>';
+    return $html;
+}
+
+function renderGuildsList(array $guildlist): string {
+    $html = '<table class="table" style="width: 40%;">';
+    $html .= '<thead><tr><th>Guilds</th></tr></thead><tbody>';
+
+    foreach ($guildlist as $guildKey => $guildName) {
+        $url = "?p=specialguides&guilds=" . urlencode($guildKey);
+        $html .= '<tr><td><a href="' . $url . '">' . htmlspecialchars($guildName) . '</a></td></tr>';
     }
 
     $html .= '</tbody></table>';
