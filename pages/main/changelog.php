@@ -122,6 +122,7 @@ function getPageContent() {
     </tr>
   </thead>
   <tbody>
+    <tr><td>11/09/2025</td><td>Added Guilds and Mini-Games to special guides</td></tr>
     <tr><td>08/09/2025</td><td>Updated theme of tables to match 2004scape</td></tr>
     <tr><td>08/09/2025</td><td>Added Stat Boosting guide</td></tr>
     <tr><td>03/09/2025</td><td>Added Strength and Hitpoints skill guides</td></tr>
