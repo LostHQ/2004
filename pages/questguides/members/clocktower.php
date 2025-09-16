@@ -12,12 +12,12 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <ul style="list-style-type: none;">
 <li>
     <div data-progress>
-        <canvas data-itemname="bucket_water" data-size="25"></canvas>&nbsp;&nbsp;Bucket of water or <canvas data-itemname="ice_gloves" data-size="25"></canvas>&nbsp;Ice gloves
+        <canvas data-itemname="bucket_water" data-size="25"></canvas>&nbsp;&nbsp;Bucket of water (can be obtained during quest)<br>or<canvas data-itemname="ice_gloves" data-size="25"></canvas>&nbsp;&nbsp;Ice gloves
     </div>
 </li>
 <li>
     <div data-progress>
-        A good weapon and armour to get past some level 53 ogres
+        A good weapon and armour to get past some level 48 ogres
     </div>
 </li>
 </ul>
@@ -29,7 +29,8 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h3>Instructions:</h3>
 <br>
 <div data-progress>Talk to Brother Kojo; he should be in the clock tower just southwest of Ardougne Zoo.</div>
-<br>You need to get all four cogs. Remember, you can only carry one at a time.
+<br><br>
+You need to get all four cogs. Remember, you can only carry one at a time.
 <br><br>
 <div data-progress>Go down the ladder, and you should be in a dungeon. In the next room, you will see colored blocks on the floor representing the general direction of each cog.</div>
 <br>
@@ -41,21 +42,18 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <div data-progress>Use the bucket of water or wear your ice gloves and pick it up. Now go back to the ladder you came down to the basement with.</div>
 <br><br>
-<div data-progress>In the basement, use the <canvas data-itemname="blackcog" data-size="32"></canvas>Black Cog on the black pole.</div>
+<div data-progress>In the basement, use the<canvas data-itemname="blackcog" data-size="32"></canvas>Black Cog on the black pole.</div>
 <hr>
 <h3>Red Cog:</h3>
-<br><br>
 <div data-progress>Go to the colored bricks in the next room and go through the door. The red brick represents southeast.</div>
 <br><br>
-<div data-progress>Go through the door, and you'll reach a room with three level 53 ogres and the red cog.</div>
+<div data-progress>Go through the door, and you'll reach a room with three level 48 ogres and the red cog.</div>
 <br><br>
 <img src="img/questimages/clocktower2.png" height="200" width="200">
 <br><br>
-<div data-progress>Go back to the ladder, go up to the <span data-floors="US">1st floor</span>,<br>
- and use the <canvas data-itemname="redcog" data-size="32"></canvas>Red Cog on the red pole.</div>
+<div data-progress>Go back to the ladder, go up to the <span data-floors="US">1st floor</span>, and use the<canvas data-itemname="redcog" data-size="32"></canvas>Red Cog on the red pole.</div>
 <hr>
 <h3>White Cog:</h3>
-<br><br>
 <div data-progress>Go down the ladder to the dungeon and go to the room with the colored bricks. Now go through the door where the white brick represents northwest.</div>
 <br><br>
 <div data-progress>Continue going northwest to get the rat poison. After you've picked it up, go east to the rat cage.</div>
@@ -71,10 +69,9 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <div data-progress>Pick up the white cog, go up the ladder, and you will appear outside the clock tower.</div>
 <br><br>
-<div data-progress>Go inside, go up the ladder to the <span data-floors="US">3rd floor</span> and use the <canvas data-itemname="whitecog" data-size="32"></canvas>White Cog on the white pole.</div>
+<div data-progress>Go inside, go up the ladder to the <span data-floors="US">3rd floor</span> and use the<canvas data-itemname="whitecog" data-size="32"></canvas>White Cog on the white pole.</div>
 <hr>
 <h3>Blue Cog:</h3>
-<br><br>
 <div data-progress>Go down to the dungeon and to the room with the colored bricks. Go through the door where the blue brick represents southwest.</div>
 <br><br>
 <div data-progress>After going in, you'll reach a room with some monsters locked in cages, but unfortunately, the blue cog is locked in as well, with no doors.
@@ -82,15 +79,19 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <img src="img/questimages/clocktower5.png" height="200" width="200">
 <br><br>
-<div data-progress>Go up the ladder in the room, and you will appear outside the clock tower. Now go northeast to where Brother Cedric is. Just west of him is a ladder.</div>
+<div data-progress>Go up the ladder in the room, and you will appear outside the clock tower. Now go northeast to the wooden cart where Brother Cedric is.</div>
+<br><br>
+<div data-progress>Pick up the bucket south of the wooden cart. Then use the bucket on the adjacent well to obtain a bucket of water.</div>
+<br><br>
+<div data-progress>Climb down the ladder just east of the cart.</div>
 <br><br>
 <img src="img/questimages/clocktower6.png" height="200" width="200">
 <br><br>
-<div data-progress>Go down the ladder and follow the passage to a wall. Go through the door and pick up the blue cog.</div>
+<div data-progress>After climbing down the ladder, follow the passage to a wall. Go through the door and pick up the blue cog.</div>
 <br><br>
 <div data-progress>
 Go up the ladder, go inside the clock tower, up the staircase to the <span data-floors="US">2nd floor</span>
- and use the <canvas data-itemname="bluecog" data-size="32"></canvas>Blue Cog on the blue pole.
+ and use the<canvas data-itemname="bluecog" data-size="32"></canvas>Blue Cog on the blue pole.
 </div>
 <br><br>
 <div data-progress>Now that all of the cogs have been placed, talk to Brother Kojo to receive your reward.</div>
