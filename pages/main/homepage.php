@@ -26,7 +26,7 @@ function getPageContent() { return <<<HTML
         <tr>
             <td width="100">
                 <a href="?p=specialguides">
-                    <img src="img/genie.png">
+                    <img src="img/specialguides.png">
                 </a>
             </td>
             <td width="120">
@@ -36,7 +36,7 @@ function getPageContent() { return <<<HTML
             <td width="10"></td>
             <td width="100">
                 <a href="?p=itemdb">
-                    <img src="img/mm2_rs2b.jpg">
+                    <img src="img/itemdb.png">
                 </a>
             </td>
             <td width="120">
@@ -68,7 +68,7 @@ function getPageContent() { return <<<HTML
         <tr>
             <td width="100">
                 <a href="?p=cluetables">
-                    <img src="img/casket1.png">
+                    <img src="img/casket.png">
                 </a>
             </td>
             <td width="120">
@@ -89,7 +89,7 @@ function getPageContent() { return <<<HTML
         <tr>
             <td width="100">
                 <a href="?p=wallpapers">
-                    <img src="img/picture.png">
+                    <img src="img/wallpapers.png">
                 </a>
             </td>
             <td width="120">
