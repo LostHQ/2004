@@ -15,10 +15,10 @@ function getSkillContent($skill) { return <<<HTML
     <table>
         <tr>
             <td><h3>Levels required to pick the pockets of various npcs</h3>
-                <table bgcolor="black" cellpadding="4" width="150">
+                <table class="table" width="175">
                     <tr>
-                        <td bgcolor="#382418">Character</td>
-                        <td bgcolor="#382418">Level required</td>
+                        <th>Character</th>
+                        <th>Level required</th>
                     </tr>
                     <tr>
                         <td>Man</td>
@@ -73,13 +73,17 @@ function getSkillContent($skill) { return <<<HTML
         </tr>
     </table>
     <h3>Thieving levels needed to be able to<br>steal from the various market stalls.</h3>
-    <table bgcolor="black" cellpadding="4" width="200">
+    <table class="table" width="210">
         <tr>
-            <td bgcolor="#382418"><b>Stall</b></td>
-            <td bgcolor="#382418"><b>Level required</b></td>
+            <th>Stall</th>
+            <th>Level required</th>
         </tr>
         <tr>
             <td>Cake stall</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>Tea stall</td>
             <td>5</td>
         </tr>
         <tr>
@@ -101,6 +105,45 @@ function getSkillContent($skill) { return <<<HTML
         <tr>
             <td>Gems stall</td>
             <td>75</td>
+        </tr>
+    </table>
+    <br><br>
+    <h3>Thieving levels needed to be able to<br>steal from the various chests.</h3>
+    <table class="table" width="100%">
+        <tr>
+            <th>Chest</th>
+            <th>Level required</th>
+            <th>Location(s)</th>
+        </tr>
+        <tr>
+            <td>10 Coin chest</td>
+            <td>1</td>
+            <td>East Ardougne<br>Magic Axe Hut<br>Pirates' Hideout</td>
+        </tr>
+        <tr>
+            <td>Nature rune chest</td>
+            <td>28</td>
+            <td>East Ardougne<br>Pirates' Hideout</td>
+        </tr>
+        <tr>
+            <td>50 Coin chest</td>
+            <td>43</td>
+            <td>Ardougne<br>Pirates' Hideout</td>
+        </tr>
+        <tr>
+            <td>Steel arrowtips chest</td>
+            <td>47</td>
+            <td>Hemenster</td>
+        </tr>
+        <tr>
+            <td>Blood rune chest</td>
+            <td>59</td>
+            <td>Chaos Druid Tower</td>
+        </tr>
+        <tr>
+            <td>Ardougne castle chest</td>
+            <td>72</td>
+            <td>Ardougne Castle</td>
         </tr>
     </table>
 </p>
