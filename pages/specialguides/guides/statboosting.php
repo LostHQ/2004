@@ -4,6 +4,8 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
 This guide lists everything that can boost stats in RuneScape.
 <br><br>
 <h3>Stat Boosting Drinks</h3>
+There are a bunch of drinks in RuneScape that boost stats. Most of them are different kinds of alcohol, though tea also counts here. Alcohol always lowers your Attack level (at the very least), but in return it can give small boosts to other skills. These boosts are usually weaker than potions, but they can still be useful in the right situations.
+<br><br>
 <table class="table">
     <tr>
         <th width="22%">Drink</th>
@@ -20,7 +22,7 @@ This guide lists everything that can boost stats in RuneScape.
     <tr>
         <td><canvas data-itemname="cup_of_tea" data-show-label="true"></canvas></td>
         <td>+(2% + 2) Attack</td>
-        <td><canvas data-itemname="coins_10" data-size="25"></canvas><br>10 coins</td>
+        <td><canvas data-itemname="coins_5" data-size="25"></canvas><br>10 coins</td>
         <td> Ye olde Tea Shoppe. (Varrock)</td>
     </tr>
     <tr>
@@ -75,6 +77,8 @@ This guide lists everything that can boost stats in RuneScape.
     </tr>
 </table>
 <h3>Stat Boosting Potions</h3>
+Potions are the main way to raise your stats, and they're all made with Herblore. Each one gives a temporary boost to a specific skill. Here's a list of every potion you can make that boosts stats and its Herblore level required to make.
+<br><br>
 <table class="table" width="100%">
     <tr>
         <th>Potion</th>
@@ -122,7 +126,94 @@ This guide lists everything that can boost stats in RuneScape.
         <td>72</td>
     </tr>
 </table>
+<h3>Poison Chalice</h3>
+You can get the Poison Chalice for free from Stankers, who hangs out near the Coal Trucks. When you drink it, it has a completely random effect, but it won't ever drop your Hitpoints below 4. It's also the only item in the game that can randomly boost your Thieving and Crafting levels, which makes it pretty unique.
+<br><br>
+<table class="table" width="100%">
+    <tr>
+        <th>Response</th>
+        <th>Effects</th>
+        <th>Chance</th>
+    </tr>
+    <tr>
+        <td><i>You feel a lot better.</i></td>
+        <td>Heals by 15% of total Hitpoints; Thieving goes up by 1</td>
+        <td>9/32</td>
+    </tr>
+    <tr>
+        <td><i>You feel a little strange.</i></td>
+        <td>Attack, Strength, Defence go down by 1, Crafting goes up by 1</td>
+        <td>8/32</td>
+    </tr>
+    <tr>
+        <td><i>It has a slight taste of apricot.</i></td>
+        <td>No effect</td>
+        <td>7/32</td>
+    </tr>
+    <tr>
+        <td><i>It heals some health.</i></td>
+        <td>Heals by 5% of total Hitpoints</td>
+        <td>4/32</td>
+    </tr>
+    <tr>
+        <td><i>That tasted a bit dodgy. You feel a bit ill.</i></td>
+        <td>Take 5% of total Hitpoints in damage</td>
+        <td>2/32</td>
+    </tr>
+    <tr>
+        <td><i>That tasted very dodgy. You feel very ill.</i></td>
+        <td>Take 50% of total Hitpoints in damage; Attack, Strength, and Defence go down by 1-3</td>
+        <td>1/32</td>
+    </tr>
+    <tr>
+        <td><i>Wow! That was amazing! You feel really invigorated.</i></td>
+        <td>Heals by 30% of total Hitpoints; Attack, Strength, Defence go up by 4</td>
+        <td>1/32</td>
+    </tr>
+</table>
+<h3>Kebab</h3>
+Kebabs are a bit unpredictable when eaten. They can heal you, do nothing, or even lower stats, but every once in a while they'll give a small boost to your melee stats. Because of that, they're not very reliable, but they do technically count as a stat-boosting item.
+<br><br>
+<table class="table" width="100%">
+    <tr>
+        <th>Response</th>
+        <th>Effects</th>
+        <th>Chance</th>
+    </tr>
+    <tr>
+        <td><i>Wow, that was an amazing kebab! You feel really invigorated.</i></td>
+        <td>Melee stats are increased by 2 and player is healed by 7 + 24% of Hitpoints level.</td>
+        <td>1/32</td>
+    </tr>
+    <tr>
+        <td><i>That was a good kebab. You feel a lot better.</i></td>
+        <td>The player is healed by 6 + 14% of Hitpoints level.</td>
+        <td>8/32</td>
+    </tr>
+    <tr>
+        <td><i>It heals some health.</i></td>
+        <td>The player is healed by 3 + 7% of Hitpoints level.</td>
+        <td>20/32</td>
+    </tr>
+    <tr>
+        <td><i>That kebab didn't seem to do a lot.</i></td>
+        <td>There is no effect from eating the kebab.</td>
+        <td>1/32</td>
+    </tr>
+    <tr>
+        <td><i>That tasted a bit dodgy. You feel a bit ill.<br>Eating the kebab has damaged your [skill] stat.</i></td>
+        <td>A random skill (except Hitpoints) is drained by 3.</td>
+        <td>1/32</td>
+    </tr>
+    <tr>
+        <td><i>That tasted very dodgy. You feel very ill.<br>Eating the kebab has done damage to some of your stats.</i></td>
+        <td>Melee stats are drained by 3 and a random skill (except Hitpoints) is drained by 4.</td>
+        <td>1/32</td>
+    </tr>
+</table>
 <h3>Special Attacks</h3>
+A few weapons in RuneScape have special attacks that can temporarily boost your stats. These boosts are unique because they come from using the special attack itself, rather than from food or drink.
+<br><br>
 <table class="table" width="100%">
     <tr>
         <th width="20%">Weapon</th>
@@ -141,7 +232,7 @@ This guide lists everything that can boost stats in RuneScape.
     </tr>
 </table>
 <hr>
-This special report was written by Halogod35. Thanks to Sythion for corrections.
+This special report was written by Halogod35. Thanks to Sythion and Gerrin for corrections.
 <br><br>
-This special report was entered into the database on Mon, Sep 08, 2025, at 04:54:27 AM by Halogod35 and was last updated on Mon, Sep 15, 2025, at 10:18:42 PM by Halogod35.
+This special report was entered into the database on Mon, Sep 08, 2025, at 04:54:27 AM by Halogod35 and was last updated on Mon, Sep 16, 2025, at 12:05:09 PM by Halogod35.
 HTML; }
