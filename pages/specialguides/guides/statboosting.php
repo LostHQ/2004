@@ -3,10 +3,10 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
 <h2>$currSpecialGuide</h2>
 This guide lists everything that can boost stats in RuneScape.
 <br><br>
-<h3>Stat Boosting Alcohol</h3>
+<h3>Stat Boosting Drinks</h3>
 <table class="table">
     <tr>
-        <th width="22%">Beer</th>
+        <th width="22%">Drink</th>
         <th width="29%">Effect</th>
         <th width="14%">Price</th>
         <th>Location</th>
@@ -16,6 +16,12 @@ This guide lists everything that can boost stats in RuneScape.
         <td>-(5% + 2) Attack<br>+2 Strength</td>
         <td><canvas data-itemname="coins_3" data-size="25"></canvas><br>3 coins</td>
         <td>Rising Sun Inn (Falador)</td>
+    </tr>
+    <tr>
+        <td><canvas data-itemname="cup_of_tea" data-show-label="true"></canvas></td>
+        <td>+(2% + 2) Attack</td>
+        <td><canvas data-itemname="coins_10" data-size="25"></canvas><br>10 coins</td>
+        <td> Ye olde Tea Shoppe. (Varrock)</td>
     </tr>
     <tr>
         <td><canvas data-itemname="beer" data-show-label="true"></canvas></td>
@@ -135,7 +141,7 @@ This guide lists everything that can boost stats in RuneScape.
     </tr>
 </table>
 <hr>
-This special report was written by Halogod35.
+This special report was written by Halogod35. Thanks to Sythion for corrections.
 <br><br>
-This special report was entered into the database on Mon, Sep 08, 2025, at 04:54:27 AM by Halogod35 and was last updated on Mon, Sep 08, 2025, at 12:12:54 PM by Halogod35.
+This special report was entered into the database on Mon, Sep 08, 2025, at 04:54:27 AM by Halogod35 and was last updated on Mon, Sep 15, 2025, at 10:18:42 PM by Halogod35.
 HTML; }
