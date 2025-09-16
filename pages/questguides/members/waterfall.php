@@ -37,7 +37,7 @@ The grave is the grey circle place with a walk way to the circle.<br>
 <br><br>
 <div data-progress>Now use the rope on the dead tree, and you will appear by a doorway. Get in the barrel, and you will end up by a fence. Follow it up to a house. Climbing the dead tree at the top of the waterfall deals 8 damage, and opening the door on the ledge without Glarial's amulet deals 5 damage.</div>
 <br><br>
-<div data-progress>Inside the house talk to Hadley, then go north and talk to Almera and then go back to Hadley's house. Go upstairs, get the book called "The book of baxster" and read it. Go back downstairs and speak to Hadley again. If you want you can go by the grave east of Hadley's house.</div>
+<div data-progress>Inside the house talk to Hadley, then go north and talk to Almera and then go back to Hadley's house. Go upstairs, get the book called "Book on Baxtorian" and read it. Go back downstairs and speak to Hadley again. If you want you can go by the grave east of Hadley's house.</div>
 <br><br>
 <div data-progress>Go to Gnome Village, not Gnome Stronghold. Go through the maze and reach the cave. (Use the maze map below.)</div>
 <br><br>
