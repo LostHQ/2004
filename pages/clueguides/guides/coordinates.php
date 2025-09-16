@@ -5,7 +5,7 @@ function getGuideContent($guide) { return <<<HTML
 <br><br>
 <b>Note:</b> When you follow a clue with co-ordinates, you will need to have the sextant, watch, chart and clue in your inventory to dig up the treasure.
 <br><br>
-In case anyone needs help where to get these items<br>
+In case anyone needs help where to get these items (must be acquired in order as follows):<br>
 Sextant - Murphy the trawler sailor in Port Khazard<br>
 Watch - Monk in the Clock Tower<br>
 Navigation Chart - Observatory  (Speak to one of the men.)<br>
