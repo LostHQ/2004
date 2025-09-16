@@ -277,7 +277,7 @@ function getSkillContent($skill) { return <<<HTML
     <h3>Ground Ingredients</h3>
     The unicorn and dragon scale need to be ground before they can be used in the potions. To grind them use the pestle and mortar bought from the herblore shop.
     <br><br>
-    <table width="98%" cellpadding="1" cellspacing="0" class="table">
+    <table width="100%" class="table">
         <tr>
             <th>Start</th>
             <th>Use with</th>
@@ -308,6 +308,48 @@ function getSkillContent($skill) { return <<<HTML
             <td><canvas data-itemname="3doseantipoison"></canvas></td>
         </tr>
     </table>
-    
+    <h3>Secondary Ingredients</h3>
+    <table class="table" width="100%">
+        <tr>
+            <th>Ingredient</th>
+            <th>Location</th>
+        </tr>
+        <tr>
+            <td><canvas data-itemname="eye_of_newt" data-show-label="true"></canvas></td>
+            <td>Primarily bought from various shops for 3 coins. These shops include:<br>Betty's Magic Emporium. (Port Sarim)<br>Jatix's Herblore Shop. (Taverley)</td>
+        </tr>
+        <tr>
+            <td><canvas data-itemname="unicorn_horn_dust" data-show-label="true"></canvas></td>
+            <td>Found by grinding Unicorn horns with a Pestle and Mortar. Common locations to farm Unicorns include:<br>South of Edgeville<br>Southeast of Camelot<br>East of the Graveyard of Shadows</td>
+        </tr>
+        <tr>
+            <td><canvas data-itemname="limpwurt_root" data-show-label="true"></canvas></td>
+            <td>Most commonly aquired from killing Hill giants and Hobgoblins</td>
+        </tr>
+        <tr>
+            <td><canvas data-itemname="red_spiders_eggs" data-show-label="true"></canvas></td>
+            <td>Spawns in the Varrock Sewers and Edgeville Dungeon (Wilderness Area)</td>
+        </tr>
+        <tr>
+            <td><canvas data-itemname="white_berries" data-show-label="true"></canvas></td>
+            <td>Spawns in the wilderness at the Lava Dragon Isle</td>
+        </tr>
+        <tr>
+            <td><canvas data-itemname="snape_grass" data-show-label="true"></canvas></td>
+            <td>Spawns at the Hobgoblin Peninsula west of the Crafting Guild</td>
+        </tr>
+        <tr>
+            <td><canvas data-itemname="dragon_scale_dust" data-show-label="true"></canvas></td>
+            <td>Found by grinding Blue Dragon Scales with a Pestle and Mortar. Scales spawn near the blue dragons in the Taverley Dungeon</td>
+        </tr>
+        <tr>
+            <td><canvas data-itemname="wine_of_zamorak" data-show-label="true"></canvas></td>
+            <td>Spawns at the Chaos Temple north of Falador as well as the Chaos Temple in the Wilderness (level 38)</td>
+        </tr>
+        <tr>
+            <td><canvas data-itemname="jangerberries" data-show-label="true"></canvas></td>
+            <td>Spawns at the island north of Gu'Tanoth</td>
+        </tr>
+    </table>
 </p>
 HTML; }
