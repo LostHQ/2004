@@ -89,13 +89,13 @@ Congratulations on completing a whole lap! Heres how the xp works for this cours
     <tr>
         <td>1</td>
         <td>Completed Lap</td>
-        <td>86</td>
+        <td>39</td>
         <td>No</td>
     </tr>
     <tr>
         <td>1</td>
         <td>Course Total</td>
-        <td>133.5</td>
+        <td>86.5</td>
         <td>No</td>
     </tr>
 </table>
