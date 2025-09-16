@@ -24,7 +24,7 @@ function getCalcContent() { return <<<HTML
     <hr>
     <div>
         <button onclick="setMode('potions')">Mixing Potions</button>
-        <button onclick="setMode('cleaning_herbs')">Cleaning Herbs</button>
+        <button onclick="setMode('cleaning_herbs')">Identifying Herbs</button>
         <button onclick="setMode('banked')">Banked XP</button>
     </div>
     <br>

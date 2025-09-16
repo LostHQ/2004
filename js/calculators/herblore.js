@@ -319,7 +319,7 @@ function runCalc() {
         const div = document.createElement("div");
         div.classList.add("input-group");
         const label3 = document.createElement("label");
-        label3.innerHTML = "Are your herbs already cleaned?";
+        label3.innerHTML = "Are your herbs already identified?";
         const select3 = document.createElement("select");
         select3.id = "cleaningHerbs";
         select3.innerHTML = `<option value="yes">Yes</option>
@@ -369,7 +369,7 @@ function runCalc() {
             let totalXP = 0;
             const table = document.createElement("table");
             table.id = "bankedResultsTable";
-            table.classList.add("calculators");
+            table.classList.add("table");
             table.style.marginTop = "1em";
             table.innerHTML = `<thead><tr><th>Herb</th><th>Potion</th><th>Amount</th><th>XP per</th><th>Total XP</th></tr></thead><tbody></tbody>`;
             const tbody = table.querySelector("tbody");
@@ -475,7 +475,7 @@ function runCalc() {
             let secondaryListArr = Object.entries(secondaryCounts);
             const finalLevel = getLevelForXP(xpAfter);
             const summaryTable = document.createElement("table");
-            summaryTable.classList.add("calculators");
+            summaryTable.classList.add("table");
             summaryTable.style.marginTop = "1em";
             summaryTable.id = "bankedSummaryTable";
             const summaryTbody = document.createElement("tbody");
@@ -511,7 +511,7 @@ function runCalc() {
 
         const resultsTable = document.createElement("table");
         resultsTable.id = "resultsTable";
-        resultsTable.classList.add("calculators");
+        resultsTable.classList.add("table");
         resultsTable.width = "100%";
         const resultsHeader = document.createElement("thead");
         resultsHeader.innerHTML = `<tr><th>Level</th><th>Ingredient(s)</th><th>Result</th><th>XP Gained</th><th>Total Needed</th></tr>`;
