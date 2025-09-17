@@ -215,8 +215,7 @@ In order to aquire a sextant, watch, and chart, you first must have a coordinate
     <td><a href="#" class="image-link" data-image="img/clue_guides/coordinates/0250north.png">02 deg 50 min North<br>
       06 deg 20 min East</a>
     </td>
-    <td>South of Ardougne, North of the Necromancer - Dig by the NorthEast side 
-      of the group of 3 willow trees</td>
+    <td>Southeast of Ardougne Zoo, on a small cape - Dig by the NorthEast side of the group of 3 willow trees</td>
   </tr>
   <tr>
     <td><a href="#" class="image-link" data-image="img/clue_guides/coordinates/0400south.png">04 deg 00 min South<br>
@@ -236,8 +235,7 @@ In order to aquire a sextant, watch, and chart, you first must have a coordinate
     <td><a href="#" class="image-link" data-image="img/clue_guides/coordinates/0543north.png">05 deg 43 min North<br>
       23 deg 05 min East</a>
     </td>
-    <td>The Lumbridge cow pen by the river - North of the Windmill between Draynor 
-      and Lumbridge</td>
+    <td>Just south of the Champions' Guild, opposite side of the River Lum in Lumbridge - Go directly to the Northernmost part from the gate</td>
   </tr>
   <tr>
     <td><a href="#" class="image-link" data-image="img/clue_guides/coordinates/0631north.png">06 deg 31 min North<br>
