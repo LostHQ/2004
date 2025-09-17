@@ -14,7 +14,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress>36 Woodcutting</div><br></li>
 <li><div data-progress><canvas data-itemname="bronze_axe" data-size="25"></canvas>&nbsp;&nbsp;Any hatchet</div><br></li>
 <li><div data-progress><canvas data-itemname="knife" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress>Ability to kill a level 101 Tree spirit with limited armour and weapons</div></li>
+<li><div data-progress>Ability to kill a level 101 Tree spirit with limited armour and weapons (can be safespotted)</div></li>
 </ul>
 <b>Starting Location:</b> Speak to Adventurers in the Lumbridge Swamp, south of Lumbridge/Draynor forest
 <br><br>
@@ -31,13 +31,13 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <img src="img/questimages/lostcity2.png" height="300" width="350">
 <br><br>
-<div data-progress>Prepare yourself at Draynor bank for the fight with a level 101 spirit without armor or a weapon. Bring good food, runes, or jewellry to teleport.</div>
+<div data-progress>Prepare yourself at Draynor bank for the fight with a level 101 spirit without armor or a weapon. Bring good food and runes or jewellery to teleport; otherwise you will have to teleport to level 32 wilderness.</div>
 <br><br>
 You can also bring crafting materials to create leather armor<!-- or snelms-->. Other supplies depend on whether you will be using melee/magic/ranged.
 <br><br>
 Melee: Prayer potions<br>
-Magic: Runes for strike/bolt/blast/wave spell<br>
-Ranged: Arrows, unfinished bow, bowstring
+Magic: Runes for strike/bolt/blast/wave spell or crumble undead<br>
+Ranged: Arrows, unfinished bow, and bowstring
 <br><br>
 Armor and items allowed on Entrana includes: jewellery, capes, robes, hats, potions, and a knife.
 <br><br>

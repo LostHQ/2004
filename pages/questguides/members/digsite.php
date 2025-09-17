@@ -17,13 +17,13 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress><canvas data-itemname="cup_of_tea" data-size="25"></canvas></div>&nbsp;&nbsp;Cup of tea (can be stolen from the Varrock tea stall)<br></li>
 <li><div data-progress><canvas data-itemname="chisel" data-size="25"></canvas>&nbsp;&nbsp;Chisel (only necessary if you do not have a cut opal)</div><br></li>
 <li><div data-progress><canvas data-itemname="opal" data-size="25"></canvas></div>&nbsp;&nbsp;Opal (can be obtained during quest if you bring a chisel)<br></li>
-<li><div data-progress><canvas data-itemname="charcoal" data-size="25"></canvas></div>&nbsp;&nbsp;Charcoal (obtainable during the quest, but may take some time)<br></li>
+<li><div data-progress><canvas data-itemname="charcoal" data-size="25"></canvas></div>&nbsp;&nbsp;Charcoal (obtainable during the quest)<br></li>
 <li><div data-progress><canvas data-itemname="rope" data-size="25"></canvas></div>&nbsp;&nbsp;2 Ropes (can be slowly obtained during quest, but may be faster to bring your own)<br></li>
 
 </ul>
 <h3>Recommended:</h3>
 <ul style="list-style-type: none;">
-<li><div data-progress><canvas data-itemname="lawrune" data-size="25"></canvas>&nbsp;&nbsp;Runes for 2 Varrock Teleports</div><br></li>
+<li><div data-progress><canvas data-itemname="lawrune" data-size="25"></canvas>&nbsp;&nbsp;Runes for 1-2 Varrock Teleports</div><br></li>
 <li><div data-progress>The ability to run pass level 22 skeletons</div></li>
 </ul>
 <b>Starting Location:</b> All the way southeast of Varrock, (north of Al Kharid mine). Go through gate, head east into building with red floor and talk to Examiners
@@ -99,21 +99,19 @@ Do not lose the trowel, because at this time, once you complete all 3 exams, you
 <br><br>
 <div data-progress>Return to the digsite and use the letter with a workman. He will allow you to enter the shafts.</div>
 <br><br>
-<div data-progress>Go to the northeast corner, then go south one dig plot (sign reads level 2 digs only) to the site with the winch. Operate the winch and you'll be told you need something to help the bucket reach the bottom. Use the rope with the winch and operate it to lower yourself to the bottom. Take an Arcenia root and climb back to the surface.</div>
+<div data-progress>Go to the northeast corner, then go south one dig plot (sign reads level 2 digs only) to the site with the winch. Operate the winch and you'll be told you need something to help the bucket reach the bottom. Use the rope with the winch and operate it to lower yourself to the bottom. Take an Arcenia root.</div>
 <br><br>
 <div data-progress>Talk to the Workmen and say the following things: I have been invited to research here, then, do you know where I can find a chest key then from then on use the first option in every sentence to beg yourself a new key.</div>
 <br><br>
-<div data-progress>Go back to the tents. Search the specimen tray outside of the tent where you found the panning tray until you find charcoal. Use pestle and mortar on the charcoal to get another ingredient for the bomb.</div>
+<div data-progress>Go back to the tents. Search the specimen tray outside of the tent where you found the panning tray until you find charcoal. Use pestle and mortar on the charcoal to get ground charcoal.</div>
 <br><br>
-<div data-progress>Go west of the tent where you got the panning tray; you will find 3 barrels. Use the trowel on them until one of them is opened. Use the vial on the open barrel to get an orange unidentified liquid. <font color="#FF0000">Do not, I repeat, do not drop the vial! You will take from 20 to 36 damage!</font></div>
+<div data-progress>To the West of the tents; you will find 3 barrels. Use the trowel on them until one of them is opened. Use the vial on the open barrel to get an orange unidentified liquid. <font color="#FF0000">Do not, I repeat, do not drop the vial! You will take from 20 to 36 damage!</font></div>
 <br><br>
-<div data-progress>Take vial and use it on Archeological expert (by the Examiner) to get it identified as Nitroglycerin.</div>
+<div data-progress>Go to the tent where you got the panning tray. Use the key on chest and you'll receive an unidentified white chemical powder.</div>
+<br><br>
+<div data-progress>Take the unidentified powder and orange vial of unidentified liquid to the Archeological expert (by the Examiner) to get them identified as Ammonium Nitrate and Nitroglycerin respectively.</div>
 <br><br>
 <div data-progress>(Optional): Search the bookshelves in the Examiner's room and find the Book of Experimental Chemistry. Read this book. It has the ingredients to make a bomb you will need later on.</div>
-<br><br>
-<div data-progress>Go back to the dig site to the northeast winch. Use a rope on the winch to go down.<!-- (saving if wrong); the guy tells you that it's a private winch. Use the scroll on him to be able to go down. Operate the winch. Use rope on the winch, then operate it again to go down.--></div>
-<br><br>
-<div data-progress>Go to the tent where you got the panning tray. Use the key on chest and you'll receive an unidentified white chemical powder. Take the unidentified powder to the Archeological expert to get it identified as ammonium nitrate.</div>
 <br><br>
 <div data-progress>Go back to the dig site and go back down the north west winch.</div>
 <br><br>

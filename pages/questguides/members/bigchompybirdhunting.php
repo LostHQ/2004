@@ -97,7 +97,7 @@ The food items can be found around the Ogre city area and around the area where 
 <br>
 <div data-progress>The Doogle leaves are west of the onions.</div>
 <br>
-<div data-progress>The potatoes and equa leaves are found at the shore south, then east, of Rantz. The potato is very hard to find and only spawns rarely in this area.</div>
+<div data-progress>The potatoes and equa leaves are found at the shore south, then east, of Rantz.</div>
 <br><br>
 <div data-progress>When you got the required ingredients, go north of Rantz and south of the cave. There is a special fire, use the Raw Chompy bird on the fire and it will cook the bird with the ingredients.</div>
 <br><br>
