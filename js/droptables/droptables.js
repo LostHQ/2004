@@ -413,25 +413,41 @@ function getApproximateFraction(numerator, denominator) {
   
   const decimal = numerator / denominator;
   
-  const commonFractions = [
-    {n: 1, d: 2}, {n: 1, d: 3}, {n: 2, d: 3}, {n: 1, d: 4}, {n: 3, d: 4},
-    {n: 1, d: 5}, {n: 2, d: 5}, {n: 3, d: 5}, {n: 4, d: 5}, {n: 1, d: 6}, {n: 5, d: 6},
-    {n: 1, d: 8}, {n: 3, d: 8}, {n: 5, d: 8}, {n: 7, d: 8}, {n: 1, d: 10}, {n: 3, d: 10}, {n: 7, d: 10}, {n: 9, d: 10},
-    {n: 1, d: 12}, {n: 5, d: 12}, {n: 7, d: 12}, {n: 11, d: 12}, {n: 1, d: 16}, {n: 3, d: 16}, {n: 5, d: 16}, {n: 7, d: 16}, {n: 9, d: 16}, {n: 11, d: 16}, {n: 13, d: 16}, {n: 15, d: 16},
-    {n: 1, d: 20}, {n: 3, d: 20}, {n: 7, d: 20}, {n: 9, d: 20}, {n: 11, d: 20}, {n: 13, d: 20}, {n: 17, d: 20}, {n: 19, d: 20},
-    {n: 1, d: 25}, {n: 2, d: 25}, {n: 3, d: 25}, {n: 4, d: 25}, {n: 6, d: 25}, {n: 7, d: 25}, {n: 8, d: 25}, {n: 9, d: 25}, {n: 11, d: 25}, {n: 12, d: 25}, {n: 13, d: 25}, {n: 14, d: 25}, {n: 16, d: 25}, {n: 17, d: 25}, {n: 18, d: 25}, {n: 19, d: 25}, {n: 21, d: 25}, {n: 22, d: 25}, {n: 23, d: 25}, {n: 24, d: 25}
-  ];
+  const commonFractions = {
+    //numerator: [denominator(s)]
+    2: [1],
+    3: [1, 2],
+    4: [1, 3],
+    5: [1, 2, 3, 4],
+    6: [1, 5],
+    8: [1, 3, 5, 7],
+    10: [1, 3, 7, 9],
+    12: [1, 5, 7, 11],
+    16: [1, 3, 5, 7, 9, 11, 13, 15],
+    20: [1, 3, 7, 9, 11, 13, 17, 19],
+    25: [1, 2, 3, 4, 6, 7, 8, 9, 11, 12, 13, 14, 16, 17, 18, 19, 21, 22, 23, 24],
+    32: [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31],
+    40: [1, 3, 7, 9, 11, 13, 17, 19, 21, 23, 27, 29, 31, 33, 37, 39],
+    50: [1, 3, 7, 9, 11, 13, 17, 19, 21, 23, 27, 29, 31, 33, 37, 39, 41, 43, 47, 49],
+    64: [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63],
+    80: [1, 3, 7, 9, 11, 13, 17, 19, 21, 23, 27, 29, 31, 33, 37, 39, 41, 43, 47, 49, 51, 53, 57, 59, 61, 63, 67, 69, 71, 73, 77, 79],
+    100: [1, 3, 7, 9, 11, 13, 17, 19, 21, 23, 27, 29, 31, 33, 37, 39, 41, 43, 47, 49, 51, 53, 57, 59, 61, 63, 67, 69, 71, 73, 77, 79,
+      81, 83, 87, 89, 91, 93, 97, 99]
+  };
   
   let closestFraction = null;
   let smallestDifference = Infinity;
   
-  for (const frac of commonFractions) {
-    const fracDecimal = frac.n / frac.d;
-    const difference = Math.abs(decimal - fracDecimal);
-    
-    if (difference < smallestDifference && difference < 0.02) {
-      smallestDifference = difference;
-      closestFraction = frac;
+  for (const d in commonFractions) {
+    const denominator = parseInt(d);
+    for (const n of commonFractions[d]) {
+      const fracDecimal = n / denominator;
+      const difference = Math.abs(decimal - fracDecimal);
+      
+      if (difference < smallestDifference && difference < 0.02) {
+        smallestDifference = difference;
+        closestFraction = {n: n, d: denominator};
+      }
     }
   }
   
