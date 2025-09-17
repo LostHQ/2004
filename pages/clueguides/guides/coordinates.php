@@ -3,12 +3,16 @@ function getGuideContent($guide) { return <<<HTML
 <h2>Treasure Trails $guide Guide</h2>
 <p>When you get a co-ordinate clue, it will say something like "04 degrees, 13 minutes North, 12 degrees, 45 minutes East".
 <br><br>
-<b>Note:</b> When you follow a clue with co-ordinates, you will need to have the sextant, watch, chart and clue in your inventory to dig up the treasure.
+<b>Note:</b> When you follow a clue with co-ordinates, you will need to have the sextant, watch, chart, and clue in your inventory to dig up the treasure.
 <br><br>
-In case anyone needs help where to get these items (must be acquired in order as follows):<br>
-Sextant - Murphy the trawler sailor in Port Khazard<br>
-Watch - Monk in the Clock Tower<br>
-Navigation Chart - Observatory  (Speak to one of the men.)<br>
+In order to aquire a sextant, watch, and chart, you first must have a coordinate clue and have either started or completed the <a href="?p=questguides&quest=observatory">Observatory Quest</a>. Once you have met these requirements, the steps are as follows:
+<ol>
+  <li>With the coordinate clue in your inventory, talk to the Observatory professor about Treasure Trails.</li>
+  <li>Head over to Port Khazard and speak to Murphy to obtain a sextant.</li>
+  <li>Speak with Brother Kojo in the Clock Tower for a watch.</li>
+  <li>Finally, go back to the Observatory and speak with the assistant for the chart.</li>
+  <li>Speak to the Observatory professor for the last and final time. Now you can do coordinate scrolls!</li>
+</ol>
 <br>
 <table class="table">
   <tr>
