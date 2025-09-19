@@ -269,7 +269,7 @@ function renderDrops(npcData, searchTerm = "") {
       const isNothingMatch = searchTerm && searchTerm.includes('nothing');
       rollableRows.push({
         html: `<tr${isNothingMatch ? ' style="background: rgba(85, 62, 5, 0.62);"' : ''} style="color: #888;">
-          <td style="font-style: italic;">Nothing</td>
+          <td style="font-style: italic; text-align: center;">Nothing</td>
           <td>-</td>
           <td>${calculateChance(nothingSlots, rollBase)}</td>
         </tr>`,
@@ -359,36 +359,6 @@ function renderDrops(npcData, searchTerm = "") {
 
   container.innerHTML = html;
   
-  if (!document.getElementById('exactChanceStyles')) {
-    const style = document.createElement('style');
-    style.id = 'exactChanceStyles';
-    style.textContent = `
-      .exact-chance-indicator {
-        color: #888;
-        font-size: 11px;
-        cursor: help;
-        margin-left: 3px;
-      }
-      .exact-chance-indicator:hover {
-        color: #ccc;
-      }
-      .note-indicator {
-        color: #888;
-        font-size: 11px;
-        cursor: help;
-        margin-left: 5px;
-        display: inline-block;
-        vertical-align: top;
-        position: relative;
-        top: -2px;
-      }
-      .note-indicator:hover {
-        color: #ccc;
-      }
-    `;
-    document.head.appendChild(style);
-  }
-  
   window.safeRenderAllSprites();
 }
 
@@ -404,54 +374,6 @@ function formatAmount(amount) {
 
 function formatNumber(num) {
   return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
-}
-
-function getApproximateFraction(numerator, denominator) {
-  if (numerator === 1 || denominator <= 100) {
-    return null;
-  }
-  
-  const decimal = numerator / denominator;
-  
-  const commonFractions = {
-    //numerator: [denominator(s)]
-    2: [1],
-    3: [1, 2],
-    4: [1, 3],
-    5: [1, 2, 3, 4],
-    6: [1, 5],
-    8: [1, 3, 5, 7],
-    10: [1, 3, 7, 9],
-    12: [1, 5, 7, 11],
-    16: [1, 3, 5, 7, 9, 11, 13, 15],
-    20: [1, 3, 7, 9, 11, 13, 17, 19],
-    25: [1, 2, 3, 4, 6, 7, 8, 9, 11, 12, 13, 14, 16, 17, 18, 19, 21, 22, 23, 24],
-    32: [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31],
-    40: [1, 3, 7, 9, 11, 13, 17, 19, 21, 23, 27, 29, 31, 33, 37, 39],
-    50: [1, 3, 7, 9, 11, 13, 17, 19, 21, 23, 27, 29, 31, 33, 37, 39, 41, 43, 47, 49],
-    64: [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63],
-    80: [1, 3, 7, 9, 11, 13, 17, 19, 21, 23, 27, 29, 31, 33, 37, 39, 41, 43, 47, 49, 51, 53, 57, 59, 61, 63, 67, 69, 71, 73, 77, 79],
-    100: [1, 3, 7, 9, 11, 13, 17, 19, 21, 23, 27, 29, 31, 33, 37, 39, 41, 43, 47, 49, 51, 53, 57, 59, 61, 63, 67, 69, 71, 73, 77, 79,
-      81, 83, 87, 89, 91, 93, 97, 99]
-  };
-  
-  let closestFraction = null;
-  let smallestDifference = Infinity;
-  
-  for (const d in commonFractions) {
-    const denominator = parseInt(d);
-    for (const n of commonFractions[d]) {
-      const fracDecimal = n / denominator;
-      const difference = Math.abs(decimal - fracDecimal);
-      
-      if (difference < smallestDifference && difference < 0.02) {
-        smallestDifference = difference;
-        closestFraction = {n: n, d: denominator};
-      }
-    }
-  }
-  
-  return closestFraction;
 }
 
 function calculateChance(chanceValue, rollBase) {
@@ -479,12 +401,7 @@ function calculateChance(chanceValue, rollBase) {
   const exactFraction = numerator === 1 ? 
     `1/${formatNumber(denominator)}` : 
     `${formatNumber(numerator)}/${formatNumber(denominator)}`;
-  
-  const approx = getApproximateFraction(numerator, denominator);
-  if (approx) {
-    return `~${approx.n}/${approx.d} <span class="exact-chance-indicator" title="Exact: ${exactFraction}">[?]</span>`;
-  }
-  
+    
   return exactFraction;
 }
 
@@ -572,11 +489,6 @@ function calculateTotalChance(sharedTableChance, itemChance, rollBase) {
   const exactFraction = finalNumerator === 1 ? 
     `1/${formatNumber(finalDenominator)}` : 
     `${formatNumber(finalNumerator)}/${formatNumber(finalDenominator)}`;
-  
-  const approx = getApproximateFraction(finalNumerator, finalDenominator);
-  if (approx) {
-    return `~${approx.n}/${approx.d} <span class="exact-chance-indicator" title="Exact: ${exactFraction}">[?]</span>`;
-  }
   
   return exactFraction;
 }
@@ -672,15 +584,6 @@ function openSharedTableModal(sharedTableName, searchTerm = "", parentChance = n
         margin-left: 5px;
       }
       .note-indicator:hover {
-        color: #ccc;
-      }
-      .exact-chance-indicator {
-        color: #888;
-        font-size: 11px;
-        cursor: help;
-        margin-left: 3px;
-      }
-      .exact-chance-indicator:hover {
         color: #ccc;
       }
     `;
@@ -814,7 +717,7 @@ function openSharedTableModal(sharedTableName, searchTerm = "", parentChance = n
     const totalChanceHtml = parentChance ? `<td>${calculateTotalChance(parentChance, nothingSlots, rollBase)}</td>` : '';
     
     tableHtml += `<tr${isNothingMatch ? ' style="background:rgba(85, 62, 5, 0.62);"' : ''} style="color: #888;">
-      <td style="font-style: italic;">Nothing</td>
+      <td style="font-style: italic; text-align: center;">Nothing</td>
       <td>-</td>
       <td>${calculateChance(nothingSlots, rollBase)}</td>
       ${totalChanceHtml}
