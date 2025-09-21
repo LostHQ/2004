@@ -35,5 +35,5 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 $questComplete
 This quest guide was written on RuneHQ by Henry-X. Thanks to Weezy, Corruptus, and Fran 2004 for corrections.
 <br><br>
-This quest guide was entered into the database on Sat, Feb 07, 2004, at 12:00:31 PM by Chownuggs and was last updated on Thu, Apr 22, 2025, at 07:44:28 PM by Halogod35.
+This quest guide was entered into the database on Sat, Feb 07, 2004, at 12:00:31 PM by Chownuggs and was last updated on Sun, Sep 21, 2025, at 07:44:28 PM by Halogod35.
 HTML; }

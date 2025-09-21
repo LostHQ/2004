@@ -37,5 +37,5 @@ Once he's dead, you have finished the quest. (Congratulations!)
 $questComplete
 This quest guide was written on RuneHQ by Gnat88. Thanks to Weezy, stormer, Fran 2004 for corrections.
 <br><br>
-This quest guide was entered into the database on Sat, Feb 28, 2004, at 06:37:37 PM by Monkeychris and was last updated on Sun, Apr 11, 2004, at 06:42:25 PM by Halogod35.
+This quest guide was entered into the database on Sat, Feb 28, 2004, at 06:37:37 PM by Monkeychris and was last updated on Sun, Sep 21, 2025, at 06:42:25 PM by Halogod35.
 HTML; }
