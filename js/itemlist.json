@@ -191,7 +191,7 @@
     }
   },
   {
-    "debugname": "magic_gold_feather",
+    "debugname": "magic_golden_feather",
     "id": 18,
     "name": "Magic gold feather",
     "desc": "It will point the way for me.",
@@ -2281,7 +2281,7 @@
     "stackable": true
   },
   {
-    "debugname": "unidentified_marrentill",
+    "debugname": "unidentified_marentill",
     "id": 201,
     "name": "Herb",
     "desc": "I need a closer look to identify this.",
@@ -2294,7 +2294,7 @@
     }
   },
   {
-    "debugname": "cert_unidentified_marrentill",
+    "debugname": "cert_unidentified_marentill",
     "id": 202,
     "name": "Herb",
     "desc": "Swap this note at any bank for a Herb.",
@@ -4781,7 +4781,7 @@
     "stackable": true
   },
   {
-    "debugname": "doctors_gown",
+    "debugname": "doctor_gown",
     "id": 430,
     "name": "Doctors' gown",
     "desc": "Medical looking.",
@@ -6188,7 +6188,7 @@
     }
   },
   {
-    "debugname": "ghost_skull",
+    "debugname": "ghostskull",
     "id": 553,
     "name": "Skull",
     "desc": "Ooooh spooky!",
@@ -7385,7 +7385,7 @@
     "stackable": true
   },
   {
-    "debugname": "gnome_robebottoms_craem",
+    "debugname": "gnome_robebottoms_cream",
     "id": 652,
     "name": "Robe bottoms",
     "desc": "Made by Tree Gnomes.",
@@ -7403,7 +7403,7 @@
     }
   },
   {
-    "debugname": "cert_gnome_robebottoms_craem",
+    "debugname": "cert_gnome_robebottoms_cream",
     "id": 653,
     "name": "Robe bottoms",
     "desc": "Swap this note at any bank for a Robe bottoms.",
@@ -7559,7 +7559,7 @@
     "stackable": true
   },
   {
-    "debugname": "gnome_hat_turqoise",
+    "debugname": "gnome_hat_turquoise",
     "id": 664,
     "name": "Hat",
     "desc": "A silly pointed hat.",
@@ -7577,7 +7577,7 @@
     }
   },
   {
-    "debugname": "cert_gnome_hat_turqoise",
+    "debugname": "cert_gnome_hat_turquoise",
     "id": 665,
     "name": "Hat",
     "desc": "Swap this note at any bank for a Hat.",
@@ -11311,7 +11311,7 @@
     "stackable": true
   },
   {
-    "debugname": "bear_fur",
+    "debugname": "fur",
     "id": 948,
     "name": "Fur",
     "desc": "This would make warm clothing.",
@@ -11321,7 +11321,7 @@
     "tradeable": true
   },
   {
-    "debugname": "cert_bear_fur",
+    "debugname": "cert_fur",
     "id": 949,
     "name": "Fur",
     "desc": "Swap this note at any bank for a Fur.",
@@ -11669,7 +11669,7 @@
     "stackable": true
   },
   {
-    "debugname": "disk_of_returning",
+    "debugname": "discofreturning",
     "id": 981,
     "name": "Disk of returning",
     "desc": "Used to get out of Thordur's blackhole",
@@ -11679,7 +11679,7 @@
     "tradeable": true
   },
   {
-    "debugname": "cert_disk_of_returning",
+    "debugname": "cert_discofreturning",
     "id": 982,
     "name": "Disk of returning",
     "desc": "Swap this note at any bank for a Disk of returning.",
@@ -13858,7 +13858,7 @@
     "stackable": true
   },
   {
-    "debugname": "leather_body",
+    "debugname": "leather_armour",
     "id": 1129,
     "name": "Leather body",
     "desc": "Better than no armour!",
@@ -13881,7 +13881,7 @@
     }
   },
   {
-    "debugname": "cert_leather_body",
+    "debugname": "cert_leather_armour",
     "id": 1130,
     "name": "Leather body",
     "desc": "Swap this note at any bank for a Leather body.",
@@ -18225,7 +18225,7 @@
     "stackable": true
   },
   {
-    "debugname": "magicstaff",
+    "debugname": "magic_staff",
     "id": 1389,
     "name": "Magic staff",
     "desc": "A Magical staff.",
@@ -18251,7 +18251,7 @@
     }
   },
   {
-    "debugname": "cert_magicstaff",
+    "debugname": "cert_magic_staff",
     "id": 1390,
     "name": "Magic staff",
     "desc": "Swap this note at any bank for a Magic staff.",
@@ -20448,7 +20448,7 @@
     "members": true
   },
   {
-    "debugname": "doogle_leaves",
+    "debugname": "doogleleaves",
     "id": 1573,
     "name": "Doogle leaves",
     "desc": "A tasty herb good for seasoning.",
@@ -20458,7 +20458,7 @@
     "tradeable": true
   },
   {
-    "debugname": "cert_doogle_leaves",
+    "debugname": "cert_doogleleaves",
     "id": 1574,
     "name": "Doogle leaves",
     "desc": "Swap this note at any bank for a Doogle leaves.",
@@ -20565,7 +20565,7 @@
     }
   },
   {
-    "debugname": "fire_feather",
+    "debugname": "hot_feather",
     "id": 1583,
     "name": "Fire feather",
     "desc": "Firebird feather.",
@@ -24718,7 +24718,7 @@
     "stackable": true
   },
   {
-    "debugname": "chefshat",
+    "debugname": "chefs_hat",
     "id": 1949,
     "name": "Chef's hat",
     "desc": "What a silly hat.",
@@ -24734,7 +24734,7 @@
     }
   },
   {
-    "debugname": "cert_chefshat",
+    "debugname": "cert_chefs_hat",
     "id": 1950,
     "name": "Chef's hat",
     "desc": "Swap this note at any bank for a Chef's hat.",
@@ -24745,7 +24745,7 @@
     "stackable": true
   },
   {
-    "debugname": "redberry",
+    "debugname": "redberries",
     "id": 1951,
     "name": "Redberries",
     "desc": "Very bright red berries.",
@@ -24755,7 +24755,7 @@
     "tradeable": true
   },
   {
-    "debugname": "cert_redberry",
+    "debugname": "cert_redberries",
     "id": 1952,
     "name": "Redberries",
     "desc": "Swap this note at any bank for a Redberries.",
@@ -25651,7 +25651,7 @@
     "stackable": true
   },
   {
-    "debugname": "premade_chocolate_saturday",
+    "debugname": "premade_choc_saturday",
     "id": 2030,
     "name": "Choc saturday",
     "desc": "A warm creamy alcoholic beverage.",
@@ -25664,7 +25664,7 @@
     }
   },
   {
-    "debugname": "cert_premade_chocolate_saturday",
+    "debugname": "cert_premade_choc_saturday",
     "id": 2031,
     "name": "Choc saturday",
     "desc": "Swap this note at any bank for a Choc saturday.",
@@ -26807,7 +26807,7 @@
     "stackable": true
   },
   {
-    "debugname": "dwellberry",
+    "debugname": "dwellberries",
     "id": 2126,
     "name": "Dwellberries",
     "desc": "Some rather pretty blue berries.",
@@ -26820,7 +26820,7 @@
     }
   },
   {
-    "debugname": "cert_dwellberry",
+    "debugname": "cert_dwellberries",
     "id": 2127,
     "name": "Dwellberries",
     "desc": "Swap this note at any bank for a Dwellberries.",
@@ -27662,7 +27662,7 @@
     "stackable": true
   },
   {
-    "debugname": "half_baked_crunchies",
+    "debugname": "half_baked_crunchy",
     "id": 2201,
     "name": "Half baked crunchy",
     "desc": "This crunchy is in the early stages of preparation.",
@@ -28325,7 +28325,7 @@
     "stackable": true
   },
   {
-    "debugname": "unfinished_cheese_tom_batta1",
+    "debugname": "unfinished_cheese_tom_batta",
     "id": 2257,
     "name": "Unfinished batta",
     "desc": "This batta is just missing those little finishing touches.",
@@ -28338,7 +28338,7 @@
     }
   },
   {
-    "debugname": "cert_unfinished_cheese_tom_batta1",
+    "debugname": "cert_unfinished_cheese_tom_batta",
     "id": 2258,
     "name": "Unfinished batta",
     "desc": "Swap this note at any bank for an Unfinished batta.",
@@ -30208,7 +30208,7 @@
     "members": false
   },
   {
-    "debugname": "key_print",
+    "debugname": "keyprint",
     "id": 2423,
     "name": "Key print",
     "desc": "An imprint of a key in a lump of clay.",
