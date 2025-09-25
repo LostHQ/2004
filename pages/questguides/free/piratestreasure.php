@@ -9,7 +9,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h3>Items & Skills Needed:</h3>
 <ul style="list-style-type: none;">
 <li><div data-progress><canvas data-itemname="white_apron" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="coins_25" data-size="25"></canvas>&nbsp;&nbsp;60 coins</div><br></li>
+<li><div data-progress><canvas data-itemname="coins_25" data-size="25"></canvas>&nbsp;&nbsp;30 coins</div><br></li>
 <li><div data-progress><canvas data-itemname="spade" data-size="25"></canvas>&nbsp;&nbsp;Spade (obtainable during quest)</div><br></li>
 </ul>
 <b>Starting Location:</b> The pub in Port Sarim
