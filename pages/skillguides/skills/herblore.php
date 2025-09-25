@@ -23,7 +23,7 @@ function getSkillContent($skill) { return <<<HTML
         </tr>
         <tr>
             <td>5</td>
-            <td><canvas data-itemname="unidentified_marrentill"></canvas><br>Herb</td>
+            <td><canvas data-itemname="unidentified_marentill"></canvas><br>Herb</td>
             <td><canvas data-itemname="marentill"></canvas><br>Marrentill</td>
             <td>3.8</td>
         </tr>

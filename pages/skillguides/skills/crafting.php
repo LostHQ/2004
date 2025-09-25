@@ -193,7 +193,7 @@ function getSkillContent($skill) { return <<<HTML
                 <canvas data-itemname="needle" data-show-label="inline"></canvas>
                 <canvas data-itemname="thread" data-show-label="inline"></canvas>
             </td>
-            <td><canvas data-itemname="leather_body" data-show-label="true"></canvas></td>
+            <td><canvas data-itemname="leather_armour" data-show-label="true"></canvas></td>
         </tr>
         <!-- <tr>
             <td>15</td>
@@ -412,7 +412,7 @@ function getSkillContent($skill) { return <<<HTML
         <tr>
             <td>41</td>
             <td>
-                <canvas data-itemname="leather_body" data-show-label="inline"></canvas>
+                <canvas data-itemname="leather_armour" data-show-label="inline"></canvas>
                 <canvas data-itemname="studs" data-show-label="inline"></canvas>
             </td>
             <td>-</td>

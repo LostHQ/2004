@@ -4,7 +4,7 @@
     "roll_base": 128,
     "roll_table": [
       {"item": ["unidentified_guam",1], "chance": "32", "note":"Unidentified Guam"},
-      {"item": ["unidentified_marrentill",1], "chance": "24", "note": "Unidentified Marrentill"},
+      {"item": ["unidentified_marentill",1], "chance": "24", "note": "Unidentified Marrentill"},
       {"item": ["unidentified_tarromin",1], "chance": "18", "note": "Unidentified Tarromin"},
       {"item": ["unidentified_harralander",1], "chance": "14", "note": "Unidentified Harralander"},
       {"item": ["unidentified_ranarr",1], "chance": "11", "note": "Unidentified Ranarr"},

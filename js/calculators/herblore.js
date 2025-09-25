@@ -178,7 +178,7 @@ function runCalc() {
             "marentill": {
                 level: 5,
                 xp: 3.8,
-                unid: "unidentified_marrentill",
+                unid: "unidentified_marentill",
                 unid_pretty: "Unidentified Marrentill",
                 pretty: "Marrentill"
             },

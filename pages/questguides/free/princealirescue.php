@@ -12,7 +12,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress><canvas data-itemname="softclay" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="ball_of_wool" data-size="25"></canvas>&nbsp;&nbsp;3 Balls of wool</div><br></li>
 <li><div data-progress><canvas data-itemname="yellowdye" data-size="25"></canvas>&nbsp;&nbsp;Yellow dye (or<canvas data-itemname="onion" data-size="25"></canvas>2 onions and<canvas data-itemname="coins_5" data-size="25"></canvas>&nbsp;5 coins to obtain a yellow dye from Aggie)</div><br></li>
-<li><div data-progress><canvas data-itemname="redberry" data-size="25" data-show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas data-itemname="redberries" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="ashes" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="jug_water" data-size="25"></canvas>&nbsp;&nbsp;Jug of water (obtainable during quest) or<canvas data-itemname="bucket_water" data-size="25"></canvas>&nbsp;Bucket of water</div><br></li>
 <li><div data-progress><canvas data-itemname="pot_flour" data-size="25" data-show-label="inline"></canvas></div><br></li>

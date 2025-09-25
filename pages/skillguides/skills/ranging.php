@@ -133,7 +133,7 @@ function getSkillContent($skill) { return <<<HTML
         <tr>
             <td>
                 <canvas data-itemname="leather_cowl"></canvas>
-                <canvas data-itemname="leather_body"></canvas>
+                <canvas data-itemname="leather_armour"></canvas>
                 <canvas data-itemname="leather_chaps"></canvas>
                 <canvas data-itemname="leather_vambraces"></canvas><br>
                 Cowl, Leather body, chaps, & vambraces
@@ -142,36 +142,31 @@ function getSkillContent($skill) { return <<<HTML
         </tr>
         <tr>
             <td>
-                <canvas data-itemname="hardleather_body"></canvas><br>
-                Hard Leather Body
+                <canvas data-itemname="hardleather_body" data-show-label="true"></canvas>
             </td>
             <td>1<br>(10 Defence)</td>
         </tr>
         <tr>
             <td>
-                <canvas data-itemname="studded_body"></canvas><br>
-                Studded Leather Body
+                <canvas data-itemname="studded_body" data-show-label="true"></canvas>
             </td>
             <td>20<br>(20 Defence)</td>
         </tr>
         <tr>
             <td>
-                <canvas data-itemname="studded_chaps"></canvas><br>
-                Studded chaps
+                <canvas data-itemname="studded_chaps" data-show-label="true"></canvas>
             </td>
             <td>20</td>
         </tr>
         <tr>
             <td>
-                <canvas data-itemname="coif"></canvas><br>
-                Coif
+                <canvas data-itemname="coif" data-show-label="true"></canvas>
             </td>
             <td>20</td>
         </tr>
         <tr>
             <td>
-                <canvas data-itemname="dragonhide_body"></canvas><br>
-                Green Dragonhide body
+                <canvas data-itemname="dragonhide_body" data-show-label="true"></canvas>
             </td>
             <td>40<br>(40 defence +<br>Dragon Slayer)</td>
         </tr>
@@ -185,22 +180,19 @@ function getSkillContent($skill) { return <<<HTML
         </tr>
         <tr>
             <td>
-                <canvas data-itemname="robinhoodhat"></canvas><br>
-                Robin Hood hat
+                <canvas data-itemname="robinhoodhat" data-show-label="true"></canvas>
             </td>
             <td>40</td>
         </tr>
         <tr>
             <td>
-                <canvas data-itemname="boots_ranger"></canvas><br>
-                Rangers Boots
+                <canvas data-itemname="boots_ranger" data-show-label="true"></canvas>
             </td>
             <td>40</td>
         </tr>
         <tr>
             <td>
-                <canvas data-itemname="blue_dragonhide_body"></canvas><br>
-                Blue Dragonhide body
+                <canvas data-itemname="blue_dragonhide_body" data-show-label="true"></canvas>
             </td>
             <td>50<br>(40 defence)</td>
         </tr>
@@ -214,8 +206,7 @@ function getSkillContent($skill) { return <<<HTML
         </tr>
         <tr>
             <td>
-                <canvas data-itemname="red_dragonhide_body"></canvas><br>
-                Red Dragonhide body
+                <canvas data-itemname="red_dragonhide_body" data-show-label="true"></canvas>
             </td>
             <td>60<br>(40 defence)</td>
         </tr>
@@ -229,8 +220,7 @@ function getSkillContent($skill) { return <<<HTML
         </tr>
         <tr>
             <td>
-                <canvas data-itemname="black_dragonhide_body"></canvas><br>
-                Black Dragonhide body
+                <canvas data-itemname="black_dragonhide_body" data-show-label="true"></canvas>
             </td>
             <td>70<br>(40 defence)</td>
         </tr>

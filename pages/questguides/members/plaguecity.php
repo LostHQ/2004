@@ -13,7 +13,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress><canvas data-itemname="bucket_water" data-size="25"></canvas>&nbsp;&nbsp;4 buckets of water</div><br></li>
 <li><div data-progress><canvas data-itemname="rope" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="spade" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="dwellberry" data-size="25" data-show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas data-itemname="dwellberries" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="hangover_cure" data-size="25" data-show-label="inline"></canvas></div><br></li>
 </ul>
 <i>Hangover Cure Ingredients:</i>
@@ -32,7 +32,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br>
 <div data-progress>Talk to Edmond. He will tell you about his daughter who has gone to West Ardougne to investigate the plague. He will ask you to talk to his wife.</div>
 <br><br>
-<div data-progress>His wife, Alrena, will tell you about the city and explain that you'll need a mask to get in. She will make you a mask if you have a dwellberry. If you have the dwellberry, talk to her again and she will give you a mask. She will tell you about her husband who is digging the garden and ask you to help him. Before talking to Edmond, get the picture of Elena which is inside the house on the table.</div>
+<div data-progress>His wife, Alrena, will tell you about the city and explain that you'll need a mask to get in. She will make you a mask if you have any dwellberries. If you have the dwellberries, talk to her again and she will give you a mask. She will tell you about her husband who is digging the garden and ask you to help him. Before talking to Edmond, get the picture of Elena which is inside the house on the table.</div>
 <br><br>
 <div data-progress>The garden is just west of the house. Talk to Edmond, and he'll say that you need to pour water on the soil. Use 4 buckets of water on the Mud patch and use the spade on the mud patch. You and Edmond will fall into the sewer.</div>
 <br><br>

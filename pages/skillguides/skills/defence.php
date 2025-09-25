@@ -64,7 +64,7 @@ function getSkillContent($skill) { return <<<HTML
 <br>
 <table style="text-align: center;" align="center">
     <tr>
-        <td><canvas data-itemname="leather_body"></canvas><canvas data-itemname="hardleather_body"></canvas><canvas data-itemname="studded_body"></canvas></td>
+        <td><canvas data-itemname="leather_armour"></canvas><canvas data-itemname="hardleather_armour"></canvas><canvas data-itemname="studded_body"></canvas></td>
     </tr>
     <tr>
         <td>Leather tends to be very weak armour, but can be improved by studding the leather or hardening it. Leather is more resistant to crush attacks and weaker against stab attacks. However, its flexibility makes it ideal for use by rangers.</td>
@@ -112,7 +112,7 @@ function getSkillContent($skill) { return <<<HTML
         <td>&mdash;</td>
     </tr>
     <tr>
-        <td><div class="centered-content"><canvas data-itemname="leather_body"></canvas>&nbsp;&nbsp;Leather armour</div></td>
+        <td><div class="centered-content"><canvas data-itemname="leather_armour"></canvas>&nbsp;&nbsp;Leather armour</div></td>
         <td>&mdash;</td>
     </tr>
     <tr>

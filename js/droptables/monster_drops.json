@@ -75,7 +75,7 @@
       {"item": ["coins",17], "chance": "5"},
       {"item": ["coins",27], "chance": "3"},
       {"item": ["tin_ore",1], "chance": "1"},
-      {"item": ["bear_fur",1], "chance": "1"},
+      {"item": ["fur",1], "chance": "1"},
       {"item": ["beer",1], "chance": "1"},
       {"item": ["cooked_meat",1], "chance": "1"},
       {"item": ["flier",1], "chance": "1"},
@@ -110,7 +110,7 @@
       {"item": ["tin_ore",1], "chance": "1"},
       {"item": ["amulet_mould",1], "chance": "1"},
       {"item": ["beer",1], "chance": "1"},
-      {"item": ["bear_fur",1], "chance": "1"},
+      {"item": ["fur",1], "chance": "1"},
       {"item": ["flier",1], "chance": "1"},
       {"item": ["~randomjewel"], "chance": "1"}
     ],
@@ -127,7 +127,7 @@
     "roll_table": [],
     "always": [
       {"item": ["bones",1] },
-      {"item": ["bear_fur",1] },
+      {"item": ["fur",1] },
       {"item": ["raw_bear_meat",1] }
     ]
   },
@@ -482,7 +482,7 @@
     "roll_table": [],
     "always": [
       {"item": ["bones",1] },
-      {"item": ["fire_feather",1], "note": "Only during Hero's Quest."}
+      {"item": ["hot_feather",1], "note": "Only during Hero's Quest."}
     ]
   },
   "farmer1": {
@@ -597,7 +597,7 @@
       {"item": ["bronze_sq_shield",1], "chance": "3"},
       {"item": ["earthrune",4], "chance": "3"},
       {"item": ["bolt",8], "chance": "3"},
-      {"item": ["chefshat",1], "chance": "3"},
+      {"item": ["chefs_hat",1], "chance": "3"},
       {"item": ["bronze_spear",1], "chance": "4", "note": "Only in Member's World."},
       {"item": ["bodyrune",7], "chance": "5"},
       {"item": ["goblin_armour",1], "chance": "5"},
@@ -869,7 +869,7 @@
       {"item": ["clay",1], "chance": "4"},
       {"item": ["cadavaberries",1], "chance": "4"},
       {"item": ["grain",1], "chance": "3"},
-      {"item": ["chefshat",1], "chance": "2"},
+      {"item": ["chefs_hat",1], "chance": "2"},
       {"item": ["flier",1], "chance": "2"},
       {"item": ["acne_potion",1], "chance": "1"}
     ],
@@ -1021,7 +1021,7 @@
     "roll_base": 128,
     "roll_table": [
       {"item": ["black_sq_shield",1], "chance": "5"},
-      {"item": ["magicstaff",1], "chance": "2"},
+      {"item": ["magic_staff",1], "chance": "2"},
       {"item": ["steel_med_helm",1], "chance": "2"},
       {"item": ["mithril_sword",1], "chance": "2"},
       {"item": ["mithril_spear",1], "chance": "2", "note":"Only in Member's World. In F2P it gets replaced with 2 coins."},
@@ -1189,7 +1189,7 @@
       {"item": ["coins",35], "chance": "4"},
       {"item": ["coins",55], "chance": "1"},
       {"item": ["eye_patch",1], "chance": "12"},
-      {"item": ["chefshat",1], "chance": "1"},
+      {"item": ["chefs_hat",1], "chance": "1"},
       {"item": ["iron_bar",1], "chance": "1"},
       {"item": ["~randomjewel"], "chance": "1"}
     ],
