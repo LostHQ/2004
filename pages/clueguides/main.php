@@ -131,9 +131,13 @@ Here is a list of commonly farmed NPCs and their locations.
     <th>Notes</th>
   </tr>
   <tr>
-    <td>Easy</td>
+    <td rowspan="2">Easy</td>
     <td>Thugs - Edgeville dungeon level 2 wilderness</td>
     <td>In the wilderness, thugs are aggressive to all combat levels. Watch for PKers within 2 levels.</td>
+  </tr>
+  <tr>
+    <td>Men - All over RuneScape</td>
+    <td>Men can be killed very quickly, thus improving the speed of obtaining a clue scroll.</td>
   </tr>
   <tr>
     <td>Medium</td>
@@ -142,7 +146,7 @@ Here is a list of commonly farmed NPCs and their locations.
   </tr>
   <tr>
     <td>Hard</td>
-    <td>Hellhounds - Witchhaven dungeon</td>
+    <td>Hellhounds - Taverly dungeon</td>
     <td>A Dwarf Multicannon can be used here to greatly speed up farming.</td>
   </tr>
 </table>
