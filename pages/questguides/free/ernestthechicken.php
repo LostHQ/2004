@@ -23,19 +23,21 @@ Description: Veronica is very worried. Her fiancee went into the big spooky mano
 <br><br>
 <div data-progress>Go inside the house and to the top floor where you'll find Professor Oddenstein. Talk to him and ask about Ernest. He will explain that he accidentally changed Ernest into a chicken and that his machine is broken. To fix it, you must retrieve three items: an oil can, rubber tubing, and a pressure gauge.</div>
 <br><br>
-<div data-progress>Go to the basement, which is a mini maze.</div>
+<div data-progress>Go down to the <span data-floors="US">2nd floor</span>, and then go to the southeast room and pick up fish food. Go to the west room and grab poison. Use poison on fish food.</div>
+<br><br>
+<div data-progress>Go to the western room on the <span data-floors="US">1st floor</span>, search the bookcase on the western side on the wall to gain access to a secret room. Go down the ladder into the basement, which is a mini maze.</div>
 <br><br>
 <img src="img/questimages/ernest1.png">
 <br><br>
 Use the following lever sequence:
 <br>
-<div data-progress>Pull levers B then A down. Enter door 1.</div>
+<div data-progress>Pull levers B and A down. Enter door 1.</div>
 <br>
 <div data-progress>Pull lever D down. Enter doors 2, then 3.</div>
 <br>
-<div data-progress>Pull levers B, then A up. Enter doors 3, 4, and 5.</div>
+<div data-progress>Pull levers B and A up. Enter doors 3, 4, and 5.</div>
 <br>
-<div data-progress>Pull levers E, then F down. Enter doors 6 and 7.</div>
+<div data-progress>Pull levers E and F down. Enter doors 6 and 7.</div>
 <br>
 <div data-progress>Pull lever C down. Enter doors 7 and 6.</div>
 <br>
@@ -43,17 +45,15 @@ Use the following lever sequence:
 <br>
 <div data-progress>Go through door 9 and grab the oil can.</div>
 <br><br>
-<div data-progress>Make your way to the <span data-floors="US">2nd floor</span>, and then go to the southeast room and pick up fish food. Go to the west room and grab poison. Use poison on fish food.</div>
-<br><br>
-<div data-progress>Go to the <span data-floors="US">1st floor</span> east room and grab the spade. Head outside, then north, west, and south to find a pile of compost. Use the spade on the compost to get a key.</div>
+<div data-progress>Go back up to the <span data-floors="US">1st floor</span> east room and grab the spade. Head outside, then north, west, and south to find a pile of compost. Use the spade on the compost to get a key.</div>
 <br><br>
 <div data-progress>Then go southwest outside to the fountain, use the poisoned fish food on it, and search the fountain to get the pressure gauge.</div>
 <br><br>
-<div data-progress>Return inside and unlock the door with the skeleton inside (it won't attack) behind the main stairs. Grab the rubber tube.</div>
+<div data-progress>Return inside and unlock the door behind the main stairs with the skeleton inside. Ignore the skeleton and grab the rubber tube.</div>
 <br><br>
 <div data-progress>Return to Professor Oddenstein with all three items. He will fix the machine and turn Ernest back into a human. Ernest will thank and reward you.</div>
 $questComplete
-This quest guide was written on RuneHQ by Henry-X. Thanks to Weezy for corrections.
+This quest guide was written on RuneHQ by Henry-X. Thanks to Weezy and Sythion for corrections.
 <br><br>
-This quest guide was entered into the database on Thu, Feb 19, 2004, at 02:33:04 PM by Weezy and was last updated on Wed, Mar 31, 2004, at 05:09:01 PM.
+This quest guide was entered into the database on Thu, Feb 19, 2004, at 02:33:04 PM by Weezy and was last updated on Thu, Sept 25, 2025, at 06:47:32 PM by Halogod35.
 HTML; }

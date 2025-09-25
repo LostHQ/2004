@@ -14,7 +14,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 </ul>
 <h3>Recommended:</h3>
 <ul style="list-style-type: none;">
-<li><div data-progress>15 Mining</div></li>
+<li><div data-progress>15 Mining (boostable)</div></li>
 <li><div data-progress><canvas data-itemname="bronze_pickaxe" data-size="25"></canvas>&nbsp;&nbsp;Any pickaxe</div><br></li>
 </ul>
 <b>Starting Location:</b> Doric's Anvil (north of Falador)

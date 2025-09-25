@@ -10,7 +10,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <ul style="list-style-type: none;">
 <li><div data-progress><canvas data-itemname="white_apron" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="coins_25" data-size="25"></canvas>&nbsp;&nbsp;60 coins</div><br></li>
-<li><div data-progress><canvas data-itemname="spade" data-size="25" data-show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas data-itemname="spade" data-size="25"></canvas>&nbsp;&nbsp;Spade (obtainable during quest)</div><br></li>
 </ul>
 <b>Starting Location:</b> The pub in Port Sarim
 <br><br>
@@ -37,7 +37,11 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <div data-progress>Go to Varrock and go inside the Blue Moon Inn which is South the general store. Go up to the <span data-floors="US">2nd floor</span> and go into the west room. Find a chest then use the key on the chest. You will get a note. Read it, and it will tell you that the treasure is in Falador Park.</div>
 <br><br>
-<div data-progress>Now it's time to dig the treasure. Go into the park and find a statue. West of it there are some sun flowers. If you have the spade, you can dig the flowers. If you don't, find one in Falador. If you dig the flowers, the gardener will attack you. Kill him and dig again. You will get 450 coins, a gold ring, and an emerald, which are the rewards for completing the quest. The quest is now finished.</div>
+<img src="img/questimages/pirates1.png" width="450">
+<br><br>
+<div data-progress>Now it's time to dig the treasure. Go into the park and find a statue. West of it there are some sun flowers. If you have the spade, you can dig the flowers. If you don't, walk over to the house near the furnace in Falador to find one. If you dig the flowers, the gardener will attack you. Kill him and dig again.</div>
+<br><br>
+<div data-progress>You will get 450 coins, a gold ring, and an emerald, which are the rewards for completing the quest. The quest is now finished.</div>
 $questComplete
 This quest guide was written on RuneHQ by Henry-x. Thanks to Evadek and Weezy for corrections.<br>
 <br>
