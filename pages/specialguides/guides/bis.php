@@ -750,7 +750,7 @@ clearAllEquipment();
     </tr>
     <tr>
         <td>Head</td>
-        <td><canvas data-itemname="gnome_hat_blue"></canvas><canvas data-itemname="gnome_hat_pink"></canvas><canvas data-itemname="gnome_hat_green"></canvas><canvas data-itemname="gnome_hat_cream"></canvas><canvas data-itemname="gnome_hat_turqoise"></canvas><br>Any Tree Gnome Hat</td>
+        <td><canvas data-itemname="gnome_hat_blue"></canvas><canvas data-itemname="gnome_hat_pink"></canvas><canvas data-itemname="gnome_hat_green"></canvas><canvas data-itemname="gnome_hat_cream"></canvas><canvas data-itemname="gnome_hat_turquoise"></canvas><br>Any Tree Gnome Hat</td>
         <td>+3 Magic Attack</td>
     </tr>
     <tr>
