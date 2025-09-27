@@ -8,12 +8,14 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <b>Length: <font color="Yellow">Medium</font></b><br>
 <h3>Items & Skills Needed:</h3>
 <ul style="list-style-type: none;">
-<li><div data-progress><canvas data-itemname="bucket_water" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="bones" data-size="25"></canvas>&nbsp;&nbsp;25 Bones</div><br></li>
+<li><div data-progress><canvas data-itemname="bucket_water" data-size="25"></canvas>&nbsp;&nbsp;Bucket of water (can be obtained during quest)</div><br></li>
+<li><div data-progress><canvas data-itemname="bones" data-size="25"></canvas>&nbsp;&nbsp;25 Bones (can't be noted, but can be delivered in increments)</div><br></li>
 <li><div data-progress><canvas data-itemname="coins_1" data-size="25"></canvas>&nbsp;&nbsp;1 coin</div><br></li>
 </ul>
 <h3>Recommended:</h3>
 <ul style="list-style-type: none;">
+<li><div data-progress><canvas data-itemname="lawrune" data-size="25"></canvas>&nbsp;&nbsp;Runes for Teleport to Lumbridge</div><br></li>
+<li><div data-progress><canvas data-itemname="lawrune" data-size="25"></canvas>&nbsp;&nbsp;Runes for Teleport to Varrock</div><br></li>
 <li><div data-progress>41 Combat (avoids aggro from level 20 Dark Wizards)</div></li>
 </ul>
 <b>Starting Location:</b> The Gypsy in her tent at Varrock Square
@@ -29,24 +31,27 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <div data-progress>Go upstairs and find the Captain and talk until he gives you his key.</div>
 <br><br>
-<div data-progress>Sir Prysin dropped a key down the drain also (what a klutz), so head to the most north east room and go upstairs, grab a bucket, go back down, and fill it from the sink.</div>
+<div data-progress>Sir Prysin dropped a key down the drain also (what a klutz), so head to the most northeast room and go upstairs, grab a bucket, go back down, and fill it from the sink.</div>
 <br><br>
 <div data-progress>Use the bucket of water with the drain, then hurry down into the sewers through the manhole, head north a short distance, and you should find the key in no time.</div>
 <br><br>
-<img src="img/questimages/demonslayer1.png"><br>
-<img src="img/questimages/demonslayer2.png"><br>
+Note: Drain Key will reset if you take too long to get to sewer, just re-pour water down the drain.
+<br><br>
+<img src="img/questimages/demonslayer1.png">
 <br>
-<div data-progress>Get/collect your 25 bones and head to the Wizards' Tower. Talk to the Wizard Traiborn to get your 3rd key after some bumbling about dumb stuff.</div>
+<img src="img/questimages/demonslayer2.png">
 <br><br>
-<div data-progress>Go back to Sir Prysin with all 3 keys and you get Silverlight from him at long last.</div>
+<div data-progress>Get/collect your 25 bones and head to the <span data-floors="US">2nd floor</span> of the Wizards' Tower. Talk to the Wizard Traiborn to get your 3rd key after some bumbling about dumb stuff.</div>
 <br><br>
-<div data-progress>Head out the south gate of Varrock to the dark wizards' stone circle. Wield Silverlight and charge at Delrith full force. Fight him until he has full red bar. There'll be a cool animation of him half sucked in the vortex from where he came.</div>
+<div data-progress>Teleport or walk back to Varrock. Go talk to Sir Prysin with all 3 keys and you get Silverlight from him at long last.</div>
 <br><br>
-<div data-progress>Choose "Carlem Aber Camerinthum Purchai Gabindo" to get the demon vanquished. If you choose the wrong one, you must fight Delrith again, and possibly repeat until you get the right one.</div>
+<div data-progress>Head out the south gate of Varrock to the dark wizards' stone circle. Wield Silverlight and charge at Delrith full force. Fight him until his health bar is fully depleted. There'll be a cool animation of him half sucked in the vortex from where he came.</div>
+<br><br>
+<div data-progress>Choose "<i>Carlem Aber Camerinthum Purchai Gabindo</i>" to banish the demon. If you pick the wrong incantation, you'll have to fight Delrith again until you succeed.</div>
 <br><br>
 <div data-progress>Once he's gone (Congratuations) you're done and you get the reward.</div>
 $questComplete
-This quest guide was written on RuneHQ by Gnat88. Thanks to Keystone, Nitr021, Pirate Bob49, and pokemama for corrections.
+This quest guide was written on RuneHQ by Gnat88. Thanks to Keystone, Nitr021, Pirate Bob49, pokemama, and Sythion for corrections.
 <br><br>
-This quest guide was entered into the database on Tue, Mar 02, 2004, at 09:46:46 PM by Weezy and CJH and was last updated on Sat, Feb 05, 2005, at 06:24:30 AM by nitro21.
+This quest guide was entered into the database on Tue, Mar 02, 2004, at 09:46:46 PM by Weezy and CJH and was last updated on Fri, Sept 26, 2025, at 08:53:32 PM by Halogod35.
 HTML; }
