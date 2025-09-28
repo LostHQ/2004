@@ -32,12 +32,13 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress><canvas data-itemname="lobster" data-size="25"></canvas>&nbsp;&nbsp;Lobster or better food</div><br></li>
 <li><div data-progress><canvas data-itemname="adamant_platebody" data-size="25"></canvas>&nbsp;&nbsp;Adamant or better armor (if using melee)</div><br></li>
 <li><div data-progress><canvas data-itemname="lawrune" data-size="25"></canvas>&nbsp;&nbsp;Runes for Teleport to Lumbridge</div><br></li>
+<li><div data-progress><canvas data-itemname="ring_of_recoil" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="ring_of_dueling_8" data-size="25"></canvas>&nbsp;&nbsp;Ring of dueling (for an emergency teleport)</div><br></li>
 <li><div data-progress>A friend to bring you more food</div><br></li>
 </ul>
 <b>Starting Location:</b> Guildmaster in the Champion's Guild
 <br><br>
-<b>Reward:</b> 2 Quest points, 20,000 Strength XP, 20,000 Defence XP. Completing the quest allows you to buy and equip Rune platebody (84,500 gp) and Green Dragonhide Body (10,400 gp) from Oziach.
+<b>Reward:</b> 2 Quest points, 18,650 Strength XP, 18,650 Defence XP. Completing the quest allows you to buy and equip Rune platebody (84,500 gp) and Green Dragonhide Body (10,400 gp) from Oziach.
 <br><br>
 <hr>
 <h3>Instructions:</h3>
@@ -76,6 +77,8 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <div data-progress>Look just south of the ladder to find the hole. Use your planks on the hole to repair it. Each plank will take 4 nails.</div>
 <br><br>
 <h3>Melzar's Map Piece</h3>
+<div data-progress>If you aren't already prepared, stop by the bank to gear up for combat. Melee is viable, but magic or ranged is recommended for the next part.</div>
+<br><br>
 <div data-progress>Head to Melzar's Maze, which is between the Crafting Guild and Rimmington, and use your key on the door.</div>
 <br><br>
 <img src="img/questimages/dragonslayer6.png" width="450">
@@ -94,7 +97,7 @@ NOTE: Only one specific monster in the room will always give you a key, while th
 <br><br>
 <div data-progress>Kill zombies until one drops a blue key. Use it on the northwest door.</div>
 <br><br>
-<div data-progress>Kill Melzar the Mad until he drops a magenta key. Use it on the north door to proceed.</div>
+<div data-progress>Kill Melzar the Mad; he will drop a magenta key. Use it on the north door to proceed.</div>
 <br><br>
 <div data-progress>You will now face a lesser demon to obtain your final key. The lesser demon can be safespotted standing near the magenta door you just came through. Kill the Lesser Demon to get the green key. Use the key on the door.</div>
 <br><br>
