@@ -11,7 +11,12 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h3>Items & Skills Needed:</h3>
 <!-- Items/Skills Needed To Start: Pick Axe to mine Rune Essentials -->
 <ul style="list-style-type: none;">
-<li><div data-progress><canvas data-itemname="bronze_pickaxe" data-size="25"></canvas>&nbsp;&nbsp;Any pickaxe</div><br></li>
+<li><div data-progress>None</div><br></li>
+</ul>
+<h3>Recommended:</h3>
+<ul style="list-style-type: none;">
+<li><div data-progress><canvas data-itemname="lawrune" data-size="25"></canvas>&nbsp;&nbsp;Runes for Teleport to Lumbridge</div><br></li>
+<li><div data-progress><canvas data-itemname="lawrune" data-size="25"></canvas>&nbsp;&nbsp;Runes for Teleport to Varrock</div><br></li>
 </ul>
 <b>Starting Location:</b> <span data-floors="US">2nd floor</span> of Lumbridge Castle
 <br><br>

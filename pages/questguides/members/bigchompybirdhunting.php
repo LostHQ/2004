@@ -21,7 +21,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 </ul>
 <h3>Recommended:</h3>
 <ul style="list-style-type: none;">
-<li><div data-progress>Weapons/armor to kill a level 64 wolf if necessary</div><br></li>
+<li><div data-progress>Weapons/armor to kill a level 64 wolf if necessary (can be safespotted)</div><br></li>
 </ul>
 <b>Starting Location:</b> Southeast of Ogre City, which is southeast of Yanille
 <br><br>
@@ -72,6 +72,8 @@ which are arrows using an Achey Tree for shafts and Wolves bones for tips. You n
 <div data-progress>When you got the fatty toads, go to Rantz and he will tell you to drop the drop the toads with gas south of him. An arrow will appear that points to the Chompy Hunting Grounds south of Rantz, drop the toads in the area where he showed you.</div>
 <br><br>
 <div data-progress>When you have dropped the toads go back to Rantz and he will shoot at the birds, but he won't hit it and blame it on your arrows, tell him you want to try it, if you ask him enough times you will get a ogre bow.</div>
+<br><br>
+Note: If you lose your bow, you can buy another one from Rantz for 500 coins.
 <br><br>
 <div data-progress>Now if you didn't make extra arrows above, you will need more arrows so do the steps above again to make at least 5 arrows.</div>
 <br><br>

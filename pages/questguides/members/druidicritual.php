@@ -30,7 +30,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <div data-progress>Go in and head north a little until you come to the prison door and try to open it. One of the suits will attack you.</div>
 <br><br>
-<div data-progress>You have two options: defeat it and try to open the gate again. Then defeat the second suit of armor. Assuming both are dead, you should be able to go in now. Alternatively, you can spam click the door to open it without needing to fight the armor.</div>
+<div data-progress>You have two options: defeat it and try to open the gate again. Then defeat the second suit of armor. Assuming both are dead, you should be able to go in now. Alternatively, you can open the door by spam-clicking it, avoiding the fight with the armor.</div>
 <br><br>
 <div data-progress>Use all the meats with the cauldron (they should turn blue), and head back to Sanfew at the Herblore shop. He'll be grateful and tell you to visit Kaqemeex for your Herblore skills training.</div>
 <br><br>

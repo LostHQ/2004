@@ -8,7 +8,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <b>Length: <font color="Green">Short</font></b><br>
 <h3>Items & Skills Needed:</h3>
 <ul style="list-style-type: none;">
-<li><div data-progress><canvas data-itemname="cadavaberries" data-size="25" data-show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas data-itemname="cadavaberries" data-size="25"></canvas>&nbsp;&nbsp;Cadaver berries (can be obtained during quest)</div><br></li>
 </ul>
 <b>Starting Location:</b> Romeo who is south of Varrock's central fountain OR Juliet in her house just west of Varrock on the north side of the road<br>
 <br>
@@ -23,7 +23,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <div data-progress>Father Lawrence will tell you that you need to make a special potion — a cadaver potion. He sends you to the apothecary, who can be found just south of the square and a little to the west.</div>
 <br><br>
-<div data-progress>Assuming you have your berries, go to the apothecary and talk to him twice to receive the potion he mixes for you.</div>
+<div data-progress>Assuming you have your berries, go to the apothecary and talk to him twice to receive the potion he mixes for you. If you don't have berries yet, you can pick them from the bushes just south of Varrock, near the Dark Wizards' Circle (east of the south gate).</div>
 <br><br>
 <div data-progress>Take the potion back to Juliet. She'll thank you and remind you to go inform Romeo of the plan, because he can "be quite dense sometimes."</div>
 <br><br>
