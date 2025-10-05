@@ -110,7 +110,7 @@
   // build item detail table
   function renderTable(item) {
     const table = document.createElement('table');
-    table.className = 'calculators';
+    table.className = 'itemdatabase';
     let row;
 
     // dummy item warning

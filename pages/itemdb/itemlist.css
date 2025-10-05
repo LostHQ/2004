@@ -32,11 +32,11 @@
 .search-wrapper .suggestions:empty {
     display: none;
 }
-.calculators {
-  .subtable {
+.itemdatabase {
+  .subtable table {
+    vertical-align: middle;
     width: auto;
     border-collapse: collapse;
-    margin: 0.5em 0;
   }
   .subtable th {
     font-size: 0.9em;
@@ -53,5 +53,21 @@
   }
   .subtable tr + tr td {
     border: none;
+  }
+  table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    align-items: center;
+    vertical-align: center;
+  }
+  th,td {
+    border: 1px solid #382418;
+    padding: 5px;
+    text-align: center;
+    vertical-align: center;
+  }
+  th {
+    background-color: #222;
+    color: gold;
   }
 }
