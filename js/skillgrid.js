@@ -7,13 +7,13 @@ window.addEventListener("pageshow", () => {
     "attack", "hitpoints", "mining",
     "strength", "agility", "smithing",
     "defence", "herblore", "fishing",
-    "ranging", "thieving", "cooking",
+    "ranged", "thieving", "cooking",
     "prayer", "crafting", "firemaking",
     "magic", "fletching", "woodcutting",
     "runecrafting"
   ];
 
-  const combatSkills = ["attack", "strength", "defence", "ranging", "hitpoints"];
+  const combatSkills = ["attack", "strength", "defence", "ranged", "hitpoints"];
 
   if (!canvas) return;
 
@@ -26,12 +26,12 @@ window.addEventListener("pageshow", () => {
 
   const ctx = canvas.getContext("2d");
   const img = new Image();
-  img.src = "img/skillGrid.png";
+  img.src = "img/skillgrid2.png";
 
   const cols = 3;
   const rows = 7;
-  const naturalWidth = 285;
-  const naturalHeight = 331;
+  const naturalWidth = 188;
+  const naturalHeight = 218;
   const iconWidth = naturalWidth / cols;
   const iconHeight = naturalHeight / rows;
 
