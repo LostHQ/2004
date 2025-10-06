@@ -9,7 +9,7 @@ function getPageContent() {
         $meta_data['og:image'] = 'img/skillicons/stats.webp';
         echo '<h3>Select the Skill you would like to view a guide for:</h3>';
         echo '<canvas data-skills="skillTree" data-width="188" data-style="'.$siteOptStyle.'"></canvas>';
-        echo '<script src="js/skillgrid.js"></script><br>';
+        echo getJavaScriptVersion('js/skillgrid.js');
     } else {
         $currSkill = htmlspecialchars($_GET['skill']);
         $filePath = 'pages/skillguides/skills/' . $currSkill . '.php';
