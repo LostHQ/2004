@@ -12,7 +12,7 @@ class CalculatorType {
         'herblore',
         'mining',
         'prayer',
-        'runecrafting',
+        'runecraft',
         'smithing',
         'thieving',
         'woodcutting',

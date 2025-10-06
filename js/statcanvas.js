@@ -47,7 +47,7 @@ const questReqs = {
   'magic':        [1, 59],
   'fletching':    [1, 10],
   'woodcutting':  [1, 50],
-  'runecrafting': [1, 1],
+  'runecraft':    [1, 1],
 };
 
 const skillList = {
@@ -71,7 +71,7 @@ const skillList = {
   'herblore':     [140, 116],
   'agility':      [140, 86],
   'thieving':     [140, 148],
-  'runecrafting': [77,  241],
+  'runecraft':    [77,  241],
   'quest_points': [83,  285],
   'combat':       [198, 275],
 };

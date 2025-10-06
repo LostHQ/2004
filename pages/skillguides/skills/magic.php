@@ -16,7 +16,7 @@ function getSkillContent($skill) { return <<<HTML
     <br><br>
     <table>
         <tr>
-            <td>For more information on a spell move your mouse cursor over the spell. A description of the spell and a list of which are runes are required is shown at the bottom of the window. Each required rune has 2 numbers shown below a picture of it. The 1st number indicates how many of that rune you have, and the 2nd number indicates how many you require. The numbers will be drawn in red for runes which you do not have a sufficient number of to cast the spell. Runes can be obtained in a number of ways. Mages can make their own runes using the runecrafting skill (see the <a href="?p=skillguides&skill=runecrafting">runecrafting</a> guide). Other ways to get runes include buying them in magic shops in towns such as Varrock and Port Sarim or by killing monsters.</td>
+            <td>For more information on a spell move your mouse cursor over the spell. A description of the spell and a list of which are runes are required is shown at the bottom of the window. Each required rune has 2 numbers shown below a picture of it. The 1st number indicates how many of that rune you have, and the 2nd number indicates how many you require. The numbers will be drawn in red for runes which you do not have a sufficient number of to cast the spell. Runes can be obtained in a number of ways. Mages can make their own runes using the runecraft skill (see the <a href="?p=skillguides&skill=runecraft">runecraft</a> guide). Other ways to get runes include buying them in magic shops in towns such as Varrock and Port Sarim or by killing monsters.</td>
             <td><img src="img/skillguides/magic/magictab3.gif"></td>
         </tr>
     </table>

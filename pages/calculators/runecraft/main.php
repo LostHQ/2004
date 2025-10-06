@@ -1,9 +1,9 @@
 <?php
-function getPageTitle() { return 'Runecrafting'; }
-function getPageMetaIcon() { return 'img/skillicons/runecrafting.webp'; }
+function getPageTitle() { return 'Runecraft'; }
+function getPageMetaIcon() { return 'img/skillicons/runecraft.webp'; }
 function onBodyLoad() { return 'runCalc()'; }
 function getCalcContent() { return <<<HTML
-<h2>Runecrafting Calculator</h2>
+<h2>Runecraft Calculator</h2>
 <div class="container">
     <div class="input-group">
         <label>Username</label>
@@ -34,4 +34,4 @@ function getCalcContent() { return <<<HTML
         <tbody></tbody>
     </table>
 </div>
-HTML.getJavaScriptVersion('js/calculators/runecrafting.js'); }
+HTML.getJavaScriptVersion('js/calculators/runecraft.js'); }

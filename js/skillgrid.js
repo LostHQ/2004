@@ -10,7 +10,7 @@ window.addEventListener("pageshow", () => {
     "ranged", "thieving", "cooking",
     "prayer", "crafting", "firemaking",
     "magic", "fletching", "woodcutting",
-    "runecrafting"
+    "runecraft"
   ];
 
   const combatSkills = ["attack", "strength", "defence", "ranged", "hitpoints"];
@@ -142,7 +142,7 @@ function renderOldSchoolTable(canvas) {
 
   const freeSkills = [
     "attack", "cooking", "crafting", "defence", "firemaking", "fishing", "hitpoints", "magic",
-    "mining", "prayer", "ranged", "runecrafting", "smithing", "strength", "woodcutting"
+    "mining", "prayer", "ranged", "runecraft", "smithing", "strength", "woodcutting"
   ];
 
   const memberSkills = [

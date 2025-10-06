@@ -174,7 +174,7 @@ function getPageContent() {
     <tr><td>04/04/2025</td><td>Homepage added calculator and drop tables coming soon</td></tr>
     <tr><td>02/04/2025</td><td>Updated Cook's Assistant</td></tr>
     <tr><td>02/04/2025</td><td>Updated Black Knight's Fortress</td></tr>
-    <tr><td>02/04/2025</td><td>Runecrafting Skill Guide added</td></tr>
+    <tr><td>02/04/2025</td><td>Runecraft Skill Guide added</td></tr>
     <tr><td>02/04/2025</td><td>Range Skill Guide added</td></tr>
     <tr><td>02/04/2025</td><td>Fishing Skill Guide added</td></tr>
     <tr><td>02/04/2025</td><td>Link Preview Changes - Collin</td></tr>

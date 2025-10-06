@@ -258,6 +258,6 @@ function getSkillContent($skill) { return <<<HTML
     <h3>Caskets</h3>
     Players using a big net to fish, will occasionally find a casket. These are rare items that usually contain a nice surpise for the lucky fisherman who finds one.
     <br>
-    To open a casket and see what is inside, simply click on it in your inventory. Caskets can contain many different items including money, gems, runecrafting talismans, or even rare items like half keys!
+    To open a casket and see what is inside, simply click on it in your inventory. Caskets can contain many different items including money, gems, runecraft talismans, or even rare items like half keys!
 </p>
 HTML; }

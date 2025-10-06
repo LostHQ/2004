@@ -2,8 +2,8 @@
 function getSkillContent($skill) { return <<<HTML
 <h2>$skill Skill Guide</h2>
 <p>
-    Runecrafting is used to make different sorts of Runes, for use in <a href="?p=skillguides&skill=magic">Magic</a>.
-    Before you can use runecrafting you will need to complete the <a href="?p=questguides&quest=runemysteries">Rune Mysteries</a> quest.
+    Runecraft is used to make different sorts of Runes, for use in <a href="?p=skillguides&skill=magic">Magic</a>.
+    Before you can use runecraft you will need to complete the <a href="?p=questguides&quest=runemysteries">Rune Mysteries</a> quest.
     <h3>Mining rune essences</h3>
     The location of the source of Rune essence is a closely guarded secret, so you will need to find various NPCs around the game world to take you to it.
     <br><br>
@@ -14,13 +14,13 @@ function getSkillContent($skill) { return <<<HTML
         </tr>
     </table>
     <br>
-    These temples are hidden throughout RuneScape, but you can locate them with the help of a runecrafting talisman. Some examples of talismans are shown in the table below.
+    These temples are hidden throughout RuneScape, but you can locate them with the help of a runecraft talisman. Some examples of talismans are shown in the table below.
     <br><br>
     These first talismans can be found as fairly common drops from various NPCs, but the whereabouts of the higher levelled talismans will need to be discovered by those wishing to use them...
     <h3>Locating rune temples</h3>
     <table>
         <tr>
-            <td>To locate each temple, take the talisman and select the locate option. The talisman will pull in the direction where the rune temple is located.<br>Because runecrafting is an ancient skill that has been forgotten until recently, the elemental temples have become ruined. When you find the ruins of the temple you are looking for, use your talisman on these ruins.</td>
+            <td>To locate each temple, take the talisman and select the locate option. The talisman will pull in the direction where the rune temple is located.<br>Because runecraft is an ancient skill that has been forgotten until recently, the elemental temples have become ruined. When you find the ruins of the temple you are looking for, use your talisman on these ruins.</td>
             <td><img src="img/skillguides/runecraft/locate.gif"></td>
         </tr>
     </table>
@@ -101,7 +101,7 @@ function getSkillContent($skill) { return <<<HTML
         </tr>
     </table>
     <br>
-    As you advance through the levels of runecrafting, you will become more adept at turning the raw materials of rune essence into runes. What this means is that as your increases you will be able to make more than one rune from each essence you bind.
+    As you advance through the levels of runecraft, you will become more adept at turning the raw materials of rune essence into runes. What this means is that as your increases you will be able to make more than one rune from each essence you bind.
     <br><br>
     At higher levels you can make up to 10 runes from a single essence, depending on the rune you are crafting.
     <br><br>
