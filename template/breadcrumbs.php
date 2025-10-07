@@ -11,7 +11,8 @@ $breadcrumbMap = [
     'Player Lookup' => '?p=playerinfo',
     'Wallpapers' => '?p=wallpapers',
     'Changelog' => '?p=changelog',
-    'Special Guides' => '?p=specialguides'
+    'Special Guides' => '?p=specialguides',
+    'Tools' => '?p=tools'
 ];
 
 function renderBreadcrumbs() {

@@ -122,6 +122,8 @@ function getPageContent() {
     </tr>
   </thead>
   <tbody>
+    <tr><td>06/10/2025</td><td>Added LostKit brought to you by Akg</td></tr>
+    <tr><td>06/10/2025</td><td>Added Tools page</td></tr>
     <tr><td>11/09/2025</td><td>Added Guilds and Mini-Games to special guides</td></tr>
     <tr><td>08/09/2025</td><td>Updated theme of tables to match 2004scape</td></tr>
     <tr><td>08/09/2025</td><td>Added Stat Boosting guide</td></tr>
