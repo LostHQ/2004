@@ -64,7 +64,7 @@ function getGuideContent($guide) {
         <li><b>#2004Scape</b> — The primary global RuneScape chat channel.</li>
         <li><b>#LostHQ</b> — The official LostHQ staff and community channel.</li>
     </ul>
-    The #LostHQ channel is also bridged with the LostHQ Discord server. Messages sent in the Discord general channel appear on IRC, and vice versa which allow real-time cross-platform conversation.
+    The #2004Scape channel is also bridged with the LostHQ Discord server. Messages sent in the Discord general channel appear on IRC, and vice versa which allow real-time cross-platform conversation.
     <br><br>
     <h4>Open Tools Externally</h4>
     This setting controls how LostKit displays its individual tools:
