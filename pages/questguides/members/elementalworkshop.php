@@ -13,67 +13,70 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress>20 Mining</div><br></li>
 <li><div data-progress>20 Smithing</div><br></li>
 <li><div data-progress>20 Crafting</div><br></li>
-<li><div data-progress>A sharp object like a knife or sword</div><br></li>
 <li><div data-progress><canvas data-itemname="bronze_pickaxe" data-size="25"></canvas>&nbsp;&nbsp;Any pickaxe</div><br></li>
-<li><div data-progress><canvas data-itemname="leather" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="needle" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="thread" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="coal" data-size="25"></canvas>&nbsp;&nbsp;4 coal</div><br></li>
 <li><div data-progress><canvas data-itemname="hammer" data-size="25" data-show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas data-itemname="thread" data-size="25" data-show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas data-itemname="needle" data-size="25"></canvas></div>&nbsp;&nbsp;Needle (can be obtained during quest)<br></li>
+<li><div data-progress><canvas data-itemname="leather" data-size="25"></canvas></div>&nbsp;&nbsp;Leather (can be obtained during quest)<br></li>
+<li><div data-progress><canvas data-itemname="knife" data-size="25"></canvas></div>&nbsp;&nbsp;Knife (can be obtained during quest)<br></li>
+<li><div data-progress>The ability to defeat a level 35 Earth Elemental</div><br></li>
 </ul>
 <b>Starting Location:</b> Search the bookcase on the east wall in the house southwest of the bank in Seers' Village
 <br><br>
-<b>Reward:</b> 1 Quest point, 5,000 Crafting XP, 5,000 Smithing XP, access to the Elemental Workshop, Elemental Shield (+6 Magic Defence bonus), as well as the ability to make and wield them
+<b>Reward:</b> 1 Quest point, 5,000 Crafting XP, 5,000 Smithing XP, access to the Elemental Workshop, Elemental Shield, as well as the ability to make and wield them
 <br><br>
 <hr>
 <h3>Instructions:</h3>
-<br>
-<div data-progress>Go to the house southwest of the bank in Seers' Village.</div><br><br>
-<img src="img/questimages/elemental1.png" height="200" width="200">
+<div data-progress>Go to the house southwest of the bank in Seers' Village.</div>
+<br><br>
+<img src="img/questimages/elemental1.png">
 <br><br>
 <div data-progress>Search the bookcase on the east wall.</div>
 <br><br>
-<img src="img/questimages/elemental2.png" height="200" width="350">
+<img src="img/questimages/elemental2.png" width="450">
+<br><br>
+<div data-progress>If you do not already have a knife, go to the house nearby and pick up a knife.</div>
 <br><br>
 <div data-progress>After you read the Battered Book, use your knife on the book and you will get a Battered Key. Do not drop the Battered Book — you will need it later to make the Elemental Shield.</div>
 <br><br>
 <div data-progress>Go to the building north, which has an anvil in it, and use the key on the Odd Looking Wall. Then go down the stairs.</div>
 <br><br>
-<img src="img/questimages/elemental4.png" height="200" width="200">
+<img src="img/questimages/elemental4.png">
 <br><br>
 A map of the places for some of the next steps:
 <br><br>
-<img src="img/questimages/elemental5.png" height="400" width="400">
+<img src="img/questimages/elemental5.png">
 <br><br>
 <div data-progress>When you're in, go down the west path and try to mine a rock. You will be attacked by a level 35 Earth Elemental. Kill the Earth Elemental, and it will drop an Elemental Ore — pick it up.</div>
 <br><br>
-<img src="img/questimages/elemental6.png" height="200" width="200">
+<img src="img/questimages/elemental6.png">
 <br><br>
-<div data-progress>Now go to the north passage from where you came in. Turn the valves so they are like this: First, you need to turn the right valve, then the left valve, to make the waterwheel move. Then pull the lever. (The right valve is the first, and the second is the left valve.)</div>
+<div data-progress>Now go to the north passage from where you came in. Turn the east valve then the west valve to make the waterwheel move. Then pull the lever.</div>
 <br><br>
-<img src="img/questimages/elemental7.png" height="200" width="350">
+<img src="img/questimages/elemental7.png">
 <br><br>
-<div data-progress>After that, go to the east passage and fix the bellows. This is where the leather, thread, and needle come in. (Leather can be found randomly in one of the crates)</div>
+<div data-progress>After that, search all the crates (you only need to search each crate once) for a Stone Bowl; as well as Leather and Needle, if you do not have them already. The location is different for each player. When you find all the items needed, go down the south passage.</div>
 <br><br>
-<img src="img/questimages/elemental8.png" height="200" width="400">
+<div data-progress>After that, go to the east passage and fix the bellows. This is where the Leather, Thread, and Needle come in.</div>
 <br><br>
-<img src="img/questimages/elemental13.png" height="200" width="300">
+<img src="img/questimages/elemental8.png">
 <br><br>
-<div data-progress>After that, search all the crates for a Stone Bowl (you only need to search each crate once). The location is different for each player. When you find it, go down the south passage.</div>
+<img src="img/questimages/elemental13.png">
 <br><br>
 <div data-progress>Use the bowl on the lava, and you will get a Stone Bowl filled with lava. Then use the bowl with lava in it on the furnace.</div>
 <br><br>
-<img src="img/questimages/elemental9.png" height="200" width="350">
+<img src="img/questimages/elemental9.png">
 <br><br>
 <div data-progress>Go back to the bellows and pull the switch.</div>
 <br><br>
 <div data-progress>Go back to the furnace and use your Elemental Ore and 4 Coal on the furnace.</div>
 <br><br>
-<img src="img/questimages/elemental10.gif" height="300" width="200">
+<img src="img/questimages/elemental10.gif">
 <br><br>
 <div data-progress>Then go back to the center and use your Elemental Metal on the workbench. You will need to have the Battered Book in your inventory to make the shield, or it will tell you that you need instructions.</div>
 <br><br>
-<img src="img/questimages/elemental11.png" height="200" width="300">
+<img src="img/questimages/elemental11.png">
 <br><br>
 <div data-progress>When you've made the Elemental Shield, you've completed the quest.</div>
 <br><br>
