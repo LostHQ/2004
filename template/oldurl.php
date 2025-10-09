@@ -9,7 +9,6 @@
         margin: 8px 0;
     }
 </style>
-
 <div class="oldurl">
     We've migrated to <a href="https://2004.losthq.rs">2004.LostHq.rs</a>!<br>
     Please update your bookmarks.<br>
