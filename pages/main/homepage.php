@@ -98,7 +98,7 @@ function getPageContent() { return <<<HTML
             </td>
             <td width="10"></td>
             <td width="100">
-                <a href="?p=">
+                <a href="?p=tools">
                     <img src="img/tools.png">
                 </a>
             </td>
