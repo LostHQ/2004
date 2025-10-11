@@ -12,7 +12,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress>40 Smithing</div></li>
 <li><div data-progress>40 Crafting</div></li>
 <li><div data-progress>59 Magic</div></li>
-<li><div data-progress><canvas data-itemname="ruby" data-size="25"></canvas>&nbsp;&nbsp;2 Cut Rubies</div></li>
+<li><div data-progress><canvas data-itemname="ruby" data-size="25"></canvas>&nbsp;&nbsp;2 Cut rubies</div></li>
 <li><div data-progress><canvas data-itemname="bronze_pickaxe" data-size="25"></canvas>&nbsp;&nbsp;Any Pickaxe</div></li>
 <li><div data-progress><canvas data-itemname="shrimp" data-size="25" data-show-label="inline"></canvas></div></li>
 <li><div data-progress><canvas data-itemname="salmon" data-size="25" data-show-label="inline"></canvas></div></li>
@@ -21,7 +21,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress><canvas data-itemname="swordfish" data-size="25" data-show-label="inline"></canvas></div></li>
 <li><div data-progress><canvas data-itemname="ring_mould" data-size="25" data-show-label="inline"></canvas></div></li>
 <li><div data-progress><canvas data-itemname="necklace_mould" data-size="25" data-show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas data-itemname="3doseantipoison" data-size="25"></canvas>&nbsp;&nbsp;Any Antipoison Potion</div></li>
+<li><div data-progress><canvas data-itemname="3doseantipoison" data-size="25"></canvas>&nbsp;&nbsp;Any Antipoison potion</div></li>
 <li><div data-progress><canvas data-itemname="deathrune" data-size="25"></canvas>&nbsp;&nbsp;x4 Death runes</div></li>
 <li><div data-progress><canvas data-itemname="airrune" data-size="25"></canvas>&nbsp;&nbsp;x13 Air runes</div></li>
 <li><div data-progress><canvas data-itemname="waterrune" data-size="25"></canvas>&nbsp;&nbsp;x3 Water runes</div></li>
@@ -30,9 +30,11 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 </ul>
 <h3>Recommended:</h3>
 <ul style="list-style-type: none;">
+<li><div data-progress>50 Fishing (to obtain a swordfish)</div></li>
+<li><div data-progress>45 Cooking (to cook a swordfish)</div></li>
 <li><div data-progress>Decent weapon and armor</div></li>
-<li><div data-progress>Food</div></li>
-<li><div data-progress>Antipoison</div></li>
+<li><div data-progress><canvas data-itemname="lobster" data-size="25"></canvas>&nbsp;&nbsp;Food</div></li>
+<li><div data-progress><canvas data-itemname="lawrune" data-size="25"></canvas>&nbsp;&nbsp;Runes for Teleport to Camelot</div><br></li>
 </ul>
 <br><br>
 <b>Starting Location:</b> Southeast of the East Varrock bank
@@ -41,8 +43,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <hr>
 <h3>Starting Out:</h3>
-<br>
-<div data-progress>1. Go to the little house southeast of the East bank in Varrock. You should find a man named Dimintheis.</div>
+<div data-progress>Go to the little house southeast of the East bank in Varrock. You should find a man named Dimintheis.</div>
 <br>
 <img src="img/questimages/famcrest1.jpg"><img src="img/questimages/famcrest2.jpg"><br>
 <br>
@@ -70,13 +71,13 @@ Swordfish<br>
 <br>
 <img src="img/questimages/famcrest5.jpg"><img src="img/questimages/famcrest6.jpg">
 <br><br>
-<div data-progress>Go talk to Boot who is in the Dwarven Mine. See the world map if you can't find Dwarven Mine. (Hint: it's north of Falador, down the ladder in a house on the ice mountain.) Boot can be found by going southwest. He will tell you where the finest gold is found. Bring a pickaxe, good armor, a good weapon, and probably some food (you will need to defeat two level 122 Hellhounds).</div>
+<div data-progress>Go talk to Boot who is in the Dwarven Mine. See the world map if you can't find Dwarven Mine. (Hint: it's north of Falador, down the ladder in a house on the Ice Mountain.) Boot can be found by going southwest. He will tell you where the finest gold is found. Bring a pickaxe, good armor, a good weapon, and probably some food as you will need to tank (or defeat, if you wish) two level 122 Hellhounds.</div>
 <br>
 <img src="img/questimages/famcrest7.jpg"><img src="img/questimages/famcrest9.jpg">
 <br><br>
-<div data-progress>The finest gold is found in a dungeon east of Ardougne. To make this easy, go to East Ardougne and head southeast. You will find a ladder surrounded by archways. Go down the ladder. First you will meet some hobgoblins (level 48.). You can't access the finest gold directly; you'll need to pull several levers to activate the door. Go to where the door of the Hellhound is. Do the following steps to unlock the door where the gold is:
+<div data-progress>The finest gold is found in a dungeon east of Ardougne. To make this easy, go to East Ardougne and head southeast. You will find a ladder surrounded by archways. Go down the ladder where you will meet some level 42 hobgoblins (you do not need to kill them). You can't access the finest gold directly; you'll need to pull several levers to activate the door. Go to where the door where the Hellhound is. Do the following steps to unlock the door where the gold is:
 </div>
-    Hint: If you don't know what a lever's status is (up or down) you can right click on it and click inspect. (Also, you may need to pull the levers in the opposite order from what the guide says.)
+    Hint: If you don't know what a lever's status is (up or down) you can right click on it and click examine. (Also, you may need to pull the levers in the opposite order from what the guide says.)
 <br><br>
 <div style="text-align:left;">
     <div data-progress>I) Go to the North wall and pull that lever up</div>

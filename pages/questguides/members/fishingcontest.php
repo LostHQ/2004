@@ -16,6 +16,11 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress><canvas data-itemname="garlic" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="spade" data-size="25" data-show-label="inline"></canvas></div><br></li>
 </ul>
+<h3>Recommended:</h3>
+<ul style="list-style-type: none;">
+<li><div data-progress>The ability to run past level 44 enemies</div></li>
+<li><div data-progress><canvas data-itemname="lobster" data-size="25"></canvas>&nbsp;&nbsp;Food at low combat levels</div></li>
+</ul>
 <b>Starting Location:</b> East or west of White Wolf Mountain, talk to the dwarf
 <br><br>
 <b>Reward:</b> 1 Quest point, 2,437 Fishing XP, access to the underground White Wolf Mountain passage
@@ -25,7 +30,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br>
 <div data-progress>Talk to the Dwarf and say that you want to use the secret way to cross White Wolf Mountain. Also, tell him you want to become his friend. He will ask you to retrieve a trophy from the Hemenster Fishing Competition and will give you a Competition Pass.</div>
 <br><br>
-<div data-progress>Before entering Hemenster, go north of it and you will see McGrubor's Woods. Go further north and you'll find a loose fence. Push it, head to the west side, find a red vine, and use the spade on it. You should get a red worm. Collect 2-3, then leave the area.</div>
+<div data-progress>Before entering Hemenster, go north of it and you will see McGrubor's Woods. Go further north and you'll find a loose fence. Push it, head to the west side, find a red vine, and use the spade on it. You should get a red worm, then leave the area.</div>
 <br><br>
 <div data-progress>Return to Hemenster and try to enter the fishing area. A man will say you need a Competition Pass—show it to him to get in.</div>
 <br><br>
