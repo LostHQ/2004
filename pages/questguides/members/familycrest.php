@@ -8,33 +8,37 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <b>Length: <font color="Red">Long</font></b><br>
 <h3>Items & Skills Needed:</h3>
 <ul style="list-style-type: none;">
-<li><div data-progress>40 Mining</div></li>
-<li><div data-progress>40 Smithing</div></li>
-<li><div data-progress>40 Crafting</div></li>
-<li><div data-progress>59 Magic</div></li>
-<li><div data-progress><canvas data-itemname="ruby" data-size="25"></canvas>&nbsp;&nbsp;2 Cut rubies</div></li>
-<li><div data-progress><canvas data-itemname="bronze_pickaxe" data-size="25"></canvas>&nbsp;&nbsp;Any Pickaxe</div></li>
-<li><div data-progress><canvas data-itemname="shrimp" data-size="25" data-show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas data-itemname="salmon" data-size="25" data-show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas data-itemname="tuna" data-size="25" data-show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas data-itemname="bass" data-size="25" data-show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas data-itemname="swordfish" data-size="25" data-show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas data-itemname="ring_mould" data-size="25" data-show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas data-itemname="necklace_mould" data-size="25" data-show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas data-itemname="3doseantipoison" data-size="25"></canvas>&nbsp;&nbsp;Any Antipoison potion</div></li>
-<li><div data-progress><canvas data-itemname="deathrune" data-size="25"></canvas>&nbsp;&nbsp;x4 Death runes</div></li>
-<li><div data-progress><canvas data-itemname="airrune" data-size="25"></canvas>&nbsp;&nbsp;x13 Air runes</div></li>
-<li><div data-progress><canvas data-itemname="waterrune" data-size="25"></canvas>&nbsp;&nbsp;x3 Water runes</div></li>
-<li><div data-progress><canvas data-itemname="earthrune" data-size="25"></canvas>&nbsp;&nbsp;x4 Earth runes</div></li>
-<li><div data-progress><canvas data-itemname="firerune" data-size="25"></canvas>&nbsp;&nbsp;x5 Fire runes</div></li>
+    <li><div data-progress>40 Mining</div></li>
+    <li><div data-progress>40 Smithing</div></li>
+    <li><div data-progress>40 Crafting</div></li>
+    <li><div data-progress>59 Magic</div></li>
+    <li><div data-progress><canvas data-itemname="ruby" data-size="25"></canvas>&nbsp;&nbsp;2 Cut rubies</div></li>
+    <li><div data-progress><canvas data-itemname="bronze_pickaxe" data-size="25"></canvas>&nbsp;&nbsp;Any Pickaxe</div></li>
+    <li><div data-progress><canvas data-itemname="shrimp" data-size="25" data-show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas data-itemname="salmon" data-size="25" data-show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas data-itemname="tuna" data-size="25" data-show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas data-itemname="bass" data-size="25" data-show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas data-itemname="swordfish" data-size="25" data-show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas data-itemname="ring_mould" data-size="25" data-show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas data-itemname="necklace_mould" data-size="25" data-show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas data-itemname="3doseantipoison" data-size="25"></canvas>&nbsp;&nbsp;Any Antipoison potion</div></li>
+    <li><div data-progress><canvas data-itemname="deathrune" data-size="25"></canvas>&nbsp;&nbsp;x4 Death runes</div></li>
+    <li><div data-progress><canvas data-itemname="airrune" data-size="25"></canvas>&nbsp;&nbsp;x13 Air runes</div></li>
+    <li><div data-progress><canvas data-itemname="waterrune" data-size="25"></canvas>&nbsp;&nbsp;x3 Water runes</div></li>
+    <li><div data-progress><canvas data-itemname="earthrune" data-size="25"></canvas>&nbsp;&nbsp;x4 Earth runes</div></li>
+    <li><div data-progress><canvas data-itemname="firerune" data-size="25"></canvas>&nbsp;&nbsp;x5 Fire runes</div></li>
 </ul>
 <h3>Recommended:</h3>
 <ul style="list-style-type: none;">
-<li><div data-progress>50 Fishing (to obtain a swordfish)</div></li>
-<li><div data-progress>45 Cooking (to cook a swordfish)</div></li>
-<li><div data-progress>Decent weapon and armor</div></li>
-<li><div data-progress><canvas data-itemname="lobster" data-size="25"></canvas>&nbsp;&nbsp;Food</div></li>
-<li><div data-progress><canvas data-itemname="lawrune" data-size="25"></canvas>&nbsp;&nbsp;Runes for Teleport to Camelot</div><br></li>
+    <li><div data-progress>50 Fishing (to obtain a swordfish)</div></li>
+    <li><div data-progress>45 Cooking (to cook a swordfish)</div></li>
+    <li><div data-progress>Decent weapon and armor</div></li>
+    <li><div data-progress><canvas data-itemname="3doseantipoison" data-size="25"></canvas>&nbsp;&nbsp;Another Antipoison potion</div></li>
+    <li><div data-progress><canvas data-itemname="lobster" data-size="25"></canvas>&nbsp;&nbsp;Food</div></li>
+    <li><div data-progress><canvas data-itemname="lawrune" data-size="25"></canvas>&nbsp;&nbsp;Runes for Teleport to Ardougne or Camelot</div><br></li>
+    <li><div data-progress><canvas data-itemname="lawrune" data-size="25"></canvas>&nbsp;&nbsp;Runes for Teleport to Lumbridge</div><br></li>
+    <li><div data-progress><canvas data-itemname="lawrune" data-size="25"></canvas>&nbsp;&nbsp;Runes for Teleport to Falador</div><br></li>
+    <li><div data-progress><canvas data-itemname="lawrune" data-size="25"></canvas>&nbsp;&nbsp;Runes for Teleport to Varrock</div><br></li>
 </ul>
 <br><br>
 <b>Starting Location:</b> Southeast of the East Varrock bank
@@ -98,7 +102,7 @@ Swordfish<br>
 <hr>
 <h3>Third Son:</h3>
 <br>
-<div data-progress>For this part you will need a cure poison potion (it's a good idea to bring two, one for the son and one for you), probably some good armor, a good weapon, all of the runes needed to cast all four blast spells, and either a level 59 magic, or a Wizard's Mind Bomb (can be bought in Falador Bar for 2 coins). By the way, a Wizard's Mind Bomb temporarily increases your Magic level by three, so you can do this part if you have a level 56 magic or higher.</div>
+<div data-progress>For this part you will need an antipoison potion (it's a good idea to bring two, one for the son and one for you), probably some good armor, a good weapon, all of the runes needed to cast all four blast spells, and either a level 59 magic, or a Wizard's Mind Bomb (can be bought in Falador Bar for 2 coins). By the way, a Wizard's Mind Bomb temporarily increases your Magic level by three, so you can do this part if you have a level 56 magic or higher.</div>
 <br>
 <div data-progress>Once you have all of those items go to the Jolly Boar Inn. This is located northeast of Varrock. Check the world map if you can't find it (it's the large bar). Go inside and go to the southern end. On the <span data-floors="US">2nd floor</span> you will find, in a room, a wizard.</div>
 <br>

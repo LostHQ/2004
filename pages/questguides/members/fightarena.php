@@ -16,7 +16,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h3>Recommended:</h3>
 <ul style="list-style-type: none;">
 <li><div data-progress>Decent weapon and armor</div></li>
-<li><div data-progress>Alternatively: 50+ Ranged and ranged gear or Magic and runes to cast combat spells</div></li>
+<li><div data-progress>Alternatively: Any Magic level and runes to cast combat spells or 50+ Ranged and ranged gear</div></li>
 <li><div data-progress><canvas data-itemname="lobster" data-size="25"></canvas>&nbsp;&nbsp;Food</div></li>
 </ul>
 <b>Starting Location:</b> Lady Servil is southeast of the Gnome Battlefield, on the northwest edge of the arena camp
