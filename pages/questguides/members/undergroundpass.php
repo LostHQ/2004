@@ -68,7 +68,7 @@ If you dropped your food earlier to telegrab, telekinetic grab the food you drop
 <br><br>
 Here is the 5x5 grid. It is basically a game of process of elimination and a memory game. Each safe path to cross is different for each account.
 <br><br>
-<div data-progress>Find the “square” you can stand on in the first row. Once you find that, then the next one can branch out to any tile adjacent.</div>
+<div data-progress>Find the "square" you can stand on in the first row. Once you find that, then the next one can branch out to any tile adjacent.</div>
 <br><br>
 <div data-progress>Continue this process until you find a safe path across. If you fall, climb back up on protruding rocks or you will continue to receive hits.</div>
 <br><br>

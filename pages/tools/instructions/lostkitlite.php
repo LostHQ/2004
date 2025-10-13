@@ -8,8 +8,8 @@ function getGuideContent($guide) {
         <li><b>Download</b> the LostKit extension <code>.zip</code> file to your computer.</li>
         <li><b>Unzip</b> the file to a convenient location — for example, your Downloads folder or desktop. You should now have a folder containing files like manifest.json, background.js, etc.</li>
         <li>Open Google Chrome and navigate to: chrome://extensions/</li>
-        <li>In the top-right corner of the Extensions page, <b>enable “Developer mode.”</b></li>
-        <li>Click the <b>“Load unpacked”</b> button that appears in the toolbar.</li>
+        <li>In the top-right corner of the Extensions page, <b>enable "Developer mode."</b></li>
+        <li>Click the <b>"Load unpacked"</b> button that appears in the toolbar.</li>
         <li>Browse to the folder where you extracted the LostKit extension, select that folder, and click <b>Select Folder</b>.</li>
         <li>The extension should now appear in your list with its icon visible. Make sure it's toggled <b>on</b>.</li>
     </ol>

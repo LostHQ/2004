@@ -44,7 +44,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br>
 <img src="img/questimages/watchtower1.jpg" height="350" width="350">
 <br><br>
-<div data-progress>Once you see the Watchtower (location #1), look around it for “climbing rocks”. You should find them on the North outside wall of the Watchtower. This is the only way to get in at first. The Guards will attack you if you try to use the ladder. Climb up the rocks and you'll be inside on the <span data-floors="US">2nd floor</span> the watchtower. Continue up the ladder to the 3rd and speak to Watchtower Wizard.</div>
+<div data-progress>Once you see the Watchtower (location #1), look around it for "climbing rocks". You should find them on the North outside wall of the Watchtower. This is the only way to get in at first. The Guards will attack you if you try to use the ladder. Climb up the rocks and you'll be inside on the <span data-floors="US">2nd floor</span> the watchtower. Continue up the ladder to the 3rd and speak to Watchtower Wizard.</div>
 <br><br>
 <div data-progress>After you have spoken to the Watchtower Wizard, you will need to go outside (down 2 ladders) and search all the bushes around the Watchtower until you find some fingernails, an eye patch, a dagger, and some armor. Go back to the wizard and talk to him — this time you can use the ladder. He will send you on your mission to recover the crystals.</div>
 <br><br>
@@ -52,11 +52,11 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <div data-progress>First you will need to talk to Og the Ogre. Exit Yanille through the West gate and you will come to the ogre settlement (location #3). Speak with him and he will help you — but only after you have helped him. Og will give you a key and ask you to retrieve his gold bar that was stolen by Toban the Ogre.</div>
 <br><br>
-<div data-progress>Just South of Og, you will see a little island (location #4). Use the rope with the branch on the “long branched tree” (location#5). You will now swing over to the island. Talk to Grew the Ogre. He will ask for a tooth of his enemy — Gorad the Ogre. While you are here, get a janger berry before you swing back across. You will need them later in the quest.</div>
+<div data-progress>Just South of Og, you will see a little island (location #4). Use the rope with the branch on the "long branched tree" (location#5). You will now swing over to the island. Talk to Grew the Ogre. He will ask for a tooth of his enemy — Gorad the Ogre. While you are here, get a janger berry before you swing back across. You will need them later in the quest.</div>
 <br><br>
 <div data-progress>To get to Toban and Goorad, you will need to gain access to the small island south of Yanille (location #6). You will not be able to access the island from the bridge. You will need to find the cave entrance that is South-West of the small island (location #7). When you're on the island, attack Gorad (level 56) and kill him. His tooth will automatically appear in your inventory. Now go talk to Toban. He will ask you for a dragon bone. Give him a dragon bone and he'll give you a part of the ogre statue. Now go open Toban's chest (which is on the same island) to retrieve Og's gold bar.</div>
 <br><br>
-<div data-progress>Go back to the other island (location #4) and use your second rope on the “long branched tree” branch (location #5) and swing across. Talk to Grew and give him the tooth. He will give you another part of the ogre statue. Go back to Og and talk to him. Give him the stolen gold bar and he will give you a third part of the ogre statue (one of the three ogres, either Og, Grew or Toban, will give you a crystal along with the statue part).</div>
+<div data-progress>Go back to the other island (location #4) and use your second rope on the "long branched tree" branch (location #5) and swing across. Talk to Grew and give him the tooth. He will give you another part of the ogre statue. Go back to Og and talk to him. Give him the stolen gold bar and he will give you a third part of the ogre statue (one of the three ogres, either Og, Grew or Toban, will give you a crystal along with the statue part).</div>
 <br><br>
 <div data-progress>Now go back to the Watchtower wizard (location #1) and use the items on him. He will give you an ogre statue when you give him all the three parts. With the statue, you can now enter the Ogre city.</div>
 <br><br>

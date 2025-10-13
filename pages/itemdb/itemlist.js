@@ -263,14 +263,14 @@
     const it2 = id2 != null ? items.find(i => i.id === id2) : null;
 
     if (it1) container.appendChild(renderTable(it1));
-    else if (v1) container.innerHTML = `<p style="color:red">Item “${v1}” not found.</p>`;
+    else if (v1) container.innerHTML = `<p style="color:red">Item "${v1}" not found.</p>`;
 
     if (it2) {
       container.classList.add('compare-mode');
       container.appendChild(document.createElement('hr'));
       container.appendChild(renderTable(it2));
     } else if (v2) {
-      container.innerHTML += `<p style="color:red">Item “${v2}” not found.</p>`;
+      container.innerHTML += `<p style="color:red">Item "${v2}" not found.</p>`;
     }
 
     // update URL params

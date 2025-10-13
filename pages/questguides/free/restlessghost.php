@@ -33,7 +33,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <div data-progress>Head over there and go into the basement. Look for a skull and take it. A skeleton will pop out — kill it, or just grab the skull and hightail it out of there.</div>
 <br><br>
-<div data-progress>Go back to the tomb and use the skull on the ghost's coffin. The ghost will vanish and whisper “thank you.” Of course, a minor thank you isn't going to cut it — so naturally, the ghost also gives you your reward. Quest complete.</div>
+<div data-progress>Go back to the tomb and use the skull on the ghost's coffin. The ghost will vanish and whisper "thank you." Of course, a minor thank you isn't going to cut it — so naturally, the ghost also gives you your reward. Quest complete.</div>
 $questComplete
 This quest guide was written on RuneHQ by Gnat88. Thanks to Urger and Weezy for corrections.
 <br><br>

@@ -59,7 +59,7 @@ Finally add some snape grass</i></div><br>
 <br>
 <div data-progress>If you have read the Items/Skills Needed To Start: You should have all the ingredients. Follow the steps to make the hangover cure: grind a chocolate bar with a pestle and mortar, add the chocolate dust to the milk, then add the snape grass to the chocolate milk. Talk to Bravek after you've made the hangover cure. His headache will be cured. Tell him that the Mourner won't listen to you. He will give you a warrant.</div>
 <br><br>
-<div data-progress>Go back to the house and try to open the door again. The mourner will say he needs to ask the Head Mourner, but when the message “You wait until the mourner's back is turned” appears, open the door immediately to sneak inside.</div>
+<div data-progress>Go back to the house and try to open the door again. The mourner will say he needs to ask the Head Mourner, but when the message "You wait until the mourner's back is turned" appears, open the door immediately to sneak inside.</div>
 <br><br>
 <div data-progress>Walk down the spooky stairs and try to open the door. Elena will tell you the key is somewhere nearby. Go back upstairs and search the barrel, you will find a small key. Go back downstairs, use the key on the door, and talk to Elena. She'll tell you her father will reward you.</div>
 <br><br>

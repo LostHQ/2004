@@ -64,7 +64,7 @@ WARNING: Do not AFK around the jail as the guards can easily kill you.
 <h3>Rescuing Prince Ali</h3>
 <div data-progress>Go into the jail nearby, close the door to trap the guards/jailers outside. Make sure Joe, the Guard, is inside and the other guards are outside for an easier time.</div>
 <br><br>
-<div data-progress>Talk to Joe, the guard near the cell, and tell him you have a beer. “Fancy one?” You'll then ask him if he wants another and automatically hand them to him, and he will drink all 3 and get drunk.</div>
+<div data-progress>Talk to Joe, the guard near the cell, and tell him you have a beer. "Fancy one?" You'll then ask him if he wants another and automatically hand them to him, and he will drink all 3 and get drunk.</div>
 <br><br>
 <div data-progress>Use a rope on Lady Keli to tie her up, then use your key on the cell door and talk to the prince. He will take the disguise and run off.</div>
 <br><br>    

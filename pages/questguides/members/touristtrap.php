@@ -53,7 +53,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <div data-progress>Inside the Mining Camp go upstairs in the building to Captain Siad's room. Search his desk to find the Cell Key. Then search the bookcases until you discover books about sailing. Now talk to him.</div>
 <br><br>
-<div data-progress>Start with “Hello”. Try to continue talking to him and then start on sailing. After a while choose the comment on his “Jib”. He will then be distracted enough to unlock the Chest and get the Blueprints.</div>
+<div data-progress>Start with "Hello". Try to continue talking to him and then start on sailing. After a while choose the comment on his "Jib". He will then be distracted enough to unlock the Chest and get the Blueprints.</div>
 <br><br>
 <div data-progress>Bring these back to Al Shabim and he will ask you to make the weapon from them. Go north a bit and talk to the Bebadin Guard there. He will let you in the secret room to use the Experimental Anvil. Forge the weapon — it will be a dart tip. You may fail once or twice. Once the tip is made, use feathers with it to create a complete Experimental Dart. (Note: You may need to leave via the Shantay Pass to gather more supplies.)</div>
 <br><br>
@@ -65,13 +65,13 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <div data-progress>Once the cart arrives on the other side go northwest a bit till you find a large area with many Slaves. Ana will be there. If she asks how you got in tell her the line about it being secretive. (DO NOT SAY YOU HAVE A KEY! If you do you will be rounded up. To get out you will have to mine 15 rocks and give to the Mercenary.)</div>
 <br><br>
-<div data-progress>After talking to Ana use the Barrel with her to “kidnap” her. Place her in the cart then get in it yourself.</div>
+<div data-progress>After talking to Ana use the Barrel with her to "kidnap" her. Place her in the cart then get in it yourself.</div>
 <br><br>
 <div data-progress>On the other side search the Barrels till you find Ana. Go to the Winch Bucket and use it. The Guard there will ask to help you. Agree. Ana will start complaining but you have to cover for her. Pick the statements that will compliment the Guard. (DO NOT attempt to walk through the Mine Cave — you will be caught and severely punished.)</div>
 <br><br>
 <div data-progress>Leave the mines and go over to the Winch above ground. Use it and then search the Barrels for Ana. Use her on the Mine Cart and place her in it. (DO NOT try to walk through the gates — you will be caught and severely punished.)</div>
 <br><br>
-<div data-progress>Now say “Nice cart” to the mine cart driver and select all the lines that are friendly or funny. Some of them will be stupid. Make him laugh and he will agree to help you escape. You will have to bribe him. Pay him 100gp and he will do it. Get in the cart and he will go.</div>
+<div data-progress>Now say "Nice cart" to the mine cart driver and select all the lines that are friendly or funny. Some of them will be stupid. Make him laugh and he will agree to help you escape. You will have to bribe him. Pay him 100gp and he will do it. Get in the cart and he will go.</div>
 <br><br>
 <div data-progress>Once outside go north to Irena and talk to her.</div>
 $questComplete
