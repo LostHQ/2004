@@ -101,40 +101,40 @@ You can have combinations of colors and text effects in your messages too. Color
         <td>cyan:wave2:</td><td><img src="img/special_guides/chat_effects/cyan_wave2.gif"></td>
     </tr> -->
     <tr>
-        <td>flash1:wave:</td><td><img src="img/special_guides/chat_effects/flash1_wave.gif"></td>
-    </tr>
-    <tr>
         <td>flash1:scroll:</td><td><img src="img/special_guides/chat_effects/flash1_scroll.gif"></td>
     </tr>
     <tr>
-        <td>flash2:wave:</td><td><img src="img/special_guides/chat_effects/flash2_wave.gif"></td>
+        <td>flash1:wave:</td><td><img src="img/special_guides/chat_effects/flash1_wave.gif"></td>
     </tr>
     <tr>
         <td>flash2:scroll:</td><td><img src="img/special_guides/chat_effects/flash2_scroll.gif"></td>
     </tr>
     <tr>
-        <td>flash3:wave:</td><td><img src="img/special_guides/chat_effects/flash3_wave.gif"></td>
+        <td>flash2:wave:</td><td><img src="img/special_guides/chat_effects/flash2_wave.gif"></td>
     </tr>
     <tr>
         <td>flash3:scroll:</td><td><img src="img/special_guides/chat_effects/flash3_scroll.gif"></td>
     </tr>
     <tr>
-        <td>glow1:wave:</td><td><img src="img/special_guides/chat_effects/glow1_wave.gif"></td>
+        <td>flash3:wave:</td><td><img src="img/special_guides/chat_effects/flash3_wave.gif"></td>
     </tr>
     <tr>
         <td>glow1:scroll:</td><td><img src="img/special_guides/chat_effects/glow1_scroll.gif"></td>
     </tr>
     <tr>
-        <td>glow2:wave:</td><td><img src="img/special_guides/chat_effects/glow2_wave.gif"></td>
+        <td>glow1:wave:</td><td><img src="img/special_guides/chat_effects/glow1_wave.gif"></td>
     </tr>
     <tr>
         <td>glow2:scroll:</td><td><img src="img/special_guides/chat_effects/glow2_scroll.gif"></td>
     </tr>
     <tr>
-        <td>glow3:wave:</td><td><img src="img/special_guides/chat_effects/glow3_wave.gif"></td>
+        <td>glow2:wave:</td><td><img src="img/special_guides/chat_effects/glow2_wave.gif"></td>
     </tr>
     <tr>
         <td>glow3:scroll:</td><td><img src="img/special_guides/chat_effects/glow3_scroll.gif"></td>
+    </tr>
+    <tr>
+        <td>glow3:wave:</td><td><img src="img/special_guides/chat_effects/glow3_wave.gif"></td>
     </tr>
     <tr>
         <td>green:scroll:</td><td><img src="img/special_guides/chat_effects/green_scroll.gif"></td>
