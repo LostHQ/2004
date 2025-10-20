@@ -62,18 +62,18 @@ Note: All the effect names must be typed in lower case or they will not work.
     <tr>
         <td>scroll:</td><td>Text scrolls right to left.</td><td><img src="img/special_guides/chat_effects/scroll.gif"></td>
     </tr>
-    <tr>
+    <!-- <tr>
         <td>shake:</td><td>Text shakes up and down.</td><td><img src="img/special_guides/chat_effects/shake.gif"></td>
-    </tr>
-    <tr>
+    </tr> -->
+    <!-- <tr>
         <td>slide:</td><td>Text slides from top to bottom.</td><td><img src="img/special_guides/chat_effects/slide.gif"></td>
-    </tr>
+    </tr> -->
     <tr>
         <td>wave:</td><td>Text waves up and down.</td><td><img src="img/special_guides/chat_effects/wave.gif"></td>
     </tr>
-    <tr>
+    <!-- <tr>
         <td>wave2:</td><td>Text waves slowly from left to right.</td><td><img src="img/special_guides/chat_effects/wave2.gif"></td>
-    </tr>
+    </tr> -->
 </table>
 <h3>Combinations</h3>
 You can have combinations of colors and text effects in your messages too. Colored text (cyan, green, purple, red, and white) can scroll, shake, slide, or wave. Flashing and glowing text effects may also have a scroll or wave effect added to them. When combining colors and effects, always have the color before the effect and do not put a space between the color colon and the first letter of the effect.
@@ -88,18 +88,18 @@ You can have combinations of colors and text effects in your messages too. Color
     <tr>
         <td>cyan:scroll:</td><td><img src="img/special_guides/chat_effects/cyan_scroll.gif"></td>
     </tr>
-    <tr>
+    <!-- <tr>
         <td>cyan:shake:</td><td><img src="img/special_guides/chat_effects/cyan_shake.gif"></td>
     </tr>
     <tr>
         <td>cyan:slide:</td><td><img src="img/special_guides/chat_effects/cyan_slide.gif"></td>
-    </tr>
+    </tr> -->
     <tr>
         <td>cyan:wave:</td><td><img src="img/special_guides/chat_effects/cyan_wave.gif"></td>
     </tr>
-    <tr>
+    <!-- <tr>
         <td>cyan:wave2:</td><td><img src="img/special_guides/chat_effects/cyan_wave2.gif"></td>
-    </tr>
+    </tr> -->
     <tr>
         <td>flash1:wave:</td><td><img src="img/special_guides/chat_effects/flash1_wave.gif"></td>
     </tr>
@@ -139,62 +139,62 @@ You can have combinations of colors and text effects in your messages too. Color
     <tr>
         <td>green:scroll:</td><td><img src="img/special_guides/chat_effects/green_scroll.gif"></td>
     </tr>
-    <tr>
+    <!-- <tr>
         <td>green:shake:</td><td><img src="img/special_guides/chat_effects/green_shake.gif"></td>
     </tr>
     <tr>
         <td>green:slide:</td><td><img src="img/special_guides/chat_effects/green_slide.gif"></td>
-    </tr>
+    </tr> -->
     <tr>
         <td>green:wave:</td><td><img src="img/special_guides/chat_effects/green_wave.gif"></td>
     </tr>
-    <tr>
+    <!-- <tr>
         <td>green:wave2:</td><td><img src="img/special_guides/chat_effects/green_wave2.gif"></td>
-    </tr>
+    </tr> -->
     <tr>
         <td>purple:scroll:</td><td><img src="img/special_guides/chat_effects/purple_scroll.gif"></td>
     </tr>
-    <tr>
+    <!-- <tr>
         <td>purple:shake:</td><td><img src="img/special_guides/chat_effects/purple_shake.gif"></td>
     </tr>
     <tr>
         <td>purple:slide:</td><td><img src="img/special_guides/chat_effects/purple_slide.gif"></td>
-    </tr>
+    </tr> -->
     <tr>
         <td>purple:wave:</td><td><img src="img/special_guides/chat_effects/purple_wave.gif"></td>
     </tr>
-    <tr>
+    <!-- <tr>
         <td>purple:wave2:</td><td><img src="img/special_guides/chat_effects/purple_wave2.gif"></td>
-    </tr>
+    </tr> -->
     <tr>
         <td>red:scroll:</td><td><img src="img/special_guides/chat_effects/red_scroll.gif"></td>
     </tr>
-    <tr>
+    <!-- <tr>
         <td>red:shake:</td><td><img src="img/special_guides/chat_effects/red_shake.gif"></td>
     </tr>
     <tr>
         <td>red:slide:</td><td><img src="img/special_guides/chat_effects/red_slide.gif"></td>
-    </tr>
+    </tr> -->
     <tr>
         <td>red:wave:</td><td><img src="img/special_guides/chat_effects/red_wave.gif"></td>
     </tr>
-    <tr>
+    <!-- <tr>
         <td>red:wave2:</td><td><img src="img/special_guides/chat_effects/red_wave2.gif"></td>
-    </tr>
+    </tr> -->
     <tr>
         <td>white:scroll:</td><td><img src="img/special_guides/chat_effects/white_scroll.gif"></td>
     </tr>
-    <tr>
+    <!-- <tr>
         <td>white:shake:</td><td><img src="img/special_guides/chat_effects/white_shake.gif"></td>
     </tr>
     <tr>
         <td>white:slide:</td><td><img src="img/special_guides/chat_effects/white_slide.gif"></td>
-    </tr>
+    </tr> -->
     <tr>
         <td>white:wave:</td><td><img src="img/special_guides/chat_effects/white_wave.gif"></td>
     </tr>
-    <tr>
+    <!-- <tr>
         <td>white:wave2:</td><td><img src="img/special_guides/chat_effects/white_wave2.gif"></td>
-    </tr>
+    </tr> -->
 </table>
 HTML; }
