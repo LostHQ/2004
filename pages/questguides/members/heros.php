@@ -1,6 +1,8 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
+<a href="#zombiemusiq">ZombieMusiq Video Guide at bottom of page!</a> 
+<br><br>
 <b>Description:</b> Prove you are worthy to enter the hero's guild. To prove your status as a hero you will need to obtain a number of items. There are many challenges standing between you and these items.
 <br><br>
 <b>Difficulty: <font color="Red">Experienced</font></b>
@@ -121,6 +123,9 @@ Finishing the Quest
 <br><br>
 Congratulations! You have finished the Hero's Quest, and can now enter the Hero's Guild!
 $questComplete
+<span id="zombiemusiq"></span>
+<iframe width="450" height="253" src="https://www.youtube.com/embed/iwRl3gx6LS4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<hr>
 This quest guide was written by Jarik C-Bol, Elyria1, jtfa0007, and hckernshadow. Thanks to DRAVAN for corrections.
 <br><br>
 This quest guide was entered into the database on Tue, May 11, 2004, at 08:33:53 PM by stormer and CJH and was last updated on Fri, Oct 08, 2004, at 11:57:09 PM.
