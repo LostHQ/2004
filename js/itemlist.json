@@ -7124,7 +7124,7 @@
     "stackable": true
   },
   {
-    "debugname": "gnome_boots_turqoise",
+    "debugname": "gnome_boots_turquoise",
     "id": 634,
     "name": "Boots",
     "desc": "They're soft and silky.",
@@ -7142,7 +7142,7 @@
     }
   },
   {
-    "debugname": "cert_gnome_boots_turqoise",
+    "debugname": "cert_gnome_boots_turquoise",
     "id": 635,
     "name": "Boots",
     "desc": "Swap this note at any bank for a Boots.",
@@ -36365,7 +36365,7 @@
     "name": "Battered book",
     "desc": "A very thickley bound book.",
     "cost": 10,
-    "weight": 0,
+    "weight": 113,
     "members": true,
     "iops": {
       "iop1": "Read"
@@ -36377,7 +36377,7 @@
     "name": "Battered key",
     "desc": "An old battered key.",
     "cost": 1,
-    "weight": 0,
+    "weight": 10,
     "members": true
   },
   {
@@ -36386,7 +36386,7 @@
     "name": "A stone bowl",
     "desc": "This is an empty stone bowl.",
     "cost": 1,
-    "weight": 0,
+    "weight": 141,
     "members": true
   },
   {
@@ -36395,7 +36395,7 @@
     "name": "A stone bowl",
     "desc": "This is a stone bowl full of lava.",
     "cost": 1,
-    "weight": 0,
+    "weight": 226,
     "members": true
   },
   {
@@ -36432,7 +36432,7 @@
     "name": "Elemental ore",
     "desc": "This needs refining.",
     "cost": 5,
-    "weight": 0,
+    "weight": 2267,
     "members": true
   },
   {
@@ -36441,7 +36441,1117 @@
     "name": "Elemental metal",
     "desc": "It's a bar of refined elemental ore.",
     "cost": 8,
-    "weight": 0,
+    "weight": 1814,
     "members": true
+  },
+  {
+    "debugname": "wolfenboots_grey",
+    "id": 2894,
+    "name": "Boots",
+    "desc": "Very stylish!",
+    "cost": 500,
+    "weight": 340,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "feet",
+      "slashdefence": 1,
+      "crushdefence": 1
+    }
+  },
+  {
+    "debugname": "cert_wolfenboots_grey",
+    "id": 2895,
+    "name": "Boots",
+    "desc": "Swap this note at any bank for a Boots.",
+    "cost": 500,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "wolfenrobetop_grey",
+    "id": 2896,
+    "name": "Robe top",
+    "desc": "Some fine werewolf clothing.",
+    "cost": 500,
+    "weight": 907,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "body",
+      "slashdefence": 2,
+      "crushdefence": 2
+    }
+  },
+  {
+    "debugname": "cert_wolfenrobetop_grey",
+    "id": 2897,
+    "name": "Robe top",
+    "desc": "Swap this note at any bank for a Robe top.",
+    "cost": 500,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "wolfenrobebottom_grey",
+    "id": 2898,
+    "name": "Robe bottoms",
+    "desc": "Made by werewolves for werewolves.",
+    "cost": 500,
+    "weight": 907,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "legs",
+      "slashdefence": 2,
+      "crushdefence": 2
+    }
+  },
+  {
+    "debugname": "cert_wolfenrobebottom_grey",
+    "id": 2899,
+    "name": "Robe bottoms",
+    "desc": "Swap this note at any bank for a Robe bottoms.",
+    "cost": 500,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "wolfenhat_grey",
+    "id": 2900,
+    "name": "Hat",
+    "desc": "A silly pointed hat.",
+    "cost": 500,
+    "weight": 453,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "head",
+      "magicattack": 3,
+      "magicdefence": 3
+    }
+  },
+  {
+    "debugname": "cert_wolfenhat_grey",
+    "id": 2901,
+    "name": "Hat",
+    "desc": "Swap this note at any bank for a Hat.",
+    "cost": 500,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "wolfengloves_grey",
+    "id": 2902,
+    "name": "Gloves",
+    "desc": "These will keep my hands warm!",
+    "cost": 500,
+    "weight": 453,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "hands",
+      "slashdefence": 1,
+      "crushdefence": 2
+    }
+  },
+  {
+    "debugname": "cert_wolfengloves_grey",
+    "id": 2903,
+    "name": "Gloves",
+    "desc": "Swap this note at any bank for a Gloves.",
+    "cost": 500,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "wolfenboots_crimson",
+    "id": 2904,
+    "name": "Boots",
+    "desc": "Very stylish!",
+    "cost": 500,
+    "weight": 340,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "feet",
+      "slashdefence": 1,
+      "crushdefence": 1
+    }
+  },
+  {
+    "debugname": "cert_wolfenboots_crimson",
+    "id": 2905,
+    "name": "Boots",
+    "desc": "Swap this note at any bank for a Boots.",
+    "cost": 500,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "wolfenrobetop_crimson",
+    "id": 2906,
+    "name": "Robe top",
+    "desc": "Some fine werewolf clothing.",
+    "cost": 500,
+    "weight": 907,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "body",
+      "slashdefence": 2,
+      "crushdefence": 2
+    }
+  },
+  {
+    "debugname": "cert_wolfenrobetop_crimson",
+    "id": 2907,
+    "name": "Robe top",
+    "desc": "Swap this note at any bank for a Robe top.",
+    "cost": 500,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "wolfenrobebottom_crimson",
+    "id": 2908,
+    "name": "Robe bottoms",
+    "desc": "Made by werewolves for werewolves.",
+    "cost": 500,
+    "weight": 907,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "legs",
+      "slashdefence": 2,
+      "crushdefence": 2
+    }
+  },
+  {
+    "debugname": "cert_wolfenrobebottom_crimson",
+    "id": 2909,
+    "name": "Robe bottoms",
+    "desc": "Swap this note at any bank for a Robe bottoms.",
+    "cost": 500,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "wolfenhat_crimson",
+    "id": 2910,
+    "name": "Hat",
+    "desc": "A silly pointed hat.",
+    "cost": 500,
+    "weight": 453,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "head",
+      "magicattack": 3,
+      "magicdefence": 3
+    }
+  },
+  {
+    "debugname": "cert_wolfenhat_crimson",
+    "id": 2911,
+    "name": "Hat",
+    "desc": "Swap this note at any bank for a Hat.",
+    "cost": 500,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "wolfengloves_crimson",
+    "id": 2912,
+    "name": "Gloves",
+    "desc": "These will keep my hands warm!",
+    "cost": 500,
+    "weight": 453,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "hands",
+      "slashdefence": 1,
+      "crushdefence": 2
+    }
+  },
+  {
+    "debugname": "cert_wolfengloves_crimson",
+    "id": 2913,
+    "name": "Gloves",
+    "desc": "Swap this note at any bank for a Gloves.",
+    "cost": 500,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "wolfenboots_tangerine",
+    "id": 2914,
+    "name": "Boots",
+    "desc": "Very stylish!",
+    "cost": 500,
+    "weight": 340,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "feet",
+      "slashdefence": 1,
+      "crushdefence": 1
+    }
+  },
+  {
+    "debugname": "cert_wolfenboots_tangerine",
+    "id": 2915,
+    "name": "Boots",
+    "desc": "Swap this note at any bank for a Boots.",
+    "cost": 500,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "wolfenrobetop_tangerine",
+    "id": 2916,
+    "name": "Robe top",
+    "desc": "Some fine werewolf clothing.",
+    "cost": 500,
+    "weight": 907,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "body",
+      "slashdefence": 2,
+      "crushdefence": 2
+    }
+  },
+  {
+    "debugname": "cert_wolfenrobetop_tangerine",
+    "id": 2917,
+    "name": "Robe top",
+    "desc": "Swap this note at any bank for a Robe top.",
+    "cost": 500,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "wolfenrobebottom_tangerine",
+    "id": 2918,
+    "name": "Robe bottoms",
+    "desc": "Made by werewolves for werewolves.",
+    "cost": 500,
+    "weight": 907,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "legs",
+      "slashdefence": 2,
+      "crushdefence": 2
+    }
+  },
+  {
+    "debugname": "cert_wolfenrobebottom_tangerine",
+    "id": 2919,
+    "name": "Robe bottoms",
+    "desc": "Swap this note at any bank for a Robe bottoms.",
+    "cost": 500,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "wolfenhat_tangerine",
+    "id": 2920,
+    "name": "Hat",
+    "desc": "A silly pointed hat.",
+    "cost": 500,
+    "weight": 453,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "head",
+      "magicattack": 3,
+      "magicdefence": 3
+    }
+  },
+  {
+    "debugname": "cert_wolfenhat_tangerine",
+    "id": 2921,
+    "name": "Hat",
+    "desc": "Swap this note at any bank for a Hat.",
+    "cost": 500,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "wolfengloves_tangerine",
+    "id": 2922,
+    "name": "Gloves",
+    "desc": "These will keep my hands warm!",
+    "cost": 500,
+    "weight": 453,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "hands",
+      "slashdefence": 1,
+      "crushdefence": 2
+    }
+  },
+  {
+    "debugname": "cert_wolfengloves_tangerine",
+    "id": 2923,
+    "name": "Gloves",
+    "desc": "Swap this note at any bank for a Gloves.",
+    "cost": 500,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "wolfenboots_ocean",
+    "id": 2924,
+    "name": "Boots",
+    "desc": "Very stylish!",
+    "cost": 500,
+    "weight": 340,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "feet",
+      "slashdefence": 1,
+      "crushdefence": 1
+    }
+  },
+  {
+    "debugname": "cert_wolfenboots_ocean",
+    "id": 2925,
+    "name": "Boots",
+    "desc": "Swap this note at any bank for a Boots.",
+    "cost": 500,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "wolfenrobetop_ocean",
+    "id": 2926,
+    "name": "Robe top",
+    "desc": "Some fine werewolf clothing.",
+    "cost": 500,
+    "weight": 907,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "body",
+      "slashdefence": 2,
+      "crushdefence": 2
+    }
+  },
+  {
+    "debugname": "cert_wolfenrobetop_ocean",
+    "id": 2927,
+    "name": "Robe top",
+    "desc": "Swap this note at any bank for a Robe top.",
+    "cost": 500,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "wolfenrobebottom_ocean",
+    "id": 2928,
+    "name": "Robe bottoms",
+    "desc": "Made by werewolves for werewolves.",
+    "cost": 500,
+    "weight": 907,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "legs",
+      "slashdefence": 2,
+      "crushdefence": 2
+    }
+  },
+  {
+    "debugname": "cert_wolfenrobebottom_ocean",
+    "id": 2929,
+    "name": "Robe bottoms",
+    "desc": "Swap this note at any bank for a Robe bottoms.",
+    "cost": 500,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "wolfenhat_ocean",
+    "id": 2930,
+    "name": "Hat",
+    "desc": "A silly pointed hat.",
+    "cost": 500,
+    "weight": 453,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "head",
+      "magicattack": 3,
+      "magicdefence": 3
+    }
+  },
+  {
+    "debugname": "cert_wolfenhat_ocean",
+    "id": 2931,
+    "name": "Hat",
+    "desc": "Swap this note at any bank for a Hat.",
+    "cost": 500,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "wolfengloves_ocean",
+    "id": 2932,
+    "name": "Gloves",
+    "desc": "These will keep my hands warm!",
+    "cost": 500,
+    "weight": 453,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "hands",
+      "slashdefence": 1,
+      "crushdefence": 2
+    }
+  },
+  {
+    "debugname": "cert_wolfengloves_ocean",
+    "id": 2933,
+    "name": "Gloves",
+    "desc": "Swap this note at any bank for a Gloves.",
+    "cost": 500,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "wolfenboots_purple",
+    "id": 2934,
+    "name": "Boots",
+    "desc": "Very stylish!",
+    "cost": 500,
+    "weight": 340,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "feet",
+      "slashdefence": 1,
+      "crushdefence": 1
+    }
+  },
+  {
+    "debugname": "cert_wolfenboots_purple",
+    "id": 2935,
+    "name": "Boots",
+    "desc": "Swap this note at any bank for a Boots.",
+    "cost": 500,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "wolfenrobetop_purple",
+    "id": 2936,
+    "name": "Robe top",
+    "desc": "Some fine werewolf clothing.",
+    "cost": 500,
+    "weight": 907,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "body",
+      "slashdefence": 2,
+      "crushdefence": 2
+    }
+  },
+  {
+    "debugname": "cert_wolfenrobetop_purple",
+    "id": 2937,
+    "name": "Robe top",
+    "desc": "Swap this note at any bank for a Robe top.",
+    "cost": 500,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "wolfenrobebottom_purple",
+    "id": 2938,
+    "name": "Robe bottoms",
+    "desc": "Made by werewolves for werewolves.",
+    "cost": 500,
+    "weight": 907,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "legs",
+      "slashdefence": 2,
+      "crushdefence": 2
+    }
+  },
+  {
+    "debugname": "cert_wolfenrobebottom_purple",
+    "id": 2939,
+    "name": "Robe bottoms",
+    "desc": "Swap this note at any bank for a Robe bottoms.",
+    "cost": 500,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "wolfenhat_purple",
+    "id": 2940,
+    "name": "Hat",
+    "desc": "A silly pointed hat.",
+    "cost": 500,
+    "weight": 453,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "head",
+      "magicattack": 3,
+      "magicdefence": 3
+    }
+  },
+  {
+    "debugname": "cert_wolfenhat_purple",
+    "id": 2941,
+    "name": "Hat",
+    "desc": "Swap this note at any bank for a Hat.",
+    "cost": 500,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "wolfengloves_purple",
+    "id": 2942,
+    "name": "Gloves",
+    "desc": "These will keep my hands warm!",
+    "cost": 500,
+    "weight": 453,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "hands",
+      "slashdefence": 1,
+      "crushdefence": 2
+    }
+  },
+  {
+    "debugname": "cert_wolfengloves_purple",
+    "id": 2943,
+    "name": "Gloves",
+    "desc": "Swap this note at any bank for a Gloves.",
+    "cost": 500,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "pipkey_gold",
+    "id": 2944,
+    "name": "Golden key",
+    "desc": "A replica key made of solid gold.",
+    "cost": 300,
+    "weight": 10,
+    "members": true
+  },
+  {
+    "debugname": "pipkey_iron",
+    "id": 2945,
+    "name": "Iron key",
+    "desc": "A key made of solid Iron.",
+    "cost": 2,
+    "weight": 10,
+    "members": true
+  },
+  {
+    "debugname": "piptinderbox_gold",
+    "id": 2946,
+    "name": "Golden tinderbox",
+    "desc": "A replica tinderbox made of solid gold.",
+    "cost": 300,
+    "weight": 35,
+    "members": true
+  },
+  {
+    "debugname": "pipcandle_gold",
+    "id": 2947,
+    "name": "Golden candle",
+    "desc": "A replica candle made of solid gold.",
+    "cost": 300,
+    "weight": 28,
+    "members": true
+  },
+  {
+    "debugname": "pippot_gold",
+    "id": 2948,
+    "name": "Golden pot",
+    "desc": "A replica pot made of solid gold.",
+    "cost": 300,
+    "weight": 453,
+    "members": true
+  },
+  {
+    "debugname": "piphammer_gold",
+    "id": 2949,
+    "name": "Golden hammer",
+    "desc": "A replica hammer made of solid gold.",
+    "cost": 300,
+    "weight": 907,
+    "members": true
+  },
+  {
+    "debugname": "pipfeather_gold",
+    "id": 2950,
+    "name": "Golden feather",
+    "desc": "A replica feather made of solid gold.",
+    "cost": 300,
+    "weight": 2,
+    "members": true
+  },
+  {
+    "debugname": "pipneedle_gold",
+    "id": 2951,
+    "name": "Golden needle",
+    "desc": "A replica needle made of solid gold.",
+    "cost": 300,
+    "weight": 1,
+    "members": true
+  },
+  {
+    "debugname": "dagger_wolfbane",
+    "id": 2952,
+    "name": "Wolfbane",
+    "desc": "A silver dagger that can prevent werewolves changing form.",
+    "cost": 300,
+    "weight": 453,
+    "members": true,
+    "iops": {
+      "iop2": "Wield"
+    },
+    "equipable_item": {
+      "wearpos": "weapon",
+      "stabattack": 11,
+      "slashattack": 5,
+      "crushattack": -4,
+      "magicattack": 1,
+      "magicdefence": 1,
+      "strengthbonus": 10,
+      "prayerbonus": 5
+    }
+  },
+  {
+    "debugname": "bucket_murkywater",
+    "id": 2953,
+    "name": "Bucket of water",
+    "desc": "It's a bucket of murky water.",
+    "cost": 6,
+    "weight": 3000,
+    "members": true
+  },
+  {
+    "debugname": "bucket_blessedwater",
+    "id": 2954,
+    "name": "Bucket of water",
+    "desc": "It's a bucket of blessed water.",
+    "cost": 6,
+    "weight": 453,
+    "members": true
+  },
+  {
+    "debugname": "moonlight_mead",
+    "id": 2955,
+    "name": "Moonlight mead",
+    "desc": "A foul smelling brew.",
+    "cost": 5,
+    "weight": 550,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop1": "Drink"
+    }
+  },
+  {
+    "debugname": "cert_moonlight_mead",
+    "id": 2956,
+    "name": "Moonlight mead",
+    "desc": "Swap this note at any bank for a Moonlight mead.",
+    "cost": 5,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "druid_pouch_empty",
+    "id": 2957,
+    "name": "Druid pouch",
+    "desc": "An empty druid pouch.",
+    "cost": 5,
+    "weight": 10,
+    "members": true,
+    "iops": {
+      "iop1": "Fill"
+    }
+  },
+  {
+    "debugname": "druid_pouch",
+    "id": 2958,
+    "name": "Druid pouch",
+    "desc": "A druid pouch.",
+    "cost": 5,
+    "weight": 100,
+    "members": true,
+    "stackable": true,
+    "iops": {
+      "iop1": "Fill"
+    }
+  },
+  {
+    "debugname": "rotten_food",
+    "id": 2959,
+    "name": "Rotten food",
+    "desc": "Erhhh! It stinks.",
+    "cost": 1,
+    "weight": 453,
+    "members": true,
+    "tradeable": true
+  },
+  {
+    "debugname": "cert_rotten_food",
+    "id": 2960,
+    "name": "Rotten food",
+    "desc": "Swap this note at any bank for a Rotten food.",
+    "cost": 1,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "silver_sickle",
+    "id": 2961,
+    "name": "Silver sickle",
+    "desc": "It's a silver sickle.",
+    "cost": 175,
+    "weight": 1587,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop2": "Wield"
+    },
+    "equipable_item": {
+      "wearpos": "weapon",
+      "slashdefence": 1,
+      "crushdefence": 1,
+      "magicdefence": 1,
+      "rangedefence": 1,
+      "strengthbonus": 1,
+      "attackrate": 5
+    }
+  },
+  {
+    "debugname": "cert_silver_sickle",
+    "id": 2962,
+    "name": "Silver sickle",
+    "desc": "Swap this note at any bank for a Silver sickle.",
+    "cost": 175,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "silver_sickle_blessed",
+    "id": 2963,
+    "name": "Silver sickle(b)",
+    "desc": "It's a blessed silver sickle.",
+    "cost": 250,
+    "weight": 1587,
+    "members": true,
+    "iops": {
+      "iop2": "Wield",
+      "iop3": "Cast Bloom"
+    },
+    "equipable_item": {
+      "wearpos": "weapon",
+      "slashdefence": 1,
+      "crushdefence": 1,
+      "magicdefence": 1,
+      "rangedefence": 1,
+      "strengthbonus": 1,
+      "prayerbonus": 5,
+      "attackrate": 5
+    }
+  },
+  {
+    "debugname": "bowl_empty_filliman",
+    "id": 2964,
+    "name": "Washing bowl",
+    "desc": "Used for washing your face, amongst other things.",
+    "cost": 4,
+    "weight": 453,
+    "members": true,
+    "tradeable": true
+  },
+  {
+    "debugname": "cert_bowl_empty_filliman",
+    "id": 2965,
+    "name": "Washing bowl",
+    "desc": "Swap this note at any bank for a Washing bowl.",
+    "cost": 4,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "mirror",
+    "id": 2966,
+    "name": "Mirror",
+    "desc": "A small mirror, probably used for grooming.",
+    "cost": 1,
+    "weight": 226,
+    "members": true
+  },
+  {
+    "debugname": "filliman_journal",
+    "id": 2967,
+    "name": "Journal",
+    "desc": "This must be Filliman Tarlocks personal journal.",
+    "cost": 1,
+    "weight": 510,
+    "members": true,
+    "iops": {
+      "iop1": "Read"
+    }
+  },
+  {
+    "debugname": "bloom_spell",
+    "id": 2968,
+    "name": "Druidic spell",
+    "desc": "A druidic spell given to you freely by the spirit of Filliman Tarlock.",
+    "cost": 1,
+    "weight": 20,
+    "members": true,
+    "iops": {
+      "iop1": "Cast"
+    }
+  },
+  {
+    "debugname": "used_bloom_spell",
+    "id": 2969,
+    "name": "A used spell",
+    "desc": "A used druidic spell given to you freely by the spirit of Filliman Tarlock.",
+    "cost": 1,
+    "weight": 20,
+    "members": true
+  },
+  {
+    "debugname": "mortmyremushroom",
+    "id": 2970,
+    "name": "Mort myre fungi",
+    "desc": "A mushroom from the swamps of Mort Myre.",
+    "cost": 1,
+    "weight": 10,
+    "members": true,
+    "tradeable": true
+  },
+  {
+    "debugname": "cert_mortmyremushroom",
+    "id": 2971,
+    "name": "Mort myre fungi",
+    "desc": "Swap this note at any bank for a Mort myre fungi.",
+    "cost": 1,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "mortmyrebuddingstem",
+    "id": 2972,
+    "name": "Mort myre stem",
+    "desc": "A cutting from a budding branch.",
+    "cost": 1,
+    "weight": 10,
+    "members": true,
+    "tradeable": true
+  },
+  {
+    "debugname": "cert_mortmyrebuddingstem",
+    "id": 2973,
+    "name": "Mort myre stem",
+    "desc": "Swap this note at any bank for a Mort myre stem.",
+    "cost": 1,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "mortmyrepear",
+    "id": 2974,
+    "name": "Mort myre pear",
+    "desc": "A pear picked from a dying bush in Mort Myre.",
+    "cost": 1,
+    "weight": 113,
+    "members": true,
+    "tradeable": true
+  },
+  {
+    "debugname": "cert_mortmyrepear",
+    "id": 2975,
+    "name": "Mort myre pear",
+    "desc": "Swap this note at any bank for a Mort myre pear.",
+    "cost": 1,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "sickle_mould",
+    "id": 2976,
+    "name": "Sickle mould",
+    "desc": "Used to make sickles",
+    "cost": 10,
+    "weight": 453,
+    "members": true,
+    "tradeable": true
+  },
+  {
+    "debugname": "cert_sickle_mould",
+    "id": 2977,
+    "name": "Sickle mould",
+    "desc": "Swap this note at any bank for a Sickle mould.",
+    "cost": 10,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
   }
 ]
