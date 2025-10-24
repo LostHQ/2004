@@ -45,10 +45,10 @@ $questlist = array(
     "merlinscrystal" => array("Merlin's Crystal" => true),
     "monksfriend" => array("Monk's Friend" => true),
     "murdermystery" => array("Murder Mystery" => true),
-    // "naturespirit" => array("Nature Spirit" => true), // be sure to update items.json with sickle_mould (Also, the quest complete needs to be made)
+    "naturespirit" => array("Nature Spirit" => true),
     "observatory" => array("Observatory Quest" => true),
     "plaguecity" => array("Plague City" => true),
-    // "priestinperil" => array("Priest in Peril" => true), // be sure to get the quest complete image made
+    "priestinperil" => array("Priest in Peril" => true),
     "scorpioncatcher" => array("Scorpion Catcher" => true),
     "seaslug" => array("Sea Slug Quest" => true),
     "sheepherder" => array("Sheep Herder" => true),

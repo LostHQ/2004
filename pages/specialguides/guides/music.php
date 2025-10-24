@@ -95,7 +95,7 @@ Quick Links<br>
     <tr><td>Dangerous</td><td>Around the Wilderness Poison Wood</td></tr>
     <!-- <tr><td>Dangerous Road</td><td>Karamja Volcano Dungeon, Karamja side Dark - At the giants in Edgeville Dungeon also around the Giants pass around level 25 East Wilderness</td></tr> -->
     <tr><td>Dark2</td><td>Wilderness at Ghosts And Giants</td></tr>
-    <!-- <tr><td>Dead Quiet</td><td>Entrance to Mort Myre</td></tr> -->
+    <tr><td>Dead Quiet</td><td>Entrance to Mort Myre</td></tr>
     <!-- <tr><td>Deadlands</td><td>East of Canifis</td></tr> -->
     <tr><td>Deep Wildy</td><td>Around the level 38 Wilderness Evil Altar and North of Edgeville</td></tr>
     <tr><td>Desert Voyage</td><td>Around the Tourist Trap Mining Camp</td></tr>
@@ -146,7 +146,7 @@ Quick Links<br>
     <tr><td>Gnomeball</td><td>Around the gnomeball field</td></tr>
     <!-- <tr><td>Goblin Game</td><td>Goblin Cave near the Fishing Guild</td></tr> -->
     <tr><td>Greatness</td><td>Around the Champion's Guild</td></tr>
-    <!-- <tr><td>Grotto</td><td>Grotto's Nature altar in its' second form, after you finish Nature Spirit quest</td></tr> -->
+    <tr><td>Grotto</td><td>Grotto's Nature altar in its' second form, after you finish Nature Spirit quest</td></tr>
     <tr><td>Grumpy</td><td>By the frogs for the Big Chompy Bird Hunting quest</td></tr>
     <tr>
         <th colspan="2"><span id="h"></span>H</th>
@@ -208,7 +208,7 @@ Quick Links<br>
     <tr><td>March2</td><td>Around King Lathas's Training Area</td></tr>
     <!-- <tr><td>Marooned</td><td>Crash Island before you get to Ape Atoll (Monkey Madness quest)</td></tr> -->
     <!-- <tr><td>Marzipan</td><td>Around Trollheim</td></tr> -->
-    <!-- <tr><td>Mausoleum</td><td>Temple guardian's place, near the Sarodomin's Shrine (Priest in Peril)</td></tr> -->
+    <tr><td>Mausoleum</td><td>Temple guardian's place, near the Sarodomin's Shrine (Priest in Peril)</td></tr>
     <tr><td>Medieval</td><td>By the mostly Member's Area of Varrock</td></tr>
     <tr><td>Mellow</td><td>Between Dwarf base and Fishing Guild</td></tr>
     <!-- <tr><td>Melodrama</td><td>Castle Wars waiting room</td></tr> -->
@@ -218,12 +218,12 @@ Quick Links<br>
     <tr><td>Monarch Waltz</td><td>Sinclair Mansion area</td></tr>
     <!-- <tr><td>Monkey Madness</td><td>City section of Ape Atoll</td></tr> -->
     <tr><td>Moody</td><td>West section of West Ardougne and south of the Graveyard of Shadows in the Wilderness</td></tr>
-    <!-- <tr><td>Morytania</td><td>the new kingdom just as you walk up the stairs to Sarodomin's Shrine (taken over by Zamorak - Priest in Peril quest)</td></tr> -->
+    <tr><td>Morytania</td><td>the new kingdom just as you walk up the stairs to Sarodomin's Shrine (taken over by Zamorak - Priest in Peril quest)</td></tr>
     <tr>
         <th colspan="2"><span id="n"></span>N</th>
     </tr>
     <!-- <tr><td>Narnode's Theme</td><td>Gnome Mine beneath Grand Tree</td></tr> -->
-    <!-- <tr><td>Natural</td><td>Outside of the island for Nature spirit quest</td></tr> -->
+    <tr><td>Natural</td><td>Outside of the island for Nature spirit quest</td></tr>
     <!-- <tr><td>The Navigator</td><td>Swensen's Portal Maze in Relleka</td></tr> -->
     <tr><td>Neverland</td><td>Around the entrance to the Gnome Stronghold</td></tr>
     <tr><td>Newbie Melody</td><td>In Lumbridge Castle</td></tr>
@@ -283,7 +283,7 @@ Quick Links<br>
     <tr><td>Splendour</td><td>North of Taverly</td></tr>
     <tr><td>Spooky2</td><td>Around Draynor Manor</td></tr>
     <tr><td>Spooky Jungle</td><td>NorthEast Karamja Jungle</td></tr>
-    <!-- <tr><td>Stagnant</td><td>North East of the Nature island in Mort Myre swamp</td></tr> -->
+    <tr><td>Stagnant</td><td>North East of the Nature island in Mort Myre swamp</td></tr>
     <tr><td>Start</td><td>North side of Draynor</td></tr>
     <tr><td>Starlight</td><td>In the Blurite Mine</td></tr>
     <tr><td>Still Night</td><td>North of Lumbridge by the North enterance into Al Kharid</td></tr>
@@ -331,7 +331,7 @@ Quick Links<br>
     </tr>
     <tr><td>Venture</td><td>Around the Digsite and in its caves</td></tr>
     <tr><td>Venture2</td><td>Digsite cave</td></tr>
-    <!-- <tr><td>Village</td><td>Canifis (Werewolf village)</td></tr> -->
+    <tr><td>Village</td><td>Canifis (Werewolf village)</td></tr>
     <tr><td>Vision</td><td>At the Wizards Tower</td></tr>
     <tr><td>Voodoo Cult</td><td>Legends Cave and also the lowest level of the Ah-Za-Rhoom ruins with the gallows in it</td></tr>
     <tr><td>Voyage</td><td>North of Baxtorian Waterfall</td></tr>
@@ -340,7 +340,7 @@ Quick Links<br>
     </tr>
     <tr><td>Wander</td><td>South of Falador Farmlands</td></tr>
     <tr><td>Waterfall</td><td>Close to Baxtorian Waterfall and at Glarial's Tomb</td></tr>
-    <!-- <tr><td>Waterlogged</td><td>Midway south in Mort Myre</td></tr> -->
+    <tr><td>Waterlogged</td><td>Midway south in Mort Myre</td></tr>
     <!-- <tr><td>Well of Voyage</td><td>In the well of voyage</td></tr> -->
     <tr><td>Wilderness2</td><td>West of the Red Spider Ruins in Wilderness</td></tr>
     <tr><td>Wilderness3</td><td>South of the Red Spider Ruins in Wilderness</td></tr>
