@@ -29,43 +29,50 @@ This time he has a special request for any adventurous sorts to search for the D
 <hr>
 <h3>Instructions:</h3>
 <br>
-<div data-progress>Talk to Drezel (in the underground section entrence to Morytania).</div>
+<div data-progress>Talk to Drezel (in the underground section entrence to Morytania).
+<br>He will explain that his friend, Filliman, has been missing and needs to be able to help out travelers.</div>
 <br><br>
-<div data-progress>He will explain that his friend, Filliman, has been missing and needs to be able to help out travelers.</div>
-<br><br>
-<div data-progress>Go south to the gate and click "No, just go through the gate".</div>
+<div data-progress>Go through the portal into Morytania and to the first south gate.</div>
 <br><br>
 <div data-progress>Run (or walk, easier to have 100% energy) all the way down south-west until you see a small circular island. Run around to the end of it and click "Jump Bridge". If you fail, you will take some damage. (Note: higher agility seems to help you cross without falling, as with all other agility obstacles.)</div>
 <br><br>
-<div data-progress>Pick up the Washbowl and there will be a mirror under it, searching in the Grotto will allow you to find the Journal, sorry, I left this out!</div>
+<div data-progress>Pick up the Washing bowl from the bench and a Mirror will appear under it. Take the Mirror. Then search the Grotto for a Journal.</div>
 <br><br>
-<div data-progress>Click on the black part of the grotto (so when enter grotto is selected) and Filiman comes out. You have to have your ammy of ghostspeak on. You have to convince him that he is a ghost, wich is finally done by using the mirror on him.</div>
+<div data-progress>
+    Equip your Ghostspeak amulet and try to enter the Grotto (Click on the black part of the Grotto).
+    <br>Filliman Tarlock will appear and you have to convince him that he is a ghost, which is finally done by using the mirror on him.</div>
 <br><br>
-<div data-progress>After he finishes talking, use the Journal (or "give" it to him) with him and he'll explain he wants to become a Nature Spirit and will need 3 things.</div>
+<div data-progress>
+    After he finishes talking, use the Journal (or "give" it to him) on him and he'll explain he wants to become a Nature Spirit and will need 3 things.
+    <br>He will give you a spell and tell you that you need to be blessed. 
+</div>
 <br><br>
-<div data-progress>He will give you a spell and tell you that you need to be blessed. Go up to Drezel (where he is at the entrance to Morytania) and ask him to bless you. Note that he mentions that you have "Something of the Faith" about you.</div>
+<div data-progress>Go back to Drezel and ask him to bless you. Note that he mentions that you have "Something of the Faith" about you.</div>
 <br><br>
 <div data-progress>Once you are blessed, go back down to the Grotto (Filliman's Home) and talk to him.</div>
 <br><br>
-<div data-progress>Walk north-west until you see some rotten logs on ground. Note that these are not items. Click "Cast Druid Spell" on the scroll Filiman gave to you when you are standing right next to a log and some fungi will appear on the log. Examine the used spell to solve the last of the puzzles.</div>
+<div data-progress>Go back into the swamp and walk north-west until you see some rotten logs on ground. Note that these are not items.
+    Click "Cast Druid Spell" on the scroll Filliman gave to you when you are standing right next to a log and some fungi will appear on the log. Examine the used spell to solve the last of the puzzles.</div>
 <br><br>
-<div data-progress>Take the Fungi and go back to Filliman.</div>
+<div data-progress>Pick the Fungi from the log and go back to Filliman.</div>
 <br><br>
-<div data-progress>Use the Fungi with the west stone, the Used Druid Spell with the East Stone, and place yourself on the south stone. He will then ask you to enter the grotto (right-click the black part and click Enter Grotto).</div>
+<div data-progress>Use the Fungi with the west stone, the Used Druid Spell with the East Stone, and place yourself on the south stone.
+    He will then ask you to enter the grotto (right-click the black part and click Enter Grotto).</div>
 <br><br>
-<div data-progress>Search the grotto and Filliman comes out. He will transform himself into a nature spirit. Then he will explain how to kill the Ghasts, by using a filled druid pouch on them, to materialize them. After that you can kill them normally. He will tell you that you need to make a Silver Sickle so he can bless it for you.</div>
+<div data-progress>Search the grotto and Filliman comes out. He will transform himself into a nature spirit.
+    Then he will explain how to kill the Ghasts, by using a filled druid pouch on them, to materialize them. After that you can kill them normally. He will tell you that you need to make a Silver Sickle so he can bless it for you.</div>
 <br><br>
 <div data-progress>Go to Al Kharid Crafting Shop and buy a Silver Sickle Mould.</div>
 <br><br>
-<div data-progress>Use a Silver Bar with the Furnace and make the Silver Sickle. Making the Silver Sickle gives you 50 Crafting Exp. (thanks to Ltangel).</div>
+<div data-progress>Use a Silver Bar with the Furnace and make the Silver Sickle.</div>
 <br><br>
 <div data-progress>Go back to Filliman and talk to him in his Grotto.</div>
 <br><br>
-<div data-progress>He will bless the sickle and give you a Druid Pouch, telling you that you need to defeat three Ghasts to help him.</div>
+<div data-progress>He will tell you to dip the sickle into the water and give you a Druid Pouch, telling you that you need to defeat three Ghasts to help him.</div>
 <br><br>
 <div data-progress>Make sure your Sickle is un-equipped, as you can now use it to cast the Bloom Spell.</div>
 <br><br>
-<div data-progress>Go get three more fungi, branch cuttings or golden pears and prepare to fight some Ghasts.</div>
+<div data-progress>Go get three more fungi, branch cuttings or golden pears. Fill your druid pouch to make the Ghasts appear.</div>
 <br><br>
 <div data-progress>Kill three Ghasts and go back and talk to him.</div>
 <br><br>
