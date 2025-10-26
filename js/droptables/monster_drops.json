@@ -2047,7 +2047,6 @@
     "name": "Canafis Citizen (Category)",
     "roll_base": 512,
     "roll_table": [
-      {"item": ["bones",1], "chance": "512"},
       {"item": ["steel_axe",1], "chance": "10"},
       {"item": ["steel_arrow",1], "chance": "10"},
       {"item": ["steel_arrow_p",1], "chance": "10"},
