@@ -246,6 +246,17 @@ function getSkillContent($skill) { return <<<HTML
             <td><canvas data-itemname="leather_chaps" data-show-label="true"></canvas></td>
         </tr>
         <tr>
+            <td>18</td>
+            <td><canvas data-itemname="silver_bar" data-show-label="true"></canvas></td>
+            <td>
+                <canvas data-itemname="sickle_mould" data-show-label="inline"></canvas>
+                <div style="display: flex; align-items: center; gap: 6px; flex-direction: row; justify-content: center;">
+                    <img src="img/skillguides/furnace.png" alt="Furnace" width=32px>
+                    <div class="item-label" style="color: white;">Furnace</div>
+            </td>
+            <td><canvas data-itemname="silver_sickle" data-show-label="true"></canvas></td>
+        </tr>
+        <tr>
             <td>20</td>
             <td><canvas data-itemname="uncut_sapphire" data-show-label="true"></canvas></td>
             <td><canvas data-itemname="chisel" data-show-label="true"></canvas></td>

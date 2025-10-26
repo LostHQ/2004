@@ -44,6 +44,7 @@ function runCalc() {
             "Red Topaz": { xp: 25, level: 16 },
             "nostringstar": { xp: 50, level: 16 },
             "stringstar": { xp: 54, level: 16 },
+            "silver_sickle": { xp: 50, level: 18 },
             "Sapphire": { xp: 50, level: 20 },
             "Sapphire Ring": { xp: 40, level: 20 },
             "Sapphire Necklace": { xp: 55, level: 22 },
