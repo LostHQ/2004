@@ -23,7 +23,7 @@
       {"item": ["~randomjewel"], "chance": "2"}
     ],
     "always": [
-      {"item": ["bones",1] }
+      {"item": ["bones",1]}
     ],
     "tertiary": [
       {"item": "clue-medium", "chance": "1/128"}
@@ -54,7 +54,7 @@
       {"item": ["~randomjewel"], "chance": "3"}
     ],
     "always": [
-      {"item": ["bones",1] }
+      {"item": ["bones",1]}
     ]
   },
   "_barbarian": {
@@ -82,7 +82,7 @@
       {"item": ["ring_mould",1], "chance": "1"}
     ],
     "always": [
-      {"item": ["bones",1] }
+      {"item": ["bones",1]}
     ],
     "tertiary": [
       {"item": "clue-easy", "chance": "1/128"}
@@ -115,7 +115,7 @@
       {"item": ["~randomjewel"], "chance": "1"}
     ],
     "always": [
-      {"item": ["bones",1] }
+      {"item": ["bones",1]}
     ],
     "tertiary": [
       {"item": "clue-easy", "chance": "1/128"}
@@ -126,9 +126,9 @@
     "roll_base": 128,
     "roll_table": [],
     "always": [
-      {"item": ["bones",1] },
-      {"item": ["fur",1] },
-      {"item": ["raw_bear_meat",1] }
+      {"item": ["bones",1]},
+      {"item": ["fur",1]},
+      {"item": ["raw_bear_meat",1]}
     ]
   },
   "black_dragon": {
@@ -157,8 +157,8 @@
       {"item": ["~ultrarare_getitem"], "chance": "2"}
     ],
     "always": [
-      {"item": ["dragon_bones",1] },
-      {"item": ["dragonhide_black",1] }
+      {"item": ["dragon_bones",1]},
+      {"item": ["dragonhide_black",1]}
     ],
     "tertiary": [
       {"item": "clue-hard", "chance": "1/128"}
@@ -193,7 +193,7 @@
       {"item": ["~randomjewel"], "chance": "3"}
     ],
     "always": [
-      {"item": ["bones",1] }
+      {"item": ["bones",1]}
     ]
   },
   "blue_dragon": {
@@ -222,8 +222,8 @@
       {"item": ["~randomjewel"], "chance": "5"}
     ],
     "always": [
-      {"item": ["dragon_bones",1] },
-      {"item": ["dragonhide_blue",1] }
+      {"item": ["dragon_bones",1]},
+      {"item": ["dragonhide_blue",1]}
     ],
     "tertiary": [
       {"item": "clue-hard", "chance": "1/128"}
@@ -252,7 +252,7 @@
       {"item": ["~randomjewel"], "chance": "1"}
     ],
     "always": [
-      {"item": ["bones",1] }
+      {"item": ["bones",1]}
     ]
   },
   "chaos_druid_warrior": {
@@ -288,8 +288,8 @@
       {"item": ["feather",5], "chance": "32"}
     ],
     "always": [
-      {"item": ["bones",1] },
-      {"item": ["raw_chicken",1] }
+      {"item": ["bones",1]},
+      {"item": ["raw_chicken",1]}
     ]
   },
   "cow": {
@@ -297,9 +297,9 @@
     "roll_base": 128,
     "roll_table": [],     
     "always": [
-      {"item": ["bones",1] },
-      {"item": ["raw_beef",1] },
-      {"item": ["cow_hide",1] }
+      {"item": ["bones",1]},
+      {"item": ["raw_beef",1]},
+      {"item": ["cow_hide",1]}
     ]
   },
   "dark_warrior": {
@@ -327,7 +327,7 @@
       {"item": ["sardine",1], "chance": "1"}
     ],
     "always": [
-      {"item": ["bones",1] }
+      {"item": ["bones",1]}
     ]
   },
   "bearded_dark_wizard": {
@@ -364,7 +364,7 @@
       {"item": ["fire_talisman",1], "chance": "2"}
     ],
     "always": [
-      {"item": ["bones",1] }
+      {"item": ["bones",1]}
     ]
   },
   "young_dark_wizard": {
@@ -401,7 +401,7 @@
       {"item": ["fire_talisman",1], "chance": "1"}
     ],
     "always": [
-      {"item": ["bones",1] }
+      {"item": ["bones",1]}
     ]
   },
   "druid": {
@@ -428,7 +428,7 @@
       {"item": ["3doseantipoison",1], "chance": "1"}
     ],
     "always": [
-      {"item": ["bones",1] }
+      {"item": ["bones",1]}
     ]
   },
   "dwarf_drop_table": {
@@ -455,7 +455,7 @@
       {"item": ["~randomjewel"], "chance": "1"}
     ],
     "always": [
-      {"item": ["bones",1] }
+      {"item": ["bones",1]}
     ]
   },
   "earthwarrior": {
@@ -481,7 +481,7 @@
     "roll_base": 128,
     "roll_table": [],
     "always": [
-      {"item": ["bones",1] },
+      {"item": ["bones",1]},
       {"item": ["hot_feather",1], "note": "Only during Hero's Quest."}
     ]
   },
@@ -508,7 +508,7 @@
       {"item": ["cabbage",1], "chance": "1"}
     ],
     "always": [
-      {"item": ["bones",1] }
+      {"item": ["bones",1]}
     ]
   },
   "firegiant": {
@@ -538,7 +538,7 @@
       {"item": ["~ultrarare_getitem"], "chance": "1"}
     ],
     "always": [
-      {"item": ["big_bones",1] }
+      {"item": ["big_bones",1]}
     ]
   },
   "giant": {
@@ -571,7 +571,7 @@
       {"item": ["~randomjewel"], "chance": "3"}
     ],
     "always": [
-      {"item": ["big_bones",1] }
+      {"item": ["big_bones",1]}
     ]
   },
   "rat_droptable": {
@@ -579,8 +579,8 @@
     "roll_base": 128,
     "roll_table": [],
     "always": [
-      {"item": ["bones",1] },
-      {"item": ["raw_rat_meat",1] }
+      {"item": ["bones",1]},
+      {"item": ["raw_rat_meat",1]}
     ]
   },
   "goblin_drop_table": {
@@ -605,7 +605,7 @@
       {"item": ["coins",5], "chance": "18"}
     ],
     "always": [
-      {"item": ["bones",1] }
+      {"item": ["bones",1]}
     ],
     "tertiary": [
       {"item": "clue-easy", "chance": "1/128"}
@@ -637,7 +637,7 @@
       {"item": ["tin_ore",1], "chance": "1"}
     ],
     "always": [
-      {"item": ["bones",1] }
+      {"item": ["bones",1]}
     ],
     "tertiary": [
       {"item": "clue-easy", "chance": "1/128"}
@@ -668,7 +668,7 @@
       {"item": ["~randomjewel"], "chance": "5"}
     ],
     "always": [
-      {"item": ["ashes",1] }
+      {"item": ["ashes",1]}
     ],
     "tertiary": [
       {"item": "clue-hard", "chance": "1/128"}
@@ -700,8 +700,8 @@
       {"item": ["~randomjewel"], "chance": "5"}
     ],
     "always": [
-      {"item": ["dragon_bones",1] },
-      {"item": ["dragonhide_green",1] }
+      {"item": ["dragon_bones",1]},
+      {"item": ["dragonhide_green",1]}
     ],
     "tertiary": [
       {"item": "clue-hard", "chance": "1/128"}
@@ -735,7 +735,7 @@
       {"item": ["coins",30], "chance": "2"}
     ],
     "always": [
-      {"item": ["bones",1] }
+      {"item": ["bones",1]}
     ],
     "tertiary": [
       {"item": "clue-medium", "chance": "1/128"}
@@ -746,7 +746,7 @@
     "roll_base": 128,
     "roll_table": [],
     "always": [
-      {"item": ["bones",1] }
+      {"item": ["bones",1]}
     ]
   },
   "_ogre": {
@@ -754,7 +754,7 @@
     "roll_base": 128,
     "roll_table": [],
     "always": [
-      {"item": ["big_bones",1] }
+      {"item": ["big_bones",1]}
     ]
   },
   "hellhound": {
@@ -762,7 +762,7 @@
     "roll_base": 128,
     "roll_table": [],
     "always": [
-      {"item": ["bones",1] }
+      {"item": ["bones",1]}
     ],
     "tertiary": [
       {"item": "clue-hard", "chance": "1/64"}
@@ -773,8 +773,8 @@
     "roll_base": 128,
     "roll_table": [],
     "always": [
-      {"item": ["bones",1] },
-      {"item": ["black_cape",1] }
+      {"item": ["bones",1]},
+      {"item": ["black_cape",1]}
     ]
   },
   "icegiant": {
@@ -808,7 +808,7 @@
       {"item": ["~randomjewel"], "chance": "4"}
     ],
     "always": [
-      {"item": ["big_bones",1] }
+      {"item": ["big_bones",1]}
     ]
   },
   "_ice_warrior": {
@@ -830,7 +830,7 @@
       {"item": ["~randomjewel"], "chance": "3"}
     ],
     "always": [
-      {"item": ["bones",1] }
+      {"item": ["bones",1]}
     ],
     "tertiary": [
       {"item": "clue-medium", "chance": "1/128"}
@@ -874,7 +874,7 @@
       {"item": ["acne_potion",1], "chance": "1"}
     ],
     "always": [
-      {"item": ["ashes",1] }
+      {"item": ["ashes",1]}
     ]
   },
   "jailer": {
@@ -882,7 +882,7 @@
     "roll_base": 128,
     "roll_table": [],
     "always": [
-      {"item": ["bones",1] }
+      {"item": ["bones",1]}
     ]
   },
   "jogre": {
@@ -907,7 +907,7 @@
       {"item": ["unidentified_rogues_purse",1], "chance": "5"}
     ],
     "always": [
-      {"item": ["big_bones",1] }
+      {"item": ["big_bones",1]}
     ],
     "tertiary": [
       {"item": "clue-medium", "chance": "1/129"}
@@ -918,8 +918,8 @@
     "roll_base": 128,
     "roll_table": [],
     "always": [
-      {"item": ["intelligence_report",1] },
-      {"item": ["bones",1] }
+      {"item": ["intelligence_report",1]},
+      {"item": ["bones",1]}
     ]
   },
   "king_dragon": {
@@ -951,8 +951,8 @@
       {"item": ["~randomjewel"], "chance": "2"}
     ],
     "always": [
-      {"item": ["dragon_bones",1] },
-      {"item": ["dragonhide_black",1] }
+      {"item": ["dragon_bones",1]},
+      {"item": ["dragonhide_black",1]}
     ],
     "tertiary": [
       {"item": "clue-hard", "chance": "1/128"}
@@ -984,7 +984,7 @@
       {"item": ["coins",10], "chance": "7"}
     ],
     "always": [
-      {"item": ["ashes",1] }
+      {"item": ["ashes",1]}
     ]
   },
   "man_drop_table": {
@@ -1010,7 +1010,7 @@
       {"item": ["cabbage",1], "chance": "1"}
     ],
     "always": [
-      {"item": ["bones",1] }
+      {"item": ["bones",1]}
     ],
     "tertiary": [
       {"item": "clue-easy", "chance": "1/128"}
@@ -1047,7 +1047,7 @@
       {"item": ["~randomjewel"], "chance": "4"}
     ],
     "always": [
-      {"item": ["big_bones",1] }
+      {"item": ["big_bones",1]}
     ]
   },
   "mugger": {
@@ -1069,7 +1069,7 @@
       {"item": ["cabbage",1], "chance": "1"}
     ],
     "always": [
-      {"item": ["bones",1] }
+      {"item": ["bones",1]}
     ],
     "tertiary": [
       {"item": "clue-easy", "chance": "1/128"}
@@ -1107,7 +1107,7 @@
       {"item": ["coins",29], "chance": "3"}
     ],
     "always": [
-      {"item": ["bones",1] }
+      {"item": ["bones",1]}
     ]
   },
   "oomlie_bird": {
@@ -1115,8 +1115,8 @@
     "roll_base": 128,
     "roll_table": [],
     "always": [
-      {"item": ["bones",1] },
-      {"item": ["raw_oomlie",1] }
+      {"item": ["bones",1]},
+      {"item": ["raw_oomlie",1]}
     ]
   },
   "otherworldly_being": {
@@ -1137,7 +1137,7 @@
       {"item": ["~randomjewel"], "chance": "3"}
     ],
     "always": [
-      {"item": ["bones",1] }
+      {"item": ["bones",1]}
     ]
   },
   "paladin_drops": {
@@ -1161,7 +1161,7 @@
       {"item": ["~randomjewel"], "chance": "2"}
     ],
     "always": [
-      {"item": ["bones",1] }
+      {"item": ["bones",1]}
     ],
     "tertiary": [
       {"item": "clue-medium", "chance": "1/128"}
@@ -1194,7 +1194,7 @@
       {"item": ["~randomjewel"], "chance": "1"}
     ],
     "always": [
-      {"item": ["bones",1] }
+      {"item": ["bones",1]}
     ]
   },
   "red_dragon": {
@@ -1223,8 +1223,8 @@
       {"item": ["~randomjewel"], "chance": "5"}
     ],
     "always": [
-      {"item": ["dragon_bones",1] },
-      {"item": ["dragonhide_red",1] }
+      {"item": ["dragon_bones",1]},
+      {"item": ["dragonhide_red",1]}
     ],
     "tertiary": [
       {"item": "clue-hard", "chance": "1/128"}
@@ -1253,7 +1253,7 @@
       {"item": ["cabbage",1], "chance": "1"}
     ],
     "always": [
-      {"item": ["bones",1] }
+      {"item": ["bones",1]}
     ],
     "tertiary": [
       {"item": "clue-easy", "chance": "1/128"}
@@ -1280,7 +1280,7 @@
       {"item": ["~randomjewel"], "chance": "1"}
     ],
     "always": [
-      {"item": ["bones",1] }
+      {"item": ["bones",1]}
     ]
   },
   "shadow_warrior": {
@@ -1303,7 +1303,7 @@
       {"item": ["~randomherb"], "chance": "18"}
     ],
     "always": [
-      {"item": ["bones",1] }
+      {"item": ["bones",1]}
     ]
   },
   "skeleton_unarmed": {
@@ -1334,7 +1334,7 @@
       {"item": ["~randomjewel"], "chance": "1"}
     ],
     "always": [
-      {"item": ["bones",1] }
+      {"item": ["bones",1]}
     ]
   },
   "skeleton_armed": {
@@ -1362,7 +1362,7 @@
       {"item": ["~randomjewel"], "chance": "2"}
     ],
     "always": [
-      {"item": ["bones",1] }
+      {"item": ["bones",1]}
     ]
   },
   "thug": {
@@ -1387,7 +1387,7 @@
       {"item": ["coins",20], "chance": "1"}
     ],
     "always": [
-      {"item": ["bones",1] }
+      {"item": ["bones",1]}
     ],
     "tertiary": [
       {"item": "clue-easy", "chance": "1/128"}
@@ -1422,7 +1422,7 @@
       {"item": ["~randomjewel"], "chance": "2"}
     ],
     "always": [
-      {"item": ["bones",1] }
+      {"item": ["bones",1]}
     ],
     "tertiary": [
       {"item": "clue-medium", "chance": "1/138"}
@@ -1433,8 +1433,8 @@
     "roll_base": 128,
     "roll_table": [],
     "always": [
-      {"item": ["bones",1] },
-      {"item": ["raw_ugthanki_meat",1] }
+      {"item": ["bones",1]},
+      {"item": ["raw_ugthanki_meat",1]}
     ]
   },
   "_unicorn": {
@@ -1442,8 +1442,8 @@
     "roll_base": 128,
     "roll_table": [],
     "always": [
-      {"item": ["bones",1] },
-      {"item": ["unicorn_horn",1] }
+      {"item": ["bones",1]},
+      {"item": ["unicorn_horn",1]}
     ]
   },
   "white_knight": {
@@ -1479,7 +1479,7 @@
       {"item": ["~randomjewel"], "chance": "1"}
     ],
     "always": [
-      {"item": ["bones",1] }
+      {"item": ["bones",1]}
     ]
   },
   "wizard": {
@@ -1513,7 +1513,7 @@
       {"item": ["coins",30], "chance": "1"}
     ],
     "always": [
-      {"item": ["bones",1] }
+      {"item": ["bones",1]}
     ]
   },
   "_yanille_soldier_tower_guard": {
@@ -1542,7 +1542,7 @@
       {"item": ["iron_ore",1], "chance": "1"}
     ],
     "always": [
-      {"item": ["bones",1] }
+      {"item": ["bones",1]}
     ]
   },
   "_unarmed_zombie": {
@@ -1569,7 +1569,7 @@
       {"item": ["copper_ore",1], "chance": "2"}
     ],
     "always": [
-      {"item": ["bones",1] }
+      {"item": ["bones",1]}
     ]
   },
   "_armed_zombie": {
@@ -1597,7 +1597,7 @@
       {"item": ["~randomjewel"], "chance": "1"}
     ],
     "always": [
-      {"item": ["bones",1] }
+      {"item": ["bones",1]}
     ]
   },
   "zombie_entranan": {
@@ -1617,7 +1617,7 @@
       {"item": ["coins",28], "chance": "2"}
     ],
     "always": [
-      {"item": ["bones",1] }
+      {"item": ["bones",1]}
     ]
   },
   "black_demon": {
@@ -1648,7 +1648,7 @@
       {"item": ["~ultrarare_getitem"], "chance": "1"}
     ],
     "always": [
-      {"item": ["ashes",1] }
+      {"item": ["ashes",1]}
     ]
   },
   "dwarf_chaos": {
@@ -1680,7 +1680,7 @@
       {"item": ["~randomjewel"], "chance": "5"}
     ],
     "always": [
-      {"item": ["bones",1] }
+      {"item": ["bones",1]}
     ]
   },
   "hobgoblin_unarmed": {
@@ -1712,7 +1712,7 @@
       {"item": ["~randomjewel"], "chance": "2"}
     ],
     "always": [
-      {"item": ["bones",1] }
+      {"item": ["bones",1]}
     ]
   },
   "hobgoblin_armed": {
@@ -1743,7 +1743,7 @@
       {"item": ["~randomjewel"], "chance": "2"}
     ],
     "always": [
-      {"item": ["bones",1] }
+      {"item": ["bones",1]}
     ]
   },
   "_macro_event_river_troll_p2p": {
@@ -1828,7 +1828,7 @@
       {"item": ["~randomjewel"], "chance": "2"}
     ],
     "always": [
-      {"item": ["big_bones",1] }
+      {"item": ["big_bones",1]}
     ]
   },
   "_macro_event_watchman": {
@@ -1855,7 +1855,7 @@
       {"item": ["~randomjewel"], "chance": "2"}
     ],
     "always": [
-      {"item": ["bones",1] }
+      {"item": ["bones",1]}
     ]
   },
   "_macro_event_dryad": {
@@ -1905,7 +1905,7 @@
       {"item": ["coins",240], "chance": "3"}
     ],
     "always": [
-      {"item": ["bones",1] }
+      {"item": ["bones",1]}
     ]
   },
   "elemental_air": {
@@ -1944,8 +1944,8 @@
       {"item": ["~randomjewel"], "chance": "2"}
     ],
     "always": [
-      {"item": ["swamprocks1",1] },
-      {"item": ["elemental_workshop_ore",1] }
+      {"item": ["swamprocks1",1]},
+      {"item": ["elemental_workshop_ore",1]}
     ]
   },
   "elemental_fire": {
@@ -1966,7 +1966,7 @@
       {"item": ["~randomjewel"], "chance": "2"}
     ],
     "always": [
-      {"item": ["ashes",1] }
+      {"item": ["ashes",1]}
     ]
   },
   "elemental_water": {
@@ -1987,7 +1987,102 @@
       {"item": ["~randomjewel"], "chance": "2"}
     ],
     "always": [
-      {"item": ["vial_water",1] }
+      {"item": ["vial_water",1]}
+    ]
+  },
+  "ghast_vis": {
+    "name": "Ghast",
+    "roll_base": 128,
+    "roll_table": [
+      {"item": ["iron_mace",1], "chance": "3"},
+      {"item": ["iron_dagger",1], "chance": "2"},
+      {"item": ["bronze_kiteshield",1], "chance": "1"},
+      {"item": ["airrune",4], "chance": "3"},
+      {"item": ["bodyrune",3], "chance": "2"},
+      {"item": ["chaosrune",4], "chance": "1"},
+      {"item": ["cosmicrune",2], "chance": "1"},
+      {"item": ["firerune",7], "chance": "1"},
+      {"item": ["~randomherb"], "chance": "33"},
+      {"item": ["coins",18], "chance": "21"},
+      {"item": ["coins",10], "chance": "10"},
+      {"item": ["coins",26], "chance": "8"},
+      {"item": ["coins",35], "chance": "6"},
+      {"item": ["coins",1], "chance": "2"},
+      {"item": ["fishing_bait",7], "chance": "26"},
+      {"item": ["tinderbox",1], "chance": "2"},
+      {"item": ["eye_of_newt",1], "chance": "1"},
+      {"item": ["tin_ore",1], "chance": "1"},
+      {"item": ["~randomjewel"], "chance": "1"}
+    ]
+  },
+    "_werewolf": {
+    "name": "Werewolf (Category)",
+    "roll_base": 512,
+    "roll_table": [
+      {"item": ["steel_scimitar",1], "chance": "32"},
+      {"item": ["steel_axe",1], "chance": "25"},
+      {"item": ["steel_full_helm",1], "chance": "15"},
+      {"item": ["mithril_chainbody",1], "chance": "10"},
+      {"item": ["mithril_sq_shield",1], "chance": "10"},
+      {"item": ["rune_med_helm",1], "chance": "3"},
+      {"item": ["~randomherb"], "chance": "3"},
+      {"item": ["jug_wine",1], "chance": "20"},
+      {"item": ["raw_chicken",5], "chance": "10"},
+      {"item": ["raw_beef",5], "chance": "10"},
+      {"item": ["raw_bear_meat",5], "chance": "10"},
+      {"item": ["coins",10], "chance": "80"},
+      {"item": ["coins",90], "chance": "20"},
+      {"item": ["coins",120], "chance": "20"},
+      {"item": ["coins",222], "chance": "20"},
+      {"item": ["coins",364], "chance": "20"},
+      {"item": ["fur",1], "chance": "100"},
+      {"item": ["grey_wolf_fur",1], "chance": "100"},
+      {"item": ["~randomjewel"], "chance": "1"}
+    ],
+    "always": [
+      {"item": ["wolf_bones",1]}
+    ]
+  },
+  "_canafis_citizen": {
+    "name": "Canafis Citizen (Category)",
+    "roll_base": 512,
+    "roll_table": [
+      {"item": ["bones",1], "chance": "512"},
+      {"item": ["steel_axe",1], "chance": "10"},
+      {"item": ["steel_arrow",1], "chance": "10"},
+      {"item": ["steel_arrow_p",1], "chance": "10"},
+      {"item": ["~randomherb"], "chance": "2"},
+      {"item": ["vial_water",1], "chance": "50"},
+      {"item": ["iron_ore",5], "chance": "10"},
+      {"item": ["coal",2], "chance": "10"},
+      {"item": ["steel_bar",2], "chance": "10"},
+      {"item": ["raw_chicken",2], "chance": "10"},
+      {"item": ["raw_beef",2], "chance": "10"},
+      {"item": ["raw_bear_meat",2], "chance": "10"},
+      {"item": ["eye_of_newt",1], "chance": "2"},
+      {"item": ["snape_grass",1], "chance": "2"},
+      {"item": ["jangerberries",1], "chance": "2"},
+      {"item": ["white_berries",1], "chance": "2"},
+      {"item": ["limpwurt_root",1], "chance": "2"},
+      {"item": ["wine_of_zamorak",1], "chance": "2"},
+      {"item": ["coins",6], "chance": "20"},
+      {"item": ["coins",20], "chance": "10"},
+      {"item": ["coins",15], "chance": "5"},
+      {"item": ["coins",16], "chance": "5"},
+      {"item": ["coins",38], "chance": "5"},
+      {"item": ["coins",50], "chance": "5"},
+      {"item": ["coins",96], "chance": "5"},
+      {"item": ["coins",120], "chance": "5"},
+      {"item": ["fur",1], "chance": "100"},
+      {"item": ["grey_wolf_fur",1], "chance": "100"},
+      {"item": ["vial_empty",2], "chance": "50"},
+      {"item": ["bucket_empty",2], "chance": "25"},
+      {"item": ["tinderbox",2], "chance": "20"},
+      {"item": ["blamish_oil",1], "chance": "1"},
+      {"item": ["~randomherb"], "chance": "1"}
+    ],
+    "always": [
+      {"item": ["wolf_bones",1]}
     ]
   }
 }
