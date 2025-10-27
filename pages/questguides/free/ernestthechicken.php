@@ -23,9 +23,11 @@ Description: Veronica is very worried. Her fiancee went into the big spooky mano
 <br><br>
 <div data-progress>Go inside the house and to the top floor where you'll find Professor Oddenstein. Talk to him and ask about Ernest. He will explain that he accidentally changed Ernest into a chicken and that his machine is broken. To fix it, you must retrieve three items: an oil can, rubber tubing, and a pressure gauge.</div>
 <br><br>
-<div data-progress>Go down to the <span data-floors="US">2nd floor</span>, and then go to the southeast room and pick up fish food. Go to the west room and grab poison. Use poison on fish food.</div>
+<div data-progress>Go down to the <span data-floors="US">2nd floor</span>, and then go to the southeast room and pick up fish food.</div>
 <br><br>
-<div data-progress>Go to the western room on the <span data-floors="US">1st floor</span>, search the bookcase on the western side on the wall to gain access to a secret room. Go down the ladder into the basement, which is a mini maze.</div>
+<div data-progress>Go to the <span data-floors="US">1st floor</span> and head to the western room and grab poison. Use poison on fish food.</div>
+<br><br>
+<div data-progress>Head to the room south of the poison and search the bookcase on the western side on the wall to gain access to a secret room. Go down the ladder into the basement, which is a mini maze.</div>
 <br><br>
 <img src="img/questimages/ernest1.png">
 <br><br>
@@ -49,7 +51,7 @@ Use the following lever sequence:
 <br><br>
 <div data-progress>Then go southwest outside to the fountain, use the poisoned fish food on it, and search the fountain to get the pressure gauge.</div>
 <br><br>
-<div data-progress>Return inside and unlock the door behind the main stairs with the skeleton inside. Ignore the skeleton and grab the rubber tube.</div>
+<div data-progress>Return inside and unlock the door behind the main stairs with the skeleton inside. Ignore the skeleton and grab the rubber tube. Use the key on the door to leave.</div>
 <br><br>
 <div data-progress>Return to Professor Oddenstein with all three items. He will fix the machine and turn Ernest back into a human. Ernest will thank and reward you.</div>
 $questComplete

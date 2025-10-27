@@ -30,7 +30,7 @@ function getCalcContent() { return <<<HTML
             <tr>
                 <th>Level</th>
                 <th>Shortcut/Course</th>
-                <th>XP per Lap/Action</th>
+                <th>XP per Lap</th>
                 <th>Actions Needed</th>
             </tr>
         </thead>
