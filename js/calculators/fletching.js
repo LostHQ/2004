@@ -20,10 +20,10 @@ function runCalc() {
         "Willow Longbow": [41.5, 41.5, 83, 40],
         "Maple Shortbow": [50, 50, 100, 50],
         "Maple Longbow": [58.3, 58.2, 116.5, 55],
-        "Yew Shortbow": [67.5, 67.5, 134, 65],
+        "Yew Shortbow": [67.5, 67.5, 135, 65],
         "Yew Longbow": [75, 75, 150, 70],
         "Magic Shortbow": [83.3, 83.2, 166.5, 80],
-        "Magic Longbow": [91.5, 91.5, 182, 85]
+        "Magic Longbow": [91.5, 91.5, 183, 85]
     };
     
     const arrows = {
