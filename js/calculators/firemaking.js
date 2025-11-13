@@ -24,7 +24,7 @@ function runCalc() {
         let row = document.createElement("tr");
         row.innerHTML = `
             <td>${log.level}</td>
-            <td><canvas data-itemname="${log.name.toLowerCase().replace(/\s+/g, "_")}" data-show-label="inline"></canvas></td>
+            <td><canvas data-itemname="${log.name}" data-show-label="inline"></canvas></td>
             <td>${log.xp}</td>
             <td>${logCount.toLocaleString()}</td>
         `;
