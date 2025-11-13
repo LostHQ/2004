@@ -10,52 +10,70 @@ function runCalc() {
     const targetXP = parseInt(document.getElementById("targetXP").value);
     const xpNeeded = targetXP - currentXP;
 
-    // Unstrung xp, stringing xp, complete xp, level req
-    const items = {
-        "Shortbow": [5, 5, 10, 5],
-        "Longbow": [10, 10, 20, 10],
-        "Oak Shortbow": [16.5, 16.5, 33, 20],
-        "Oak Longbow": [25, 25, 50, 25],
-        "Willow Shortbow": [33.3, 33.2, 66.5, 35],
-        "Willow Longbow": [41.5, 41.5, 83, 40],
-        "Maple Shortbow": [50, 50, 100, 50],
-        "Maple Longbow": [58.3, 58.2, 116.5, 55],
-        "Yew Shortbow": [67.5, 67.5, 135, 65],
-        "Yew Longbow": [75, 75, 150, 70],
-        "Magic Shortbow": [83.3, 83.2, 166.5, 80],
-        "Magic Longbow": [91.5, 91.5, 183, 85]
-    };
-    
-    const arrows = {
-        "Arrow Shaft x15": [7.5, 1],
-        "Bronze Dart x10": [18, 1],
-        "Headless Arrow x15": [22.5, 1],
-        "Bronze Arrow x15": [42, 1],
-        "Opal Bolt x10": [31, 11],
-        "Iron Arrow x15": [60, 15],
-        "Iron Dart x10": [38, 22],
-        "Steel Arrow x15": [97.5, 30],
-        "Steel Dart x10": [75, 37],
-        "Pearl Bolt x10": [64, 41],
-        "Mithril Arrow x15": [135, 45],
-        "Barbed Bolt x10": [95, 51],
-        "Mithril Dart x10": [112, 52],
-        "Adamant Arrow x15": [172.5, 60],
-        "Adamant Dart x10": [150, 67],
-        "Rune Arrow x15": [210, 75],
-        "Rune Dart x10": [188, 81]
+    // Unstrung xp, level req
+    const unstrung = {
+        "unstrung_shortbow": [5, 5],
+        "unstrung_longbow": [10, 10],
+        "unstrung_oak_shortbow": [16.5, 20],
+        "unstrung_oak_longbow": [25, 25],
+        "unstrung_willow_shortbow": [33.3, 35],
+        "unstrung_willow_longbow": [41.5, 40],
+        "unstrung_maple_shortbow": [50, 50],
+        "unstrung_maple_longbow": [58.3, 55],
+        "unstrung_yew_shortbow": [67.5, 65],
+        "unstrung_yew_longbow": [75, 70],
+        "unstrung_magic_shortbow": [83.3, 80],
+        "unstrung_magic_longbow": [91.5, 85]
     };
 
+    // Strung xp, level req
+    const stringing = {
+        "shortbow": [5, 5],
+        "longbow": [10, 10],
+        "oak_shortbow": [16.5, 20],
+        "oak_longbow": [25, 25],
+        "willow_shortbow": [33.2, 35],
+        "willow_longbow": [41.5, 40],
+        "maple_shortbow": [50, 50],
+        "maple_longbow": [58.2, 55],
+        "yew_shortbow": [67.5, 65],
+        "yew_longbow": [75, 70],
+        "magic_shortbow": [83.2, 80],
+        "magic_longbow": [91.5, 85]
+    };
+    
+    //xp, level req, per batch
+    const arrows = {
+        "arrow_shaft": [7.5, 1, 15],
+        "bronze_dart": [18, 1, 10],
+        "headless_arrow": [22.5, 1, 15],
+        "bronze_arrow": [42, 1, 15],
+        "opal_bolt": [31, 11, 10],
+        "iron_arrow": [60, 15, 15],
+        "iron_dart": [38, 22, 10],
+        "steel_arrow": [97.5, 30, 15],
+        "steel_dart": [75, 37, 10],
+        "pearl_bolt": [64, 41, 10],
+        "mithril_arrow": [135, 45, 15],
+        "barbed_bolt": [95, 51, 10],
+        "mithril_dart": [112, 52, 10],
+        "adamant_arrow": [172.5, 60, 15],
+        "adamant_dart": [150, 67, 10],
+        "rune_arrow": [210, 75, 15],
+        "rune_dart": [188, 81, 10]
+    };
+
+    // xp, level req, per batch
     const incomplete = {
-        "Headless Arrow x15": [15, 1],
-        "Bronze Arrowheads x15": [19.5, 1],
-        "Opal Bolttips x10": [15, 11],
-        "Iron Arrowheads x15": [37.5, 15],
-        "Steel Arrowheads x15": [75, 30],
-        "Pearl Bolttips x10": [32, 41],
-        "Mithril Arrowheads x15": [112.5, 45],
-        "Adamant Arrowheads x15": [150, 60],
-        "Rune Arrowheads x15": [187.5, 75]
+        "headless_arrow": [15, 1, 15],
+        "bronze_arrowheads": [19.5, 1, 15],
+        "opal_bolttips": [15, 11, 10],
+        "iron_arrowheads": [37.5, 15, 15],
+        "steel_arrowheads": [75, 30, 15],
+        "pearl_bolttips": [32, 41, 10],
+        "mithril_arrowheads": [112.5, 45, 15],
+        "adamant_arrowheads": [150, 60, 15],
+        "rune_arrowheads": [187.5, 75, 15]
     }
     
     updateProgressBar(currentXP, targetXP);
@@ -63,57 +81,74 @@ function runCalc() {
     const tableBody = document.querySelector("#resultsTable tbody");
     tableBody.innerHTML = "";
 
-    if (mode === 'arrows') {
-        const arrowType = document.getElementById("arrowType").value;
-        const arrowData = arrowType === "completeArrows" ? arrows : incomplete;
-
-        for (let arrow in arrowData) {
-            let [xpPerAction, levelReq] = arrowData[arrow];
-            let count = Math.ceil(xpNeeded / xpPerAction);
-
-            // Extract 'x15' or 'x10' part
-            const match = arrow.match(/\s(x\d+)$/);
-            const quantityText = match ? ` ${match[1]}` : "";
-
-            // Clean up item name for data attribute
-            const cleanName = arrow.replace(/\s*x\d+$/, '').toLowerCase().replace(/\s+/g, "_");
-            
-            let row = document.createElement("tr");
-            row.innerHTML = `
-                <td>${levelReq}</td>
-                <td><div class=centered-content><canvas data-itemname="${cleanName}" data-show-label="inline"></canvas>&nbsp;${quantityText}</div></td>
-                <td>${xpPerAction}</td>
-                <td>${count.toLocaleString()}</td>
-            `;
-            tableBody.appendChild(row);
-        }
-    } else {
-        for (let item in items) {
-            let [xpPerAction, xpStringing, xpFull, levelReq] = items[item];
-            let xpToUse;
-            let itemName = item;
-
-            if (mode === 'unstrung') {
-                xpToUse = xpPerAction;
-                itemName = "unstrung "+itemName;
-            } else if (mode === 'stringing') {
-                xpToUse = xpStringing;
-                itemName = "unstrung "+itemName;
-            } else {
-                xpToUse = xpFull;
+    switch (mode) {
+        case 'arrows':
+            const arrowType = document.getElementById("arrowType").value;
+            const arrowData = arrowType === "completeArrows" ? arrows : incomplete;
+            for (const arrow in arrowData) {
+                const [xpPerAction, levelReq, quantity] = arrowData[arrow];
+                const row = document.createElement("tr");
+                row.innerHTML = `
+                    <td>${levelReq}</td>
+                    <td>
+                        <div class=centered-content>
+                            <canvas data-itemname="${arrow}" data-show-label="inline" data-name-append="x${quantity}"></canvas>
+                        </div>
+                    </td>
+                    <td>${xpPerAction}</td>
+                    <td>${Math.ceil(xpNeeded / xpPerAction).toLocaleString()}</td>
+                `;
+                tableBody.appendChild(row);
             }
-
-            let count = Math.ceil(xpNeeded / xpToUse);
-            
-            let row = document.createElement("tr");
-            row.innerHTML = `
-                <td>${levelReq}</td>
-                <td><canvas data-itemname="${itemName.toLowerCase().replace(/\s+/g, "_")}" data-show-label="inline"></canvas></td>
-                <td>${xpToUse}</td>
-                <td>${count.toLocaleString()}</td>
-            `;
-            tableBody.appendChild(row);
-        }
+            break;
+        case 'unstrung':
+            for (const item in unstrung) {
+                const [xpPerAction, levelReq] = unstrung[item];
+                const row = document.createElement("tr");
+                row.innerHTML = `
+                    <td>${levelReq}</td>
+                    <td>
+                        <canvas data-itemname="${item}" data-show-label="inline" data-name-append=""></canvas>
+                    </td>
+                    <td>${xpPerAction}</td>
+                    <td>${Math.ceil(xpNeeded / xpPerAction).toLocaleString()}</td>
+                `;
+                tableBody.appendChild(row);
+            }
+            break;
+        case 'stringing':
+            for (const item in stringing) {
+                const [xpPerAction, levelReq] = stringing[item];
+                const row = document.createElement("tr");
+                row.innerHTML = `
+                    <td>${levelReq}</td>
+                    <td>
+                        <canvas data-itemname="${item}" data-show-label="inline" data-name-append=""></canvas>
+                    </td>
+                    <td>${xpPerAction}</td>
+                    <td>${Math.ceil(xpNeeded / xpPerAction).toLocaleString()}</td>
+                `;
+                tableBody.appendChild(row);
+            }
+            break;
+        case 'complete':
+            for (const item in unstrung) {
+                const strungItem = item.replace("unstrung_", "");
+                const [xpPerUnstrung, levelReq] = unstrung[item];
+                const [xpPerString] = stringing[strungItem];
+                const xpPerAction = xpPerUnstrung + xpPerString;
+                const row = document.createElement("tr");
+                row.innerHTML = `
+                    <td>${levelReq}</td>
+                    <td>
+                        <canvas data-itemname="${strungItem}" data-show-label="inline" data-name-append=""></canvas>
+                    </td>
+                    <td>${xpPerAction}</td>
+                    <td>${Math.ceil(xpNeeded / xpPerAction).toLocaleString()}</td>
+                `;
+                tableBody.appendChild(row);
+            }
+            break;
     }
     window.safeRenderAllSprites();
 }

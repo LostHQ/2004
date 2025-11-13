@@ -23,9 +23,9 @@ function getCalcContent() { return <<<HTML
     <div class="progress-bar-root" id="progress-bar-root"></div>
     <hr>
 
-    <button onclick="setMode('complete')">Fletching & Stringing</button>
-    <button onclick="setMode('unstrung')">Unstrung</button>
-    <button onclick="setMode('stringing')">Stringing</button>
+    <button onclick="setMode('complete')">Cut & String</button>
+    <button onclick="setMode('unstrung')">Cut Only</button>
+    <button onclick="setMode('stringing')">String Only</button>
     <button onclick="setMode('arrows')">Arrows/Bolts/Darts</button>
     <br><br>
     <div class="input-group" id="arrowSelection" style="display: none">
