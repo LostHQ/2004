@@ -4,19 +4,19 @@ function runCalc() {
     const xpNeeded = targetXP - currentXP;
 
     const ores = [
-        { name: "Clay", xp: 5, level: 1 },
+        { name: "clay", xp: 5, level: 1 },
         { name: "blankrune", xp: 5, level: 1 },
-        { name: "Copper Ore", xp: 17.5, level: 1 },
-        { name: "Tin Ore", xp: 17.5, level: 1 },
-        { name: "Blurite Ore", xp: 17.5, level: 10 },
-        { name: "Iron Ore", xp: 35, level: 15 },
-        { name: "Silver Ore", xp: 40, level: 20 },
-        { name: "Coal", xp: 50, level: 30 },
-        { name: "Gold Ore", xp: 65, level: 40 },
-        { name: "Gem Rock", xp: 65, level: 40 },
-        { name: "Mithril Ore", xp: 80, level: 55 },
-        { name: "Adamantite Ore", xp: 95, level: 70 },
-        { name: "Runite Ore", xp: 125, level: 85 }
+        { name: "copper_ore", xp: 17.5, level: 1 },
+        { name: "tin_ore", xp: 17.5, level: 1 },
+        { name: "blurite_ore", xp: 17.5, level: 10 },
+        { name: "iron_ore", xp: 35, level: 15 },
+        { name: "silver_ore", xp: 40, level: 20 },
+        { name: "coal", xp: 50, level: 30 },
+        { name: "gold_ore", xp: 65, level: 40 },
+        { name: "gemrock", xp: 65, level: 40 },//not a debugname
+        { name: "mithril_ore", xp: 80, level: 55 },
+        { name: "adamantite_ore", xp: 95, level: 70 },
+        { name: "runite_ore", xp: 125, level: 85 }
     ];
 
     updateProgressBar(currentXP, targetXP);
@@ -28,7 +28,7 @@ function runCalc() {
         let oreCount = Math.ceil(xpNeeded / ore.xp); 
 
         let row = document.createElement("tr");
-        if (ore.name == "Gem Rock") {
+        if (ore.name == "gemrock") {
             row.innerHTML = `
                 <td>${ore.level}</td>
                 <td><div class="item-label" style="color: white; display: flex; align-items: center; justify-content: center; gap: 6px;"><canvas data-itemname="uncut_red_topaz"></canvas> Gem Rock</div></td>
@@ -38,7 +38,7 @@ function runCalc() {
         } else {
             row.innerHTML = `
                 <td>${ore.level}</td>
-                <td><canvas data-itemname="${ore.name.toLowerCase().replace(/\s+/g, "_")}" data-show-label="inline"></canvas></td>
+                <td><canvas data-itemname="${ore.name}" data-show-label="inline"></canvas></td>
                 <td>${ore.xp}</td>
                 <td>${oreCount.toLocaleString()}</td>
             `;
