@@ -1,7 +1,7 @@
 let statsBg;
 
 async function loadAssets() {
-    const loadImages = ["/img/statspanel.png"];
+    const loadImages = ["/img/stats_blank244.png"];
 
     const imagePromises = loadImages.map((src) => {
         return new Promise((resolve, reject) => {
@@ -43,33 +43,35 @@ const questReqs = {
     magic:       [1,  59],
     fletching:   [1,  10],
     woodcutting: [1,  50],
-    runecraft:   [1,  1],
+    runecraft:   [1,  1]
 };
 
 const skillList = {
-    //X,Y positions in the grid (for stats it's only top number, lower is automatically offset)
-    attack:       [77,  54],
-    defence:      [77,  116],
-    strength:     [77,  86],
-    hitpoints:    [140, 54],
-    ranged:       [77,  148],
-    prayer:       [77,  178],
-    magic:        [77,  209],
-    cooking:      [203, 148],
-    woodcutting:  [203, 209],
-    fletching:    [140, 209],
-    fishing:      [204, 116],
-    firemaking:   [203, 178],
-    crafting:     [140, 178],
-    smithing:     [204, 86],
-    mining:       [204, 54],
-    herblore:     [140, 116],
-    agility:      [140, 86],
-    thieving:     [140, 148],
-    runecraft:    [77,  241],
-    quest_points: [83,  282],
-    combat:       [198, 273],
-    overall:      [195, 288],
+    //(for stats it's only top number, lower is automatically offset)
+    //skill:       [x,  y, centered?],
+    attack:       [60,  43,  true],
+    strength:     [60,  75,  true],
+    defence:      [60,  105, true],
+    ranged:       [59,  137, true],
+    prayer:       [59,  167, true],
+    magic:        [59,  198, true],
+    runecraft:    [60,  229, true],
+    hitpoints:    [124, 43,  true],
+    agility:      [124, 75,  true],
+    herblore:     [124, 105, true],
+    thieving:     [124, 137, true],
+    crafting:     [123, 167, true],
+    fletching:    [123, 198, true],
+    thieving:     [123, 137, true],
+    mining:       [186, 43,  true],
+    smithing:     [186, 75,  true],
+    fishing:      [186, 105, true],
+    cooking:      [185, 137, true],
+    firemaking:   [185, 167, true],
+    woodcutting:  [185, 198, true],
+    quest_points: [65,  269, false],
+    combat:       [178, 261, false],
+    overall:      [165, 276, false]
 };
 
 async function drawQuestReqsPanel(canvas) {
@@ -108,25 +110,25 @@ async function drawStatsPanel(canvas, upperStats, lowerStats, questPoints) {
     for (const skillName of Object.keys(skillList)) {
         switch (skillName) {
             case "combat":
-                const [combatX, combatY] = skillList["combat"];
-                drawP12(ctx, combatLevel.toString(), combatX, combatY, fontColor);
+                const [combatX, combatY, combatCentered] = skillList["combat"];
+                drawP12(ctx, combatLevel.toString(), combatX, combatY, fontColor, combatCentered);
                 break;
             case "overall":
                 const overallLevel = Object.values(lowerStats)
                     .reduce((sum, level) => sum + (level || 0), 0);
-                const [overallX, overallY] = skillList["overall"];
-                drawP12(ctx, overallLevel.toString(), overallX, overallY, fontColor, true);
+                const [overallX, overallY, overallCentered] = skillList["overall"];
+                drawP12(ctx, overallLevel.toString(), overallX, overallY, fontColor, overallCentered);
                 break;
             case "quest_points":
-                const [questX, questY] = skillList["quest_points"];
-                drawP12(ctx, questPoints, questX, questY, fontColor, true);
+                const [questX, questY, questCentered] = skillList["quest_points"];
+                drawP12(ctx, questPoints, questX, questY, fontColor, questCentered);
                 break;
             default:
-                const [x, y] = skillList[skillName];
+                const [x, y, statCentered] = skillList[skillName];
                 const [xOffset, yOffset] = [x+13, y+13];
                 
-                drawP11(ctx, upperStats[skillName].toString(), x, y, fontColor, true);
-                drawP11(ctx, lowerStats[skillName].toString(), xOffset, yOffset, fontColor, true);
+                drawP11(ctx, upperStats[skillName].toString(), x, y, fontColor, statCentered);
+                drawP11(ctx, lowerStats[skillName].toString(), xOffset, yOffset, fontColor, statCentered);
                 break;
         }
     }
