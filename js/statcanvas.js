@@ -24,54 +24,54 @@ function computeCombat(att, str, def, hp, rng, mag, pray) {
 }
 
 const questReqs = {
-    //skill:     [freeReq, memsReq],
-    attack:      [1,  20],
-    hitpoints:   [10, 10],
-    mining:      [15, 52],
-    strength:    [1,  50],
-    agility:     [1,  50],
-    smithing:    [1,  50],
-    defence:     [1,  1],
-    herblore:    [1,  45],
-    fishing:     [1,  53],
-    ranged:      [1,  40],
-    thieving:    [1,  50],
-    cooking:     [1,  53],
-    prayer:      [1,  42],
-    crafting:    [1,  50],
-    firemaking:  [1,  30],
-    magic:       [1,  59],
-    fletching:   [1,  10],
-    woodcutting: [1,  50],
-    runecraft:   [1,  1]
+    //skill: [freeReq, memsReq],
+    attack: [1, 20],
+    hitpoints: [10, 10],
+    mining: [15, 52],
+    strength: [1, 50],
+    agility: [1, 50],
+    smithing: [1, 50],
+    defence: [1, 1],
+    herblore: [1, 45],
+    fishing: [1, 53],
+    ranged: [1, 40],
+    thieving: [1, 50],
+    cooking: [1, 53],
+    prayer: [1, 42],
+    crafting: [1, 50],
+    firemaking: [1, 30],
+    magic: [1, 59],
+    fletching: [1, 10],
+    woodcutting: [1, 50],
+    runecraft: [1, 1],
 };
 
 const skillList = {
     //(for stats it's only top number, lower is automatically offset)
-    //skill:       [x,  y, centered?],
-    attack:       [60,  43,  true],
-    strength:     [60,  75,  true],
-    defence:      [60,  105, true],
-    ranged:       [59,  137, true],
-    prayer:       [59,  167, true],
-    magic:        [59,  198, true],
-    runecraft:    [60,  229, true],
-    hitpoints:    [124, 43,  true],
-    agility:      [124, 75,  true],
-    herblore:     [124, 105, true],
-    thieving:     [124, 137, true],
-    crafting:     [123, 167, true],
-    fletching:    [123, 198, true],
-    thieving:     [123, 137, true],
-    mining:       [186, 43,  true],
-    smithing:     [186, 75,  true],
-    fishing:      [186, 105, true],
-    cooking:      [185, 137, true],
-    firemaking:   [185, 167, true],
-    woodcutting:  [185, 198, true],
-    quest_points: [65,  269, false],
-    combat:       [178, 261, false],
-    overall:      [165, 276, false]
+    //skill:  [x,  y, centered?],
+    attack: [60, 43, true],
+    strength: [60, 75, true],
+    defence: [60, 105, true],
+    ranged: [59, 137, true],
+    prayer: [59, 167, true],
+    magic: [59, 198, true],
+    runecraft: [60, 229, true],
+    hitpoints: [124, 43, true],
+    agility: [124, 75, true],
+    herblore: [124, 105, true],
+    thieving: [124, 137, true],
+    crafting: [123, 167, true],
+    fletching: [123, 198, true],
+    thieving: [123, 137, true],
+    mining: [186, 43, true],
+    smithing: [186, 75, true],
+    fishing: [186, 105, true],
+    cooking: [185, 137, true],
+    firemaking: [185, 167, true],
+    woodcutting: [185, 198, true],
+    quest_points: [65, 269, false],
+    combat: [178, 261, false],
+    overall: [165, 276, false],
 };
 
 async function drawQuestReqsPanel(canvas) {
@@ -83,7 +83,9 @@ async function drawQuestReqsPanel(canvas) {
 }
 
 async function drawStatsPanel(canvas, upperStats, lowerStats, questPoints) {
-    if (!statsBg) { return; }
+    if (!statsBg) {
+        return;
+    }
 
     canvas.width = statsBg.width;
     canvas.height = statsBg.height;
@@ -96,15 +98,7 @@ async function drawStatsPanel(canvas, upperStats, lowerStats, questPoints) {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     ctx.drawImage(statsBg, 0, 0, statsBg.width, statsBg.height);
 
-    const combatLevel = computeCombat(
-        lowerStats["attack"],
-        lowerStats["strength"],
-        lowerStats["defence"],
-        lowerStats["hitpoints"],
-        lowerStats["ranged"],
-        lowerStats["magic"],
-        lowerStats["prayer"]
-    );
+    const combatLevel = computeCombat(lowerStats["attack"], lowerStats["strength"], lowerStats["defence"], lowerStats["hitpoints"], lowerStats["ranged"], lowerStats["magic"], lowerStats["prayer"]);
 
     const fontColor = "#FFFF00";
     for (const skillName of Object.keys(skillList)) {
@@ -114,8 +108,7 @@ async function drawStatsPanel(canvas, upperStats, lowerStats, questPoints) {
                 drawP12(ctx, combatLevel.toString(), combatX, combatY, fontColor, combatCentered);
                 break;
             case "overall":
-                const overallLevel = Object.values(lowerStats)
-                    .reduce((sum, level) => sum + (level || 0), 0);
+                const overallLevel = Object.values(lowerStats).reduce((sum, level) => sum + (level || 0), 0);
                 const [overallX, overallY, overallCentered] = skillList["overall"];
                 drawP12(ctx, overallLevel.toString(), overallX, overallY, fontColor, overallCentered);
                 break;
@@ -125,8 +118,8 @@ async function drawStatsPanel(canvas, upperStats, lowerStats, questPoints) {
                 break;
             default:
                 const [x, y, statCentered] = skillList[skillName];
-                const [xOffset, yOffset] = [x+13, y+13];
-                
+                const [xOffset, yOffset] = [x + 13, y + 13];
+
                 drawP11(ctx, upperStats[skillName].toString(), x, y, fontColor, statCentered);
                 drawP11(ctx, lowerStats[skillName].toString(), xOffset, yOffset, fontColor, statCentered);
                 break;

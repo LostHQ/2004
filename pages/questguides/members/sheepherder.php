@@ -27,6 +27,8 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 You need to be on the opposite side of where you want the sheep to go. For example, be on the south side if you want them to go north. All the sheep have different face colors, so you won't get them mixed up too easily. Direct them to the pen gate and they should jump in when they are close enough. Once they are in, use the feed on them. Collect the bones, but don't put them in the furnace yet. Collect all four first (it works better).
 <br><br>
+<img src="img/questimages/sheepherd1.png">
+<br><br>
 <div data-progress>Sheep #1: Go south to the northern Ardougne wall, where there should be a sheep. Prod it on the east, then north side of the pen to the gate.</div>
 <br><br>
 <div data-progress>Sheep #2: Go just east of the pen and prod it back. There should be at least one outside of the fenced area. It's the easiest one to grab.</div>

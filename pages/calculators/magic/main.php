@@ -37,4 +37,4 @@ function getCalcContent() { return <<<HTML
         <tbody></tbody>
     </table>
 </div>
-HTML.getJavaScriptVersion('js/calculators/magic.js'); }
+HTML.getJS('js/calculators/magic.js'); }

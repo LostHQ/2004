@@ -62,4 +62,4 @@ function getCalcContent() { return <<<HTML
     <h2>Updated XP:</h2>
     <p id="newXP" class="gold-text"></p>
 </div>
-HTML.getJavaScriptVersion('js/calculators/combat_xp.js'); }
+HTML.getJS('js/calculators/combat_xp.js'); }

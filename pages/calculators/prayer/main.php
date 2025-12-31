@@ -33,4 +33,4 @@ function getCalcContent() { return <<<HTML
         <tbody></tbody>
     </table>
 </div>
-HTML.getJavaScriptVersion('js/calculators/prayer.js'); }
+HTML.getJS('js/calculators/prayer.js'); }

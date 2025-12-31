@@ -48,7 +48,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <div data-progress>After you find the building (the door of the building has boarded-up and it has two doors), try to open the west door, and the mourner will say the house has been touched by the plague. Tell him that a girl named Elena is inside, and ask how to get in.</div>
 <br><br>
-<div data-progress>Head a bit north and you will see a huge house. Open the door and talk to Clerk. Tell him that it's urgent. He'll allow you to speak with Bravek.</div>
+<div data-progress>Head a bit north and you will see a huge house. Open the door and talk to Clerk. Tell him that it's urgent. He'll allow you to speak with Bravek. (Bravek must be at least 7 blocks close to the player for him to repspond, wait until he's close by before having the Clerk call for him)</div>
 <br><br>
 <div data-progress>Open the door and talk to Bravek. He will say that he has a headache. Ask him about the cure and he will give you a scruffy note. It reads:<br>
 <i>Get a bucket of milk,<br>

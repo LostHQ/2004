@@ -11,7 +11,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h3>Items & Skills Needed:</h3>
 <ul style="list-style-type: none;">
 <li><div data-progress>10 Fishing</div><br></li>
-<li><div data-progress><canvas data-itemname="coins_5" data-size="25"></canvas>&nbsp;&nbsp;5-10 coins</div><br></li>
+<li><div data-progress><canvas data-itemname="coins_5" data-size="25"></canvas>&nbsp;&nbsp;5 coins</div><br></li>
 <li><div data-progress><canvas data-itemname="fishing_rod" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="garlic" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="spade" data-size="25" data-show-label="inline"></canvas></div><br></li>
@@ -32,9 +32,9 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <div data-progress>Before entering Hemenster, go north of it and you will see McGrubor's Woods. Go further north and you'll find a loose fence. Push it, head to the west side, find a red vine, and use the spade on it. You should get a red worm, then leave the area.</div>
 <br><br>
-<div data-progress>Return to Hemenster and try to enter the fishing area. A man will say you need a Competition Pass—show it to him to get in.</div>
+<div data-progress>Return to Hemenster and try to enter the fishing area. A man will say you need a Competition Pass&mdash;show it to him to get in.</div>
 <br><br>
-<div data-progress>Talk to the Sinister Stranger. He will say that he doesn't like sunlight. Tell him he's a vampire—he'll deny it and say something nonsensical, but trust me, he really is.</div>
+<div data-progress>Talk to the Sinister Stranger. He will say that he doesn't like sunlight. Tell him he's a vampire&mdash;he'll deny it and say something nonsensical, but trust me, he really is.</div>
 <br><br>
 <div data-progress>Talk to Bonzo and tell him you want to start the competition. Pay 5 gp, and he will tell you that your fishing spot is beside the oak tree.</div>
 <br><br>
@@ -44,7 +44,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 $questComplete
 <span id="zombiemusiq"></span>
 <iframe width="450" height="253" src="https://www.youtube.com/embed/uP8JaMMnH7s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<p>*The video shows 21 Fishing requirement, it's actually 10.</p>
+<p>Note: The video shows 21 Fishing requirement, it's actually 10.</p>
 <hr>
 This quest guide was written by Henry-x. Thanks to Weezy for corrections.
 <br><br>

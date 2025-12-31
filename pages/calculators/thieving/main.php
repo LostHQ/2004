@@ -39,4 +39,4 @@ function getCalcContent() { return <<<HTML
         <tbody></tbody>
     </table>
 </div>
-HTML.getJavaScriptVersion('js/calculators/thieving.js'); }
+HTML.getJS('js/calculators/thieving.js'); }

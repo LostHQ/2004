@@ -17,4 +17,4 @@ function getCalcContent() { return <<<HTML
     <h3>~% Energy Restored per Minute: <span id="restoreOneMinute" class="gold-text"></span></h3>
     <br>
 </div>
-HTML.getJavaScriptVersion('js/calculators/run_energy.js'); }
+HTML.getJS('js/calculators/run_energy.js'); }

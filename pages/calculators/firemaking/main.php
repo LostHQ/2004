@@ -35,4 +35,4 @@ function getCalcContent() { return <<<HTML
         <tbody></tbody>
     </table>
 </div>
-HTML.getJavaScriptVersion('js/calculators/firemaking.js'); }
+HTML.getJS('js/calculators/firemaking.js'); }

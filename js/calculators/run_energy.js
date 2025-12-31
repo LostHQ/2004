@@ -1,7 +1,7 @@
 function runCalc() {
     const currentRunEnergy = parseInt(document.getElementById("currentRunEnergy").value);
     const agilityLevel = parseInt(document.getElementById("agilityLevel").value);
-    const recovered = Math.floor(agilityLevel / 6) + 8; // every 9 levels in 225
+    const recovered = Math.floor(agilityLevel / 6) + 8; // every 9 levels in 225, 6 levels in 244+
     const secondsPerPercent = 60 / recovered;
 
     document.getElementById("restorePerPercent").textContent = `${secondsPerPercent.toFixed(2)} seconds`;
@@ -20,6 +20,6 @@ function runCalc() {
 
     document.getElementById("restoreOneMinute").textContent = `${Math.min(restoreInOneMinute, 100).toFixed(0)}%`;
 }
-["agilityLevel", "currentRunEnergy"].forEach(id => {
+["agilityLevel", "currentRunEnergy"].forEach((id) => {
     document.getElementById(id).addEventListener("change", runCalc);
 });

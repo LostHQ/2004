@@ -34,4 +34,4 @@ function getCalcContent() { return <<<HTML
         <tbody></tbody>
     </table>
 </div>
-HTML.getJavaScriptVersion('js/calculators/mining.js'); }
+HTML.getJS('js/calculators/mining.js'); }

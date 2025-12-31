@@ -23,13 +23,13 @@ function getCalcContent() { return <<<HTML
     <div class="progress-bar-root" id="progress-bar-root"></div>
     <hr>
     <div>
-        <button onclick="setMode('smelting_bars')">Smelting & Smithing</button>
-        <button onclick="setMode('bars')">Smithing</button>
         <button onclick="setMode('smelting')">Smelting</button>
+        <button onclick="setMode('smithing')">Smithing</button>
+        <button onclick="setMode('smelting_smithing')">Smelting & Smithing</button>
     </div>
     <br>
     
-    <div class="input-group justify-center" id="metalSelection">
+    <div class="input-group justify-center" id="metalSelection" style="display: none;">
         <label for="metalType">Select Metal:</label>
         <select id="metalType" onchange="runCalc()">
             <option value="bronze">Bronze</option>
@@ -53,4 +53,4 @@ function getCalcContent() { return <<<HTML
         <tbody></tbody>
     </table>
 </div>
-HTML.getJavaScriptVersion('js/calculators/smithing.js'); }
+HTML.getJS('js/calculators/smithing.js'); }

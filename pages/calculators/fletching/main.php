@@ -54,4 +54,4 @@ function getCalcContent() { return <<<HTML
         <tbody></tbody>
     </table>
 </div>
-HTML.getJavaScriptVersion('js/calculators/fletching.js'); }
+HTML.getJS('js/calculators/fletching.js'); }

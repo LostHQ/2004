@@ -10,16 +10,8 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <b>Length: <font color="Yellow">Medium</font></b><br>
 <h3>Items & Skills Needed:</h3>
 <ul style="list-style-type: none;">
-<li>
-    <div data-progress>
-        <canvas data-itemname="bucket_water" data-size="25"></canvas>&nbsp;&nbsp;Bucket of water (can be obtained during quest)<br>or<canvas data-itemname="ice_gloves" data-size="25"></canvas>&nbsp;&nbsp;Ice gloves
-    </div>
-</li>
-<li>
-    <div data-progress>
-        A good weapon and armour to get past some level 48 ogres
-    </div>
-</li>
+    <li><div data-progress><canvas data-itemname="bucket_water" data-size="25"></canvas>&nbsp;&nbsp;Bucket of water (can be obtained during quest)<br>or<canvas data-itemname="ice_gloves" data-size="25"></canvas>&nbsp;&nbsp;Ice gloves</div></li>
+    <li><div data-progress>Some good armour to get past some level 48 ogres</div></li>
 </ul>
 <b>Starting Location:</b> Southwest of Ardougne Zoo
 <br><br>
@@ -27,22 +19,12 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <hr>
 <h3>Instructions:</h3>
-<br>
 <div data-progress>Talk to Brother Kojo; he should be in the clock tower just southwest of Ardougne Zoo.</div>
 <br><br>
 You need to get all four cogs. Remember, you can only carry one at a time.
 <br><br>
-<div data-progress>Go down the ladder, and you should be in a dungeon. In the next room, you will see colored blocks on the floor representing the general direction of each cog.</div>
+<div data-progress>Go down the ladder, and you should be in a dungeon. In the next room, you will see colored blocks on the floor representing the general direction of each cog. Use the colored block to see where to go.</div>
 <br>
-<hr>
-<h3>Black Cog:</h3>
-<div data-progress>Use the colored block to see where to go. Go down the path to a door. Behind the door, you will see level 2 giant spiders and the black cog surrounded by fires.</div>
-<br><br>
-<img src="img/questimages/clocktower1.png" height="200" width="200">
-<br><br>
-<div data-progress>Use the bucket of water or wear your ice gloves and pick it up. Now go back to the ladder you came down to the basement with.</div>
-<br><br>
-<div data-progress>In the basement, use the<canvas data-itemname="blackcog" data-size="32"></canvas>Black Cog on the black pole.</div>
 <hr>
 <h3>Red Cog:</h3>
 <div data-progress>Go to the colored bricks in the next room and go through the door. The red brick represents southeast.</div>
@@ -89,12 +71,18 @@ You need to get all four cogs. Remember, you can only carry one at a time.
 <br><br>
 <div data-progress>After climbing down the ladder, follow the passage to a wall. Go through the door and pick up the blue cog.</div>
 <br><br>
-<div data-progress>
-Go up the ladder, go inside the clock tower, up the staircase to the <span data-floors="US">2nd floor</span>
- and use the<canvas data-itemname="bluecog" data-size="32"></canvas>Blue Cog on the blue pole.
-</div>
+<div data-progress>Go up the ladder, go inside the clock tower, up the staircase to the <span data-floors="US">2nd floor</span> and use the<canvas data-itemname="bluecog" data-size="32"></canvas>Blue Cog on the blue pole.</div>
+<h3>Black Cog:</h3>
+<div data-progress>Go down to the dungeon and to the room with the colored bricks. Go through the door where the black brick represents northeast. Go down the path to a door. Behind the door, you will see level 2 giant spiders and the black cog surrounded by fires.</div>
 <br><br>
-<div data-progress>Now that all of the cogs have been placed, talk to Brother Kojo to receive your reward.</div>
+<img src="img/questimages/clocktower1.png" height="200" width="200">
+<br><br>
+<div data-progress>Use the bucket of water or wear your ice gloves and pick it up. Now go back to the ladder you came down to the basement with.</div>
+<br><br>
+<div data-progress>In the basement, use the<canvas data-itemname="blackcog" data-size="32"></canvas>Black Cog on the black pole.</div>
+<hr>
+<br><br>
+<div data-progress>Now that all of the cogs have been placed, go up the ladder and talk to Brother Kojo to receive your reward.</div>
 $questComplete
 <span id="zombiemusiq"></span>
 <iframe width="450" height="253" src="https://www.youtube.com/embed/nRVmyKK2NnU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

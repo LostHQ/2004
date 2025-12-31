@@ -35,7 +35,7 @@ $minigameslist = array(
 );
 
 function getExtraHeaderContent() { 
-    return getJavaScriptVersion('js/equipment_interface.js'); 
+    return getJS('js/equipment_interface.js'); 
 }
 
 function getPageContent() {

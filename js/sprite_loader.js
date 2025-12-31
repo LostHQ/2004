@@ -18,10 +18,7 @@ const imageDebugnameOverrides = {
     rune_arrow_p: "rune_arrow_p_5",
 };
 
-Promise.all([
-    fetch("js/itemlist.json").then((res) => res.json()),
-    new Promise((resolve) => (spritesheet.onload = resolve)),
-])
+Promise.all([fetch("js/itemlist.json").then((res) => res.json()), new Promise((resolve) => (spritesheet.onload = resolve))])
     .then(([json]) => {
         itemData = json;
         window.spriteLoaderReady = true;
@@ -56,9 +53,7 @@ function renderSpriteToCanvas(debugname, canvas) {
     let imageItem = item;
     if (imageDebugnameOverrides.hasOwnProperty(debugname)) {
         const overrideDebugname = imageDebugnameOverrides[debugname];
-        const overrideItem = itemData.find(
-            (i) => i.debugname === overrideDebugname
-        );
+        const overrideItem = itemData.find((i) => i.debugname === overrideDebugname);
         if (overrideItem) {
             imageItem = overrideItem;
         }
@@ -74,17 +69,7 @@ function renderSpriteToCanvas(debugname, canvas) {
     canvas.width = size;
     canvas.height = size;
     ctx.clearRect(0, 0, size, size);
-    ctx.drawImage(
-        spritesheet,
-        col * spriteSize,
-        row * spriteSize,
-        spriteSize,
-        spriteSize,
-        0,
-        0,
-        size,
-        size
-    );
+    ctx.drawImage(spritesheet, col * spriteSize, row * spriteSize, spriteSize, spriteSize, 0, 0, size, size);
 
     // Tooltip setup
     let tooltip = `${name} — ${desc}`;
@@ -101,10 +86,7 @@ function renderSpriteToCanvas(debugname, canvas) {
     }
 
     // Append item name if requested
-    if (
-        canvas.getAttribute("data-show-label") === "true" ||
-        canvas.getAttribute("data-show-label") === "inline"
-    ) {
+    if (canvas.getAttribute("data-show-label") === "true" || canvas.getAttribute("data-show-label") === "inline") {
         const next = canvas.nextElementSibling;
         const alreadyExists = next && next.classList.contains("item-label");
 

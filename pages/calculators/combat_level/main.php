@@ -36,4 +36,4 @@ function getCalcContent() { return <<<HTML
     <div id="levelUpInfo" class="gold-text"></div>
     <br>
 </div>
-HTML.getJavaScriptVersion('js/calculators/combat_level.js'); }
+HTML.getJS('js/calculators/combat_level.js'); }

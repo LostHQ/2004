@@ -85,4 +85,4 @@ function getCalcContent() { return <<<HTML
         <h2>Total HP restored: <span id="totalHpRestoredText" class="gold-text"></span></h2>
     </div>
 </div>
-HTML.getJavaScriptVersion('js/calculators/prayer_duration.js'); }
+HTML.getJS('js/calculators/prayer_duration.js'); }
