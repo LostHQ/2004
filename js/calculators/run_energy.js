@@ -20,6 +20,6 @@ function runCalc() {
 
     document.getElementById("restoreOneMinute").textContent = `${Math.min(restoreInOneMinute, 100).toFixed(0)}%`;
 }
-["agilityLevel", "currentRunEnergy"].forEach(id => {
+["agilityLevel", "currentRunEnergy"].forEach((id) => {
     document.getElementById(id).addEventListener("change", runCalc);
 });

@@ -13,19 +13,19 @@ function runCalc() {
         { name: "silver_ore", xp: 40, level: 20 },
         { name: "coal", xp: 50, level: 30 },
         { name: "gold_ore", xp: 65, level: 40 },
-        { name: "gemrock", xp: 65, level: 40 },//not a debugname
+        { name: "gemrock", xp: 65, level: 40 }, //not a debugname
         { name: "mithril_ore", xp: 80, level: 55 },
         { name: "adamantite_ore", xp: 95, level: 70 },
-        { name: "runite_ore", xp: 125, level: 85 }
+        { name: "runite_ore", xp: 125, level: 85 },
     ];
 
     updateProgressBar(currentXP, targetXP);
 
     const tableBody = document.querySelector("#resultsTable tbody");
-    tableBody.innerHTML = ""; 
+    tableBody.innerHTML = "";
 
     for (let ore of ores) {
-        let oreCount = Math.ceil(xpNeeded / ore.xp); 
+        let oreCount = Math.ceil(xpNeeded / ore.xp);
 
         let row = document.createElement("tr");
         if (ore.name == "gemrock") {

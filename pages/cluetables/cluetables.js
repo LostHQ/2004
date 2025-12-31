@@ -15,7 +15,7 @@ async function fetchClueTables() {
 }
 
 function formatItemName(item) {
-    return item.replace(/_/g, " ").replace(/\b\w/g, c => c.toUpperCase());
+    return item.replace(/_/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
 }
 
 async function loadDropTables() {
@@ -25,14 +25,14 @@ async function loadDropTables() {
     const selectedTier = selectedRadio?.value;
     const visibleTiers = searchTerm ? clueTiers.slice() : [selectedTier];
 
-    clueTiers.forEach(tier => {
+    clueTiers.forEach((tier) => {
         const container = document.querySelector(`.${tier}Table`);
         const tbody = container.querySelector("tbody");
         tbody.innerHTML = "";
         container.classList.toggle("hidden", !visibleTiers.includes(tier));
     });
 
-    allRewards.forEach(drop => {
+    allRewards.forEach((drop) => {
         if (!visibleTiers.includes(drop.difficulty)) return;
 
         const name = drop.reward_name.toLowerCase();
@@ -55,9 +55,7 @@ async function loadDropTables() {
         imgTd.appendChild(wrapper);
 
         const qtyTd = document.createElement("td");
-        qtyTd.textContent = drop.quantity_min === drop.quantity_max
-            ? drop.quantity_min
-            : `${drop.quantity_min}-${drop.quantity_max}`;
+        qtyTd.textContent = drop.quantity_min === drop.quantity_max ? drop.quantity_min : `${drop.quantity_min}-${drop.quantity_max}`;
 
         const rateTd = document.createElement("td");
         rateTd.textContent = drop.drop_rate;
@@ -74,14 +72,14 @@ async function loadDropTables() {
         tbody.appendChild(row);
     });
 
-    document.querySelectorAll("canvas[data-itemname]").forEach(canvas => {
+    document.querySelectorAll("canvas[data-itemname]").forEach((canvas) => {
         renderSpriteToCanvas(canvas.dataset.itemname, canvas);
     });
 }
 
 async function waitForSpriteLoaderAndLoad() {
     while (!window.spriteLoaderReady) {
-        await new Promise(r => setTimeout(r, 50));
+        await new Promise((r) => setTimeout(r, 50));
     }
     loadDropTables();
 }
@@ -92,7 +90,7 @@ document.addEventListener("DOMContentLoaded", () => {
     searchInput.disabled = false;
     searchInput.addEventListener("input", loadDropTables);
 
-    document.querySelectorAll('input[name="clueTier"]').forEach(radio => {
+    document.querySelectorAll('input[name="clueTier"]').forEach((radio) => {
         radio.addEventListener("change", loadDropTables);
     });
 

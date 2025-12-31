@@ -38,13 +38,13 @@ function runCalc() {
         { name: "pineapple_pizza", xp: 195, level: 65 },
         { name: "shark", xp: 210, level: 80 },
         { name: "seaturtle", xp: 211.3, level: 82 },
-        { name: "mantaray", xp: 216.2, level: 91 }
+        { name: "mantaray", xp: 216.2, level: 91 },
     ];
 
     updateProgressBar(currentXP, targetXP);
 
     const tableBody = document.querySelector("#resultsTable tbody");
-    tableBody.innerHTML = ""; 
+    tableBody.innerHTML = "";
 
     for (let food of foods) {
         let foodCount = Math.ceil(xpNeeded / food.xp);

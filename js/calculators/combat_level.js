@@ -16,13 +16,13 @@ async function fetchCombatLevels() {
             hitpoints: 4,
             ranged: 5,
             magic: 7,
-            prayer: 6
+            prayer: 6,
         };
 
         // Loop through each stat and update the respective element
         Object.entries(statsToFetch).forEach(([statName, type]) => {
-            const statData = data.find(stat => stat.type === type);
-            
+            const statData = data.find((stat) => stat.type === type);
+
             if (statData) {
                 document.getElementById(statName).value = statData.level; // Update input value
             }
@@ -42,7 +42,7 @@ function runCalc() {
     let ranged = parseInt(document.getElementById("ranged").value);
     let magic = parseInt(document.getElementById("magic").value);
     let prayer = parseInt(document.getElementById("prayer").value);
-    
+
     function computeCombat(att, str, def, hp, rng, mag, pray) {
         let base = (def + hp + Math.floor(pray / 2)) * 0.25;
         let melee = (att + str) * 0.325;
@@ -50,36 +50,36 @@ function runCalc() {
         let mage = Math.floor(mag * 1.5) * 0.325;
         return Math.floor(base + Math.max(melee, range, mage));
     }
-    
+
     let currentCombat = computeCombat(attack, strength, defence, hitpoints, ranged, magic, prayer);
     document.getElementById("combatLevel").textContent = currentCombat;
-    
+
     let levelUpInfo = "";
-    
+
     function levelsToNextCombat(skill, increment) {
         let newCombat = computeCombat(
-            attack + (skill === 'attack' ? increment : 0),
-            strength + (skill === 'strength' ? increment : 0),
-            defence + (skill === 'defence' ? increment : 0),
-            hitpoints + (skill === 'hitpoints' ? increment : 0),
-            ranged + (skill === 'ranged' ? increment : 0),
-            magic + (skill === 'magic' ? increment : 0),
-            prayer + (skill === 'prayer' ? increment : 0)
+            attack + (skill === "attack" ? increment : 0),
+            strength + (skill === "strength" ? increment : 0),
+            defence + (skill === "defence" ? increment : 0),
+            hitpoints + (skill === "hitpoints" ? increment : 0),
+            ranged + (skill === "ranged" ? increment : 0),
+            magic + (skill === "magic" ? increment : 0),
+            prayer + (skill === "prayer" ? increment : 0)
         );
         return newCombat > currentCombat ? increment : levelsToNextCombat(skill, increment + 1);
     }
-    
-    levelUpInfo += `Attack: ${levelsToNextCombat('attack', 1)} more levels<br>`;
-    levelUpInfo += `Strength: ${levelsToNextCombat('strength', 1)} more levels<br>`;
-    levelUpInfo += `Defence: ${levelsToNextCombat('defence', 1)} more levels<br>`;
-    levelUpInfo += `Hitpoints: ${levelsToNextCombat('hitpoints', 1)} more levels<br>`;
-    levelUpInfo += `Prayer: ${levelsToNextCombat('prayer', 1)} more levels<br>`;
-    levelUpInfo += `Ranged: ${levelsToNextCombat('ranged', 1)} more levels<br>`;
-    levelUpInfo += `Magic: ${levelsToNextCombat('magic', 1)} more levels<br>`;
-    
+
+    levelUpInfo += `Attack: ${levelsToNextCombat("attack", 1)} more levels<br>`;
+    levelUpInfo += `Strength: ${levelsToNextCombat("strength", 1)} more levels<br>`;
+    levelUpInfo += `Defence: ${levelsToNextCombat("defence", 1)} more levels<br>`;
+    levelUpInfo += `Hitpoints: ${levelsToNextCombat("hitpoints", 1)} more levels<br>`;
+    levelUpInfo += `Prayer: ${levelsToNextCombat("prayer", 1)} more levels<br>`;
+    levelUpInfo += `Ranged: ${levelsToNextCombat("ranged", 1)} more levels<br>`;
+    levelUpInfo += `Magic: ${levelsToNextCombat("magic", 1)} more levels<br>`;
+
     document.getElementById("levelUpInfo").innerHTML = levelUpInfo;
 }
 
-["attack", "strength", "defence", "hitpoints", "prayer", "ranged", "magic"].forEach(id => {
+["attack", "strength", "defence", "hitpoints", "prayer", "ranged", "magic"].forEach((id) => {
     document.getElementById(id).addEventListener("change", runCalc);
 });

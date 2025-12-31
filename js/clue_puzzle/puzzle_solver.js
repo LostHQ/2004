@@ -48,7 +48,7 @@ class PuzzleState {
     }
 
     key() {
-        return this.state.join(',');
+        return this.state.join(",");
     }
 }
 
@@ -106,7 +106,7 @@ class IDAStar {
         const idx = next.blankIndex;
         return {
             x: idx % this.gridSize,
-            y: Math.floor(idx / this.gridSize)
+            y: Math.floor(idx / this.gridSize),
         };
     }
 }
@@ -164,7 +164,7 @@ class MinHeap {
 class PuzzleBox {
     constructor(canvasId, solveButtonId, puzzleSet, movesCounterId = null, nextButtonId = null, prevButtonId = null, autoButtonId = null) {
         this.canvas = document.getElementById(canvasId);
-        this.ctx = this.canvas.getContext('2d');
+        this.ctx = this.canvas.getContext("2d");
         this.solveButton = document.getElementById(solveButtonId);
         this.puzzleSet = puzzleSet;
         this.movesCounterId = movesCounterId;
@@ -187,13 +187,16 @@ class PuzzleBox {
     }
 
     loadImages() {
-        let promises = this.puzzleSet.map(src => new Promise(resolve => {
-            const img = new Image();
-            img.src = src;
-            img.onload = () => resolve(img);
-        }));
+        let promises = this.puzzleSet.map(
+            (src) =>
+                new Promise((resolve) => {
+                    const img = new Image();
+                    img.src = src;
+                    img.onload = () => resolve(img);
+                })
+        );
 
-        Promise.all(promises).then(loadedImages => {
+        Promise.all(promises).then((loadedImages) => {
             this.images = loadedImages;
             this.initTiles();
             this.draw();
@@ -219,12 +222,12 @@ class PuzzleBox {
     }
 
     setupEvents() {
-        this.canvas.addEventListener('mousedown', (e) => {
+        this.canvas.addEventListener("mousedown", (e) => {
             const { x, y } = this.getMouseTile(e);
             this.dragStart = { x, y };
         });
 
-        this.canvas.addEventListener('mousemove', (e) => {
+        this.canvas.addEventListener("mousemove", (e) => {
             if (this.dragStart) {
                 const { x, y } = this.getMouseTile(e);
                 this.dragOver = { x, y };
@@ -232,7 +235,7 @@ class PuzzleBox {
             }
         });
 
-        this.canvas.addEventListener('mouseup', (e) => {
+        this.canvas.addEventListener("mouseup", (e) => {
             if (!this.dragStart) return;
             const { x, y } = this.getMouseTile(e);
             this.swapTiles(this.dragStart.x, this.dragStart.y, x, y);
@@ -241,8 +244,8 @@ class PuzzleBox {
             this.draw();
         });
 
-        this.solveButton.addEventListener('click', () => {
-            this.solve().then(path => {
+        this.solveButton.addEventListener("click", () => {
+            this.solve().then((path) => {
                 this.currentPath = path;
                 this.currentStepIndex = 0;
                 if (this.movesCounterId && path.length > 0) {
@@ -255,9 +258,9 @@ class PuzzleBox {
             });
         });
 
-        if (this.nextButton) this.nextButton.addEventListener('click', () => this.nextMove());
-        if (this.prevButton) this.prevButton.addEventListener('click', () => this.prevMove());
-        if (this.autoButton) this.autoButton.addEventListener('click', () => this.startAutoPlay());
+        if (this.nextButton) this.nextButton.addEventListener("click", () => this.nextMove());
+        if (this.prevButton) this.prevButton.addEventListener("click", () => this.prevMove());
+        if (this.autoButton) this.autoButton.addEventListener("click", () => this.startAutoPlay());
     }
 
     getMouseTile(e) {
@@ -291,27 +294,21 @@ class PuzzleBox {
                         this.ctx.globalAlpha = 1.0;
                     }
 
-                    this.ctx.drawImage(
-                        this.images[tile],
-                        x * this.tileSize,
-                        y * this.tileSize,
-                        this.tileSize,
-                        this.tileSize
-                    );
+                    this.ctx.drawImage(this.images[tile], x * this.tileSize, y * this.tileSize, this.tileSize, this.tileSize);
                 }
 
                 // Highlight next move
                 if (this.currentPath[this.currentStepIndex]) {
                     const nextMove = this.currentPath[this.currentStepIndex];
                     if (x === nextMove.x && y === nextMove.y) {
-                        this.ctx.strokeStyle = 'gold';
+                        this.ctx.strokeStyle = "gold";
                         this.ctx.lineWidth = 4;
                     } else {
-                        this.ctx.strokeStyle = 'black';
+                        this.ctx.strokeStyle = "black";
                         this.ctx.lineWidth = 1;
                     }
                 } else {
-                    this.ctx.strokeStyle = 'black';
+                    this.ctx.strokeStyle = "black";
                     this.ctx.lineWidth = 1;
                 }
                 this.ctx.strokeRect(x * this.tileSize, y * this.tileSize, this.tileSize, this.tileSize);
@@ -361,7 +358,7 @@ class PuzzleBox {
     }
 
     solve() {
-        const start = this.tiles.map(t => t === null ? -1 : t);
+        const start = this.tiles.map((t) => (t === null ? -1 : t));
 
         if (!this.isSolvable(start)) {
             alert("❌ This puzzle is not solvable. Please adjust tiles manually.");
@@ -373,8 +370,16 @@ class PuzzleBox {
             let aStarTimeout = false;
 
             await Promise.race([
-                new Promise(res => setTimeout(() => { aStarTimeout = true; res(); }, 2000)),
-                new Promise(res => { path = this.solveAStar(start); res(); })
+                new Promise((res) =>
+                    setTimeout(() => {
+                        aStarTimeout = true;
+                        res();
+                    }, 2000)
+                ),
+                new Promise((res) => {
+                    path = this.solveAStar(start);
+                    res();
+                }),
             ]);
 
             if (!aStarTimeout && path.length > 0) {
@@ -432,8 +437,8 @@ class PuzzleBox {
             return dist;
         };
 
-        const startKey = start.join(',');
-        const goalKey = goal.join(',');
+        const startKey = start.join(",");
+        const goalKey = goal.join(",");
 
         const heap = new MinHeap();
         heap.push({ state: start, path: [], cost: 0, priority: heuristic(start) });
@@ -441,7 +446,7 @@ class PuzzleBox {
 
         while (!heap.isEmpty()) {
             const current = heap.pop();
-            const key = current.state.join(',');
+            const key = current.state.join(",");
             if (seen.has(key)) continue;
             seen.add(key);
 
@@ -450,13 +455,13 @@ class PuzzleBox {
             }
 
             for (const { state: nextState, move } of neighbors(current.state)) {
-                const nextKey = nextState.join(',');
+                const nextKey = nextState.join(",");
                 if (!seen.has(nextKey)) {
                     heap.push({
                         state: nextState,
                         path: [...current.path, move],
                         cost: current.cost + 1,
-                        priority: current.cost + 1 + heuristic(nextState)
+                        priority: current.cost + 1 + heuristic(nextState),
                     });
                 }
             }
@@ -466,7 +471,7 @@ class PuzzleBox {
     }
 
     isSolvable(state) {
-        const flat = state.filter(x => x !== -1);
+        const flat = state.filter((x) => x !== -1);
         let inversions = 0;
         for (let i = 0; i < flat.length; i++) {
             for (let j = i + 1; j < flat.length; j++) {
@@ -478,32 +483,80 @@ class PuzzleBox {
 }
 
 const puzzleSetCastle = [
-    'img/clue_guides/slide_puzzles/castle/tile_1.png', 'img/clue_guides/slide_puzzles/castle/tile_2.png', 'img/clue_guides/slide_puzzles/castle/tile_3.png',
-    'img/clue_guides/slide_puzzles/castle/tile_4.png', 'img/clue_guides/slide_puzzles/castle/tile_5.png', 'img/clue_guides/slide_puzzles/castle/tile_6.png',
-    'img/clue_guides/slide_puzzles/castle/tile_7.png', 'img/clue_guides/slide_puzzles/castle/tile_8.png', 'img/clue_guides/slide_puzzles/castle/tile_9.png',
-    'img/clue_guides/slide_puzzles/castle/tile_10.png', 'img/clue_guides/slide_puzzles/castle/tile_11.png', 'img/clue_guides/slide_puzzles/castle/tile_12.png',
-    'img/clue_guides/slide_puzzles/castle/tile_13.png', 'img/clue_guides/slide_puzzles/castle/tile_14.png', 'img/clue_guides/slide_puzzles/castle/tile_15.png',
-    'img/clue_guides/slide_puzzles/castle/tile_16.png', 'img/clue_guides/slide_puzzles/castle/tile_17.png', 'img/clue_guides/slide_puzzles/castle/tile_18.png',
-    'img/clue_guides/slide_puzzles/castle/tile_19.png', 'img/clue_guides/slide_puzzles/castle/tile_20.png', 'img/clue_guides/slide_puzzles/castle/tile_21.png',
-    'img/clue_guides/slide_puzzles/castle/tile_22.png', 'img/clue_guides/slide_puzzles/castle/tile_23.png', 'img/clue_guides/slide_puzzles/castle/tile_24.png',
+    "img/clue_guides/slide_puzzles/castle/tile_1.png",
+    "img/clue_guides/slide_puzzles/castle/tile_2.png",
+    "img/clue_guides/slide_puzzles/castle/tile_3.png",
+    "img/clue_guides/slide_puzzles/castle/tile_4.png",
+    "img/clue_guides/slide_puzzles/castle/tile_5.png",
+    "img/clue_guides/slide_puzzles/castle/tile_6.png",
+    "img/clue_guides/slide_puzzles/castle/tile_7.png",
+    "img/clue_guides/slide_puzzles/castle/tile_8.png",
+    "img/clue_guides/slide_puzzles/castle/tile_9.png",
+    "img/clue_guides/slide_puzzles/castle/tile_10.png",
+    "img/clue_guides/slide_puzzles/castle/tile_11.png",
+    "img/clue_guides/slide_puzzles/castle/tile_12.png",
+    "img/clue_guides/slide_puzzles/castle/tile_13.png",
+    "img/clue_guides/slide_puzzles/castle/tile_14.png",
+    "img/clue_guides/slide_puzzles/castle/tile_15.png",
+    "img/clue_guides/slide_puzzles/castle/tile_16.png",
+    "img/clue_guides/slide_puzzles/castle/tile_17.png",
+    "img/clue_guides/slide_puzzles/castle/tile_18.png",
+    "img/clue_guides/slide_puzzles/castle/tile_19.png",
+    "img/clue_guides/slide_puzzles/castle/tile_20.png",
+    "img/clue_guides/slide_puzzles/castle/tile_21.png",
+    "img/clue_guides/slide_puzzles/castle/tile_22.png",
+    "img/clue_guides/slide_puzzles/castle/tile_23.png",
+    "img/clue_guides/slide_puzzles/castle/tile_24.png",
 ];
 const puzzleSetTree = [
-    'img/clue_guides/slide_puzzles/tree/tile_1.png', 'img/clue_guides/slide_puzzles/tree/tile_2.png', 'img/clue_guides/slide_puzzles/tree/tile_3.png',
-    'img/clue_guides/slide_puzzles/tree/tile_4.png', 'img/clue_guides/slide_puzzles/tree/tile_5.png', 'img/clue_guides/slide_puzzles/tree/tile_6.png',
-    'img/clue_guides/slide_puzzles/tree/tile_7.png', 'img/clue_guides/slide_puzzles/tree/tile_8.png', 'img/clue_guides/slide_puzzles/tree/tile_9.png',
-    'img/clue_guides/slide_puzzles/tree/tile_10.png', 'img/clue_guides/slide_puzzles/tree/tile_11.png', 'img/clue_guides/slide_puzzles/tree/tile_12.png',
-    'img/clue_guides/slide_puzzles/tree/tile_13.png', 'img/clue_guides/slide_puzzles/tree/tile_14.png', 'img/clue_guides/slide_puzzles/tree/tile_15.png',
-    'img/clue_guides/slide_puzzles/tree/tile_16.png', 'img/clue_guides/slide_puzzles/tree/tile_17.png', 'img/clue_guides/slide_puzzles/tree/tile_18.png',
-    'img/clue_guides/slide_puzzles/tree/tile_19.png', 'img/clue_guides/slide_puzzles/tree/tile_20.png', 'img/clue_guides/slide_puzzles/tree/tile_21.png',
-    'img/clue_guides/slide_puzzles/tree/tile_22.png', 'img/clue_guides/slide_puzzles/tree/tile_23.png', 'img/clue_guides/slide_puzzles/tree/tile_24.png',
+    "img/clue_guides/slide_puzzles/tree/tile_1.png",
+    "img/clue_guides/slide_puzzles/tree/tile_2.png",
+    "img/clue_guides/slide_puzzles/tree/tile_3.png",
+    "img/clue_guides/slide_puzzles/tree/tile_4.png",
+    "img/clue_guides/slide_puzzles/tree/tile_5.png",
+    "img/clue_guides/slide_puzzles/tree/tile_6.png",
+    "img/clue_guides/slide_puzzles/tree/tile_7.png",
+    "img/clue_guides/slide_puzzles/tree/tile_8.png",
+    "img/clue_guides/slide_puzzles/tree/tile_9.png",
+    "img/clue_guides/slide_puzzles/tree/tile_10.png",
+    "img/clue_guides/slide_puzzles/tree/tile_11.png",
+    "img/clue_guides/slide_puzzles/tree/tile_12.png",
+    "img/clue_guides/slide_puzzles/tree/tile_13.png",
+    "img/clue_guides/slide_puzzles/tree/tile_14.png",
+    "img/clue_guides/slide_puzzles/tree/tile_15.png",
+    "img/clue_guides/slide_puzzles/tree/tile_16.png",
+    "img/clue_guides/slide_puzzles/tree/tile_17.png",
+    "img/clue_guides/slide_puzzles/tree/tile_18.png",
+    "img/clue_guides/slide_puzzles/tree/tile_19.png",
+    "img/clue_guides/slide_puzzles/tree/tile_20.png",
+    "img/clue_guides/slide_puzzles/tree/tile_21.png",
+    "img/clue_guides/slide_puzzles/tree/tile_22.png",
+    "img/clue_guides/slide_puzzles/tree/tile_23.png",
+    "img/clue_guides/slide_puzzles/tree/tile_24.png",
 ];
 const puzzleSetTroll = [
-    'img/clue_guides/slide_puzzles/troll/tile_1.png', 'img/clue_guides/slide_puzzles/troll/tile_2.png', 'img/clue_guides/slide_puzzles/troll/tile_3.png',
-    'img/clue_guides/slide_puzzles/troll/tile_4.png', 'img/clue_guides/slide_puzzles/troll/tile_5.png', 'img/clue_guides/slide_puzzles/troll/tile_6.png',
-    'img/clue_guides/slide_puzzles/troll/tile_7.png', 'img/clue_guides/slide_puzzles/troll/tile_8.png', 'img/clue_guides/slide_puzzles/troll/tile_9.png',
-    'img/clue_guides/slide_puzzles/troll/tile_10.png', 'img/clue_guides/slide_puzzles/troll/tile_11.png', 'img/clue_guides/slide_puzzles/troll/tile_12.png',
-    'img/clue_guides/slide_puzzles/troll/tile_13.png', 'img/clue_guides/slide_puzzles/troll/tile_14.png', 'img/clue_guides/slide_puzzles/troll/tile_15.png',
-    'img/clue_guides/slide_puzzles/troll/tile_16.png', 'img/clue_guides/slide_puzzles/troll/tile_17.png', 'img/clue_guides/slide_puzzles/troll/tile_18.png',
-    'img/clue_guides/slide_puzzles/troll/tile_19.png', 'img/clue_guides/slide_puzzles/troll/tile_20.png', 'img/clue_guides/slide_puzzles/troll/tile_21.png',
-    'img/clue_guides/slide_puzzles/troll/tile_22.png', 'img/clue_guides/slide_puzzles/troll/tile_23.png', 'img/clue_guides/slide_puzzles/troll/tile_24.png',
+    "img/clue_guides/slide_puzzles/troll/tile_1.png",
+    "img/clue_guides/slide_puzzles/troll/tile_2.png",
+    "img/clue_guides/slide_puzzles/troll/tile_3.png",
+    "img/clue_guides/slide_puzzles/troll/tile_4.png",
+    "img/clue_guides/slide_puzzles/troll/tile_5.png",
+    "img/clue_guides/slide_puzzles/troll/tile_6.png",
+    "img/clue_guides/slide_puzzles/troll/tile_7.png",
+    "img/clue_guides/slide_puzzles/troll/tile_8.png",
+    "img/clue_guides/slide_puzzles/troll/tile_9.png",
+    "img/clue_guides/slide_puzzles/troll/tile_10.png",
+    "img/clue_guides/slide_puzzles/troll/tile_11.png",
+    "img/clue_guides/slide_puzzles/troll/tile_12.png",
+    "img/clue_guides/slide_puzzles/troll/tile_13.png",
+    "img/clue_guides/slide_puzzles/troll/tile_14.png",
+    "img/clue_guides/slide_puzzles/troll/tile_15.png",
+    "img/clue_guides/slide_puzzles/troll/tile_16.png",
+    "img/clue_guides/slide_puzzles/troll/tile_17.png",
+    "img/clue_guides/slide_puzzles/troll/tile_18.png",
+    "img/clue_guides/slide_puzzles/troll/tile_19.png",
+    "img/clue_guides/slide_puzzles/troll/tile_20.png",
+    "img/clue_guides/slide_puzzles/troll/tile_21.png",
+    "img/clue_guides/slide_puzzles/troll/tile_22.png",
+    "img/clue_guides/slide_puzzles/troll/tile_23.png",
+    "img/clue_guides/slide_puzzles/troll/tile_24.png",
 ];

@@ -1,18 +1,18 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const scrollBtn = document.getElementById('scrollToTop');
+document.addEventListener("DOMContentLoaded", () => {
+    const scrollBtn = document.getElementById("scrollToTop");
 
-    window.addEventListener('scroll', () => {
+    window.addEventListener("scroll", () => {
         if (window.scrollY > 300) {
-            scrollBtn.style.display = 'block';
+            scrollBtn.style.display = "block";
         } else {
-            scrollBtn.style.display = 'none';
+            scrollBtn.style.display = "none";
         }
     });
 
-    scrollBtn.addEventListener('click', () => {
+    scrollBtn.addEventListener("click", () => {
         window.scrollTo({
             top: 0,
-            behavior: 'smooth'
+            behavior: "smooth",
         });
     });
 });
@@ -23,7 +23,7 @@ function openLightbox(src) {
     img.src = src;
     overlay.style.display = "flex";
 }
-  
+
 function closeLightbox() {
     document.getElementById("lightbox").style.display = "none";
 }

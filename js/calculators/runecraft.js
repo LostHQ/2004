@@ -12,17 +12,17 @@ function runCalc() {
         { name: "bodyrune", xp: 7.5, level: 20 },
         { name: "cosmicrune", xp: 8, level: 27 },
         { name: "chaosrune", xp: 8.5, level: 35 },
-        { name: "naturerune", xp: 9, level: 44 }
+        { name: "naturerune", xp: 9, level: 44 },
     ];
 
     updateProgressBar(currentXP, targetXP);
 
     const tableBody = document.querySelector("#resultsTable tbody");
-    tableBody.innerHTML = ""; 
+    tableBody.innerHTML = "";
 
     for (let rune of runes) {
         let runeCount = Math.ceil(xpNeeded / rune.xp);
-        
+
         let row = document.createElement("tr");
         row.innerHTML = `
             <td>${rune.level}</td>

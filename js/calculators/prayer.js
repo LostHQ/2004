@@ -4,22 +4,22 @@ function runCalc() {
     const xpNeeded = targetXP - currentXP;
 
     const bones = {
-        "Bones": 4.5,
+        Bones: 4.5,
         "bones burnt": 4.5,
         "Bat Bones": 4.5,
         "Wolf Bones": 4.5,
         "Big Bones": 15,
         "Babydragon Bones": 30,
-        "Dragon Bones": 72
+        "Dragon Bones": 72,
     };
 
     updateProgressBar(currentXP, targetXP);
 
     const tableBody = document.querySelector("#resultsTable tbody");
-    tableBody.innerHTML = ""; 
+    tableBody.innerHTML = "";
 
     for (let bone in bones) {
-        let boneCount = Math.ceil(xpNeeded / bones[bone]); 
+        let boneCount = Math.ceil(xpNeeded / bones[bone]);
 
         let row = document.createElement("tr");
         row.innerHTML = `

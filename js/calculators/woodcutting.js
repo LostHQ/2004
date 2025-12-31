@@ -10,16 +10,16 @@ function runCalc() {
         { name: "willow_logs", xp: 67.5, level: 30 },
         { name: "maple_logs", xp: 100, level: 45 },
         { name: "yew_logs", xp: 175, level: 60 },
-        { name: "magic_logs", xp: 250, level: 75 }
+        { name: "magic_logs", xp: 250, level: 75 },
     ];
 
     updateProgressBar(currentXP, targetXP);
 
     const tableBody = document.querySelector("#resultsTable tbody");
-    tableBody.innerHTML = ""; 
+    tableBody.innerHTML = "";
 
     for (let log of logs) {
-        let logCount = Math.ceil(xpNeeded / log.xp); 
+        let logCount = Math.ceil(xpNeeded / log.xp);
 
         let row = document.createElement("tr");
         row.innerHTML = `

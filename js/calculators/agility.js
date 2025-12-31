@@ -1,4 +1,4 @@
-let mode = 'courses';
+let mode = "courses";
 function setMode(newMode) {
     mode = newMode;
     runCalc();
@@ -12,7 +12,7 @@ function runCalc() {
     const courses = {
         "Gnome Stronghold": { xp: 86.5, level: 1 },
         "Barbarian Outpost": { xp: 139.5, level: 35 },
-        "Wilderness": { xp: 571.4, level: 52 },
+        Wilderness: { xp: 571.4, level: 52 },
     };
     const shortcuts = {
         "A wooden log (Karamja)": { xp: 4, level: 1 },
@@ -33,10 +33,10 @@ function runCalc() {
     let dataSet;
     switch (mode) {
         default:
-        case 'courses':
+        case "courses":
             dataSet = courses;
             break;
-        case 'shortcuts':
+        case "shortcuts":
             dataSet = shortcuts;
             break;
     }
@@ -56,5 +56,4 @@ function runCalc() {
         `;
         tableBody.appendChild(row);
     }
-
 }

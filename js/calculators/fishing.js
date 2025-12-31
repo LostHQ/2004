@@ -20,9 +20,9 @@ function runCalc() {
         { name: "raw_lava_eel", xp: 60, level: 53 },
         { name: "raw_shark", xp: 110, level: 76 },
         { name: "raw_seaturtle", xp: 57, level: 79 },
-        { name: "raw_mantaray", xp: 69, level: 81 }
+        { name: "raw_mantaray", xp: 69, level: 81 },
     ];
-    
+
     updateProgressBar(currentXP, targetXP);
 
     const tableBody = document.querySelector("#resultsTable tbody");
@@ -30,7 +30,7 @@ function runCalc() {
 
     for (let fish of fishes) {
         let estimatedCatches = Math.ceil(xpNeeded / fish.xp);
-        
+
         let row = document.createElement("tr");
         row.innerHTML = `
             <td>${fish.level}</td>

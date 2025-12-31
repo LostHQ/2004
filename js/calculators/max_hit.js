@@ -1,5 +1,5 @@
 function switchCombat(type) {
-    ["melee", "ranged", "magic"].forEach(c => {
+    ["melee", "ranged", "magic"].forEach((c) => {
         document.getElementById(c + "Options").classList.toggle("hidden", c !== type);
     });
     calculateFromEquipment();
@@ -15,7 +15,7 @@ function runCalc() {
         const amuletBonus = parseInt(document.getElementById("amuletBonus").value) || 0;
         const glovesBonus = parseInt(document.getElementById("glovesBonus").value) || 0;
 
-        const potionValues = document.getElementById("meleePotion").value.split(',');
+        const potionValues = document.getElementById("meleePotion").value.split(",");
         const potionFlatBonus = parseInt(potionValues[0]);
         const potionPercentageBonus = parseFloat(potionValues[1]);
 
@@ -33,7 +33,7 @@ function runCalc() {
 
         const totalStrengthBonus = parseInt(document.getElementById("strengthBonus").value) || 0;
 
-        maxHit = Math.floor(((effectiveStrength * (totalStrengthBonus + 64)) + 320) / 640);
+        maxHit = Math.floor((effectiveStrength * (totalStrengthBonus + 64) + 320) / 640);
 
         // Calculate max hit of special attack if applicable
         const specialDiv = document.getElementById("specialDiv");
@@ -41,7 +41,7 @@ function runCalc() {
 
         const selected = meleeWeaponBonus.options[meleeWeaponBonus.selectedIndex];
         const specialMultiplier = parseFloat(selected.dataset.special);
-        
+
         if (!isNaN(specialMultiplier)) {
             const specialHit = Math.floor(maxHit * specialMultiplier);
             document.getElementById("specialResult").textContent = specialHit;
@@ -49,7 +49,6 @@ function runCalc() {
         } else {
             specialDiv.style.display = "none";
         }
-
     } else if (!document.getElementById("rangedOptions").classList.contains("hidden")) {
         const rangedLevel = parseInt(document.getElementById("rangedLevel").value);
         const rangedFightingStyle = parseInt(document.getElementById("rangedFightingStyle").value);
@@ -65,7 +64,7 @@ function runCalc() {
             bonus = parseInt(weaponSelect.value);
         }
 
-        const potionValues = document.getElementById("rangedPotion").value.split(',');
+        const potionValues = document.getElementById("rangedPotion").value.split(",");
         const potionFlatBonus = parseInt(potionValues[0]);
         const potionPercentageBonus = parseFloat(potionValues[1]);
 
@@ -82,8 +81,7 @@ function runCalc() {
 
         const totalRangedBonus = parseInt(document.getElementById("rangedBonus").value) || 0;
 
-        maxHit = Math.floor(((effectiveRanged * (totalRangedBonus + 64)) + 320) / 640);
-        
+        maxHit = Math.floor((effectiveRanged * (totalRangedBonus + 64) + 320) / 640);
     } else {
         const spell = parseInt(document.getElementById("spell").value);
         const gauntletBonus = parseFloat(document.getElementById("chaosGauntlets").value);
@@ -129,23 +127,34 @@ function toggleOptions() {
     if (selectedOption.id === "bowAndArrow") {
         document.getElementById("arrowOptions").classList.remove("hidden");
         document.getElementById("boltOptions").classList.add("hidden");
-    }
-    else if (selectedOption.id === "crossbowAndBolt") {
+    } else if (selectedOption.id === "crossbowAndBolt") {
         document.getElementById("arrowOptions").classList.add("hidden");
         document.getElementById("boltOptions").classList.remove("hidden");
-    }
-    else {
+    } else {
         document.getElementById("arrowOptions").classList.add("hidden");
         document.getElementById("boltOptions").classList.add("hidden");
     }
     calculateFromEquipment();
 }
 
-["strengthLevel", "strengthBonus", "meleeFightingStyle", "meleePotion", "meleePrayer", "rangedLevel", "rangedWeaponBonus", "arrowBonus", "boltBonus", "rangedPotion", "spell", "chaosGauntlets"].forEach(id => {
+[
+    "strengthLevel",
+    "strengthBonus",
+    "meleeFightingStyle",
+    "meleePotion",
+    "meleePrayer",
+    "rangedLevel",
+    "rangedWeaponBonus",
+    "arrowBonus",
+    "boltBonus",
+    "rangedPotion",
+    "spell",
+    "chaosGauntlets",
+].forEach((id) => {
     document.getElementById(id).addEventListener("change", runCalc);
 });
 
-["meleeWeaponBonus", "amuletBonus", "glovesBonus", "rangedBonus", "arrowBonus", "boltBonus"].forEach(id => {
+["meleeWeaponBonus", "amuletBonus", "glovesBonus", "rangedBonus", "arrowBonus", "boltBonus"].forEach((id) => {
     document.getElementById(id).addEventListener("change", calculateFromEquipment);
 });
 
