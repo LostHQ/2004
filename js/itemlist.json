@@ -39581,8 +39581,7 @@
     "desc": "The key to the troll prison.",
     "cost": 1,
     "weight": 55,
-    "members": true,
-    "tradeable": true
+    "members": true
   },
   {
     "debugname": "troll_key_godric",
@@ -39591,8 +39590,7 @@
     "desc": "The key to Godric's cell in the troll prison.",
     "cost": 1,
     "weight": 55,
-    "members": true,
-    "tradeable": true
+    "members": true
   },
   {
     "debugname": "troll_key_eadgar",
@@ -39601,8 +39599,7 @@
     "desc": "The key to Mad Eadgar's cell in the troll prison.",
     "cost": 1,
     "weight": 55,
-    "members": true,
-    "tradeable": true
+    "members": true
   },
   {
     "debugname": "cactus_potato",
