@@ -1,4 +1,12 @@
-import bonesXp from "./prayer.js";
+const bonesXp = {
+    bones: 4.5,
+    bones_burnt: 4.5,
+    bat_bones: 4.5,
+    wolf_bones: 4.5,
+    big_bones: 15,
+    babydragon_bones: 30,
+    dragon_bones: 72,
+};
 
 let npcsData = [];
 
@@ -7,7 +15,7 @@ async function loadNpcsData() {
         return;
     }
     try {
-        const response = await fetch("../droptables/monster_drops.json");
+        const response = await fetch("/js/droptables/monster_drops.json");
         const monsterData = await response.json();
 
         npcsData = Object.values(monsterData)

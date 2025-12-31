@@ -1,4 +1,4 @@
-let mode = "smelting_bars";
+let mode = "smelting";
 function setMode(selectedMode) {
     mode = selectedMode;
     document.getElementById("metalSelection").style.display = mode === "smelting" ? "none" : "block";
@@ -155,15 +155,6 @@ const smeltingXP = {
     runite_bar: { xp: 50, level: 85 },
 };
 
-const barXP = {
-    bronze: 6.2,
-    iron: 12.5,
-    steel: 17.5,
-    mithril: 22.5,
-    adamant: 37.5,
-    rune: 50,
-};
-
 function runCalc() {
     const currentXP = parseInt(document.getElementById("currentXP").value);
     const targetXP = parseInt(document.getElementById("targetXP").value);
@@ -179,7 +170,7 @@ function runCalc() {
     const tableBody = tableElem.querySelector("tbody");
     const tableHead = tableElem.querySelector("thead");
     tableHead.innerHTML = "";
-    let headerRow = document.createElement("tr");
+    const headerRow = document.createElement("tr");
 
     if (mode === "smelting") {
         headerRow.innerHTML = `<th>Level</th><th>Item</th><th>XP per Smelt</th><th>Total Bars</th>`;
@@ -191,51 +182,62 @@ function runCalc() {
 
     tableBody.innerHTML = "";
 
-    if (mode === "smelting") {
-        for (const [item, data] of Object.entries(smeltingData)) {
-            // Skip items above target level
-            // Use for later
-            //    if (data.level > targetLevel) continue;
-
-            const amountNeeded = Math.ceil(xpNeeded / data.xp);
-
-            const row = document.createElement("tr");
-            let iteminfo = `"${item}"`;
-            if (item == "goldsmithgauntlets") {
-                iteminfo = `"gold_bar" data-name-append="(Goldsmith Gauntlets)"`;
+    switch (mode) {
+        default:
+        case "smelting":
+            for (const [item, data] of Object.entries(smeltingData)) {
+                const amountNeeded = Math.ceil(xpNeeded / data.xp);
+                const row = document.createElement("tr");
+                let iteminfo = `"${item}"`;
+                if (item == "goldsmithgauntlets") {
+                    iteminfo = `"gold_bar" data-name-append="(Goldsmith Gauntlets)"`;
+                }
+                row.innerHTML =
+                    `<td>${data.level}</td>
+                    <td><canvas data-itemname=${iteminfo} data-show-label="inline"></canvas></td>
+                    <td>${data.xp}</td>
+                    <td>${amountNeeded.toLocaleString()}</td>`;
+                tableBody.appendChild(row);
             }
-            row.innerHTML = `
-                <td>${data.level}</td>
-                <td><canvas data-itemname=${iteminfo} data-show-label="inline"></canvas></td>
-                <td>${data.xp}</td>
-                <td>${amountNeeded.toLocaleString()}</td>
-            `;
-            tableBody.appendChild(row);
-        }
-    } else {
-        for (const [item, data] of Object.entries(smithingData)) {
-            // Skip items above target level
-            // Use for later
-            //    if (data.level > targetLevel) continue;
-
-            let amountNeeded;
-
-            if (mode === "smelting_bars") {
-                const barXPvalue = barXP[selectedMetal];
-                amountNeeded = Math.ceil(xpNeeded / (data.xp + data.bars * barXPvalue));
-            } else {
-                amountNeeded = Math.ceil(xpNeeded / data.xp);
+            break;
+        case "smithing":
+            for (const [item, data] of Object.entries(smithingData)) {
+                const amountNeeded = Math.ceil(xpNeeded / data.xp);
+                const row = document.createElement("tr");
+                row.innerHTML =
+                    `<td>${data.level}</td>
+                    <td><canvas data-itemname="${item}" data-show-label="inline"></canvas></td>
+                    <td>${data.bars}</td>
+                    <td>${amountNeeded.toLocaleString()}</td>`;
+                tableBody.appendChild(row);
             }
-
-            const row = document.createElement("tr");
-            row.innerHTML = `
-                <td>${data.level}</td>
-                <td><canvas data-itemname="${item}" data-show-label="inline"></canvas></td>
-                <td>${data.bars}</td>
-                <td>${amountNeeded.toLocaleString()}</td>
-            `;
-            tableBody.appendChild(row);
-        }
+            break;
+        case "smelting_smithing":
+            for (const [item, data] of Object.entries(smithingData)) {
+                let barXPvalue = smeltingXP["bronze_bar"].xp;
+                switch (selectedMetal) {
+                    default: case "bronze": break;
+                    case "iron":
+                        barXPvalue = smeltingXP["iron_bar"].xp; break;
+                    case "steel":
+                        barXPvalue = smeltingXP["steel_bar"].xp; break;
+                    case "mithril":
+                        barXPvalue = smeltingXP["mithril_bar"].xp; break;
+                    case "adamant":
+                        barXPvalue = smeltingXP["adamantite_bar"].xp; break;
+                    case "rune":
+                        barXPvalue = smeltingXP["runite_bar"].xp; break;
+                }
+                const amountNeeded = Math.ceil(xpNeeded / (data.xp + data.bars * barXPvalue));
+                const row = document.createElement("tr");
+                row.innerHTML =
+                    `<td>${data.level}</td>
+                    <td><canvas data-itemname="${item}" data-show-label="inline"></canvas></td>
+                    <td>${data.bars}</td>
+                    <td>${amountNeeded.toLocaleString()}</td>`;
+                tableBody.appendChild(row);
+            }
+            break;
     }
 
     window.safeRenderAllSprites();

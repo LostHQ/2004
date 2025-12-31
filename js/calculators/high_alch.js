@@ -73,28 +73,24 @@ function runCalc() {
     document.getElementById("totalMagicXP").textContent = totalMagicXP.toLocaleString() + " XP";
 }
 
-// Event listener to update High Alch value when Item Value is changed
 document.getElementById("itemValue").addEventListener("input", function () {
     const itemValue = parseInt(document.getElementById("itemValue").value);
     const highAlchValue = Math.floor(itemValue * 0.6);
     document.getElementById("haValue").value = highAlchValue;
-    runCalc(); // Recalculate the profit with updated values
+    runCalc();
 });
 
-// Event listener to update Item Value when High Alch value is changed
 document.getElementById("haValue").addEventListener("input", function () {
     const highAlchValue = parseInt(document.getElementById("haValue").value);
     const itemValue = Math.floor(highAlchValue / 0.6);
     document.getElementById("itemValue").value = itemValue;
-    runCalc(); // Recalculate the profit with updated values
+    runCalc();
 });
 
-// Event listener to update profit when Quantity is changed
 document.getElementById("quantity").addEventListener("input", function () {
-    runCalc(); // Recalculate the profit with updated quantity
+    runCalc();
 });
 
-// Event listener to update profit when Nature Rune Price is changed
 document.getElementById("natureRunePrice").addEventListener("input", function () {
-    runCalc(); // Recalculate the profit with updated nature rune price
+    runCalc();
 });

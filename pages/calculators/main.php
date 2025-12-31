@@ -35,8 +35,8 @@ class CalculatorType {
     }
 }
 function getExtraHeaderContent() { return
-    getCSSVersion('css/calculators.css') .
-    getJavaScriptVersion('js/calculators.js');
+    getCSS('css/calculators.css') .
+    getJS('js/calculators.js');
 }
 function getPageContent(): string {
     global $meta_data, $siteOptStyle;
@@ -91,7 +91,7 @@ function generateCalculatorLinks(): string {
 
     $miscRows = $generateLinks($miscCalculators);
 
-    return getCSSVersion('css/calculators.css') . <<<HTML
+    return getCSS('css/calculators.css') . <<<HTML
         <table width="90%" class="table">
             <tr>
                 <th>Skill Calculators</th>
@@ -100,7 +100,7 @@ function generateCalculatorLinks(): string {
                 <td>
                     Select a skill below to get to the calculator for that skill.<br>
                     <canvas data-skills="skillTree" data-width="188" data-style="$siteOptStyle"></canvas>
-HTML.getJavaScriptVersion('js/skillgrid.js').<<<HTML
+HTML.getJS('js/skillgrid.js').<<<HTML
                 </td>
             </tr>
         </table><br>
@@ -115,4 +115,4 @@ HTML.getJavaScriptVersion('js/skillgrid.js').<<<HTML
             </tr>
         </table><br>
         <div class="xp-table"></div>
-HTML.getJavaScriptVersion('js/calculators.js').'<script>renderXpTable();</script>'; }
+HTML.getJS('js/calculators.js').'<script>renderXpTable();</script>'; }

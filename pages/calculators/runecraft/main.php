@@ -34,4 +34,4 @@ function getCalcContent() { return <<<HTML
         <tbody></tbody>
     </table>
 </div>
-HTML.getJavaScriptVersion('js/calculators/runecraft.js'); }
+HTML.getJS('js/calculators/runecraft.js'); }

@@ -31,11 +31,11 @@ if (substr($meta_data['og:image'], 0, 4) == "http") {
     <title>LostHQ > <?php echo $meta_data['title']; ?></title>
     <link rel="icon" type="image/x-icon" href="img/sword.png">
     <?php
-    echo getCSSVersion('css/main.css');
-    echo getJavaScriptVersion('js/main.js');
-    echo getJavaScriptVersion('js/site_options.js');
-    echo getJavaScriptVersion('js/floor_selector.js');
-    echo getJavaScriptVersion('js/sprite_loader.js');
+    echo getCSS('css/main.css');
+    echo getJS('js/main.js');
+    echo getJS('js/site_options.js');
+    echo getJS('js/floor_selector.js');
+    echo getJS('js/sprite_loader.js');
     if (function_exists('getExtraHeaderContent')) { echo getExtraHeaderContent(); }
     ?>
 </head>

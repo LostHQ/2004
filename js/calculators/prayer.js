@@ -1,4 +1,4 @@
-export const bonesXp = {
+const bonesXp = {
     bones: 4.5,
     bones_burnt: 4.5,
     bat_bones: 4.5,
@@ -18,15 +18,13 @@ function runCalc() {
     const tableBody = document.querySelector("#resultsTable tbody");
     tableBody.innerHTML = "";
 
-    for (let bone in bonesXp) {
-        let boneCount = Math.ceil(xpNeeded / bonesXp[bone]);
-
-        let row = document.createElement("tr");
-        row.innerHTML = `
-            <td><canvas data-itemname="${bone.toLowerCase().replace(/\s+/g, "_")}" data-show-label="inline"></canvas></td>
-            <td>${bonesXp[bone]}</td>
-            <td>${boneCount.toLocaleString()}</td>
-        `;
+    for (const [item, xp] of Object.entries(bonesXp)) {
+        const boneCount = Math.ceil(xpNeeded / xp);
+        const row = document.createElement("tr");
+        row.innerHTML =
+            `<td><canvas data-itemname="${item}" data-show-label="inline"></canvas></td>
+            <td>${xp}</td>
+            <td>${boneCount.toLocaleString()}</td>`;
         tableBody.appendChild(row);
     }
     window.safeRenderAllSprites();

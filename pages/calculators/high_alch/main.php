@@ -34,4 +34,4 @@ function getCalcContent() { return <<<HTML
     <h3>Cost of Nature Runes: <span id="costOfNatures" class="red-text"></span></h3>
     <h3>Total Magic XP: <span id="totalMagicXP" class="gold-text"></span></h3>
 </div>
-HTML.getJavaScriptVersion('js/calculators/high_alch.js'); }
+HTML.getJS('js/calculators/high_alch.js'); }

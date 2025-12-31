@@ -42,4 +42,4 @@ function getCalcContent() { return <<<HTML
         <tbody></tbody>
     </table>
 </div>
-HTML.getJavaScriptVersion('js/calculators/crafting.js'); }
+HTML.getJS('js/calculators/crafting.js'); }

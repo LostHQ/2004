@@ -34,4 +34,4 @@ function getCalcContent() { return <<<HTML
         <tbody></tbody>
     </table>
 </div>
-HTML.getJavaScriptVersion('js/calculators/woodcutting.js'); }
+HTML.getJS('js/calculators/woodcutting.js'); }

@@ -1,7 +1,7 @@
 function runCalc() {
     const currentRunEnergy = parseInt(document.getElementById("currentRunEnergy").value);
     const agilityLevel = parseInt(document.getElementById("agilityLevel").value);
-    const recovered = Math.floor(agilityLevel / 6) + 8; // every 9 levels in 225
+    const recovered = Math.floor(agilityLevel / 6) + 8; // every 9 levels in 225, 6 levels in 244+
     const secondsPerPercent = 60 / recovered;
 
     document.getElementById("restorePerPercent").textContent = `${secondsPerPercent.toFixed(2)} seconds`;

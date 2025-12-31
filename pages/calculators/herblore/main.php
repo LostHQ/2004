@@ -30,4 +30,4 @@ function getCalcContent() { return <<<HTML
     <br>
     <div id="results"></div>
 </div>
-HTML.getJavaScriptVersion('js/calculators/herblore.js'); }
+HTML.getJS('js/calculators/herblore.js'); }

@@ -78,6 +78,6 @@ select, #itemSearch {
   color: #004499;
 }
 </style>
-HTML.getJavaScriptVersion('js/droptables/droptables.js');
+HTML.getJS('js/droptables/droptables.js');
     return ob_get_clean();
 }

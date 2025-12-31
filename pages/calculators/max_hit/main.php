@@ -284,4 +284,4 @@ function getCalcContent() { return <<<HTML
         <h3>Max Hit with Special Attack: <span id="specialResult" class="gold-text"></span></h3>
     </div>
 </div>
-HTML.getJavaScriptVersion('js/calculators/max_hit.js'); }
+HTML.getJS('js/calculators/max_hit.js'); }

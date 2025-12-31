@@ -21,7 +21,7 @@ if ($debugMode) { error_reporting(0); }
 else { error_reporting(E_ALL); }
 
 // Site-wide Helper Functions
-function getJavaScriptVersion(string $filename): string {
+function getJS(string $filename): string {
     if (file_exists($filename)) {
         return '<script type="text/javascript" src="' . $filename . '?v=' . filemtime($filename) . '"></script>';
     } else {
@@ -29,7 +29,7 @@ function getJavaScriptVersion(string $filename): string {
     }
 }
 
-function getCSSVersion(string $filename): string {
+function getCSS(string $filename): string {
     if (file_exists($filename)) {
         return '<link rel="stylesheet" type="text/css" href="' . $filename . '?v=' . filemtime($filename) . '">';
     } else {

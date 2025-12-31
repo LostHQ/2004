@@ -64,7 +64,7 @@ $questlist = array(
 );
 ksort($questlist);
 
-function getExtraHeaderContent() { return getJavaScriptVersion('js/fonts.js'); }
+function getExtraHeaderContent() { return getJS('js/fonts.js'); }
 
 function getPageContent() {
     global $miniquestlist, $questlist, $meta_data, $siteOptStyle;
@@ -102,7 +102,7 @@ function getPageContent() {
                     <canvas data-questreqs="members"></canvas>
                 </td>
             </tr>
-        </table>'.getJavaScriptVersion('js/statcanvas.js');
+        </table>'.getJS('js/statcanvas.js');
     } else {
         $currQuest = htmlspecialchars($_GET['quest']);
         $found = false;

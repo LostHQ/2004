@@ -1,5 +1,5 @@
 <?php
-function getExtraHeaderContent() { return getCSSVersion('css/droptables.css'); }
+function getExtraHeaderContent() { return getCSS('css/droptables.css'); }
 function getPageContent() {
     global $meta_data;
     $meta_data['title'] = 'Clue Tables';
