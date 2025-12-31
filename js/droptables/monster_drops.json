@@ -9,7 +9,7 @@
       "hitpoints": "22",
       "op2": "Attack",
       "op3": "Pickpocket",
-      "params": {"attackrate":"5","attackbonus":"9","strengthbonus":"7","stabdefence":"24","slashdefence":"14","crushdefence":"19","magicdefence":"4","rangedefence":"16","damagetype":"^crush_style","attack_anim":"human_blunt_pound","defend_anim":"human_blunt_block","attack_sound":"mace_crush"},
+      "params": {"attackrate":"5","attackbonus":"9","strengthbonus":"7","stabdefence":"24","slashdefence":"14","crushdefence":"19","magicdefence":"4","rangedefence":"16","damagetype":"^crush_style","attack_anim":"human_blunt_pound","defend_anim":"human_blunt_block","attack_sound":"warhammer_crush"},
       "respawnrate": "100",
       "strength": "18",
       "vislevel": "20"
@@ -253,7 +253,7 @@
       "params": {"stabdefence":"50","slashdefence":"70","crushdefence":"70","magicdefence":"60","rangedefence":"50","damagetype":"^slash_style","attack_anim":"dragon_attack","defend_anim":"dragon_block","death_anim":"dragon_death","attack_sound":"dragon_attack","defend_sound":"dragon_hit","death_sound":"dragon_death","death_drop":"dragon_bones"},
       "respawnrate": "60",
       "strength": "200",
-      "vislevel": "199",
+      "vislevel": "227",
       "wanderrange": "10"
     },
     "roll_base": 128,
@@ -344,7 +344,7 @@
       "params": {"stabdefence":"50","slashdefence":"70","crushdefence":"70","magicdefence":"60","rangedefence":"50","damagetype":"^slash_style","attack_anim":"dragon_attack","defend_anim":"dragon_block","death_anim":"dragon_death","attack_sound":"dragon_attack","defend_sound":"dragon_hit","death_sound":"dragon_death","death_drop":"dragon_bones"},
       "respawnrate": "60",
       "strength": "95",
-      "vislevel": "99",
+      "vislevel": "111",
       "wanderrange": "4"
     },
     "roll_base": 128,
@@ -390,7 +390,7 @@
       "op2": "Attack",
       "params": {"attackbonus":"11","strengthbonus":"12","slashdefence":"3","crushdefence":"2","damagetype":"^stab_style","attack_anim":"human_sword_stab","defend_anim":"human_sword_def","attack_sound":"stabsword_stab"},
       "strength": "17",
-      "vislevel": "21"
+      "vislevel": "22"
     },
     "roll_base": 128,
     "roll_table": [
@@ -432,7 +432,7 @@
       "params": {"stabdefence":"-21","slashdefence":"-21","crushdefence":"-21","magicdefence":"-21","rangedefence":"-21","attack_sound":"half_werewolf_attack","defend_sound":"half_werewolf_hit","death_sound":"half_werewolf_death","next_npc_type":"canafis_werewolf_man1","death_drop":"wolf_bones"},
       "respawnrate": "50",
       "strength": "10",
-      "vislevel": "26",
+      "vislevel": "24",
       "wanderrange": "5"
     },
     "roll_base": 512,
@@ -488,7 +488,7 @@
       "params": {"stabdefence":"-21","slashdefence":"-21","crushdefence":"-21","magicdefence":"-21","rangedefence":"-21","attack_sound":"half_werewolf_attack","defend_sound":"half_werewolf_hit","death_sound":"half_werewolf_death","next_npc_type":"canafis_werewolf_man2","death_drop":"wolf_bones"},
       "respawnrate": "50",
       "strength": "10",
-      "vislevel": "26",
+      "vislevel": "24",
       "wanderrange": "5"
     },
     "roll_base": 512,
@@ -544,7 +544,7 @@
       "params": {"stabdefence":"-21","slashdefence":"-21","crushdefence":"-21","magicdefence":"-21","rangedefence":"-21","attack_sound":"half_werewolf_attack","defend_sound":"half_werewolf_hit","death_sound":"half_werewolf_death","next_npc_type":"canafis_werewolf_man3","death_drop":"wolf_bones"},
       "respawnrate": "50",
       "strength": "10",
-      "vislevel": "26",
+      "vislevel": "24",
       "wanderrange": "5"
     },
     "roll_base": 512,
@@ -598,7 +598,7 @@
       "op2": "Attack",
       "params": {"damagetype":"^slash_style","magicdefence":"60","attack_anim":"werewolf_attack","defend_anim":"werewolf_block","death_anim":"werewolf_death","attack_sound":"wolf_attack","defend_sound":"wolf_hit","death_sound":"wolf_death","death_drop":"wolf_bones"},
       "strength": "70",
-      "vislevel": "73",
+      "vislevel": "88",
       "wanderrange": "5"
     },
     "roll_base": 512,
@@ -639,7 +639,7 @@
       "op2": "Attack",
       "params": {"damagetype":"^slash_style","magicdefence":"60","attack_anim":"werewolf_attack","defend_anim":"werewolf_block","death_anim":"werewolf_death","attack_sound":"wolf_attack","defend_sound":"wolf_hit","death_sound":"wolf_death","death_drop":"wolf_bones"},
       "strength": "70",
-      "vislevel": "73",
+      "vislevel": "88",
       "wanderrange": "5"
     },
     "roll_base": 512,
@@ -680,7 +680,7 @@
       "op2": "Attack",
       "params": {"damagetype":"^slash_style","magicdefence":"60","attack_anim":"werewolf_attack","defend_anim":"werewolf_block","death_anim":"werewolf_death","attack_sound":"wolf_attack","defend_sound":"wolf_hit","death_sound":"wolf_death","death_drop":"wolf_bones"},
       "strength": "70",
-      "vislevel": "73",
+      "vislevel": "88",
       "wanderrange": "5"
     },
     "roll_base": 512,
@@ -721,7 +721,7 @@
       "op2": "Attack",
       "params": {"damagetype":"^slash_style","magicdefence":"60","attack_anim":"werewolf_attack","defend_anim":"werewolf_block","death_anim":"werewolf_death","attack_sound":"wolf_attack","defend_sound":"wolf_hit","death_sound":"wolf_death","death_drop":"wolf_bones"},
       "strength": "70",
-      "vislevel": "73",
+      "vislevel": "88",
       "wanderrange": "5"
     },
     "roll_base": 512,
@@ -762,7 +762,7 @@
       "op2": "Attack",
       "params": {"damagetype":"^slash_style","magicdefence":"60","attack_anim":"werewolf_attack","defend_anim":"werewolf_block","death_anim":"werewolf_death","attack_sound":"wolf_attack","defend_sound":"wolf_hit","death_sound":"wolf_death","death_drop":"wolf_bones"},
       "strength": "70",
-      "vislevel": "73",
+      "vislevel": "88",
       "wanderrange": "5"
     },
     "roll_base": 512,
@@ -803,7 +803,7 @@
       "op2": "Attack",
       "params": {"damagetype":"^slash_style","magicdefence":"60","attack_anim":"werewolf_attack","defend_anim":"werewolf_block","death_anim":"werewolf_death","attack_sound":"wolf_attack","defend_sound":"wolf_hit","death_sound":"wolf_death","death_drop":"wolf_bones"},
       "strength": "70",
-      "vislevel": "73",
+      "vislevel": "88",
       "wanderrange": "5"
     },
     "roll_base": 512,
@@ -846,7 +846,7 @@
       "params": {"stabdefence":"-21","slashdefence":"-21","crushdefence":"-21","magicdefence":"-21","rangedefence":"-21","attack_sound":"half_werewolf_attack","defend_sound":"half_werewolf_hit","death_sound":"half_werewolf_death","next_npc_type":"canafis_werewolf_woman1","death_drop":"wolf_bones"},
       "respawnrate": "50",
       "strength": "10",
-      "vislevel": "26",
+      "vislevel": "24",
       "wanderrange": "5"
     },
     "roll_base": 512,
@@ -902,7 +902,7 @@
       "params": {"stabdefence":"-21","slashdefence":"-21","crushdefence":"-21","magicdefence":"-21","rangedefence":"-21","attack_sound":"half_werewolf_attack","defend_sound":"half_werewolf_hit","death_sound":"half_werewolf_death","next_npc_type":"canafis_werewolf_woman2","death_drop":"wolf_bones"},
       "respawnrate": "50",
       "strength": "10",
-      "vislevel": "26",
+      "vislevel": "24",
       "wanderrange": "5"
     },
     "roll_base": 512,
@@ -958,7 +958,7 @@
       "params": {"stabdefence":"-21","slashdefence":"-21","crushdefence":"-21","magicdefence":"-21","rangedefence":"-21","attack_sound":"half_werewolf_attack","defend_sound":"half_werewolf_hit","death_sound":"half_werewolf_death","next_npc_type":"canafis_werewolf_woman3","death_drop":"wolf_bones"},
       "respawnrate": "50",
       "strength": "10",
-      "vislevel": "26",
+      "vislevel": "24",
       "wanderrange": "5"
     },
     "roll_base": 512,
@@ -1051,7 +1051,7 @@
       "huntmode": "cowardly",
       "huntrange": "1",
       "op2": "Attack",
-      "params": {"attackrate":"5","attackbonus":"9","strengthbonus":"5","stabdefence":"13","slashdefence":"17","crushdefence":"14","magicdefence":"-4","rangedefence":"14","damagetype":"^crush_style","attack_anim":"human_blunt_pound","defend_anim":"human_blunt_block","attack_sound":"mace_crush"},
+      "params": {"attackrate":"5","attackbonus":"9","strengthbonus":"5","stabdefence":"13","slashdefence":"17","crushdefence":"14","magicdefence":"-4","rangedefence":"14","damagetype":"^crush_style","attack_anim":"human_blunt_pound","defend_anim":"human_blunt_block","attack_sound":"warhammer_crush"},
       "respawnrate": "100",
       "strength": "34",
       "vislevel": "37"
@@ -1162,6 +1162,489 @@
       {"item": ["bones",1]}
     ]
   },
+  "death_archer1":   {
+    "name": "Archer",
+    "info": {
+      "attack": "0",
+      "attackrange": "10",
+      "category": "death_archer",
+      "defence": "40",
+      "desc": "A Burthorpe Castle archer.",
+      "hitpoints": "50",
+      "maxrange": "12",
+      "op1": "Talk-to",
+      "op2": "Attack",
+      "params": {"attackrate":"6","attackbonus":"34","stabdefence":"39","slashdefence":"50","crushdefence":"49","magicdefence":"18","rangedefence":"45","damagetype":"^crush_style","attack_anim":"human_bow","rangeattack_sound":"arrowlaunch2","proj_launch":"iron_arrow_launch","proj_travel":"iron_arrow_travel"},
+      "ranged": "40",
+      "resizeh": "128",
+      "resizev": "128",
+      "respawnrate": "50",
+      "strength": "0",
+      "vislevel": "42",
+      "wanderrange": "2"
+    },
+    "roll_base": 128,
+    "roll_table": [
+      {"item": ["studded_chaps",1], "chance": "8"},
+      {"item": ["dragonhide_chaps",1], "chance": "6"},
+      {"item": ["willow_longbow",1], "chance": "4"},
+      {"item": ["maple_shortbow",1], "chance": "1"},
+      {"item": ["bronze_arrow",14], "chance": "3"},
+      {"item": ["earthrune",18], "chance": "2"},
+      {"item": ["steel_arrow",14], "chance": "2"},
+      {"item": ["firerune",17], "chance": "2"},
+      {"item": ["airrune",29], "chance": "2"},
+      {"item": ["naturerune",6], "chance": "1"},
+      {"item": ["bloodrune",1], "chance": "1"},
+      {"item": ["chaosrune",2], "chance": "1"},
+      {"item": ["coins",5], "chance": "37"},
+      {"item": ["coins",15], "chance": "16"},
+      {"item": ["coins",12], "chance": "9"},
+      {"item": ["coins",28], "chance": "4"},
+      {"item": ["coins",42], "chance": "4"},
+      {"item": ["coins",46], "chance": "2"},
+      {"item": ["coins",3], "chance": "1"},
+      {"item": ["earth_talisman",1], "chance": "3"},
+      {"item": ["mithril_ore",1], "chance": "1"}
+    ],
+    "always": [
+      {"item": ["bones",1]}
+    ]
+  },
+  "death_archer2":   {
+    "name": "Archer",
+    "info": {
+      "attack": "0",
+      "attackrange": "10",
+      "category": "death_archer",
+      "defence": "40",
+      "desc": "A Burthorpe Castle archer.",
+      "hitpoints": "50",
+      "maxrange": "12",
+      "op1": "Talk-to",
+      "op2": "Attack",
+      "params": {"attackrate":"6","attackbonus":"34","stabdefence":"39","slashdefence":"50","crushdefence":"49","magicdefence":"18","rangedefence":"45","damagetype":"^crush_style","attack_anim":"human_bow","rangeattack_sound":"arrowlaunch2","proj_launch":"iron_arrow_launch","proj_travel":"iron_arrow_travel"},
+      "ranged": "40",
+      "resizeh": "128",
+      "resizev": "128",
+      "respawnrate": "50",
+      "strength": "0",
+      "vislevel": "42",
+      "wanderrange": "2"
+    },
+    "roll_base": 128,
+    "roll_table": [
+      {"item": ["studded_chaps",1], "chance": "8"},
+      {"item": ["dragonhide_chaps",1], "chance": "6"},
+      {"item": ["willow_longbow",1], "chance": "4"},
+      {"item": ["maple_shortbow",1], "chance": "1"},
+      {"item": ["bronze_arrow",14], "chance": "3"},
+      {"item": ["earthrune",18], "chance": "2"},
+      {"item": ["steel_arrow",14], "chance": "2"},
+      {"item": ["firerune",17], "chance": "2"},
+      {"item": ["airrune",29], "chance": "2"},
+      {"item": ["naturerune",6], "chance": "1"},
+      {"item": ["bloodrune",1], "chance": "1"},
+      {"item": ["chaosrune",2], "chance": "1"},
+      {"item": ["coins",5], "chance": "37"},
+      {"item": ["coins",15], "chance": "16"},
+      {"item": ["coins",12], "chance": "9"},
+      {"item": ["coins",28], "chance": "4"},
+      {"item": ["coins",42], "chance": "4"},
+      {"item": ["coins",46], "chance": "2"},
+      {"item": ["coins",3], "chance": "1"},
+      {"item": ["earth_talisman",1], "chance": "3"},
+      {"item": ["mithril_ore",1], "chance": "1"}
+    ],
+    "always": [
+      {"item": ["bones",1]}
+    ]
+  },
+  "death_archer_trapped":   {
+    "name": "Archer",
+    "info": {
+      "attack": "0",
+      "attackrange": "10",
+      "category": "death_archer",
+      "defence": "40",
+      "desc": "A Burthorpe Castle archer.",
+      "hitpoints": "50",
+      "maxrange": "12",
+      "op1": "Talk-to",
+      "op2": "Attack",
+      "params": {"attackrate":"6","attackbonus":"34","stabdefence":"39","slashdefence":"50","crushdefence":"49","magicdefence":"18","rangedefence":"45","damagetype":"^crush_style","attack_anim":"human_bow","rangeattack_sound":"arrowlaunch2","proj_launch":"iron_arrow_launch","proj_travel":"iron_arrow_travel"},
+      "ranged": "40",
+      "resizeh": "128",
+      "resizev": "128",
+      "respawnrate": "50",
+      "strength": "0",
+      "vislevel": "42",
+      "wanderrange": "2"
+    },
+    "roll_base": 128,
+    "roll_table": [
+      {"item": ["studded_chaps",1], "chance": "8"},
+      {"item": ["dragonhide_chaps",1], "chance": "6"},
+      {"item": ["willow_longbow",1], "chance": "4"},
+      {"item": ["maple_shortbow",1], "chance": "1"},
+      {"item": ["bronze_arrow",14], "chance": "3"},
+      {"item": ["earthrune",18], "chance": "2"},
+      {"item": ["steel_arrow",14], "chance": "2"},
+      {"item": ["firerune",17], "chance": "2"},
+      {"item": ["airrune",29], "chance": "2"},
+      {"item": ["naturerune",6], "chance": "1"},
+      {"item": ["bloodrune",1], "chance": "1"},
+      {"item": ["chaosrune",2], "chance": "1"},
+      {"item": ["coins",5], "chance": "37"},
+      {"item": ["coins",15], "chance": "16"},
+      {"item": ["coins",12], "chance": "9"},
+      {"item": ["coins",28], "chance": "4"},
+      {"item": ["coins",42], "chance": "4"},
+      {"item": ["coins",46], "chance": "2"},
+      {"item": ["coins",3], "chance": "1"},
+      {"item": ["earth_talisman",1], "chance": "3"},
+      {"item": ["mithril_ore",1], "chance": "1"}
+    ],
+    "always": [
+      {"item": ["bones",1]}
+    ]
+  },
+  "death_guard1":   {
+    "name": "Guard",
+    "info": {
+      "attack": "30",
+      "category": "death_guard",
+      "defence": "30",
+      "desc": "A Burthorpe Castle guard.",
+      "hitpoints": "40",
+      "maxrange": "5",
+      "op1": "Talk-to",
+      "op2": "Attack",
+      "params": {"attackrate":"6","attackbonus":"18","strengthbonus":"16","stabdefence":"36","slashdefence":"48","crushdefence":"50","magicdefence":"-4","rangedefence":"38","damagetype":"^crush_style","attack_anim":"human_blunt_pound","defend_anim":"human_blunt_def","attack_sound":"warhammer_crush"},
+      "ranged": "0",
+      "resizeh": "128",
+      "resizev": "128",
+      "strength": "30",
+      "vislevel": "37",
+      "wanderrange": "0"
+    },
+    "roll_base": 128,
+    "roll_table": [
+      {"item": ["steel_warhammer",1], "chance": "8"},
+      {"item": ["mithril_warhammer",1], "chance": "6"},
+      {"item": ["mithril_platebody",1], "chance": "4"},
+      {"item": ["mithril_full_helm",1], "chance": "1"},
+      {"item": ["bronze_arrow",14], "chance": "3"},
+      {"item": ["firerune",22], "chance": "2"},
+      {"item": ["earthrune",23], "chance": "2"},
+      {"item": ["airrune",25], "chance": "2"},
+      {"item": ["steel_arrow",12], "chance": "2"},
+      {"item": ["bloodrune",3], "chance": "1"},
+      {"item": ["chaosrune",3], "chance": "1"},
+      {"item": ["naturerune",4], "chance": "1"},
+      {"item": ["coins",4], "chance": "37"},
+      {"item": ["coins",12], "chance": "16"},
+      {"item": ["coins",18], "chance": "9"},
+      {"item": ["coins",32], "chance": "4"},
+      {"item": ["coins",45], "chance": "4"},
+      {"item": ["coins",50], "chance": "2"},
+      {"item": ["coins",2], "chance": "1"},
+      {"item": ["earth_talisman",1], "chance": "3"},
+      {"item": ["mithril_ore",1], "chance": "1"}
+    ],
+    "always": [
+      {"item": ["bones",1]}
+    ],
+    "tertiary": [
+      {"item": "clue-medium", "chance": "1/128"}
+    ]
+  },
+  "death_guard2":   {
+    "name": "Guard",
+    "info": {
+      "attack": "30",
+      "category": "death_guard",
+      "defence": "30",
+      "desc": "A Burthorpe Castle guard.",
+      "hitpoints": "40",
+      "maxrange": "5",
+      "op1": "Talk-to",
+      "op2": "Attack",
+      "params": {"attackrate":"6","attackbonus":"18","strengthbonus":"16","stabdefence":"36","slashdefence":"48","crushdefence":"50","magicdefence":"-4","rangedefence":"38","damagetype":"^crush_style","attack_anim":"human_blunt_pound","defend_anim":"human_blunt_def","attack_sound":"warhammer_crush"},
+      "ranged": "0",
+      "resizeh": "128",
+      "resizev": "128",
+      "strength": "30",
+      "vislevel": "37",
+      "wanderrange": "0"
+    },
+    "roll_base": 128,
+    "roll_table": [
+      {"item": ["steel_warhammer",1], "chance": "8"},
+      {"item": ["mithril_warhammer",1], "chance": "6"},
+      {"item": ["mithril_platebody",1], "chance": "4"},
+      {"item": ["mithril_full_helm",1], "chance": "1"},
+      {"item": ["bronze_arrow",14], "chance": "3"},
+      {"item": ["firerune",22], "chance": "2"},
+      {"item": ["earthrune",23], "chance": "2"},
+      {"item": ["airrune",25], "chance": "2"},
+      {"item": ["steel_arrow",12], "chance": "2"},
+      {"item": ["bloodrune",3], "chance": "1"},
+      {"item": ["chaosrune",3], "chance": "1"},
+      {"item": ["naturerune",4], "chance": "1"},
+      {"item": ["coins",4], "chance": "37"},
+      {"item": ["coins",12], "chance": "16"},
+      {"item": ["coins",18], "chance": "9"},
+      {"item": ["coins",32], "chance": "4"},
+      {"item": ["coins",45], "chance": "4"},
+      {"item": ["coins",50], "chance": "2"},
+      {"item": ["coins",2], "chance": "1"},
+      {"item": ["earth_talisman",1], "chance": "3"},
+      {"item": ["mithril_ore",1], "chance": "1"}
+    ],
+    "always": [
+      {"item": ["bones",1]}
+    ],
+    "tertiary": [
+      {"item": "clue-medium", "chance": "1/128"}
+    ]
+  },
+  "death_ig_solider_wander":   {
+    "name": "Soldier",
+    "info": {
+      "attack": "40",
+      "defence": "40",
+      "desc": "A soldier of the Imperial Guard.",
+      "hitpoints": "50",
+      "maxrange": "8",
+      "op1": "Talk-to",
+      "op2": "Attack",
+      "params": {"attackbonus":"11","strengthbonus":"12","stabdefence":"15","slashdefence":"23","crushdefence":"21","magicdefence":"6","rangedefence":"14","attack_sound":"null","defend_sound":"null","death_sound":"null","damagetype":"^slash_style"},
+      "ranged": "0",
+      "resizeh": "128",
+      "resizev": "128",
+      "respawnrate": "50",
+      "strength": "40",
+      "vislevel": "48"
+    },
+    "roll_base": 128,
+    "roll_table": [
+      {"item": ["steel_full_helm",1], "chance": "1"},
+      {"item": ["black_dart",6], "chance": "9"},
+      {"item": ["black_knife",6], "chance": "13"},
+      {"item": ["steel_claws",1], "chance": "2"},
+      {"item": ["black_claws",1], "chance": "1"},
+      {"item": ["steel_bar",1], "chance": "1"},
+      {"item": ["mithril_bar",1], "chance": "1"},
+      {"item": ["~randomherb",1], "chance": "8"},
+      {"item": ["bloodrune",2], "chance": "1"},
+      {"item": ["coins",3], "chance": "17"},
+      {"item": ["coins",5], "chance": "10"},
+      {"item": ["coins",18], "chance": "20"},
+      {"item": ["coins",50], "chance": "40"},
+      {"item": ["coins",115], "chance": "2"},
+      {"item": ["~randomjewel",1], "chance": "2"}
+    ],
+    "always": [
+      {"item": ["bones",1]}
+    ]
+  },
+  "death_troll_commander":   {
+    "name": "Rock",
+    "info": {
+      "attack": "70",
+      "category": "troll_general",
+      "defence": "70",
+      "desc": "The biggest and badest troll.",
+      "hitpoints": "140",
+      "huntrange": "1",
+      "magic": "0",
+      "op2": "Attack",
+      "params": {"attackbonus":"60","strengthbonus":"100","stabdefence":"35","slashdefence":"60","crushdefence":"35","magicdefence":"200","rangedefence":"200","damagetype":"^crush_style","attack_anim":"troll_attack","defend_anim":"troll_block","death_anim":"troll_death","attack_sound":"troll_champion_attack","defend_sound":"troll_champion_death","death_drop":"big_bones"},
+      "ranged": "0",
+      "resizeh": "180",
+      "resizev": "180",
+      "respawnrate": "100",
+      "strength": "110",
+      "vislevel": "111"
+    },
+    "roll_base": 128,
+    "roll_table": [
+      {"item": ["steel_platebody",1], "chance": "4"},
+      {"item": ["black_warhammer",1], "chance": "3"},
+      {"item": ["steel_warhammer",1], "chance": "3"},
+      {"item": ["adamant_axe",1], "chance": "2"},
+      {"item": ["adamant_sq_shield",1], "chance": "1"},
+      {"item": ["granite_shield",1], "chance": "1"},
+      {"item": ["mithril_platebody",1], "chance": "1"},
+      {"item": ["rune_warhammer",1], "chance": "1"},
+      {"item": ["earthrune",80], "chance": "8"},
+      {"item": ["naturerune",16], "chance": "5"},
+      {"item": ["lawrune",4], "chance": "3"},
+      {"item": ["earthrune",65], "chance": "1"},
+      {"item": ["earthrune",25], "chance": "1"},
+      {"item": ["~randomherb",1], "chance": "15"},
+      {"item": ["coins",40], "chance": "29"},
+      {"item": ["coins",135], "chance": "25"},
+      {"item": ["coins",190], "chance": "10"},
+      {"item": ["coins",20], "chance": "4"},
+      {"item": ["coins",420], "chance": "1"},
+      {"item": ["cert_coal",6], "chance": "3"},
+      {"item": ["cert_raw_tuna",4], "chance": "2"},
+      {"item": ["~randomjewel",1], "chance": "2"}
+    ],
+    "always": [
+      {"item": ["troll_key_prison",1]},
+      {"item": ["big_bones",1]}
+    ]
+  },
+  "death_troll_guard1":   {
+    "name": "Pee Hat",
+    "info": {
+      "attack": "50",
+      "category": "troll_general",
+      "defence": "50",
+      "desc": "A nasty looking troll.",
+      "hitpoints": "120",
+      "huntrange": "1",
+      "magic": "0",
+      "op2": "Attack",
+      "params": {"attackbonus":"40","strengthbonus":"70","attackrate":"6","stabdefence":"25","slashdefence":"25","crushdefence":"40","magicdefence":"200","rangedefence":"200","damagetype":"^crush_style","attack_anim":"troll_attack","defend_anim":"troll_block","death_anim":"troll_death","attack_sound":"troll_champion_attack","defend_sound":"troll_champion_death","death_drop":"big_bones"},
+      "ranged": "0",
+      "resizeh": "174",
+      "resizev": "160",
+      "respawnrate": "100",
+      "strength": "100",
+      "vislevel": "91"
+    },
+    "roll_base": 128,
+    "roll_table": [
+      {"item": ["steel_platebody",1], "chance": "4"},
+      {"item": ["black_warhammer",1], "chance": "3"},
+      {"item": ["steel_warhammer",1], "chance": "3"},
+      {"item": ["adamant_axe",1], "chance": "2"},
+      {"item": ["adamant_sq_shield",1], "chance": "1"},
+      {"item": ["granite_shield",1], "chance": "1"},
+      {"item": ["mithril_platebody",1], "chance": "1"},
+      {"item": ["rune_warhammer",1], "chance": "1"},
+      {"item": ["earthrune",80], "chance": "8"},
+      {"item": ["naturerune",16], "chance": "5"},
+      {"item": ["lawrune",4], "chance": "3"},
+      {"item": ["earthrune",65], "chance": "1"},
+      {"item": ["earthrune",25], "chance": "1"},
+      {"item": ["~randomherb",1], "chance": "15"},
+      {"item": ["coins",40], "chance": "29"},
+      {"item": ["coins",135], "chance": "25"},
+      {"item": ["coins",190], "chance": "10"},
+      {"item": ["coins",20], "chance": "4"},
+      {"item": ["coins",420], "chance": "1"},
+      {"item": ["cert_coal",6], "chance": "3"},
+      {"item": ["cert_raw_tuna",4], "chance": "2"},
+      {"item": ["~randomjewel",1], "chance": "2"}
+    ],
+    "always": [
+      {"item": ["troll_key_prison",1]},
+      {"item": ["big_bones",1]}
+    ]
+  },
+  "death_troll_guard2":   {
+    "name": "Kraka",
+    "info": {
+      "attack": "50",
+      "category": "troll_general",
+      "defence": "50",
+      "desc": "A nasty looking troll.",
+      "hitpoints": "120",
+      "huntrange": "1",
+      "magic": "0",
+      "op2": "Attack",
+      "params": {"attackbonus":"40","strengthbonus":"70","attackrate":"6","stabdefence":"25","slashdefence":"25","crushdefence":"40","magicdefence":"200","rangedefence":"200","damagetype":"^crush_style","attack_anim":"troll_attack","defend_anim":"troll_block","death_anim":"troll_death","attack_sound":"troll_champion_attack","defend_sound":"troll_champion_death","death_drop":"big_bones"},
+      "ranged": "0",
+      "resizeh": "178",
+      "resizev": "162",
+      "respawnrate": "100",
+      "strength": "100",
+      "vislevel": "91"
+    },
+    "roll_base": 128,
+    "roll_table": [
+      {"item": ["steel_platebody",1], "chance": "4"},
+      {"item": ["black_warhammer",1], "chance": "3"},
+      {"item": ["steel_warhammer",1], "chance": "3"},
+      {"item": ["adamant_axe",1], "chance": "2"},
+      {"item": ["adamant_sq_shield",1], "chance": "1"},
+      {"item": ["granite_shield",1], "chance": "1"},
+      {"item": ["mithril_platebody",1], "chance": "1"},
+      {"item": ["rune_warhammer",1], "chance": "1"},
+      {"item": ["earthrune",80], "chance": "8"},
+      {"item": ["naturerune",16], "chance": "5"},
+      {"item": ["lawrune",4], "chance": "3"},
+      {"item": ["earthrune",65], "chance": "1"},
+      {"item": ["earthrune",25], "chance": "1"},
+      {"item": ["~randomherb",1], "chance": "15"},
+      {"item": ["coins",40], "chance": "29"},
+      {"item": ["coins",135], "chance": "25"},
+      {"item": ["coins",190], "chance": "10"},
+      {"item": ["coins",20], "chance": "4"},
+      {"item": ["coins",420], "chance": "1"},
+      {"item": ["cert_coal",6], "chance": "3"},
+      {"item": ["cert_raw_tuna",4], "chance": "2"},
+      {"item": ["~randomjewel",1], "chance": "2"}
+    ],
+    "always": [
+      {"item": ["troll_key_prison",1]},
+      {"item": ["big_bones",1]}
+    ]
+  },
+  "death_troll_leuitanant":   {
+    "name": "Stick",
+    "info": {
+      "attack": "60",
+      "category": "troll_general",
+      "defence": "60",
+      "desc": "A big, bad troll.",
+      "hitpoints": "135",
+      "huntrange": "1",
+      "magic": "0",
+      "op2": "Attack",
+      "params": {"attackbonus":"50","strengthbonus":"80","attackrate":"6","stabdefence":"30","slashdefence":"30","crushdefence":"50","magicdefence":"200","rangedefence":"200","damagetype":"^crush_style","attack_anim":"troll_attack","defend_anim":"troll_block","death_anim":"troll_death","attack_sound":"troll_champion_attack","defend_sound":"troll_champion_death","death_drop":"big_bones"},
+      "ranged": "0",
+      "resizeh": "185",
+      "resizev": "162",
+      "respawnrate": "100",
+      "strength": "110",
+      "vislevel": "104"
+    },
+    "roll_base": 128,
+    "roll_table": [
+      {"item": ["steel_platebody",1], "chance": "4"},
+      {"item": ["black_warhammer",1], "chance": "3"},
+      {"item": ["steel_warhammer",1], "chance": "3"},
+      {"item": ["adamant_axe",1], "chance": "2"},
+      {"item": ["adamant_sq_shield",1], "chance": "1"},
+      {"item": ["granite_shield",1], "chance": "1"},
+      {"item": ["mithril_platebody",1], "chance": "1"},
+      {"item": ["rune_warhammer",1], "chance": "1"},
+      {"item": ["earthrune",80], "chance": "8"},
+      {"item": ["naturerune",16], "chance": "5"},
+      {"item": ["lawrune",4], "chance": "3"},
+      {"item": ["earthrune",65], "chance": "1"},
+      {"item": ["earthrune",25], "chance": "1"},
+      {"item": ["~randomherb",1], "chance": "15"},
+      {"item": ["coins",40], "chance": "29"},
+      {"item": ["coins",135], "chance": "25"},
+      {"item": ["coins",190], "chance": "10"},
+      {"item": ["coins",20], "chance": "4"},
+      {"item": ["coins",420], "chance": "1"},
+      {"item": ["cert_coal",6], "chance": "3"},
+      {"item": ["cert_raw_tuna",4], "chance": "2"},
+      {"item": ["~randomjewel",1], "chance": "2"}
+    ],
+    "always": [
+      {"item": ["troll_key_prison",1]},
+      {"item": ["big_bones",1]}
+    ]
+  },
   "donny_the_lad":   {
     "name": "Donny the lad",
     "info": {
@@ -1256,7 +1739,7 @@
       "huntrange": "1",
       "maxrange": "22",
       "op2": "Attack",
-      "params": {"attackbonus":"13","strengthbonus":"9","stabdefence":"40","slashdefence":"34","crushdefence":"25","magicdefence":"10","rangedefence":"35","damagetype":"^crush_style","attack_anim":"dwarf_attack","defend_anim":"dwarf_block","death_anim":"dwarf_death","attack_sound":"baxe_crush"},
+      "params": {"attackbonus":"13","strengthbonus":"9","stabdefence":"40","slashdefence":"34","crushdefence":"25","magicdefence":"10","rangedefence":"35","damagetype":"^crush_style","attack_anim":"dwarf_attack","defend_anim":"dwarf_block","death_anim":"dwarf_death","attack_sound":"warhammer_crush"},
       "respawnrate": "300",
       "strength": "42",
       "vislevel": "48",
@@ -1303,10 +1786,10 @@
       "huntrange": "5",
       "maxrange": "6",
       "op2": "Attack",
-      "params": {"stabdefence":"30","slashdefence":"40","crushdefence":"20","magicdefence":"10","rangedefence":"30","damagetype":"^crush_style","attack_anim":"human_axe_chop","defend_anim":"human_axe_def","death_anim":"human_transdeath","attack_sound":"mace_crush","defend_sound":"blade5"},
+      "params": {"stabdefence":"30","slashdefence":"40","crushdefence":"20","magicdefence":"10","rangedefence":"30","damagetype":"^crush_style","attack_anim":"human_axe_chop","defend_anim":"human_axe_def","death_anim":"human_transdeath","attack_sound":"warhammer_crush","defend_sound":"blade5"},
       "respawnrate": "60",
       "strength": "42",
-      "vislevel": "47",
+      "vislevel": "51",
       "wanderrange": "4"
     },
     "roll_base": 128,
@@ -1512,7 +1995,7 @@
       "params": {"attackrate":"5","attackbonus":"29","strengthbonus":"31","slashdefence":"3","crushdefence":"2","damagetype":"^slash_style","attack_anim":"giant_attack","defend_anim":"giant_block","death_anim":"giant_death","attack_sound":"giant_attack","defend_sound":"giant_hit","death_sound":"giant_death","death_drop":"big_bones"},
       "respawnrate": "60",
       "strength": "65",
-      "vislevel": "93",
+      "vislevel": "86",
       "wanderrange": "3"
     },
     "roll_base": 128,
@@ -1740,7 +2223,7 @@
       "params": {"stabdefence":"20","slashdefence":"40","crushdefence":"40","magicdefence":"30","rangedefence":"20","damagetype":"^slash_style","attack_anim":"dragon_attack","defend_anim":"dragon_block","death_anim":"dragon_death","attack_sound":"dragon_attack","defend_sound":"dragon_hit","death_sound":"dragon_death","death_drop":"dragon_bones"},
       "respawnrate": "60",
       "strength": "68",
-      "vislevel": "83",
+      "vislevel": "79",
       "wanderrange": "4"
     },
     "roll_base": 128,
@@ -2023,7 +2506,7 @@
       "params": {"attackrate":"5","attackbonus":"29","strengthbonus":"31","slashdefence":"3","crushdefence":"2","damagetype":"^slash_style","attack_anim":"giant_attack","defend_anim":"giant_block","death_anim":"giant_death","attack_sound":"giant_attack","defend_sound":"giant_hit","death_sound":"giant_death","death_drop":"big_bones"},
       "respawnrate": "60",
       "strength": "40",
-      "vislevel": "54"
+      "vislevel": "49"
     },
     "roll_base": 128,
     "roll_table": [
@@ -2071,7 +2554,7 @@
       "params": {"stabdefence":"30","slashdefence":"40","crushdefence":"20","magicdefence":"10","rangedefence":"30","damagetype":"^slash_style","attack_anim":"human_sword_transslash","defend_anim":"human_sword_transdef","death_anim":"human_transdeath","attack_sound":"hacksword_slash","defend_sound":"ice_warrior_hit","death_sound":"ice_warrior_death"},
       "respawnrate": "60",
       "strength": "47",
-      "vislevel": "53"
+      "vislevel": "57"
     },
     "roll_base": 128,
     "roll_table": [
@@ -2110,7 +2593,7 @@
       "params": {"stabdefence":"30","slashdefence":"40","crushdefence":"20","magicdefence":"10","rangedefence":"30","damagetype":"^slash_style","attack_anim":"human_sword_slash","defend_anim":"human_sword_def","death_anim":"human_transdeath","attack_sound":"hacksword_slash","defend_sound":"ice_warrior_hit","death_sound":"ice_warrior_death"},
       "respawnrate": "60",
       "strength": "47",
-      "vislevel": "53"
+      "vislevel": "57"
     },
     "roll_base": 128,
     "roll_table": [
@@ -2202,7 +2685,7 @@
       "params": {"attackrate":"6","attackbonus":"22","strengthbonus":"20","damagetype":"^crush_style","attack_anim":"giant_attack","defend_anim":"giant_block","death_anim":"giant_death","attack_sound":"giant_attack","defend_sound":"giant_hit","death_sound":"giant_death","death_drop":"big_bones"},
       "respawnrate": "60",
       "strength": "43",
-      "vislevel": "48",
+      "vislevel": "53",
       "wanderrange": "3"
     },
     "roll_base": 129,
@@ -2227,6 +2710,89 @@
       {"item": "clue-medium", "chance": "1/129"}
     ]
   },
+  "kalphite_flyingqueen":   {
+    "name": "Kalphite Queen",
+    "info": {
+      "attack": "300",
+      "attackrange": "10",
+      "defence": "300",
+      "desc": "I don't think insect repellent will work...",
+      "hitpoints": "255",
+      "huntmode": "kalphite_queen",
+      "huntrange": "10",
+      "magic": "150",
+      "maxrange": "25",
+      "op2": "Attack",
+      "params": {"stabdefence":"100","slashdefence":"100","crushdefence":"100","magicdefence":"10","rangedefence":"10","attack_sound":"kalphite_flyingqueen_attack","defend_anim":"kalphite_queen_block","death_anim":"kalphite_queen_death","death_sound":"kalphite_flyingqueen_death","defend_sound":"kalphite_flyingqueen_hit"},
+      "resizeh": "256",
+      "resizev": "256",
+      "strength": "300",
+      "vislevel": "333"
+    },
+    "roll_base": 128,
+    "roll_table": [
+      {"item": ["rune_chainbody",1], "chance": "14"},
+      {"item": ["lava_battlestaff",1], "chance": "2"},
+      {"item": ["rune_warhammer",1], "chance": "3"},
+      {"item": ["rune_axe",1], "chance": "3"},
+      {"item": ["adamant_spear",1], "chance": "10"},
+      {"item": ["mithril_arrow",500], "chance": "10"},
+      {"item": ["rune_arrow",100], "chance": "5"},
+      {"item": ["bigoysterpearls",40], "chance": "3"},
+      {"item": ["bloodrune",19], "chance": "20"},
+      {"item": ["naturerune",75], "chance": "14"},
+      {"item": ["firerune",600], "chance": "10"},
+      {"item": ["lawrune",20], "chance": "5"},
+      {"item": ["deathrune",30], "chance": "3"},
+      {"item": ["cert_wine_of_zamorak",20], "chance": "10"},
+      {"item": ["amulet_of_power",1], "chance": "7"},
+      {"item": ["lobster",7], "chance": "2"},
+      {"item": ["dragon_chainbody",7], "chance": "1"},
+      {"item": ["~randomjewel",1], "chance": "6"}
+    ],
+    "tertiary": [
+      {"item": "clue-hard", "chance": "1/128"}
+    ]
+  },
+  "kalphite_soldier":   {
+    "name": "Kalphite Soldier",
+    "info": {
+      "attack": "70",
+      "defence": "70",
+      "desc": "I don't think insect repellent will work...",
+      "hitpoints": "90",
+      "huntmode": "cowardly",
+      "huntrange": "5",
+      "maxrange": "25",
+      "op2": "Attack",
+      "params": {"defend_anim":"kalphite_block","death_anim":"kalphite_death","death_sound":"kalthite_soldier_death","defend_sound":"kalthite_soldier_hit","attack_sound":"kalthite_soldier_attack","poison_severity":"20","stabdefence":"25","slashdefence":"25","crushdefence":"5","magicdefence":"50","rangedefence":"50"},
+      "resizeh": "172",
+      "resizev": "172",
+      "strength": "70",
+      "vislevel": "85"
+    },
+    "roll_base": 128,
+    "roll_table": [
+      {"item": ["steel_full_helm",1], "chance": "4"},
+      {"item": ["steel_axe",1], "chance": "4"},
+      {"item": ["steel_scimitar",1], "chance": "3"},
+      {"item": ["mithril_chainbody",1], "chance": "1"},
+      {"item": ["mithril_sq_shield",1], "chance": "1"},
+      {"item": ["adamant_med_helm",1], "chance": "1"},
+      {"item": ["firerune",60], "chance": "8"},
+      {"item": ["chaosrune",12], "chance": "5"},
+      {"item": ["deathrune",3], "chance": "3"},
+      {"item": ["firerune",30], "chance": "3"},
+      {"item": ["~randomherb",1], "chance": "1"},
+      {"item": ["coins",120], "chance": "40"},
+      {"item": ["coins",40], "chance": "29"},
+      {"item": ["coins",200], "chance": "10"},
+      {"item": ["coins",10], "chance": "7"},
+      {"item": ["coins",450], "chance": "1"},
+      {"item": ["water_skin4",1], "chance": "3"},
+      {"item": ["~randomjewel",1], "chance": "3"}
+    ]
+  },
   "king_dragon":   {
     "name": "King black dragon",
     "info": {
@@ -2245,7 +2811,7 @@
       "resizev": "160",
       "respawnrate": "150",
       "strength": "240",
-      "vislevel": "238",
+      "vislevel": "276",
       "wanderrange": "20"
     },
     "roll_base": 128,
@@ -2295,7 +2861,7 @@
       "params": {"attackbonus":"10","strengthbonus":"9","slashdefence":"1","damagetype":"^slash_style","attack_anim":"human_sword_slash","defend_anim":"human_sword_def","attack_sound":"hacksword_slash","defend_sound":"female_hit","death_sound":"female_death"},
       "respawnrate": "50",
       "strength": "20",
-      "vislevel": "20"
+      "vislevel": "23"
     },
     "roll_base": 128,
     "roll_table": [
@@ -2328,6 +2894,7 @@
   "macro_dryhad1":   {
     "name": "Tree spirit",
     "info": {
+      "alwaysontop": "yes",
       "attack": "9",
       "category": "macro_event_dryad",
       "defence": "9",
@@ -2361,6 +2928,7 @@
   "macro_dryhad2":   {
     "name": "Tree spirit",
     "info": {
+      "alwaysontop": "yes",
       "attack": "22",
       "category": "macro_event_dryad",
       "defence": "22",
@@ -2394,6 +2962,7 @@
   "macro_dryhad3":   {
     "name": "Tree spirit",
     "info": {
+      "alwaysontop": "yes",
       "attack": "38",
       "category": "macro_event_dryad",
       "defence": "38",
@@ -2427,6 +2996,7 @@
   "macro_dryhad4":   {
     "name": "Tree spirit",
     "info": {
+      "alwaysontop": "yes",
       "attack": "65",
       "category": "macro_event_dryad",
       "defence": "65",
@@ -2460,6 +3030,7 @@
   "macro_dryhad5":   {
     "name": "Tree spirit",
     "info": {
+      "alwaysontop": "yes",
       "attack": "100",
       "category": "macro_event_dryad",
       "defence": "100",
@@ -2493,6 +3064,7 @@
   "macro_dryhad6":   {
     "name": "Tree spirit",
     "info": {
+      "alwaysontop": "yes",
       "attack": "130",
       "category": "macro_event_dryad",
       "defence": "130",
@@ -2526,6 +3098,7 @@
   "macro_rivertroll1_f2p":   {
     "name": "River troll",
     "info": {
+      "alwaysontop": "yes",
       "attack": "9",
       "category": "macro_event_river_troll",
       "defence": "9",
@@ -2560,6 +3133,7 @@
   "macro_rivertroll1_p2p":   {
     "name": "River troll",
     "info": {
+      "alwaysontop": "yes",
       "attack": "9",
       "category": "macro_event_river_troll",
       "defence": "9",
@@ -2598,6 +3172,7 @@
   "macro_rivertroll2_f2p":   {
     "name": "River troll",
     "info": {
+      "alwaysontop": "yes",
       "attack": "22",
       "category": "macro_event_river_troll",
       "defence": "22",
@@ -2632,6 +3207,7 @@
   "macro_rivertroll2_p2p":   {
     "name": "River troll",
     "info": {
+      "alwaysontop": "yes",
       "attack": "22",
       "category": "macro_event_river_troll",
       "defence": "22",
@@ -2670,6 +3246,7 @@
   "macro_rivertroll3_f2p":   {
     "name": "River troll",
     "info": {
+      "alwaysontop": "yes",
       "attack": "38",
       "category": "macro_event_river_troll",
       "defence": "38",
@@ -2704,6 +3281,7 @@
   "macro_rivertroll3_p2p":   {
     "name": "River troll",
     "info": {
+      "alwaysontop": "yes",
       "attack": "38",
       "category": "macro_event_river_troll",
       "defence": "38",
@@ -2742,6 +3320,7 @@
   "macro_rivertroll4_f2p":   {
     "name": "River troll",
     "info": {
+      "alwaysontop": "yes",
       "attack": "65",
       "category": "macro_event_river_troll",
       "defence": "65",
@@ -2776,6 +3355,7 @@
   "macro_rivertroll4_p2p":   {
     "name": "River troll",
     "info": {
+      "alwaysontop": "yes",
       "attack": "65",
       "category": "macro_event_river_troll",
       "defence": "65",
@@ -2814,6 +3394,7 @@
   "macro_rivertroll5_f2p":   {
     "name": "River troll",
     "info": {
+      "alwaysontop": "yes",
       "attack": "100",
       "category": "macro_event_river_troll",
       "defence": "100",
@@ -2848,6 +3429,7 @@
   "macro_rivertroll5_p2p":   {
     "name": "River troll",
     "info": {
+      "alwaysontop": "yes",
       "attack": "100",
       "category": "macro_event_river_troll",
       "defence": "100",
@@ -2886,6 +3468,7 @@
   "macro_rivertroll6_f2p":   {
     "name": "River troll",
     "info": {
+      "alwaysontop": "yes",
       "attack": "130",
       "category": "macro_event_river_troll",
       "defence": "130",
@@ -2920,6 +3503,7 @@
   "macro_rivertroll6_p2p":   {
     "name": "River troll",
     "info": {
+      "alwaysontop": "yes",
       "attack": "130",
       "category": "macro_event_river_troll",
       "defence": "130",
@@ -2958,6 +3542,7 @@
   "macro_shade1":   {
     "name": "Shade",
     "info": {
+      "alwaysontop": "yes",
       "attack": "9",
       "category": "macro_event_shade",
       "defence": "9",
@@ -2981,6 +3566,7 @@
   "macro_shade2":   {
     "name": "Shade",
     "info": {
+      "alwaysontop": "yes",
       "attack": "22",
       "category": "macro_event_shade",
       "defence": "22",
@@ -3004,6 +3590,7 @@
   "macro_shade3":   {
     "name": "Shade",
     "info": {
+      "alwaysontop": "yes",
       "attack": "38",
       "category": "macro_event_shade",
       "defence": "38",
@@ -3027,6 +3614,7 @@
   "macro_shade4":   {
     "name": "Shade",
     "info": {
+      "alwaysontop": "yes",
       "attack": "65",
       "category": "macro_event_shade",
       "defence": "65",
@@ -3050,6 +3638,7 @@
   "macro_shade5":   {
     "name": "Shade",
     "info": {
+      "alwaysontop": "yes",
       "attack": "100",
       "category": "macro_event_shade",
       "defence": "100",
@@ -3073,6 +3662,7 @@
   "macro_watchman1":   {
     "name": "Watchman",
     "info": {
+      "alwaysontop": "yes",
       "attack": "9",
       "category": "macro_event_watchman",
       "defence": "9",
@@ -3113,6 +3703,7 @@
   "macro_watchman2":   {
     "name": "Watchman",
     "info": {
+      "alwaysontop": "yes",
       "attack": "22",
       "category": "macro_event_watchman",
       "defence": "22",
@@ -3153,6 +3744,7 @@
   "macro_watchman3":   {
     "name": "Watchman",
     "info": {
+      "alwaysontop": "yes",
       "attack": "38",
       "category": "macro_event_watchman",
       "defence": "38",
@@ -3193,6 +3785,7 @@
   "macro_watchman4":   {
     "name": "Watchman",
     "info": {
+      "alwaysontop": "yes",
       "attack": "65",
       "category": "macro_event_watchman",
       "defence": "65",
@@ -3233,6 +3826,7 @@
   "macro_watchman5":   {
     "name": "Watchman",
     "info": {
+      "alwaysontop": "yes",
       "attack": "100",
       "category": "macro_event_watchman",
       "defence": "100",
@@ -3273,6 +3867,7 @@
   "macro_watchman6":   {
     "name": "Watchman",
     "info": {
+      "alwaysontop": "yes",
       "attack": "130",
       "category": "macro_event_watchman",
       "defence": "130",
@@ -3313,6 +3908,7 @@
   "macro_zombie1_p2p":   {
     "name": "Zombie",
     "info": {
+      "alwaysontop": "yes",
       "attack": "9",
       "category": "macro_event_zombie",
       "defence": "9",
@@ -3338,6 +3934,7 @@
   "macro_zombie2_p2p":   {
     "name": "Zombie",
     "info": {
+      "alwaysontop": "yes",
       "attack": "22",
       "category": "macro_event_zombie",
       "defence": "22",
@@ -3363,6 +3960,7 @@
   "macro_zombie3_p2p":   {
     "name": "Zombie",
     "info": {
+      "alwaysontop": "yes",
       "attack": "38",
       "category": "macro_event_zombie",
       "defence": "38",
@@ -3388,6 +3986,7 @@
   "macro_zombie4_p2p":   {
     "name": "Zombie",
     "info": {
+      "alwaysontop": "yes",
       "attack": "65",
       "category": "macro_event_zombie",
       "defence": "65",
@@ -3413,6 +4012,7 @@
   "macro_zombie5_p2p":   {
     "name": "Zombie",
     "info": {
+      "alwaysontop": "yes",
       "attack": "100",
       "category": "macro_event_zombie",
       "defence": "100",
@@ -3438,6 +4038,7 @@
   "macro_zombie6_p2p":   {
     "name": "Zombie",
     "info": {
+      "alwaysontop": "yes",
       "attack": "130",
       "category": "macro_event_zombie",
       "defence": "130",
@@ -3474,7 +4075,7 @@
       "params": {"attackrate":"6","attackbonus":"33","strengthbonus":"31","damagetype":"^crush_style","attack_anim":"giant_attack","defend_anim":"giant_block","death_anim":"giant_death","attack_sound":"giant_attack","defend_sound":"giant_hit","death_sound":"giant_death","death_drop":"big_bones"},
       "respawnrate": "60",
       "strength": "30",
-      "vislevel": "48",
+      "vislevel": "42",
       "wanderrange": "3"
     },
     "roll_base": 128,
@@ -3523,7 +4124,7 @@
       "params": {"strengthbonus":"-21","damagetype":"^crush_style","defend_anim":"human_unarmedblock"},
       "respawnrate": "100",
       "strength": "5",
-      "vislevel": "4",
+      "vislevel": "6",
       "wanderrange": "12"
     },
     "roll_base": 128,
@@ -3561,7 +4162,7 @@
       "params": {"damagetype":"^crush_style"},
       "respawnrate": "500",
       "strength": "18",
-      "vislevel": "29"
+      "vislevel": "26"
     },
     "roll_base": 128,
     "roll_table": [
@@ -3643,7 +4244,7 @@
       "params": {"attackbonus":"10","strengthbonus":"9","slashdefence":"1","damagetype":"^slash_style","attack_anim":"human_sword_slash","defend_anim":"human_sword_def","attack_sound":"hacksword_slash"},
       "respawnrate": "50",
       "strength": "20",
-      "vislevel": "20"
+      "vislevel": "23"
     },
     "roll_base": 128,
     "roll_table": [
@@ -3686,7 +4287,7 @@
       "params": {"attackrate":"5","attackbonus":"8","strengthbonus":"10","stabdefence":"3","slashdefence":"2","damagetype":"^slash_style","attack_anim":"human_sword_slash","defend_anim":"human_sword_def","attack_sound":"hacksword_slash"},
       "respawnrate": "50",
       "strength": "21",
-      "vislevel": "20"
+      "vislevel": "23"
     },
     "roll_base": 128,
     "roll_table": [
@@ -3730,7 +4331,7 @@
       "params": {"attackrate":"5","attackbonus":"8","strengthbonus":"10","stabdefence":"3","slashdefence":"2","damagetype":"^slash_style","attack_anim":"human_sword_slash","defend_anim":"human_sword_def","attack_sound":"hacksword_slash"},
       "respawnrate": "50",
       "strength": "23",
-      "vislevel": "25"
+      "vislevel": "26"
     },
     "roll_base": 128,
     "roll_table": [
@@ -3774,7 +4375,7 @@
       "params": {"stabdefence":"50","slashdefence":"70","crushdefence":"70","magicdefence":"60","rangedefence":"50","damagetype":"^slash_style","attack_anim":"dragon_attack","defend_anim":"dragon_block","death_anim":"dragon_death","attack_sound":"dragon_attack","defend_sound":"dragon_hit","death_sound":"dragon_death","death_drop":"dragon_bones"},
       "respawnrate": "60",
       "strength": "130",
-      "vislevel": "135",
+      "vislevel": "152",
       "wanderrange": "10"
     },
     "roll_base": 128,
@@ -3820,7 +4421,7 @@
       "params": {"attackbonus":"5","strengthbonus":"5","stabdefence":"6","slashdefence":"9","crushdefence":"11","damagetype":"^stab_style","attack_anim":"human_sword_stab","defend_anim":"human_sword_def","attack_sound":"hacksword_stab"},
       "respawnrate": "100",
       "strength": "13",
-      "vislevel": "14"
+      "vislevel": "15"
     },
     "roll_base": 128,
     "roll_table": [
@@ -4023,7 +4624,7 @@
       "params": {"magicdefence":"3","damagetype":"^crush_style"},
       "strength": "24",
       "timer": "20",
-      "vislevel": "74",
+      "vislevel": "65",
       "wanderrange": "3"
     },
     "roll_base": 128,
@@ -4102,6 +4703,150 @@
     ],
     "tertiary": [
       {"item": "clue-medium", "chance": "1/138"}
+    ]
+  },
+  "troll_general":   {
+    "name": "Troll General",
+    "info": {
+      "attack": "70",
+      "category": "troll_general",
+      "defence": "40",
+      "desc": "One of the Troll Generals.",
+      "hitpoints": "140",
+      "huntrange": "1",
+      "magic": "0",
+      "op2": "Attack",
+      "params": {"attackbonus":"60","strengthbonus":"100","stabdefence":"35","slashdefence":"60","crushdefence":"35","magicdefence":"200","rangedefence":"200","damagetype":"^slash_style","attack_anim":"troll_attack","defend_anim":"troll_block","death_anim":"troll_death","attack_sound":"troll_champion_attack","defend_sound":"troll_champion_death","death_drop":"big_bones"},
+      "ranged": "0",
+      "resizeh": "200",
+      "resizev": "200",
+      "strength": "140",
+      "vislevel": "113"
+    },
+    "roll_base": 128,
+    "roll_table": [
+      {"item": ["steel_platebody",1], "chance": "4"},
+      {"item": ["black_warhammer",1], "chance": "3"},
+      {"item": ["steel_warhammer",1], "chance": "3"},
+      {"item": ["adamant_axe",1], "chance": "2"},
+      {"item": ["adamant_sq_shield",1], "chance": "1"},
+      {"item": ["granite_shield",1], "chance": "1"},
+      {"item": ["mithril_platebody",1], "chance": "1"},
+      {"item": ["rune_warhammer",1], "chance": "1"},
+      {"item": ["earthrune",80], "chance": "8"},
+      {"item": ["naturerune",16], "chance": "5"},
+      {"item": ["lawrune",4], "chance": "3"},
+      {"item": ["earthrune",65], "chance": "1"},
+      {"item": ["earthrune",25], "chance": "1"},
+      {"item": ["~randomherb",1], "chance": "15"},
+      {"item": ["coins",40], "chance": "29"},
+      {"item": ["coins",135], "chance": "25"},
+      {"item": ["coins",190], "chance": "10"},
+      {"item": ["coins",20], "chance": "4"},
+      {"item": ["coins",420], "chance": "1"},
+      {"item": ["cert_coal",6], "chance": "3"},
+      {"item": ["cert_raw_tuna",4], "chance": "2"},
+      {"item": ["~randomjewel",1], "chance": "2"}
+    ],
+    "always": [
+      {"item": ["troll_key_prison",1]},
+      {"item": ["big_bones",1]}
+    ]
+  },
+  "troll_general2":   {
+    "name": "Troll General",
+    "info": {
+      "attack": "70",
+      "category": "troll_general",
+      "defence": "40",
+      "desc": "One of the Troll Generals.",
+      "hitpoints": "140",
+      "huntrange": "1",
+      "magic": "0",
+      "op2": "Attack",
+      "params": {"attackbonus":"60","strengthbonus":"100","stabdefence":"35","slashdefence":"60","crushdefence":"35","magicdefence":"200","rangedefence":"200","damagetype":"^slash_style","attack_anim":"troll_attack","defend_anim":"troll_block","death_anim":"troll_death","attack_sound":"troll_champion_attack","defend_sound":"troll_champion_death","death_drop":"big_bones"},
+      "ranged": "0",
+      "resizeh": "200",
+      "resizev": "200",
+      "strength": "140",
+      "vislevel": "113"
+    },
+    "roll_base": 128,
+    "roll_table": [
+      {"item": ["steel_platebody",1], "chance": "4"},
+      {"item": ["black_warhammer",1], "chance": "3"},
+      {"item": ["steel_warhammer",1], "chance": "3"},
+      {"item": ["adamant_axe",1], "chance": "2"},
+      {"item": ["adamant_sq_shield",1], "chance": "1"},
+      {"item": ["granite_shield",1], "chance": "1"},
+      {"item": ["mithril_platebody",1], "chance": "1"},
+      {"item": ["rune_warhammer",1], "chance": "1"},
+      {"item": ["earthrune",80], "chance": "8"},
+      {"item": ["naturerune",16], "chance": "5"},
+      {"item": ["lawrune",4], "chance": "3"},
+      {"item": ["earthrune",65], "chance": "1"},
+      {"item": ["earthrune",25], "chance": "1"},
+      {"item": ["~randomherb",1], "chance": "15"},
+      {"item": ["coins",40], "chance": "29"},
+      {"item": ["coins",135], "chance": "25"},
+      {"item": ["coins",190], "chance": "10"},
+      {"item": ["coins",20], "chance": "4"},
+      {"item": ["coins",420], "chance": "1"},
+      {"item": ["cert_coal",6], "chance": "3"},
+      {"item": ["cert_raw_tuna",4], "chance": "2"},
+      {"item": ["~randomjewel",1], "chance": "2"}
+    ],
+    "always": [
+      {"item": ["troll_key_prison",1]},
+      {"item": ["big_bones",1]}
+    ]
+  },
+  "troll_general3":   {
+    "name": "Troll General",
+    "info": {
+      "attack": "70",
+      "category": "troll_general",
+      "defence": "40",
+      "desc": "One of the Troll Generals.",
+      "hitpoints": "140",
+      "huntrange": "1",
+      "magic": "0",
+      "op2": "Attack",
+      "params": {"attackbonus":"60","strengthbonus":"100","stabdefence":"35","slashdefence":"60","crushdefence":"35","magicdefence":"200","rangedefence":"200","damagetype":"^slash_style","attack_anim":"troll_attack","defend_anim":"troll_block","death_anim":"troll_death","attack_sound":"troll_champion_attack","defend_sound":"troll_champion_death","death_drop":"big_bones"},
+      "ranged": "0",
+      "resizeh": "200",
+      "resizev": "200",
+      "strength": "140",
+      "vislevel": "113"
+    },
+    "roll_base": 128,
+    "roll_table": [
+      {"item": ["steel_platebody",1], "chance": "4"},
+      {"item": ["black_warhammer",1], "chance": "3"},
+      {"item": ["steel_warhammer",1], "chance": "3"},
+      {"item": ["adamant_axe",1], "chance": "2"},
+      {"item": ["adamant_sq_shield",1], "chance": "1"},
+      {"item": ["granite_shield",1], "chance": "1"},
+      {"item": ["mithril_platebody",1], "chance": "1"},
+      {"item": ["rune_warhammer",1], "chance": "1"},
+      {"item": ["earthrune",80], "chance": "8"},
+      {"item": ["naturerune",16], "chance": "5"},
+      {"item": ["lawrune",4], "chance": "3"},
+      {"item": ["earthrune",65], "chance": "1"},
+      {"item": ["earthrune",25], "chance": "1"},
+      {"item": ["~randomherb",1], "chance": "15"},
+      {"item": ["coins",40], "chance": "29"},
+      {"item": ["coins",135], "chance": "25"},
+      {"item": ["coins",190], "chance": "10"},
+      {"item": ["coins",20], "chance": "4"},
+      {"item": ["coins",420], "chance": "1"},
+      {"item": ["cert_coal",6], "chance": "3"},
+      {"item": ["cert_raw_tuna",4], "chance": "2"},
+      {"item": ["~randomjewel",1], "chance": "2"}
+    ],
+    "always": [
+      {"item": ["troll_key_prison",1]},
+      {"item": ["big_bones",1]}
     ]
   },
   "white_knight":   {
