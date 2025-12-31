@@ -37828,9 +37828,8 @@
     "name": "Agility arena ticket",
     "desc": "I can exchange these for further experience or items.",
     "cost": 1,
-    "weight": 0,
+    "weight": 5,
     "members": true,
-    "tradeable": true,
     "stackable": true
   },
   {
@@ -37839,11 +37838,17 @@
     "name": "Pirate's hook",
     "desc": "You should see the shark...",
     "cost": 89,
-    "weight": 0,
+    "weight": 300,
     "members": true,
     "tradeable": true,
     "iops": {
       "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "hands",
+      "stabdefence": 1,
+      "slashdefence": 5,
+      "crushdefence": 3
     }
   },
   {
@@ -37852,7 +37857,7 @@
     "name": "Toadflax",
     "desc": "A useful herb.",
     "cost": 48,
-    "weight": 0,
+    "weight": 7,
     "members": true,
     "tradeable": true
   },
@@ -37873,7 +37878,7 @@
     "name": "Snapdragon",
     "desc": "A powerful herb.",
     "cost": 59,
-    "weight": 0,
+    "weight": 7,
     "members": true,
     "tradeable": true
   },
@@ -37894,7 +37899,7 @@
     "name": "Unfinished potion",
     "desc": "I need another ingredient to finish this Toadflax potion.",
     "cost": 48,
-    "weight": 0,
+    "weight": 56,
     "members": true,
     "tradeable": true
   },
@@ -37915,7 +37920,7 @@
     "name": "Unfinished potion",
     "desc": "I need another ingredient to finish this Snapdragon potion.",
     "cost": 59,
-    "weight": 0,
+    "weight": 56,
     "members": true,
     "tradeable": true
   },
@@ -38432,7 +38437,7 @@
     "stackable": true
   },
   {
-    "debugname": "obj_3048",
+    "debugname": "cert_piratehook",
     "id": 3048,
     "name": "Pirate's hook",
     "desc": "Swap this note at any bank for a Pirate's hook.",
@@ -38565,68 +38570,78 @@
     "stackable": true
   },
   {
-    "debugname": "obj_3057",
+    "debugname": "macro_mime_mask",
     "id": 3057,
     "name": "Mime mask",
     "desc": "A mime would wear this.",
     "cost": 1,
-    "weight": 0,
+    "weight": 1,
     "members": false,
-    "tradeable": true,
     "iops": {
       "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "head"
     }
   },
   {
-    "debugname": "obj_3058",
+    "debugname": "macro_mime_top",
     "id": 3058,
     "name": "Mime top",
     "desc": "A mime would wear this.",
     "cost": 1,
-    "weight": 0,
+    "weight": 1,
     "members": false,
-    "tradeable": true,
     "iops": {
       "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "body"
     }
   },
   {
-    "debugname": "obj_3059",
+    "debugname": "macro_mime_legs",
     "id": 3059,
     "name": "Mime legs",
     "desc": "A mime would wear these.",
     "cost": 1,
-    "weight": 0,
+    "weight": 1,
     "members": false,
-    "tradeable": true,
     "iops": {
       "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "legs"
     }
   },
   {
-    "debugname": "obj_3060",
+    "debugname": "macro_mime_gloves",
     "id": 3060,
     "name": "Mime gloves",
     "desc": "A mime would wear these.",
     "cost": 1,
-    "weight": 0,
+    "weight": 1,
     "members": false,
-    "tradeable": true,
     "iops": {
       "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "hands"
     }
   },
   {
-    "debugname": "obj_3061",
+    "debugname": "macro_mime_boots",
     "id": 3061,
     "name": "Mime boots",
     "desc": "A mime would wear these.",
     "cost": 1,
-    "weight": 0,
+    "weight": 340,
     "members": false,
-    "tradeable": true,
     "iops": {
       "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "feet"
     }
   },
   {
@@ -38635,9 +38650,8 @@
     "name": "Strange box",
     "desc": "It seems to be humming...",
     "cost": 1,
-    "weight": 0,
+    "weight": 5000,
     "members": false,
-    "tradeable": true,
     "stackable": true,
     "iops": {
       "iop1": "Open"
@@ -38959,31 +38973,43 @@
     "stackable": true
   },
   {
-    "debugname": "obj_3093",
+    "debugname": "black_dart",
     "id": 3093,
     "name": "Black dart",
     "desc": "A deadly throwing dart with a black tip.",
     "cost": 18,
-    "weight": 0,
+    "weight": 10,
     "members": true,
     "tradeable": true,
     "stackable": true,
     "iops": {
       "iop2": "Wield"
+    },
+    "equipable_item": {
+      "wearpos": "weapon",
+      "rangeattack": 7,
+      "rangebonus": 6,
+      "attackrate": 3
     }
   },
   {
-    "debugname": "obj_3094",
+    "debugname": "black_dart_p",
     "id": 3094,
     "name": "Black dart(p)",
     "desc": "A deadly poisoned dart with a black tip.",
     "cost": 18,
-    "weight": 0,
+    "weight": 10,
     "members": true,
     "tradeable": true,
     "stackable": true,
     "iops": {
       "iop2": "Wield"
+    },
+    "equipable_item": {
+      "wearpos": "weapon",
+      "rangeattack": 7,
+      "rangebonus": 6,
+      "attackrate": 3
     }
   },
   {
@@ -39399,12 +39425,12 @@
     }
   },
   {
-    "debugname": "obj_3123",
+    "debugname": "tbwt_beast_bones",
     "id": 3123,
     "name": "Shaikahan bones",
     "desc": "Large glistening bones which glow with a pale yellow aura.",
     "cost": 1,
-    "weight": 0,
+    "weight": 800,
     "members": true,
     "tradeable": true,
     "iops": {
@@ -39412,7 +39438,7 @@
     }
   },
   {
-    "debugname": "obj_3124",
+    "debugname": "cert_tbwt_beast_bones",
     "id": 3124,
     "name": "Shaikahan bones",
     "desc": "Swap this note at any bank for a Shaikahan bones.",
@@ -39423,12 +39449,12 @@
     "stackable": true
   },
   {
-    "debugname": "obj_3125",
+    "debugname": "tbwt_jogre_bones",
     "id": 3125,
     "name": "Jogre bones",
     "desc": "Fairly big bones which smell distinctly of Jogre.",
     "cost": 1,
-    "weight": 0,
+    "weight": 800,
     "members": true,
     "tradeable": true,
     "iops": {
@@ -39436,7 +39462,7 @@
     }
   },
   {
-    "debugname": "obj_3126",
+    "debugname": "cert_tbwt_jogre_bones",
     "id": 3126,
     "name": "Jogre bones",
     "desc": "Swap this note at any bank for a Jogre bones.",
@@ -39447,12 +39473,12 @@
     "stackable": true
   },
   {
-    "debugname": "obj_3127",
+    "debugname": "tbwt_burnt_jogre_bones",
     "id": 3127,
     "name": "Burnt jogre bones",
     "desc": "These blackened Jogre bones have been somehow burnt.",
     "cost": 1,
-    "weight": 0,
+    "weight": 800,
     "members": true,
     "tradeable": true,
     "iops": {
@@ -39460,12 +39486,12 @@
     }
   },
   {
-    "debugname": "obj_3128",
+    "debugname": "tbwt_burnt_jogre_bones_in_raw_karambwanji_paste",
     "id": 3128,
     "name": "Pasty jogre bones",
     "desc": "Burnt Jogre bones smothered with raw Karambwanji Paste.",
     "cost": 1,
-    "weight": 0,
+    "weight": 800,
     "members": true,
     "tradeable": true,
     "iops": {
@@ -39473,12 +39499,12 @@
     }
   },
   {
-    "debugname": "obj_3129",
+    "debugname": "tbwt_burnt_jogre_bones_in_cooked_karambwanji_paste",
     "id": 3129,
     "name": "Pasty jogre bones",
     "desc": "Burnt Jogre bones smothered with cooked Karambwanji paste.",
     "cost": 1,
-    "weight": 0,
+    "weight": 800,
     "members": true,
     "tradeable": true,
     "iops": {
@@ -39486,12 +39512,12 @@
     }
   },
   {
-    "debugname": "obj_3130",
+    "debugname": "tbwt_burnt_jogre_bones_marinated_in_karambwanji",
     "id": 3130,
     "name": "Marinated j' bones",
     "desc": "Burnt Jogre bones marinated in a lovely Karambwanji sauce. Perfect.",
     "cost": 1,
-    "weight": 0,
+    "weight": 800,
     "members": true,
     "tradeable": true,
     "iops": {
@@ -39499,12 +39525,12 @@
     }
   },
   {
-    "debugname": "obj_3131",
+    "debugname": "tbwt_jogre_bones_in_raw_karambwanji_paste",
     "id": 3131,
     "name": "Pasty jogre bones",
     "desc": "Jogre bones smothered with raw Karambwanji paste.",
     "cost": 1,
-    "weight": 0,
+    "weight": 800,
     "members": true,
     "tradeable": true,
     "iops": {
@@ -39512,12 +39538,12 @@
     }
   },
   {
-    "debugname": "obj_3132",
+    "debugname": "tbwt_jogre_bones_in_cooked_karambwanji_paste",
     "id": 3132,
     "name": "Pasty jogre bones",
     "desc": "Jogre bones smothered with cooked Karambwanji paste.",
     "cost": 1,
-    "weight": 0,
+    "weight": 800,
     "members": true,
     "tradeable": true,
     "iops": {
@@ -39525,12 +39551,12 @@
     }
   },
   {
-    "debugname": "obj_3133",
+    "debugname": "tbwt_jogre_bones_marinated_in_karambwanji",
     "id": 3133,
     "name": "Marinated j' bones",
     "desc": "Jogre Bones marinated in Karambwanji sauce. Not quite right.",
     "cost": 1,
-    "weight": 0,
+    "weight": 800,
     "members": true,
     "tradeable": true,
     "iops": {
@@ -39549,32 +39575,32 @@
     "stackable": true
   },
   {
-    "debugname": "obj_3135",
+    "debugname": "troll_key_prison",
     "id": 3135,
     "name": "Prison key",
     "desc": "The key to the troll prison.",
     "cost": 1,
-    "weight": 0,
+    "weight": 55,
     "members": true,
     "tradeable": true
   },
   {
-    "debugname": "obj_3136",
+    "debugname": "troll_key_godric",
     "id": 3136,
     "name": "Cell key 1",
     "desc": "The key to Godric's cell in the troll prison.",
     "cost": 1,
-    "weight": 0,
+    "weight": 55,
     "members": true,
     "tradeable": true
   },
   {
-    "debugname": "obj_3137",
+    "debugname": "troll_key_eadgar",
     "id": 3137,
     "name": "Cell key 2",
     "desc": "The key to Mad Eadgar's cell in the troll prison.",
     "cost": 1,
-    "weight": 0,
+    "weight": 55,
     "members": true,
     "tradeable": true
   },
@@ -39584,7 +39610,7 @@
     "name": "Potato cactus",
     "desc": "How am I supposed to eat that?!",
     "cost": 1,
-    "weight": 0,
+    "weight": 500,
     "members": true,
     "tradeable": true
   },
@@ -39600,20 +39626,29 @@
     "stackable": true
   },
   {
-    "debugname": "obj_3140",
+    "debugname": "dragon_chainbody",
     "id": 3140,
     "name": "Dragon chainbody",
     "desc": "A series of connected metal rings.",
     "cost": 250000,
-    "weight": 0,
+    "weight": 6803,
     "members": true,
     "tradeable": true,
     "iops": {
       "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "body",
+      "magicattack": -15,
+      "stabdefence": 81,
+      "slashdefence": 93,
+      "crushdefence": 98,
+      "magicdefence": -3,
+      "rangedefence": 82
     }
   },
   {
-    "debugname": "obj_3141",
+    "debugname": "cert_dragon_chainbody",
     "id": 3141,
     "name": "Dragon chainbody",
     "desc": "Swap this note at any bank for a Dragon chainbody.",
