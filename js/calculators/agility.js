@@ -20,6 +20,28 @@ const shortcuts = {
     "Monkeybars (Yanille Dungeon)": { xp: 20, level: 57 },
 };
 
+const arenaObstacles = {
+    "Sawblade": { xp: 0, level: 1 },
+    "Plank balance": { xp: 6, level: 1 },
+    "Low wall": { xp: 8, level: 1 },
+    "Rope balance": { xp: 10, level: 1 },
+    "Log balance": { xp: 12, level: 1 },
+    "Monkey bars": { xp: 14, level: 1 },
+    "Ledge": { xp: 16, level: 1 },
+    "Pillars": { xp: 18, level: 1 },
+    "Rope swing": { xp: 20, level: 1 },
+    "Hand holds": { xp: 22, level: 20 },
+    "Spiked floor": { xp: 24, level: 20 },
+    "Pressure pad": { xp: 26, level: 20 },
+    "Spinning blade": { xp: 28, level: 40 },
+    "Darts": { xp: 30, level: 40 },
+    "Arena Tickets (x1)": { xp: 240, level: 1 },
+    "Arena Tickets (x10)": { xp: 2480, level: 1 },
+    "Arena Tickets (x25)": { xp: 6500, level: 1 },
+    "Arena Tickets (x100)": { xp: 28000, level: 1 },
+    "Arena Tickets (x1000)": { xp: 320000, level: 1 },
+}
+
 function runCalc() {
     const currentXP = parseInt(document.getElementById("currentXP").value);
     const targetXP = parseInt(document.getElementById("targetXP").value);
@@ -29,6 +51,8 @@ function runCalc() {
 
     const tableBody = document.querySelector("#resultsTable tbody");
     tableBody.innerHTML = "";
+    const arenaMapsContainer = document.getElementById("arenaMapsContainer");
+    arenaMapsContainer.style.display = mode === "arena" ? "block" : "none";
 
     let dataSet;
     switch (mode) {
@@ -37,6 +61,8 @@ function runCalc() {
             dataSet = courses; break;
         case "shortcuts":
             dataSet = shortcuts; break;
+        case "arena":
+            dataSet = arenaObstacles; break;
     }
 
     for (const source in dataSet) {

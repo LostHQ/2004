@@ -1,7 +1,6 @@
 <?php
 class CalculatorType {
-    private ?string $calcName = null; // Allow $calcName to be nullable
-
+    private ?string $calcName = null;
     private const VALID_CALCULATORS = [
         'agility',
         'cooking',
@@ -52,7 +51,6 @@ function getPageContent(): string {
 
         if (file_exists($filePath)) {
             include $filePath;
-
             // - getPageTitle()
             // - getPageMetaIcon()
             $meta_data['title'] = 'Calculators > ' . getPageTitle();
@@ -83,7 +81,7 @@ function generateCalculatorLinks(): string {
     $generateLinks = function (array $calculators) {
         $rows = '';
         foreach ($calculators as $calc) {
-            $linkText = ucwords(str_replace('_', ' ', $calc)); // Capitalizes the words and replaces underscores with spaces
+            $linkText = ucwords(str_replace('_', ' ', $calc));
             $rows .= '<a href="?p=calculators&calc=' . $calc . '"><button>' . $linkText . ' Calculator</button></a><br>';
         }
         return $rows;
@@ -91,7 +89,8 @@ function generateCalculatorLinks(): string {
 
     $miscRows = $generateLinks($miscCalculators);
 
-    return getCSS('css/calculators.css') . <<<HTML
+    return (
+        getCSS('css/calculators.css').<<<HTML
         <table width="90%" class="table">
             <tr>
                 <th>Skill Calculators</th>
@@ -100,9 +99,9 @@ function generateCalculatorLinks(): string {
                 <td>
                     Select a skill below to get to the calculator for that skill.<br>
                     <canvas data-skills="skillTree" data-width="188" data-style="$siteOptStyle"></canvas>
-HTML.getJS('js/skillgrid.js').<<<HTML
-                </td>
-            </tr>
+        HTML.getJS('js/skillgrid.js').<<<HTML
+                        </td>
+                    </tr>
         </table><br>
         <table width="90%" class="table">
             <tr>
@@ -115,4 +114,7 @@ HTML.getJS('js/skillgrid.js').<<<HTML
             </tr>
         </table><br>
         <div class="xp-table"></div>
-HTML.getJS('js/calculators.js').'<script>renderXpTable();</script>'; }
+        <script>renderXpTable();</script>
+        HTML
+    );
+}

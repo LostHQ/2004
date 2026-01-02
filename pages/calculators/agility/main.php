@@ -24,6 +24,7 @@ function getCalcContent() { return <<<HTML
     <hr>
     <button onclick="setMode('courses')">Courses</button>
     <button onclick="setMode('shortcuts')">Shortcuts</button>
+    <button onclick="setMode('arena')">Agility Arena</button>
     <br><br>
     <table id="resultsTable" class="table" width="100%">
         <thead>
@@ -36,5 +37,6 @@ function getCalcContent() { return <<<HTML
         </thead>
         <tbody></tbody>
     </table>
+    <div id="arenaMapsContainer" style="display:none;"></div>
 </div>
 HTML.getJS('js/calculators/agility.js'); }

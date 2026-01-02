@@ -25,13 +25,13 @@ function getPageContent() { return <<<HTML
         </tr>
         <tr>
             <td width="100">
-                <a href="?p=specialguides">
-                    <img src="img/specialguides.png">
+                <a href="?p=droptables">
+                    <img src="img/skeleton.png">
                 </a>
             </td>
             <td width="120">
-                Special Guides<br>
-                <a href="?p=specialguides">Click Here</a>
+                NPC Database<br>
+                <a href="?p=droptables">Click Here</a>
             </td>
             <td width="10"></td>
             <td width="100">
@@ -46,13 +46,13 @@ function getPageContent() { return <<<HTML
         </tr>
         <tr>
             <td width="100">
-                <a href="?p=droptables">
-                    <img src="img/skeleton.png">
+                <a href="?p=specialguides">
+                    <img src="img/specialguides.png">
                 </a>
             </td>
             <td width="120">
-                Monster Drop Tables<br>
-                <a href="?p=droptables">Click Here</a>
+                Special Guides<br>
+                <a href="?p=specialguides">Click Here</a>
             </td>
             <td width="10"></td>
             <td width="100">
