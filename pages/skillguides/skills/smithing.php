@@ -144,7 +144,7 @@ function getSkillContent($skill) { return <<<HTML
     <br><br>
     Select a bar from your inventory, then select an anvil. You will be given a screen to decide what sort of equipment you would like to make. You will  be shown how many bars are needed to make types of object. If this is written in green then you have enough bars to make the item, if it is written in red then you do not.
     <br><br>
-    <img src="img/skillguides/smithing/smithinginterface.gif">
+    <img src="img/skillguides/smithing/smithinginterface.png" width="470">
     <br><br>
     The name of the objects will be written in black or white. If the name is written in white then you have the smithing level required to make it. If it is written in black then you do not.
     <br><br>
@@ -234,7 +234,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>-</td>
         </tr>
         <tr>
-            <td>Throwing dart tips</td>
+            <td>Throwing dart tips<br>(After completing Tourist Trap)</td>
             <td><canvas data-itemname="bronze_dart_tip" data-size="28px"></canvas><br>4<br></td>
             <td><canvas data-itemname="iron_dart_tip" data-size="28px"></canvas><br>19<br></td>
             <td><canvas data-itemname="steel_dart_tip" data-size="28px"></canvas><br>34<br></td>
@@ -286,6 +286,15 @@ function getSkillContent($skill) { return <<<HTML
             <td><canvas data-itemname="mithril_longsword" data-size="28px"></canvas><br>56</td>
             <td><canvas data-itemname="adamant_longsword" data-size="28px"></canvas><br>76</td>
             <td><canvas data-itemname="rune_longsword" data-size="28px"></canvas><br>91</td>
+        </tr>
+        <tr>
+            <td>Claws<br>(After completing Death Plateau)</td>
+            <td><canvas data-itemname="bronze_claws" data-size="28px"></canvas><br>13</td>
+            <td><canvas data-itemname="iron_claws" data-size="28px"></canvas><br>28</td>
+            <td><canvas data-itemname="steel_claws" data-size="28px"></canvas><br>43</td>
+            <td><canvas data-itemname="mithril_claws" data-size="28px"></canvas><br>63</td>
+            <td><canvas data-itemname="adamant_claws" data-size="28px"></canvas><br>83</td>
+            <td><canvas data-itemname="rune_claws" data-size="28px"></canvas><br>98</td>
         </tr>
         <tr>
             <th rowspan=2>Item</th>
