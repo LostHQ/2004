@@ -18,7 +18,7 @@ const imageDebugnameOverrides = {
     rune_arrow_p: "rune_arrow_p_5",
 };
 
-Promise.all([fetch("js/itemlist.json").then((res) => res.json()), new Promise((resolve) => (spritesheet.onload = resolve))])
+Promise.all([fetch(`js/itemlist.json?v=${currentGameVer}`).then((res) => res.json()), new Promise((resolve) => (spritesheet.onload = resolve))])
     .then(([json]) => {
         itemData = json;
         window.spriteLoaderReady = true;

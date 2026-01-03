@@ -79,7 +79,7 @@ function loadEquipInterface(targetDiv, allowChange, headItem, capeItem, neckItem
         style.textContent = `
         .equipment-interface {
             position: relative;
-            background: url('img/interfaces/equipment_blank.png?v=${Date.now()}') no-repeat;
+            background: url('img/interfaces/equipment_blank.png?v=${currentGameVer}') no-repeat;
             background-size: contain;
             width: 265px;
             height: 351px;

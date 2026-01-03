@@ -10,11 +10,10 @@ const SHARED_TABLE_ICONS = {
     megararetable: "dragonshield_a",
 };
 
-const cacheBuster = Date.now();
 Promise.all([
-    fetch(`js/droptables/monster_drops.json?v=${cacheBuster}`).then((res) => res.json()),
-    fetch(`js/droptables/shared_drops.json?v=${cacheBuster}`).then((res) => res.json()),
-    fetch(`js/itemlist.json?v=${cacheBuster}`).then((res) => res.json()),
+    fetch(`js/droptables/monster_drops.json?v=${currentGameVer}`).then((res) => res.json()),
+    fetch(`js/droptables/shared_drops.json?v=${currentGameVer}`).then((res) => res.json()),
+    fetch(`js/itemlist.json?v=${currentGameVer}`).then((res) => res.json()),
 ]).then(([monsterData, sharedData, itemData]) => {
     monsterDrops = monsterData;
     sharedDrops = sharedData;

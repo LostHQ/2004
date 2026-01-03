@@ -1,5 +1,5 @@
 let itemsData = [];
-fetch("js/itemlist.json")
+fetch(`js/itemlist.json?v=${currentGameVer}`)
     .then((r) => r.json())
     .then((data) => {
         itemsData = data.map((item) => ({
