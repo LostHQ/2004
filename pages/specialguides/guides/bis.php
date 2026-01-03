@@ -459,7 +459,7 @@ clearAllEquipment();
     'dragon_sq_shield',
     'rune_platelegs',
     'steel_gauntlets',
-    'ikov_bootsoflightness',
+    'death_climbingboots',
     null,
     null
 );</script>
@@ -557,7 +557,7 @@ clearAllEquipment();
     'dragon_sq_shield',
     'rune_platelegs',
     'steel_gauntlets',
-    'ikov_bootsoflightness',
+    'death_climbingboots',
     null,
     null
 );</script>
