@@ -36,13 +36,13 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 </div>
 <br><br>
 <div data-progress>
-    urn on protect from melee, and fight him, use your best attacks on him up until you kill him, he will hit you hard if you don't have protect from melee on.<br>
+    Turn on protect from melee, and fight him, use your best attacks on him up until you kill him, he will hit you hard if you don't have protect from melee on.<br>
     He smashes you and you'll go flying into a wall nearby, he hits you from 7-11 and from flying into the wall he hits you 15-25.<br>
     There is a couple safe places to use range or magic, one is near the gate, although it doesn't always work.
 </div>
 <br><br>
 <div data-progress>
-    Once he’s nearly dead he will forfeit. I highly recommend you go back and charge your prayer points, or use a prayer potion.<br>
+    Once he's nearly dead he will forfeit. I highly recommend you go back and charge your prayer points, or use a prayer potion.<br>
     Just make sure you have full prayer.
 </div>
 <hr>
