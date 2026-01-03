@@ -3,7 +3,7 @@ const spritesPerRow = 64;
 let itemData = [];
 
 const spritesheet = new Image();
-spritesheet.src = "img/item_spritesheet.png?v245.2";
+spritesheet.src = "img/item_spritesheet.png?v254";
 
 // Image override debugnames
 const imageDebugnameOverrides = {
@@ -72,7 +72,7 @@ function renderSpriteToCanvas(debugname, canvas) {
     ctx.drawImage(spritesheet, col * spriteSize, row * spriteSize, spriteSize, spriteSize, 0, 0, size, size);
 
     // Tooltip setup
-    let tooltip = `${name} - ${desc}`;
+    let tooltip = `${name} — ${desc}`;
     if (cost > 0) {
         const highAlch = Math.floor(cost * 0.6);
         tooltip += `\nHigh Alch: ${highAlch.toLocaleString()} coins`;

@@ -56,6 +56,16 @@ function runCalc() {
                 result: "Stat restore(3)",
                 result_pretty: "Stat restore(3)",
             },
+            "3dose1energy": {
+                level: 26,
+                xp: 67.5,
+                herb: "harralander",
+                herb_pretty: "Harralander",
+                secondary: "chocolate_dust",
+                secondary_pretty: "Chocolate dust",
+                result: "Energy potion(3)",
+                result_pretty: "Energy potion(3)",
+            },
             "3dose1defense": {
                 level: 30,
                 xp: 75,
@@ -65,6 +75,16 @@ function runCalc() {
                 secondary_pretty: "White Berries",
                 result: "Defense potion(3)",
                 result_pretty: "Defense potion(3)",
+            },
+            "3dose1agility": {
+                level: 34,
+                xp: 80,
+                herb: "toadflax",
+                herb_pretty: "Toadflax",
+                secondary: "toads_legs",
+                secondary_pretty: "Toad Legs",
+                result: "Agility potion(3)",
+                result_pretty: "Agility potion(3)",
             },
             "3doseprayerrestore": {
                 level: 38,
@@ -106,6 +126,16 @@ function runCalc() {
                 result: "Fishing potion(3)",
                 result_pretty: "Fishing potion(3)",
             },
+            "3dose2energy": {
+                level: 52,
+                xp: 117.5,
+                herb: "avantoe",
+                herb_pretty: "Avantoe",
+                secondary: "mortmyremushroom",
+                secondary_pretty: "Mort myre fungi",
+                result: "Super energy(3)",
+                result_pretty: "Super energy(3)",
+            },
             "3dose2strength": {
                 level: 55,
                 xp: 125,
@@ -125,6 +155,16 @@ function runCalc() {
                 secondary_pretty: "Dragon Scale Dust",
                 result: "Weapon poison",
                 result_pretty: "Weapon poison",
+            },
+            "3dose2restore": {
+                level: 63,
+                xp: 142.5,
+                herb: "snapdragon",
+                herb_pretty: "Snapdragon",
+                secondary: "red_spiders_eggs",
+                secondary_pretty: "Red spiders' eggs",
+                result: "Super restore(3)",
+                result_pretty: "Super restore(3)",
             },
             "3dose2defense": {
                 level: 66,
@@ -156,6 +196,16 @@ function runCalc() {
                 result: "Ranging potion(3)",
                 result_pretty: "Ranging potion(3)",
             },
+            "3dose1magic": {
+                level: 76,
+                xp: 172.5,
+                herb: "lantadyme",
+                herb_pretty: "Lantadyme",
+                secondary: "cactus_potato",
+                secondary_pretty: "Potato cactus",
+                result: "Magic potion(3)",
+                result_pretty: "Magic potion(3)",
+            },
             "3dosepotionofzamorak": {
                 level: 78,
                 xp: 175,
@@ -167,7 +217,7 @@ function runCalc() {
                 result_pretty: "Zamorak potion(3)",
             },
         },
-        cleaning_herbs: {
+        identifying_herbs: {
             guam_leaf: {
                 level: 3,
                 xp: 2.5,
@@ -203,6 +253,13 @@ function runCalc() {
                 unid_pretty: "Unidentified Ranarr",
                 pretty: "Ranarr Weed",
             },
+            toadflax: {
+                level: 30,
+                xp: 8,
+                unid: "unidentified_toadflax",
+                unid_pretty: "Unidentified Toadflax",
+                pretty: "Toadflax",
+            },
             irit_leaf: {
                 level: 40,
                 xp: 8.8,
@@ -223,6 +280,13 @@ function runCalc() {
                 unid: "unidentified_kwuarm",
                 unid_pretty: "Unidentified Kwuarm",
                 pretty: "Kwuarm",
+            },
+            snapdragon: {
+                level: 59,
+                xp: 11.8,
+                unid: "unidentified_snapdragon",
+                unid_pretty: "Unidentified Snapdragon",
+                pretty: "Snapdragon",
             },
             cadantine: {
                 level: 65,
@@ -265,7 +329,7 @@ function runCalc() {
         const header = document.createElement("p");
         header.textContent = "Please enter the amount of each ingredient you have in your bank.";
         resultsDiv.appendChild(header);
-        const herbs = Object.keys(herbloreData.cleaning_herbs);
+        const herbs = Object.keys(herbloreData.identifying_herbs);
 
         for (let i = 0; i < herbs.length; i++) {
             const div = document.createElement("div");
@@ -321,7 +385,7 @@ function runCalc() {
         const label3 = document.createElement("label");
         label3.innerHTML = "Are your herbs already identified?";
         const select3 = document.createElement("select");
-        select3.id = "cleaningHerbs";
+        select3.id = "identifyingHerbs";
         select3.innerHTML = `<option value="yes">Yes</option>
                             <option value="no" selected>No</option>`;
         div.appendChild(label3);
@@ -374,7 +438,7 @@ function runCalc() {
             table.innerHTML = `<thead><tr><th>Herb</th><th>Potion</th><th>Amount</th><th>XP per</th><th>Total XP</th></tr></thead><tbody></tbody>`;
             const tbody = table.querySelector("tbody");
 
-            const herbsCleaned = document.getElementById("cleaningHerbs").value === "yes";
+            const herbsCleaned = document.getElementById("identifyingHerbs").value === "yes";
 
             let secondaryCounts = {};
             let vialsOfWaterCount = 0;
@@ -393,17 +457,17 @@ function runCalc() {
                 } else if (potionsUsing.length === 1) {
                     selectedPotion = potionsUsing[0];
                 }
-                const prettyHerbName = herbloreData.cleaning_herbs[herb].pretty || herb.replace(/_/g, " ");
-                let cleaningXPAdded = false;
+                const prettyHerbName = herbloreData.identifying_herbs[herb].pretty || herb.replace(/_/g, " ");
+                let identifyingXPAdded = false;
                 if (!herbsCleaned && amount > 0) {
-                    const cleaningXP = herbloreData.cleaning_herbs[herb].xp;
-                    const totalCleaning = amount * cleaningXP;
-                    totalXP += totalCleaning;
-                    xpAfter += totalCleaning;
+                    const identifyingXP = herbloreData.identifying_herbs[herb].xp;
+                    const totalIdentifying = amount * identifyingXP;
+                    totalXP += totalIdentifying;
+                    xpAfter += totalIdentifying;
                     const tr = document.createElement("tr");
-                    tr.innerHTML = `<td>${prettyHerbName}</td><td>Cleaning</td><td>${amount}</td><td>${cleaningXP}</td><td>${totalCleaning.toLocaleString()}</td>`;
+                    tr.innerHTML = `<td>${prettyHerbName}</td><td>Identifying</td><td>${amount}</td><td>${identifyingXP}</td><td>${totalIdentifying.toLocaleString()}</td>`;
                     tbody.appendChild(tr);
-                    cleaningXPAdded = true;
+                    identifyingXPAdded = true;
                 }
                 if (selectedPotion) {
                     const recipe = herbloreData.potions[selectedPotion];

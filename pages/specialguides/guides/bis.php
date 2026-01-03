@@ -52,7 +52,7 @@ clearAllEquipment();
     'cape_of_legends',
     'gnome_amulet',
     'dragon_longsword',
-    'rune_chainbody',
+    'dragon_chainbody',
     'dragon_sq_shield',
     'rune_platelegs',
     'steel_gauntlets',
@@ -88,8 +88,8 @@ clearAllEquipment();
     </tr>
     <tr>
         <td>Chest</td>
-        <td><canvas data-itemname="rune_chainbody" data-show-label="inline"></canvas></td>
-        <td>+78 Crush Defence</td>
+        <td><canvas data-itemname="dragon_chainbody" data-show-label="inline"></canvas></td>
+        <td>+98 Crush Defence</td>
     </tr>
     <tr>
         <td>Shield</td>
@@ -208,7 +208,7 @@ clearAllEquipment();
     'cape_of_legends',
     'gnome_amulet',
     'dragon_longsword',
-    'rune_platebody',
+    'dragon_chainbody',
     'dragon_sq_shield',
     'rune_platelegs',
     'steel_gauntlets',
@@ -244,8 +244,8 @@ clearAllEquipment();
     </tr>
     <tr>
         <td>Chest</td>
-        <td><canvas data-itemname="rune_platebody" data-show-label="inline"></canvas></td>
-        <td>+80 Slash Defence</td>
+        <td><canvas data-itemname="dragon_chainbody" data-show-label="inline"></canvas></td>
+        <td>+93 Slash Defence</td>
     </tr>
     <tr>
         <td rowspan="2">Shield</td>
@@ -291,7 +291,7 @@ clearAllEquipment();
     'cape_of_legends',
     'amulet_of_defence',
     'dragon_mace',
-    'rune_platebody',
+    'dragon_chainbody',
     'dragon_sq_shield',
     'rune_platelegs',
     'ice_gloves',
@@ -327,8 +327,8 @@ clearAllEquipment();
     </tr>
     <tr>
         <td>Chest</td>
-        <td><canvas data-itemname="rune_platebody" data-show-label="inline"></canvas></td>
-        <td>+80 Ranged Defence</td>
+        <td><canvas data-itemname="dragon_chainbody" data-show-label="inline"></canvas></td>
+        <td>+82 Ranged Defence</td>
     </tr>
     <tr>
         <td>Shield</td>

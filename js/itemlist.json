@@ -6095,7 +6095,7 @@
   {
     "debugname": "blackrobetop",
     "id": 546,
-    "name": "Black robe",
+    "name": "Shade robe",
     "desc": "I feel closer to the Gods when I am wearing this.",
     "cost": 40,
     "weight": 907,
@@ -6112,8 +6112,8 @@
   {
     "debugname": "cert_blackrobetop",
     "id": 547,
-    "name": "Black robe",
-    "desc": "Swap this note at any bank for a Black robe.",
+    "name": "Shade robe",
+    "desc": "Swap this note at any bank for a Shade robe.",
     "cost": 40,
     "weight": 0,
     "members": false,
@@ -6123,7 +6123,7 @@
   {
     "debugname": "blackrobebottom",
     "id": 548,
-    "name": "Black robe",
+    "name": "Shade robe",
     "desc": "Keeps a monk's knees nice and warm.",
     "cost": 30,
     "weight": 907,
@@ -6140,8 +6140,8 @@
   {
     "debugname": "cert_blackrobebottom",
     "id": 549,
-    "name": "Black robe",
-    "desc": "Swap this note at any bank for a Black robe.",
+    "name": "Shade robe",
+    "desc": "Swap this note at any bank for a Shade robe.",
     "cost": 30,
     "weight": 0,
     "members": false,
@@ -15917,7 +15917,7 @@
     "debugname": "bronze_spear_p",
     "id": 1251,
     "name": "Bronze spear(p)",
-    "desc": "A bronze tipped spear.",
+    "desc": "A poisoned bronze tipped spear.",
     "cost": 26,
     "weight": 2267,
     "members": true,
@@ -15950,7 +15950,7 @@
     "debugname": "iron_spear_p",
     "id": 1253,
     "name": "Iron spear(p)",
-    "desc": "An iron tipped spear.",
+    "desc": "A poisoned iron tipped spear.",
     "cost": 91,
     "weight": 2267,
     "members": true,
@@ -15984,7 +15984,7 @@
     "debugname": "steel_spear_p",
     "id": 1255,
     "name": "Steel spear(p)",
-    "desc": "A steel tipped spear.",
+    "desc": "A poisoned steel tipped spear.",
     "cost": 325,
     "weight": 2267,
     "members": true,
@@ -16018,7 +16018,7 @@
     "debugname": "mithril_spear_p",
     "id": 1257,
     "name": "Mithril spear(p)",
-    "desc": "A mithril tipped spear.",
+    "desc": "A poisoned mithril tipped spear.",
     "cost": 845,
     "weight": 1814,
     "members": true,
@@ -16052,7 +16052,7 @@
     "debugname": "adamant_spear_p",
     "id": 1259,
     "name": "Adamant spear(p)",
-    "desc": "An adamantite tipped spear.",
+    "desc": "A poisoned adamantite tipped spear.",
     "cost": 2080,
     "weight": 2721,
     "members": true,
@@ -16086,7 +16086,7 @@
     "debugname": "rune_spear_p",
     "id": 1261,
     "name": "Rune spear(p)",
-    "desc": "A rune tipped spear.",
+    "desc": "A poisoned rune tipped spear.",
     "cost": 20800,
     "weight": 2267,
     "members": true,
@@ -16120,7 +16120,7 @@
     "debugname": "dragon_spear_p",
     "id": 1263,
     "name": "Dragon spear(p)",
-    "desc": "A dragon tipped spear.",
+    "desc": "A poisoned dragon tipped spear.",
     "cost": 62400,
     "weight": 2267,
     "members": true,
@@ -19267,21 +19267,19 @@
     "cost": 4,
     "weight": 15,
     "members": true,
-    "tradeable": true,
     "iops": {
       "iop4": "Locate"
     }
   },
   {
-    "debugname": "cert_law_talisman",
+    "debugname": "obj_1459",
     "id": 1459,
-    "name": "Law talisman",
-    "desc": "Swap this note at any bank for a Law talisman.",
-    "cost": 4,
+    "name": null,
+    "desc": null,
+    "cost": 1,
     "weight": 0,
-    "members": true,
-    "tradeable": true,
-    "stackable": true
+    "members": false,
+    "tradeable": true
   },
   {
     "debugname": "soul_talisman",
@@ -36567,7 +36565,7 @@
     "desc": "These will keep my hands warm!",
     "cost": 500,
     "weight": 453,
-    "members": true,
+    "members": false,
     "tradeable": true,
     "iops": {
       "iop2": "Wear"
@@ -36585,7 +36583,7 @@
     "desc": "Swap this note at any bank for a Gloves.",
     "cost": 500,
     "weight": 0,
-    "members": true,
+    "members": false,
     "tradeable": true,
     "stackable": true
   },
@@ -36712,7 +36710,7 @@
     "desc": "These will keep my hands warm!",
     "cost": 500,
     "weight": 453,
-    "members": true,
+    "members": false,
     "tradeable": true,
     "iops": {
       "iop2": "Wear"
@@ -36730,7 +36728,7 @@
     "desc": "Swap this note at any bank for a Gloves.",
     "cost": 500,
     "weight": 0,
-    "members": true,
+    "members": false,
     "tradeable": true,
     "stackable": true
   },
@@ -36857,7 +36855,7 @@
     "desc": "These will keep my hands warm!",
     "cost": 500,
     "weight": 453,
-    "members": true,
+    "members": false,
     "tradeable": true,
     "iops": {
       "iop2": "Wear"
@@ -36875,7 +36873,7 @@
     "desc": "Swap this note at any bank for a Gloves.",
     "cost": 500,
     "weight": 0,
-    "members": true,
+    "members": false,
     "tradeable": true,
     "stackable": true
   },
@@ -37002,7 +37000,7 @@
     "desc": "These will keep my hands warm!",
     "cost": 500,
     "weight": 453,
-    "members": true,
+    "members": false,
     "tradeable": true,
     "iops": {
       "iop2": "Wear"
@@ -37020,7 +37018,7 @@
     "desc": "Swap this note at any bank for a Gloves.",
     "cost": 500,
     "weight": 0,
-    "members": true,
+    "members": false,
     "tradeable": true,
     "stackable": true
   },
@@ -37147,7 +37145,7 @@
     "desc": "These will keep my hands warm!",
     "cost": 500,
     "weight": 453,
-    "members": true,
+    "members": false,
     "tradeable": true,
     "iops": {
       "iop2": "Wear"
@@ -37165,7 +37163,7 @@
     "desc": "Swap this note at any bank for a Gloves.",
     "cost": 500,
     "weight": 0,
-    "members": true,
+    "members": false,
     "tradeable": true,
     "stackable": true
   },
@@ -37549,6 +37547,2109 @@
     "name": "Sickle mould",
     "desc": "Swap this note at any bank for a Sickle mould.",
     "cost": 10,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "cbhat1",
+    "id": 2978,
+    "name": "Chompy bird hat",
+    "desc": "A symbol of your chompy bird hunting prowess.",
+    "cost": 1,
+    "weight": 453,
+    "members": true,
+    "iops": {
+      "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "head"
+    }
+  },
+  {
+    "debugname": "cbhat2",
+    "id": 2979,
+    "name": "Chompy bird hat",
+    "desc": "A symbol of your chompy bird hunting prowess.",
+    "cost": 1,
+    "weight": 453,
+    "members": true,
+    "iops": {
+      "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "head"
+    }
+  },
+  {
+    "debugname": "cbhat3",
+    "id": 2980,
+    "name": "Chompy bird hat",
+    "desc": "A symbol of your chompy bird hunting prowess.",
+    "cost": 1,
+    "weight": 453,
+    "members": true,
+    "iops": {
+      "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "head"
+    }
+  },
+  {
+    "debugname": "cbhat4",
+    "id": 2981,
+    "name": "Chompy bird hat",
+    "desc": "A symbol of your chompy bird hunting prowess.",
+    "cost": 1,
+    "weight": 453,
+    "members": true,
+    "iops": {
+      "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "head"
+    }
+  },
+  {
+    "debugname": "cbhat5",
+    "id": 2982,
+    "name": "Chompy bird hat",
+    "desc": "A symbol of your chompy bird hunting prowess.",
+    "cost": 1,
+    "weight": 453,
+    "members": true,
+    "iops": {
+      "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "head"
+    }
+  },
+  {
+    "debugname": "cbhat6",
+    "id": 2983,
+    "name": "Chompy bird hat",
+    "desc": "A symbol of your chompy bird hunting prowess.",
+    "cost": 1,
+    "weight": 453,
+    "members": true,
+    "iops": {
+      "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "head"
+    }
+  },
+  {
+    "debugname": "cbhat7",
+    "id": 2984,
+    "name": "Chompy bird hat",
+    "desc": "A symbol of your chompy bird hunting prowess.",
+    "cost": 1,
+    "weight": 453,
+    "members": true,
+    "iops": {
+      "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "head"
+    }
+  },
+  {
+    "debugname": "cbhat8",
+    "id": 2985,
+    "name": "Chompy bird hat",
+    "desc": "A symbol of your chompy bird hunting prowess.",
+    "cost": 1,
+    "weight": 453,
+    "members": true,
+    "iops": {
+      "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "head"
+    }
+  },
+  {
+    "debugname": "cbhat9",
+    "id": 2986,
+    "name": "Chompy bird hat",
+    "desc": "A symbol of your chompy bird hunting prowess.",
+    "cost": 1,
+    "weight": 453,
+    "members": true,
+    "iops": {
+      "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "head"
+    }
+  },
+  {
+    "debugname": "cbhat10",
+    "id": 2987,
+    "name": "Chompy bird hat",
+    "desc": "A symbol of your chompy bird hunting prowess.",
+    "cost": 1,
+    "weight": 453,
+    "members": true,
+    "iops": {
+      "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "head"
+    }
+  },
+  {
+    "debugname": "cbhat11",
+    "id": 2988,
+    "name": "Chompy bird hat",
+    "desc": "A symbol of your chompy bird hunting prowess.",
+    "cost": 1,
+    "weight": 453,
+    "members": true,
+    "iops": {
+      "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "head"
+    }
+  },
+  {
+    "debugname": "cbhat12",
+    "id": 2989,
+    "name": "Chompy bird hat",
+    "desc": "A symbol of your chompy bird hunting prowess.",
+    "cost": 1,
+    "weight": 453,
+    "members": true,
+    "iops": {
+      "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "head"
+    }
+  },
+  {
+    "debugname": "cbhat13",
+    "id": 2990,
+    "name": "Chompy bird hat",
+    "desc": "A symbol of your chompy bird hunting prowess.",
+    "cost": 1,
+    "weight": 453,
+    "members": true,
+    "iops": {
+      "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "head"
+    }
+  },
+  {
+    "debugname": "cbhat14",
+    "id": 2991,
+    "name": "Chompy bird hat",
+    "desc": "A symbol of your chompy bird hunting prowess.",
+    "cost": 1,
+    "weight": 453,
+    "members": true,
+    "iops": {
+      "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "head"
+    }
+  },
+  {
+    "debugname": "cbhat15",
+    "id": 2992,
+    "name": "Chompy bird hat",
+    "desc": "A symbol of your chompy bird hunting prowess.",
+    "cost": 1,
+    "weight": 453,
+    "members": true,
+    "iops": {
+      "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "head"
+    }
+  },
+  {
+    "debugname": "cbhat16",
+    "id": 2993,
+    "name": "Chompy bird hat",
+    "desc": "A symbol of your chompy bird hunting prowess.",
+    "cost": 1,
+    "weight": 453,
+    "members": true,
+    "iops": {
+      "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "head"
+    }
+  },
+  {
+    "debugname": "cbhat17",
+    "id": 2994,
+    "name": "Chompy bird hat",
+    "desc": "A symbol of your chompy bird hunting prowess.",
+    "cost": 1,
+    "weight": 453,
+    "members": true,
+    "iops": {
+      "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "head"
+    }
+  },
+  {
+    "debugname": "cbhat18",
+    "id": 2995,
+    "name": "Chompy bird hat",
+    "desc": "A symbol of your chompy bird hunting prowess.",
+    "cost": 1,
+    "weight": 453,
+    "members": true,
+    "iops": {
+      "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "head"
+    }
+  },
+  {
+    "debugname": "agilityarena_ticket",
+    "id": 2996,
+    "name": "Agility arena ticket",
+    "desc": "I can exchange these for further experience or items.",
+    "cost": 1,
+    "weight": 5,
+    "members": true,
+    "stackable": true
+  },
+  {
+    "debugname": "piratehook",
+    "id": 2997,
+    "name": "Pirate's hook",
+    "desc": "You should see the shark...",
+    "cost": 89,
+    "weight": 300,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "hands",
+      "stabdefence": 1,
+      "slashdefence": 5,
+      "crushdefence": 3
+    }
+  },
+  {
+    "debugname": "toadflax",
+    "id": 2998,
+    "name": "Toadflax",
+    "desc": "A useful herb.",
+    "cost": 48,
+    "weight": 7,
+    "members": true,
+    "tradeable": true
+  },
+  {
+    "debugname": "cert_toadflax",
+    "id": 2999,
+    "name": "Toadflax",
+    "desc": "Swap this note at any bank for a Toadflax.",
+    "cost": 48,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "snapdragon",
+    "id": 3000,
+    "name": "Snapdragon",
+    "desc": "A powerful herb.",
+    "cost": 59,
+    "weight": 7,
+    "members": true,
+    "tradeable": true
+  },
+  {
+    "debugname": "cert_snapdragon",
+    "id": 3001,
+    "name": "Snapdragon",
+    "desc": "Swap this note at any bank for a Snapdragon.",
+    "cost": 59,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "toadflaxvial",
+    "id": 3002,
+    "name": "Unfinished potion",
+    "desc": "I need another ingredient to finish this Toadflax potion.",
+    "cost": 48,
+    "weight": 56,
+    "members": true,
+    "tradeable": true
+  },
+  {
+    "debugname": "cert_toadflaxvial",
+    "id": 3003,
+    "name": "Unfinished potion",
+    "desc": "Swap this note at any bank for an Unfinished potion.",
+    "cost": 48,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "snapdragonvial",
+    "id": 3004,
+    "name": "Unfinished potion",
+    "desc": "I need another ingredient to finish this Snapdragon potion.",
+    "cost": 59,
+    "weight": 56,
+    "members": true,
+    "tradeable": true
+  },
+  {
+    "debugname": "cert_snapdragonvial",
+    "id": 3005,
+    "name": "Unfinished potion",
+    "desc": "Swap this note at any bank for an Unfinished potion.",
+    "cost": 59,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "firework",
+    "id": 3006,
+    "name": "Firework",
+    "desc": "A firework potion, this'll look pretty!",
+    "cost": 60,
+    "weight": 35,
+    "members": true,
+    "tradeable": true
+  },
+  {
+    "debugname": "cert_firework",
+    "id": 3007,
+    "name": "Firework",
+    "desc": "Swap this note at any bank for a Firework.",
+    "cost": 60,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "4dose1energy",
+    "id": 3008,
+    "name": "Energy potion(4)",
+    "desc": "4 doses of energy potion.",
+    "cost": 146,
+    "weight": 35,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop1": "Drink"
+    }
+  },
+  {
+    "debugname": "cert_4dose1energy",
+    "id": 3009,
+    "name": "Energy potion(4)",
+    "desc": "Swap this note at any bank for an Energy potion(4).",
+    "cost": 146,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "3dose1energy",
+    "id": 3010,
+    "name": "Energy potion(3)",
+    "desc": "3 doses of energy potion.",
+    "cost": 110,
+    "weight": 30,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop1": "Drink"
+    }
+  },
+  {
+    "debugname": "cert_3dose1energy",
+    "id": 3011,
+    "name": "Energy potion(3)",
+    "desc": "Swap this note at any bank for an Energy potion(3).",
+    "cost": 110,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "2dose1energy",
+    "id": 3012,
+    "name": "Energy potion(2)",
+    "desc": "2 doses of energy potion.",
+    "cost": 72,
+    "weight": 25,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop1": "Drink"
+    }
+  },
+  {
+    "debugname": "cert_2dose1energy",
+    "id": 3013,
+    "name": "Energy potion(2)",
+    "desc": "Swap this note at any bank for an Energy potion(2).",
+    "cost": 72,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "1dose1energy",
+    "id": 3014,
+    "name": "Energy potion(1)",
+    "desc": "1 dose of energy potion.",
+    "cost": 36,
+    "weight": 20,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop1": "Drink"
+    }
+  },
+  {
+    "debugname": "cert_1dose1energy",
+    "id": 3015,
+    "name": "Energy potion(1)",
+    "desc": "Swap this note at any bank for an Energy potion(1).",
+    "cost": 36,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "4dose2energy",
+    "id": 3016,
+    "name": "Super energy(4)",
+    "desc": "4 doses of super energy potion.",
+    "cost": 300,
+    "weight": 35,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop1": "Drink"
+    }
+  },
+  {
+    "debugname": "cert_4dose2energy",
+    "id": 3017,
+    "name": "Super energy(4)",
+    "desc": "Swap this note at any bank for a Super energy(4).",
+    "cost": 300,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "3dose2energy",
+    "id": 3018,
+    "name": "Super energy(3)",
+    "desc": "3 doses of super energy potion.",
+    "cost": 230,
+    "weight": 30,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop1": "Drink"
+    }
+  },
+  {
+    "debugname": "cert_3dose2energy",
+    "id": 3019,
+    "name": "Super energy(3)",
+    "desc": "Swap this note at any bank for a Super energy(3).",
+    "cost": 230,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "2dose2energy",
+    "id": 3020,
+    "name": "Super energy(2)",
+    "desc": "2 doses of super energy potion.",
+    "cost": 160,
+    "weight": 25,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop1": "Drink"
+    }
+  },
+  {
+    "debugname": "cert_2dose2energy",
+    "id": 3021,
+    "name": "Super energy(2)",
+    "desc": "Swap this note at any bank for a Super energy(2).",
+    "cost": 160,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "1dose2energy",
+    "id": 3022,
+    "name": "Super energy(1)",
+    "desc": "1 dose of super energy potion.",
+    "cost": 90,
+    "weight": 20,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop1": "Drink"
+    }
+  },
+  {
+    "debugname": "cert_1dose2energy",
+    "id": 3023,
+    "name": "Super energy(1)",
+    "desc": "Swap this note at any bank for a Super energy(1).",
+    "cost": 90,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "4dose2restore",
+    "id": 3024,
+    "name": "Super restore(4)",
+    "desc": "4 doses of super restore potion.",
+    "cost": 300,
+    "weight": 35,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop1": "Drink"
+    }
+  },
+  {
+    "debugname": "cert_4dose2restore",
+    "id": 3025,
+    "name": "Super restore(4)",
+    "desc": "Swap this note at any bank for a Super restore(4).",
+    "cost": 300,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "3dose2restore",
+    "id": 3026,
+    "name": "Super restore(3)",
+    "desc": "3 doses of super restore potion.",
+    "cost": 240,
+    "weight": 30,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop1": "Drink"
+    }
+  },
+  {
+    "debugname": "cert_3dose2restore",
+    "id": 3027,
+    "name": "Super restore(3)",
+    "desc": "Swap this note at any bank for a Super restore(3).",
+    "cost": 240,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "2dose2restore",
+    "id": 3028,
+    "name": "Super restore(2)",
+    "desc": "2 doses of super restore potion.",
+    "cost": 180,
+    "weight": 25,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop1": "Drink"
+    }
+  },
+  {
+    "debugname": "cert_2dose2restore",
+    "id": 3029,
+    "name": "Super restore(2)",
+    "desc": "Swap this note at any bank for a Super restore(2).",
+    "cost": 180,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "1dose2restore",
+    "id": 3030,
+    "name": "Super restore(1)",
+    "desc": "1 dose of super restore potion.",
+    "cost": 120,
+    "weight": 20,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop1": "Drink"
+    }
+  },
+  {
+    "debugname": "cert_1dose2restore",
+    "id": 3031,
+    "name": "Super restore(1)",
+    "desc": "Swap this note at any bank for a Super restore(1).",
+    "cost": 120,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "4dose1agility",
+    "id": 3032,
+    "name": "Agility potion(4)",
+    "desc": "4 doses of agility potion.",
+    "cost": 200,
+    "weight": 35,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop1": "Drink"
+    }
+  },
+  {
+    "debugname": "cert_4dose1agility",
+    "id": 3033,
+    "name": "Agility potion(4)",
+    "desc": "Swap this note at any bank for an Agility potion(4).",
+    "cost": 200,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "3dose1agility",
+    "id": 3034,
+    "name": "Agility potion(3)",
+    "desc": "3 doses of agility potion.",
+    "cost": 150,
+    "weight": 30,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop1": "Drink"
+    }
+  },
+  {
+    "debugname": "cert_3dose1agility",
+    "id": 3035,
+    "name": "Agility potion(3)",
+    "desc": "Swap this note at any bank for an Agility potion(3).",
+    "cost": 150,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "2dose1agility",
+    "id": 3036,
+    "name": "Agility potion(2)",
+    "desc": "2 doses of agility potion.",
+    "cost": 50,
+    "weight": 25,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop1": "Drink"
+    }
+  },
+  {
+    "debugname": "cert_2dose1agility",
+    "id": 3037,
+    "name": "Agility potion(2)",
+    "desc": "Swap this note at any bank for an Agility potion(2).",
+    "cost": 50,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "1dose1agility",
+    "id": 3038,
+    "name": "Agility potion(1)",
+    "desc": "1 dose of agility potion.",
+    "cost": 50,
+    "weight": 20,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop1": "Drink"
+    }
+  },
+  {
+    "debugname": "cert_1dose1agility",
+    "id": 3039,
+    "name": "Agility potion(1)",
+    "desc": "Swap this note at any bank for an Agility potion(1).",
+    "cost": 50,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "4dose1magic",
+    "id": 3040,
+    "name": "Magic potion(4)",
+    "desc": "4 doses of magic potion.",
+    "cost": 300,
+    "weight": 35,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop1": "Drink"
+    }
+  },
+  {
+    "debugname": "cert_4dose1magic",
+    "id": 3041,
+    "name": "Magic potion(4)",
+    "desc": "Swap this note at any bank for a Magic potion(4).",
+    "cost": 300,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "3dose1magic",
+    "id": 3042,
+    "name": "Magic potion(3)",
+    "desc": "3 doses of magic potion.",
+    "cost": 250,
+    "weight": 30,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop1": "Drink"
+    }
+  },
+  {
+    "debugname": "cert_3dose1magic",
+    "id": 3043,
+    "name": "Magic potion(3)",
+    "desc": "Swap this note at any bank for a Magic potion(3).",
+    "cost": 250,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "2dose1magic",
+    "id": 3044,
+    "name": "Magic potion(2)",
+    "desc": "2 doses of magic potion.",
+    "cost": 200,
+    "weight": 25,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop1": "Drink"
+    }
+  },
+  {
+    "debugname": "cert_2dose1magic",
+    "id": 3045,
+    "name": "Magic potion(2)",
+    "desc": "Swap this note at any bank for a Magic potion(2).",
+    "cost": 200,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "1dose1magic",
+    "id": 3046,
+    "name": "Magic potion(1)",
+    "desc": "1 dose of magic potion.",
+    "cost": 150,
+    "weight": 20,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop1": "Drink"
+    }
+  },
+  {
+    "debugname": "cert_1dose1magic",
+    "id": 3047,
+    "name": "Magic potion(1)",
+    "desc": "Swap this note at any bank for a Magic potion(1).",
+    "cost": 150,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "cert_piratehook",
+    "id": 3048,
+    "name": "Pirate's hook",
+    "desc": "Swap this note at any bank for a Pirate's hook.",
+    "cost": 89,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "unidentified_toadflax",
+    "id": 3049,
+    "name": "Herb",
+    "desc": "I need a closer look to identify this.",
+    "cost": 1,
+    "weight": 7,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop1": "Identify"
+    }
+  },
+  {
+    "debugname": "cert_unidentified_toadflax",
+    "id": 3050,
+    "name": "Herb",
+    "desc": "Swap this note at any bank for a Herb.",
+    "cost": 1,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "unidentified_snapdragon",
+    "id": 3051,
+    "name": "Herb",
+    "desc": "I need a closer look to identify this.",
+    "cost": 1,
+    "weight": 7,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop1": "Identify"
+    }
+  },
+  {
+    "debugname": "cert_unidentified_snapdragon",
+    "id": 3052,
+    "name": "Herb",
+    "desc": "Swap this note at any bank for a Herb.",
+    "cost": 1,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "lava_battlestaff",
+    "id": 3053,
+    "name": "Lava battlestaff",
+    "desc": "It's a slightly magical stick.",
+    "cost": 17000,
+    "weight": 2267,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop2": "Wield"
+    },
+    "equipable_item": {
+      "wearpos": "weapon",
+      "stabattack": 7,
+      "slashattack": -1,
+      "crushattack": 28,
+      "magicattack": 10,
+      "stabdefence": 2,
+      "slashdefence": 3,
+      "crushdefence": 1,
+      "magicdefence": 10,
+      "strengthbonus": 35,
+      "attackrate": 5
+    }
+  },
+  {
+    "debugname": "mystic_lava_staff",
+    "id": 3054,
+    "name": "Mystic lava staff",
+    "desc": "It's a slightly magical stick.",
+    "cost": 45000,
+    "weight": 2267,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop2": "Wield"
+    },
+    "equipable_item": {
+      "wearpos": "weapon",
+      "stabattack": 10,
+      "slashattack": -1,
+      "crushattack": 40,
+      "magicattack": 10,
+      "stabdefence": 2,
+      "slashdefence": 3,
+      "crushdefence": 1,
+      "magicdefence": 10,
+      "strengthbonus": 50,
+      "attackrate": 5
+    }
+  },
+  {
+    "debugname": "cert_lava_battlestaff",
+    "id": 3055,
+    "name": "Lava battlestaff",
+    "desc": "Swap this note at any bank for a Lava battlestaff.",
+    "cost": 17000,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "cert_mystic_lava_staff",
+    "id": 3056,
+    "name": "Mystic lava staff",
+    "desc": "Swap this note at any bank for a Mystic lava staff.",
+    "cost": 45000,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "macro_mime_mask",
+    "id": 3057,
+    "name": "Mime mask",
+    "desc": "A mime would wear this.",
+    "cost": 1,
+    "weight": 1,
+    "members": false,
+    "iops": {
+      "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "head"
+    }
+  },
+  {
+    "debugname": "macro_mime_top",
+    "id": 3058,
+    "name": "Mime top",
+    "desc": "A mime would wear this.",
+    "cost": 1,
+    "weight": 1,
+    "members": false,
+    "iops": {
+      "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "body"
+    }
+  },
+  {
+    "debugname": "macro_mime_legs",
+    "id": 3059,
+    "name": "Mime legs",
+    "desc": "A mime would wear these.",
+    "cost": 1,
+    "weight": 1,
+    "members": false,
+    "iops": {
+      "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "legs"
+    }
+  },
+  {
+    "debugname": "macro_mime_gloves",
+    "id": 3060,
+    "name": "Mime gloves",
+    "desc": "A mime would wear these.",
+    "cost": 1,
+    "weight": 1,
+    "members": false,
+    "iops": {
+      "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "hands"
+    }
+  },
+  {
+    "debugname": "macro_mime_boots",
+    "id": 3061,
+    "name": "Mime boots",
+    "desc": "A mime would wear these.",
+    "cost": 1,
+    "weight": 340,
+    "members": false,
+    "iops": {
+      "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "feet"
+    }
+  },
+  {
+    "debugname": "macro_cube",
+    "id": 3062,
+    "name": "Strange box",
+    "desc": "It seems to be humming...",
+    "cost": 1,
+    "weight": 5000,
+    "members": false,
+    "stackable": true,
+    "iops": {
+      "iop1": "Open"
+    }
+  },
+  {
+    "debugname": "macro_cube_redtriangle",
+    "id": 3063,
+    "name": "Cube part",
+    "desc": null,
+    "cost": 1,
+    "weight": 0,
+    "members": false,
+    "tradeable": true
+  },
+  {
+    "debugname": "cert_macro_cube_redtriangle",
+    "id": 3064,
+    "name": "Cube part",
+    "desc": "Swap this note at any bank for a Cube part.",
+    "cost": 1,
+    "weight": 0,
+    "members": false,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "macro_cube_bluetriangle",
+    "id": 3065,
+    "name": "Cube part",
+    "desc": null,
+    "cost": 1,
+    "weight": 0,
+    "members": false,
+    "tradeable": true
+  },
+  {
+    "debugname": "cert_macro_cube_bluetriangle",
+    "id": 3066,
+    "name": "Cube part",
+    "desc": "Swap this note at any bank for a Cube part.",
+    "cost": 1,
+    "weight": 0,
+    "members": false,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "macro_cube_yellowtriangle",
+    "id": 3067,
+    "name": "Cube part",
+    "desc": null,
+    "cost": 1,
+    "weight": 0,
+    "members": false,
+    "tradeable": true
+  },
+  {
+    "debugname": "cert_macro_cube_yellowtriangle",
+    "id": 3068,
+    "name": "Cube part",
+    "desc": "Swap this note at any bank for a Cube part.",
+    "cost": 1,
+    "weight": 0,
+    "members": false,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "macro_cube_redsquare",
+    "id": 3069,
+    "name": "Cube part",
+    "desc": null,
+    "cost": 1,
+    "weight": 0,
+    "members": false,
+    "tradeable": true
+  },
+  {
+    "debugname": "cert_macro_cube_redsquare",
+    "id": 3070,
+    "name": "Cube part",
+    "desc": "Swap this note at any bank for a Cube part.",
+    "cost": 1,
+    "weight": 0,
+    "members": false,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "macro_cube_bluesquare",
+    "id": 3071,
+    "name": "Cube part",
+    "desc": null,
+    "cost": 1,
+    "weight": 0,
+    "members": false,
+    "tradeable": true
+  },
+  {
+    "debugname": "cert_macro_cube_bluesquare",
+    "id": 3072,
+    "name": "Cube part",
+    "desc": "Swap this note at any bank for a Cube part.",
+    "cost": 1,
+    "weight": 0,
+    "members": false,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "macro_cube_yellowsquare",
+    "id": 3073,
+    "name": "Cube part",
+    "desc": null,
+    "cost": 1,
+    "weight": 0,
+    "members": false,
+    "tradeable": true
+  },
+  {
+    "debugname": "cert_macro_cube_yellowsquare",
+    "id": 3074,
+    "name": "Cube part",
+    "desc": "Swap this note at any bank for a Cube part.",
+    "cost": 1,
+    "weight": 0,
+    "members": false,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "macro_cube_redcircle",
+    "id": 3075,
+    "name": "Cube part",
+    "desc": null,
+    "cost": 1,
+    "weight": 0,
+    "members": false,
+    "tradeable": true
+  },
+  {
+    "debugname": "cert_macro_cube_redcircle",
+    "id": 3076,
+    "name": "Cube part",
+    "desc": "Swap this note at any bank for a Cube part.",
+    "cost": 1,
+    "weight": 0,
+    "members": false,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "macro_cube_bluecircle",
+    "id": 3077,
+    "name": "Cube part",
+    "desc": null,
+    "cost": 1,
+    "weight": 0,
+    "members": false,
+    "tradeable": true
+  },
+  {
+    "debugname": "cert_macro_cube_bluecircle",
+    "id": 3078,
+    "name": "Cube part",
+    "desc": "Swap this note at any bank for a Cube part.",
+    "cost": 1,
+    "weight": 0,
+    "members": false,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "macro_cube_yellowcircle",
+    "id": 3079,
+    "name": "Cube part",
+    "desc": null,
+    "cost": 1,
+    "weight": 0,
+    "members": false,
+    "tradeable": true
+  },
+  {
+    "debugname": "cert_macro_cube_yellowcircle",
+    "id": 3080,
+    "name": "Cube part",
+    "desc": "Swap this note at any bank for a Cube part.",
+    "cost": 1,
+    "weight": 0,
+    "members": false,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "macro_cube_redstar",
+    "id": 3081,
+    "name": "Cube part",
+    "desc": null,
+    "cost": 1,
+    "weight": 0,
+    "members": false,
+    "tradeable": true
+  },
+  {
+    "debugname": "cert_macro_cube_redstar",
+    "id": 3082,
+    "name": "Cube part",
+    "desc": "Swap this note at any bank for a Cube part.",
+    "cost": 1,
+    "weight": 0,
+    "members": false,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "macro_cube_bluestar",
+    "id": 3083,
+    "name": "Cube part",
+    "desc": null,
+    "cost": 1,
+    "weight": 0,
+    "members": false,
+    "tradeable": true
+  },
+  {
+    "debugname": "cert_macro_cube_bluestar",
+    "id": 3084,
+    "name": "Cube part",
+    "desc": "Swap this note at any bank for a Cube part.",
+    "cost": 1,
+    "weight": 0,
+    "members": false,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "macro_cube_yellowstar",
+    "id": 3085,
+    "name": "Cube part",
+    "desc": null,
+    "cost": 1,
+    "weight": 0,
+    "members": false,
+    "tradeable": true
+  },
+  {
+    "debugname": "cert_macro_cube_yellowstar",
+    "id": 3086,
+    "name": "Cube part",
+    "desc": "Swap this note at any bank for a Cube part.",
+    "cost": 1,
+    "weight": 0,
+    "members": false,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "macro_cube_redhalfmoon",
+    "id": 3087,
+    "name": "Cube part",
+    "desc": null,
+    "cost": 1,
+    "weight": 0,
+    "members": false,
+    "tradeable": true
+  },
+  {
+    "debugname": "cert_macro_cube_redhalfmoon",
+    "id": 3088,
+    "name": "Cube part",
+    "desc": "Swap this note at any bank for a Cube part.",
+    "cost": 1,
+    "weight": 0,
+    "members": false,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "macro_cube_bluehalfmoon",
+    "id": 3089,
+    "name": "Cube part",
+    "desc": null,
+    "cost": 1,
+    "weight": 0,
+    "members": false,
+    "tradeable": true
+  },
+  {
+    "debugname": "cert_macro_cube_bluehalfmoon",
+    "id": 3090,
+    "name": "Cube part",
+    "desc": "Swap this note at any bank for a Cube part.",
+    "cost": 1,
+    "weight": 0,
+    "members": false,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "macro_cube_yellowhalfmoon",
+    "id": 3091,
+    "name": "Cube part",
+    "desc": null,
+    "cost": 1,
+    "weight": 0,
+    "members": false,
+    "tradeable": true
+  },
+  {
+    "debugname": "cert_macro_cube_yellowhalfmoon",
+    "id": 3092,
+    "name": "Cube part",
+    "desc": "Swap this note at any bank for a Cube part.",
+    "cost": 1,
+    "weight": 0,
+    "members": false,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "black_dart",
+    "id": 3093,
+    "name": "Black dart",
+    "desc": "A deadly throwing dart with a black tip.",
+    "cost": 18,
+    "weight": 10,
+    "members": true,
+    "tradeable": true,
+    "stackable": true,
+    "iops": {
+      "iop2": "Wield"
+    },
+    "equipable_item": {
+      "wearpos": "weapon",
+      "rangeattack": 7,
+      "rangebonus": 6,
+      "attackrate": 3
+    }
+  },
+  {
+    "debugname": "black_dart_p",
+    "id": 3094,
+    "name": "Black dart(p)",
+    "desc": "A deadly poisoned dart with a black tip.",
+    "cost": 18,
+    "weight": 10,
+    "members": true,
+    "tradeable": true,
+    "stackable": true,
+    "iops": {
+      "iop2": "Wield"
+    },
+    "equipable_item": {
+      "wearpos": "weapon",
+      "rangeattack": 7,
+      "rangebonus": 6,
+      "attackrate": 3
+    }
+  },
+  {
+    "debugname": "bronze_claws",
+    "id": 3095,
+    "name": "Bronze claws",
+    "desc": "A set of fighting claws.",
+    "cost": 15,
+    "weight": 907,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "weapon",
+      "stabattack": 3,
+      "slashattack": 4,
+      "crushattack": -4,
+      "stabdefence": 1,
+      "slashdefence": 2,
+      "crushdefence": 1,
+      "strengthbonus": 5,
+      "attackrate": 4
+    }
+  },
+  {
+    "debugname": "iron_claws",
+    "id": 3096,
+    "name": "Iron claws",
+    "desc": "A set of fighting claws.",
+    "cost": 50,
+    "weight": 907,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "weapon",
+      "stabattack": 4,
+      "slashattack": 6,
+      "crushattack": -4,
+      "stabdefence": 2,
+      "slashdefence": 3,
+      "crushdefence": 1,
+      "strengthbonus": 7,
+      "attackrate": 4
+    }
+  },
+  {
+    "debugname": "steel_claws",
+    "id": 3097,
+    "name": "Steel claws",
+    "desc": "A set of fighting claws.",
+    "cost": 175,
+    "weight": 907,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "weapon",
+      "stabattack": 8,
+      "slashattack": 11,
+      "crushattack": -4,
+      "stabdefence": 3,
+      "slashdefence": 6,
+      "crushdefence": 2,
+      "strengthbonus": 12,
+      "attackrate": 4
+    }
+  },
+  {
+    "debugname": "black_claws",
+    "id": 3098,
+    "name": "Black claws",
+    "desc": "A set of fighting claws.",
+    "cost": 360,
+    "weight": 907,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "weapon",
+      "stabattack": 19,
+      "slashattack": 14,
+      "crushattack": -4,
+      "stabdefence": 4,
+      "slashdefence": 7,
+      "crushdefence": 2,
+      "strengthbonus": 14,
+      "attackrate": 4
+    }
+  },
+  {
+    "debugname": "mithril_claws",
+    "id": 3099,
+    "name": "Mithril claws",
+    "desc": "A set of fighting claws.",
+    "cost": 475,
+    "weight": 907,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "weapon",
+      "stabattack": 11,
+      "slashattack": 16,
+      "crushattack": -4,
+      "stabdefence": 4,
+      "slashdefence": 8,
+      "crushdefence": 2,
+      "strengthbonus": 17,
+      "attackrate": 4
+    }
+  },
+  {
+    "debugname": "adamant_claws",
+    "id": 3100,
+    "name": "Adamant claws",
+    "desc": "A set of fighting claws.",
+    "cost": 1200,
+    "weight": 907,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "weapon",
+      "stabattack": 18,
+      "slashattack": 23,
+      "crushattack": -4,
+      "stabdefence": 6,
+      "slashdefence": 12,
+      "crushdefence": 3,
+      "strengthbonus": 24,
+      "attackrate": 4
+    }
+  },
+  {
+    "debugname": "rune_claws",
+    "id": 3101,
+    "name": "Rune claws",
+    "desc": "A set of fighting claws.",
+    "cost": 12000,
+    "weight": 907,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "weapon",
+      "stabattack": 26,
+      "slashattack": 38,
+      "crushattack": -4,
+      "stabdefence": 10,
+      "slashdefence": 19,
+      "crushdefence": 5,
+      "strengthbonus": 39,
+      "attackrate": 4
+    }
+  },
+  {
+    "debugname": "death_combination",
+    "id": 3102,
+    "name": "Combination",
+    "desc": "The combination to Burthorpe Castle's equipment room.",
+    "cost": 1,
+    "weight": 5,
+    "members": true,
+    "iops": {
+      "iop1": "Read"
+    }
+  },
+  {
+    "debugname": "death_iou",
+    "id": 3103,
+    "name": "Iou",
+    "desc": "The guard wrote the IOU on the back of some paper.",
+    "cost": 1,
+    "weight": 5,
+    "members": true,
+    "iops": {
+      "iop1": "Read"
+    }
+  },
+  {
+    "debugname": "death_secretwaymap",
+    "id": 3104,
+    "name": "Secret way map",
+    "desc": "This map shows the secret way up to Death Plateau.",
+    "cost": 1,
+    "weight": 5,
+    "members": true
+  },
+  {
+    "debugname": "death_climbingboots",
+    "id": 3105,
+    "name": "Climbing boots",
+    "desc": "Boots made for climbing.",
+    "cost": 12,
+    "weight": 340,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "feet",
+      "slashdefence": 2,
+      "crushdefence": 2,
+      "strengthbonus": 2
+    }
+  },
+  {
+    "debugname": "cert_death_climbingboots",
+    "id": 3106,
+    "name": "Climbing boots",
+    "desc": "Swap this note at any bank for a Climbing boots.",
+    "cost": 12,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "death_spikedboots",
+    "id": 3107,
+    "name": "Spiked boots",
+    "desc": "Climbing boots with spikes.",
+    "cost": 30,
+    "weight": 340,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "feet"
+    }
+  },
+  {
+    "debugname": "cert_death_spikedboots",
+    "id": 3108,
+    "name": "Spiked boots",
+    "desc": "Swap this note at any bank for a Spiked boots.",
+    "cost": 30,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "death_cannonball_red",
+    "id": 3109,
+    "name": "Stone ball",
+    "desc": "Place on the stone mechanism in the right order to open the door.",
+    "cost": 1,
+    "weight": 3628,
+    "members": true
+  },
+  {
+    "debugname": "death_cannonball_blue",
+    "id": 3110,
+    "name": "Stone ball",
+    "desc": "Place on the stone mechanism in the right order to open the door.",
+    "cost": 1,
+    "weight": 3628,
+    "members": true
+  },
+  {
+    "debugname": "death_cannonball_yellow",
+    "id": 3111,
+    "name": "Stone ball",
+    "desc": "Place on the stone mechanism in the right order to open the door.",
+    "cost": 1,
+    "weight": 3628,
+    "members": true
+  },
+  {
+    "debugname": "death_cannonball_purple",
+    "id": 3112,
+    "name": "Stone ball",
+    "desc": "Place on the stone mechanism in the right order to open the door.",
+    "cost": 1,
+    "weight": 3628,
+    "members": true
+  },
+  {
+    "debugname": "death_cannonball_green",
+    "id": 3113,
+    "name": "Stone ball",
+    "desc": "Place on the stone mechanism in the right order to open the door.",
+    "cost": 1,
+    "weight": 3628,
+    "members": true
+  },
+  {
+    "debugname": "death_entrancecert",
+    "id": 3114,
+    "name": "Certificate",
+    "desc": "Entrance certificate to the Imperial Guard.",
+    "cost": 1,
+    "weight": 5,
+    "members": true
+  },
+  {
+    "debugname": "cert_bronze_claws",
+    "id": 3115,
+    "name": "Bronze claws",
+    "desc": "Swap this note at any bank for a Bronze claws.",
+    "cost": 15,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "cert_iron_claws",
+    "id": 3116,
+    "name": "Iron claws",
+    "desc": "Swap this note at any bank for an Iron claws.",
+    "cost": 50,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "cert_steel_claws",
+    "id": 3117,
+    "name": "Steel claws",
+    "desc": "Swap this note at any bank for a Steel claws.",
+    "cost": 175,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "cert_black_claws",
+    "id": 3118,
+    "name": "Black claws",
+    "desc": "Swap this note at any bank for a Black claws.",
+    "cost": 360,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "cert_mithril_claws",
+    "id": 3119,
+    "name": "Mithril claws",
+    "desc": "Swap this note at any bank for a Mithril claws.",
+    "cost": 475,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "cert_adamant_claws",
+    "id": 3120,
+    "name": "Adamant claws",
+    "desc": "Swap this note at any bank for an Adamant claws.",
+    "cost": 1200,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "cert_rune_claws",
+    "id": 3121,
+    "name": "Rune claws",
+    "desc": "Swap this note at any bank for a Rune claws.",
+    "cost": 12000,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "granite_shield",
+    "id": 3122,
+    "name": "Granite shield",
+    "desc": "A solid stone shield.",
+    "cost": 56000,
+    "weight": 6803,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "shield",
+      "magicattack": -12,
+      "rangeattack": -8,
+      "stabdefence": 40,
+      "slashdefence": 42,
+      "crushdefence": 38,
+      "magicdefence": -2,
+      "rangedefence": 65
+    }
+  },
+  {
+    "debugname": "tbwt_beast_bones",
+    "id": 3123,
+    "name": "Shaikahan bones",
+    "desc": "Large glistening bones which glow with a pale yellow aura.",
+    "cost": 1,
+    "weight": 800,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop1": "Bury"
+    }
+  },
+  {
+    "debugname": "cert_tbwt_beast_bones",
+    "id": 3124,
+    "name": "Shaikahan bones",
+    "desc": "Swap this note at any bank for a Shaikahan bones.",
+    "cost": 1,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "tbwt_jogre_bones",
+    "id": 3125,
+    "name": "Jogre bones",
+    "desc": "Fairly big bones which smell distinctly of Jogre.",
+    "cost": 1,
+    "weight": 800,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop1": "Bury"
+    }
+  },
+  {
+    "debugname": "cert_tbwt_jogre_bones",
+    "id": 3126,
+    "name": "Jogre bones",
+    "desc": "Swap this note at any bank for a Jogre bones.",
+    "cost": 1,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "tbwt_burnt_jogre_bones",
+    "id": 3127,
+    "name": "Burnt jogre bones",
+    "desc": "These blackened Jogre bones have been somehow burnt.",
+    "cost": 1,
+    "weight": 800,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop1": "Bury"
+    }
+  },
+  {
+    "debugname": "tbwt_burnt_jogre_bones_in_raw_karambwanji_paste",
+    "id": 3128,
+    "name": "Pasty jogre bones",
+    "desc": "Burnt Jogre bones smothered with raw Karambwanji Paste.",
+    "cost": 1,
+    "weight": 800,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop1": "Bury"
+    }
+  },
+  {
+    "debugname": "tbwt_burnt_jogre_bones_in_cooked_karambwanji_paste",
+    "id": 3129,
+    "name": "Pasty jogre bones",
+    "desc": "Burnt Jogre bones smothered with cooked Karambwanji paste.",
+    "cost": 1,
+    "weight": 800,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop1": "Bury"
+    }
+  },
+  {
+    "debugname": "tbwt_burnt_jogre_bones_marinated_in_karambwanji",
+    "id": 3130,
+    "name": "Marinated j' bones",
+    "desc": "Burnt Jogre bones marinated in a lovely Karambwanji sauce. Perfect.",
+    "cost": 1,
+    "weight": 800,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop1": "Bury"
+    }
+  },
+  {
+    "debugname": "tbwt_jogre_bones_in_raw_karambwanji_paste",
+    "id": 3131,
+    "name": "Pasty jogre bones",
+    "desc": "Jogre bones smothered with raw Karambwanji paste.",
+    "cost": 1,
+    "weight": 800,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop1": "Bury"
+    }
+  },
+  {
+    "debugname": "tbwt_jogre_bones_in_cooked_karambwanji_paste",
+    "id": 3132,
+    "name": "Pasty jogre bones",
+    "desc": "Jogre bones smothered with cooked Karambwanji paste.",
+    "cost": 1,
+    "weight": 800,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop1": "Bury"
+    }
+  },
+  {
+    "debugname": "tbwt_jogre_bones_marinated_in_karambwanji",
+    "id": 3133,
+    "name": "Marinated j' bones",
+    "desc": "Jogre Bones marinated in Karambwanji sauce. Not quite right.",
+    "cost": 1,
+    "weight": 800,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop1": "Bury"
+    }
+  },
+  {
+    "debugname": "cert_granite_shield",
+    "id": 3134,
+    "name": "Granite shield",
+    "desc": "Swap this note at any bank for a Granite shield.",
+    "cost": 56000,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "troll_key_prison",
+    "id": 3135,
+    "name": "Prison key",
+    "desc": "The key to the troll prison.",
+    "cost": 1,
+    "weight": 55,
+    "members": true
+  },
+  {
+    "debugname": "troll_key_godric",
+    "id": 3136,
+    "name": "Cell key 1",
+    "desc": "The key to Godric's cell in the troll prison.",
+    "cost": 1,
+    "weight": 55,
+    "members": true
+  },
+  {
+    "debugname": "troll_key_eadgar",
+    "id": 3137,
+    "name": "Cell key 2",
+    "desc": "The key to Mad Eadgar's cell in the troll prison.",
+    "cost": 1,
+    "weight": 55,
+    "members": true
+  },
+  {
+    "debugname": "cactus_potato",
+    "id": 3138,
+    "name": "Potato cactus",
+    "desc": "How am I supposed to eat that?!",
+    "cost": 1,
+    "weight": 500,
+    "members": true,
+    "tradeable": true
+  },
+  {
+    "debugname": "cert_cactus_potato",
+    "id": 3139,
+    "name": "Potato cactus",
+    "desc": "Swap this note at any bank for a Potato cactus.",
+    "cost": 1,
+    "weight": 0,
+    "members": true,
+    "tradeable": true,
+    "stackable": true
+  },
+  {
+    "debugname": "dragon_chainbody",
+    "id": 3140,
+    "name": "Dragon chainbody",
+    "desc": "A series of connected metal rings.",
+    "cost": 250000,
+    "weight": 6803,
+    "members": true,
+    "tradeable": true,
+    "iops": {
+      "iop2": "Wear"
+    },
+    "equipable_item": {
+      "wearpos": "body",
+      "magicattack": -15,
+      "stabdefence": 81,
+      "slashdefence": 93,
+      "crushdefence": 98,
+      "magicdefence": -3,
+      "rangedefence": 82
+    }
+  },
+  {
+    "debugname": "cert_dragon_chainbody",
+    "id": 3141,
+    "name": "Dragon chainbody",
+    "desc": "Swap this note at any bank for a Dragon chainbody.",
+    "cost": 250000,
     "weight": 0,
     "members": true,
     "tradeable": true,

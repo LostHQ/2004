@@ -14,7 +14,7 @@ function getSkillContent($skill) { return <<<HTML
     </tr>
     </table><br><br><b>Chainmail</b><br><table style="text-align: center;" align="center">
     <tr>
-        <td><canvas data-itemname="bronze_chainbody"></canvas><canvas data-itemname="iron_chainbody"></canvas><canvas data-itemname="steel_chainbody"></canvas><canvas data-itemname="black_chainbody"></canvas><canvas data-itemname="mithril_chainbody"></canvas><canvas data-itemname="adamant_chainbody"></canvas><canvas data-itemname="rune_chainbody"></canvas></td>
+        <td><canvas data-itemname="bronze_chainbody"></canvas><canvas data-itemname="iron_chainbody"></canvas><canvas data-itemname="steel_chainbody"></canvas><canvas data-itemname="black_chainbody"></canvas><canvas data-itemname="mithril_chainbody"></canvas><canvas data-itemname="adamant_chainbody"></canvas><canvas data-itemname="rune_chainbody"></canvas><canvas data-itemname="dragon_chainbody"></canvas></td>
     </tr>
     <tr>
         <td>Chainmail is made up of small rings connected together. It is particularly useful for deflecting slashing weapons and absorbing the impact of crush attacks. Chainmail is weak against stabbing weapons as small pointy blades can pierce the rings.  Chainmail is quite flexible and so does not cause any disadvantages while using ranged weapons. Mages will tend to find the armour gets slightly in the way of some of the finer spell casting techniques.</td>
@@ -36,13 +36,20 @@ function getSkillContent($skill) { return <<<HTML
 <br>
 <table style="text-align: center;" align="center">
     <tr>
-        <td><canvas data-itemname="bronze_sq_shield"></canvas><canvas data-itemname="iron_sq_shield"></canvas><canvas data-itemname="steel_sq_shield"></canvas><canvas data-itemname="black_sq_shield"></canvas><canvas data-itemname="mithril_sq_shield"></canvas><canvas data-itemname="adamant_sq_shield"></canvas><canvas data-itemname="rune_sq_shield"></canvas><canvas data-itemname="dragon_sq_shield"></canvas><br><canvas data-itemname="bronze_kiteshield"></canvas><canvas data-itemname="iron_kiteshield"></canvas><canvas data-itemname="steel_kiteshield"></canvas><canvas data-itemname="black_kiteshield"></canvas><canvas data-itemname="mithril_kiteshield"></canvas><canvas data-itemname="adamant_kiteshield"></canvas><canvas data-itemname="rune_kiteshield"></canvas></td>
+        <td>
+            <canvas data-itemname="bronze_sq_shield"></canvas><canvas data-itemname="iron_sq_shield"></canvas><canvas data-itemname="steel_sq_shield"></canvas><canvas data-itemname="black_sq_shield"></canvas><canvas data-itemname="mithril_sq_shield"></canvas><canvas data-itemname="adamant_sq_shield"></canvas><canvas data-itemname="rune_sq_shield"></canvas><canvas data-itemname="dragon_sq_shield"></canvas><br>
+            <canvas data-itemname="bronze_kiteshield"></canvas><canvas data-itemname="iron_kiteshield"></canvas><canvas data-itemname="steel_kiteshield"></canvas><canvas data-itemname="black_kiteshield"></canvas><canvas data-itemname="mithril_kiteshield"></canvas><canvas data-itemname="adamant_kiteshield"></canvas><canvas data-itemname="rune_kiteshield"></canvas><br>
+            <canvas data-itemname="granite_shield"></canvas>
+        </td>
     </tr>
     <tr>
         <td>Both varieties of shield feature excellent defences against slashing attacks. However, the kite shield is weak against stabbing attacks, and, the square shield is weak against crush attacks. Using the shield while casting magic or ranging is very difficult as it restricts the user's movement.</td>
     </tr>
     <tr>
-        <td><canvas data-itemname="antidragonbreathshield"></canvas><br>Invaluable in the fight against all fire-breathing dragons, the anti-dragonfire shield reduces the damage from dragon fire considerably, and is strongly recommended every time you fight dragons.</td>
+        <td>
+            <canvas data-itemname="antidragonbreathshield"></canvas><br>
+            Invaluable in the fight against all fire-breathing dragons, the anti-dragonfire shield reduces the damage from dragon fire considerably, and is strongly recommended every time you fight dragons.
+        </td>
     </tr>
 </table>
 <hr>
@@ -146,7 +153,7 @@ function getSkillContent($skill) { return <<<HTML
         <td>&mdash;</td>
     </tr>
     <tr>
-        <td><div class="centered-content"><canvas data-itemname="hardleather_body"></canvas>&nbsp;&nbsp;Hardleather body</div></td>
+        <td><div class="centered-content"><canvas data-itemname="hardleather_body" data-show-label="inline"></canvas></div></td>
         <td>&mdash;</td>
     </tr>
     <tr>
@@ -155,7 +162,7 @@ function getSkillContent($skill) { return <<<HTML
         <td>&mdash;</td>
     </tr>
     <tr>
-        <td><div class="centered-content"><canvas data-itemname="studded_body"></canvas>&nbsp;&nbsp;Studded body</div></td>
+        <td><div class="centered-content"><canvas data-itemname="studded_body" data-show-label="inline"></canvas></div></td>
         <td>Requires 20 Ranged</td>
     <tr>
         <td><div class="centered-content"><canvas data-itemname="adamant_platebody"></canvas>&nbsp;&nbsp;Adamant armour</div></td>
@@ -168,23 +175,28 @@ function getSkillContent($skill) { return <<<HTML
         <td>Rune platebody requires the completion of <a style="display: contents" href="?p=questguides&quest=dragonslayer">Dragon Slayer</a></td>
     </tr>
     <tr>
-        <td><div class="centered-content"><canvas data-itemname="dragonhide_body"></canvas>&nbsp;&nbsp;Green d'hide body</div></td>
+        <td><div class="centered-content"><canvas data-itemname="dragonhide_body" data-show-label="inline"></canvas></div></td>
         <td>Requires 40 Ranged and the completion of <a style="display: contents" href="?p=questguides&quest=dragonslayer">Dragon Slayer</a></td>
     </tr>
     <tr>
-        <td><div class="centered-content"><canvas data-itemname="blue_dragonhide_body"></canvas>&nbsp;&nbsp;Blue d'hide body</div></td>
+        <td><div class="centered-content"><canvas data-itemname="blue_dragonhide_body" data-show-label="inline"></canvas></div></td>
         <td>Requires 50 Ranged</td>
     </tr>
     <tr>
-        <td><div class="centered-content"><canvas data-itemname="red_dragonhide_body"></canvas>&nbsp;&nbsp;Red d'hide body</div></td>
+        <td><div class="centered-content"><canvas data-itemname="red_dragonhide_body" data-show-label="inline"></canvas></div></td>
         <td>Requires 60 Ranged</td>
     </tr>
     <tr>
-        <td><div class="centered-content"><canvas data-itemname="black_dragonhide_body"></canvas>&nbsp;&nbsp;Black d'hide body</div></td>
+        <td><div class="centered-content"><canvas data-itemname="black_dragonhide_body" data-show-label="inline"></canvas></div></td>
         <td>Requires 70 Ranged</td>
     </tr>
     <tr>
-        <td><div class="centered-content"><canvas data-itemname="dragon_med_helm"></canvas>&nbsp;&nbsp;Dragon armour</div></td>
+        <td><div class="centered-content"><canvas data-itemname="granite_shield" data-show-label="inline"></canvas></div></td>
+        <td>50</td>
+        <td>&mdash;</td>
+    </tr>
+    <tr>
+        <td><div class="centered-content"><canvas data-itemname="dragon_chainbody"></canvas>&nbsp;&nbsp;Dragon armour</div></td>
         <td>60</td>
         <td>&mdash;</td>
     </tr>
