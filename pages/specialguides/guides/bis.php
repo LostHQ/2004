@@ -534,8 +534,8 @@ clearAllEquipment();
     </tr>
     <tr>
         <td>Boots</td>
-        <td><canvas data-itemname="boots_ranger"></canvas><canvas data-itemname="ikov_bootsoflightness"></canvas><canvas data-itemname="boots_wizard"></canvas><br>Any decent boots</td>
-        <td>Pick based on enemy</td>
+        <td><canvas data-itemname="death_climbingboots" data-show-label="inline"></canvas></td>
+        <td>+2 Strength</td>
     </tr>
 </table>
 <hr>
@@ -632,8 +632,8 @@ clearAllEquipment();
     </tr>
     <tr>
         <td>Boots</td>
-        <td><canvas data-itemname="boots_ranger"></canvas><canvas data-itemname="ikov_bootsoflightness"></canvas><canvas data-itemname="boots_wizard"></canvas><br>Any decent boots</td>
-        <td>Pick based on enemy</td>
+        <td><canvas data-itemname="death_climbingboots" data-show-label="inline"></canvas></td>
+        <td>+2 Strength</td>
     </tr>
 </table>
 <hr>
