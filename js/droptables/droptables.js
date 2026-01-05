@@ -1,5 +1,5 @@
-let monsterDrops = {};
-let sharedDrops = {};
+let npcData = {};
+let sharedDropTables = {};
 let itemList = {};
 let activeSearchTerm = "";
 
@@ -11,12 +11,12 @@ const SHARED_TABLE_ICONS = {
 };
 
 Promise.all([
-    fetch(`js/droptables/monster_drops.json?v=${currentGameVer}`).then((res) => res.json()),
+    fetch(`js/droptables/npc_data.json?v=${currentGameVer}`).then((res) => res.json()),
     fetch(`js/droptables/shared_drops.json?v=${currentGameVer}`).then((res) => res.json()),
     fetch(`js/itemlist.json?v=${currentGameVer}`).then((res) => res.json()),
-]).then(([monsterData, sharedData, itemData]) => {
-    monsterDrops = monsterData;
-    sharedDrops = sharedData;
+]).then(([npcDataJson, sharedDropTablesData, itemData]) => {
+    npcData = npcDataJson;
+    sharedDropTables = sharedDropTablesData;
     itemList = itemData.reduce((map, item) => {
         map[item.debugname] = item.name;
         return map;
@@ -25,22 +25,40 @@ Promise.all([
     loadNPCFromURL();
 });
 
+function getNPCName(debugname) {
+    if (!debugname) { return "Unknown NPC"; }
+
+    if (typeof debugname === "object") {
+        const npcObj = debugname;
+        const name = npcObj.name || npcObj.debugname || "Unknown NPC";
+        const vis = npcObj.vislevel || (npcObj.info && npcObj.info.vislevel);
+        return vis ? `${name} (level-${vis})` : name;
+    }
+
+    const npc = npcData[debugname];
+    if (npc && npc.name) {
+        const vis = npc.vislevel || (npc.info && npc.info.vislevel);
+        return vis ? `${npc.name} (level-${vis})` : npc.name;
+    }
+
+    return debugname;
+}
+
 function populateNPCDropdown() {
     const select = document.getElementById("npcSelect");
     select.innerHTML = '<option value="">Select NPC...</option>';
 
     const npcList = [];
-    for (const npcKey in monsterDrops) {
-        const npc = monsterDrops[npcKey];
-        let displayName = npc.name || npcKey;
-        if (npc && npc.info && npc.info.vislevel) {
-            displayName += ` (level-${npc.info.vislevel})`;
+    for (const debugname in npcData) {
+        const npc = npcData[debugname];
+        if (npc.drops) {
+            // TODO: Show non-dropping NPCs in a different view
+            npcList.push({
+                key: debugname,
+                displayName: getNPCName(debugname),
+                hasName: !!npc.name,
+            });
         }
-        npcList.push({
-            key: npcKey,
-            displayName,
-            hasName: !!npc.name,
-        });
     }
 
     npcList.sort((a, b) => a.displayName.toLowerCase().localeCompare(b.displayName.toLowerCase()));
@@ -57,8 +75,8 @@ function populateNPCDropdown() {
 }
 
 function findNPC(npcName) {
-    if (monsterDrops[npcName]) {
-        return monsterDrops[npcName];
+    if (npcData[npcName]) {
+        return npcData[npcName];
     }
     return null;
 }
@@ -94,9 +112,8 @@ function loadNPCFromURL() {
 
 function renderDrops(npcData, searchTerm = "") {
     const container = document.getElementById("dropTableContainer");
-    const baseTitle = npcData.name || "Unknown NPC";
-    const visSuffix = npcData && npcData.info && npcData.info.vislevel ? ` (level-${npcData.info.vislevel})` : "";
-    let html = "<h2>" + baseTitle + visSuffix + "</h2>";
+    const baseTitle = getNPCName(npcData);
+    let html = "<h2>" + baseTitle + "</h2>";
 
     let guaranteedRows = [];
     let rollableRows = [];
@@ -129,8 +146,8 @@ function renderDrops(npcData, searchTerm = "") {
         });
     }
 
-    if (npcData.always && npcData.always.length > 0) {
-        npcData.always.forEach((item) => {
+    if (npcData.drops.always && npcData.drops.always.length > 0) {
+        npcData.drops.always.forEach((item) => {
             const [itemName, amount] = item.item;
             const note = item.note;
             const isMatch = matchesSearch(itemName);
@@ -149,11 +166,11 @@ function renderDrops(npcData, searchTerm = "") {
         });
     }
 
-    if (npcData.roll_table && npcData.roll_table.length > 0) {
-        const rollBase = npcData.roll_base || 128;
+    if (npcData.drops.roll_table && npcData.drops.roll_table.length > 0) {
+        const rollBase = npcData.drops.roll_base || 128;
         let totalUsedSlots = 0;
 
-        for (const roll of npcData.roll_table) {
+        for (const roll of npcData.drops.roll_table) {
             const chance = parseInt(roll.chance);
             totalUsedSlots += chance;
 
@@ -198,7 +215,7 @@ function renderDrops(npcData, searchTerm = "") {
 
             if (itemName.startsWith("~")) {
                 const sharedTableName = itemName.slice(1);
-                const sharedTable = sharedDrops[sharedTableName];
+                const sharedTable = sharedDropTables[sharedTableName];
                 if (sharedTable) {
                     const iconItem = SHARED_TABLE_ICONS[sharedTableName];
                     const iconHtml = iconItem ? `<canvas data-itemname="${iconItem}" data-show-label="none"></canvas>` : "";
@@ -286,8 +303,8 @@ function renderDrops(npcData, searchTerm = "") {
         }
     }
 
-    if (npcData.tertiary) {
-        const tertiaryData = Array.isArray(npcData.tertiary) ? npcData.tertiary : [npcData.tertiary];
+    if (npcData.drops.tertiary) {
+        const tertiaryData = Array.isArray(npcData.drops.tertiary) ? npcData.drops.tertiary : [npcData.drops.tertiary];
 
         tertiaryData.forEach((tertiary) => {
             const itemName = tertiary.item;
@@ -488,7 +505,7 @@ function calculateTotalChance(sharedTableChance, itemChance, rollBase) {
 }
 
 function openSharedTableModal(sharedTableName, searchTerm = "", parentChance = null, chainPath = "") {
-    const sharedTable = sharedDrops[sharedTableName];
+    const sharedTable = sharedDropTables[sharedTableName];
     if (!sharedTable) return;
 
     const matchesSearch = (debugName) => {
@@ -599,8 +616,8 @@ function openSharedTableModal(sharedTableName, searchTerm = "", parentChance = n
 
         if (subItem.startsWith("~")) {
             const nestedTableName = subItem.slice(1);
-            if (sharedDrops[nestedTableName]) {
-                const nestedTable = sharedDrops[nestedTableName];
+            if (sharedDropTables[nestedTableName]) {
+                const nestedTable = sharedDropTables[nestedTableName];
                 const isTableMatch = searchTerm && (nestedTableName.toLowerCase().includes(searchTerm) || (nestedTable.name && nestedTable.name.toLowerCase().includes(searchTerm)));
 
                 const chanceValue = parseInt(subRoll.chance) || 0;
@@ -742,7 +759,7 @@ function searchInSharedTable(sharedTableName, searchTerm, visitedTables = new Se
         return false;
     }
 
-    const sharedTable = sharedDrops[sharedTableName];
+    const sharedTable = sharedDropTables[sharedTableName];
     if (!sharedTable || !sharedTable.roll_table) return false;
 
     visitedTables.add(sharedTableName);
@@ -752,7 +769,7 @@ function searchInSharedTable(sharedTableName, searchTerm, visitedTables = new Se
 
         if (itemName.startsWith("~")) {
             const nestedTableName = itemName.slice(1);
-            const nestedTable = sharedDrops[nestedTableName];
+            const nestedTable = sharedDropTables[nestedTableName];
 
             if (nestedTableName.toLowerCase().includes(searchTerm) || (nestedTable && nestedTable.name && nestedTable.name.toLowerCase().includes(searchTerm))) {
                 visitedTables.delete(sharedTableName);
@@ -807,8 +824,8 @@ document.getElementById("itemSearch").addEventListener("input", function () {
 
     const matchedNPCs = new Map();
 
-    for (const npcKey in monsterDrops) {
-        const npc = monsterDrops[npcKey];
+    for (const npcKey in npcData) {
+        const npc = npcData[npcKey];
         let foundReason = "";
 
         if (
@@ -855,7 +872,7 @@ document.getElementById("itemSearch").addEventListener("input", function () {
 
                     if (itemName.startsWith("~")) {
                         const sharedTableName = itemName.slice(1);
-                        const sharedTable = sharedDrops[sharedTableName];
+                        const sharedTable = sharedDropTables[sharedTableName];
 
                         if (sharedTableName.toLowerCase().includes(activeSearchTerm) || (sharedTable && sharedTable.name && sharedTable.name.toLowerCase().includes(activeSearchTerm))) {
                             foundInRoll = true;
@@ -920,7 +937,7 @@ document.getElementById("itemSearch").addEventListener("input", function () {
     } else {
         const matchedArray = [];
         for (const [npcName, reason] of matchedNPCs.entries()) {
-            const npcData = monsterDrops[npcName];
+            const npcData = npcData[npcName];
             let displayName = npcData && npcData.name ? npcData.name : npcName;
             if (npcData && npcData.info && npcData.info.vislevel) displayName += ` (level-${npcData.info.vislevel})`;
             matchedArray.push({ npcName, reason, displayName, hasName: !!(npcData && npcData.name) });
