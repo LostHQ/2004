@@ -13,14 +13,14 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h3>Items & Skills Needed:</h3>
 <ul style="list-style-type: none;">
 <li><div data-progress>20 Attack</div><br></li>
-<li><div data-progress><canvas data-itemname="excalibur" data-size="25" data-show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas itemname="excalibur" icon-size="25" show-label="inline"></canvas></div><br></li>
 <li><div data-progress>Must be able to defeat a level 120 Black Knight Titan with melee (can be flinched)</div><br></li>
 </ul>
 <h3>Recommended:</h3>
 <ul style="list-style-type: none;">
 <li><div data-progress>43 Prayer</div></li>
-<li><div data-progress><canvas data-itemname="3doseprayerrestore" data-size="25"></canvas>&nbsp;&nbsp;1-2 Prayer Potions</div><br></li>
-<li><div data-progress><canvas data-itemname="3doseantipoison" data-size="25"></canvas>&nbsp;&nbsp;1-2 Antipoison Potions</div><br></li>
+<li><div data-progress><canvas itemname="3doseprayerrestore" icon-size="25"></canvas>&nbsp;&nbsp;1-2 Prayer Potions</div><br></li>
+<li><div data-progress><canvas itemname="3doseantipoison" icon-size="25"></canvas>&nbsp;&nbsp;1-2 Antipoison Potions</div><br></li>
 <li><div data-progress>Decent weapon and armor</div></li>
 </ul>
 <b>Starting Location:</b> Talk to King Arthur in Camelot Castle

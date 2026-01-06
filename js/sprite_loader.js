@@ -5,19 +5,6 @@ let itemData = [];
 const spritesheet = new Image();
 spritesheet.src = "img/item_spritesheet.png?v254";
 
-// Image override debugnames
-const imageDebugnameOverrides = {
-    coins: "coins_10000",
-    coins_1: "coins",
-    bronze_arrow: "bronze_arrow_5",
-    iron_arrow: "iron_arrow_5",
-    steel_arrow: "steel_arrow_5",
-    mithril_arrow: "mithril_arrow_5",
-    adamant_arrow: "adamant_arrow_5",
-    rune_arrow: "rune_arrow_5",
-    rune_arrow_p: "rune_arrow_p_5",
-};
-
 Promise.all([fetch(`js/itemlist.json?v=${currentGameVer}`).then((res) => res.json()), new Promise((resolve) => (spritesheet.onload = resolve))])
     .then(([json]) => {
         itemData = json;
@@ -49,17 +36,7 @@ function renderSpriteToCanvas(debugname, canvas) {
         cost = baseItem.cost || 0;
     }
 
-    // Handle image override (looking up a different debugname)
-    let imageItem = item;
-    if (imageDebugnameOverrides.hasOwnProperty(debugname)) {
-        const overrideDebugname = imageDebugnameOverrides[debugname];
-        const overrideItem = itemData.find((i) => i.debugname === overrideDebugname);
-        if (overrideItem) {
-            imageItem = overrideItem;
-        }
-    }
-
-    const imageId = imageItem ? imageItem.id : id; // fallback to normal id
+    const imageId = item.id;
 
     const col = imageId % spritesPerRow;
     const row = Math.floor(imageId / spritesPerRow);
@@ -71,7 +48,6 @@ function renderSpriteToCanvas(debugname, canvas) {
     ctx.clearRect(0, 0, size, size);
     ctx.drawImage(spritesheet, col * spriteSize, row * spriteSize, spriteSize, spriteSize, 0, 0, size, size);
 
-    // Tooltip setup
     let tooltip = `${name} — ${desc}`;
     if (cost > 0) {
         const highAlch = Math.floor(cost * 0.6);
@@ -79,21 +55,19 @@ function renderSpriteToCanvas(debugname, canvas) {
     }
 
     canvas.title = tooltip;
+    const nameAppend = canvas.getAttribute("name-append");
+    const nameReplace = canvas.getAttribute("name-replace");
+    const showLabel = canvas.getAttribute("show-label");
 
-    const nameAppend = canvas.getAttribute("data-name-append");
-    if (nameAppend) {
-        name += ` ${nameAppend}`;
-    }
-
-    // Append item name if requested
-    if (canvas.getAttribute("data-show-label") === "true" || canvas.getAttribute("data-show-label") === "inline") {
+    if (showLabel === "true" || showLabel === "inline") {
         const next = canvas.nextElementSibling;
         const alreadyExists = next && next.classList.contains("item-label");
 
         if (!alreadyExists) {
-            const inline = canvas.getAttribute("data-show-label") === "inline";
+            const inline = showLabel === "inline";
             const label = document.createElement("div");
-            label.textContent = name;
+
+            label.textContent = nameAppend ? (name + nameAppend) : (nameReplace ? nameReplace : name);
             label.className = "item-label";
             label.style.color = "white";
 
@@ -104,7 +78,6 @@ function renderSpriteToCanvas(debugname, canvas) {
                 wrapper.style.gap = "6px";
                 wrapper.style.flexDirection = "row";
                 wrapper.style.justifyContent = "center";
-
                 const parent = canvas.parentNode;
                 parent.insertBefore(wrapper, canvas);
                 wrapper.appendChild(canvas);
@@ -119,8 +92,8 @@ function renderSpriteToCanvas(debugname, canvas) {
 }
 
 window.renderAllSprites = function () {
-    document.querySelectorAll("canvas[data-itemname]").forEach((canvas) => {
-        const debugname = canvas.getAttribute("data-itemname");
+    document.querySelectorAll("canvas[itemname]").forEach((canvas) => {
+        const debugname = canvas.getAttribute("itemname");
         renderSpriteToCanvas(debugname, canvas);
     });
 };

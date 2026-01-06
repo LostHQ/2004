@@ -8,14 +8,14 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <b>Length: <font color="Yellow">Medium</font></b><br>
 <h3>Items & Skills Needed:</h3>
 <ul style="list-style-type: none;">
-<li><div data-progress><canvas data-itemname="bucket_water" data-size="25"></canvas>&nbsp;&nbsp;Bucket of water (can be obtained during quest)</div><br></li>
-<li><div data-progress><canvas data-itemname="bones" data-size="25"></canvas>&nbsp;&nbsp;25 Bones (can't be noted, but can be delivered in increments)</div><br></li>
-<li><div data-progress><canvas data-itemname="coins_1" data-size="25"></canvas>&nbsp;&nbsp;1 coin</div><br></li>
+<li><div data-progress><canvas itemname="bucket_water" icon-size="25" show-label="inline" name-append=" (can be obtained during quest)"></canvas></div><br></li>
+<li><div data-progress><canvas itemname="bones" icon-size="25" show-label="inline" name-append=" (can't be noted, but can be delivered in increments)"></canvas></div><br></li>
+<li><div data-progress><canvas itemname="coins" icon-size="25" show-label="inline" name-append=" (1gp)"></canvas></div><br></li>
 </ul>
 <h3>Recommended:</h3>
 <ul style="list-style-type: none;">
-<li><div data-progress><canvas data-itemname="lawrune" data-size="25"></canvas>&nbsp;&nbsp;Runes for Teleport to Lumbridge</div><br></li>
-<li><div data-progress><canvas data-itemname="lawrune" data-size="25"></canvas>&nbsp;&nbsp;Runes for Teleport to Varrock</div><br></li>
+<li><div data-progress><canvas itemname="lawrune" icon-size="25" show-label="inline" name-replace="Runes for Teleport to Lumbridge"></canvas></div><br></li>
+<li><div data-progress><canvas itemname="lawrune" icon-size="25" show-label="inline" name-replace="Runes for Teleport to Varrock"></canvas></div><br></li>
 <li><div data-progress>41 Combat (avoids aggro from level 20 Dark Wizards)</div></li>
 </ul>
 <b>Starting Location:</b> The Gypsy in her tent at Varrock Square

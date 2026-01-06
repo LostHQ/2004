@@ -16,10 +16,10 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h3>Items & Skills Needed:</h3>
 <ul style="list-style-type: none;">
 <li><div data-progress>25 Ranged</div></li>
-<li><div data-progress><canvas data-itemname="rope" data-size="25"></canvas>&nbsp;&nbsp;2-6 ropes</div><br></li>
-<li><div data-progress><canvas data-itemname="shortbow" data-size="25"></canvas>&nbsp;&nbsp;Any bow</div><br></li>
-<li><div data-progress><canvas data-itemname="bronze_arrow" data-size="25"></canvas>&nbsp;&nbsp;1-10 arrows of any type</div><br></li>
-<li><div data-progress><canvas data-itemname="spade" data-size="25" data-show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas itemname="rope" icon-size="25"></canvas>&nbsp;&nbsp;2-6 ropes</div><br></li>
+<li><div data-progress><canvas itemname="shortbow" icon-size="25"></canvas>&nbsp;&nbsp;Any bow</div><br></li>
+<li><div data-progress><canvas itemname="bronze_arrow" icon-size="25"></canvas>&nbsp;&nbsp;1-10 arrows of any type</div><br></li>
+<li><div data-progress><canvas itemname="spade" icon-size="25" show-label="inline"></canvas></div><br></li>
 <li><div data-progress>The ability to defeat three level 91 demons (safespottable)</div></li>
 </ul>
 <h3>Recommended:</h3>

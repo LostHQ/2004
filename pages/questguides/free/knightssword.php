@@ -9,16 +9,16 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h3>Items & Skills Needed:</h3>
 <ul style="list-style-type: none;">
 <li><div data-progress>10 Mining</div></li>
-<li><div data-progress><canvas data-itemname="redberry_pie" data-size="25"></canvas>&nbsp;&nbsp;Redberry pie</div><br></li>
-<li><div data-progress><canvas data-itemname="iron_bar" data-size="25"></canvas>&nbsp;&nbsp;2 Iron bars (2 more for every extra sword you may want)</div><br></li>
-<li><div data-progress><canvas data-itemname="blurite_ore" data-size="25"></canvas>&nbsp;&nbsp;Blurite ore (1 more for every extra sword you may want; obtained during quest)</div><br></li>
-<li><div data-progress><canvas data-itemname="bronze_pickaxe" data-size="25"></canvas>&nbsp;&nbsp;Any pickaxe</div><br></li>
+<li><div data-progress><canvas itemname="redberry_pie" icon-size="25"></canvas>&nbsp;&nbsp;Redberry pie</div><br></li>
+<li><div data-progress><canvas itemname="iron_bar" icon-size="25"></canvas>&nbsp;&nbsp;2 Iron bars (2 more for every extra sword you may want)</div><br></li>
+<li><div data-progress><canvas itemname="blurite_ore" icon-size="25"></canvas>&nbsp;&nbsp;Blurite ore (1 more for every extra sword you may want; obtained during quest)</div><br></li>
+<li><div data-progress><canvas itemname="bronze_pickaxe" icon-size="25"></canvas>&nbsp;&nbsp;Any pickaxe</div><br></li>
 <li><div data-progress>The ability to run past level 57 ice warriors and level 53 ice giants</div></li>
 </ul>
 <h3>Recommended:</h3>
 <ul style="list-style-type: none;">
-<li><div data-progress><canvas data-itemname="lawrune" data-size="25"></canvas>&nbsp;&nbsp;Runes for 3x Teleport to Falador</div><br></li>
-<li><div data-progress><canvas data-itemname="lawrune" data-size="25"></canvas>&nbsp;&nbsp;Runes for Teleport to Varrock</div><br></li>
+<li><div data-progress><canvas itemname="lawrune" icon-size="25"></canvas>&nbsp;&nbsp;Runes for 3x Teleport to Falador</div><br></li>
+<li><div data-progress><canvas itemname="lawrune" icon-size="25"></canvas>&nbsp;&nbsp;Runes for Teleport to Varrock</div><br></li>
 </ul>
 <b>Starting Location:</b> The courtyard of the White Knight's Castle
 <br><br>

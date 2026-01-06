@@ -16,14 +16,14 @@ Caskets have the following drops:
 <br>
 <table>
     <tr>
-        <th><canvas data-itemname="coins_250"></canvas><br><span class="tooltip">Coins<span class="tooltip-text">Coins: 20, 40, 80, 160, 320, 640</span></span></th>
-        <th><canvas data-itemname="uncut_sapphire" data-show-label="true"></canvas></th>
-        <th><canvas data-itemname="uncut_emerald" data-show-label="true"></canvas></th>
-        <th><canvas data-itemname="uncut_ruby" data-show-label="true"></canvas></th>
-        <th><canvas data-itemname="cosmic_talisman" data-show-label="true"></canvas></th>
-        <th><canvas data-itemname="uncut_diamond" data-show-label="true"></canvas></th>
-        <th><canvas data-itemname="keyhalf1" data-show-label="true"></canvas></th>
-        <th><canvas data-itemname="keyhalf2" data-show-label="true"></canvas></th>
+        <th><canvas itemname="coins_250"></canvas><br><span class="tooltip">Coins<span class="tooltip-text">Coins: 20, 40, 80, 160, 320, 640</span></span></th>
+        <th><canvas itemname="uncut_sapphire" show-label="true"></canvas></th>
+        <th><canvas itemname="uncut_emerald" show-label="true"></canvas></th>
+        <th><canvas itemname="uncut_ruby" show-label="true"></canvas></th>
+        <th><canvas itemname="cosmic_talisman" show-label="true"></canvas></th>
+        <th><canvas itemname="uncut_diamond" show-label="true"></canvas></th>
+        <th><canvas itemname="keyhalf1" show-label="true"></canvas></th>
+        <th><canvas itemname="keyhalf2" show-label="true"></canvas></th>
     </tr>
     <tr>
         <td>5/64</td>

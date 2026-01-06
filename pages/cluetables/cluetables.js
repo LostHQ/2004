@@ -72,7 +72,7 @@ async function loadDropTables() {
         tbody.appendChild(row);
     });
 
-    document.querySelectorAll("canvas[data-itemname]").forEach((canvas) => {
+    document.querySelectorAll("canvas[itemname]").forEach((canvas) => {
         renderSpriteToCanvas(canvas.dataset.itemname, canvas);
     });
 }

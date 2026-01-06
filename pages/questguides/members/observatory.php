@@ -11,13 +11,13 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h3>Items & Skills Needed:</h3>
 <ul style="list-style-type: none;">
 <li><div data-progress>10 Crafting</div><br></li>
-<li><div data-progress><canvas data-itemname="bronze_bar" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="molten_glass" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="woodplank" data-size="25"></canvas>&nbsp;&nbsp;3 planks</div><br></li>
+<li><div data-progress><canvas itemname="bronze_bar" icon-size="25" show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas itemname="molten_glass" icon-size="25" show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas itemname="woodplank" icon-size="25"></canvas>&nbsp;&nbsp;3 planks</div><br></li>
 </ul>
 <h3>Recommended:</h3>
 <ul style="list-style-type: none;">
-<li><div data-progress><canvas data-itemname="3doseantipoison" data-size="25" data-show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas itemname="3doseantipoison" icon-size="25" show-label="inline"></canvas></div><br></li>
 <li><div data-progress>Food or armor to run past a level 42 Goblin guard</div><br></li>
 </ul>
 <b>Starting Location:</b> West across the river from the gnome maze, just next to the small goblin town

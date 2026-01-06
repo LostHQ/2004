@@ -87,7 +87,7 @@ function runCalc() {
                     `<td>${data.level}</td>
                     <td>
                         <div class=centered-content>
-                            <canvas data-itemname="${item}" data-show-label="inline" data-name-append="x${data.qty}"></canvas>
+                            <canvas itemname="${item}" show-label="inline" name-append="x${data.qty}"></canvas>
                         </div>
                     </td>
                     <td>${data.xp}</td>
@@ -101,7 +101,7 @@ function runCalc() {
                 row.innerHTML =
                     `<td>${data.level}</td>
                     <td>
-                        <canvas data-itemname="${item}" data-show-label="inline" data-name-append=""></canvas>
+                        <canvas itemname="${item}" show-label="inline" name-append=""></canvas>
                     </td>
                     <td>${data.xp}</td>
                     <td>${Math.ceil(xpNeeded / data.xp).toLocaleString()}</td>`;
@@ -114,7 +114,7 @@ function runCalc() {
                 row.innerHTML =
                     `<td>${data.level}</td>
                     <td>
-                        <canvas data-itemname="${item}" data-show-label="inline" data-name-append=""></canvas>
+                        <canvas itemname="${item}" show-label="inline" name-append=""></canvas>
                     </td>
                     <td>${data.xp}</td>
                     <td>${Math.ceil(xpNeeded / data.xp).toLocaleString()}</td>`;
@@ -131,7 +131,7 @@ function runCalc() {
                 row.innerHTML =
                     `<td>${data.level}</td>
                     <td>
-                        <canvas data-itemname="${strungItem}" data-show-label="inline" data-name-append=""></canvas>
+                        <canvas itemname="${strungItem}" show-label="inline" name-append=""></canvas>
                     </td>
                     <td>${xpPerAction}</td>
                     <td>${Math.ceil(xpNeeded / xpPerAction).toLocaleString()}</td>`;

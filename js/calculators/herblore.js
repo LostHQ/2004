@@ -336,7 +336,7 @@ function runCalc() {
             div.classList.add("input-group");
 
             const label = document.createElement("label");
-            label.innerHTML = `<canvas data-itemname="${herbs[i]}" data-show-label="inline"></canvas>`;
+            label.innerHTML = `<canvas itemname="${herbs[i]}" show-label="inline"></canvas>`;
             const input = document.createElement("input");
             input.type = "number";
             input.id = herbs[i];
@@ -595,15 +595,15 @@ function runCalc() {
                 let startUnfinished = recipe.herb;
                 let secondaryIngredient = recipe.secondary;
                 ingredients = `
-                    <canvas data-itemname="${startUnfinished}" data-show-label="inline"></canvas>
-                    <canvas data-itemname="${secondaryIngredient}" data-show-label="inline"></canvas>`;
+                    <canvas itemname="${startUnfinished}" show-label="inline"></canvas>
+                    <canvas itemname="${secondaryIngredient}" show-label="inline"></canvas>`;
             } else {
                 let unid = recipe.unid;
-                ingredients = `<canvas data-itemname="${unid}" data-show-label="true"></canvas>`;
+                ingredients = `<canvas itemname="${unid}" show-label="true"></canvas>`;
             }
             row.innerHTML = `<td>${level}</td>
                 <td>${ingredients}</td>
-                <td><canvas data-itemname="${item}" data-show-label="true"></canvas></td>
+                <td><canvas itemname="${item}" show-label="true"></canvas></td>
                 <td>${xpGained}</td>
                 <td>${itemsNeeded.toLocaleString()}</td>`;
             tableBody.appendChild(row);

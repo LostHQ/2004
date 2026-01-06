@@ -40,7 +40,7 @@ select, #itemSearch {
                 <tr>
                     <td class="b" bgcolor="#474747" background="img/stoneback.gif">
                         <div class="stone-box">
-                            <canvas data-itemname="ring_of_wealth" data-show-label="inline"></canvas> Equipped
+                            <canvas itemname="ring_of_wealth" name-append="inline"></canvas> Equipped
                             <label style="color: white;">
                                 <input type="checkbox" id="ringOfWealthCheckbox" style="margin-right: 5px;"><br>
                             </label>

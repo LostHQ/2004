@@ -10,10 +10,10 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <b>Length: <font color="Red">Long</font></b><br>
 <h3>Items & Skills Needed:</h3>
 <ul style="list-style-type: none;">
-<li><div data-progress><canvas data-itemname="bat_bones" data-size="25"></canvas>&nbsp;&nbsp;Bat bones (can be obtained during quest)</div><br></li>
-<li><div data-progress><canvas data-itemname="bucket_wax" data-size="25"></canvas>&nbsp;&nbsp;Bucket of wax (can be obtained during quest)</div><br></li>
-<li><div data-progress><canvas data-itemname="tinderbox" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="bread" data-size="25" data-show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas itemname="bat_bones" icon-size="25"></canvas>&nbsp;&nbsp;Bat bones (can be obtained during quest)</div><br></li>
+<li><div data-progress><canvas itemname="bucket_wax" icon-size="25"></canvas>&nbsp;&nbsp;Bucket of wax (can be obtained during quest)</div><br></li>
+<li><div data-progress><canvas itemname="tinderbox" icon-size="25" show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas itemname="bread" icon-size="25" show-label="inline"></canvas></div><br></li>
 <li><div data-progress>The ability to fight a level 39 Sir Mordred</div><br></li>
 </ul>
 <b>Starting Location:</b> Talk to King Arthur in Camelot Castle

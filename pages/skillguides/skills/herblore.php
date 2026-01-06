@@ -17,74 +17,74 @@ function getSkillContent($skill) { return <<<HTML
         </tr>
         <tr>
             <td>3</td>
-            <td><canvas data-itemname="unidentified_guam"></canvas><br>Herb</td>
-            <td><canvas data-itemname="guam_leaf"></canvas><br>Guam Leaf</td>
+            <td><canvas itemname="unidentified_guam"></canvas><br>Herb</td>
+            <td><canvas itemname="guam_leaf"></canvas><br>Guam Leaf</td>
             <td>2.5</td>
         </tr>
         <tr>
             <td>5</td>
-            <td><canvas data-itemname="unidentified_marentill"></canvas><br>Herb</td>
-            <td><canvas data-itemname="marentill"></canvas><br>Marrentill</td>
+            <td><canvas itemname="unidentified_marentill"></canvas><br>Herb</td>
+            <td><canvas itemname="marentill"></canvas><br>Marrentill</td>
             <td>3.8</td>
         </tr>
         <tr>
             <td>11</td>
-            <td><canvas data-itemname="unidentified_tarromin"></canvas><br>Herb</td>
-            <td><canvas data-itemname="tarromin"></canvas><br>Tarromin</td>
+            <td><canvas itemname="unidentified_tarromin"></canvas><br>Herb</td>
+            <td><canvas itemname="tarromin"></canvas><br>Tarromin</td>
             <td>5</td>
         </tr>
         <tr>
             <td>20</td>
-            <td><canvas data-itemname="unidentified_harralander"></canvas><br>Herb</td>
-            <td><canvas data-itemname="harralander"></canvas><br>Harralander</td>
+            <td><canvas itemname="unidentified_harralander"></canvas><br>Herb</td>
+            <td><canvas itemname="harralander"></canvas><br>Harralander</td>
             <td>6.3</td>
         </tr>
         <tr>
             <td>25</td>
-            <td><canvas data-itemname="unidentified_ranarr"></canvas><br>Herb</td>
-            <td><canvas data-itemname="ranarr_weed"></canvas><br>Ranarr weed</td>
+            <td><canvas itemname="unidentified_ranarr"></canvas><br>Herb</td>
+            <td><canvas itemname="ranarr_weed"></canvas><br>Ranarr weed</td>
             <td>7.5</td>
         </tr>
         <tr>
             <td>40</td>
-            <td><canvas data-itemname="unidentified_irit"></canvas><br>Herb</td>
-            <td><canvas data-itemname="irit_leaf"></canvas><br>Irit Leaf</td>
+            <td><canvas itemname="unidentified_irit"></canvas><br>Herb</td>
+            <td><canvas itemname="irit_leaf"></canvas><br>Irit Leaf</td>
             <td>8.8</td>
         </tr>
         <tr>
             <td>48</td>
-            <td><canvas data-itemname="unidentified_avantoe"></canvas><br>Herb</td>
-            <td><canvas data-itemname="avantoe"></canvas><br>Avantoe</td>
+            <td><canvas itemname="unidentified_avantoe"></canvas><br>Herb</td>
+            <td><canvas itemname="avantoe"></canvas><br>Avantoe</td>
             <td>10</td>
         </tr>
         <tr>
             <td>54</td>
-            <td><canvas data-itemname="unidentified_kwuarm"></canvas><br>Herb</td>
-            <td><canvas data-itemname="kwuarm"></canvas><br>Kwuarm</td>
+            <td><canvas itemname="unidentified_kwuarm"></canvas><br>Herb</td>
+            <td><canvas itemname="kwuarm"></canvas><br>Kwuarm</td>
             <td>11.3</td>
         </tr>
         <tr>
             <td>65</td>
-            <td><canvas data-itemname="unidentified_cadantine"></canvas><br>Herb</td>
-            <td><canvas data-itemname="cadantine"></canvas><br>Cadantine</td>
+            <td><canvas itemname="unidentified_cadantine"></canvas><br>Herb</td>
+            <td><canvas itemname="cadantine"></canvas><br>Cadantine</td>
             <td>12.5</td>
         </tr>
         <tr>
             <td>67</td>
-            <td><canvas data-itemname="unidentified_lantadyme"></canvas><br>Herb</td>
-            <td><canvas data-itemname="lantadyme"></canvas><br>Lantadyme</td>
+            <td><canvas itemname="unidentified_lantadyme"></canvas><br>Herb</td>
+            <td><canvas itemname="lantadyme"></canvas><br>Lantadyme</td>
             <td>13.1</td>
         </tr>
         <tr>
             <td>70</td>
-            <td><canvas data-itemname="unidentified_dwarf_weed"></canvas><br>Herb</td>
-            <td><canvas data-itemname="dwarf_weed"></canvas><br>Dwarf weed</td>
+            <td><canvas itemname="unidentified_dwarf_weed"></canvas><br>Herb</td>
+            <td><canvas itemname="dwarf_weed"></canvas><br>Dwarf weed</td>
             <td>13.8</td>
         </tr>
         <tr>
             <td>75</td>
-            <td><canvas data-itemname="unidentified_torstol"></canvas><br>Herb</td>
-            <td><canvas data-itemname="torstol"></canvas><br>Torstol</td>
+            <td><canvas itemname="unidentified_torstol"></canvas><br>Herb</td>
+            <td><canvas itemname="torstol"></canvas><br>Torstol</td>
             <td>15</td>
         </tr>
     </table>
@@ -111,166 +111,166 @@ function getSkillContent($skill) { return <<<HTML
         <tr>
             <td>3</td>
             <td>
-                <canvas data-itemname="guam_leaf"></canvas>
-                <canvas data-itemname="guamvial"></canvas><br>
+                <canvas itemname="guam_leaf"></canvas>
+                <canvas itemname="guamvial"></canvas><br>
                 Guam Leaf
             </td>
-            <td><canvas data-itemname="eye_of_newt"></canvas><br>Eye of Newt</td>
-            <td><canvas data-itemname="3dose1attack"></canvas><br>Attack potion</td>
+            <td><canvas itemname="eye_of_newt"></canvas><br>Eye of Newt</td>
+            <td><canvas itemname="3dose1attack"></canvas><br>Attack potion</td>
             <td>25</td>
         </tr>
         <tr>
             <td>5</td>
             <td>
-                <canvas data-itemname="marentill"></canvas>
-                <canvas data-itemname="marrentillvial"></canvas><br>
+                <canvas itemname="marentill"></canvas>
+                <canvas itemname="marrentillvial"></canvas><br>
                 Marrentill
             </td>
-            <td><canvas data-itemname="unicorn_horn_dust"></canvas><br>Ground unicorn horn</td>
-            <td><canvas data-itemname="3doseantipoison"></canvas><br>Antipoison potion</td>
+            <td><canvas itemname="unicorn_horn_dust"></canvas><br>Ground unicorn horn</td>
+            <td><canvas itemname="3doseantipoison"></canvas><br>Antipoison potion</td>
             <td>37.5</td>
         </tr>
         <tr>
             <td>12</td>
             <td>
-                <canvas data-itemname="tarromin"></canvas>
-                <canvas data-itemname="tarrominvial"></canvas><br>
+                <canvas itemname="tarromin"></canvas>
+                <canvas itemname="tarrominvial"></canvas><br>
                 Tarromin
             </td>
-            <td><canvas data-itemname="limpwurt_root"></canvas><br>Limpwurt root</td>
-            <td><canvas data-itemname="3dose1strength"></canvas><br>Strength potion</td>
+            <td><canvas itemname="limpwurt_root"></canvas><br>Limpwurt root</td>
+            <td><canvas itemname="3dose1strength"></canvas><br>Strength potion</td>
             <td>50</td>
         </tr>
         <tr>
             <td>22</td>
             <td>
-                <canvas data-itemname="harralander"></canvas>
-                <canvas data-itemname="harralandervial"></canvas><br>
+                <canvas itemname="harralander"></canvas>
+                <canvas itemname="harralandervial"></canvas><br>
                 Harralander
             </td>
-            <td><canvas data-itemname="red_spiders_eggs"></canvas><br>Red spider's eggs</td>
-            <td><canvas data-itemname="3dosestatrestore"></canvas><br>Stat restore potion</td>
+            <td><canvas itemname="red_spiders_eggs"></canvas><br>Red spider's eggs</td>
+            <td><canvas itemname="3dosestatrestore"></canvas><br>Stat restore potion</td>
             <td>62.5</td>
         </tr>
         <tr>
             <td>30</td>
             <td>
-                <canvas data-itemname="ranarr_weed"></canvas>
-                <canvas data-itemname="ranarrvial"></canvas><br>
+                <canvas itemname="ranarr_weed"></canvas>
+                <canvas itemname="ranarrvial"></canvas><br>
                 Ranarr weed
             </td>
-            <td><canvas data-itemname="white_berries"></canvas><br>White Berries</td>
-            <td><canvas data-itemname="3dose1defense"></canvas><br>Defence potion</td>
+            <td><canvas itemname="white_berries"></canvas><br>White Berries</td>
+            <td><canvas itemname="3dose1defense"></canvas><br>Defence potion</td>
             <td>75</td>
         </tr>
         <tr>
             <td>38</td>
             <td>
-                <canvas data-itemname="ranarr_weed"></canvas>
-                <canvas data-itemname="ranarrvial"></canvas><br>
+                <canvas itemname="ranarr_weed"></canvas>
+                <canvas itemname="ranarrvial"></canvas><br>
                 Ranarr weed
             </td>
-            <td><canvas data-itemname="snape_grass"></canvas><br>Snape Grass</td>
-            <td><canvas data-itemname="3doseprayerrestore"></canvas><br>Restore prayer potion</td>
+            <td><canvas itemname="snape_grass"></canvas><br>Snape Grass</td>
+            <td><canvas itemname="3doseprayerrestore"></canvas><br>Restore prayer potion</td>
             <td>87.5</td>
         </tr>
         <tr>
             <td>45</td>
             <td>
-                <canvas data-itemname="irit_leaf"></canvas>
-                <canvas data-itemname="iritvial"></canvas><br>
+                <canvas itemname="irit_leaf"></canvas>
+                <canvas itemname="iritvial"></canvas><br>
                 Irit Leaf
             </td>
-            <td><canvas data-itemname="eye_of_newt"></canvas><br>Eye of newt</td>
-            <td><canvas data-itemname="3dose2attack"></canvas><br>Super attack potion</td>
+            <td><canvas itemname="eye_of_newt"></canvas><br>Eye of newt</td>
+            <td><canvas itemname="3dose2attack"></canvas><br>Super attack potion</td>
             <td>100</td>
         </tr>
         <tr>
             <td>48</td>
             <td>
-                <canvas data-itemname="irit_leaf"></canvas>
-                <canvas data-itemname="iritvial"></canvas><br>
+                <canvas itemname="irit_leaf"></canvas>
+                <canvas itemname="iritvial"></canvas><br>
                 Irit Leaf
             </td>
-            <td><canvas data-itemname="unicorn_horn_dust"></canvas><br>Ground unicorn horn</td>
-            <td><canvas data-itemname="3dose2antipoison"></canvas><br>Super antipoison potion</td>
+            <td><canvas itemname="unicorn_horn_dust"></canvas><br>Ground unicorn horn</td>
+            <td><canvas itemname="3dose2antipoison"></canvas><br>Super antipoison potion</td>
             <td>106.3</td>
         </tr>
         <tr>
             <td>50</td>
             <td>
-                <canvas data-itemname="avantoe"></canvas>
-                <canvas data-itemname="avantoevial"></canvas><br>
+                <canvas itemname="avantoe"></canvas>
+                <canvas itemname="avantoevial"></canvas><br>
                 Avantoe
             </td>
-            <td><canvas data-itemname="snape_grass"></canvas><br>Snape Grass</td>
-            <td><canvas data-itemname="3dosefisherspotion"></canvas><br>Fishing potion</td>
+            <td><canvas itemname="snape_grass"></canvas><br>Snape Grass</td>
+            <td><canvas itemname="3dosefisherspotion"></canvas><br>Fishing potion</td>
             <td>112.5</td>
         </tr>
         <tr>
             <td>55</td>
             <td>
-                <canvas data-itemname="kwuarm"></canvas>
-                <canvas data-itemname="kwuarmvial"></canvas><br>
+                <canvas itemname="kwuarm"></canvas>
+                <canvas itemname="kwuarmvial"></canvas><br>
                 Kwuarm
             </td>
-            <td><canvas data-itemname="limpwurt_root"></canvas><br>Limpwurt root</td>
-            <td><canvas data-itemname="3dose2strength"></canvas><br>Super strength potion</td>
+            <td><canvas itemname="limpwurt_root"></canvas><br>Limpwurt root</td>
+            <td><canvas itemname="3dose2strength"></canvas><br>Super strength potion</td>
             <td>125</td>
         </tr>
         <tr>
             <td>60</td>
             <td>
-                <canvas data-itemname="kwuarm"></canvas>
-                <canvas data-itemname="kwuarmvial"></canvas><br>
+                <canvas itemname="kwuarm"></canvas>
+                <canvas itemname="kwuarmvial"></canvas><br>
                 Kwuarm
             </td>
-            <td><canvas data-itemname="dragon_scale_dust"></canvas><br>Ground dragon scale</td>
-            <td><canvas data-itemname="weapon_poison"></canvas><br>Weapon poison</td>
+            <td><canvas itemname="dragon_scale_dust"></canvas><br>Ground dragon scale</td>
+            <td><canvas itemname="weapon_poison"></canvas><br>Weapon poison</td>
             <td>127.5</td>
         </tr>
         <tr>
             <td>66</td>
             <td>
-                <canvas data-itemname="cadantine"></canvas>
-                <canvas data-itemname="cadantinevial"></canvas><br>
+                <canvas itemname="cadantine"></canvas>
+                <canvas itemname="cadantinevial"></canvas><br>
                 Cadantine
             </td>
-            <td><canvas data-itemname="white_berries"></canvas><br>White Berries</td>
-            <td><canvas data-itemname="3dose2defense"></canvas><br>Super defence potion</td>
+            <td><canvas itemname="white_berries"></canvas><br>White Berries</td>
+            <td><canvas itemname="3dose2defense"></canvas><br>Super defence potion</td>
             <td>150</td>
         </tr>
         <tr>
             <td>69</td>
             <td>
-                <canvas data-itemname="lantadyme"></canvas>
-                <canvas data-itemname="lantadymevial"></canvas><br>
+                <canvas itemname="lantadyme"></canvas>
+                <canvas itemname="lantadymevial"></canvas><br>
                 Lantadyme
             </td>
-            <td><canvas data-itemname="dragon_scale_dust"></canvas><br>Ground dragon scale</td>
-            <td><canvas data-itemname="3dose1antidragon"></canvas><br>Anti-FireBreath potion</td>
+            <td><canvas itemname="dragon_scale_dust"></canvas><br>Ground dragon scale</td>
+            <td><canvas itemname="3dose1antidragon"></canvas><br>Anti-FireBreath potion</td>
             <td>157.5</td>
         </tr>
         <tr>
             <td>72</td>
             <td>
-                <canvas data-itemname="dwarf_weed"></canvas>
-                <canvas data-itemname="dwarfweedvial"></canvas><br>
+                <canvas itemname="dwarf_weed"></canvas>
+                <canvas itemname="dwarfweedvial"></canvas><br>
                 Dwarf weed
             </td>
-            <td><canvas data-itemname="wine_of_zamorak"></canvas><br>Wine of Zamorak</td>
-            <td><canvas data-itemname="3doserangerspotion"></canvas><br>Ranging potion</td>
+            <td><canvas itemname="wine_of_zamorak"></canvas><br>Wine of Zamorak</td>
+            <td><canvas itemname="3doserangerspotion"></canvas><br>Ranging potion</td>
             <td>162.5</td>
         </tr>
         <tr>
             <td>78</td>
             <td>
-                <canvas data-itemname="torstol"></canvas>
-                <canvas data-itemname="torstolvial"></canvas><br>
+                <canvas itemname="torstol"></canvas>
+                <canvas itemname="torstolvial"></canvas><br>
                 Torstol
             </td>
-            <td><canvas data-itemname="jangerberries"></canvas><br>Jangerberries</td>
-            <td><canvas data-itemname="3dosepotionofzamorak"></canvas><br>Zamorak potion</td>
+            <td><canvas itemname="jangerberries"></canvas><br>Jangerberries</td>
+            <td><canvas itemname="3dosepotionofzamorak"></canvas><br>Zamorak potion</td>
             <td>175</td>
         </tr>
     </table>
@@ -284,20 +284,20 @@ function getSkillContent($skill) { return <<<HTML
             <th>Result</th>
         </tr>
         <tr>
-            <td><canvas data-itemname="unicorn_horn"></canvas><br>Unicorn Horn</td>
-            <td><canvas data-itemname="pestle_and_mortar"></canvas><br>Pestle & Mortar</td>
-            <td><canvas data-itemname="unicorn_horn_dust"></canvas><br>Unicorn horn dust</td>
+            <td><canvas itemname="unicorn_horn"></canvas><br>Unicorn Horn</td>
+            <td><canvas itemname="pestle_and_mortar"></canvas><br>Pestle & Mortar</td>
+            <td><canvas itemname="unicorn_horn_dust"></canvas><br>Unicorn horn dust</td>
         </tr>
         <tr>
-            <td><canvas data-itemname="blue_dragon_scale"></canvas><br>Blue Dragon Scale</td>
-            <td><canvas data-itemname="pestle_and_mortar"></canvas><br>Pestle & Mortar</td>
-            <td><canvas data-itemname="dragon_scale_dust"></canvas><br>Ground dragon scale</td>
+            <td><canvas itemname="blue_dragon_scale"></canvas><br>Blue Dragon Scale</td>
+            <td><canvas itemname="pestle_and_mortar"></canvas><br>Pestle & Mortar</td>
+            <td><canvas itemname="dragon_scale_dust"></canvas><br>Ground dragon scale</td>
         </tr>
     </table>
     <h3>Weapon Poison</h3>
     <table>
         <tr>
-            <td><canvas data-itemname="weapon_poison"></canvas></td>
+            <td><canvas itemname="weapon_poison"></canvas></td>
             <td>The weapon poison can only be used only on certain weapons such as arrows and daggers. Players can be poisoned by other player's poisoned weapons or by a poisonous npc.</td>
         </tr>
     </table>
@@ -305,7 +305,7 @@ function getSkillContent($skill) { return <<<HTML
     <table>
         <tr>
             <td>A player will slowly take damage from the poison until it either wears off or they drink an anti-poison potion. The potion also grants a small immunity so that the drinker cannot be poisoned for a short while.</td>
-            <td><canvas data-itemname="3doseantipoison"></canvas></td>
+            <td><canvas itemname="3doseantipoison"></canvas></td>
         </tr>
     </table>
     <h3>Secondary Ingredients</h3>
@@ -315,39 +315,39 @@ function getSkillContent($skill) { return <<<HTML
             <th>Location</th>
         </tr>
         <tr>
-            <td><canvas data-itemname="eye_of_newt" data-show-label="true"></canvas></td>
+            <td><canvas itemname="eye_of_newt" show-label="true"></canvas></td>
             <td>Primarily bought from various shops for 3 coins. These shops include:<br>Betty's Magic Emporium. (Port Sarim)<br>Jatix's Herblore Shop. (Taverley)</td>
         </tr>
         <tr>
-            <td><canvas data-itemname="unicorn_horn_dust" data-show-label="true"></canvas></td>
+            <td><canvas itemname="unicorn_horn_dust" show-label="true"></canvas></td>
             <td>Found by grinding Unicorn horns with a Pestle and Mortar. Common locations to farm Unicorns include:<br>South of Edgeville<br>Southeast of Camelot<br>East of the Graveyard of Shadows</td>
         </tr>
         <tr>
-            <td><canvas data-itemname="limpwurt_root" data-show-label="true"></canvas></td>
+            <td><canvas itemname="limpwurt_root" show-label="true"></canvas></td>
             <td>Most commonly aquired from killing Hill giants and Hobgoblins</td>
         </tr>
         <tr>
-            <td><canvas data-itemname="red_spiders_eggs" data-show-label="true"></canvas></td>
+            <td><canvas itemname="red_spiders_eggs" show-label="true"></canvas></td>
             <td>Spawns in the Varrock Sewers and Edgeville Dungeon (Wilderness Area)</td>
         </tr>
         <tr>
-            <td><canvas data-itemname="white_berries" data-show-label="true"></canvas></td>
+            <td><canvas itemname="white_berries" show-label="true"></canvas></td>
             <td>Spawns in the wilderness at the Lava Dragon Isle</td>
         </tr>
         <tr>
-            <td><canvas data-itemname="snape_grass" data-show-label="true"></canvas></td>
+            <td><canvas itemname="snape_grass" show-label="true"></canvas></td>
             <td>Spawns at the Hobgoblin Peninsula west of the Crafting Guild</td>
         </tr>
         <tr>
-            <td><canvas data-itemname="dragon_scale_dust" data-show-label="true"></canvas></td>
+            <td><canvas itemname="dragon_scale_dust" show-label="true"></canvas></td>
             <td>Found by grinding Blue Dragon Scales with a Pestle and Mortar. Scales spawn near the blue dragons in the Taverley Dungeon</td>
         </tr>
         <tr>
-            <td><canvas data-itemname="wine_of_zamorak" data-show-label="true"></canvas></td>
+            <td><canvas itemname="wine_of_zamorak" show-label="true"></canvas></td>
             <td>Spawns at the Chaos Temple north of Falador as well as the Chaos Temple in the Wilderness (level 38)</td>
         </tr>
         <tr>
-            <td><canvas data-itemname="jangerberries" data-show-label="true"></canvas></td>
+            <td><canvas itemname="jangerberries" show-label="true"></canvas></td>
             <td>Spawns at the island north of Gu'Tanoth</td>
         </tr>
     </table>

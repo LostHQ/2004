@@ -9,31 +9,31 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h3>Items & Skills Needed:</h3>
 <ul style="list-style-type: none;">
 <li><div data-progress>32 Quest points to enter the Champions' Guild</div><br></li>
-<li><div data-progress><canvas data-itemname="bowl_unfired" data-size="25"></canvas>&nbsp;&nbsp;Unfired bowl (requires 8 Crafting to make)</div><br></li>
-<li><div data-progress><canvas data-itemname="wizards_mind_bomb" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="lobster_pot" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="silk" data-size="25"></canvas></div>&nbsp;&nbsp;Silk (can be purchased for 2-30 coins or can be stolen with 20 Thieving)<br></li>
-<li><div data-progress><canvas data-itemname="hammer" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="antidragonbreathshield" data-size="25"></canvas>&nbsp;&nbsp;Dragonfire shield (obtained during the quest)</div><br></li>
-<li><div data-progress><canvas data-itemname="nails" data-size="25"></canvas>&nbsp;&nbsp;12 nails or <canvas data-itemname="steel_bar" data-size="25"></canvas>&nbsp;&nbsp;6 steel bars (requires 34 Smithing to make)</div><br></li>
-<li><div data-progress><canvas data-itemname="woodplank" data-size="25"></canvas>&nbsp;&nbsp;3 planks</div><br></li>
-<li><div data-progress><canvas data-itemname="coins_1000" data-size="25"></canvas>&nbsp;&nbsp;2,000 coins (and an extra 10,000 coins if you can't cast Telekinetic Grab)</div><br></li>
+<li><div data-progress><canvas itemname="bowl_unfired" icon-size="25"></canvas>&nbsp;&nbsp;Unfired bowl (requires 8 Crafting to make)</div><br></li>
+<li><div data-progress><canvas itemname="wizards_mind_bomb" icon-size="25" show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas itemname="lobster_pot" icon-size="25" show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas itemname="silk" icon-size="25"></canvas></div>&nbsp;&nbsp;Silk (can be purchased for 2-30 coins or can be stolen with 20 Thieving)<br></li>
+<li><div data-progress><canvas itemname="hammer" icon-size="25" show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas itemname="antidragonbreathshield" icon-size="25"></canvas>&nbsp;&nbsp;Dragonfire shield (obtained during the quest)</div><br></li>
+<li><div data-progress><canvas itemname="nails" icon-size="25"></canvas>&nbsp;&nbsp;12 nails or <canvas itemname="steel_bar" icon-size="25"></canvas>&nbsp;&nbsp;6 steel bars (requires 34 Smithing to make)</div><br></li>
+<li><div data-progress><canvas itemname="woodplank" icon-size="25"></canvas>&nbsp;&nbsp;3 planks</div><br></li>
+<li><div data-progress><canvas itemname="coins_1000" icon-size="25"></canvas>&nbsp;&nbsp;2,000 coins (and an extra 10,000 coins if you can't cast Telekinetic Grab)</div><br></li>
 </ul>
 <b>Telekinetic Grab:</b>
 <br>
 <ul style="list-style-type: none;">
 <li><div data-progress>33 Magic (or 31 Magic and a +2 boost from a Wizard's Mind Bomb)</div><br></li>
-<li><div data-progress><canvas data-itemname="lawrune" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="airrune" data-size="25" data-show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas itemname="lawrune" icon-size="25" show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas itemname="airrune" icon-size="25" show-label="inline"></canvas></div><br></li>
 </ul>
 <h3>Recommended:</h3>
 <ul style="list-style-type: none;">
 <li><div data-progress>45 Combat</div></li>
-<li><div data-progress><canvas data-itemname="lobster" data-size="25"></canvas>&nbsp;&nbsp;Lobster or better food</div><br></li>
-<li><div data-progress><canvas data-itemname="adamant_platebody" data-size="25"></canvas>&nbsp;&nbsp;Adamant or better armor (if using melee)</div><br></li>
-<li><div data-progress><canvas data-itemname="lawrune" data-size="25"></canvas>&nbsp;&nbsp;Runes for Teleport to Lumbridge</div><br></li>
-<li><div data-progress><canvas data-itemname="ring_of_recoil" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="ring_of_dueling_8" data-size="25"></canvas>&nbsp;&nbsp;Ring of dueling (for an emergency teleport)</div><br></li>
+<li><div data-progress><canvas itemname="lobster" icon-size="25"></canvas>&nbsp;&nbsp;Lobster or better food</div><br></li>
+<li><div data-progress><canvas itemname="adamant_platebody" icon-size="25"></canvas>&nbsp;&nbsp;Adamant or better armor (if using melee)</div><br></li>
+<li><div data-progress><canvas itemname="lawrune" icon-size="25"></canvas>&nbsp;&nbsp;Runes for Teleport to Lumbridge</div><br></li>
+<li><div data-progress><canvas itemname="ring_of_recoil" icon-size="25" show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas itemname="ring_of_dueling_8" icon-size="25"></canvas>&nbsp;&nbsp;Ring of dueling (for an emergency teleport)</div><br></li>
 <li><div data-progress>A friend to bring you more food</div><br></li>
 </ul>
 <b>Starting Location:</b> Guildmaster in the Champion's Guild

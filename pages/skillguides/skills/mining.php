@@ -32,32 +32,32 @@ function getSkillContent($skill) { return <<<HTML
             <th>Price to Buy</th>
         </tr>
         <tr>
-            <td><canvas data-itemname="bronze_pickaxe" data-show-label="true"></canvas></td>
+            <td><canvas itemname="bronze_pickaxe" show-label="true"></canvas></td>
             <td>1</td>
             <td>1 gp*</td>
         </tr>
         <tr>
-            <td><canvas data-itemname="iron_pickaxe" data-show-label="true"></canvas></td>
+            <td><canvas itemname="iron_pickaxe" show-label="true"></canvas></td>
             <td>1</td>
             <td>137 gp</td>
         </tr>
         <tr>
-            <td><canvas data-itemname="steel_pickaxe" data-show-label="true"></canvas></td>
+            <td><canvas itemname="steel_pickaxe" show-label="true"></canvas></td>
             <td>6</td>
             <td>500 gp</td>
         </tr>
         <tr>
-            <td><canvas data-itemname="mithril_pickaxe" data-show-label="true"></canvas></td>
+            <td><canvas itemname="mithril_pickaxe" show-label="true"></canvas></td>
             <td>21</td>
             <td>1,300 gp</td>
         </tr>
         <tr>
-            <td><canvas data-itemname="adamant_pickaxe" data-show-label="true"></canvas></td>
+            <td><canvas itemname="adamant_pickaxe" show-label="true"></canvas></td>
             <td>31</td>
             <td>3,200 gp</td>
         </tr>
         <tr>
-            <td><canvas data-itemname="rune_pickaxe" data-show-label="true"></canvas></td>
+            <td><canvas itemname="rune_pickaxe" show-label="true"></canvas></td>
             <td>41</td>
             <td>32,000 gp</td>
         </tr>
@@ -78,46 +78,46 @@ function getSkillContent($skill) { return <<<HTML
             <th>Common Locations</th>
         </tr>
         <tr>
-            <td><canvas data-itemname="blankrune" data-show-label="true"></canvas></td>
+            <td><canvas itemname="blankrune" show-label="true"></canvas></td>
             <td>1</td>
             <td>Rune essence mine (Varrock teleport)<br>Rune essence mine (Yanille teleport)</td>
         </tr>
         <tr>
-            <td><canvas data-itemname="clay" data-show-label="true"></canvas></td>
+            <td><canvas itemname="clay" show-label="true"></canvas></td>
             <td>1</td>
             <td>Southwest Varrock Mine<br>Southeast Varrock Mine<br>Rimmington Mine</td>
         </tr>
         <tr>
-            <td><canvas data-itemname="copper_ore" data-show-label="true"></canvas></td>
+            <td><canvas itemname="copper_ore" show-label="true"></canvas></td>
             <td>1</td>
             <td rowspan="2">Southwest Varrock Mine<br>Southeast Varrock Mine<br>Dwarven Mine</td>
         </tr>
         <tr>
-            <td><canvas data-itemname="tin_ore" data-show-label="true"></canvas></td>
+            <td><canvas itemname="tin_ore" show-label="true"></canvas></td>
             <td>1</td>
         </tr>
         <tr>
-            <td><canvas data-itemname="blurite_ore" data-show-label="true"></canvas></td>
+            <td><canvas itemname="blurite_ore" show-label="true"></canvas></td>
             <td>10</td>
             <td>Asgarnian Ice Dungeon</td>
         </tr>
         <tr>
-            <td><canvas data-itemname="iron_ore" data-show-label="true"></canvas></td>
+            <td><canvas itemname="iron_ore" show-label="true"></canvas></td>
             <td>15</td>
             <td>Southeast Varrock Mine<br>Fight Arena Mine<br>Al Kharid Mine<br>Mining Guild</td>
         </tr>
         <tr>
-            <td><canvas data-itemname="silver_ore" data-show-label="true"></canvas></td>
+            <td><canvas itemname="silver_ore" show-label="true"></canvas></td>
             <td>20</td>
             <td>Al Kharid Mine<br>Southwest Varrock Mine<br>Crafting Guild</td>
         </tr>
         <tr>
-            <td><canvas data-itemname="coal" data-show-label="true"></canvas></td>
+            <td><canvas itemname="coal" show-label="true"></canvas></td>
             <td>30</td>
             <td>Dwarven Mine<br>Coal Trucks<br>Barbarian Village<br>Mining Guild</td>
         </tr>
         <tr>
-            <td><canvas data-itemname="gold_ore" data-show-label="true"></canvas></td>
+            <td><canvas itemname="gold_ore" show-label="true"></canvas></td>
             <td>40</td>
             <td>North Brimhaven Mine<br>Crafting Guild</td>
         </tr>
@@ -127,17 +127,17 @@ function getSkillContent($skill) { return <<<HTML
             <td>Shilo Village</td>
         </tr>
         <tr>
-            <td><canvas data-itemname="mithril_ore" data-show-label="true"></canvas></td>
+            <td><canvas itemname="mithril_ore" show-label="true"></canvas></td>
             <td>55</td>
             <td>Al Kharid Mine<br>Fight Arena Mine<br>West Lumbridge Swamp Mine<br>Mining Guild</td>
         </tr>
         <tr>
-            <td><canvas data-itemname="adamantite_ore" data-show-label="true"></canvas></td>
+            <td><canvas itemname="adamantite_ore" show-label="true"></canvas></td>
             <td>70</td>
             <td>Al Kharid Mine<br>West Lumbridge Swamp Mine<br>Grand Tree Mine<br>Desert Mining Camp (underground)</td>
         </tr>
         <tr>
-            <td><canvas data-itemname="runite_ore" data-show-label="true"></canvas></td>
+            <td><canvas itemname="runite_ore" show-label="true"></canvas></td>
             <td>85</td>
             <td>Lava Maze Runite Mine<br>Heroes Guild</td>
         </tr>

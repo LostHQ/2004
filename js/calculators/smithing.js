@@ -196,11 +196,11 @@ function runCalc() {
                 const row = document.createElement("tr");
                 let iteminfo = `"${item}"`;
                 if (item == "goldsmithgauntlets") {
-                    iteminfo = `"gold_bar" data-name-append="(Goldsmith Gauntlets)"`;
+                    iteminfo = `"gold_bar" name-append="(Goldsmith Gauntlets)"`;
                 }
                 row.innerHTML =
                     `<td>${data.level}</td>
-                    <td><canvas data-itemname=${iteminfo} data-show-label="inline"></canvas></td>
+                    <td><canvas itemname=${iteminfo} show-label="inline"></canvas></td>
                     <td>${data.xp}</td>
                     <td>${amountNeeded.toLocaleString()}</td>`;
                 tableBody.appendChild(row);
@@ -212,7 +212,7 @@ function runCalc() {
                 const row = document.createElement("tr");
                 row.innerHTML =
                     `<td>${data.level}</td>
-                    <td><canvas data-itemname="${item}" data-show-label="inline"></canvas></td>
+                    <td><canvas itemname="${item}" show-label="inline"></canvas></td>
                     <td>${data.bars}</td>
                     <td>${amountNeeded.toLocaleString()}</td>`;
                 tableBody.appendChild(row);
@@ -238,7 +238,7 @@ function runCalc() {
                 const row = document.createElement("tr");
                 row.innerHTML =
                     `<td>${data.level}</td>
-                    <td><canvas data-itemname="${item}" data-show-label="inline"></canvas></td>
+                    <td><canvas itemname="${item}" show-label="inline"></canvas></td>
                     <td>${data.bars}</td>
                     <td>${amountNeeded.toLocaleString()}</td>`;
                 tableBody.appendChild(row);

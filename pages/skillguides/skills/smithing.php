@@ -30,108 +30,108 @@ function getSkillContent($skill) { return <<<HTML
         </tr>
         <tr>
         <td>
-            <canvas data-itemname="bronze_bar" data-size="28px"></canvas><br>
+            <canvas itemname="bronze_bar" icon-size="28px"></canvas><br>
             Bronze
         </td>
         <td>
-            <canvas data-itemname="tin_ore" data-size="28px"></canvas>
-            <canvas data-itemname="copper_ore" data-size="28px"></canvas><br>
+            <canvas itemname="tin_ore" icon-size="28px"></canvas>
+            <canvas itemname="copper_ore" icon-size="28px"></canvas><br>
             1 Tin ore, 1 Copper ore
         </td>
         <td>1</td>
         </tr>
         <tr>
         <td>
-            <canvas data-itemname="iron_bar" data-size="28px"></canvas><br>
+            <canvas itemname="iron_bar" icon-size="28px"></canvas><br>
             Iron
         </td>
         <td>
-            <canvas data-itemname="iron_ore" data-size="28px"></canvas><br>
+            <canvas itemname="iron_ore" icon-size="28px"></canvas><br>
             1 Iron ore (50% chance of success)
         </td>
         <td>15</td>
         </tr>
         <tr>
         <td>
-            <canvas data-itemname="silver_bar" data-size="28px"></canvas><br>
+            <canvas itemname="silver_bar" icon-size="28px"></canvas><br>
             Silver
         </td>
         <td>
-            <canvas data-itemname="silver_ore" data-size="28px"></canvas><br>
+            <canvas itemname="silver_ore" icon-size="28px"></canvas><br>
             1 Silver ore
         </td>
         <td>20</td>
         </tr>
         <tr>
         <td>
-            <canvas data-itemname="steel_bar" data-size="28px"></canvas><br>
+            <canvas itemname="steel_bar" icon-size="28px"></canvas><br>
             Steel
         </td>
         <td>
-            <canvas data-itemname="coal" data-size="28px"></canvas>
-            <canvas data-itemname="coal" data-size="28px"></canvas>
-            <canvas data-itemname="iron_ore" data-size="28px"></canvas><br>
+            <canvas itemname="coal" icon-size="28px"></canvas>
+            <canvas itemname="coal" icon-size="28px"></canvas>
+            <canvas itemname="iron_ore" icon-size="28px"></canvas><br>
             2 Coal, 1 Iron ore
         </td>
         <td>30</td>
         </tr>
         <tr>
         <td>
-            <canvas data-itemname="gold_bar" data-size="28px"></canvas><br>
+            <canvas itemname="gold_bar" icon-size="28px"></canvas><br>
             Gold
         </td>
         <td>
-            <canvas data-itemname="gold_ore" data-size="28px"></canvas><br>
+            <canvas itemname="gold_ore" icon-size="28px"></canvas><br>
             1 Gold ore
         </td>
         <td>40</td>
         </tr>
         <tr>
         <td>
-            <canvas data-itemname="mithril_bar" data-size="28px"></canvas><br>
+            <canvas itemname="mithril_bar" icon-size="28px"></canvas><br>
             Mithril
         </td>
         <td>
-            <canvas data-itemname="coal" data-size="28px"></canvas>
-            <canvas data-itemname="coal" data-size="28px"></canvas>
-            <canvas data-itemname="coal" data-size="28px"></canvas>
-            <canvas data-itemname="coal" data-size="28px"></canvas>
-            <canvas data-itemname="mithril_ore" data-size="28px"></canvas><br>
+            <canvas itemname="coal" icon-size="28px"></canvas>
+            <canvas itemname="coal" icon-size="28px"></canvas>
+            <canvas itemname="coal" icon-size="28px"></canvas>
+            <canvas itemname="coal" icon-size="28px"></canvas>
+            <canvas itemname="mithril_ore" icon-size="28px"></canvas><br>
             4 Coal, 1 Mithril ore
         </td>
         <td>50</td>
         </tr>
         <tr>
         <td>
-            <canvas data-itemname="adamantite_bar" data-size="28px"></canvas><br>
+            <canvas itemname="adamantite_bar" icon-size="28px"></canvas><br>
             Adamant</td>
         <td>
-            <canvas data-itemname="coal" data-size="28px"></canvas>
-            <canvas data-itemname="coal" data-size="28px"></canvas>
-            <canvas data-itemname="coal" data-size="28px"></canvas>
-            <canvas data-itemname="coal" data-size="28px"></canvas>
-            <canvas data-itemname="coal" data-size="28px"></canvas>
-            <canvas data-itemname="coal" data-size="28px"></canvas>
-            <canvas data-itemname="adamantite_ore" data-size="28px"></canvas><br>
+            <canvas itemname="coal" icon-size="28px"></canvas>
+            <canvas itemname="coal" icon-size="28px"></canvas>
+            <canvas itemname="coal" icon-size="28px"></canvas>
+            <canvas itemname="coal" icon-size="28px"></canvas>
+            <canvas itemname="coal" icon-size="28px"></canvas>
+            <canvas itemname="coal" icon-size="28px"></canvas>
+            <canvas itemname="adamantite_ore" icon-size="28px"></canvas><br>
             6 Coal, 1 Adamantite ore
         </td>
         <td>70</td>
         </tr>
         <tr>
         <td>
-            <canvas data-itemname="runite_bar" data-size="28px"></canvas><br>
+            <canvas itemname="runite_bar" icon-size="28px"></canvas><br>
             Runite
         </td>
         <td>
-            <canvas data-itemname="coal" data-size="28px"></canvas>
-            <canvas data-itemname="coal" data-size="28px"></canvas>
-            <canvas data-itemname="coal" data-size="28px"></canvas>
-            <canvas data-itemname="coal" data-size="28px"></canvas>
-            <canvas data-itemname="coal" data-size="28px"></canvas>
-            <canvas data-itemname="coal" data-size="28px"></canvas>
-            <canvas data-itemname="coal" data-size="28px"></canvas>
-            <canvas data-itemname="coal" data-size="28px"></canvas>
-            <canvas data-itemname="runite_ore" data-size="28px"></canvas><br>
+            <canvas itemname="coal" icon-size="28px"></canvas>
+            <canvas itemname="coal" icon-size="28px"></canvas>
+            <canvas itemname="coal" icon-size="28px"></canvas>
+            <canvas itemname="coal" icon-size="28px"></canvas>
+            <canvas itemname="coal" icon-size="28px"></canvas>
+            <canvas itemname="coal" icon-size="28px"></canvas>
+            <canvas itemname="coal" icon-size="28px"></canvas>
+            <canvas itemname="coal" icon-size="28px"></canvas>
+            <canvas itemname="runite_ore" icon-size="28px"></canvas><br>
             8 Coal, 1 Runite ore
         </td>
         <td>85</td>
@@ -181,70 +181,70 @@ function getSkillContent($skill) { return <<<HTML
         </tr>
         <tr>
             <td>Dagger</td>
-            <td><canvas data-itemname="bronze_dagger" data-size="28px"></canvas><br>1</td>
-            <td><canvas data-itemname="iron_dagger" data-size="28px"></canvas><br>15</td>
-            <td><canvas data-itemname="steel_dagger" data-size="28px"></canvas><br>30</td>
-            <td><canvas data-itemname="mithril_dagger" data-size="28px"></canvas><br>50</td>
-            <td><canvas data-itemname="adamant_dagger" data-size="28px"></canvas><br>70</td>
-            <td><canvas data-itemname="rune_dagger" data-size="28px"></canvas><br>85</td>
+            <td><canvas itemname="bronze_dagger" icon-size="28px"></canvas><br>1</td>
+            <td><canvas itemname="iron_dagger" icon-size="28px"></canvas><br>15</td>
+            <td><canvas itemname="steel_dagger" icon-size="28px"></canvas><br>30</td>
+            <td><canvas itemname="mithril_dagger" icon-size="28px"></canvas><br>50</td>
+            <td><canvas itemname="adamant_dagger" icon-size="28px"></canvas><br>70</td>
+            <td><canvas itemname="rune_dagger" icon-size="28px"></canvas><br>85</td>
         </tr>
         <tr>
             <td>Axe</td>
-            <td><canvas data-itemname="bronze_axe" data-size="28px"></canvas><br>1</td>
-            <td><canvas data-itemname="iron_axe" data-size="28px"></canvas><br>16</td>
-            <td><canvas data-itemname="steel_axe" data-size="28px"></canvas><br>31</td>
-            <td><canvas data-itemname="mithril_axe" data-size="28px"></canvas><br>51</td>
-            <td><canvas data-itemname="adamant_axe" data-size="28px"></canvas><br>71</td>
-            <td><canvas data-itemname="rune_axe" data-size="28px"></canvas><br>86</td>
+            <td><canvas itemname="bronze_axe" icon-size="28px"></canvas><br>1</td>
+            <td><canvas itemname="iron_axe" icon-size="28px"></canvas><br>16</td>
+            <td><canvas itemname="steel_axe" icon-size="28px"></canvas><br>31</td>
+            <td><canvas itemname="mithril_axe" icon-size="28px"></canvas><br>51</td>
+            <td><canvas itemname="adamant_axe" icon-size="28px"></canvas><br>71</td>
+            <td><canvas itemname="rune_axe" icon-size="28px"></canvas><br>86</td>
         </tr>
         <tr>
             <td>Mace</td>
-            <td><canvas data-itemname="bronze_mace" data-size="28px"></canvas><br>2</td>
-            <td><canvas data-itemname="iron_mace" data-size="28px"></canvas><br>17</td>
-            <td><canvas data-itemname="steel_mace" data-size="28px"></canvas><br>32</td>
-            <td><canvas data-itemname="mithril_mace" data-size="28px"></canvas><br>52</td>
-            <td><canvas data-itemname="adamant_mace" data-size="28px"></canvas><br>72</td>
-            <td><canvas data-itemname="rune_mace" data-size="28px"></canvas><br>87</td>
+            <td><canvas itemname="bronze_mace" icon-size="28px"></canvas><br>2</td>
+            <td><canvas itemname="iron_mace" icon-size="28px"></canvas><br>17</td>
+            <td><canvas itemname="steel_mace" icon-size="28px"></canvas><br>32</td>
+            <td><canvas itemname="mithril_mace" icon-size="28px"></canvas><br>52</td>
+            <td><canvas itemname="adamant_mace" icon-size="28px"></canvas><br>72</td>
+            <td><canvas itemname="rune_mace" icon-size="28px"></canvas><br>87</td>
         </tr>
         <tr>
             <td>Medium helm</td>
-            <td><canvas data-itemname="bronze_med_helm" data-size="28px"></canvas><br>3</td>
-            <td><canvas data-itemname="iron_med_helm" data-size="28px"></canvas><br>18</td>
-            <td><canvas data-itemname="steel_med_helm" data-size="28px"></canvas><br>33</td>
-            <td><canvas data-itemname="mithril_med_helm" data-size="28px"></canvas><br>53</td>
-            <td><canvas data-itemname="adamant_med_helm" data-size="28px"></canvas><br>73</td>
-            <td><canvas data-itemname="rune_med_helm" data-size="28px"></canvas><br>88</td>
+            <td><canvas itemname="bronze_med_helm" icon-size="28px"></canvas><br>3</td>
+            <td><canvas itemname="iron_med_helm" icon-size="28px"></canvas><br>18</td>
+            <td><canvas itemname="steel_med_helm" icon-size="28px"></canvas><br>33</td>
+            <td><canvas itemname="mithril_med_helm" icon-size="28px"></canvas><br>53</td>
+            <td><canvas itemname="adamant_med_helm" icon-size="28px"></canvas><br>73</td>
+            <td><canvas itemname="rune_med_helm" icon-size="28px"></canvas><br>88</td>
         </tr>
         <tr>
             <td>Short sword</td>
-            <td><canvas data-itemname="bronze_sword" data-size="28px"></canvas><br>4</td>
-            <td><canvas data-itemname="iron_sword" data-size="28px"></canvas><br>19</td>
-            <td><canvas data-itemname="steel_sword" data-size="28px"></canvas><br>34</td>
-            <td><canvas data-itemname="mithril_sword" data-size="28px"></canvas><br>54</td>
-            <td><canvas data-itemname="adamant_sword" data-size="28px"></canvas><br>74</td>
-            <td><canvas data-itemname="rune_sword" data-size="28px"></canvas><br>89</td>
+            <td><canvas itemname="bronze_sword" icon-size="28px"></canvas><br>4</td>
+            <td><canvas itemname="iron_sword" icon-size="28px"></canvas><br>19</td>
+            <td><canvas itemname="steel_sword" icon-size="28px"></canvas><br>34</td>
+            <td><canvas itemname="mithril_sword" icon-size="28px"></canvas><br>54</td>
+            <td><canvas itemname="adamant_sword" icon-size="28px"></canvas><br>74</td>
+            <td><canvas itemname="rune_sword" icon-size="28px"></canvas><br>89</td>
         </tr>
         <tr>
             <td>Nails</td>
             <td>-</td>
             <td>-</td>
-            <td><canvas data-itemname="nails" data-size="28px"></canvas><br>34<br></td>
+            <td><canvas itemname="nails" icon-size="28px"></canvas><br>34<br></td>
             <td>-</td>
             <td>-</td>
             <td>-</td>
         </tr>
         <tr>
             <td>Throwing dart tips<br>(After completing Tourist Trap)</td>
-            <td><canvas data-itemname="bronze_dart_tip" data-size="28px"></canvas><br>4<br></td>
-            <td><canvas data-itemname="iron_dart_tip" data-size="28px"></canvas><br>19<br></td>
-            <td><canvas data-itemname="steel_dart_tip" data-size="28px"></canvas><br>34<br></td>
-            <td><canvas data-itemname="mithril_dart_tip" data-size="28px"></canvas><br>54<br></td>
-            <td><canvas data-itemname="adamant_dart_tip" data-size="28px"></canvas><br>74<br></td>
-            <td><canvas data-itemname="rune_dart_tip" data-size="28px"></canvas><br>89</td>
+            <td><canvas itemname="bronze_dart_tip" icon-size="28px"></canvas><br>4<br></td>
+            <td><canvas itemname="iron_dart_tip" icon-size="28px"></canvas><br>19<br></td>
+            <td><canvas itemname="steel_dart_tip" icon-size="28px"></canvas><br>34<br></td>
+            <td><canvas itemname="mithril_dart_tip" icon-size="28px"></canvas><br>54<br></td>
+            <td><canvas itemname="adamant_dart_tip" icon-size="28px"></canvas><br>74<br></td>
+            <td><canvas itemname="rune_dart_tip" icon-size="28px"></canvas><br>89</td>
         </tr>
         <tr>
             <td>Wire</td>
-            <td><canvas data-itemname="bronzecraftwire" data-size="28px"></canvas><br>4</td>
+            <td><canvas itemname="bronzecraftwire" icon-size="28px"></canvas><br>4</td>
             <td>-</td>
             <td>-</td>
             <td>-</td>
@@ -255,46 +255,46 @@ function getSkillContent($skill) { return <<<HTML
             <td>Cannonball</td>
             <td>-</td>
             <td>-</td>
-            <td><canvas data-itemname="mcannonball" data-size="28px"></canvas><br>35</td>
+            <td><canvas itemname="mcannonball" icon-size="28px"></canvas><br>35</td>
             <td>-</td>
             <td>-</td>
             <td>-</td>
         </tr>
         <tr>
             <td>Arrowheads</td>
-            <td><canvas data-itemname="bronze_arrowheads" data-size="28px"></canvas><br>5</td>
-            <td><canvas data-itemname="iron_arrowheads" data-size="28px"></canvas><br>20</td>
-            <td><canvas data-itemname="steel_arrowheads" data-size="28px"></canvas><br>35</td>
-            <td><canvas data-itemname="mithril_arrowheads" data-size="28px"></canvas><br>55</td>
-            <td><canvas data-itemname="adamant_arrowheads" data-size="28px"></canvas><br>75</td>
-            <td><canvas data-itemname="rune_arrowheads" data-size="28px"></canvas><br>90</td>
+            <td><canvas itemname="bronze_arrowheads" icon-size="28px"></canvas><br>5</td>
+            <td><canvas itemname="iron_arrowheads" icon-size="28px"></canvas><br>20</td>
+            <td><canvas itemname="steel_arrowheads" icon-size="28px"></canvas><br>35</td>
+            <td><canvas itemname="mithril_arrowheads" icon-size="28px"></canvas><br>55</td>
+            <td><canvas itemname="adamant_arrowheads" icon-size="28px"></canvas><br>75</td>
+            <td><canvas itemname="rune_arrowheads" icon-size="28px"></canvas><br>90</td>
         </tr>
         <tr>
             <td>Scimitar</td>
-            <td><canvas data-itemname="bronze_scimitar" data-size="28px"></canvas><br>5</td>
-            <td><canvas data-itemname="iron_scimitar" data-size="28px"></canvas><br>20</td>
-            <td><canvas data-itemname="steel_scimitar" data-size="28px"></canvas><br>35</td>
-            <td><canvas data-itemname="mithril_scimitar" data-size="28px"></canvas><br>55</td>
-            <td><canvas data-itemname="adamant_scimitar" data-size="28px"></canvas><br>75</td>
-            <td><canvas data-itemname="rune_scimitar" data-size="28px"></canvas><br>90</td>
+            <td><canvas itemname="bronze_scimitar" icon-size="28px"></canvas><br>5</td>
+            <td><canvas itemname="iron_scimitar" icon-size="28px"></canvas><br>20</td>
+            <td><canvas itemname="steel_scimitar" icon-size="28px"></canvas><br>35</td>
+            <td><canvas itemname="mithril_scimitar" icon-size="28px"></canvas><br>55</td>
+            <td><canvas itemname="adamant_scimitar" icon-size="28px"></canvas><br>75</td>
+            <td><canvas itemname="rune_scimitar" icon-size="28px"></canvas><br>90</td>
         </tr>
         <tr>
             <td>Longsword</td>
-            <td><canvas data-itemname="bronze_longsword" data-size="28px"></canvas><br>6</td>
-            <td><canvas data-itemname="iron_longsword" data-size="28px"></canvas><br>21</td>
-            <td><canvas data-itemname="steel_longsword" data-size="28px"></canvas><br>36</td>
-            <td><canvas data-itemname="mithril_longsword" data-size="28px"></canvas><br>56</td>
-            <td><canvas data-itemname="adamant_longsword" data-size="28px"></canvas><br>76</td>
-            <td><canvas data-itemname="rune_longsword" data-size="28px"></canvas><br>91</td>
+            <td><canvas itemname="bronze_longsword" icon-size="28px"></canvas><br>6</td>
+            <td><canvas itemname="iron_longsword" icon-size="28px"></canvas><br>21</td>
+            <td><canvas itemname="steel_longsword" icon-size="28px"></canvas><br>36</td>
+            <td><canvas itemname="mithril_longsword" icon-size="28px"></canvas><br>56</td>
+            <td><canvas itemname="adamant_longsword" icon-size="28px"></canvas><br>76</td>
+            <td><canvas itemname="rune_longsword" icon-size="28px"></canvas><br>91</td>
         </tr>
         <tr>
             <td>Claws<br>(After completing Death Plateau)</td>
-            <td><canvas data-itemname="bronze_claws" data-size="28px"></canvas><br>13</td>
-            <td><canvas data-itemname="iron_claws" data-size="28px"></canvas><br>28</td>
-            <td><canvas data-itemname="steel_claws" data-size="28px"></canvas><br>43</td>
-            <td><canvas data-itemname="mithril_claws" data-size="28px"></canvas><br>63</td>
-            <td><canvas data-itemname="adamant_claws" data-size="28px"></canvas><br>83</td>
-            <td><canvas data-itemname="rune_claws" data-size="28px"></canvas><br>98</td>
+            <td><canvas itemname="bronze_claws" icon-size="28px"></canvas><br>13</td>
+            <td><canvas itemname="iron_claws" icon-size="28px"></canvas><br>28</td>
+            <td><canvas itemname="steel_claws" icon-size="28px"></canvas><br>43</td>
+            <td><canvas itemname="mithril_claws" icon-size="28px"></canvas><br>63</td>
+            <td><canvas itemname="adamant_claws" icon-size="28px"></canvas><br>83</td>
+            <td><canvas itemname="rune_claws" icon-size="28px"></canvas><br>98</td>
         </tr>
         <tr>
             <th rowspan=2>Item</th>
@@ -312,118 +312,118 @@ function getSkillContent($skill) { return <<<HTML
         <td>Studs</td>
             <td>-</td>
             <td>-</td>
-            <td><canvas data-itemname="studs" data-size="28px"></canvas><br>36</td>
+            <td><canvas itemname="studs" icon-size="28px"></canvas><br>36</td>
             <td>-</td>
             <td>-</td>
             <td>-</td>
         </tr>
         <tr>
             <td>Full helm</td>
-            <td><canvas data-itemname="bronze_full_helm" data-size="28px"></canvas><br>7</td>
-            <td><canvas data-itemname="iron_full_helm" data-size="28px"></canvas><br>22</td>
-            <td><canvas data-itemname="steel_full_helm" data-size="28px"></canvas><br>37</td>
-            <td><canvas data-itemname="mithril_full_helm" data-size="28px"></canvas><br>57</td>
-            <td><canvas data-itemname="adamant_full_helm" data-size="28px"></canvas><br>77</td>
-            <td><canvas data-itemname="rune_full_helm" data-size="28px"></canvas><br>92</td>
+            <td><canvas itemname="bronze_full_helm" icon-size="28px"></canvas><br>7</td>
+            <td><canvas itemname="iron_full_helm" icon-size="28px"></canvas><br>22</td>
+            <td><canvas itemname="steel_full_helm" icon-size="28px"></canvas><br>37</td>
+            <td><canvas itemname="mithril_full_helm" icon-size="28px"></canvas><br>57</td>
+            <td><canvas itemname="adamant_full_helm" icon-size="28px"></canvas><br>77</td>
+            <td><canvas itemname="rune_full_helm" icon-size="28px"></canvas><br>92</td>
         </tr>
         <tr>
         <td>Throwing knives<br></td>
-            <td><canvas data-itemname="bronze_knife" data-size="28px"></canvas><br>7<br></td>
-            <td><canvas data-itemname="iron_knife" data-size="28px"></canvas><br>22<br></td>
-            <td><canvas data-itemname="steel_knife" data-size="28px"></canvas><br>37<br></td>
-            <td><canvas data-itemname="mithril_knife" data-size="28px"></canvas><br>57<br></td>
-            <td><canvas data-itemname="adamant_knife" data-size="28px"></canvas><br>77</td>
-            <td><canvas data-itemname="rune_knife" data-size="28px"></canvas><br>92</td>
+            <td><canvas itemname="bronze_knife" icon-size="28px"></canvas><br>7<br></td>
+            <td><canvas itemname="iron_knife" icon-size="28px"></canvas><br>22<br></td>
+            <td><canvas itemname="steel_knife" icon-size="28px"></canvas><br>37<br></td>
+            <td><canvas itemname="mithril_knife" icon-size="28px"></canvas><br>57<br></td>
+            <td><canvas itemname="adamant_knife" icon-size="28px"></canvas><br>77</td>
+            <td><canvas itemname="rune_knife" icon-size="28px"></canvas><br>92</td>
         </tr>
         <tr>
             <td>Square shield</td>
-            <td><canvas data-itemname="bronze_sq_shield" data-size="28px"></canvas><br>8</td>
-            <td><canvas data-itemname="iron_sq_shield" data-size="28px"></canvas><br>23</td>
-            <td><canvas data-itemname="steel_sq_shield" data-size="28px"></canvas><br>38</td>
-            <td><canvas data-itemname="mithril_sq_shield" data-size="28px"></canvas><br>58</td>
-            <td><canvas data-itemname="adamant_sq_shield" data-size="28px"></canvas><br>78</td>
-            <td><canvas data-itemname="rune_sq_shield" data-size="28px"></canvas><br>93</td>
+            <td><canvas itemname="bronze_sq_shield" icon-size="28px"></canvas><br>8</td>
+            <td><canvas itemname="iron_sq_shield" icon-size="28px"></canvas><br>23</td>
+            <td><canvas itemname="steel_sq_shield" icon-size="28px"></canvas><br>38</td>
+            <td><canvas itemname="mithril_sq_shield" icon-size="28px"></canvas><br>58</td>
+            <td><canvas itemname="adamant_sq_shield" icon-size="28px"></canvas><br>78</td>
+            <td><canvas itemname="rune_sq_shield" icon-size="28px"></canvas><br>93</td>
         </tr>
         <tr>
             <td>Warhammer</td>
-            <td><canvas data-itemname="bronze_warhammer" data-size="28px"></canvas><br>9</td>
-            <td><canvas data-itemname="iron_warhammer" data-size="28px"></canvas><br>24</td>
-            <td><canvas data-itemname="steel_warhammer" data-size="28px"></canvas><br>39</td>
-            <td><canvas data-itemname="mithril_warhammer" data-size="28px"></canvas><br>59</td>
-            <td><canvas data-itemname="adamnt_warhammer" data-size="28px"></canvas><br>79</td>
-            <td><canvas data-itemname="rune_warhammer" data-size="28px"></canvas><br>94</td>
+            <td><canvas itemname="bronze_warhammer" icon-size="28px"></canvas><br>9</td>
+            <td><canvas itemname="iron_warhammer" icon-size="28px"></canvas><br>24</td>
+            <td><canvas itemname="steel_warhammer" icon-size="28px"></canvas><br>39</td>
+            <td><canvas itemname="mithril_warhammer" icon-size="28px"></canvas><br>59</td>
+            <td><canvas itemname="adamnt_warhammer" icon-size="28px"></canvas><br>79</td>
+            <td><canvas itemname="rune_warhammer" icon-size="28px"></canvas><br>94</td>
         </tr>
         <tr>
             <td>Battle axe</td>
-            <td><canvas data-itemname="bronze_battleaxe" data-size="28px"></canvas><br>10</td>
-            <td><canvas data-itemname="iron_battleaxe" data-size="28px"></canvas><br>25</td>
-            <td><canvas data-itemname="steel_battleaxe" data-size="28px"></canvas><br>40</td>
-            <td><canvas data-itemname="mithril_battleaxe" data-size="28px"></canvas><br>60</td>
-            <td><canvas data-itemname="adamant_battleaxe" data-size="28px"></canvas><br>80</td>
-            <td><canvas data-itemname="rune_battleaxe" data-size="28px"></canvas><br>95</td>
+            <td><canvas itemname="bronze_battleaxe" icon-size="28px"></canvas><br>10</td>
+            <td><canvas itemname="iron_battleaxe" icon-size="28px"></canvas><br>25</td>
+            <td><canvas itemname="steel_battleaxe" icon-size="28px"></canvas><br>40</td>
+            <td><canvas itemname="mithril_battleaxe" icon-size="28px"></canvas><br>60</td>
+            <td><canvas itemname="adamant_battleaxe" icon-size="28px"></canvas><br>80</td>
+            <td><canvas itemname="rune_battleaxe" icon-size="28px"></canvas><br>95</td>
         </tr>
         <tr>
             <td>Chainbody</td>
-            <td><canvas data-itemname="bronze_chainbody" data-size="28px"></canvas><br>11</td>
-            <td><canvas data-itemname="iron_chainbody" data-size="28px"></canvas><br>26</td>
-            <td><canvas data-itemname="steel_chainbody" data-size="28px"></canvas><br>41</td>
-            <td><canvas data-itemname="mithril_chainbody" data-size="28px"></canvas><br>61</td>
-            <td><canvas data-itemname="adamant_chainbody" data-size="28px"></canvas><br>81</td>
-            <td><canvas data-itemname="rune_chainbody" data-size="28px"></canvas><br>96</td>
+            <td><canvas itemname="bronze_chainbody" icon-size="28px"></canvas><br>11</td>
+            <td><canvas itemname="iron_chainbody" icon-size="28px"></canvas><br>26</td>
+            <td><canvas itemname="steel_chainbody" icon-size="28px"></canvas><br>41</td>
+            <td><canvas itemname="mithril_chainbody" icon-size="28px"></canvas><br>61</td>
+            <td><canvas itemname="adamant_chainbody" icon-size="28px"></canvas><br>81</td>
+            <td><canvas itemname="rune_chainbody" icon-size="28px"></canvas><br>96</td>
         </tr>
         <tr>
             <td>Kiteshield</td>
-            <td><canvas data-itemname="bronze_kiteshield" data-size="28px"></canvas><br>12</td>
-            <td><canvas data-itemname="iron_kiteshield" data-size="28px"></canvas><br>27</td>
-            <td><canvas data-itemname="steel_kiteshield" data-size="28px"></canvas><br>42</td>
-            <td><canvas data-itemname="mithril_kiteshield" data-size="28px"></canvas><br>62</td>
-            <td><canvas data-itemname="adamant_kiteshield" data-size="28px"></canvas><br>82</td>
-            <td><canvas data-itemname="rune_kiteshield" data-size="28px"></canvas><br>97</td>
+            <td><canvas itemname="bronze_kiteshield" icon-size="28px"></canvas><br>12</td>
+            <td><canvas itemname="iron_kiteshield" icon-size="28px"></canvas><br>27</td>
+            <td><canvas itemname="steel_kiteshield" icon-size="28px"></canvas><br>42</td>
+            <td><canvas itemname="mithril_kiteshield" icon-size="28px"></canvas><br>62</td>
+            <td><canvas itemname="adamant_kiteshield" icon-size="28px"></canvas><br>82</td>
+            <td><canvas itemname="rune_kiteshield" icon-size="28px"></canvas><br>97</td>
         </tr><!--
         <tr>
             <td>Claws<br></td>
-            <td><canvas data-itemname="bronze_claws" data-size="28px"></canvas><br>13</td>
-            <td><canvas data-itemname="iron_claws" data-size="28px"></canvas><br>28</td>
-            <td><canvas data-itemname="steel_claws" data-size="28px"></canvas><br>43</td>
-            <td><canvas data-itemname="mithril_claws" data-size="28px"></canvas><br>63</td>
-            <td><canvas data-itemname="adamant_claws" data-size="28px"></canvas><br>83</td>
-            <td><canvas data-itemname="rune_claws" data-size="28px"></canvas><br>98</td>
+            <td><canvas itemname="bronze_claws" icon-size="28px"></canvas><br>13</td>
+            <td><canvas itemname="iron_claws" icon-size="28px"></canvas><br>28</td>
+            <td><canvas itemname="steel_claws" icon-size="28px"></canvas><br>43</td>
+            <td><canvas itemname="mithril_claws" icon-size="28px"></canvas><br>63</td>
+            <td><canvas itemname="adamant_claws" icon-size="28px"></canvas><br>83</td>
+            <td><canvas itemname="rune_claws" icon-size="28px"></canvas><br>98</td>
         </tr>
         --><tr>
             <td>Two-handed sword</td>
-            <td><canvas data-itemname="bronze_2h_sword" data-size="28px"></canvas><br>14</td>
-            <td><canvas data-itemname="iron_2h_sword" data-size="28px"></canvas><br>29</td>
-            <td><canvas data-itemname="steel_2h_sword" data-size="28px"></canvas><br>44</td>
-            <td><canvas data-itemname="mithril_2h_sword" data-size="28px"></canvas><br>64</td>
-            <td><canvas data-itemname="adamant_2h_sword" data-size="28px"></canvas><br>84</td>
-            <td><canvas data-itemname="rune_2h_sword" data-size="28px"></canvas><br>99</td>
+            <td><canvas itemname="bronze_2h_sword" icon-size="28px"></canvas><br>14</td>
+            <td><canvas itemname="iron_2h_sword" icon-size="28px"></canvas><br>29</td>
+            <td><canvas itemname="steel_2h_sword" icon-size="28px"></canvas><br>44</td>
+            <td><canvas itemname="mithril_2h_sword" icon-size="28px"></canvas><br>64</td>
+            <td><canvas itemname="adamant_2h_sword" icon-size="28px"></canvas><br>84</td>
+            <td><canvas itemname="rune_2h_sword" icon-size="28px"></canvas><br>99</td>
         </tr>
         <tr>
             <td>Platelegs</td>
-            <td><canvas data-itemname="bronze_platelegs" data-size="28px"></canvas><br>16</td>
-            <td><canvas data-itemname="iron_platelegs" data-size="28px"></canvas><br>31</td>
-            <td><canvas data-itemname="steel_platelegs" data-size="28px"></canvas><br>46</td>
-            <td><canvas data-itemname="mithril_platelegs" data-size="28px"></canvas><br>66</td>
-            <td><canvas data-itemname="adamant_platelegs" data-size="28px"></canvas><br>86</td>
-            <td><canvas data-itemname="rune_platelegs" data-size="28px"></canvas><br>99</td>
+            <td><canvas itemname="bronze_platelegs" icon-size="28px"></canvas><br>16</td>
+            <td><canvas itemname="iron_platelegs" icon-size="28px"></canvas><br>31</td>
+            <td><canvas itemname="steel_platelegs" icon-size="28px"></canvas><br>46</td>
+            <td><canvas itemname="mithril_platelegs" icon-size="28px"></canvas><br>66</td>
+            <td><canvas itemname="adamant_platelegs" icon-size="28px"></canvas><br>86</td>
+            <td><canvas itemname="rune_platelegs" icon-size="28px"></canvas><br>99</td>
         </tr>
         <tr>
             <td>Plateskirt</td>
-            <td><canvas data-itemname="bronze_plateskirt" data-size="28px"></canvas><br>16</td>
-            <td><canvas data-itemname="iron_plateskirt" data-size="28px"></canvas><br>31</td>
-            <td><canvas data-itemname="steel_plateskirt" data-size="28px"></canvas><br>46</td>
-            <td><canvas data-itemname="mithril_plateskirt" data-size="28px"></canvas><br>66</td>
-            <td><canvas data-itemname="adamant_plateskirt" data-size="28px"></canvas><br>86</td>
-            <td><canvas data-itemname="rune_plateskirt" data-size="28px"></canvas><br>99</td>
+            <td><canvas itemname="bronze_plateskirt" icon-size="28px"></canvas><br>16</td>
+            <td><canvas itemname="iron_plateskirt" icon-size="28px"></canvas><br>31</td>
+            <td><canvas itemname="steel_plateskirt" icon-size="28px"></canvas><br>46</td>
+            <td><canvas itemname="mithril_plateskirt" icon-size="28px"></canvas><br>66</td>
+            <td><canvas itemname="adamant_plateskirt" icon-size="28px"></canvas><br>86</td>
+            <td><canvas itemname="rune_plateskirt" icon-size="28px"></canvas><br>99</td>
         </tr>
         <tr>
             <td>Platebody</td>
-            <td><canvas data-itemname="bronze_platebody" data-size="28px"></canvas><br>18</td>
-            <td><canvas data-itemname="iron_platebody" data-size="28px"></canvas><br>33</td>
-            <td><canvas data-itemname="steel_platebody" data-size="28px"></canvas><br>48</td>
-            <td><canvas data-itemname="mithril_platebody" data-size="28px"></canvas><br>68</td>
-            <td><canvas data-itemname="adamant_platebody" data-size="28px"></canvas><br>88</td>
-            <td><canvas data-itemname="rune_platebody" data-size="28px"></canvas><br>99</td>
+            <td><canvas itemname="bronze_platebody" icon-size="28px"></canvas><br>18</td>
+            <td><canvas itemname="iron_platebody" icon-size="28px"></canvas><br>33</td>
+            <td><canvas itemname="steel_platebody" icon-size="28px"></canvas><br>48</td>
+            <td><canvas itemname="mithril_platebody" icon-size="28px"></canvas><br>68</td>
+            <td><canvas itemname="adamant_platebody" icon-size="28px"></canvas><br>88</td>
+            <td><canvas itemname="rune_platebody" icon-size="28px"></canvas><br>99</td>
         </tr>
     </table>
 </p>

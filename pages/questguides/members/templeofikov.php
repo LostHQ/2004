@@ -10,17 +10,17 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <ul style="list-style-type: none;">
 <li><div data-progress>42 Thieving</div></li>
 <li><div data-progress>40 Ranged</div></li>
-<li><div data-progress><canvas data-itemname="yew_shortbow" data-size="25"></canvas>&nbsp;&nbsp;Yew bow or better</div><br></li>
-<li><div data-progress><canvas data-itemname="limpwurt_root" data-size="25"></canvas>&nbsp;&nbsp;20 limpwurt roots</div><br></li>
-<li><div data-progress><canvas data-itemname="lit_candle" data-size="25"></canvas>&nbsp;&nbsp;A light source</div><br></li>
+<li><div data-progress><canvas itemname="yew_shortbow" icon-size="25"></canvas>&nbsp;&nbsp;Yew bow or better</div><br></li>
+<li><div data-progress><canvas itemname="limpwurt_root" icon-size="25"></canvas>&nbsp;&nbsp;20 limpwurt roots</div><br></li>
+<li><div data-progress><canvas itemname="lit_candle" icon-size="25"></canvas>&nbsp;&nbsp;A light source</div><br></li>
 <li><div data-progress>A sharp object like a knife or sword</div><br></li>
 <li><div data-progress>The ability to defeat a level 84 enemy with Ranged</div></li>
 </ul>
 <h3>Recommended:</h3>
 <ul style="list-style-type: none;">
 <li><div data-progress>43 Prayer</div></li>
-<li><div data-progress><canvas data-itemname="3doseprayerrestore" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="dragonhide_body" data-size="25"></canvas>&nbsp;&nbsp;Dragon leather ranged armour</div><br></li>
+<li><div data-progress><canvas itemname="3doseprayerrestore" icon-size="25" show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas itemname="dragonhide_body" icon-size="25"></canvas>&nbsp;&nbsp;Dragon leather ranged armour</div><br></li>
 <li><div data-progress>Varrock and Ardougne teleports</div><br></li>
 <li><div data-progress>A trustworthy friend to do the quest with</div><br></li>
 </ul>

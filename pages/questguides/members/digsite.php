@@ -11,19 +11,19 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress>25 Thieving</div></li>
 <li><div data-progress>10 Agility</div></li>
 <li><div data-progress>10 Herblore (can be boosted)</div></li>
-<li><div data-progress><canvas data-itemname="pestle_and_mortar" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="vial_empty" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="tinderbox" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="cup_of_tea" data-size="25"></canvas></div>&nbsp;&nbsp;Cup of tea (can be stolen from the Varrock tea stall)<br></li>
-<li><div data-progress><canvas data-itemname="chisel" data-size="25"></canvas>&nbsp;&nbsp;Chisel (only necessary if you do not have a cut opal)</div><br></li>
-<li><div data-progress><canvas data-itemname="opal" data-size="25"></canvas></div>&nbsp;&nbsp;Opal (can be obtained during quest if you bring a chisel)<br></li>
-<li><div data-progress><canvas data-itemname="charcoal" data-size="25"></canvas></div>&nbsp;&nbsp;Charcoal (obtainable during the quest)<br></li>
-<li><div data-progress><canvas data-itemname="rope" data-size="25"></canvas></div>&nbsp;&nbsp;2 Ropes (can be slowly obtained during quest, but may be faster to bring your own)<br></li>
+<li><div data-progress><canvas itemname="pestle_and_mortar" icon-size="25" show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas itemname="vial_empty" icon-size="25" show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas itemname="tinderbox" icon-size="25" show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas itemname="cup_of_tea" icon-size="25"></canvas></div>&nbsp;&nbsp;Cup of tea (can be stolen from the Varrock tea stall)<br></li>
+<li><div data-progress><canvas itemname="chisel" icon-size="25"></canvas>&nbsp;&nbsp;Chisel (only necessary if you do not have a cut opal)</div><br></li>
+<li><div data-progress><canvas itemname="opal" icon-size="25"></canvas></div>&nbsp;&nbsp;Opal (can be obtained during quest if you bring a chisel)<br></li>
+<li><div data-progress><canvas itemname="charcoal" icon-size="25"></canvas></div>&nbsp;&nbsp;Charcoal (obtainable during the quest)<br></li>
+<li><div data-progress><canvas itemname="rope" icon-size="25"></canvas></div>&nbsp;&nbsp;2 Ropes (can be slowly obtained during quest, but may be faster to bring your own)<br></li>
 
 </ul>
 <h3>Recommended:</h3>
 <ul style="list-style-type: none;">
-<li><div data-progress><canvas data-itemname="lawrune" data-size="25"></canvas>&nbsp;&nbsp;Runes for 1-2 Varrock Teleports</div><br></li>
+<li><div data-progress><canvas itemname="lawrune" icon-size="25"></canvas>&nbsp;&nbsp;Runes for 1-2 Varrock Teleports</div><br></li>
 <li><div data-progress>The ability to run pass level 22 skeletons</div></li>
 </ul>
 <b>Starting Location:</b> All the way southeast of Varrock, (north of Al Kharid mine). Go through gate, head east into building with red floor and talk to Examiners

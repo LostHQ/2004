@@ -17,9 +17,9 @@ This time he has a special request for any adventurous sorts to search for the D
 <h3>Items & Skills Needed:</h3>
 <ul style="list-style-type: none;">
     <li><div data-progress>18 Crafting</div><br></li>
-    <li><div data-progress><canvas data-itemname="amulet_of_ghostspeak" data-size="25" data-show-label="inline"></canvas></div><br></li>
-    <li><div data-progress><canvas data-itemname="silver_bar" data-size="25" data-show-label="inline"></canvas></div><br></li>
-    <li><div data-progress><canvas data-itemname="sickle_mould" data-size="25" data-show-label="inline"></canvas></div><br></li>
+    <li><div data-progress><canvas itemname="amulet_of_ghostspeak" icon-size="25" show-label="inline"></canvas></div><br></li>
+    <li><div data-progress><canvas itemname="silver_bar" icon-size="25" show-label="inline"></canvas></div><br></li>
+    <li><div data-progress><canvas itemname="sickle_mould" icon-size="25" show-label="inline"></canvas></div><br></li>
     <li><div data-progress>The ability to defeat a level 30 monster</div><br></li>
 </ul>
 <b>Starting Location:</b> Underground passageway of Sarodomin Temple (where you finish the Priest in Peril Quest)

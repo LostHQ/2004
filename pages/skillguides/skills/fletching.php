@@ -21,92 +21,92 @@ function getSkillContent($skill) { return <<<HTML
         </tr>
         <tr>
             <td>Bow</td>
-            <td><canvas data-itemname="logs"></canvas></td>
-            <td><canvas data-itemname="unstrung_shortbow"></canvas></td>
-            <td><canvas data-itemname="shortbow"></canvas></td>
+            <td><canvas itemname="logs"></canvas></td>
+            <td><canvas itemname="unstrung_shortbow"></canvas></td>
+            <td><canvas itemname="shortbow"></canvas></td>
             <td>5</td>
             <td rowspan="2">1</td>
         </tr>
         <tr>
             <td>Long bow</td>
-            <td><canvas data-itemname="logs"></canvas></td>
-            <td><canvas data-itemname="unstrung_longbow"></canvas></td>
-            <td><canvas data-itemname="longbow"></canvas></td>
+            <td><canvas itemname="logs"></canvas></td>
+            <td><canvas itemname="unstrung_longbow"></canvas></td>
+            <td><canvas itemname="longbow"></canvas></td>
             <td>10</td>
         </tr>
         <tr>
             <td>Oak shortbow</td>
-            <td><canvas data-itemname="oak_logs"></canvas></td>
-            <td><canvas data-itemname="unstrung_oak_shortbow"></canvas></td>
-            <td><canvas data-itemname="oak_shortbow"></canvas></td>
+            <td><canvas itemname="oak_logs"></canvas></td>
+            <td><canvas itemname="unstrung_oak_shortbow"></canvas></td>
+            <td><canvas itemname="oak_shortbow"></canvas></td>
             <td>20</td>
             <td rowspan="2">5</td>
         </tr>
         <tr>
             <td>Oak longbow</td>
-            <td><canvas data-itemname="oak_logs"></canvas></td>
-            <td><canvas data-itemname="unstrung_oak_longbow"></canvas></td>
-            <td><canvas data-itemname="oak_longbow"></canvas></td>
+            <td><canvas itemname="oak_logs"></canvas></td>
+            <td><canvas itemname="unstrung_oak_longbow"></canvas></td>
+            <td><canvas itemname="oak_longbow"></canvas></td>
             <td>25</td>
         </tr>
         <tr>
             <td>Willow shortbow</td>
-            <td><canvas data-itemname="willow_logs"></canvas></td>
-            <td><canvas data-itemname="unstrung_willow_shortbow"></canvas></td>
-            <td><canvas data-itemname="willow_shortbow"></canvas></td>
+            <td><canvas itemname="willow_logs"></canvas></td>
+            <td><canvas itemname="unstrung_willow_shortbow"></canvas></td>
+            <td><canvas itemname="willow_shortbow"></canvas></td>
             <td>35</td>
             <td rowspan="2">20</td>
         </tr>
         <tr>
             <td>Willow longbow</td>
-            <td><canvas data-itemname="willow_logs"></canvas></td>
-            <td><canvas data-itemname="unstrung_willow_longbow"></canvas></td>
-            <td><canvas data-itemname="willow_longbow"></canvas></td>
+            <td><canvas itemname="willow_logs"></canvas></td>
+            <td><canvas itemname="unstrung_willow_longbow"></canvas></td>
+            <td><canvas itemname="willow_longbow"></canvas></td>
             <td>40</td>
         </tr>
         <tr>
             <td>Maple shortbow</td>
-            <td><canvas data-itemname="maple_logs"></canvas></td>
-            <td><canvas data-itemname="unstrung_maple_shortbow"></canvas></td>
-            <td><canvas data-itemname="maple_shortbow"></canvas></td>
+            <td><canvas itemname="maple_logs"></canvas></td>
+            <td><canvas itemname="unstrung_maple_shortbow"></canvas></td>
+            <td><canvas itemname="maple_shortbow"></canvas></td>
             <td>50</td>
             <td rowspan="2">30</td>
         </tr>
         <tr>
             <td>Maple longbow</td>
-            <td><canvas data-itemname="maple_logs"></canvas></td>
-            <td><canvas data-itemname="unstrung_maple_longbow"></canvas></td>
-            <td><canvas data-itemname="maple_longbow"></canvas></td>
+            <td><canvas itemname="maple_logs"></canvas></td>
+            <td><canvas itemname="unstrung_maple_longbow"></canvas></td>
+            <td><canvas itemname="maple_longbow"></canvas></td>
             <td>55</td>
         </tr>
         <tr>
             <td>Yew shortbow</td>
-            <td><canvas data-itemname="yew_logs"></canvas></td>
-            <td><canvas data-itemname="unstrung_yew_shortbow"></canvas></td>
-            <td><canvas data-itemname="yew_shortbow"></canvas></td>
+            <td><canvas itemname="yew_logs"></canvas></td>
+            <td><canvas itemname="unstrung_yew_shortbow"></canvas></td>
+            <td><canvas itemname="yew_shortbow"></canvas></td>
             <td>65</td>
             <td rowspan="2">40</td>
         </tr>
         <tr>
             <td>Yew longbow</td>
-            <td><canvas data-itemname="yew_logs"></canvas></td>
-            <td><canvas data-itemname="unstrung_yew_longbow"></canvas></td>
-            <td><canvas data-itemname="yew_longbow"></canvas></td>
+            <td><canvas itemname="yew_logs"></canvas></td>
+            <td><canvas itemname="unstrung_yew_longbow"></canvas></td>
+            <td><canvas itemname="yew_longbow"></canvas></td>
             <td>70</td>
         </tr>
         <tr>
             <td>Magic shortbow</td>
-            <td><canvas data-itemname="magic_logs"></canvas></td>
-            <td><canvas data-itemname="unstrung_magic_shortbow"></canvas></td>
-            <td><canvas data-itemname="magic_shortbow"></canvas></td>
+            <td><canvas itemname="magic_logs"></canvas></td>
+            <td><canvas itemname="unstrung_magic_shortbow"></canvas></td>
+            <td><canvas itemname="magic_shortbow"></canvas></td>
             <td>80</td>
             <td rowspan="2">50</td>
         </tr>
         <tr>
             <td>Magic longbow</td>
-            <td><canvas data-itemname="magic_logs"></canvas></td>
-            <td><canvas data-itemname="unstrung_magic_longbow"></canvas></td>
-            <td><canvas data-itemname="magic_longbow"></canvas></td>
+            <td><canvas itemname="magic_logs"></canvas></td>
+            <td><canvas itemname="unstrung_magic_longbow"></canvas></td>
+            <td><canvas itemname="magic_longbow"></canvas></td>
             <td>85</td>
         </tr>
     </table>
@@ -120,34 +120,34 @@ function getSkillContent($skill) { return <<<HTML
             <th>Minimum bow required</th>
         </tr>
         <tr>
-            <td><canvas data-itemname="bronze_arrow" data-show-label="inline"></canvas></td>
+            <td><canvas itemname="bronze_arrow" show-label="inline"></canvas></td>
             <td>1</td>
-            <td><canvas data-itemname="shortbow"></canvas><canvas data-itemname="longbow"></canvas><br>Any</td>
+            <td><canvas itemname="shortbow"></canvas><canvas itemname="longbow"></canvas><br>Any</td>
         </tr>
         <tr>
-            <td><canvas data-itemname="iron_arrow" data-show-label="inline"></canvas></td>
+            <td><canvas itemname="iron_arrow" show-label="inline"></canvas></td>
             <td>15</td>
-            <td><canvas data-itemname="shortbow"></canvas><canvas data-itemname="longbow"></canvas><br>Any</td>
+            <td><canvas itemname="shortbow"></canvas><canvas itemname="longbow"></canvas><br>Any</td>
         </tr>
         <tr>
-            <td><canvas data-itemname="steel_arrow" data-show-label="inline"></canvas></td>
+            <td><canvas itemname="steel_arrow" show-label="inline"></canvas></td>
             <td>30</td>
-            <td><canvas data-itemname="oak_shortbow"></canvas><canvas data-itemname="oak_longbow"></canvas><br>Oak Bow</td>
+            <td><canvas itemname="oak_shortbow"></canvas><canvas itemname="oak_longbow"></canvas><br>Oak Bow</td>
         </tr>
         <tr>
-            <td><canvas data-itemname="mithril_arrow" data-show-label="inline"></canvas></td>
+            <td><canvas itemname="mithril_arrow" show-label="inline"></canvas></td>
             <td>45</td>
-            <td><canvas data-itemname="willow_shortbow"></canvas><canvas data-itemname="willow_longbow"></canvas><br>Willow Bow</td>
+            <td><canvas itemname="willow_shortbow"></canvas><canvas itemname="willow_longbow"></canvas><br>Willow Bow</td>
         </tr>
         <tr>
-            <td><canvas data-itemname="adamant_arrow" data-show-label="inline"></canvas></td>
+            <td><canvas itemname="adamant_arrow" show-label="inline"></canvas></td>
             <td>60</td>
-            <td><canvas data-itemname="maple_shortbow"></canvas><canvas data-itemname="maple_longbow"></canvas><br>Maple Bow</td>
+            <td><canvas itemname="maple_shortbow"></canvas><canvas itemname="maple_longbow"></canvas><br>Maple Bow</td>
         </tr>
         <tr>
-            <td><canvas data-itemname="rune_arrow" data-show-label="inline"></canvas></td>
+            <td><canvas itemname="rune_arrow" show-label="inline"></canvas></td>
             <td>75</td>
-            <td><canvas data-itemname="yew_shortbow"></canvas><canvas data-itemname="yew_longbow"></canvas><br>Yew Bow</td>
+            <td><canvas itemname="yew_shortbow"></canvas><canvas itemname="yew_longbow"></canvas><br>Yew Bow</td>
         </tr>
     </table>
     <h3>Crossbow Bolt Tips</h3>
@@ -169,15 +169,15 @@ function getSkillContent($skill) { return <<<HTML
             <th>Fletching Level</th>
         </tr>
         <tr>
-            <td><canvas data-itemname="opal_bolt" data-show-label="inline"></canvas></td>
+            <td><canvas itemname="opal_bolt" show-label="inline"></canvas></td>
             <td>17</td>
         </tr>
         <tr>
-            <td><canvas data-itemname="pearl_bolt" data-show-label="inline"></canvas></td>
+            <td><canvas itemname="pearl_bolt" show-label="inline"></canvas></td>
             <td>34</td>
         </tr>
         <tr>
-            <td><canvas data-itemname="barbed_bolt" data-show-label="inline"></canvas></td>
+            <td><canvas itemname="barbed_bolt" show-label="inline"></canvas></td>
             <td>51</td>
         </tr>
     </table>
@@ -194,37 +194,37 @@ function getSkillContent($skill) { return <<<HTML
             <th>Ranged level to wield</th>
         </tr>
         <tr>
-            <td><canvas data-itemname="bronze_dart" data-show-label="inline"></canvas></td>
+            <td><canvas itemname="bronze_dart" show-label="inline"></canvas></td>
             <td>4</td>
             <td>1</td>
             <td>1</td>
         </tr>
         <tr>
-            <td><canvas data-itemname="iron_dart" data-show-label="inline"></canvas></td>
+            <td><canvas itemname="iron_dart" show-label="inline"></canvas></td>
             <td>19</td>
             <td>22</td>
             <td>1</td>
         </tr>
         <tr>
-            <td><canvas data-itemname="steel_dart" data-show-label="inline"></canvas></td>
+            <td><canvas itemname="steel_dart" show-label="inline"></canvas></td>
             <td>34</td>
             <td>37</td>
             <td>5</td>
         </tr>
         <tr>
-            <td><canvas data-itemname="mithril_dart" data-show-label="inline"></canvas></td>
+            <td><canvas itemname="mithril_dart" show-label="inline"></canvas></td>
             <td>54</td>
             <td>52</td>
             <td>20</td>
         </tr>
         <tr>
-            <td><canvas data-itemname="adamant_dart" data-show-label="inline"></canvas></td>
+            <td><canvas itemname="adamant_dart" show-label="inline"></canvas></td>
             <td>74</td>
             <td>67</td>
             <td>30</td>
         </tr>
         <tr>
-            <td><canvas data-itemname="rune_dart" data-show-label="inline"></canvas></td>
+            <td><canvas itemname="rune_dart" show-label="inline"></canvas></td>
             <td>89</td>
             <td>81</td>
             <td>40</td>

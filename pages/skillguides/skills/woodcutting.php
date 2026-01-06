@@ -22,37 +22,37 @@ function getSkillContent($skill) { return <<<HTML
             <th>Common woodcutting locations</td>
         </tr>
         <tr>
-            <td><canvas data-itemname="logs"></canvas><br>Tree</td>
+            <td><canvas itemname="logs"></canvas><br>Tree</td>
             <td>1</td>
             <td><ul style="margin-top: 0px; margin-bottom: 0px;"><li>The area around Draynor bank<li>South of Seers bank</ul></td>
         </tr>
         <tr>
-            <td><canvas data-itemname="achey_tree_logs"></canvas><br>Achey tree</td>
+            <td><canvas itemname="achey_tree_logs"></canvas><br>Achey tree</td>
             <td>1</td>
             <td><ul style="margin-top: 0px; margin-bottom: 0px;"><li>Feldip Hills</ul></td>
         </tr>
         <tr>
-            <td><canvas data-itemname="oak_logs"></canvas><br>Oak tree</td>
+            <td><canvas itemname="oak_logs"></canvas><br>Oak tree</td>
             <td>15</td>
             <td><ul style="margin-top: 0px; margin-bottom: 0px;"><li>Directly East of Draynor bank<li>South of Seers bank</ul></td>
         </tr>
         <tr>
-            <td><canvas data-itemname="willow_logs"></canvas><br>Willow tree</td>
+            <td><canvas itemname="willow_logs"></canvas><br>Willow tree</td>
             <td>30</td>
             <td><ul style="margin-top: 0px; margin-bottom: 0px;"><li>Directly Southwest of Draynor bank<li>North-west of Seers Bank</ul></td>
         </tr>
         <tr>
-            <td><canvas data-itemname="maple_logs"></canvas><br>Maple tree</td>
+            <td><canvas itemname="maple_logs"></canvas><br>Maple tree</td>
             <td>45</td>
             <td><ul style="margin-top: 0px; margin-bottom: 0px;"><li>North of Seers bank<li>South of Seers bank</ul></td>
         </tr>
         <tr>
-            <td><canvas data-itemname="yew_logs"></canvas><br>Yew tree</td>
+            <td><canvas itemname="yew_logs"></canvas><br>Yew tree</td>
             <td>60</td>
             <td><ul style="margin-top: 0px; margin-bottom: 0px;"><li>In the cemetery South of Seers bank<li>South of Edgeville bank</ul></td>
         </tr>
         <tr>
-            <td><canvas data-itemname="magic_logs"></canvas><br>Magic tree</td>
+            <td><canvas itemname="magic_logs"></canvas><br>Magic tree</td>
             <td>75</td>
             <td><ul style="margin-top: 0px; margin-bottom: 0px;"><li>South of the Sorceror's Tower<li>Gnome's Stronghold</ul></td>
         </tr>
@@ -67,37 +67,37 @@ function getSkillContent($skill) { return <<<HTML
             <th>Obtained From</td>
         </tr>
         <tr>
-            <td><canvas data-itemname="bronze_axe" data-show-label="true"></canvas></td>
+            <td><canvas itemname="bronze_axe" show-label="true"></canvas></td>
             <td>1</td>
             <td><ul style="margin-top: 0px; margin-bottom: 0px; "><li>Stuck in a tree stump in the chicken pen, south-east of the Lumbridge windmill.<li>Bought from Bob's axe shop in Lumbridge.<li>You can make one using the Smithing skill.</ul></td>
         </tr>
         <tr>
-            <td><canvas data-itemname="iron_axe" data-show-label="true"></canvas></td>
+            <td><canvas itemname="iron_axe" show-label="true"></canvas></td>
             <td>1</td>
             <td><ul style="margin-top: 0px; margin-bottom: 0px; "><li>Bought from Bob's axe shop in Lumbridge.<li>You can make one using the Smithing skill.</ul></td>
         </tr>
         <tr>
-            <td><canvas data-itemname="steel_axe" data-show-label="true"></canvas></td>
+            <td><canvas itemname="steel_axe" show-label="true"></canvas></td>
             <td>6</td>
             <td><ul style="margin-top: 0px; margin-bottom: 0px; "><li>Bought from Bob's axe shop in Lumbridge.<li>Dropped by the Tree Spirit random event.<li>You can make one using the Smithing skill.</ul></td>
         </tr>
         <tr>
-            <td><canvas data-itemname="black_axe" data-show-label="true"></canvas></td>
+            <td><canvas itemname="black_axe" show-label="true"></canvas></td>
             <td>6</td>
             <td><ul style="margin-top: 0px; margin-bottom: 0px; "><li>Dropped by Black Demons and the King Black Dragon.<li>Bought from other players.</ul></td>
         </tr>
         <tr>
-            <td><canvas data-itemname="mithril_axe" data-show-label="true"></canvas></td>
+            <td><canvas itemname="mithril_axe" show-label="true"></canvas></td>
             <td>21</td>
             <td><ul style="margin-top: 0px; margin-bottom: 0px; "><li>Dropped by the Tree Spirit random event.<li>You can make one using the Smithing skill.</ul></td>
         </tr>
         <tr>
-            <td><canvas data-itemname="adamant_axe" data-show-label="true"></canvas></td>
+            <td><canvas itemname="adamant_axe" show-label="true"></canvas></td>
             <td>31</td>
             <td><ul style="margin-top: 0px; margin-bottom: 0px; "><li>Dropped by the Tree Spirit random event.<li>You can make one using the Smithing skill.</ul></td>
         </tr>
         <tr>
-            <td><canvas data-itemname="rune_axe" data-show-label="true"></canvas></td>
+            <td><canvas itemname="rune_axe" show-label="true"></canvas></td>
             <td>41</td>
             <td><ul style="margin-top: 0px; margin-bottom: 0px; "><li>Dropped by the Tree Spirit random event.<li>You can make one using the Smithing skill.</ul></td>
         </tr>

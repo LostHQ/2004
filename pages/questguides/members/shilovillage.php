@@ -17,20 +17,20 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <ul style="list-style-type: none;">
 <li><div data-progress>32 Agility</div><br></li>
 <li><div data-progress>20 Crafting</div><br></li>
-<li><div data-progress><canvas data-itemname="spade" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="rope" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="bronzecraftwire" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="chisel" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="torch_lit" data-size="25"></canvas>&nbsp;&nbsp;A lit torch or <canvas data-itemname="lit_candle" data-size="25"></canvas>&nbsp;a lit candle</div><br></li>
-<li><div data-progress><canvas data-itemname="bones" data-size="25"></canvas>&nbsp;&nbsp;3 bones</div><br></li>
+<li><div data-progress><canvas itemname="spade" icon-size="25" show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas itemname="rope" icon-size="25" show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas itemname="bronzecraftwire" icon-size="25" show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas itemname="chisel" icon-size="25" show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas itemname="torch_lit" icon-size="25"></canvas>&nbsp;&nbsp;A lit torch or <canvas itemname="lit_candle" icon-size="25"></canvas>&nbsp;a lit candle</div><br></li>
+<li><div data-progress><canvas itemname="bones" icon-size="25"></canvas>&nbsp;&nbsp;3 bones</div><br></li>
 <li><div data-progress>The ability to kill a level 91, 68, and 93 monster in a row</div><br></li>
 </ul>
 <h3>Recommended:</h3>
 <ul style="list-style-type: none;">
 <li><div data-progress>Decent armour and a weapon</div></li>
 <li><div data-progress>Good food</div></li>
-<li><div data-progress><canvas data-itemname="3doseantipoison" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="3doseprayerrestore" data-size="25" data-show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas itemname="3doseantipoison" icon-size="25" show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas itemname="3doseprayerrestore" icon-size="25" show-label="inline"></canvas></div><br></li>
 <li><div data-progress>Teleports</div></li>
 </ul>
 <b>Starting Location:</b> Deep in the Karamja Jungle. When you see a village surrounded by walls, head east and you will find a man named Mosol

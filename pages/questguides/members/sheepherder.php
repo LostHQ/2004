@@ -10,7 +10,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <b>Length: <font color="Green">Short</font></b><br>
 <h3>Items & Skills Needed:</h3>
 <ul style="list-style-type: none;">
-<li><div data-progress><canvas data-itemname="coins_100" data-size="25"></canvas>&nbsp;&nbsp;100 coins</div><br></li>
+<li><div data-progress><canvas itemname="coins_100" icon-size="25"></canvas>&nbsp;&nbsp;100 coins</div><br></li>
 </ul>
 <b>Starting Location:</b> Just south of the Ardougne chapel, east of the bridge over the west/east Ardougne river
 <br><br>

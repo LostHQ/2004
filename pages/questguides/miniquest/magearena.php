@@ -14,11 +14,11 @@ function getQuestGuide($questName) { return <<<HTML
 </ul>
 <h3>Recommended:</h3>
 <ul style="list-style-type: none;">
-<li><div data-progress><canvas data-itemname="lobster" data-size="25"></canvas>&nbsp;&nbsp;15 Lobsters</div><br></li>
-<li><div data-progress><canvas data-itemname="wizards_robe" data-size="25"></canvas>&nbsp;&nbsp;Mage boosting armour</div><br></li>
-<li><div data-progress><canvas data-itemname="staff_of_air" data-size="25"></canvas>&nbsp;&nbsp;Staff of air, Air battlestaff, or Mystic air staff</div><br></li>
-<li><div data-progress><canvas data-itemname="deathrune" data-size="25"></canvas>&nbsp;&nbsp;~100 Death Runes</div><br></li>
-<li><div data-progress><canvas data-itemname="4doseprayerrestore" data-size="25" data-show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas itemname="lobster" icon-size="25"></canvas>&nbsp;&nbsp;15 Lobsters</div><br></li>
+<li><div data-progress><canvas itemname="wizards_robe" icon-size="25"></canvas>&nbsp;&nbsp;Mage boosting armour</div><br></li>
+<li><div data-progress><canvas itemname="staff_of_air" icon-size="25"></canvas>&nbsp;&nbsp;Staff of air, Air battlestaff, or Mystic air staff</div><br></li>
+<li><div data-progress><canvas itemname="deathrune" icon-size="25"></canvas>&nbsp;&nbsp;~100 Death Runes</div><br></li>
+<li><div data-progress><canvas itemname="4doseprayerrestore" icon-size="25" show-label="inline"></canvas></div><br></li>
 <li><div data-progress>55 Combat level</div></li>
 </ul>
 <b>Starting Location:</b> Mage Arena (West of the Member Wilderness Gate in Level 55 Wilderness)

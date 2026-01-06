@@ -31,13 +31,13 @@ function runCalc() {
         if (item == "gemrock") {
             row.innerHTML =
                 `<td>${data.level}</td>
-                <td><div class="item-label" style="color: white; display: flex; align-items: center; justify-content: center; gap: 6px;"><canvas data-itemname="uncut_red_topaz"></canvas> Gem Rock</div></td>
+                <td><div class="item-label" style="color: white; display: flex; align-items: center; justify-content: center; gap: 6px;"><canvas itemname="uncut_red_topaz"></canvas> Gem Rock</div></td>
                 <td>${data.xp}</td>
                 <td>${oreCount.toLocaleString()}</td>`;
         } else {
             row.innerHTML =
                 `<td>${data.level}</td>
-                <td><canvas data-itemname="${item}" data-show-label="inline"></canvas></td>
+                <td><canvas itemname="${item}" show-label="inline"></canvas></td>
                 <td>${data.xp}</td>
                 <td>${oreCount.toLocaleString()}</td>`;
         }

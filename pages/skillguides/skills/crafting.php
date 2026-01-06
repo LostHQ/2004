@@ -13,728 +13,728 @@ function getSkillContent($skill) { return <<<HTML
         </tr>
         <tr>
             <td>1</td>
-            <td><canvas data-itemname="uncut_opal" data-show-label="true"></canvas></td>
-            <td><canvas data-itemname="chisel" data-show-label="true"></canvas></td>
-            <td><canvas data-itemname="opal" data-show-label="true"></canvas></td>
+            <td><canvas itemname="uncut_opal" show-label="true"></canvas></td>
+            <td><canvas itemname="chisel" show-label="true"></canvas></td>
+            <td><canvas itemname="opal" show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>1</td>
-            <td><canvas data-itemname="wool" data-show-label="true"></canvas></td>
+            <td><canvas itemname="wool" show-label="true"></canvas></td>
             <td>
                 <img src="img/skillguides/spinning_wheel.png" width=32px><br>
                 Spinning Wheel
             </td>
-            <td><canvas data-itemname="ball_of_wool" data-show-label="true"></canvas></td>
+            <td><canvas itemname="ball_of_wool" show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>1</td>
-            <td><canvas data-itemname="leather" data-show-label="true"></canvas></td>
+            <td><canvas itemname="leather" show-label="true"></canvas></td>
             <td>
-                <canvas data-itemname="needle" data-show-label="inline"></canvas>
-                <canvas data-itemname="thread" data-show-label="inline"></canvas>
+                <canvas itemname="needle" show-label="inline"></canvas>
+                <canvas itemname="thread" show-label="inline"></canvas>
             </td>
-            <td><canvas data-itemname="leather_gloves" data-show-label="true"></canvas></td>
+            <td><canvas itemname="leather_gloves" show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>1</td>
             <td>
-                <canvas data-itemname="softclay" data-show-label="true"></canvas>
+                <canvas itemname="softclay" show-label="true"></canvas>
             </td>
             <td>
                 <img src="img/skillguides/potters_wheel.png" width=32px><br>
                 Potter's wheel
             </td>
-            <td><canvas data-itemname="pot_unfired" data-show-label="true"></canvas></td>
+            <td><canvas itemname="pot_unfired" show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>1</td>
-            <td><canvas data-itemname="pot_unfired" data-show-label="true"></canvas></td>
+            <td><canvas itemname="pot_unfired" show-label="true"></canvas></td>
             <td>
                 <img src="img/skillguides/pottery_oven.png" width=32px><br>
                 Pottery Oven
             </td>
-            <td><canvas data-itemname="pot_empty" data-show-label="true"></canvas></td>
+            <td><canvas itemname="pot_empty" show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>1</td>
-            <td><canvas data-itemname="molten_glass" data-show-label="true"></canvas></td>
-            <td><canvas data-itemname="glassblowingpipe" data-show-label="true"></canvas></td>
-            <td><canvas data-itemname="beer_glass" data-show-label="true"></canvas></td>
+            <td><canvas itemname="molten_glass" show-label="true"></canvas></td>
+            <td><canvas itemname="glassblowingpipe" show-label="true"></canvas></td>
+            <td><canvas itemname="beer_glass" show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>5</td>
             <td>
-                <canvas data-itemname="gold_bar" data-show-label="true"></canvas>
+                <canvas itemname="gold_bar" show-label="true"></canvas>
             </td>
             <td>
-                <canvas data-itemname="ring_mould" data-show-label="inline"></canvas>
+                <canvas itemname="ring_mould" show-label="inline"></canvas>
                 <div style="display: flex; align-items: center; gap: 6px; flex-direction: row; justify-content: center;">
                     <img src="img/skillguides/furnace.png" alt="Furnace" width=32px>
                     <div class="item-label" style="color: white;">Furnace</div>
                 </div>
             </td>
-            <td><canvas data-itemname="gold_ring" data-show-label="true"></canvas></td>
+            <td><canvas itemname="gold_ring" show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>6</td>
             <td>
-                <canvas data-itemname="gold_bar" data-show-label="true"></canvas>
+                <canvas itemname="gold_bar" show-label="true"></canvas>
             </td>
             <td>
-                <canvas data-itemname="necklace_mould" data-show-label="inline"></canvas>
+                <canvas itemname="necklace_mould" show-label="inline"></canvas>
                 <div style="display: flex; align-items: center; gap: 6px; flex-direction: row; justify-content: center;">
                     <img src="img/skillguides/furnace.png" alt="Furnace" width=32px>
                     <div class="item-label" style="color: white;">Furnace</div>
                 </div>
             </td>
-            <td><canvas data-itemname="gold_necklace" data-show-label="true"></canvas></td>
+            <td><canvas itemname="gold_necklace" show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>7</td>
             <td>
-                <canvas data-itemname="softclay" data-show-label="true"></canvas>
+                <canvas itemname="softclay" show-label="true"></canvas>
             </td>
             <td>
                 <img src="img/skillguides/potters_wheel.png" width=32px><br>
                 Potter's wheel
             </td>
-            <td><canvas data-itemname="piedish_unfired" data-show-label="true"></canvas></td>
+            <td><canvas itemname="piedish_unfired" show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>7</td>
-            <td><canvas data-itemname="piedish_unfired" data-show-label="true"></canvas></td>
+            <td><canvas itemname="piedish_unfired" show-label="true"></canvas></td>
             <td>
                 <img src="img/skillguides/pottery_oven.png" width=32px><br>
                 Pottery Oven
             </td>
-            <td><canvas data-itemname="piedish" data-show-label="true"></canvas></td>
+            <td><canvas itemname="piedish" show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>7</td>
-            <td><canvas data-itemname="leather" data-show-label="true"></canvas></td>
+            <td><canvas itemname="leather" show-label="true"></canvas></td>
             <td>
-                <canvas data-itemname="needle" data-show-label="inline"></canvas>
-                <canvas data-itemname="thread" data-show-label="inline"></canvas>
+                <canvas itemname="needle" show-label="inline"></canvas>
+                <canvas itemname="thread" show-label="inline"></canvas>
             </td>
-            <td><canvas data-itemname="leather_boots" data-show-label="true"></canvas></td>
+            <td><canvas itemname="leather_boots" show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>8</td>
             <td>
-                <canvas data-itemname="gold_bar" data-show-label="inline"></canvas>
-                <canvas data-itemname="ball_of_wool" data-show-label="inline"></canvas>
+                <canvas itemname="gold_bar" show-label="inline"></canvas>
+                <canvas itemname="ball_of_wool" show-label="inline"></canvas>
             </td>
             <td>
-                <canvas data-itemname="amulet_mould" data-show-label="inline"></canvas>
+                <canvas itemname="amulet_mould" show-label="inline"></canvas>
                 <div style="display: flex; align-items: center; gap: 6px; flex-direction: row; justify-content: center;">
                     <img src="img/skillguides/furnace.png" alt="Furnace" width=32px>
                     <div class="item-label" style="color: white;">Furnace</div>
                 </div>
             </td>
-            <td><canvas data-itemname="strung_gold_amulet" data-show-label="true"></canvas></td>
+            <td><canvas itemname="strung_gold_amulet" show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>8</td>
             <td>
-                <canvas data-itemname="softclay" data-show-label="true"></canvas>
+                <canvas itemname="softclay" show-label="true"></canvas>
             </td>
             <td>
                 <img src="img/skillguides/potters_wheel.png" width=32px><br>
                 Potter's wheel
             </td>
-            <td><canvas data-itemname="bowl_unfired" data-show-label="true"></canvas></td>
+            <td><canvas itemname="bowl_unfired" show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>8</td>
-            <td><canvas data-itemname="bowl_unfired" data-show-label="true"></canvas></td>
+            <td><canvas itemname="bowl_unfired" show-label="true"></canvas></td>
             <td>
                 <img src="img/skillguides/pottery_oven.png" width=32px><br>
                 Pottery Oven
             </td>
-            <td><canvas data-itemname="bowl_empty" data-show-label="true"></canvas></td>
+            <td><canvas itemname="bowl_empty" show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>9</td>
-            <td><canvas data-itemname="leather" data-show-label="true"></canvas></td>
+            <td><canvas itemname="leather" show-label="true"></canvas></td>
             <td>
-                <canvas data-itemname="needle" data-show-label="inline"></canvas>
-                <canvas data-itemname="thread" data-show-label="inline"></canvas>
+                <canvas itemname="needle" show-label="inline"></canvas>
+                <canvas itemname="thread" show-label="inline"></canvas>
             </td>
-            <td><canvas data-itemname="leather_cowl" data-show-label="true"></canvas></td>
+            <td><canvas itemname="leather_cowl" show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>10</td>
-            <td><canvas data-itemname="flax" data-show-label="true"></canvas></td>
+            <td><canvas itemname="flax" show-label="true"></canvas></td>
             <td>
                 <img src="img/skillguides/spinning_wheel.png" width=32px><br>
                 Spinning Wheel
             </td>
-            <td><canvas data-itemname="bow_string" data-show-label="true"></canvas></td>
+            <td><canvas itemname="bow_string" show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>11</td>
-            <td><canvas data-itemname="leather" data-show-label="true"></canvas></td>
+            <td><canvas itemname="leather" show-label="true"></canvas></td>
             <td>
-                <canvas data-itemname="needle" data-show-label="inline"></canvas>
-                <canvas data-itemname="thread" data-show-label="inline"></canvas>
+                <canvas itemname="needle" show-label="inline"></canvas>
+                <canvas itemname="thread" show-label="inline"></canvas>
             </td>
-            <td><canvas data-itemname="leather_vambraces" data-show-label="true"></canvas></td>
+            <td><canvas itemname="leather_vambraces" show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>13</td>
-            <td><canvas data-itemname="uncut_jade" data-show-label="true"></canvas></td>
-            <td><canvas data-itemname="chisel" data-show-label="true"></canvas></td>
-            <td><canvas data-itemname="jade" data-show-label="true"></canvas></td>
+            <td><canvas itemname="uncut_jade" show-label="true"></canvas></td>
+            <td><canvas itemname="chisel" show-label="true"></canvas></td>
+            <td><canvas itemname="jade" show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>14</td>
-            <td><canvas data-itemname="leather" data-show-label="true"></canvas></td>
+            <td><canvas itemname="leather" show-label="true"></canvas></td>
             <td>
-                <canvas data-itemname="needle" data-show-label="inline"></canvas>
-                <canvas data-itemname="thread" data-show-label="inline"></canvas>
+                <canvas itemname="needle" show-label="inline"></canvas>
+                <canvas itemname="thread" show-label="inline"></canvas>
             </td>
-            <td><canvas data-itemname="leather_armour" data-show-label="true"></canvas></td>
+            <td><canvas itemname="leather_armour" show-label="true"></canvas></td>
         </tr>
         <!-- <tr>
             <td>15</td>
-            <td><canvas data-itemname="chisel" data-show-label="true"></canvas></td>
-            <td><canvas data-itemname="snailshell1" data-show-label="true"></canvas></td>
+            <td><canvas itemname="chisel" show-label="true"></canvas></td>
+            <td><canvas itemname="snailshell1" show-label="true"></canvas></td>
         </tr> -->
         <tr>
             <td>16</td>
             <td>
-                <canvas data-itemname="silver_bar" data-show-label="inline"></canvas>
-                <canvas data-itemname="ball_of_wool" data-show-label="inline"></canvas>
+                <canvas itemname="silver_bar" show-label="inline"></canvas>
+                <canvas itemname="ball_of_wool" show-label="inline"></canvas>
             </td>
             <td>
-                <canvas data-itemname="holy_symbol_mould" data-show-label="inline"></canvas>
+                <canvas itemname="holy_symbol_mould" show-label="inline"></canvas>
                 <div style="display: flex; align-items: center; gap: 6px; flex-direction: row; justify-content: center;">
                     <img src="img/skillguides/furnace.png" alt="Furnace" width=32px>
                     <div class="item-label" style="color: white;">Furnace</div>
                 </div>
             </td>
-            <td><canvas data-itemname="stringstar" data-show-label="true"></canvas></td>
+            <td><canvas itemname="stringstar" show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>16</td>
-            <td><canvas data-itemname="uncut_red_topaz" data-show-label="true"></canvas></td>
-            <td><canvas data-itemname="chisel" data-show-label="true"></canvas></td>
-            <td><canvas data-itemname="red_topaz" data-show-label="true"></canvas></td>
+            <td><canvas itemname="uncut_red_topaz" show-label="true"></canvas></td>
+            <td><canvas itemname="chisel" show-label="true"></canvas></td>
+            <td><canvas itemname="red_topaz" show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>17</td>
             <td>
-                <canvas data-itemname="silver_bar" data-show-label="inline"></canvas>
-                <canvas data-itemname="ball_of_wool" data-show-label="inline"></canvas>
+                <canvas itemname="silver_bar" show-label="inline"></canvas>
+                <canvas itemname="ball_of_wool" show-label="inline"></canvas>
             </td>
             <td>
-                <canvas data-itemname="unholy_symbol_mould" data-show-label="inline"></canvas>
+                <canvas itemname="unholy_symbol_mould" show-label="inline"></canvas>
                 <div style="display: flex; align-items: center; gap: 6px; flex-direction: row; justify-content: center;">
                     <img src="img/skillguides/furnace.png" alt="Furnace" width=32px>
                     <div class="item-label" style="color: white;">Furnace</div>
                 </div>
             </td>
-            <td><canvas data-itemname="stringsnake" data-show-label="true"></canvas></td>
+            <td><canvas itemname="stringsnake" show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>18</td>
-            <td><canvas data-itemname="leather" data-show-label="true"></canvas></td>
+            <td><canvas itemname="leather" show-label="true"></canvas></td>
             <td>
-                <canvas data-itemname="needle" data-show-label="inline"></canvas>
-                <canvas data-itemname="thread" data-show-label="inline"></canvas>
+                <canvas itemname="needle" show-label="inline"></canvas>
+                <canvas itemname="thread" show-label="inline"></canvas>
             </td>
-            <td><canvas data-itemname="leather_chaps" data-show-label="true"></canvas></td>
+            <td><canvas itemname="leather_chaps" show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>18</td>
-            <td><canvas data-itemname="silver_bar" data-show-label="true"></canvas></td>
+            <td><canvas itemname="silver_bar" show-label="true"></canvas></td>
             <td>
-                <canvas data-itemname="sickle_mould" data-show-label="inline"></canvas>
+                <canvas itemname="sickle_mould" show-label="inline"></canvas>
                 <div style="display: flex; align-items: center; gap: 6px; flex-direction: row; justify-content: center;">
                     <img src="img/skillguides/furnace.png" alt="Furnace" width=32px>
                     <div class="item-label" style="color: white;">Furnace</div>
             </td>
-            <td><canvas data-itemname="silver_sickle" data-show-label="true"></canvas></td>
+            <td><canvas itemname="silver_sickle" show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>20</td>
-            <td><canvas data-itemname="uncut_sapphire" data-show-label="true"></canvas></td>
-            <td><canvas data-itemname="chisel" data-show-label="true"></canvas></td>
-            <td><canvas data-itemname="sapphire" data-show-label="true"></canvas></td>
+            <td><canvas itemname="uncut_sapphire" show-label="true"></canvas></td>
+            <td><canvas itemname="chisel" show-label="true"></canvas></td>
+            <td><canvas itemname="sapphire" show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>20</td>
             <td>
-                <canvas data-itemname="gold_bar" data-show-label="inline"></canvas>
-                <canvas data-itemname="sapphire" data-show-label="inline"></canvas>
+                <canvas itemname="gold_bar" show-label="inline"></canvas>
+                <canvas itemname="sapphire" show-label="inline"></canvas>
             </td>
             <td>
-                <canvas data-itemname="ring_mould" data-show-label="inline"></canvas>
+                <canvas itemname="ring_mould" show-label="inline"></canvas>
                 <div style="display: flex; align-items: center; gap: 6px; flex-direction: row; justify-content: center;">
                     <img src="img/skillguides/furnace.png" alt="Furnace" width=32px>
                     <div class="item-label" style="color: white;">Furnace</div>
                 </div>
             </td>
-            <td><canvas data-itemname="sapphire_ring" data-show-label="true"></canvas></td>
+            <td><canvas itemname="sapphire_ring" show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>22</td>
             <td>
-                <canvas data-itemname="gold_bar" data-show-label="inline"></canvas>
-                <canvas data-itemname="sapphire" data-show-label="inline"></canvas>
+                <canvas itemname="gold_bar" show-label="inline"></canvas>
+                <canvas itemname="sapphire" show-label="inline"></canvas>
             </td>
             <td>
-                <canvas data-itemname="necklace_mould" data-show-label="inline"></canvas>
+                <canvas itemname="necklace_mould" show-label="inline"></canvas>
                 <div style="display: flex; align-items: center; gap: 6px; flex-direction: row; justify-content: center;">
                     <img src="img/skillguides/furnace.png" alt="Furnace" width=32px>
                     <div class="item-label" style="color: white;">Furnace</div>
                 </div>
             </td>
-            <td><canvas data-itemname="sapphire_necklace" data-show-label="true"></canvas></td>
+            <td><canvas itemname="sapphire_necklace" show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>24</td>
             <td>
-                <canvas data-itemname="gold_bar" data-show-label="inline"></canvas>
-                <canvas data-itemname="sapphire" data-show-label="inline"></canvas>
-                <canvas data-itemname="ball_of_wool" data-show-label="inline"></canvas>
+                <canvas itemname="gold_bar" show-label="inline"></canvas>
+                <canvas itemname="sapphire" show-label="inline"></canvas>
+                <canvas itemname="ball_of_wool" show-label="inline"></canvas>
             </td>
             <td>
-                <canvas data-itemname="amulet_mould" data-show-label="inline"></canvas>
+                <canvas itemname="amulet_mould" show-label="inline"></canvas>
                 <div style="display: flex; align-items: center; gap: 6px; flex-direction: row; justify-content: center;">
                     <img src="img/skillguides/furnace.png" alt="Furnace" width=32px>
                     <div class="item-label" style="color: white;">Furnace</div>
                 </div>
             </td>
-            <td><canvas data-itemname="strung_sapphire_amulet" data-show-label="true"></canvas></td>
+            <td><canvas itemname="strung_sapphire_amulet" show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>27</td>
-            <td><canvas data-itemname="uncut_emerald" data-show-label="true"></canvas></td>
-            <td><canvas data-itemname="chisel" data-show-label="true"></canvas></td>
-            <td><canvas data-itemname="emerald" data-show-label="true"></canvas></td>
+            <td><canvas itemname="uncut_emerald" show-label="true"></canvas></td>
+            <td><canvas itemname="chisel" show-label="true"></canvas></td>
+            <td><canvas itemname="emerald" show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>27</td>
             <td>
-                <canvas data-itemname="gold_bar" data-show-label="inline"></canvas>
-                <canvas data-itemname="emerald" data-show-label="inline"></canvas>
+                <canvas itemname="gold_bar" show-label="inline"></canvas>
+                <canvas itemname="emerald" show-label="inline"></canvas>
             </td>
             <td>
-                <canvas data-itemname="ring_mould" data-show-label="inline"></canvas>
+                <canvas itemname="ring_mould" show-label="inline"></canvas>
                 <div style="display: flex; align-items: center; gap: 6px; flex-direction: row; justify-content: center;">
                     <img src="img/skillguides/furnace.png" alt="Furnace" width=32px>
                     <div class="item-label" style="color: white;">Furnace</div>
                 </div>
             </td>
-            <td><canvas data-itemname="emerald_ring" data-show-label="true"></canvas></td>
+            <td><canvas itemname="emerald_ring" show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>28</td>
-            <td><canvas data-itemname="hard_leather" data-show-label="true"></canvas></td>
+            <td><canvas itemname="hard_leather" show-label="true"></canvas></td>
             <td>
-                <canvas data-itemname="needle" data-show-label="inline"></canvas>
-                <canvas data-itemname="thread" data-show-label="inline"></canvas>
+                <canvas itemname="needle" show-label="inline"></canvas>
+                <canvas itemname="thread" show-label="inline"></canvas>
             </td>
-            <td><canvas data-itemname="hardleather_body" data-show-label="true"></canvas></td>
+            <td><canvas itemname="hardleather_body" show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>29</td>
             <td>
-                <canvas data-itemname="gold_bar" data-show-label="inline"></canvas>
-                <canvas data-itemname="emerald" data-show-label="inlinr"></canvas>
+                <canvas itemname="gold_bar" show-label="inline"></canvas>
+                <canvas itemname="emerald" show-label="inlinr"></canvas>
             </td>
             <td>
-                <canvas data-itemname="necklace_mould" data-show-label="inline"></canvas>
+                <canvas itemname="necklace_mould" show-label="inline"></canvas>
                 <div style="display: flex; align-items: center; gap: 6px; flex-direction: row; justify-content: center;">
                     <img src="img/skillguides/furnace.png" alt="Furnace" width=32px>
                     <div class="item-label" style="color: white;">Furnace</div>
                 </div>
             </td>
-            <td><canvas data-itemname="emerald_necklace" data-show-label="true"></canvas></td>
+            <td><canvas itemname="emerald_necklace" show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>31</td>
             <td>
-                <canvas data-itemname="gold_bar" data-show-label="inline"></canvas>
-                <canvas data-itemname="emerald" data-show-label="inline"></canvas>
-                <canvas data-itemname="ball_of_wool" data-show-label="inline"></canvas>
+                <canvas itemname="gold_bar" show-label="inline"></canvas>
+                <canvas itemname="emerald" show-label="inline"></canvas>
+                <canvas itemname="ball_of_wool" show-label="inline"></canvas>
             </td>
             <td>
-                <canvas data-itemname="amulet_mould" data-show-label="inline"></canvas>
+                <canvas itemname="amulet_mould" show-label="inline"></canvas>
                 <div style="display: flex; align-items: center; gap: 6px; flex-direction: row; justify-content: center;">
                     <img src="img/skillguides/furnace.png" alt="Furnace" width=32px>
                     <div class="item-label" style="color: white;">Furnace</div>
                 </div>
             </td>
-            <td><canvas data-itemname="strung_emerald_amulet" data-show-label="true"></canvas></td>
+            <td><canvas itemname="strung_emerald_amulet" show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>33</td>
-            <td><canvas data-itemname="molten_glass" data-show-label="true"></canvas></td>
-            <td><canvas data-itemname="glassblowingpipe" data-show-label="true"></canvas></td>
-            <td><canvas data-itemname="vial_empty" data-show-label="true"></canvas></td>
+            <td><canvas itemname="molten_glass" show-label="true"></canvas></td>
+            <td><canvas itemname="glassblowingpipe" show-label="true"></canvas></td>
+            <td><canvas itemname="vial_empty" show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>34</td>
-            <td><canvas data-itemname="uncut_ruby" data-show-label="true"></canvas></td>
-            <td><canvas data-itemname="chisel" data-show-label="true"></canvas></td>
-            <td><canvas data-itemname="ruby" data-show-label="true"></canvas></td>
+            <td><canvas itemname="uncut_ruby" show-label="true"></canvas></td>
+            <td><canvas itemname="chisel" show-label="true"></canvas></td>
+            <td><canvas itemname="ruby" show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>34</td>
             <td>
-                <canvas data-itemname="gold_bar" data-show-label="inline"></canvas>
-                <canvas data-itemname="ruby" data-show-label="inline"></canvas>
+                <canvas itemname="gold_bar" show-label="inline"></canvas>
+                <canvas itemname="ruby" show-label="inline"></canvas>
             </td>
             <td>
-                <canvas data-itemname="ring_mould" data-show-label="inline"></canvas>
+                <canvas itemname="ring_mould" show-label="inline"></canvas>
                 <div style="display: flex; align-items: center; gap: 6px; flex-direction: row; justify-content: center;">
                     <img src="img/skillguides/furnace.png" alt="Furnace" width=32px>
                     <div class="item-label" style="color: white;">Furnace</div>
                 </div>
             </td>
-            <td><canvas data-itemname="ruby_ring" data-show-label="true"></canvas></td>
+            <td><canvas itemname="ruby_ring" show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>38</td>
-            <td><canvas data-itemname="leather" data-show-label="true"></canvas></td>
+            <td><canvas itemname="leather" show-label="true"></canvas></td>
             <td>
-                <canvas data-itemname="needle" data-show-label="inline"></canvas>
-                <canvas data-itemname="thread" data-show-label="inline"></canvas>
+                <canvas itemname="needle" show-label="inline"></canvas>
+                <canvas itemname="thread" show-label="inline"></canvas>
             </td>
-            <td><canvas data-itemname="coif" data-show-label="true"></canvas></td>
+            <td><canvas itemname="coif" show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>40</td>
             <td>
-                <canvas data-itemname="gold_bar" data-show-label="inline"></canvas>
-                <canvas data-itemname="ruby" data-show-label="inline"></canvas>
+                <canvas itemname="gold_bar" show-label="inline"></canvas>
+                <canvas itemname="ruby" show-label="inline"></canvas>
             </td>
             <td>
-                <canvas data-itemname="necklace_mould" data-show-label="inline"></canvas>
+                <canvas itemname="necklace_mould" show-label="inline"></canvas>
                 <div style="display: flex; align-items: center; gap: 6px; flex-direction: row; justify-content: center;">
                     <img src="img/skillguides/furnace.png" alt="Furnace" width=32px>
                     <div class="item-label" style="color: white;">Furnace</div>
                 </div>
             </td>
-            <td><canvas data-itemname="ruby_necklace" data-show-label="true"></canvas></td>
+            <td><canvas itemname="ruby_necklace" show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>41</td>
             <td>
-                <canvas data-itemname="leather_armour" data-show-label="inline"></canvas>
-                <canvas data-itemname="studs" data-show-label="inline"></canvas>
+                <canvas itemname="leather_armour" show-label="inline"></canvas>
+                <canvas itemname="studs" show-label="inline"></canvas>
             </td>
             <td>-</td>
-            <td><canvas data-itemname="studded_body" data-show-label="true"></canvas></td>
+            <td><canvas itemname="studded_body" show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>43</td>
-            <td><canvas data-itemname="uncut_diamond" data-show-label="true"></canvas></td>
-            <td><canvas data-itemname="chisel" data-show-label="true"></canvas></td>
-            <td><canvas data-itemname="diamond" data-show-label="true"></canvas></td>
+            <td><canvas itemname="uncut_diamond" show-label="true"></canvas></td>
+            <td><canvas itemname="chisel" show-label="true"></canvas></td>
+            <td><canvas itemname="diamond" show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>43</td>
             <td>
-                <canvas data-itemname="gold_bar" data-show-label="inline"></canvas>
-                <canvas data-itemname="diamond" data-show-label="inline"></canvas>
+                <canvas itemname="gold_bar" show-label="inline"></canvas>
+                <canvas itemname="diamond" show-label="inline"></canvas>
             </td>
             <td>
-                <canvas data-itemname="ring_mould" data-show-label="inline"></canvas>
+                <canvas itemname="ring_mould" show-label="inline"></canvas>
                 <div style="display: flex; align-items: center; gap: 6px; flex-direction: row; justify-content: center;">
                     <img src="img/skillguides/furnace.png" alt="Furnace" width=32px>
                     <div class="item-label" style="color: white;">Furnace</div>
                 </div>
             </td>
-            <td><canvas data-itemname="diamond_ring" data-show-label="true"></canvas></td>
+            <td><canvas itemname="diamond_ring" show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>44</td>
             <td>
-                <canvas data-itemname="leather_chaps" data-show-label="inline"></canvas>
-                <canvas data-itemname="studs" data-show-label="inline"></canvas>
+                <canvas itemname="leather_chaps" show-label="inline"></canvas>
+                <canvas itemname="studs" show-label="inline"></canvas>
             </td>
             <td>-</td>
-            <td><canvas data-itemname="studded_chaps" data-show-label="true"></canvas></td>
+            <td><canvas itemname="studded_chaps" show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>46</td>
-            <td><canvas data-itemname="molten_glass" data-show-label="true"></canvas></td>
-            <td><canvas data-itemname="glassblowingpipe" data-show-label="true"></canvas></td>
-            <td><canvas data-itemname="stafforb" data-show-label="true"></canvas></td>
+            <td><canvas itemname="molten_glass" show-label="true"></canvas></td>
+            <td><canvas itemname="glassblowingpipe" show-label="true"></canvas></td>
+            <td><canvas itemname="stafforb" show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>50</td>
             <td>
-                <canvas data-itemname="gold_bar" data-show-label="inline"></canvas>
-                <canvas data-itemname="ruby" data-show-label="inline"></canvas>
-                <canvas data-itemname="ball_of_wool" data-show-label="inline"></canvas>
+                <canvas itemname="gold_bar" show-label="inline"></canvas>
+                <canvas itemname="ruby" show-label="inline"></canvas>
+                <canvas itemname="ball_of_wool" show-label="inline"></canvas>
             </td>
             <td>
-                <canvas data-itemname="amulet_mould" data-show-label="inline"></canvas>
+                <canvas itemname="amulet_mould" show-label="inline"></canvas>
                 <div style="display: flex; align-items: center; gap: 6px; flex-direction: row; justify-content: center;">
                     <img src="img/skillguides/furnace.png" alt="Furnace" width=32px>
                     <div class="item-label" style="color: white;">Furnace</div>
                 </div>
             </td>
-            <td><canvas data-itemname="strung_ruby_amulet" data-show-label="true"></canvas></td>
+            <td><canvas itemname="strung_ruby_amulet" show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>54</td>
             <td>
-                <canvas data-itemname="water_orb" data-show-label="inline"></canvas>
-                <canvas data-itemname="battlestaff" data-show-label="inline"></canvas>
+                <canvas itemname="water_orb" show-label="inline"></canvas>
+                <canvas itemname="battlestaff" show-label="inline"></canvas>
             </td>
             <td>-</td>
-            <td><canvas data-itemname="water_battlestaff" data-show-label="true"></canvas></td>
+            <td><canvas itemname="water_battlestaff" show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>55</td>
-            <td><canvas data-itemname="uncut_dragonstone" data-show-label="true"></canvas></td>
-            <td><canvas data-itemname="chisel" data-show-label="true"></canvas></td>
-            <td><canvas data-itemname="dragonstone" data-show-label="true"></canvas></td>
+            <td><canvas itemname="uncut_dragonstone" show-label="true"></canvas></td>
+            <td><canvas itemname="chisel" show-label="true"></canvas></td>
+            <td><canvas itemname="dragonstone" show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>55</td>
             <td>
-                <canvas data-itemname="gold_bar" data-show-label="inline"></canvas>
-                <canvas data-itemname="dragonstone" data-show-label="inline"></canvas>
+                <canvas itemname="gold_bar" show-label="inline"></canvas>
+                <canvas itemname="dragonstone" show-label="inline"></canvas>
             </td>
             <td>
-                <canvas data-itemname="ring_mould" data-show-label="inline"></canvas>
+                <canvas itemname="ring_mould" show-label="inline"></canvas>
                 <div style="display: flex; align-items: center; gap: 6px; flex-direction: row; justify-content: center;">
                     <img src="img/skillguides/furnace.png" alt="Furnace" width=32px>
                     <div class="item-label" style="color: white;">Furnace</div>
                 </div>
             </td>
-            <td><canvas data-itemname="dragonstone_ring" data-show-label="true"></canvas></td>
+            <td><canvas itemname="dragonstone_ring" show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>56</td>
             <td>
-                <canvas data-itemname="gold_bar" data-show-label="inline"></canvas>
-                <canvas data-itemname="diamond" data-show-label="inline"></canvas>
+                <canvas itemname="gold_bar" show-label="inline"></canvas>
+                <canvas itemname="diamond" show-label="inline"></canvas>
             </td>
             <td>
-                <canvas data-itemname="necklace_mould" data-show-label="inline"></canvas>
+                <canvas itemname="necklace_mould" show-label="inline"></canvas>
                 <div style="display: flex; align-items: center; gap: 6px; flex-direction: row; justify-content: center;">
                     <img src="img/skillguides/furnace.png" alt="Furnace" width=32px>
                     <div class="item-label" style="color: white;">Furnace</div>
                 </div>
             </td>
-            <td><canvas data-itemname="diamond_necklace" data-show-label="true"></canvas></td>
+            <td><canvas itemname="diamond_necklace" show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>57</td>
-            <td><canvas data-itemname="dragon_leather" data-show-label="true"></canvas></td>
+            <td><canvas itemname="dragon_leather" show-label="true"></canvas></td>
             <td>
-                <canvas data-itemname="needle" data-show-label="inline"></canvas>
-                <canvas data-itemname="thread" data-show-label="inline"></canvas>
+                <canvas itemname="needle" show-label="inline"></canvas>
+                <canvas itemname="thread" show-label="inline"></canvas>
             </td>
-            <td><canvas data-itemname="dragon_vambraces" data-show-label="true"></canvas></td>
+            <td><canvas itemname="dragon_vambraces" show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>58</td>
             <td>
-                <canvas data-itemname="earth_orb" data-show-label="inline"></canvas>
-                <canvas data-itemname="battlestaff" data-show-label="inline"></canvas>
+                <canvas itemname="earth_orb" show-label="inline"></canvas>
+                <canvas itemname="battlestaff" show-label="inline"></canvas>
             </td>
             <td>-</td>
-            <td><canvas data-itemname="earth_battlestaff" data-show-label="true"></canvas></td>
+            <td><canvas itemname="earth_battlestaff" show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>60</td>
             <td>
-                <canvas data-itemname="dragon_leather"></canvas>
-                <canvas data-itemname="dragon_leather" data-show-label="true"></canvas>
+                <canvas itemname="dragon_leather"></canvas>
+                <canvas itemname="dragon_leather" show-label="true"></canvas>
             </td>
             <td>
-                <canvas data-itemname="needle" data-show-label="inline"></canvas>
-                <canvas data-itemname="thread" data-show-label="inline"></canvas>
+                <canvas itemname="needle" show-label="inline"></canvas>
+                <canvas itemname="thread" show-label="inline"></canvas>
             </td>
-            <td><canvas data-itemname="dragonhide_chaps" data-show-label="true"></canvas></td>
+            <td><canvas itemname="dragonhide_chaps" show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>62</td>
             <td>
-                <canvas data-itemname="fire_orb" data-show-label="inline"></canvas>
-                <canvas data-itemname="battlestaff" data-show-label="inline"></canvas>
+                <canvas itemname="fire_orb" show-label="inline"></canvas>
+                <canvas itemname="battlestaff" show-label="inline"></canvas>
             </td>
             <td>-</td>
-            <td><canvas data-itemname="fire_battlestaff" data-show-label="true"></canvas></td>
+            <td><canvas itemname="fire_battlestaff" show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>63</td>
             <td>
-                <canvas data-itemname="dragon_leather"></canvas>
-                <canvas data-itemname="dragon_leather"></canvas>
-                <canvas data-itemname="dragon_leather" data-show-label="true"></canvas>
+                <canvas itemname="dragon_leather"></canvas>
+                <canvas itemname="dragon_leather"></canvas>
+                <canvas itemname="dragon_leather" show-label="true"></canvas>
             </td>
             <td>
-                <canvas data-itemname="needle" data-show-label="inline"></canvas>
-                <canvas data-itemname="thread" data-show-label="inline"></canvas>
+                <canvas itemname="needle" show-label="inline"></canvas>
+                <canvas itemname="thread" show-label="inline"></canvas>
             </td>
-            <td><canvas data-itemname="dragonhide_body" data-show-label="true"></canvas></td>
+            <td><canvas itemname="dragonhide_body" show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>66</td>
             <td>
-                <canvas data-itemname="air_orb" data-show-label="inline"></canvas>
-                <canvas data-itemname="battlestaff" data-show-label="inline"></canvas>
+                <canvas itemname="air_orb" show-label="inline"></canvas>
+                <canvas itemname="battlestaff" show-label="inline"></canvas>
             </td>
             <td>-</td>
-            <td><canvas data-itemname="air_battlestaff" data-show-label="true"></canvas></td>
+            <td><canvas itemname="air_battlestaff" show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>66</td>
-            <td><canvas data-itemname="dragon_leather_blue" data-show-label="true"></canvas></td>
+            <td><canvas itemname="dragon_leather_blue" show-label="true"></canvas></td>
             <td>
-                <canvas data-itemname="needle" data-show-label="inline"></canvas>
-                <canvas data-itemname="thread" data-show-label="inline"></canvas>
+                <canvas itemname="needle" show-label="inline"></canvas>
+                <canvas itemname="thread" show-label="inline"></canvas>
             </td>
-            <td><canvas data-itemname="blue_dragon_vambraces" data-show-label="true"></canvas></td>
+            <td><canvas itemname="blue_dragon_vambraces" show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>68</td>
             <td>
-                <canvas data-itemname="dragon_leather_blue"></canvas>
-                <canvas data-itemname="dragon_leather_blue" data-show-label="true"></canvas>
+                <canvas itemname="dragon_leather_blue"></canvas>
+                <canvas itemname="dragon_leather_blue" show-label="true"></canvas>
             </td>
             <td>
-                <canvas data-itemname="needle" data-show-label="inline"></canvas>
-                <canvas data-itemname="thread" data-show-label="inline"></canvas>
+                <canvas itemname="needle" show-label="inline"></canvas>
+                <canvas itemname="thread" show-label="inline"></canvas>
             </td>
-            <td><canvas data-itemname="blue_dragonhide_chaps" data-show-label="true"></canvas></td>
+            <td><canvas itemname="blue_dragonhide_chaps" show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>70</td>
             <td>
-                <canvas data-itemname="gold_bar" data-show-label="inline"></canvas>
-                <canvas data-itemname="diamond" data-show-label="inline"></canvas>
-                <canvas data-itemname="ball_of_wool" data-show-label="inline"></canvas>
+                <canvas itemname="gold_bar" show-label="inline"></canvas>
+                <canvas itemname="diamond" show-label="inline"></canvas>
+                <canvas itemname="ball_of_wool" show-label="inline"></canvas>
             </td>
             <td>
-                <canvas data-itemname="amulet_mould" data-show-label="inline"></canvas>
+                <canvas itemname="amulet_mould" show-label="inline"></canvas>
                 <div style="display: flex; align-items: center; gap: 6px; flex-direction: row; justify-content: center;">
                     <img src="img/skillguides/furnace.png" alt="Furnace" width=32px>
                     <div class="item-label" style="color: white;">Furnace</div>
                 </div>
             </td>
-            <td><canvas data-itemname="strung_diamond_amulet" data-show-label="true"></canvas></td>
+            <td><canvas itemname="strung_diamond_amulet" show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>71</td>
             <td>
-                <canvas data-itemname="dragon_leather_blue"></canvas>
-                <canvas data-itemname="dragon_leather_blue"></canvas>
-                <canvas data-itemname="dragon_leather_blue" data-show-label="true"></canvas>
+                <canvas itemname="dragon_leather_blue"></canvas>
+                <canvas itemname="dragon_leather_blue"></canvas>
+                <canvas itemname="dragon_leather_blue" show-label="true"></canvas>
             </td>
             <td>
-                <canvas data-itemname="needle" data-show-label="inline"></canvas>
-                <canvas data-itemname="thread" data-show-label="inline"></canvas>
+                <canvas itemname="needle" show-label="inline"></canvas>
+                <canvas itemname="thread" show-label="inline"></canvas>
             </td>
-            <td><canvas data-itemname="blue_dragonhide_body" data-show-label="true"></canvas></td>
+            <td><canvas itemname="blue_dragonhide_body" show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>72</td>
             <td>
-                <canvas data-itemname="gold_bar" data-show-label="inline"></canvas>
-                <canvas data-itemname="dragonstone" data-show-label="inline"></canvas>
+                <canvas itemname="gold_bar" show-label="inline"></canvas>
+                <canvas itemname="dragonstone" show-label="inline"></canvas>
             </td>
             <td>
-                <canvas data-itemname="necklace_mould" data-show-label="inline"></canvas>
+                <canvas itemname="necklace_mould" show-label="inline"></canvas>
                 <div style="display: flex; align-items: center; gap: 6px; flex-direction: row; justify-content: center;">
                     <img src="img/skillguides/furnace.png" alt="Furnace" width=32px>
                     <div class="item-label" style="color: white;">Furnace</div>
                 </div>
             </td>
-            <td><canvas data-itemname="dragonstone_necklace" data-show-label="true"></canvas></td>
+            <td><canvas itemname="dragonstone_necklace" show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>73</td>
-            <td><canvas data-itemname="dragon_leather_red" data-show-label="true"></canvas></td>
+            <td><canvas itemname="dragon_leather_red" show-label="true"></canvas></td>
             <td>
-                <canvas data-itemname="needle" data-show-label="inline"></canvas>
-                <canvas data-itemname="thread" data-show-label="inline"></canvas>
+                <canvas itemname="needle" show-label="inline"></canvas>
+                <canvas itemname="thread" show-label="inline"></canvas>
             </td>
-            <td><canvas data-itemname="red_dragon_vambraces" data-show-label="true"></canvas></td>
+            <td><canvas itemname="red_dragon_vambraces" show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>75</td>
             <td>
-                <canvas data-itemname="dragon_leather_red"></canvas>
-                <canvas data-itemname="dragon_leather_red" data-show-label="true"></canvas>
+                <canvas itemname="dragon_leather_red"></canvas>
+                <canvas itemname="dragon_leather_red" show-label="true"></canvas>
             </td>
             <td>
-                <canvas data-itemname="needle" data-show-label="inline"></canvas>
-                <canvas data-itemname="thread" data-show-label="inline"></canvas>
+                <canvas itemname="needle" show-label="inline"></canvas>
+                <canvas itemname="thread" show-label="inline"></canvas>
             </td>
-            <td><canvas data-itemname="red_dragonhide_chaps" data-show-label="true"></canvas></td>
+            <td><canvas itemname="red_dragonhide_chaps" show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>77</td>
             <td>
-                <canvas data-itemname="dragon_leather_red"></canvas>
-                <canvas data-itemname="dragon_leather_red"></canvas>
-                <canvas data-itemname="dragon_leather_red" data-show-label="true"></canvas>
+                <canvas itemname="dragon_leather_red"></canvas>
+                <canvas itemname="dragon_leather_red"></canvas>
+                <canvas itemname="dragon_leather_red" show-label="true"></canvas>
             </td>
             <td>
-                <canvas data-itemname="needle" data-show-label="inline"></canvas>
-                <canvas data-itemname="thread" data-show-label="inline"></canvas>
+                <canvas itemname="needle" show-label="inline"></canvas>
+                <canvas itemname="thread" show-label="inline"></canvas>
             </td>
-            <td><canvas data-itemname="red_dragonhide_body" data-show-label="true"></canvas></td>
+            <td><canvas itemname="red_dragonhide_body" show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>79</td>
-            <td><canvas data-itemname="dragon_leather_black" data-show-label="true"></canvas></td>
+            <td><canvas itemname="dragon_leather_black" show-label="true"></canvas></td>
             <td>
-                <canvas data-itemname="needle" data-show-label="inline"></canvas>
-                <canvas data-itemname="thread" data-show-label="inline"></canvas>
+                <canvas itemname="needle" show-label="inline"></canvas>
+                <canvas itemname="thread" show-label="inline"></canvas>
             </td>
-            <td><canvas data-itemname="black_dragon_vambraces" data-show-label="true"></canvas></td>
+            <td><canvas itemname="black_dragon_vambraces" show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>80</td>
             <td>
-                <canvas data-itemname="gold_bar" data-show-label="inline"></canvas>
-                <canvas data-itemname="dragonstone" data-show-label="inline"></canvas>
-                <canvas data-itemname="ball_of_wool" data-show-label="inline"></canvas>
+                <canvas itemname="gold_bar" show-label="inline"></canvas>
+                <canvas itemname="dragonstone" show-label="inline"></canvas>
+                <canvas itemname="ball_of_wool" show-label="inline"></canvas>
             </td>
             <td>
-                <canvas data-itemname="amulet_mould" data-show-label="inline"></canvas>
+                <canvas itemname="amulet_mould" show-label="inline"></canvas>
                 <div style="display: flex; align-items: center; gap: 6px; flex-direction: row; justify-content: center;">
                     <img src="img/skillguides/furnace.png" alt="Furnace" width=32px>
                     <div class="item-label" style="color: white;">Furnace</div>
                 </div>
             </td>
-            <td><canvas data-itemname="strung_dragonstone_amulet" data-show-label="true"></canvas></td>
+            <td><canvas itemname="strung_dragonstone_amulet" show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>82</td>
             <td>
-                <canvas data-itemname="dragon_leather_black"></canvas>
-                <canvas data-itemname="dragon_leather_black" data-show-label="true"></canvas>
+                <canvas itemname="dragon_leather_black"></canvas>
+                <canvas itemname="dragon_leather_black" show-label="true"></canvas>
             </td>
             <td>
-                <canvas data-itemname="needle" data-show-label="inline"></canvas>
-                <canvas data-itemname="thread" data-show-label="inline"></canvas>
+                <canvas itemname="needle" show-label="inline"></canvas>
+                <canvas itemname="thread" show-label="inline"></canvas>
             </td>
-            <td><canvas data-itemname="black_dragonhide_chaps" data-show-label="true"></canvas></td>
+            <td><canvas itemname="black_dragonhide_chaps" show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>84</td>
             <td>
-                <canvas data-itemname="dragon_leather_black"></canvas>
-                <canvas data-itemname="dragon_leather_black"></canvas>
-                <canvas data-itemname="dragon_leather_black" data-show-label="true"></canvas>
+                <canvas itemname="dragon_leather_black"></canvas>
+                <canvas itemname="dragon_leather_black"></canvas>
+                <canvas itemname="dragon_leather_black" show-label="true"></canvas>
             </td>
             <td>
-                <canvas data-itemname="needle" data-show-label="inline"></canvas>
-                <canvas data-itemname="thread" data-show-label="inline"></canvas>
+                <canvas itemname="needle" show-label="inline"></canvas>
+                <canvas itemname="thread" show-label="inline"></canvas>
             </td>
-            <td><canvas data-itemname="black_dragonhide_body" data-show-label="true"></canvas></td>
+            <td><canvas itemname="black_dragonhide_body" show-label="true"></canvas></td>
         </tr>
     </table>
     <h3>Pottery</h3>

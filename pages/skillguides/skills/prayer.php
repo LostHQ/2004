@@ -138,37 +138,37 @@ function getSkillContent($skill) { return <<<HTML
             <th>Exp</th>
         </tr>
         <tr>
-            <td><canvas data-itemname=bones></canvas></td>
+            <td><canvas itemname=bones></canvas></td>
             <td>Bones</td>
             <td>4.5</td>
         </tr>
         <tr>
-            <td><canvas data-itemname=bones_burnt></canvas></td>
+            <td><canvas itemname=bones_burnt></canvas></td>
             <td>Burnt Bones</td>
             <td>4.5</td>
         </tr>
         <tr>
-            <td><canvas data-itemname=bat_bones></canvas></td>
+            <td><canvas itemname=bat_bones></canvas></td>
             <td>Bat Bones</td>
             <td>4.5</td>
         </tr>
         <tr>
-            <td><canvas data-itemname=wolf_bones></canvas></td>
+            <td><canvas itemname=wolf_bones></canvas></td>
             <td>Wolf Bones</td>
             <td>4.5</td>
         </tr>
         <tr>
-            <td><canvas data-itemname=big_bones></canvas></td>
+            <td><canvas itemname=big_bones></canvas></td>
             <td>Big Bones</td>
             <td>15</td>
         </tr>
         <tr>
-            <td><canvas data-itemname=babydragon_bones></canvas></td>
+            <td><canvas itemname=babydragon_bones></canvas></td>
             <td>Babydragon Bones</td>
             <td>30</td>
         </tr>
         <tr>
-            <td><canvas data-itemname=dragon_bones></canvas></td>
+            <td><canvas itemname=dragon_bones></canvas></td>
             <td>Dragon Bones</td>
             <td>72</td>
         </tr></tbody>
@@ -180,7 +180,7 @@ function getSkillContent($skill) { return <<<HTML
     <table cellpadding="1" cellspacing="0" class="table">
         <tbody>
             <tr>
-                <th><div class="centered-content"><canvas data-itemname=bones></canvas> Regular Bones <canvas data-itemname=bones></canvas></div></th>
+                <th><div class="centered-content"><canvas itemname=bones></canvas> Regular Bones <canvas itemname=bones></canvas></div></th>
             </tr>
             <tr>
                 <td>
@@ -194,7 +194,7 @@ function getSkillContent($skill) { return <<<HTML
         <tbody>
             <tr>
                 <th>
-                    <div class="centered-content"><canvas data-itemname=bones_burnt></canvas> Burnt Bones <canvas data-itemname=bones_burnt></canvas></div>
+                    <div class="centered-content"><canvas itemname=bones_burnt></canvas> Burnt Bones <canvas itemname=bones_burnt></canvas></div>
                 </th>
             </tr>
             <tr>
@@ -208,7 +208,7 @@ function getSkillContent($skill) { return <<<HTML
     <table cellpadding="1" cellspacing="0" class="table">
         <tbody>
             <tr>
-                <th><div class="centered-content"><canvas data-itemname=bat_bones></canvas> Bat Bones <canvas data-itemname=bat_bones></canvas></div></th>
+                <th><div class="centered-content"><canvas itemname=bat_bones></canvas> Bat Bones <canvas itemname=bat_bones></canvas></div></th>
             </tr>
             <tr>
                 <td>
@@ -229,7 +229,7 @@ function getSkillContent($skill) { return <<<HTML
     <table cellpadding="1" cellspacing="0" class="table">
         <tbody>
             <tr>
-                <th><div class="centered-content"><canvas data-itemname=wolf_bones></canvas> Wolf Bones <canvas data-itemname=wolf_bones></canvas></div></th>
+                <th><div class="centered-content"><canvas itemname=wolf_bones></canvas> Wolf Bones <canvas itemname=wolf_bones></canvas></div></th>
             </tr>
             <tr>
                 <td>
@@ -251,7 +251,7 @@ function getSkillContent($skill) { return <<<HTML
     <table cellpadding="1" cellspacing="0" class="table">
         <tbody>
             <tr>
-                <th><div class="centered-content"><canvas data-itemname=big_bones></canvas> Big Bones <canvas data-itemname=big_bones></canvas></div></th>
+                <th><div class="centered-content"><canvas itemname=big_bones></canvas> Big Bones <canvas itemname=big_bones></canvas></div></th>
             </tr>
             <tr>
                 <td>
@@ -280,7 +280,7 @@ function getSkillContent($skill) { return <<<HTML
     <table cellpadding="1" cellspacing="0" class="table">
         <tbody>
             <tr>
-                <th><div class="centered-content"><canvas data-itemname=babydragon_bones></canvas> Babydragon Bones <canvas data-itemname=babydragon_bones></canvas></div></th>
+                <th><div class="centered-content"><canvas itemname=babydragon_bones></canvas> Babydragon Bones <canvas itemname=babydragon_bones></canvas></div></th>
             </tr>
             <tr>
                 <td>
@@ -298,7 +298,7 @@ function getSkillContent($skill) { return <<<HTML
     <table cellpadding="1" cellspacing="0" class="table">
         <tbody>
             <tr>
-                <th><div class="centered-content"><canvas data-itemname=dragon_bones></canvas> Dragon Bones <canvas data-itemname=dragon_bones></canvas></div></th>
+                <th><div class="centered-content"><canvas itemname=dragon_bones></canvas> Dragon Bones <canvas itemname=dragon_bones></canvas></div></th>
             </tr>
             <tr>
                 <td>

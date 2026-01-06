@@ -8,14 +8,14 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <b>Length: <font color="Green">Short</font></b><br>
 <h3>Items & Skills Needed:</h3>
 <ul style="list-style-type: none;">
-<li><div data-progress><canvas data-itemname="clay" data-size="25"></canvas>&nbsp;&nbsp;6 clay (not soft clay)</div><br></li>
-<li><div data-progress><canvas data-itemname="copper_ore" data-size="25"></canvas>&nbsp;&nbsp;4 copper ores</div><br></li>
-<li><div data-progress><canvas data-itemname="iron_ore" data-size="25"></canvas>&nbsp;&nbsp;2 iron ores</div><br></li>
+<li><div data-progress><canvas itemname="clay" icon-size="25"></canvas>&nbsp;&nbsp;6 clay (not soft clay)</div><br></li>
+<li><div data-progress><canvas itemname="copper_ore" icon-size="25"></canvas>&nbsp;&nbsp;4 copper ores</div><br></li>
+<li><div data-progress><canvas itemname="iron_ore" icon-size="25"></canvas>&nbsp;&nbsp;2 iron ores</div><br></li>
 </ul>
 <h3>Recommended:</h3>
 <ul style="list-style-type: none;">
 <li><div data-progress>15 Mining (boostable)</div></li>
-<li><div data-progress><canvas data-itemname="bronze_pickaxe" data-size="25"></canvas>&nbsp;&nbsp;Any pickaxe</div><br></li>
+<li><div data-progress><canvas itemname="bronze_pickaxe" icon-size="25"></canvas>&nbsp;&nbsp;Any pickaxe</div><br></li>
 </ul>
 <b>Starting Location:</b> Doric's Anvil (north of Falador)
 <br><br>

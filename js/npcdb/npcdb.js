@@ -136,7 +136,7 @@ function renderDrops(npcData, searchTerm = "") {
                 html: `<tr${isMatch ? ' style="background:rgba(85, 62, 5, 0.62);"' : ""}>
                  <td>
                    <div style="display: flex; align-items: center; justify-content: center; gap: 5px;">
-                     <canvas data-itemname="${itemName}" data-show-label="inline"></canvas>${noteHtml}
+                     <canvas itemname="${itemName}" show-label="inline"></canvas>${noteHtml}
                    </div>
                  </td>
                  <td colspan="2">${formatAmount(amount)}</td>
@@ -156,7 +156,7 @@ function renderDrops(npcData, searchTerm = "") {
                 html: `<tr${isMatch ? ' style="background:rgba(85, 62, 5, 0.62);"' : ""}>
                  <td>
                    <div style="display: flex; align-items: center; justify-content: center; gap: 5px;">
-                     <canvas data-itemname="${itemName}" data-show-label="inline"></canvas>${noteHtml}
+                     <canvas itemname="${itemName}" show-label="inline"></canvas>${noteHtml}
                    </div>
                  </td>
                  <td colspan="2">${formatAmount(amount)}</td>
@@ -198,7 +198,7 @@ function renderDrops(npcData, searchTerm = "") {
                             html: `<tr${isMatch ? ' style="background: rgba(85, 62, 5, 0.62);"' : ""}>
                                     <td>
                                         <div style="display: flex; align-items: center; justify-content: center; gap: 5px;">
-                                            <canvas data-itemname="${itemName}" data-show-label="inline"></canvas>${noteHtml}
+                                            <canvas itemname="${itemName}" show-label="inline"></canvas>${noteHtml}
                                         </div>
                                     </td>
                                     <td>${formatAmount(amount)}</td>
@@ -218,7 +218,7 @@ function renderDrops(npcData, searchTerm = "") {
                 const sharedTable = sharedDropTables[sharedTableName];
                 if (sharedTable) {
                     const iconItem = SHARED_TABLE_ICONS[sharedTableName];
-                    const iconHtml = iconItem ? `<canvas data-itemname="${iconItem}" data-show-label="none"></canvas>` : "";
+                    const iconHtml = iconItem ? `<canvas itemname="${iconItem}" show-label="none"></canvas>` : "";
                     const noteHtml = roll.note ? ` <span class="note-indicator" title="${roll.note}">[?]</span>` : "";
 
                     rollableRows.push({
@@ -261,8 +261,8 @@ function renderDrops(npcData, searchTerm = "") {
                         html: `<tr${isMatch ? ' style="background: rgba(85, 62, 5, 0.62);"' : ""}>
                             <td>
                                 <div style="display: flex; align-items: center; justify-content: center; gap: 5px;">
-                                    <canvas data-itemname="${abovegroundItem}" data-show-label="inline"></canvas> or 
-                                    <canvas data-itemname="${undergroundItem}" data-show-label="inline"></canvas>${noteHtml}
+                                    <canvas itemname="${abovegroundItem}" show-label="inline"></canvas> or 
+                                    <canvas itemname="${undergroundItem}" show-label="inline"></canvas>${noteHtml}
                                 </div>
                             </td>
                             <td>${formatAmount(amount)}</td>
@@ -277,7 +277,7 @@ function renderDrops(npcData, searchTerm = "") {
                         html: `<tr${isMatch ? ' style="background: rgba(85, 62, 5, 0.62);"' : ""}>
                                 <td>
                                     <div style="display: flex; align-items: center; justify-content: center; gap: 5px;">
-                                        <canvas data-itemname="${itemName}" data-show-label="inline"></canvas>${noteHtml}
+                                        <canvas itemname="${itemName}" show-label="inline"></canvas>${noteHtml}
                                     </div>
                                 </td>
                                 <td>${formatAmount(amount)}</td>
@@ -335,7 +335,7 @@ function renderDrops(npcData, searchTerm = "") {
                 html: `<tr${isTertiaryMatch ? ' style="background: rgba(85, 62, 5, 0.62);"' : ""}>
                     <td>
                         <div style="display: flex; align-items: center; justify-content: center; gap: 5px;">
-                                        <canvas data-itemname="${displayItemName}" data-show-label="inline"${nameAppend ? ` data-name-append="${nameAppend}"` : ""}></canvas>${noteHtml}
+                                        <canvas itemname="${displayItemName}" show-label="inline"${nameAppend ? ` name-append="${nameAppend}"` : ""}></canvas>${noteHtml}
                         </div>
                     </td>
                     <td>1</td>
@@ -630,7 +630,7 @@ function openSharedTableModal(sharedTableName, searchTerm = "", parentChance = n
 
                 const totalChanceHtml = parentChance ? `<td>${calculateTotalChance(parentChance, subRoll.chance, rollBase)}</td>` : "";
                 const iconItem = SHARED_TABLE_ICONS[nestedTableName];
-                const iconHtml = iconItem ? `<canvas data-itemname="${iconItem}" data-show-label="none"></canvas> ` : "";
+                const iconHtml = iconItem ? `<canvas itemname="${iconItem}" show-label="none"></canvas> ` : "";
                 const noteHtml = subRoll.note ? ` <span class="note-indicator" title="${subRoll.note}">[?]</span>` : "";
 
                 const currentTableName = sharedTable.name || sharedTableName;
@@ -690,9 +690,9 @@ function openSharedTableModal(sharedTableName, searchTerm = "", parentChance = n
                 tableHtml += `<tr${isMatch ? ' style="background:rgba(85, 62, 5, 0.62);"' : ""}>
                     <td>
                         <div style="display: flex; align-items: center; justify-content: center; gap: 5px;">
-                            <canvas data-itemname="${abovegroundItem}" data-show-label="inline"></canvas>
+                            <canvas itemname="${abovegroundItem}" show-label="inline"></canvas>
                             or
-                            <canvas data-itemname="${undergroundItem}" data-show-label="inline"></canvas>${noteHtml}
+                            <canvas itemname="${undergroundItem}" show-label="inline"></canvas>${noteHtml}
                         </div>
                     </td>
                     <td>${formatAmount(subAmount)}</td>
@@ -710,7 +710,7 @@ function openSharedTableModal(sharedTableName, searchTerm = "", parentChance = n
                 tableHtml += `<tr${isMatch ? ' style="background:rgba(85, 62, 5, 0.62);"' : ""}>
                     <td>
                         <div style="display: flex; align-items: center; justify-content: center; gap: 5px;">
-                            <canvas data-itemname="${subItem}" data-show-label="inline"></canvas>${noteHtml}
+                            <canvas itemname="${subItem}" show-label="inline"></canvas>${noteHtml}
                         </div>
                     </td>
                     <td>${formatAmount(subAmount)}</td>

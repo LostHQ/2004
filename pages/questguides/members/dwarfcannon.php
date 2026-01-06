@@ -12,8 +12,8 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 None
 <h3>Recommended:</h3>
 <ul style="list-style-type: none;">
-<li><div data-progress><canvas data-itemname="lawrune" data-size="25"></canvas>&nbsp;&nbsp;Runes for Teleport to Falador</div><br></li>
-<li><div data-progress><canvas data-itemname="lawrune" data-size="25"></canvas>&nbsp;&nbsp;Runes for Teleport to Camelot</div><br></li>
+<li><div data-progress><canvas itemname="lawrune" icon-size="25"></canvas>&nbsp;&nbsp;Runes for Teleport to Falador</div><br></li>
+<li><div data-progress><canvas itemname="lawrune" icon-size="25"></canvas>&nbsp;&nbsp;Runes for Teleport to Camelot</div><br></li>
 <li><div data-progress>20 Agility is required to cross the log bridge</div><br></li>
 <li><div data-progress>Food at very low combat levels</div><br></li>
 </ul>

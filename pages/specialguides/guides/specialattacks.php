@@ -9,7 +9,7 @@ They are activated by the player by clicking on the special attack bar under the
 <br><br>
 <table class="table" width="100%">
     <tr>
-        <th colspan="4"><canvas data-itemname="dragon_battleaxe" data-show-label="inline"></canvas></th>
+        <th colspan="4"><canvas itemname="dragon_battleaxe" show-label="inline"></canvas></th>
     </tr>
     <tr>
         <th width="25%">Special Attack required</th>
@@ -32,7 +32,7 @@ They are activated by the player by clicking on the special attack bar under the
 <br><br>
 <table class="table" width="100%">
     <tr>
-        <th colspan="4"><canvas data-itemname="dragon_dagger" data-show-label="inline"></canvas></th>
+        <th colspan="4"><canvas itemname="dragon_dagger" show-label="inline"></canvas></th>
     </tr>
     <tr>
         <th width="25%">Special Attack required</th>
@@ -55,7 +55,7 @@ They are activated by the player by clicking on the special attack bar under the
 <br><br>
 <table class="table" width="100%">
     <tr>
-        <th colspan="4"><canvas data-itemname="dragon_longsword" data-show-label="inline"></canvas></th>
+        <th colspan="4"><canvas itemname="dragon_longsword" show-label="inline"></canvas></th>
     </tr>
     <tr>
         <th width="25%">Special Attack required</th>
@@ -78,7 +78,7 @@ They are activated by the player by clicking on the special attack bar under the
 <br><br>
 <table class="table" width="100%">
     <tr>
-        <th colspan="4"><canvas data-itemname="dragon_mace" data-show-label="inline"></canvas></th>
+        <th colspan="4"><canvas itemname="dragon_mace" show-label="inline"></canvas></th>
     </tr>
     <tr>
         <th width="25%">Special Attack required</th>
@@ -102,7 +102,7 @@ They are activated by the player by clicking on the special attack bar under the
 <br><br>
 <table class="table" width="100%">
     <tr>
-        <th colspan="4"><canvas data-itemname="dragon_spear" data-show-label="inline"></canvas></th>
+        <th colspan="4"><canvas itemname="dragon_spear" show-label="inline"></canvas></th>
     </tr>
     <tr>
         <th width="25%">Special Attack required</th>
@@ -125,7 +125,7 @@ They are activated by the player by clicking on the special attack bar under the
 <br><br>
 <table class="table" width="100%">
     <tr>
-        <th colspan="4"><canvas data-itemname="excalibur" data-show-label="inline"></canvas></th>
+        <th colspan="4"><canvas itemname="excalibur" show-label="inline"></canvas></th>
     </tr>
     <tr>
         <th width="25%">Special Attack required</th>
@@ -148,7 +148,7 @@ They are activated by the player by clicking on the special attack bar under the
 <br><br>
 <table class="table" width="100%">
     <tr>
-        <th colspan="4"><canvas data-itemname="magic_shortbow" data-show-label="inline"></canvas></th>
+        <th colspan="4"><canvas itemname="magic_shortbow" show-label="inline"></canvas></th>
     </tr>
     <tr>
         <th width="25%">Special Attack required</th>
@@ -172,7 +172,7 @@ They are activated by the player by clicking on the special attack bar under the
 <br><br>
 <table class="table" width="100%">
     <tr>
-        <th colspan="4"><canvas data-itemname="magic_longbow" data-show-label="inline"></canvas></th>
+        <th colspan="4"><canvas itemname="magic_longbow" show-label="inline"></canvas></th>
     </tr>
     <tr>
         <th width="25%">Special Attack required</th>
@@ -195,7 +195,7 @@ They are activated by the player by clicking on the special attack bar under the
 <br><br>
 <table class="table" width="100%">
     <tr>
-        <th colspan="4"><canvas data-itemname="rune_thrownaxe" data-show-label="inline"></canvas></th>
+        <th colspan="4"><canvas itemname="rune_thrownaxe" show-label="inline"></canvas></th>
     </tr>
     <tr>
         <th width="25%">Special Attack required</th>

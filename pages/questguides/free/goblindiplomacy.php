@@ -8,9 +8,9 @@ Description: There's a disturbance in the goblin village. Help the goblins solve
 <b>Length: <font color="Yellow">Medium</font></b><br>
 <h3>Items & Skills Needed:</h3>
 <ul style="list-style-type: none;">
-<li><div data-progress><canvas data-itemname="goblin_armour" data-size="25"></canvas>&nbsp;&nbsp;3 Goblin Mail</div><br></li>
-<li><div data-progress><canvas data-itemname="bluedye" data-size="25"></canvas>&nbsp;&nbsp;Blue dye (or 2 woad leaves and 5 coins to obtain a blue dye from Aggie)</div><br></li>
-<li><div data-progress><canvas data-itemname="orangedye" data-size="25"></canvas>&nbsp;&nbsp;Orange dye (or 3 redberries, 2 onions, and 10 coins to obtain a red and yellow dye from Aggie)</div><br></li>
+<li><div data-progress><canvas itemname="goblin_armour" icon-size="25"></canvas>&nbsp;&nbsp;3 Goblin Mail</div><br></li>
+<li><div data-progress><canvas itemname="bluedye" icon-size="25"></canvas>&nbsp;&nbsp;Blue dye (or 2 woad leaves and 5 coins to obtain a blue dye from Aggie)</div><br></li>
+<li><div data-progress><canvas itemname="orangedye" icon-size="25"></canvas>&nbsp;&nbsp;Orange dye (or 3 redberries, 2 onions, and 10 coins to obtain a red and yellow dye from Aggie)</div><br></li>
 </ul>
 <b>Starting Location:</b> Port Sarim Pub
 <br><br>

@@ -13,11 +13,11 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress>5 Fletching</div><br></li>
 <li><div data-progress>30 Cooking</div><br></li>
 <li><div data-progress>30 Ranging</div><br></li>
-<li><div data-progress><canvas data-itemname="chisel" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="knife" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="bronze_axe" data-size="25"></canvas>&nbsp;&nbsp;Any woodcutting axe</div><br></li>
-<li><div data-progress><canvas data-itemname="feather" data-size="25"></canvas>&nbsp;&nbsp;About 100 feathers</div><br></li>
-<li><div data-progress><canvas data-itemname="wolf_bones" data-size="25"></canvas>&nbsp;&nbsp;About 4-5 wolf bones</div><br></li>
+<li><div data-progress><canvas itemname="chisel" icon-size="25" show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas itemname="knife" icon-size="25" show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas itemname="bronze_axe" icon-size="25"></canvas>&nbsp;&nbsp;Any woodcutting axe</div><br></li>
+<li><div data-progress><canvas itemname="feather" icon-size="25"></canvas>&nbsp;&nbsp;About 100 feathers</div><br></li>
+<li><div data-progress><canvas itemname="wolf_bones" icon-size="25"></canvas>&nbsp;&nbsp;About 4-5 wolf bones</div><br></li>
 </ul>
 <h3>Recommended:</h3>
 <ul style="list-style-type: none;">

@@ -22,7 +22,7 @@ function runCalc() {
         const boneCount = Math.ceil(xpNeeded / xp);
         const row = document.createElement("tr");
         row.innerHTML =
-            `<td><canvas data-itemname="${item}" data-show-label="inline"></canvas></td>
+            `<td><canvas itemname="${item}" show-label="inline"></canvas></td>
             <td>${xp}</td>
             <td>${boneCount.toLocaleString()}</td>`;
         tableBody.appendChild(row);

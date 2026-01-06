@@ -27,38 +27,38 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress>52 Mining</div></li>
 <li><div data-progress>50 Smithing</div></li>
 <li><div data-progress>50 Woodcutting</div></li>
-<li><div data-progress><canvas data-itemname="hammer" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="rope" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="rune_axe" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="lockpick" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="vial_water" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="stafforb" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="sapphire" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="emerald" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="ruby" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="diamond" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="opal" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="jade" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="red_topaz" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="soulrune" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="mindrune" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="earthrune" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="lawrune" data-size="25"></canvas>&nbsp;&nbsp;2 law runes</div><br></li>
-<li><div data-progress><canvas data-itemname="charcoal" data-size="25"></canvas>&nbsp;&nbsp;2-3 charcoal</div><br></li>
-<li><div data-progress><canvas data-itemname="papyrus" data-size="25"></canvas>&nbsp;&nbsp;4-5 papyrus</div><br></li>
-<li><div data-progress><canvas data-itemname="gold_bar" data-size="25"></canvas>&nbsp;&nbsp;2-6 gold bars</div><br></li>
-<li><div data-progress><canvas data-itemname="bronze_pickaxe" data-size="25"></canvas>&nbsp;&nbsp;Any pickaxe</div><br></li>
-<li><div data-progress><canvas data-itemname="snake_weed" data-size="25" data-show-label="inline"data-name-append="(Obtainable during quest)"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="ardrigal" data-size="25" data-show-label="inline" data-name-append="(Obtainable during quest)"></canvas></div><br></li>
+<li><div data-progress><canvas itemname="hammer" icon-size="25" show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas itemname="rope" icon-size="25" show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas itemname="rune_axe" icon-size="25" show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas itemname="lockpick" icon-size="25" show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas itemname="vial_water" icon-size="25" show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas itemname="stafforb" icon-size="25" show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas itemname="sapphire" icon-size="25" show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas itemname="emerald" icon-size="25" show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas itemname="ruby" icon-size="25" show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas itemname="diamond" icon-size="25" show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas itemname="opal" icon-size="25" show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas itemname="jade" icon-size="25" show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas itemname="red_topaz" icon-size="25" show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas itemname="soulrune" icon-size="25" show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas itemname="mindrune" icon-size="25" show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas itemname="earthrune" icon-size="25" show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas itemname="lawrune" icon-size="25"></canvas>&nbsp;&nbsp;2 law runes</div><br></li>
+<li><div data-progress><canvas itemname="charcoal" icon-size="25"></canvas>&nbsp;&nbsp;2-3 charcoal</div><br></li>
+<li><div data-progress><canvas itemname="papyrus" icon-size="25"></canvas>&nbsp;&nbsp;4-5 papyrus</div><br></li>
+<li><div data-progress><canvas itemname="gold_bar" icon-size="25"></canvas>&nbsp;&nbsp;2-6 gold bars</div><br></li>
+<li><div data-progress><canvas itemname="bronze_pickaxe" icon-size="25"></canvas>&nbsp;&nbsp;Any pickaxe</div><br></li>
+<li><div data-progress><canvas itemname="snake_weed" icon-size="25" show-label="inline"name-append="(Obtainable during quest)"></canvas></div><br></li>
+<li><div data-progress><canvas itemname="ardrigal" icon-size="25" show-label="inline" name-append="(Obtainable during quest)"></canvas></div><br></li>
 <li><div data-progress>Runes to cast any Charge Orb</div><br></li>
 <li><div data-progress>The ability to defeat a level 187 demon</div><br></li>
 </ul>
 <h3>Recommended:</h3>
 <ul style="list-style-type: none;">
 <li><div data-progress>Your best weapons, armor, and food</div><br></li>
-<li><div data-progress><canvas data-itemname="4dosestatrestore" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="4doseprayerrestore" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="amulet_of_glory_4" data-size="25" data-show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas itemname="4dosestatrestore" icon-size="25" show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas itemname="4doseprayerrestore" icon-size="25" show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas itemname="amulet_of_glory_4" icon-size="25" show-label="inline"></canvas></div><br></li>
 <li><div data-progress>Teleportation runes</div><br></li>
 </ul>
 <em>Carry at all times throughout quest:</em> Armor, Hatchet (Rune hatchet required for Yommie Tree), Machete (obtained during quest), Radimus Notes/Map (received during quest), Food, and Prayer Potions

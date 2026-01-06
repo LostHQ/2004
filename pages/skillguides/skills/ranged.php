@@ -31,93 +31,93 @@ function getSkillContent($skill) { return <<<HTML
     </tr>
     <tr>
         <td>
-            <canvas data-itemname="shortbow"></canvas>
-            <canvas data-itemname="longbow"></canvas><br>
+            <canvas itemname="shortbow"></canvas>
+            <canvas itemname="longbow"></canvas><br>
             Regular Bows
         </td>
         <td>1</td>
         <td>
-            <canvas data-itemname="bronze_arrow"></canvas>
-            <canvas data-itemname="iron_arrow"></canvas><br>
+            <canvas itemname="bronze_arrow"></canvas>
+            <canvas itemname="iron_arrow"></canvas><br>
             Bronze & Iron
         </td>
     </tr>
     <tr>
         <td>
-            <canvas data-itemname="oak_shortbow"></canvas>
-            <canvas data-itemname="oak_longbow"></canvas><br>
+            <canvas itemname="oak_shortbow"></canvas>
+            <canvas itemname="oak_longbow"></canvas><br>
             Oak Bows
         </td>
         <td>5</td>
         <td>
-            <canvas data-itemname="bronze_arrow"></canvas>
-            <canvas data-itemname="iron_arrow"></canvas>
-            <canvas data-itemname="steel_arrow"></canvas><br>
+            <canvas itemname="bronze_arrow"></canvas>
+            <canvas itemname="iron_arrow"></canvas>
+            <canvas itemname="steel_arrow"></canvas><br>
             Bronze, Iron, & Steel
         </td>
     </tr>
     <tr>
         <td>
-            <canvas data-itemname="willow_shortbow"></canvas>
-            <canvas data-itemname="willow_longbow"></canvas><br>
+            <canvas itemname="willow_shortbow"></canvas>
+            <canvas itemname="willow_longbow"></canvas><br>
             Willow Bows
         </td>
         <td>20</td>
         <td>
-            <canvas data-itemname="bronze_arrow"></canvas>
-            <canvas data-itemname="iron_arrow"></canvas>
-            <canvas data-itemname="steel_arrow"></canvas>
-            <canvas data-itemname="mithril_arrow"></canvas><br>
+            <canvas itemname="bronze_arrow"></canvas>
+            <canvas itemname="iron_arrow"></canvas>
+            <canvas itemname="steel_arrow"></canvas>
+            <canvas itemname="mithril_arrow"></canvas><br>
             All Arrows up to Mithril
         </td>
     </tr>
     <tr>
         <td>
-            <canvas data-itemname="maple_shortbow"></canvas>
-            <canvas data-itemname="maple_longbow"></canvas><br>
+            <canvas itemname="maple_shortbow"></canvas>
+            <canvas itemname="maple_longbow"></canvas><br>
             Maple Bows
         </td>
         <td>30</td>
         <td>
-            <canvas data-itemname="bronze_arrow"></canvas>
-            <canvas data-itemname="iron_arrow"></canvas>
-            <canvas data-itemname="steel_arrow"></canvas>
-            <canvas data-itemname="mithril_arrow"></canvas>
-            <canvas data-itemname="adamant_arrow"></canvas><br>
+            <canvas itemname="bronze_arrow"></canvas>
+            <canvas itemname="iron_arrow"></canvas>
+            <canvas itemname="steel_arrow"></canvas>
+            <canvas itemname="mithril_arrow"></canvas>
+            <canvas itemname="adamant_arrow"></canvas><br>
             All Arrows up to Adamant
         </td>
     </tr>
     <tr>
         <td>
-            <canvas data-itemname="yew_shortbow"></canvas>
-            <canvas data-itemname="yew_longbow"></canvas><br>
+            <canvas itemname="yew_shortbow"></canvas>
+            <canvas itemname="yew_longbow"></canvas><br>
             Yew Bows
         </td>
         <td>40</td>
         <td>
-            <canvas data-itemname="bronze_arrow"></canvas>
-            <canvas data-itemname="iron_arrow"></canvas>
-            <canvas data-itemname="steel_arrow"></canvas>
-            <canvas data-itemname="mithril_arrow"></canvas>
-            <canvas data-itemname="adamant_arrow"></canvas>
-            <canvas data-itemname="rune_arrow"></canvas><br>
+            <canvas itemname="bronze_arrow"></canvas>
+            <canvas itemname="iron_arrow"></canvas>
+            <canvas itemname="steel_arrow"></canvas>
+            <canvas itemname="mithril_arrow"></canvas>
+            <canvas itemname="adamant_arrow"></canvas>
+            <canvas itemname="rune_arrow"></canvas><br>
             All Arrows up to Rune
         </td>
     </tr>
     <tr>
         <td>
-            <canvas data-itemname="magic_shortbow"></canvas>
-            <canvas data-itemname="magic_longbow"></canvas><br>
+            <canvas itemname="magic_shortbow"></canvas>
+            <canvas itemname="magic_longbow"></canvas><br>
             Magic Bows
         </td>
         <td>50</td>
         <td>
-            <canvas data-itemname="bronze_arrow"></canvas>
-            <canvas data-itemname="iron_arrow"></canvas>
-            <canvas data-itemname="steel_arrow"></canvas>
-            <canvas data-itemname="mithril_arrow"></canvas>
-            <canvas data-itemname="adamant_arrow"></canvas>
-            <canvas data-itemname="rune_arrow"></canvas><br>
+            <canvas itemname="bronze_arrow"></canvas>
+            <canvas itemname="iron_arrow"></canvas>
+            <canvas itemname="steel_arrow"></canvas>
+            <canvas itemname="mithril_arrow"></canvas>
+            <canvas itemname="adamant_arrow"></canvas>
+            <canvas itemname="rune_arrow"></canvas><br>
             All Arrows up to Rune
         </td>
     </tr>
@@ -132,102 +132,102 @@ function getSkillContent($skill) { return <<<HTML
         </tr>
         <tr>
             <td>
-                <canvas data-itemname="leather_cowl"></canvas>
-                <canvas data-itemname="leather_armour"></canvas>
-                <canvas data-itemname="leather_chaps"></canvas>
-                <canvas data-itemname="leather_vambraces"></canvas><br>
+                <canvas itemname="leather_cowl"></canvas>
+                <canvas itemname="leather_armour"></canvas>
+                <canvas itemname="leather_chaps"></canvas>
+                <canvas itemname="leather_vambraces"></canvas><br>
                 Cowl, Leather body, chaps, & vambraces
             </td>
             <td>1</td>
         </tr>
         <tr>
             <td>
-                <canvas data-itemname="hardleather_body" data-show-label="true"></canvas>
+                <canvas itemname="hardleather_body" show-label="true"></canvas>
             </td>
             <td>1<br>(10 Defence)</td>
         </tr>
         <tr>
             <td>
-                <canvas data-itemname="studded_body" data-show-label="true"></canvas>
+                <canvas itemname="studded_body" show-label="true"></canvas>
             </td>
             <td>20<br>(20 Defence)</td>
         </tr>
         <tr>
             <td>
-                <canvas data-itemname="studded_chaps" data-show-label="true"></canvas>
+                <canvas itemname="studded_chaps" show-label="true"></canvas>
             </td>
             <td>20</td>
         </tr>
         <tr>
             <td>
-                <canvas data-itemname="coif" data-show-label="true"></canvas>
+                <canvas itemname="coif" show-label="true"></canvas>
             </td>
             <td>20</td>
         </tr>
         <tr>
             <td>
-                <canvas data-itemname="dragonhide_body" data-show-label="true"></canvas>
+                <canvas itemname="dragonhide_body" show-label="true"></canvas>
             </td>
             <td>40<br>(40 defence +<br>Dragon Slayer)</td>
         </tr>
         <tr>
             <td>
-                <canvas data-itemname="dragon_vambraces"></canvas>
-                <canvas data-itemname="dragonhide_chaps"></canvas><br>
+                <canvas itemname="dragon_vambraces"></canvas>
+                <canvas itemname="dragonhide_chaps"></canvas><br>
                 Green Dragonhide chaps & vambraces
             </td>
             <td>40</td>
         </tr>
         <tr>
             <td>
-                <canvas data-itemname="robinhoodhat" data-show-label="true"></canvas>
+                <canvas itemname="robinhoodhat" show-label="true"></canvas>
             </td>
             <td>40</td>
         </tr>
         <tr>
             <td>
-                <canvas data-itemname="boots_ranger" data-show-label="true"></canvas>
+                <canvas itemname="boots_ranger" show-label="true"></canvas>
             </td>
             <td>40</td>
         </tr>
         <tr>
             <td>
-                <canvas data-itemname="blue_dragonhide_body" data-show-label="true"></canvas>
+                <canvas itemname="blue_dragonhide_body" show-label="true"></canvas>
             </td>
             <td>50<br>(40 defence)</td>
         </tr>
         <tr>
             <td>
-                <canvas data-itemname="blue_dragon_vambraces"></canvas>
-                <canvas data-itemname="blue_dragonhide_chaps"></canvas><br>
+                <canvas itemname="blue_dragon_vambraces"></canvas>
+                <canvas itemname="blue_dragonhide_chaps"></canvas><br>
                 Blue Dragonhide chaps & vambraces
             </td>
             <td>50</td>
         </tr>
         <tr>
             <td>
-                <canvas data-itemname="red_dragonhide_body" data-show-label="true"></canvas>
+                <canvas itemname="red_dragonhide_body" show-label="true"></canvas>
             </td>
             <td>60<br>(40 defence)</td>
         </tr>
         <tr>
             <td>
-                <canvas data-itemname="red_dragon_vambraces"></canvas>
-                <canvas data-itemname="red_dragonhide_chaps"></canvas><br>
+                <canvas itemname="red_dragon_vambraces"></canvas>
+                <canvas itemname="red_dragonhide_chaps"></canvas><br>
                 Red Dragonhide chaps & vambraces
             </td>
             <td>60</td>
         </tr>
         <tr>
             <td>
-                <canvas data-itemname="black_dragonhide_body" data-show-label="true"></canvas>
+                <canvas itemname="black_dragonhide_body" show-label="true"></canvas>
             </td>
             <td>70<br>(40 defence)</td>
         </tr>
         <tr>
             <td>
-                <canvas data-itemname="black_dragon_vambraces"></canvas>
-                <canvas data-itemname="black_dragonhide_chaps"></canvas><br>
+                <canvas itemname="black_dragon_vambraces"></canvas>
+                <canvas itemname="black_dragonhide_chaps"></canvas><br>
                 Black Dragonhide chaps & vambraces
             </td>
             <td>70</td>

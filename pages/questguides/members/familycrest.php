@@ -12,33 +12,33 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
     <li><div data-progress>40 Smithing</div></li>
     <li><div data-progress>40 Crafting</div></li>
     <li><div data-progress>59 Magic</div></li>
-    <li><div data-progress><canvas data-itemname="ruby" data-size="25"></canvas>&nbsp;&nbsp;2 Cut rubies</div></li>
-    <li><div data-progress><canvas data-itemname="bronze_pickaxe" data-size="25"></canvas>&nbsp;&nbsp;Any Pickaxe</div></li>
-    <li><div data-progress><canvas data-itemname="shrimp" data-size="25" data-show-label="inline"></canvas></div></li>
-    <li><div data-progress><canvas data-itemname="salmon" data-size="25" data-show-label="inline"></canvas></div></li>
-    <li><div data-progress><canvas data-itemname="tuna" data-size="25" data-show-label="inline"></canvas></div></li>
-    <li><div data-progress><canvas data-itemname="bass" data-size="25" data-show-label="inline"></canvas></div></li>
-    <li><div data-progress><canvas data-itemname="swordfish" data-size="25" data-show-label="inline"></canvas></div></li>
-    <li><div data-progress><canvas data-itemname="ring_mould" data-size="25" data-show-label="inline"></canvas></div></li>
-    <li><div data-progress><canvas data-itemname="necklace_mould" data-size="25" data-show-label="inline"></canvas></div></li>
-    <li><div data-progress><canvas data-itemname="3doseantipoison" data-size="25"></canvas>&nbsp;&nbsp;Any Antipoison potion</div></li>
-    <li><div data-progress><canvas data-itemname="deathrune" data-size="25"></canvas>&nbsp;&nbsp;x4 Death runes</div></li>
-    <li><div data-progress><canvas data-itemname="airrune" data-size="25"></canvas>&nbsp;&nbsp;x13 Air runes</div></li>
-    <li><div data-progress><canvas data-itemname="waterrune" data-size="25"></canvas>&nbsp;&nbsp;x3 Water runes</div></li>
-    <li><div data-progress><canvas data-itemname="earthrune" data-size="25"></canvas>&nbsp;&nbsp;x4 Earth runes</div></li>
-    <li><div data-progress><canvas data-itemname="firerune" data-size="25"></canvas>&nbsp;&nbsp;x5 Fire runes</div></li>
+    <li><div data-progress><canvas itemname="ruby" icon-size="25"></canvas>&nbsp;&nbsp;2 Cut rubies</div></li>
+    <li><div data-progress><canvas itemname="bronze_pickaxe" icon-size="25"></canvas>&nbsp;&nbsp;Any Pickaxe</div></li>
+    <li><div data-progress><canvas itemname="shrimp" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="salmon" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="tuna" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="bass" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="swordfish" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="ring_mould" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="necklace_mould" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="3doseantipoison" icon-size="25"></canvas>&nbsp;&nbsp;Any Antipoison potion</div></li>
+    <li><div data-progress><canvas itemname="deathrune" icon-size="25"></canvas>&nbsp;&nbsp;x4 Death runes</div></li>
+    <li><div data-progress><canvas itemname="airrune" icon-size="25"></canvas>&nbsp;&nbsp;x13 Air runes</div></li>
+    <li><div data-progress><canvas itemname="waterrune" icon-size="25"></canvas>&nbsp;&nbsp;x3 Water runes</div></li>
+    <li><div data-progress><canvas itemname="earthrune" icon-size="25"></canvas>&nbsp;&nbsp;x4 Earth runes</div></li>
+    <li><div data-progress><canvas itemname="firerune" icon-size="25"></canvas>&nbsp;&nbsp;x5 Fire runes</div></li>
 </ul>
 <h3>Recommended:</h3>
 <ul style="list-style-type: none;">
     <li><div data-progress>50 Fishing (to obtain a swordfish)</div></li>
     <li><div data-progress>45 Cooking (to cook a swordfish)</div></li>
     <li><div data-progress>Decent weapon and armor</div></li>
-    <li><div data-progress><canvas data-itemname="3doseantipoison" data-size="25"></canvas>&nbsp;&nbsp;Another Antipoison potion</div></li>
-    <li><div data-progress><canvas data-itemname="lobster" data-size="25"></canvas>&nbsp;&nbsp;Food</div></li>
-    <li><div data-progress><canvas data-itemname="lawrune" data-size="25"></canvas>&nbsp;&nbsp;Runes for Teleport to Ardougne or Camelot</div><br></li>
-    <li><div data-progress><canvas data-itemname="lawrune" data-size="25"></canvas>&nbsp;&nbsp;Runes for Teleport to Lumbridge</div><br></li>
-    <li><div data-progress><canvas data-itemname="lawrune" data-size="25"></canvas>&nbsp;&nbsp;Runes for Teleport to Falador</div><br></li>
-    <li><div data-progress><canvas data-itemname="lawrune" data-size="25"></canvas>&nbsp;&nbsp;Runes for Teleport to Varrock</div><br></li>
+    <li><div data-progress><canvas itemname="3doseantipoison" icon-size="25"></canvas>&nbsp;&nbsp;Another Antipoison potion</div></li>
+    <li><div data-progress><canvas itemname="lobster" icon-size="25"></canvas>&nbsp;&nbsp;Food</div></li>
+    <li><div data-progress><canvas itemname="lawrune" icon-size="25"></canvas>&nbsp;&nbsp;Runes for Teleport to Ardougne or Camelot</div><br></li>
+    <li><div data-progress><canvas itemname="lawrune" icon-size="25"></canvas>&nbsp;&nbsp;Runes for Teleport to Lumbridge</div><br></li>
+    <li><div data-progress><canvas itemname="lawrune" icon-size="25"></canvas>&nbsp;&nbsp;Runes for Teleport to Falador</div><br></li>
+    <li><div data-progress><canvas itemname="lawrune" icon-size="25"></canvas>&nbsp;&nbsp;Runes for Teleport to Varrock</div><br></li>
 </ul>
 <br><br>
 <b>Starting Location:</b> Southeast of the East Varrock bank
