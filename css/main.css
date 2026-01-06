@@ -571,7 +571,7 @@ A.pink:hover {
     font-size: 12px;
     padding: 10px;
     display: flex;
-    gap: 40px;
+    gap: 5px;
     width: fit-content;
     margin: auto;
 }
@@ -580,6 +580,7 @@ A.pink:hover {
     display: flex;
     flex-direction: column;
     text-align: left;
+    padding-left: 10px;
 }
 
 .quest-header {

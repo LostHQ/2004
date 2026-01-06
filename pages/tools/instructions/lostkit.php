@@ -61,8 +61,8 @@ function getGuideContent($guide) {
     <br><br>
     Currently, the two IRC channels for LostKit are #2004Scape and #LostHQ.
     <ul>
-        <li><b>#2004Scape</b> — The primary global RuneScape chat channel.</li>
-        <li><b>#LostHQ</b> — The official LostHQ staff and community channel.</li>
+        <li><b>#2004Scape</b> - The primary global RuneScape chat channel.</li>
+        <li><b>#LostHQ</b> - The official LostHQ staff and community channel.</li>
     </ul>
     The #LostHQ channel is also bridged with the LostHQ Discord server. Messages sent in the Discord game-chat channel appear on IRC, and vice versa which allow real-time cross-platform conversation.
     <br><br>

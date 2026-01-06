@@ -48,7 +48,7 @@ function renderSpriteToCanvas(debugname, canvas) {
     ctx.clearRect(0, 0, size, size);
     ctx.drawImage(spritesheet, col * spriteSize, row * spriteSize, spriteSize, spriteSize, 0, 0, size, size);
 
-    let tooltip = `${name} — ${desc}`;
+    let tooltip = `${name} - ${desc}`;
     if (cost > 0) {
         const highAlch = Math.floor(cost * 0.6);
         tooltip += `\nHigh Alch: ${highAlch.toLocaleString()} coins`;

@@ -11,7 +11,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
     <h3>Items & Skills Needed:</h3>
     <ul style="list-style-type: none;">
     <li><div data-progress><canvas itemname="bucket_water" icon-size="25" show-label="inline" name-append=" (can be obtained during quest)"></canvas></div></li>
-    <li><div data-progress><canvas itemname="bones" icon-size="25" show-label="inline" name-append=" (can't be noted, but can be delivered in increments)"></canvas></div></li>
+    <li><div data-progress><canvas itemname="bones" icon-size="25" show-label="inline" name-append=" x25 (can't be noted, but can be delivered in increments)"></canvas></div></li>
     <li><div data-progress><canvas itemname="coins" icon-size="25" show-label="inline" name-append=" (1gp)"></canvas></div></li>
     </ul>
     <h3>Recommended:</h3>

@@ -1,5 +1,5 @@
 <?php
-function getQuestGuide($questName) { return <<<HTML
+function getQuestGuide($questName, $questComplete) { return <<<HTML
 <div id="narrowscroll">
     <h2>$questName</h2>
     <b>Description:</b> This quest allows you to learn three new magic spells and get three new staves.
@@ -97,9 +97,9 @@ Saradomin Staff: Hits good and reduces Prayer.
 <br>
 The 3 God Staffs each cost 80k at the shop
 <br><br>
-Remember that it's a Members-Only "mini" quest and thus you won't receive any Quest Points for it.
+Remember that it's a Members-Only "mini" quest and thus you won't receive any Quest Points for it.<br>
 I hope this guide has helped you.
-<hr>
+$questComplete
 This Mini-Quest guide was written by allerchiez, pirate bob 49, super dude, lascerator, and trekkie. Thanks to DRAVAN, gkef, Obi-Wan, bonzi buddy3, Kuramawhip, Imperial G96, Kang227, iamanarab, Alrikthemad, Wicked baron, and lewt04 for corrections.
 <br><br>
 This Mini-Quest guide was entered into the RuneHQ.com database on Wed, Jun 09, 2004, at 12:25:43 PM by DRAVAN and CJH and was last updated on Sun, Nov 13, 2005, at 03:31:57 AM by Fireball0236.

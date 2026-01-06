@@ -1,5 +1,5 @@
 <?php
-function getQuestGuide($questName) { return <<<HTML
+function getQuestGuide($questName, $questComplete) { return <<<HTML
 <div id="narrowscroll">
     <h2>$questName</h2>
     <b>Description:</b> Complete this Fremennik 'rite of passage' to gain access to the Barbarian Outpost agility course.
@@ -44,5 +44,5 @@ function getQuestGuide($questName) { return <<<HTML
 <div data-progress>Last is the bar in the Grand Tree. Go north to the Gnome Stronghold and up to the <span data-floors="US">2nd floor</span> of the Grand tree. Now you should be done.</div>
 <br><br>
 <div data-progress>Go back to the Barbarian Outpost and hand over your card.</div>
-<br><br>
+$questComplete
 HTML; }

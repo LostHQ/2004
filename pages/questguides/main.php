@@ -1,68 +1,65 @@
 <?php
-$miniquestlist = array(
-    "barcrawl" => "Alfred Grimhand's Barcrawl",
-    "magearena" => "Mage Arena"
-);
-
 $questlist = array(
-    //String questKey => array(String questName => boolean isMembers)
-    "blackknightsfortress" => array("Black Knight's Fortress" => false),
-    "cooksassistant" => array("Cook's Assistant" => false),
-    "demonslayer" => array("Demon Slayer" => false),
-    "dorics" => array("Doric's Quest" => false),
-    "dragonslayer" => array("Dragon Slayer" => false),
-    "ernestthechicken" => array("Ernest the Chicken" => false),
-    "goblindiplomacy" => array("Goblin Diplomacy" => false),
-    "impcatcher" => array("Imp Catcher" => false),
-    "knightssword" => array("The Knight's Sword" => false),
-    "piratestreasure" => array("Pirate's Treasure" => false),
-    "princealirescue" => array("Prince Ali Rescue" => false),
-    "restlessghost" => array("The Restless Ghost" => false),
-    "romeojuliet" => array("Romeo & Juliet" => false),
-    "runemysteries" => array("Rune Mysteries Quest" => false),
-    "sheepshearer" => array("Sheep Shearer" => false),
-    "shieldofarrav" => array("Shield of Arrav" => false),
-    "vampireslayer" => array("Vampire Slayer" => false),
-    "witchspotion" => array("Witch's Potion" => false),
-    "bigchompybirdhunting" => array("Big Chompy Bird Hunting" => true), 
-    "biohazard" => array("Biohazard" => true),
-    "clocktower" => array("Clock Tower" => true),
-    "deathplateau" => array("Death Plateau" => true),
-    "digsite" => array("Digsite Quest" => true),
-    "druidicritual" => array("Druidic Ritual" => true), 
-    "dwarfcannon" => array("Dwarf Cannon" => true),
-    "elementalworkshop" => array("Elemental Workshop" => true),
-    "familycrest" => array("Family Crest" => true),
-    "fightarena" => array("Fight Arena" => true),
-    "fishingcontest" => array("Fishing Contest" => true),
-    "gertrudescat" => array("Gertrude's Cat" => true),
-    "grandtree" => array("The Grand Tree" => true),
-    "hazeelcult" => array("Hazeel Cult" => true),
-    "holygrail" => array("Holy Grail" => true),
-    "heros" => array("Hero's Quest" => true),
-    "junglepotion" => array("Jungle Potion" => true),
-    "legends" => array("Legends Quest" => true),
-    "lostcity" => array("Lost City" => true),
-    "merlinscrystal" => array("Merlin's Crystal" => true),
-    "monksfriend" => array("Monk's Friend" => true),
-    "murdermystery" => array("Murder Mystery" => true),
-    "naturespirit" => array("Nature Spirit" => true),
-    "observatory" => array("Observatory Quest" => true),
-    "plaguecity" => array("Plague City" => true),
-    "priestinperil" => array("Priest in Peril" => true),
-    "scorpioncatcher" => array("Scorpion Catcher" => true),
-    "seaslug" => array("Sea Slug Quest" => true),
-    "sheepherder" => array("Sheep Herder" => true),
-    "shilovillage" => array("Shilo Village" => true),
-    "templeofikov" => array("Temple of Ikov" => true),
-    "touristtrap" => array("The Tourist Trap" => true),
-    "treegnomevillage" => array("Tree Gnome Village" => true),
-    "trollstronghold" => array("Troll Stronghold" => true),
-    "tribaltotem" => array("Tribal Totem" => true),
-    "undergroundpass" => array("Underground Pass" => true),
-    "watchtower" => array("Watch Tower" => true),
-    "waterfall" => array("Waterfall Quest" => true),
-    "witchshouse" => array("Witches House" => true)
+    //String questKey => [String questName => int type] (0 = free, 1 = members, 2 = miniquest)
+    "blackknightsfortress" => ["Black Knight's Fortress", 0],
+    "cooksassistant" => ["Cook's Assistant", 0],
+    "demonslayer" => ["Demon Slayer", 0],
+    "dorics" => ["Doric's Quest", 0],
+    "dragonslayer" => ["Dragon Slayer", 0],
+    "ernestthechicken" => ["Ernest the Chicken", 0],
+    "goblindiplomacy" => ["Goblin Diplomacy", 0],
+    "impcatcher" => ["Imp Catcher", 0],
+    "knightssword" => ["The Knight's Sword", 0],
+    "piratestreasure" => ["Pirate's Treasure", 0],
+    "princealirescue" => ["Prince Ali Rescue", 0],
+    "restlessghost" => ["The Restless Ghost", 0],
+    "romeojuliet" => ["Romeo & Juliet", 0],
+    "runemysteries" => ["Rune Mysteries Quest", 0],
+    "sheepshearer" => ["Sheep Shearer", 0],
+    "shieldofarrav" => ["Shield of Arrav", 0],
+    "vampireslayer" => ["Vampire Slayer", 0],
+    "witchspotion" => ["Witch's Potion", 0],
+    "bigchompybirdhunting" => ["Big Chompy Bird Hunting", 1], 
+    "biohazard" => ["Biohazard", 1],
+    "clocktower" => ["Clock Tower", 1],
+    "deathplateau" => ["Death Plateau", 1],
+    "digsite" => ["Digsite Quest", 1],
+    "druidicritual" => ["Druidic Ritual", 1], 
+    "dwarfcannon" => ["Dwarf Cannon", 1],
+    "elementalworkshop" => ["Elemental Workshop", 1],
+    "familycrest" => ["Family Crest", 1],
+    "fightarena" => ["Fight Arena", 1],
+    "fishingcontest" => ["Fishing Contest", 1],
+    "gertrudescat" => ["Gertrude's Cat", 1],
+    "grandtree" => ["The Grand Tree", 1],
+    "hazeelcult" => ["Hazeel Cult", 1],
+    "holygrail" => ["Holy Grail", 1],
+    "heros" => ["Hero's Quest", 1],
+    "junglepotion" => ["Jungle Potion", 1],
+    "legends" => ["Legends Quest", 1],
+    "lostcity" => ["Lost City", 1],
+    "merlinscrystal" => ["Merlin's Crystal", 1],
+    "monksfriend" => ["Monk's Friend", 1],
+    "murdermystery" => ["Murder Mystery", 1],
+    "naturespirit" => ["Nature Spirit", 1],
+    "observatory" => ["Observatory Quest", 1],
+    "plaguecity" => ["Plague City", 1],
+    "priestinperil" => ["Priest in Peril", 1],
+    "scorpioncatcher" => ["Scorpion Catcher", 1],
+    "seaslug" => ["Sea Slug Quest", 1],
+    "sheepherder" => ["Sheep Herder", 1],
+    "shilovillage" => ["Shilo Village", 1],
+    "templeofikov" => ["Temple of Ikov", 1],
+    "touristtrap" => ["The Tourist Trap", 1],
+    "treegnomevillage" => ["Tree Gnome Village", 1],
+    "trollstronghold" => ["Troll Stronghold", 1],
+    "tribaltotem" => ["Tribal Totem", 1],
+    "undergroundpass" => ["Underground Pass", 1],
+    "watchtower" => ["Watch Tower", 1],
+    "waterfall" => ["Waterfall Quest", 1],
+    "witchshouse" => ["Witches House", 1],
+    "barcrawl" => ["Alfred Grimhand's Barcrawl", 2],
+    "magearena" => ["Mage Arena", 2],
 );
 ksort($questlist);
 
@@ -80,12 +77,6 @@ function getPageContent() {
             echo renderQuestListOldschool($questlist);
         } else {
             echo renderQuestList($questlist);
-        }
-        echo '<hr><h3>Mini quests</h3>';
-        if ($siteOptStyle === 'oldschool') {
-            echo renderMiniQuestListOldschool($miniquestlist);
-        } else {
-            echo renderMiniQuestList($miniquestlist);
         }
         echo '<br><hr>
         <table class="table">
@@ -111,20 +102,11 @@ function getPageContent() {
 
         foreach ($questlist as $key => $quest) {
             if ($key === $currQuest) {
-                foreach ($quest as $name => $isMembers) {
-                    $questName = $name;
-                    $questMembers = $isMembers;
-                    $found = true;
-                    $questType = 'main';
-                    break 2;
-                }
+                $questName = $quest[0];
+                $questType = $quest[1];
+                $found = true;
+                break;
             }
-        }
-
-        if (!$found && isset($miniquestlist[$currQuest])) {
-            $questName = $miniquestlist[$currQuest];
-            $found = true;
-            $questType = 'mini';
         }
 
         if ($found) {
@@ -133,7 +115,7 @@ function getPageContent() {
             $meta_data['og:image'] = 'img/questIcons/' . $currQuest . '.webp';
 
             $fileLocation = 'pages/questguides/' .
-                ($questType === 'mini' ? 'miniquest' : ($questMembers ? 'members' : 'free')) .
+                ($questType == 2 ? 'miniquest' : ($questType == 1 ? 'members' : 'free')) .
                 '/' . $currQuest . '.php';
 
             if (!file_exists($fileLocation)) {
@@ -142,10 +124,14 @@ function getPageContent() {
                 exit;
             }
 
-            $questComplete = '
-                <h2>Congratulations, ' . ($questType === 'mini' ? 'Miniquest' : 'Quest') . ' Complete!</h2><br>
-                <img src="img/questimages/quest_complete/' . $currQuest . '.png" alt="Quest Complete!" width="80%">
-                <hr>';
+            if ($questType == 2) {
+                $questComplete = '<br><br><h2>Congratulations, Miniquest Complete!</h2><hr>';
+            } else {
+                $questComplete = '<br><br><h2>Congratulations, Quest Complete!</h2><br>
+                <img src="img/questimages/quest_complete/' . $currQuest . '.png" alt="Quest Complete!" width="80%"><hr>';
+            }
+
+
 
             include $fileLocation;
             echo getQuestGuide($questName, $questComplete);
@@ -168,9 +154,9 @@ function renderQuestList(array $questlist): string {
 
     // Free Quests
     foreach ($questlist as $questKey => $quest) {
-        $questName = array_key_first($quest);
-        $isMembers = $quest[$questName];
-        if (!$isMembers) {
+        $questName = $quest[0];
+        $questType = $quest[1];
+        if ($questType == 0) {
             $url = "?p=questguides&quest=" . urlencode($questKey);
             $html .= '<div class="quest-entry"><a href="' . $url . '">' . htmlspecialchars($questName) . '</a></div>';
         }
@@ -184,9 +170,25 @@ function renderQuestList(array $questlist): string {
 
     // Members Quests
     foreach ($questlist as $questKey => $quest) {
-        $questName = array_key_first($quest);
-        $isMembers = $quest[$questName];
-        if ($isMembers) {
+        $questName = $quest[0];
+        $questType = $quest[1];
+        if ($questType == 1) {
+            $url = "?p=questguides&quest=" . urlencode($questKey);
+            $html .= '<div class="quest-entry"><a href="' . $url . '">' . htmlspecialchars($questName) . '</a></div>';
+        }
+    }
+
+    $html .= <<<HTML
+        </div>
+        <div class="quest-column">
+            <div class="quest-header">MINI QUESTS:</div>
+        HTML;
+
+    // Mini Quests
+    foreach ($questlist as $questKey => $quest) {
+        $questName = $quest[0];
+        $questType = $quest[1];
+        if ($questType == 2) {
             $url = "?p=questguides&quest=" . urlencode($questKey);
             $html .= '<div class="quest-entry"><a href="' . $url . '">' . htmlspecialchars($questName) . '</a></div>';
         }
@@ -200,60 +202,35 @@ function renderQuestListOldschool(array $questlist): string {
     // Separate the quests
     $freeQuests = [];
     $membersQuests = [];
+    $miniQuests = [];
 
     foreach ($questlist as $questKey => $quest) {
-        $questName = array_key_first($quest);
-        $isMembers = $quest[$questName];
+        $questName = $quest[0];
+        $questType = $quest[1];
         $url = "?p=questguides&quest=" . urlencode($questKey);
-
-        if ($isMembers) {
-            $membersQuests[] = '<a href="' . $url . '">' . htmlspecialchars($questName) . '</a>';
-        } else {
-            $freeQuests[] = '<a href="' . $url . '">' . htmlspecialchars($questName) . '</a>';
+        switch ($questType) {
+            case 0:
+                $freeQuests[] = '<a href="' . $url . '">' . htmlspecialchars($questName) . '</a>';
+                break;
+            case 1:
+                $membersQuests[] = '<a href="' . $url . '">' . htmlspecialchars($questName) . '</a>';
+                break;
+            case 2:
+                $miniQuests[] = '<a href="' . $url . '">' . htmlspecialchars($questName) . '</a>';
+                break;
         }
     }
 
-    // Determine the max rows needed
-    $maxRows = max(count($freeQuests), count($membersQuests));
+    $maxRows = max(count($freeQuests), count($membersQuests), count($miniQuests));
 
     $html = '<table class="table">';
-    $html .= '<thead><tr><th>Free Quests</th><th>Members Quests</th></tr></thead><tbody>';
+    $html .= '<thead><tr><th>Free Quests</th><th>Members Quests</th><th>Mini Quests</th></tr></thead><tbody>';
 
-    // Render rows
     for ($i = 0; $i < $maxRows; $i++) {
         $free = $freeQuests[$i] ?? '';
         $members = $membersQuests[$i] ?? '';
-        $html .= '<tr><td>' . $free . '</td><td>' . $members . '</td></tr>';
-    }
-
-    $html .= '</tbody></table>';
-    return $html;
-}
-
-function renderMiniQuestList(array $miniquestlist): string {
-    $html = <<<HTML
-        <div class="quest-container">
-            <div class="quest-column">
-                <div class="quest-header">MINI QUESTS:</div>
-    HTML;
-
-    foreach ($miniquestlist as $questKey => $questName) {
-        $url = "?p=questguides&quest=" . urlencode($questKey);
-        $html .= '<div class="quest-entry"><a href="' . $url . '">' . htmlspecialchars($questName) . '</a></div>';
-    }
-
-    $html .= '</div></div>';
-    return $html;
-}
-
-
-function renderMiniQuestListOldschool(array $miniquestlist): string {
-    $html = '<table class="table">';
-    $html .= '<thead><tr><th>Mini Quests</th></tr></thead><tbody>';
-
-    foreach ($miniquestlist as $questKey => $questName) {
-        $url = "?p=questguides&quest=" . urlencode($questKey);
-        $html .= '<tr><td><a href="' . $url . '">' . htmlspecialchars($questName) . '</a></td></tr>';
+        $mini = $miniQuests[$i] ?? '';
+        $html .= '<tr><td>' . $free . '</td><td>' . $members . '</td><td>' . $mini . '</td></tr>';
     }
 
     $html .= '</tbody></table>';
