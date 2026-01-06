@@ -1,7 +1,7 @@
 // itemlist.js
 (async function () {
     // load & filter & tag items
-    const raw = await fetch("js/itemlist.json").then((r) => r.json());
+    const raw = await fetch("js/itemdb/itemdb.json").then((r) => r.json());
     const items = raw
         .filter((i) => i.name && !i.debugname.startsWith("cert_"))
         .map((i) => {
@@ -10,6 +10,7 @@
             const tags = [i.name, i.id, dn, dnSpaced].join(" ").toLowerCase();
             return { ...i, searchTags: tags };
         })
+        .sort((a, b) => a.id - b.id)
         .sort((a, b) => a.name.localeCompare(b.name));
 
     // grab inputs & container
@@ -54,7 +55,7 @@
         if (!val) return;
 
         const terms = val.split(/\s+/).filter(Boolean);
-        const matches = items.filter((it) => terms.every((t) => it.searchTags.includes(t))).slice(0, 10);
+        const matches = items.filter((it) => terms.every((t) => it.searchTags.includes(t))).slice(0, 15);
 
         matches.forEach((it) => {
             const li = document.createElement("li");

@@ -5,7 +5,7 @@ let itemData = [];
 const spritesheet = new Image();
 spritesheet.src = "img/item_spritesheet.png?v254";
 
-Promise.all([fetch(`js/itemlist.json?v=${currentGameVer}`).then((res) => res.json()), new Promise((resolve) => (spritesheet.onload = resolve))])
+Promise.all([fetch(`js/itemdb/itemdb.json?v=${currentGameVer}`).then((res) => res.json()), new Promise((resolve) => (spritesheet.onload = resolve))])
     .then(([json]) => {
         itemData = json;
         window.spriteLoaderReady = true;

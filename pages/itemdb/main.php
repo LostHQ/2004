@@ -22,7 +22,7 @@ function getPageContent() {
 
 <div id="item-tables-container"></div>
 
-<script src="pages/itemdb/itemlist.js"></script>
+<script src="js/itemdb/itemdb.js"></script>
 
 HTML;
 }
