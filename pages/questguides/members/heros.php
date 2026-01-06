@@ -22,16 +22,16 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress>25 Herblore</div><br></li>
 <li><div data-progress>53 Fishing (or 50 and a fishing potion)</div><br></li>
 <li><div data-progress>53 Cooking</div><br></li>
-<li><div data-progress><canvas itemname="fishing_rod" icon-size="25" show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas itemname="fishing_bait" icon-size="25" show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas itemname="harralandervial" icon-size="25"></canvas>&nbsp;&nbsp;Harralander potion (unf) (or a harralander and a vial of water)</div><br></li>
-<li><div data-progress><canvas itemname="bronze_pickaxe" icon-size="25"></canvas>&nbsp;&nbsp;Any pickaxe</div><br></li>
+<li><div data-progress><canvas itemname="fishing_rod" icon-size="25" show-label="inline"></canvas></div></li>
+<li><div data-progress><canvas itemname="fishing_bait" icon-size="25" show-label="inline"></canvas></div></li>
+<li><div data-progress><canvas itemname="harralandervial" icon-size="25" show-label="inline" name-append=" (or a harralander and vial of water)"></canvas></div></li>
+<li><div data-progress><canvas itemname="steel_pickaxe" icon-size="25" show-label="inline" name-replace="Any pickaxe"></canvas></div></li>
 </ul>
 <b>Black Arm Gang members</b>
 <ul style="list-style-type: none;">
-<li><div data-progress><canvas itemname="black_full_helm" icon-size="25" show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas itemname="black_platebody" icon-size="25" show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas itemname="black_platelegs" icon-size="25" show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas itemname="black_full_helm" icon-size="25" show-label="inline"></canvas></div></li>
+<li><div data-progress><canvas itemname="black_platebody" icon-size="25" show-label="inline"></canvas></div></li>
+<li><div data-progress><canvas itemname="black_platelegs" icon-size="25" show-label="inline"></canvas></div></li>
 </ul>
 <b>Phoenix Gang members</b>
 <ul style="list-style-type: none;">
@@ -40,9 +40,9 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h3>Recommended:</h3>
 <ul style="list-style-type: none;">
 <li><div data-progress>43 Prayer</div></li>
-<li><div data-progress><canvas itemname="antidragonbreathshield" icon-size="25" show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas itemname="dusty_key" icon-size="25" show-label="inline"></canvas></div><br></li>
-<li><div data-progress>Food</div><br></li>
+<li><div data-progress><canvas itemname="antidragonbreathshield" icon-size="25" show-label="inline"></canvas></div></li>
+<li><div data-progress><canvas itemname="dusty_key" icon-size="25" show-label="inline"></canvas></div></li>
+<li><div data-progress>Food</div></li>
 </ul>
 <b>Starting Location:</b> North of Taverley, outside the Hero's guild
 <br><br>

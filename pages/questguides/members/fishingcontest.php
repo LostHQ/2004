@@ -11,15 +11,15 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h3>Items & Skills Needed:</h3>
 <ul style="list-style-type: none;">
 <li><div data-progress>10 Fishing</div><br></li>
-<li><div data-progress><canvas itemname="coins_5" icon-size="25"></canvas>&nbsp;&nbsp;5 coins</div><br></li>
-<li><div data-progress><canvas itemname="fishing_rod" icon-size="25" show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas itemname="garlic" icon-size="25" show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas itemname="spade" icon-size="25" show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas itemname="coins_5" icon-size="25" show-label="inline" name-replace="5 coins"></canvas></div></li>
+<li><div data-progress><canvas itemname="fishing_rod" icon-size="25" show-label="inline"></canvas></div></li>
+<li><div data-progress><canvas itemname="garlic" icon-size="25" show-label="inline"></canvas></div></li>
+<li><div data-progress><canvas itemname="spade" icon-size="25" show-label="inline"></canvas></div></li>
 </ul>
 <h3>Recommended:</h3>
 <ul style="list-style-type: none;">
 <li><div data-progress>The ability to run past level 44 enemies</div></li>
-<li><div data-progress><canvas itemname="lobster" icon-size="25"></canvas>&nbsp;&nbsp;Food at low combat levels</div></li>
+<li><div data-progress><canvas itemname="lobster" icon-size="25" show-label="inline" name-replace="Food at low combat levels"></canvas></div></li>
 </ul>
 <b>Starting Location:</b> East or west of White Wolf Mountain, talk to the dwarf
 <br><br>

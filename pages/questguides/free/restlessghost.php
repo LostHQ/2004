@@ -14,7 +14,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h3>Recommended:</h3>
 <ul style="list-style-type: none;">
 <li><div data-progress>The ability to kill or run away from a level 13 skeleton</div></li>
-<li><div data-progress><canvas itemname="lawrune" icon-size="25" show-label="inline" name-replace="Runes for 2x Teleport to Lumbridge"></canvas></div><br></li>
+<li><div data-progress><canvas itemname="lawrune" icon-size="25" show-label="inline" name-replace="Runes for 2x Teleport to Lumbridge"></canvas></div></li>
 </ul>
 <b>Starting Location:</b> Lumbridge Chapel
 <br><br>

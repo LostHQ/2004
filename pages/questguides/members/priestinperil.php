@@ -10,13 +10,13 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <b>Length: <font color="Yellow">Medium</font></b><br>
 <h3>Required Quests:</h3>
 <ul style="list-style-type: none;">
-    <li><div data-progress>Rune Mysteries</div><br></li>
+    <li><div data-progress>Rune Mysteries</div></li>
 </ul>
 <h3>Items & Skills Needed:</h3>
 <ul style="list-style-type: none;">
-    <li><div data-progress><canvas itemname="bucket_empty" icon-size="25" show-label="inline"></canvas></div><br></li>
-    <li><div data-progress><canvas itemname="blankrune" icon-size="25"></canvas>&nbsp;&nbsp;50 rune essence</div><br></li>
-    <li><div data-progress>The ability to defeat two level 30 enemies</div><br></li>
+    <li><div data-progress><canvas itemname="bucket_empty" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="blankrune" icon-size="25" show-label="inline" name-replace="50 rune essence"></canvas></div></li>
+    <li><div data-progress>The ability to defeat two level 30 enemies</div></li>
 </ul>
 <b>Starting Location:</b> King Roald in Varrock Palace
 <br><br>

@@ -18,7 +18,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 </ul>
 <h3>Recommended:</h3>
 <ul style="list-style-type: none;">
-<li><div data-progress><canvas itemname="3doseantipoison" icon-size="25"></canvas>&nbsp;&nbsp;1-2 Antipoison Potions</div><br></li>
+<li><div data-progress><canvas itemname="3doseantipoison" icon-size="25" show-label="inline" name-replace="1-2 Antipoison Potions"></canvas></div></li>
 <li><div data-progress>Weapon and armor to run past Jogres (level 48)</div></li>
 </ul>
 <b>Starting Location:</b> Tai Bwo Wannai's circular bamboo house

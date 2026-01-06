@@ -8,11 +8,11 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <b>Length: <font color="yellow">Medium</font></b><br>
 <h3>Items & Skills Needed:</h3>
 <ul style="list-style-type: none;">
-<li><div data-progress>Able to hold your own against trolls (can have a max hit of 42), Protect from Missiles if you wish to fight the trolls</div><br></li>
+<li><div data-progress>Able to hold your own against trolls (can have a max hit of 42), Protect from Missiles if you wish to fight the trolls</div></li>
 </ul>
 <h3>Recommended:</h3>
 <ul style="list-style-type: none;">
-<li><div data-progress>Prayer 43+ is helpful, Prayer potion, good armour/weapon</div><br></li>
+<li><div data-progress>Prayer 43+ is helpful, Prayer potion, good armour/weapon</div></li>
 </ul>
 <b>Starting Location:</b> Imperial Guard's Tent, Speak to Denulth
 <br><br>

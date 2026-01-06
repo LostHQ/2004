@@ -13,27 +13,27 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress>15 Thieving</div></li>
 <li><div data-progress>25 Agility</div></li>
 <li><div data-progress>40 Mining</div></li>
-<li><div data-progress><canvas itemname="coins_5" icon-size="25"></canvas>&nbsp;&nbsp;20+ coins</div><br></li>
-<li><div data-progress><canvas itemname="gold_bar" icon-size="25" show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas itemname="tinderbox" icon-size="25" show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas itemname="deathrune" icon-size="25" show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas itemname="lit_candle" icon-size="25" show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas itemname="bat_bones" icon-size="25" show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas itemname="dragon_bones" icon-size="25" show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas itemname="guam_leaf" icon-size="25" show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas itemname="vial_water" icon-size="25" show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas itemname="jangerberries" icon-size="25" show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas itemname="pestle_and_mortar" icon-size="25" show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas itemname="rope" icon-size="25"></canvas>&nbsp;&nbsp;2 ropes</div><br></li>
-<li><div data-progress><canvas itemname="bronze_pickaxe" icon-size="25"></canvas>&nbsp;&nbsp;Any pickaxe</div><br></li>
+<li><div data-progress><canvas itemname="coins_5" icon-size="25" show-label="inline" name-replace="20+ coins"></canvas></div></li>
+<li><div data-progress><canvas itemname="gold_bar" icon-size="25" show-label="inline"></canvas></div></li>
+<li><div data-progress><canvas itemname="tinderbox" icon-size="25" show-label="inline"></canvas></div></li>
+<li><div data-progress><canvas itemname="deathrune" icon-size="25" show-label="inline"></canvas></div></li>
+<li><div data-progress><canvas itemname="lit_candle" icon-size="25" show-label="inline"></canvas></div></li>
+<li><div data-progress><canvas itemname="bat_bones" icon-size="25" show-label="inline"></canvas></div></li>
+<li><div data-progress><canvas itemname="dragon_bones" icon-size="25" show-label="inline"></canvas></div></li>
+<li><div data-progress><canvas itemname="guam_leaf" icon-size="25" show-label="inline"></canvas></div></li>
+<li><div data-progress><canvas itemname="vial_water" icon-size="25" show-label="inline"></canvas></div></li>
+<li><div data-progress><canvas itemname="jangerberries" icon-size="25" show-label="inline"></canvas></div></li>
+<li><div data-progress><canvas itemname="pestle_and_mortar" icon-size="25" show-label="inline"></canvas></div></li>
+<li><div data-progress><canvas itemname="rope" icon-size="25" show-label="inline" name-replace="2 ropes"></canvas></div></li>
+<li><div data-progress><canvas itemname="steel_pickaxe" icon-size="25" show-label="inline" name-replace="Any pickaxe"></canvas></div></li>
 <li><div data-progress>The ability to defeat a level 68 Ogre and run past level 111 Blue dragons</div></li>
 </ul>
 <h3>Recommended:</h3>
 <ul style="list-style-type: none;">
 <li><div data-progress>43 Prayer</div></li>
 <li><div data-progress>Weapon, armour and some food</div></li>
-<li><div data-progress><canvas itemname="antidragonbreathshield" icon-size="25" show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas itemname="macro_triffidfruit" icon-size="25" show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas itemname="antidragonbreathshield" icon-size="25" show-label="inline"></canvas></div></li>
+<li><div data-progress><canvas itemname="macro_triffidfruit" icon-size="25" show-label="inline"></canvas></div></li>
 </ul>
 <b>Starting Location:</b> Watchtower, which is north of Yanille (just follow yanilles north wall to the west and you'll be there)
 <br><br>

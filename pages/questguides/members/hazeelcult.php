@@ -10,7 +10,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <b>Length: <font color="Yellow">Medium</font></b><br>
 <h3>Items & Skills Needed:</h3>
 <ul style="list-style-type: none;">
-<li><div data-progress>None</div><br></li>
+<li><div data-progress>None</div></li>
 </ul>
 <b>Starting Location:</b> West Ardougne, southeast of the plague gate
 <br><br>

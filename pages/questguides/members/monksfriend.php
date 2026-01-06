@@ -10,9 +10,12 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <b>Length: <font color="Green">Short</font></b><br>
 <h3>Items & Skills Needed:</h3>
 <ul style="list-style-type: none;">
-<li><div data-progress><canvas itemname="jug_water" icon-size="25" show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas itemname="logs" icon-size="25"></canvas>&nbsp;&nbsp;Logs or <canvas itemname="bronze_axe" icon-size="25"></canvas>&nbsp;any hatchet</div><br></li>
-<li><div data-progress>Food or armor to run past some thieves (level 14 and 26)</div><br></li>
+<li><div data-progress><canvas itemname="jug_water" icon-size="25" show-label="inline"></canvas></div></li>
+<li><div data-progress>
+    <canvas itemname="logs" icon-size="25" show-label="inline"></canvas> or
+    <canvas itemname="steel_axe" icon-size="25" show-label="inline" name-replace="Any hatchet"></canvas>
+</div></li>
+<li><div data-progress>Food or armor to run past some thieves (level 14 and 26)</div></li>
 </ul>
 <b>Starting Location:</b> The monastery south of Ardougne Zoo
 <br><br>

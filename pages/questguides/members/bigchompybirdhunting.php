@@ -13,15 +13,15 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress>5 Fletching</div><br></li>
 <li><div data-progress>30 Cooking</div><br></li>
 <li><div data-progress>30 Ranging</div><br></li>
-<li><div data-progress><canvas itemname="chisel" icon-size="25" show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas itemname="knife" icon-size="25" show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas itemname="bronze_axe" icon-size="25"></canvas>&nbsp;&nbsp;Any woodcutting axe</div><br></li>
-<li><div data-progress><canvas itemname="feather" icon-size="25"></canvas>&nbsp;&nbsp;About 100 feathers</div><br></li>
-<li><div data-progress><canvas itemname="wolf_bones" icon-size="25"></canvas>&nbsp;&nbsp;About 4-5 wolf bones</div><br></li>
+<li><div data-progress><canvas itemname="chisel" icon-size="25" show-label="inline"></canvas></div></li>
+<li><div data-progress><canvas itemname="knife" icon-size="25" show-label="inline"></canvas></div></li>
+<li><div data-progress><canvas itemname="steel_axe" icon-size="25" show-label="inline" name-replace="Any woodcutting axe"></canvas></div></li>
+<li><div data-progress><canvas itemname="feather" icon-size="25" show-label="inline" name-replace="About 100 feathers"></canvas></div></li>
+<li><div data-progress><canvas itemname="wolf_bones" icon-size="25" show-label="inline" name-replace="About 4-5 wolf bones"></canvas></div></li>
 </ul>
 <h3>Recommended:</h3>
 <ul style="list-style-type: none;">
-<li><div data-progress>Weapons/armor to kill a level 64 wolf if necessary (can be safespotted)</div><br></li>
+<li><div data-progress>Weapons/armor to kill a level 64 wolf if necessary (can be safespotted)</div></li>
 </ul>
 <b>Starting Location:</b> Southeast of Ogre City, which is southeast of Yanille
 <br><br>

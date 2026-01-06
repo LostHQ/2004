@@ -10,10 +10,10 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <b>Length: <font color="Red">Long</font></b><br>
 <h3>Items & Skills Needed:</h3>
 <ul style="list-style-type: none;">
-<li><div data-progress><canvas itemname="rope" icon-size="25" show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas itemname="airrune" icon-size="25"></canvas>&nbsp;&nbsp;6 air runes</div><br></li>
-<li><div data-progress><canvas itemname="earthrune" icon-size="25"></canvas>&nbsp;&nbsp;6 earth runes</div><br></li>
-<li><div data-progress><canvas itemname="waterrune" icon-size="25"></canvas>&nbsp;&nbsp;6 water runes</div><br></li>
+<li><div data-progress><canvas itemname="rope" icon-size="25" show-label="inline"></canvas></div></li>
+<li><div data-progress><canvas itemname="airrune" icon-size="25" show-label="inline" name-replace="6 air runes"></canvas></div></li>
+<li><div data-progress><canvas itemname="earthrune" icon-size="25" show-label="inline" name-replace="6 earth runes"></canvas></div></li>
+<li><div data-progress><canvas itemname="waterrune" icon-size="25" show-label="inline" name-replace="6 water runes"></canvas></div></li>
 </ul>
 <br><br>
 <b>Starting Location:</b> North of Baxtorian Falls, speak to Almera

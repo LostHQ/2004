@@ -10,8 +10,8 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <b>Length: <font color="Yellow">Medium</font></b><br>
 <h3>Items & Skills Needed:</h3>
 <ul style="list-style-type: none;">
-<li><div data-progress><canvas itemname="cheese" icon-size="25" show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas itemname="leather_gloves" icon-size="25" show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas itemname="cheese" icon-size="25" show-label="inline"></canvas></div></li>
+<li><div data-progress><canvas itemname="leather_gloves" icon-size="25" show-label="inline"></canvas></div></li>
 </ul>
 <b>Starting Location:</b> South of the witch's house, Taverley<br>
 <br>

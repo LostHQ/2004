@@ -11,16 +11,16 @@ This time he has a special request for any adventurous sorts to search for the D
 <b>Length: <font color="Yellow">Medium</font></b><br>
 <h3>Required Quests:</h3>
 <ul style="list-style-type: none;">
-    <li><div data-progress>Priest In Peril</div><br></li>
-    <li><div data-progress>Restless Ghost</div><br></li>
+    <li><div data-progress>Priest In Peril</div></li>
+    <li><div data-progress>Restless Ghost</div></li>
 </ul>
 <h3>Items & Skills Needed:</h3>
 <ul style="list-style-type: none;">
-    <li><div data-progress>18 Crafting</div><br></li>
-    <li><div data-progress><canvas itemname="amulet_of_ghostspeak" icon-size="25" show-label="inline"></canvas></div><br></li>
-    <li><div data-progress><canvas itemname="silver_bar" icon-size="25" show-label="inline"></canvas></div><br></li>
-    <li><div data-progress><canvas itemname="sickle_mould" icon-size="25" show-label="inline"></canvas></div><br></li>
-    <li><div data-progress>The ability to defeat a level 30 monster</div><br></li>
+    <li><div data-progress>18 Crafting</div></li>
+    <li><div data-progress><canvas itemname="amulet_of_ghostspeak" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="silver_bar" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="sickle_mould" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress>The ability to defeat a level 30 monster</div></li>
 </ul>
 <b>Starting Location:</b> Underground passageway of Sarodomin Temple (where you finish the Priest in Peril Quest)
 <br><br>

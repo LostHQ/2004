@@ -10,17 +10,17 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <b>Length: <font color="Green">Short</font></b><br>
 <h3>Items & Skills Needed:</h3>
 <ul style="list-style-type: none;">
-<li><div data-progress>20 Mining</div><br></li>
-<li><div data-progress>20 Smithing</div><br></li>
-<li><div data-progress>20 Crafting</div><br></li>
-<li><div data-progress><canvas itemname="bronze_pickaxe" icon-size="25"></canvas>&nbsp;&nbsp;Any pickaxe</div><br></li>
-<li><div data-progress><canvas itemname="coal" icon-size="25"></canvas>&nbsp;&nbsp;4 coal</div><br></li>
-<li><div data-progress><canvas itemname="hammer" icon-size="25" show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas itemname="thread" icon-size="25" show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas itemname="needle" icon-size="25"></canvas></div>&nbsp;&nbsp;Needle (can be obtained during quest)<br></li>
-<li><div data-progress><canvas itemname="leather" icon-size="25"></canvas></div>&nbsp;&nbsp;Leather (can be obtained during quest)<br></li>
-<li><div data-progress><canvas itemname="knife" icon-size="25"></canvas></div>&nbsp;&nbsp;Knife (can be obtained during quest)<br></li>
-<li><div data-progress>The ability to defeat a level 35 Earth Elemental</div><br></li>
+<li><div data-progress>20 Mining</div></li>
+<li><div data-progress>20 Smithing</div></li>
+<li><div data-progress>20 Crafting</div></li>
+<li><div data-progress><canvas itemname="steel_pickaxe" icon-size="25" show-label="inline" name-replace="Any pickaxe"></canvas></div></li>
+<li><div data-progress><canvas itemname="coal" icon-size="25" show-label="inline" name-replace="4 coal"></canvas></div></li>
+<li><div data-progress><canvas itemname="hammer" icon-size="25" show-label="inline"></canvas></div></li>
+<li><div data-progress><canvas itemname="thread" icon-size="25" show-label="inline"></canvas></div></li>
+<li><div data-progress><canvas itemname="needle" icon-size="25" show-label="inline" name-append=" (can be obtained during quest)"></canvas></div></li>
+<li><div data-progress><canvas itemname="leather" icon-size="25" show-label="inline" name-append=" (can be obtained during quest)"></canvas></div></li>
+<li><div data-progress><canvas itemname="knife" icon-size="25" show-label="inline" name-append=" (can be obtained during quest)"></canvas></div></li>
+<li><div data-progress>The ability to defeat a level 35 Earth Elemental</div></li>
 </ul>
 <b>Starting Location:</b> Search the bookcase on the east wall in the house southwest of the bank in Seers' Village
 <br><br>

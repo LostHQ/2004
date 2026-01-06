@@ -10,8 +10,8 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <b>Length: <font color="Red">Long</font></b><br>
 <h3>Items & Skills Needed:</h3>
 <ul style="list-style-type: none;">
-<li><div data-progress><canvas itemname="logs" icon-size="25"></canvas>&nbsp;&nbsp;6 logs</div><br></li>
-<li><div data-progress>The ability to defeat a level 112 Khazard Warlord</div><br></li>
+<li><div data-progress><canvas itemname="logs" icon-size="25" show-label="inline" name-replace="6 logs"></canvas></div></li>
+<li><div data-progress>The ability to defeat a level 112 Khazard Warlord</div></li>
 </ul>
 <b>Starting Location:</b> King Bolren, next to the huge spirit tree in the middle of the Tree Gnome Maze
 <br><br>

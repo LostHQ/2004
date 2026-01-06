@@ -12,23 +12,23 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <ul style="list-style-type: none;">
 <li><div data-progress>10 Fletching</div></li>
 <li><div data-progress>20 Smithing</div></li>
-<li><div data-progress><canvas itemname="desert_shirt" icon-size="25" show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas itemname="desert_robe" icon-size="25" show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas itemname="desert_boots" icon-size="25" show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas itemname="shantay_pass" icon-size="25" show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas itemname="hammer" icon-size="25" show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas itemname="bronze_bar" icon-size="25" show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas itemname="feather" icon-size="25"></canvas>&nbsp;&nbsp;10 feathers</div><br></li>
+<li><div data-progress><canvas itemname="desert_shirt" icon-size="25" show-label="inline"></canvas></div></li>
+<li><div data-progress><canvas itemname="desert_robe" icon-size="25" show-label="inline"></canvas></div></li>
+<li><div data-progress><canvas itemname="desert_boots" icon-size="25" show-label="inline"></canvas></div></li>
+<li><div data-progress><canvas itemname="shantay_pass" icon-size="25" show-label="inline"></canvas></div></li>
+<li><div data-progress><canvas itemname="hammer" icon-size="25" show-label="inline"></canvas></div></li>
+<li><div data-progress><canvas itemname="bronze_bar" icon-size="25" show-label="inline"></canvas></div></li>
+<li><div data-progress><canvas itemname="feather" icon-size="25" show-label="inline" name-replace="10 feathers"></canvas></div></li>
 <li><div data-progress>The ability to defeat a level 47 enemy</div></li>
 </ul>
 <h3>Recommended:</h3>
 <ul style="list-style-type: none;">
-<li><div data-progress><canvas itemname="knife" icon-size="25" show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas itemname="water_skin4" icon-size="25" show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas itemname="bronze_bar" icon-size="25"></canvas>&nbsp;&nbsp;3 bronze bars</div><br></li>
-<li><div data-progress><canvas itemname="feather" icon-size="25"></canvas>&nbsp;&nbsp;50 feathers</div><br></li>
-<li><div data-progress><canvas itemname="bronze_pickaxe" icon-size="25"></canvas>&nbsp;&nbsp;Any pickaxe</div><br></li>
-<li><div data-progress><canvas itemname="coins_100" icon-size="25"></canvas>&nbsp;&nbsp;100 coins</div><br></li>
+<li><div data-progress><canvas itemname="knife" icon-size="25" show-label="inline"></canvas></div></li>
+<li><div data-progress><canvas itemname="water_skin4" icon-size="25" show-label="inline"></canvas></div></li>
+<li><div data-progress><canvas itemname="bronze_bar" icon-size="25" show-label="inline" name-replace="3 bronze bars"></canvas></div></li>
+<li><div data-progress><canvas itemname="feather" icon-size="25" show-label="inline" name-replace="50 feathers"></canvas></div></li>
+<li><div data-progress><canvas itemname="steel_pickaxe" icon-size="25" show-label="inline" name-replace="Any pickaxe"></canvas></div></li>
+<li><div data-progress><canvas itemname="coins_100" icon-size="25" show-label="inline" name-replace="100 coins"></canvas></div></li>
 </ul>
 <b>Starting Location:</b> South of Shantay Pass
 <br><br>

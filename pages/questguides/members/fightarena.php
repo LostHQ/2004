@@ -10,14 +10,14 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <b>Length: <font color="Yellow">Medium</font></b><br>
 <h3>Items & Skills Needed:</h3>
 <ul style="list-style-type: none;">
-<li><div data-progress><canvas itemname="coins_5" icon-size="25"></canvas>&nbsp;&nbsp;5 coins</div><br></li>
-<li><div data-progress>The ability to defeat level 44, 55, and 132 enemies (all can be safespotted)</div><br></li>
+<li><div data-progress><canvas itemname="coins_5" icon-size="25" show-label="inline" name-replace="5 coins"></canvas></div></li>
+<li><div data-progress>The ability to defeat level 44, 55, and 132 enemies (all can be safespotted)</div></li>
 </ul>
 <h3>Recommended:</h3>
 <ul style="list-style-type: none;">
 <li><div data-progress>Decent weapon and armor</div></li>
 <li><div data-progress>Alternatively: Any Magic level and runes to cast combat spells or 50+ Ranged and ranged gear</div></li>
-<li><div data-progress><canvas itemname="lobster" icon-size="25"></canvas>&nbsp;&nbsp;Food</div></li>
+<li><div data-progress><canvas itemname="lobster" icon-size="25" show-label="inline" name-replace="Food"></canvas></div></li>
 </ul>
 <b>Starting Location:</b> Lady Servil is southeast of the Gnome Battlefield, on the northwest edge of the arena camp
 <br><br>

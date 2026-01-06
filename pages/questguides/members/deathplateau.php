@@ -8,12 +8,12 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <b>Length: <font color="yellow">Medium</font></b><br>
 <h3>Items & Skills Needed:</h3>
 <ul style="list-style-type: none;">
-<li><div data-progress><canvas itemname="asgarnian_ale" icon-size="25" show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas itemname="coins" icon-size="25"></canvas>&nbsp;&nbsp;About 1,000 coins</div><br></li>
-<li><div data-progress><canvas itemname="trout" icon-size="25"></canvas>&nbsp;&nbsp;10 Cooked Trout</div><br></li>
-<li><div data-progress><canvas itemname="bread" icon-size="25"></canvas>&nbsp;&nbsp;10 Bread</div><br></li>
-<li><div data-progress><canvas itemname="iron_bar" icon-size="25" show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas itemname="blurberry_special" icon-size="25" show-label="inline"></canvas> (Premade works)</div><br></li>
+<li><div data-progress><canvas itemname="asgarnian_ale" icon-size="25" show-label="inline"></canvas></div></li>
+<li><div data-progress><canvas itemname="coins" icon-size="25" show-label="inline" name-replace="About 1,000 coins"></canvas></div></li>
+<li><div data-progress><canvas itemname="trout" icon-size="25" show-label="inline" name-replace="10 Cooked Trout"></canvas></div></li>
+<li><div data-progress><canvas itemname="bread" icon-size="25" show-label="inline" name-replace="10 Bread"></canvas></div></li>
+<li><div data-progress><canvas itemname="iron_bar" icon-size="25" show-label="inline"></canvas></div></li>
+<li><div data-progress><canvas itemname="blurberry_special" icon-size="25" show-label="inline" name-append=" (Not always, Premade works)"></canvas></div></li>
 </ul>
 <h3>Recommended:</h3>
 <ul style="list-style-type: none;">
