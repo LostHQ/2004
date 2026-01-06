@@ -1,28 +1,28 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>$questName</h2>
 <a href="#zombiemusiq">ZombieMusiq Video Guide at bottom of page!</a>
-<br><br>
-<b>Description:</b> Second part of an ongoing adventure. Help Elena discover the truth about the infamous ardounge plague. Smuggle test samples across ardounge to Elena's old mentor.
-<br><br>
-<b>Difficulty: <font color="Green">Novice</font></b>
-<br><br>
-<b>Length: <font color="Red">Long</font></b><br>
-<h3>Required Quests:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress>Plague City</div><br></li>
-</ul>
-<h3>Items & Skills Needed:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress><canvas itemname="coins_5" icon-size="25" show-label="inline" name-replace="12 coins"></canvas></div></li>
-<li><div data-progress><canvas itemname="priest_gown" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="priest_robe" icon-size="25" show-label="inline"></canvas></div></li>
-</ul>
-<b>Starting Location:</b> Talk with Elena in Ardougne. She lives just across the street (east) of where her parents live
-<br><br>
-<b>Reward:</b> 3 Quest points, 1,250 Thieving XP, the ability to use King Lathas' training field
-<br><br>
-<hr>
+<div id="narrowscroll">
+    <h2>$questName</h2>
+    <b>Description:</b> Second part of an ongoing adventure. Help Elena discover the truth about the infamous ardounge plague. Smuggle test samples across ardounge to Elena's old mentor.
+    <br><br>
+    <b>Difficulty: <font color="Green">Novice</font></b>
+    <br><br>
+    <b>Length: <font color="Red">Long</font></b>
+    <br><br>
+    <h3>Required Quests:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress>Plague City</div><br></li>
+    </ul>
+    <h3>Items & Skills Needed:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress><canvas itemname="coins_5" icon-size="25" show-label="inline" name-replace="12 coins"></canvas></div></li>
+    <li><div data-progress><canvas itemname="priest_gown" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="priest_robe" icon-size="25" show-label="inline"></canvas></div></li>
+    </ul>
+    <b>Starting Location:</b> Talk with Elena in Ardougne. She lives just across the street (east) of where her parents live
+    <br><br>
+    <b>Reward:</b> 3 Quest points, 1,250 Thieving XP, the ability to use King Lathas' training field
+</div>
 <h3>Instructions:</h3>
 <br>
 <div data-progress>Talk to Elena; she will say that her distillator has been stolen by the Mourner, and the tunnel is blocked. Accept the quest, and she will tell you to find a man called Jerico.</div>

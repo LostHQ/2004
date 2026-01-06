@@ -1,27 +1,27 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>$questName</h2>
 <a href="#zombiemusiq">ZombieMusiq Video Guide at bottom of page!</a>
-<br><br>
-<b>Description:</b> For several years now the dwarven black guard have been developing the lastest in projectile warfare. Now with the constant attack of goblin renegades, the dwarven troops who protect the mines need to put this secret weapon into action. Only with your help can the true power of this cannon be harnessed!
-<br><br>
-<b>Difficulty: <font color="Green">Novice</font></b>
-<br><br>
-<b>Length: <font color="Green">Short</font></b><br>
-<h3>Items & Skills Needed:</h3>
-None
-<h3>Recommended:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress><canvas itemname="lawrune" icon-size="25" show-label="inline" name-replace="Runes for Teleport to Falador"></canvas></div></li>
-<li><div data-progress><canvas itemname="lawrune" icon-size="25" show-label="inline" name-replace="Runes for Teleport to Camelot"></canvas></div></li>
-<li><div data-progress>20 Agility is required to cross the log bridge</div></li>
-<li><div data-progress>Food at very low combat levels</div></li>
-</ul>
-<b>Starting Location:</b> Talk to the dwarf commander across the log bridge from Seers' Village
-<br><br>
-<b>Reward:</b> 1 Quest point, 750 Crafting XP, the ability to buy a multicannon for 750k (or individual pieces for 200k each), the ability to make cannonballs
-<br><br>
-<hr>
+<div id="narrowscroll">
+    <h2>$questName</h2>
+    <b>Description:</b> For several years now the dwarven black guard have been developing the lastest in projectile warfare. Now with the constant attack of goblin renegades, the dwarven troops who protect the mines need to put this secret weapon into action. Only with your help can the true power of this cannon be harnessed!
+    <br><br>
+    <b>Difficulty: <font color="Green">Novice</font></b>
+    <br><br>
+    <b>Length: <font color="Green">Short</font></b>
+    <br><br>
+    <h3>Items & Skills Needed:</h3>
+    None
+    <h3>Recommended:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress><canvas itemname="lawrune" icon-size="25" show-label="inline" name-replace="Runes for Teleport to Falador"></canvas></div></li>
+    <li><div data-progress><canvas itemname="lawrune" icon-size="25" show-label="inline" name-replace="Runes for Teleport to Camelot"></canvas></div></li>
+    <li><div data-progress>20 Agility is required to cross the log bridge</div></li>
+    <li><div data-progress>Food at very low combat levels</div></li>
+    </ul>
+    <b>Starting Location:</b> Talk to the dwarf commander across the log bridge from Seers' Village
+    <br><br>
+    <b>Reward:</b> 1 Quest point, 750 Crafting XP, the ability to buy a multicannon for 750k (or individual pieces for 200k each), the ability to make cannonballs
+</div>
 <h3>Instructions:</h3>
 <br>
 <div data-progress>Get 6 railings from the commander after agreeing to help him fix the fence to keep out those pesky goblins.</div>

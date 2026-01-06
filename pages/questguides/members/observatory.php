@@ -1,30 +1,30 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>$questName</h2>
 <a href="#zombiemusiq">ZombieMusiq Video Guide at bottom of page!</a>
-<br><br>
-<b>Description:</b> The observatory in South West Ardougne has been ransacked by a family of nearby goblins. Can you help the professors to rebuild it? Use your skills at crafting to make the various parts, and fight your way through the cavern under the observatory. Use the telescope and the stars hold a secret for you.
-<br><br>
-<b>Difficulty: <font color="Green">Novice</font></b>
-<br><br>
-<b>Length: <font color="Green">Short</font></b><br>
-<h3>Items & Skills Needed:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress>10 Crafting</div><br></li>
-<li><div data-progress><canvas itemname="bronze_bar" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="molten_glass" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="woodplank" icon-size="25" show-label="inline" name-replace="3 planks"></canvas></div></li>
-</ul>
-<h3>Recommended:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress><canvas itemname="3doseantipoison" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress>Food or armor to run past a level 42 Goblin guard</div></li>
-</ul>
-<b>Starting Location:</b> West across the river from the gnome maze, just next to the small goblin town
-<br><br>
-<b>Reward:</b> 2 Quest points, 2,250 Crafting XP, an Uncut Sapphire, a random reward depending on the constellation you see
-<br><br>
-<hr>
+<div id="narrowscroll">
+    <h2>$questName</h2>
+    <b>Description:</b> The observatory in South West Ardougne has been ransacked by a family of nearby goblins. Can you help the professors to rebuild it? Use your skills at crafting to make the various parts, and fight your way through the cavern under the observatory. Use the telescope and the stars hold a secret for you.
+    <br><br>
+    <b>Difficulty: <font color="Green">Novice</font></b>
+    <br><br>
+    <b>Length: <font color="Green">Short</font></b>
+    <br><br>
+    <h3>Items & Skills Needed:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress>10 Crafting</div><br></li>
+    <li><div data-progress><canvas itemname="bronze_bar" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="molten_glass" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="woodplank" icon-size="25" show-label="inline" name-replace="3 planks"></canvas></div></li>
+    </ul>
+    <h3>Recommended:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress><canvas itemname="3doseantipoison" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress>Food or armor to run past a level 42 Goblin guard</div></li>
+    </ul>
+    <b>Starting Location:</b> West across the river from the gnome maze, just next to the small goblin town
+    <br><br>
+    <b>Reward:</b> 2 Quest points, 2,250 Crafting XP, an Uncut Sapphire, a random reward depending on the constellation you see
+</div>
 <h3>Instructions:</h3>
 <br>
 <div data-progress>Talk to the professor in the square building north of the observatory. He explains that the pesky goblins next door (don't you just hate rude neighbors?) have broken his telescope, and he needs parts to fix it. He suggests talking to his assistant, but if you already have the required items, you can skip that for now.</div>

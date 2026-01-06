@@ -1,26 +1,26 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>$questName</h2>
 <a href="#zombiemusiq">ZombieMusiq Video Guide at bottom of page!</a>
-<br><br>
-<b>Description:</b> Legends tell of a magical lost city hidden in the swamps. Many adventurers have tried to find this city, but it is proving difficult. Can you unlock the secrets of the city of Zanaris?
-<br><br>
-<b>Difficulty: <font color="Red">Experienced</font></b>
-<br><br>
-<b>Length: <font color="Red">Long</font></b><br> show-label="inline" name-replace=""
-<h3>Items & Skills Needed:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress>31 Crafting</div></li>
-<li><div data-progress>36 Woodcutting</div></li>
-<li><div data-progress><canvas itemname="steel_axe" icon-size="25" show-label="inline" name-replace="Any hatchet"></canvas></div></li>
-<li><div data-progress><canvas itemname="knife" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress>Ability to kill a level 101 Tree spirit with limited armour and weapons (can be safespotted)</div></li>
-</ul>
-<b>Starting Location:</b> Speak to Adventurers in the Lumbridge Swamp, south of Lumbridge/Draynor forest
-<br><br>
-<b>Reward:</b> 3 Quest points, access to Zanaris, the ability to wield the Dragon Longsword and Dragon Dagger
-<br><br>
-<hr>
+<div id="narrowscroll">
+    <h2>$questName</h2>
+    <b>Description:</b> Legends tell of a magical lost city hidden in the swamps. Many adventurers have tried to find this city, but it is proving difficult. Can you unlock the secrets of the city of Zanaris?
+    <br><br>
+    <b>Difficulty: <font color="Red">Experienced</font></b>
+    <br><br>
+    <b>Length: <font color="Red">Long</font></b>
+    <br><br>
+    <h3>Items & Skills Needed:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress>31 Crafting</div></li>
+    <li><div data-progress>36 Woodcutting</div></li>
+    <li><div data-progress><canvas itemname="steel_axe" icon-size="25" show-label="inline" name-replace="Any hatchet"></canvas></div></li>
+    <li><div data-progress><canvas itemname="knife" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress>Ability to kill a level 101 Tree spirit with limited armour and weapons (can be safespotted)</div></li>
+    </ul>
+    <b>Starting Location:</b> Speak to Adventurers in the Lumbridge Swamp, south of Lumbridge/Draynor forest
+    <br><br>
+    <b>Reward:</b> 3 Quest points, access to Zanaris, the ability to wield the Dragon Longsword and Dragon Dagger
+</div>
 <h3>Instructions:</h3>
 <br>
 <div data-progress>Head to the forest south of Draynor untill you find several characters gathered around a campfire. Several of them won't talk to you, however the Warrior will. Trick him into revealing why they are camping here and what they are looking for. He tell you to find the tree a leprechaun is hiding in.</div>

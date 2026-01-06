@@ -1,38 +1,38 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>$questName</h2>
-<b>Description:</b> Feeling uneducated? Desperate for buried treasure? ..."There's gold in them there hills" (well stream actually) as well as many other items that can be found at the digsite. Join the students in their attempt to be a qualified archaeologist, and become experienced in making the earth move! Have you got what it takes to unearth the hidden altar to one of Runescape's lesser-known Gods...?
-<br><br>
-<b>Difficulty: <font color="Green">Novice</font></b>
-<br><br>
-<b>Length: <font color="Red">Long</font></b><br>
-<h3>Items & Skills Needed:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress>25 Thieving</div></li>
-<li><div data-progress>10 Agility</div></li>
-<li><div data-progress>10 Herblore (can be boosted)</div></li>
-<li><div data-progress><canvas itemname="pestle_and_mortar" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="vial_empty" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="tinderbox" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="cup_of_tea" icon-size="25" show-label="inline" name-append=" (can be stolen from the Varrock tea stall)"></canvas></div></li>
-<li><div data-progress><canvas itemname="chisel" icon-size="25" show-label="inline" name-append=" (only necessary if you do not have a cut opal)"></canvas></div></li>
-<li><div data-progress><canvas itemname="opal" icon-size="25" show-label="inline" name-append=" (can be obtained during quest if you bring a chisel)"></canvas></div></li>
-<li><div data-progress><canvas itemname="charcoal" icon-size="25" show-label="inline" name-append=" (obtainable during the quest)"></canvas></div></li>
-<li><div data-progress><canvas itemname="rope" icon-size="25" show-label="inline" name-replace="2 Ropes (can be slowly obtained during quest, but may be faster to bring your own)"></canvas></div></li>
-
-</ul>
-<h3>Recommended:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress><canvas itemname="lawrune" icon-size="25" show-label="inline" name-replace="Runes for 1-2 Varrock Teleports"></canvas></div></li>
-<li><div data-progress>The ability to run pass level 22 skeletons</div></li>
-</ul>
-<b>Starting Location:</b> All the way southeast of Varrock, (north of Al Kharid mine). Go through gate, head east into building with red floor and talk to Examiners
-<br><br>
-<b>Reward:</b> 2 Quest points, 15,300 Mining XP, 2,000 Herblore XP, 2 Gold Bars, the ability to pan and dig at the Dig Site
-<br><br>
-<b>Extra:</b> Show the Curator all Digging Certificates and you can choose between a free Snack (Chocolate Cake) or a Drink (Fruit Blast Cocktail)
-<br><br>
-<hr>
+<div id="narrowscroll">
+    <h2>$questName</h2>
+    <b>Description:</b> Feeling uneducated? Desperate for buried treasure? ..."There's gold in them there hills" (well stream actually) as well as many other items that can be found at the digsite. Join the students in their attempt to be a qualified archaeologist, and become experienced in making the earth move! Have you got what it takes to unearth the hidden altar to one of Runescape's lesser-known Gods...?
+    <br><br>
+    <b>Difficulty: <font color="Green">Novice</font></b>
+    <br><br>
+    <b>Length: <font color="Red">Long</font></b>
+    <br><br>
+    <h3>Items & Skills Needed:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress>25 Thieving</div></li>
+    <li><div data-progress>10 Agility</div></li>
+    <li><div data-progress>10 Herblore (can be boosted)</div></li>
+    <li><div data-progress><canvas itemname="pestle_and_mortar" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="vial_empty" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="tinderbox" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="cup_of_tea" icon-size="25" show-label="inline" name-append=" (can be stolen from the Varrock tea stall)"></canvas></div></li>
+    <li><div data-progress><canvas itemname="chisel" icon-size="25" show-label="inline" name-append=" (only necessary if you do not have a cut opal)"></canvas></div></li>
+    <li><div data-progress><canvas itemname="opal" icon-size="25" show-label="inline" name-append=" (can be obtained during quest if you bring a chisel)"></canvas></div></li>
+    <li><div data-progress><canvas itemname="charcoal" icon-size="25" show-label="inline" name-append=" (obtainable during the quest)"></canvas></div></li>
+    <li><div data-progress><canvas itemname="rope" icon-size="25" show-label="inline" name-replace="2 Ropes (can be slowly obtained during quest, but may be faster to bring your own)"></canvas></div></li>
+    </ul>
+    <h3>Recommended:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress><canvas itemname="lawrune" icon-size="25" show-label="inline" name-replace="Runes for 1-2 Varrock Teleports"></canvas></div></li>
+    <li><div data-progress>The ability to run pass level 22 skeletons</div></li>
+    </ul>
+    <b>Starting Location:</b> All the way southeast of Varrock, (north of Al Kharid mine). Go through gate, head east into building with red floor and talk to Examiners
+    <br><br>
+    <b>Reward:</b> 2 Quest points, 15,300 Mining XP, 2,000 Herblore XP, 2 Gold Bars, the ability to pan and dig at the Dig Site
+    <br><br>
+    <b>Extra:</b> Show the Curator all Digging Certificates and you can choose between a free Snack (Chocolate Cake) or a Drink (Fruit Blast Cocktail)
+</div>
 <h3>Instructions:</h3>
 <br>
 <div data-progress>Talk to the Archeological expert. He tells you to bring anything you find to him. Inquire about exams to Examiner. She gives you an unstamped certificate of recommendation.</div>

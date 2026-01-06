@@ -1,31 +1,30 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>$questName</h2>
 <a href="#zombiemusiq">ZombieMusiq Video Guide at bottom of page!</a>
-<br><br>
-<b>Description:</b> The Grand Tree, which shelters the majority of RuneScape's small gnome population, is dying. Is it human sabotage or an inside job? Help King Shareem to find the true cause and save the tree gnomes from an uncertain fate.
-<br><br>
-<b>Difficulty: <font color="Red">Experienced</font></b>
-<br><br>
-<b>Length: <font color="Red">Long</font></b><br>
-<h3>Items & Skills Needed:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress>25 agility</div><br></li>
-<li><div data-progress><canvas itemname="coins_25" icon-size="25" show-label="inline" name-replace="30 coins"></canvas></div></li>
-<li><div data-progress>The ability to beat level 172 demon (can be safespotted)</div></li>
-</ul>
-<h3>Recommended:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress>Access to the Spirit Tree system (requires completion of <a href="?p=questguides&quest=treegnomevillage">Tree Gnome Village</a>)</div></li>
-<li><div data-progress><canvas itemname="lawrune" icon-size="25" show-label="inline" name-replace="Runes for Teleport to Watchtower/Ardougne"></canvas></div></li>
-<li><div data-progress><canvas itemname="adamant_platebody" icon-size="25" show-label="inline" name-replace="Adamant or better armor (if using melee)"></canvas></div></li>
-<li><div data-progress><canvas itemname="lobster" icon-size="25" show-label="inline" name-replace="Lobster or better food (if using melee)"></canvas></div></li>
-</ul>
-<b>Starting Location:</b> Grand Tree in the Gnome Stronghold northwest of Ardougne
-<br><br>
-<b>Reward:</b> 5 Quest points, 11,200 Agility XP, 18,400 Attack XP, 2,150 Magic XP, the ability to use spirit tree teleport from gnome stronghold, the ability to use the gnome gliders
-<br><br>
-<hr>
+<div id="narrowscroll">
+    <h2>$questName</h2>
+    <b>Description:</b> The Grand Tree, which shelters the majority of RuneScape's small gnome population, is dying. Is it human sabotage or an inside job? Help King Shareem to find the true cause and save the tree gnomes from an uncertain fate.
+    <br><br>
+    <b>Difficulty: <font color="Red">Experienced</font></b>
+    <br><br>
+    <b>Length: <font color="Red">Long</font></b><br>
+    <h3>Items & Skills Needed:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress>25 agility</div><br></li>
+    <li><div data-progress><canvas itemname="coins_25" icon-size="25" show-label="inline" name-replace="30 coins"></canvas></div></li>
+    <li><div data-progress>The ability to beat level 172 demon (can be safespotted)</div></li>
+    </ul>
+    <h3>Recommended:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress>Access to the Spirit Tree system (requires completion of <a href="?p=questguides&quest=treegnomevillage">Tree Gnome Village</a>)</div></li>
+    <li><div data-progress><canvas itemname="lawrune" icon-size="25" show-label="inline" name-replace="Runes for Teleport to Watchtower/Ardougne"></canvas></div></li>
+    <li><div data-progress><canvas itemname="adamant_platebody" icon-size="25" show-label="inline" name-replace="Adamant or better armor (if using melee)"></canvas></div></li>
+    <li><div data-progress><canvas itemname="lobster" icon-size="25" show-label="inline" name-replace="Lobster or better food (if using melee)"></canvas></div></li>
+    </ul>
+    <b>Starting Location:</b> Grand Tree in the Gnome Stronghold northwest of Ardougne
+    <br><br>
+    <b>Reward:</b> 5 Quest points, 11,200 Agility XP, 18,400 Attack XP, 2,150 Magic XP, the ability to use spirit tree teleport from gnome stronghold, the ability to use the gnome gliders
+</div>
 <h3>Instructions:</h3>
 Note: Before starting the quest, make sure to help Femi at the Tree Gnome Stronghold gate with her boxes. Otherwise, you'll need to pay 1,000 coins or use the Spirit Tree to get inside.
 <br><br>

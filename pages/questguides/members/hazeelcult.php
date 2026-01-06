@@ -1,22 +1,22 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>$questName</h2>
 <a href="#zombiemusiq">ZombieMusiq Video Guide at bottom of page!</a>
-<br><br>
-<b>Description:</b> Discover the truth behind the Carnillean family fortune. Decide for yourself whether to aid the Carnilleans in retrieving stolen goods, or join the Hazeel cult members in their mission to resurrect the infamous Lord Hazeel.
-<br><br>
-<b>Difficulty: <font color="Green">Novice</font></b>
-<br><br>
-<b>Length: <font color="Yellow">Medium</font></b><br>
-<h3>Items & Skills Needed:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress>None</div></li>
-</ul>
-<b>Starting Location:</b> West Ardougne, southeast of the plague gate
-<br><br>
-<b>Reward:</b> 1 Quest point, 1,000 Thieving XP, 2,000 coins, a real cool armour if you side with Clivet
-<br><br>
-<hr>
+<div id="narrowscroll">
+    <h2>$questName</h2>
+    <b>Description:</b> Discover the truth behind the Carnillean family fortune. Decide for yourself whether to aid the Carnilleans in retrieving stolen goods, or join the Hazeel cult members in their mission to resurrect the infamous Lord Hazeel.
+    <br><br>
+    <b>Difficulty: <font color="Green">Novice</font></b>
+    <br><br>
+    <b>Length: <font color="Yellow">Medium</font></b>
+    <br><br>
+    <h3>Items & Skills Needed:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress>None</div></li>
+    </ul>
+    <b>Starting Location:</b> West Ardougne, southeast of the plague gate
+    <br><br>
+    <b>Reward:</b> 1 Quest point, 1,000 Thieving XP, 2,000 coins, a real cool armour if you side with Clivet
+</div>
 <h3>Instructions:</h3>
 <br>
 <div data-progress>First, go to the Carnillean Mansion and talk to Ceril near or in the <span data-floors="US">1st floor</span> of it.</div>

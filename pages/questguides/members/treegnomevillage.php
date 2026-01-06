@@ -1,23 +1,24 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>$questName</h2>
 <a href="#zombiemusiq">ZombieMusiq Video Guide at bottom of page!</a>
-<br><br>
-<b>Description:</b> The tree gnomes are in trouble. General Khazard's forces are hunting them to extinction. Find you way through the hedge maze to the gnomes secret treetop village. Then help the gnomes fight Khazard and retrieve the orbs of protection.
-<br><br>
-<b>Difficulty: <font color="Yellow">Intermediate</font></b>
-<br><br>
-<b>Length: <font color="Red">Long</font></b><br>
-<h3>Items & Skills Needed:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress><canvas itemname="logs" icon-size="25" show-label="inline" name-replace="6 logs"></canvas></div></li>
-<li><div data-progress>The ability to defeat a level 112 Khazard Warlord</div></li>
-</ul>
-<b>Starting Location:</b> King Bolren, next to the huge spirit tree in the middle of the Tree Gnome Maze
-<br><br>
-<b>Reward:</b> 2 Quest points, 11,500 Attack XP, a gnome amulet, the ability to use the spirit trees to travel
-<br><br>
-<hr>
+<div id="narrowscroll">
+    <h2>$questName</h2>
+    <br><br>
+    <b>Description:</b> The tree gnomes are in trouble. General Khazard's forces are hunting them to extinction. Find you way through the hedge maze to the gnomes secret treetop village. Then help the gnomes fight Khazard and retrieve the orbs of protection.
+    <br><br>
+    <b>Difficulty: <font color="Yellow">Intermediate</font></b>
+    <br><br>
+    <b>Length: <font color="Red">Long</font></b>
+    <br><br>
+    <h3>Items & Skills Needed:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress><canvas itemname="logs" icon-size="25" show-label="inline" name-replace="6 logs"></canvas></div></li>
+    <li><div data-progress>The ability to defeat a level 112 Khazard Warlord</div></li>
+    </ul>
+    <b>Starting Location:</b> King Bolren, next to the huge spirit tree in the middle of the Tree Gnome Maze
+    <br><br>
+    <b>Reward:</b> 2 Quest points, 11,500 Attack XP, a gnome amulet, the ability to use the spirit trees to travel
+</div>
 <h3>Instructions:</h3>
 <br>
 <div data-progress>Find Elkoy near the northwest corner of the maze. He invites you to try the maze. Once you conquer it, talk to King Bolren. He'll ask you to help their cause by retrieving 1 of 3 orbs of protection. Agree and you'll be led to battlefield.</div>

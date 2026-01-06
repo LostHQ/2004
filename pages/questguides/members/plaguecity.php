@@ -1,33 +1,33 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>$questName</h2>
 <a href="#zombiemusiq">ZombieMusiq Video Guide at bottom of page!</a>
-<br><br>
-<b>Description:</b> A shadow of disease has overcast Ardounge. Edmond's daugher Elena has gone missing in West Ardougne whilst trying to help the plague victims there. See if you can find out what's going on.
-<br><br>
-<b>Difficulty: <font color="Green">Novice</font></b>
-<br><br>
-<b>Length: <font color="Yellow">Medium</font></b><br>
-<h3>Items & Skills Needed:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress><canvas itemname="bucket_water" icon-size="25" show-label="inline" name-replace="4 buckets of water"></canvas></div></li>
-<li><div data-progress><canvas itemname="rope" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="spade" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="dwellberries" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="hangover_cure" icon-size="25" show-label="inline"></canvas></div></li>
-</ul>
-<i>Hangover Cure Ingredients:</i>
-<ul style="list-style-type: none;">
-<li><div data-progress><canvas itemname="bucket_milk" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="chocolate_bar" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="pestle_and_mortar" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="snape_grass" icon-size="25" show-label="inline"></canvas></div></li>
-</ul>
-<b>Starting Location:</b> North of the Paladin Tower, in northwest Ardougne
-<br><br>
-<b>Reward:</b> 1 Quest point, 2,425 Mining XP, Ardougne teleport scroll, reading it unlocks the Ardougne Teleport with 51 Magic
-<br><br>
-<hr>
+<div id="narrowscroll">
+    <h2>$questName</h2>
+    <b>Description:</b> A shadow of disease has overcast Ardounge. Edmond's daugher Elena has gone missing in West Ardougne whilst trying to help the plague victims there. See if you can find out what's going on.
+    <br><br>
+    <b>Difficulty: <font color="Green">Novice</font></b>
+    <br><br>
+    <b>Length: <font color="Yellow">Medium</font></b>
+    <br><br>
+    <h3>Items & Skills Needed:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress><canvas itemname="bucket_water" icon-size="25" show-label="inline" name-replace="4 buckets of water"></canvas></div></li>
+    <li><div data-progress><canvas itemname="rope" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="spade" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="dwellberries" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="hangover_cure" icon-size="25" show-label="inline"></canvas></div></li>
+    </ul>
+    <i>Hangover Cure Ingredients:</i>
+    <ul style="list-style-type: none;">
+    <li><div data-progress><canvas itemname="bucket_milk" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="chocolate_bar" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="pestle_and_mortar" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="snape_grass" icon-size="25" show-label="inline"></canvas></div></li>
+    </ul>
+    <b>Starting Location:</b> North of the Paladin Tower, in northwest Ardougne
+    <br><br>
+    <b>Reward:</b> 1 Quest point, 2,425 Mining XP, Ardougne teleport scroll, reading it unlocks the Ardougne Teleport with 51 Magic
+</div>
 <h3>Instructions:</h3>
 <br>
 <div data-progress>Talk to Edmond. He will tell you about his daughter who has gone to West Ardougne to investigate the plague. He will ask you to talk to his wife.</div>

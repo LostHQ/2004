@@ -1,23 +1,23 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>$questName</h2>
 <a href="#zombiemusiq">ZombieMusiq Video Guide at bottom of page!</a>
-<br><br>
-<b>Description:</b> A young boy who lives in Taverley has kicked his ball into the garden of a scary old lady. He asks you to get it back for him. This proves more difficult than it first sounds.
-<br><br>
-<b>Difficulty: <font color="Yellow">Intermediate</font></b>
-<br><br>
-<b>Length: <font color="Yellow">Medium</font></b><br>
-<h3>Items & Skills Needed:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress><canvas itemname="cheese" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="leather_gloves" icon-size="25" show-label="inline"></canvas></div></li>
-</ul>
-<b>Starting Location:</b> South of the witch's house, Taverley<br>
-<br>
-<b>Reward:</b> 4 Quest points, 6,325 Hitpoints XP
-<br><br>
-<hr>
+<div id="narrowscroll">
+    <h2>$questName</h2>
+    <b>Description:</b> A young boy who lives in Taverley has kicked his ball into the garden of a scary old lady. He asks you to get it back for him. This proves more difficult than it first sounds.
+    <br><br>
+    <b>Difficulty: <font color="Yellow">Intermediate</font></b>
+    <br><br>
+    <b>Length: <font color="Yellow">Medium</font></b>
+    <br><br>
+    <h3>Items & Skills Needed:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress><canvas itemname="cheese" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="leather_gloves" icon-size="25" show-label="inline"></canvas></div></li>
+    </ul>
+    <b>Starting Location:</b> South of the witch's house, Taverley<br>
+    <br>
+    <b>Reward:</b> 4 Quest points, 6,325 Hitpoints XP
+</div>
 <h3>Instructions:</h3>
 <br>
 <div data-progress>After talking to the boy, go to the main door and search for a key under one of the pots next to the door.</div>

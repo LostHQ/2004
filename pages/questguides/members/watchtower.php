@@ -1,45 +1,46 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>$questName</h2>
-<b>Description:</b> The Wizards of the Yanille Watch Tower have been reporting increased ogre sightings recently. Use a wide variety of your skills to help the wizards recover their stolen power crystals and stop the advance of the ogre hordes!
-<br><br>
-<b>Difficulty: <font color="Red">Experienced</font></b>
-<br><br>
-<b>Length: <font color="Red">Long</font></b><br>
-<h3>Items & Skills Needed:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress>14 Magic</div></li>
-<li><div data-progress>14 Herblore</div></li>
-<li><div data-progress>15 Thieving</div></li>
-<li><div data-progress>25 Agility</div></li>
-<li><div data-progress>40 Mining</div></li>
-<li><div data-progress><canvas itemname="coins_5" icon-size="25" show-label="inline" name-replace="20+ coins"></canvas></div></li>
-<li><div data-progress><canvas itemname="gold_bar" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="tinderbox" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="deathrune" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="lit_candle" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="bat_bones" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="dragon_bones" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="guam_leaf" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="vial_water" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="jangerberries" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="pestle_and_mortar" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="rope" icon-size="25" show-label="inline" name-replace="2 ropes"></canvas></div></li>
-<li><div data-progress><canvas itemname="steel_pickaxe" icon-size="25" show-label="inline" name-replace="Any pickaxe"></canvas></div></li>
-<li><div data-progress>The ability to defeat a level 68 Ogre and run past level 111 Blue dragons</div></li>
-</ul>
-<h3>Recommended:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress>43 Prayer</div></li>
-<li><div data-progress>Weapon, armour and some food</div></li>
-<li><div data-progress><canvas itemname="antidragonbreathshield" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="macro_triffidfruit" icon-size="25" show-label="inline"></canvas></div></li>
-</ul>
-<b>Starting Location:</b> Watchtower, which is north of Yanille (just follow yanilles north wall to the west and you'll be there)
-<br><br>
-<b>Reward:</b> 4 Quest points, 12,000 Magic XP, 5,000 coins, Watchtower Teleport (requires level 58 Magic)
-<br><br>
-<hr>
+<div id="narrowscroll">
+    <h2>$questName</h2>
+    <b>Description:</b> The Wizards of the Yanille Watch Tower have been reporting increased ogre sightings recently. Use a wide variety of your skills to help the wizards recover their stolen power crystals and stop the advance of the ogre hordes!
+    <br><br>
+    <b>Difficulty: <font color="Red">Experienced</font></b>
+    <br><br>
+    <b>Length: <font color="Red">Long</font></b>
+    <br><br>
+    <h3>Items & Skills Needed:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress>14 Magic</div></li>
+    <li><div data-progress>14 Herblore</div></li>
+    <li><div data-progress>15 Thieving</div></li>
+    <li><div data-progress>25 Agility</div></li>
+    <li><div data-progress>40 Mining</div></li>
+    <li><div data-progress><canvas itemname="coins_5" icon-size="25" show-label="inline" name-replace="20+ coins"></canvas></div></li>
+    <li><div data-progress><canvas itemname="gold_bar" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="tinderbox" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="deathrune" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="lit_candle" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="bat_bones" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="dragon_bones" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="guam_leaf" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="vial_water" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="jangerberries" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="pestle_and_mortar" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="rope" icon-size="25" show-label="inline" name-replace="2 ropes"></canvas></div></li>
+    <li><div data-progress><canvas itemname="steel_pickaxe" icon-size="25" show-label="inline" name-replace="Any pickaxe"></canvas></div></li>
+    <li><div data-progress>The ability to defeat a level 68 Ogre and run past level 111 Blue dragons</div></li>
+    </ul>
+    <h3>Recommended:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress>43 Prayer</div></li>
+    <li><div data-progress>Weapon, armour and some food</div></li>
+    <li><div data-progress><canvas itemname="antidragonbreathshield" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="macro_triffidfruit" icon-size="25" show-label="inline"></canvas></div></li>
+    </ul>
+    <b>Starting Location:</b> Watchtower, which is north of Yanille (just follow yanilles north wall to the west and you'll be there)
+    <br><br>
+    <b>Reward:</b> 4 Quest points, 12,000 Magic XP, 5,000 coins, Watchtower Teleport (requires level 58 Magic)
+</div>
 <h3>Instructions:</h3>
 <br>
 <img src="img/questimages/watchtower1.jpg" height="350" width="350">

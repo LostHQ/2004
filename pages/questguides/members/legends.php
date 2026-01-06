@@ -1,73 +1,74 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>$questName</h2>
-<b>Description:</b> Accept the challenge of the Legends Guild to map the Southern part of Karamja Island, make friends with the natives and bring back a prize to display in the Legends Guild Main Hall.
-<br><br>
-<b>Difficulty: <font color="Red">Experienced</font></b>
-<br><br>
-<b>Length: <font color="Red">Long</font></b><br>
-<h3>Required Quests:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress>Family Crest</div><br></li>
-<li><div data-progress>Hero's Quest</div><br></li>
-<li><div data-progress>Shilo Village</div><br></li>
-<li><div data-progress>Underground Pass</div><br></li>
-<li><div data-progress>Waterfall Quest</div><br></li>
-</ul>
-<h3>Items & Skills Needed:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress>107 Quest points</div></li>
-<li><div data-progress>50 Strength</div></li>
-<li><div data-progress>42 Prayer</div></li>
-<li><div data-progress>56 Magic</div></li>
-<li><div data-progress>50 Agility</div></li>
-<li><div data-progress>45 Herblore</div></li>
-<li><div data-progress>50 Thieving</div></li>
-<li><div data-progress>50 Crafting</div></li>
-<li><div data-progress>52 Mining</div></li>
-<li><div data-progress>50 Smithing</div></li>
-<li><div data-progress>50 Woodcutting</div></li>
-<li><div data-progress><canvas itemname="hammer" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="rope" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="rune_axe" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="lockpick" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="vial_water" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="stafforb" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="sapphire" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="emerald" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="ruby" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="diamond" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="opal" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="jade" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="red_topaz" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="soulrune" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="mindrune" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="earthrune" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="lawrune" icon-size="25" show-label="inline" name-replace="2 law runes"></canvas></div></li>
-<li><div data-progress><canvas itemname="cosmicrune" icon-size="25" show-label="inline" name-replace="Runes to cast any Charge Orb"></canvas></div></li>
-<li><div data-progress><canvas itemname="charcoal" icon-size="25" show-label="inline" name-replace="2-3 charcoal"></canvas></div></li>
-<li><div data-progress><canvas itemname="papyrus" icon-size="25" show-label="inline" name-replace="4-5 papyrus"></canvas></div></li>
-<li><div data-progress><canvas itemname="gold_bar" icon-size="25" show-label="inline" name-replace="2-6 gold bars"></canvas></div></li>
-<li><div data-progress><canvas itemname="steel_pickaxe" icon-size="25" show-label="inline" name-replace="Any pickaxe"></canvas></div></li>
-<li><div data-progress><canvas itemname="snake_weed" icon-size="25" show-label="inline" name-append=" (obtainable during quest)"></canvas></div></li>
-<li><div data-progress><canvas itemname="ardrigal" icon-size="25" show-label="inline" name-append=" (obtainable during quest)"></canvas></div></li>
-<li><div data-progress>The ability to defeat a level 187 demon</div></li>
-</ul>
-<h3>Recommended:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress>Your best weapons, armor, and food</div><br></li>
-<li><div data-progress><canvas itemname="4dosestatrestore" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="4doseprayerrestore" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="amulet_of_glory_4" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="lawrune" icon-size="25" show-label="inline" name-replace="Teleportation runes"></canvas></div></li>
-</ul>
-<em>Carry at all times throughout quest:</em> Armor, Hatchet (Rune hatchet required for Yommie Tree), Machete (obtained during quest), Radimus Notes/Map (received during quest), Food, and Prayer Potions
-<br><br>
-<b>Starting Location:</b> Talk to Radimus Erkle in Legends' Guild
-<br><br>
-<b>Reward:</b> 4 Quest points, 7,650 experience each in four skills of your choice (limited to Attack, Defence, Strength, Hitpoints, Prayer, Magic, Woodcutting, Crafting, Smithing, Herblore, Agility, Thieving; it is possible to choose the same skill all four times), access to the Legends' Guild (including shop to buy the cape of legends), the ability to wield the dragon sq shield, you can now receive the Rune spear, Dragon spear, and Shield left half from the Gem drop table
-<br><br>
-<hr>
+<div id="narrowscroll">
+    <h2>$questName</h2>
+    <b>Description:</b> Accept the challenge of the Legends Guild to map the Southern part of Karamja Island, make friends with the natives and bring back a prize to display in the Legends Guild Main Hall.
+    <br><br>
+    <b>Difficulty: <font color="Red">Experienced</font></b>
+    <br><br>
+    <b>Length: <font color="Red">Long</font></b>
+    <br><br>
+    <h3>Required Quests:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress>Family Crest</div><br></li>
+    <li><div data-progress>Hero's Quest</div><br></li>
+    <li><div data-progress>Shilo Village</div><br></li>
+    <li><div data-progress>Underground Pass</div><br></li>
+    <li><div data-progress>Waterfall Quest</div><br></li>
+    </ul>
+    <h3>Items & Skills Needed:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress>107 Quest points</div></li>
+    <li><div data-progress>50 Strength</div></li>
+    <li><div data-progress>42 Prayer</div></li>
+    <li><div data-progress>56 Magic</div></li>
+    <li><div data-progress>50 Agility</div></li>
+    <li><div data-progress>45 Herblore</div></li>
+    <li><div data-progress>50 Thieving</div></li>
+    <li><div data-progress>50 Crafting</div></li>
+    <li><div data-progress>52 Mining</div></li>
+    <li><div data-progress>50 Smithing</div></li>
+    <li><div data-progress>50 Woodcutting</div></li>
+    <li><div data-progress><canvas itemname="hammer" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="rope" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="rune_axe" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="lockpick" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="vial_water" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="stafforb" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="sapphire" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="emerald" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="ruby" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="diamond" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="opal" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="jade" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="red_topaz" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="soulrune" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="mindrune" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="earthrune" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="lawrune" icon-size="25" show-label="inline" name-replace="2 law runes"></canvas></div></li>
+    <li><div data-progress><canvas itemname="cosmicrune" icon-size="25" show-label="inline" name-replace="Runes to cast any Charge Orb"></canvas></div></li>
+    <li><div data-progress><canvas itemname="charcoal" icon-size="25" show-label="inline" name-replace="2-3 charcoal"></canvas></div></li>
+    <li><div data-progress><canvas itemname="papyrus" icon-size="25" show-label="inline" name-replace="4-5 papyrus"></canvas></div></li>
+    <li><div data-progress><canvas itemname="gold_bar" icon-size="25" show-label="inline" name-replace="2-6 gold bars"></canvas></div></li>
+    <li><div data-progress><canvas itemname="steel_pickaxe" icon-size="25" show-label="inline" name-replace="Any pickaxe"></canvas></div></li>
+    <li><div data-progress><canvas itemname="snake_weed" icon-size="25" show-label="inline" name-append=" (obtainable during quest)"></canvas></div></li>
+    <li><div data-progress><canvas itemname="ardrigal" icon-size="25" show-label="inline" name-append=" (obtainable during quest)"></canvas></div></li>
+    <li><div data-progress>The ability to defeat a level 187 demon</div></li>
+    </ul>
+    <h3>Recommended:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress>Your best weapons, armor, and food</div><br></li>
+    <li><div data-progress><canvas itemname="4dosestatrestore" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="4doseprayerrestore" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="amulet_of_glory_4" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="lawrune" icon-size="25" show-label="inline" name-replace="Teleportation runes"></canvas></div></li>
+    </ul>
+    <em>Carry at all times throughout quest:</em> Armor, Hatchet (Rune hatchet required for Yommie Tree), Machete (obtained during quest), Radimus Notes/Map (received during quest), Food, and Prayer Potions
+    <br><br>
+    <b>Starting Location:</b> Talk to Radimus Erkle in Legends' Guild
+    <br><br>
+    <b>Reward:</b> 4 Quest points, 7,650 experience each in four skills of your choice (limited to Attack, Defence, Strength, Hitpoints, Prayer, Magic, Woodcutting, Crafting, Smithing, Herblore, Agility, Thieving; it is possible to choose the same skill all four times), access to the Legends' Guild (including shop to buy the cape of legends), the ability to wield the dragon sq shield, you can now receive the Rune spear, Dragon spear, and Shield left half from the Gem drop table
+</div>
 <h3>Instructions:</h3>
 <br>
 <div data-progress>Talk to Radimus Erkle in his office at the Legends' Guild. You will receive 3 tasks to accomplish: complete a Map of the Kharazi Jungle, make friends with the Natives, and bring a symbol from the Natives back to the Guild. He provides the Radimus Notes.</div>

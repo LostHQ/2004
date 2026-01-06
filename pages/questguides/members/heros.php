@@ -1,54 +1,54 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>$questName</h2>
 <a href="#zombiemusiq">ZombieMusiq Video Guide at bottom of page!</a> 
-<br><br>
-<b>Description:</b> Prove you are worthy to enter the hero's guild. To prove your status as a hero you will need to obtain a number of items. There are many challenges standing between you and these items.
-<br><br>
-<b>Difficulty: <font color="Red">Experienced</font></b>
-<br><br>
-<b>Length: <font color="Red">Long</font></b><br>
-<h3>Required Quests:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress>Shield of Arrav</div><br></li>
-<li><div data-progress>Lost City</div><br></li>
-<li><div data-progress>Merlin's Crystal</div><br></li>
-<li><div data-progress>Dragon Slayer</div><br></li>
-</ul>
-<h3>Items & Skills Needed:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress>55 Quest points</div><br></li>
-<li><div data-progress>50 Mining</div><br></li>
-<li><div data-progress>25 Herblore</div><br></li>
-<li><div data-progress>53 Fishing (or 50 and a fishing potion)</div><br></li>
-<li><div data-progress>53 Cooking</div><br></li>
-<li><div data-progress><canvas itemname="fishing_rod" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="fishing_bait" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="harralandervial" icon-size="25" show-label="inline" name-append=" (or a harralander and vial of water)"></canvas></div></li>
-<li><div data-progress><canvas itemname="steel_pickaxe" icon-size="25" show-label="inline" name-replace="Any pickaxe"></canvas></div></li>
-</ul>
-<b>Black Arm Gang members</b>
-<ul style="list-style-type: none;">
-<li><div data-progress><canvas itemname="black_full_helm" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="black_platebody" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="black_platelegs" icon-size="25" show-label="inline"></canvas></div></li>
-</ul>
-<b>Phoenix Gang members</b>
-<ul style="list-style-type: none;">
-<li><div data-progress>Some form of Ranged or Magic attack method</div><br></li>
-</ul>
-<h3>Recommended:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress>43 Prayer</div></li>
-<li><div data-progress><canvas itemname="antidragonbreathshield" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="dusty_key" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress>Food</div></li>
-</ul>
-<b>Starting Location:</b> North of Taverley, outside the Hero's guild
-<br><br>
-<b>Reward:</b> 1 Quest point, 3,075 Attack XP, 3,075 Defence XP, 3,075 Strength XP, 3,075 Hitpoints XP, 2,075 Ranged XP, 2,725 Fishing XP, 2,825 Cooking XP, 1,575 Woodcutting XP, 1,575 Firemaking XP, 2,275 Smithing XP, 2,575 Mining XP, 1,325 Herblore XP, access to the Hero's Guild, ability to buy a Dragon Axe and Mace
-<br><br>
-<hr>
+<div id="narrowscroll">
+    <h2>$questName</h2>
+    <b>Description:</b> Prove you are worthy to enter the hero's guild. To prove your status as a hero you will need to obtain a number of items. There are many challenges standing between you and these items.
+    <br><br>
+    <b>Difficulty: <font color="Red">Experienced</font></b>
+    <br><br>
+    <b>Length: <font color="Red">Long</font></b>
+    <br><br>
+    <h3>Required Quests:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress>Shield of Arrav</div><br></li>
+    <li><div data-progress>Lost City</div><br></li>
+    <li><div data-progress>Merlin's Crystal</div><br></li>
+    <li><div data-progress>Dragon Slayer</div><br></li>
+    </ul>
+    <h3>Items & Skills Needed:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress>55 Quest points</div><br></li>
+    <li><div data-progress>50 Mining</div><br></li>
+    <li><div data-progress>25 Herblore</div><br></li>
+    <li><div data-progress>53 Fishing (or 50 and a fishing potion)</div><br></li>
+    <li><div data-progress>53 Cooking</div><br></li>
+    <li><div data-progress><canvas itemname="fishing_rod" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="fishing_bait" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="harralandervial" icon-size="25" show-label="inline" name-append=" (or a harralander and vial of water)"></canvas></div></li>
+    <li><div data-progress><canvas itemname="steel_pickaxe" icon-size="25" show-label="inline" name-replace="Any pickaxe"></canvas></div></li>
+    </ul>
+    <b>Black Arm Gang members</b>
+    <ul style="list-style-type: none;">
+    <li><div data-progress><canvas itemname="black_full_helm" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="black_platebody" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="black_platelegs" icon-size="25" show-label="inline"></canvas></div></li>
+    </ul>
+    <b>Phoenix Gang members</b>
+    <ul style="list-style-type: none;">
+    <li><div data-progress>Some form of Ranged or Magic attack method</div><br></li>
+    </ul>
+    <h3>Recommended:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress>43 Prayer</div></li>
+    <li><div data-progress><canvas itemname="antidragonbreathshield" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="dusty_key" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress>Food</div></li>
+    </ul>
+    <b>Starting Location:</b> North of Taverley, outside the Hero's guild
+    <br><br>
+    <b>Reward:</b> 1 Quest point, 3,075 Attack XP, 3,075 Defence XP, 3,075 Strength XP, 3,075 Hitpoints XP, 2,075 Ranged XP, 2,725 Fishing XP, 2,825 Cooking XP, 1,575 Woodcutting XP, 1,575 Firemaking XP, 2,275 Smithing XP, 2,575 Mining XP, 1,325 Herblore XP, access to the Hero's Guild, ability to buy a Dragon Axe and Mace
+</div>
 <h3>Instructions:</h3>
 <br>
 <div data-progress>Speak to Achetties about joining the guild. Achetties will tell you to get three items. These are Firebird's Feather, Cooked Lava Eel and the Master Thieves Armband. You can get these in any order.</div>

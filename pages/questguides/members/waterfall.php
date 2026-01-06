@@ -1,26 +1,27 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>$questName</h2>
 <a href="#zombiemusiq">ZombieMusiq Video Guide at bottom of page!</a>
-<br><br>
-<b>Description:</b> Investigate the death of elven leaders of old. Search for the elf King Baxtorian's tomb and discover the mysterious hidden treasure of the waterfall.
-<br><br>
-<b>Difficulty: <font color="Red">Experienced</font></b>
-<br><br>
-<b>Length: <font color="Red">Long</font></b><br>
-<h3>Items & Skills Needed:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress><canvas itemname="rope" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="airrune" icon-size="25" show-label="inline" name-replace="6 air runes"></canvas></div></li>
-<li><div data-progress><canvas itemname="earthrune" icon-size="25" show-label="inline" name-replace="6 earth runes"></canvas></div></li>
-<li><div data-progress><canvas itemname="waterrune" icon-size="25" show-label="inline" name-replace="6 water runes"></canvas></div></li>
-</ul>
-<br><br>
-<b>Starting Location:</b> North of Baxtorian Falls, speak to Almera
-<br><br>
-<b>Reward:</b> 1 Quest point, 13,750 Attack XP, 13,750 Strength XP, 2 cut diamonds, 2 gold bars, 40 mithril seeds (allows you to grow flowers)
-<br><br>
-<hr>
+<div id="narrowscroll">
+    <h2>$questName</h2>
+    <br><br>
+    <b>Description:</b> Investigate the death of elven leaders of old. Search for the elf King Baxtorian's tomb and discover the mysterious hidden treasure of the waterfall.
+    <br><br>
+    <b>Difficulty: <font color="Red">Experienced</font></b>
+    <br><br>
+    <b>Length: <font color="Red">Long</font></b>
+    <br><br>
+    <h3>Items & Skills Needed:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress><canvas itemname="rope" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="airrune" icon-size="25" show-label="inline" name-replace="6 air runes"></canvas></div></li>
+    <li><div data-progress><canvas itemname="earthrune" icon-size="25" show-label="inline" name-replace="6 earth runes"></canvas></div></li>
+    <li><div data-progress><canvas itemname="waterrune" icon-size="25" show-label="inline" name-replace="6 water runes"></canvas></div></li>
+    </ul>
+    <br><br>
+    <b>Starting Location:</b> North of Baxtorian Falls, speak to Almera
+    <br><br>
+    <b>Reward:</b> 1 Quest point, 13,750 Attack XP, 13,750 Strength XP, 2 cut diamonds, 2 gold bars, 40 mithril seeds (allows you to grow flowers)
+</div>
 <h3>Instructions:</h3>
 <br>
 Almera's house is on top.<br>

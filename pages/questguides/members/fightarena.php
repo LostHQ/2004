@@ -1,29 +1,29 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>$questName</h2>
 <a href="#zombiemusiq">ZombieMusiq Video Guide at bottom of page!</a>
-<br><br>
-<b>Description:</b> The prosperous Servil family have been abducted by the infamous General Khazard. He plans to have the family battle for his entertainment in the fight arena. Can you rescue the Servil's before the tyrant has these innocent (not to mention wealthy) civillians slain.
-<br><br>
-<b>Difficulty: <font color="Red">Experienced</font></b>
-<br><br>
-<b>Length: <font color="Yellow">Medium</font></b><br>
-<h3>Items & Skills Needed:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress><canvas itemname="coins_5" icon-size="25" show-label="inline" name-replace="5 coins"></canvas></div></li>
-<li><div data-progress>The ability to defeat level 44, 55, and 132 enemies (all can be safespotted)</div></li>
-</ul>
-<h3>Recommended:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress>Decent weapon and armor</div></li>
-<li><div data-progress>Alternatively: Any Magic level and runes to cast combat spells or 50+ Ranged and ranged gear</div></li>
-<li><div data-progress><canvas itemname="lobster" icon-size="25" show-label="inline" name-replace="Food"></canvas></div></li>
-</ul>
-<b>Starting Location:</b> Lady Servil is southeast of the Gnome Battlefield, on the northwest edge of the arena camp
-<br><br>
-<b>Reward:</b> 2 Quest points, 3,375 Thieving XP, 12,175 Attack XP, 1,000 coins
-<br><br>
-<hr>
+<div id="narrowscroll">
+    <h2>$questName</h2>
+    <b>Description:</b> The prosperous Servil family have been abducted by the infamous General Khazard. He plans to have the family battle for his entertainment in the fight arena. Can you rescue the Servil's before the tyrant has these innocent (not to mention wealthy) civillians slain.
+    <br><br>
+    <b>Difficulty: <font color="Red">Experienced</font></b>
+    <br><br>
+    <b>Length: <font color="Yellow">Medium</font></b>
+    <br><br>
+    <h3>Items & Skills Needed:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress><canvas itemname="coins_5" icon-size="25" show-label="inline" name-replace="5 coins"></canvas></div></li>
+    <li><div data-progress>The ability to defeat level 44, 55, and 132 enemies (all can be safespotted)</div></li>
+    </ul>
+    <h3>Recommended:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress>Decent weapon and armor</div></li>
+    <li><div data-progress>Alternatively: Any Magic level and runes to cast combat spells or 50+ Ranged and ranged gear</div></li>
+    <li><div data-progress><canvas itemname="lobster" icon-size="25" show-label="inline" name-replace="Food"></canvas></div></li>
+    </ul>
+    <b>Starting Location:</b> Lady Servil is southeast of the Gnome Battlefield, on the northwest edge of the arena camp
+    <br><br>
+    <b>Reward:</b> 2 Quest points, 3,375 Thieving XP, 12,175 Attack XP, 1,000 coins
+</div>
 <h3>Instructions:</h3>
 <br>
 <div data-progress>Talk to Lady Servil and agree to help her rescue her family. Head east and go into the most northeastern house, open the chest and take armor, put it on.</div>

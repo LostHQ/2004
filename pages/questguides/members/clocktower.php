@@ -1,29 +1,29 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>$questName</h2>
 <a href="#zombiemusiq">ZombieMusiq Video Guide at bottom of page!</a>
-<br><br>
-<b>Description:</b> Help the confused Brother Kojo find the missing cogs and fix his watch tower. Search the dungeon using brawn and brains to correctly place the four cogs.
-<br><br>
-<b>Difficulty: <font color="Yellow">Intermediate</font></b>
-<br><br>
-<b>Length: <font color="Yellow">Medium</font></b><br>
-<h3>Items & Skills Needed:</h3>
-<ul style="list-style-type: none;">
-    <li>
-        <div data-progress>
-            <canvas itemname="bucket_water" icon-size="25" show-label="inline" name-append=" (can be obtained during quest)"></canvas>
-            or
-            <canvas itemname="ice_gloves" icon-size="25" show-label="inline"></canvas>
-        </div>
-    </li>
-    <li><div data-progress>Some good armour to get past some level 48 ogres</div></li>
-</ul>
-<b>Starting Location:</b> Southwest of Ardougne Zoo
-<br><br>
-<b>Reward:</b> 1 Quest point, 500 coins
-<br><br>
-<hr>
+<div id="narrowscroll">
+    <h2>$questName</h2>
+    <b>Description:</b> Help the confused Brother Kojo find the missing cogs and fix his watch tower. Search the dungeon using brawn and brains to correctly place the four cogs.
+    <br><br>
+    <b>Difficulty: <font color="Yellow">Intermediate</font></b>
+    <br><br>
+    <b>Length: <font color="Yellow">Medium</font></b>
+    <br><br>
+    <h3>Items & Skills Needed:</h3>
+    <ul style="list-style-type: none;">
+        <li>
+            <div data-progress>
+                <canvas itemname="bucket_water" icon-size="25" show-label="inline" name-append=" (can be obtained during quest)"></canvas>
+                or
+                <canvas itemname="ice_gloves" icon-size="25" show-label="inline"></canvas>
+            </div>
+        </li>
+        <li><div data-progress>Some good armour to get past some level 48 ogres</div></li>
+    </ul>
+    <b>Starting Location:</b> Southwest of Ardougne Zoo
+    <br><br>
+    <b>Reward:</b> 1 Quest point, 500 coins
+</div>
 <h3>Instructions:</h3>
 <div data-progress>Talk to Brother Kojo; he should be in the clock tower just southwest of Ardougne Zoo.</div>
 <br><br>

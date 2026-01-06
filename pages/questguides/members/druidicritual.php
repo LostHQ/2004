@@ -1,25 +1,25 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>$questName</h2>
 <a href="#zombiemusiq">ZombieMusiq Video Guide at bottom of page!</a>
-<br><br>
-<b>Description:</b> To start using the herblore skill you will need to ask for some training from the druids. However, they require some help with a ritual before they will help you.
-<br><br>
-<b>Difficulty: <font color="Green">Novice</font></b>
-<br><br>
-<b>Length: <font color="Yellow">Medium</font></b><br>
-<h3>Items & Skills Needed:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress><canvas itemname="raw_beef" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="raw_bear_meat" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="raw_rat_meat" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="raw_chicken" icon-size="25" show-label="inline"></canvas></div></li>
-</ul>
-<b>Starting Location:</b> Stone circle north of Taverley
-<br><br>
-<b>Reward:</b> 4 Quest points, 250 Herblore XP, access to the Herblore skill
-<br><br>
-<hr>
+<div id="narrowscroll">
+    <h2>$questName</h2>
+    <b>Description:</b> To start using the herblore skill you will need to ask for some training from the druids. However, they require some help with a ritual before they will help you.
+    <br><br>
+    <b>Difficulty: <font color="Green">Novice</font></b>
+    <br><br>
+    <b>Length: <font color="Yellow">Medium</font></b>
+    <br><br>
+    <h3>Items & Skills Needed:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress><canvas itemname="raw_beef" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="raw_bear_meat" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="raw_rat_meat" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="raw_chicken" icon-size="25" show-label="inline"></canvas></div></li>
+    </ul>
+    <b>Starting Location:</b> Stone circle north of Taverley
+    <br><br>
+    <b>Reward:</b> 4 Quest points, 250 Herblore XP, access to the Herblore skill
+</div>
 <h3>Instructions:</h3>
 <br>
 <div data-progress>Talk to Kaqemeex, and he'll tell you what he needs to purify their cursed altar south of Varrock. He says to speak to Sanfew.</div>

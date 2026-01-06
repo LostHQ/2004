@@ -1,29 +1,30 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>$questName</h2>
-<b>Description:</b> Trolls have come down from the north and are camped on Death Plateau. They are using this base to launch attacks on the principality of Burthorpe! The Imperial Guard is taking heavy losses. They need your help!
-<br><br>
-<b>Difficulty: <font color="Green">Novice</font></b>
-<br><br>
-<b>Length: <font color="yellow">Medium</font></b><br>
-<h3>Items & Skills Needed:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress><canvas itemname="asgarnian_ale" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="coins" icon-size="25" show-label="inline" name-replace="About 1,000 coins"></canvas></div></li>
-<li><div data-progress><canvas itemname="trout" icon-size="25" show-label="inline" name-replace="10 Cooked Trout"></canvas></div></li>
-<li><div data-progress><canvas itemname="bread" icon-size="25" show-label="inline" name-replace="10 Bread"></canvas></div></li>
-<li><div data-progress><canvas itemname="iron_bar" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="blurberry_special" icon-size="25" show-label="inline" name-append=" (Not always, Premade works)"></canvas></div></li>
-</ul>
-<h3>Recommended:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress>Able to hold your own against trolls, Protect from Missiles if you wish to fight the trolls</div><br></li>
-</ul>
-<b>Starting Location:</b> Imperial Guard training camp in Burthorpe, North of the Hero's Guild
-<br><br>
-<b>Reward:</b> 1 quest point, 3k attack exp, the ability to make claws depending on your smithing level, a pair of steel claws, and membership to the Imperial Forces
-<br><br>
-<hr>
+<div id="narrowscroll">
+    <h2>$questName</h2>
+    <b>Description:</b> Trolls have come down from the north and are camped on Death Plateau. They are using this base to launch attacks on the principality of Burthorpe! The Imperial Guard is taking heavy losses. They need your help!
+    <br><br>
+    <b>Difficulty: <font color="Green">Novice</font></b>
+    <br><br>
+    <b>Length: <font color="yellow">Medium</font></b>
+    <br><br>
+    <h3>Items & Skills Needed:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress><canvas itemname="asgarnian_ale" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="coins" icon-size="25" show-label="inline" name-replace="About 1,000 coins"></canvas></div></li>
+    <li><div data-progress><canvas itemname="trout" icon-size="25" show-label="inline" name-replace="10 Cooked Trout"></canvas></div></li>
+    <li><div data-progress><canvas itemname="bread" icon-size="25" show-label="inline" name-replace="10 Bread"></canvas></div></li>
+    <li><div data-progress><canvas itemname="iron_bar" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="blurberry_special" icon-size="25" show-label="inline" name-append=" (Not always, Premade works)"></canvas></div></li>
+    </ul>
+    <h3>Recommended:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress>Able to hold your own against trolls, Protect from Missiles if you wish to fight the trolls</div><br></li>
+    </ul>
+    <b>Starting Location:</b> Imperial Guard training camp in Burthorpe, North of the Hero's Guild
+    <br><br>
+    <b>Reward:</b> 1 quest point, 3k attack exp, the ability to make claws depending on your smithing level, a pair of steel claws, and membership to the Imperial Forces
+</div>
 <h3>Instructions:</h3>
 <br>
 <div data-progress>

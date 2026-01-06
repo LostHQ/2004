@@ -1,22 +1,22 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>$questName</h2>
 <a href="#zombiemusiq">ZombieMusiq Video Guide at bottom of page!</a>
-<br><br>
-<b>Description:</b> Some plague infected sheep have escaped into East Ardounge. They must be found and disposed off before the whole town is infected, time is of the essence.
-<br><br>
-<b>Difficulty: <font color="Green">Novice</font></b>
-<br><br>
-<b>Length: <font color="Green">Short</font></b><br>
-<h3>Items & Skills Needed:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress><canvas itemname="coins_100" icon-size="25" show-label="inline" name-replace="100 coins"></canvas></div></li>
-</ul>
-<b>Starting Location:</b> Just south of the Ardougne chapel, east of the bridge over the west/east Ardougne river
-<br><br>
-<b>Reward:</b> 4 Quest points, 3,100 coins
-<br><br>
-<hr>
+<div id="narrowscroll">
+    <h2>$questName</h2>
+    <b>Description:</b> Some plague infected sheep have escaped into East Ardounge. They must be found and disposed off before the whole town is infected, time is of the essence.
+    <br><br>
+    <b>Difficulty: <font color="Green">Novice</font></b>
+    <br><br>
+    <b>Length: <font color="Green">Short</font></b>
+    <br><br>
+    <h3>Items & Skills Needed:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress><canvas itemname="coins_100" icon-size="25" show-label="inline" name-replace="100 coins"></canvas></div></li>
+    </ul>
+    <b>Starting Location:</b> Just south of the Ardougne chapel, east of the bridge over the west/east Ardougne river
+    <br><br>
+    <b>Reward:</b> 4 Quest points, 3,100 coins
+</div>
 <h3>Instructions:</h3>
 <br>
 <div data-progress>Talk to Councilor Halgrive and he'll inform you of the dire situation. He gives you some poisoned feed and tells you to speak to Doctor Orbon in the chapel just north of him.</div>

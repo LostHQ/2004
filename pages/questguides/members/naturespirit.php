@@ -1,32 +1,31 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>$questName</h2>
-<!-- <a href="#zombiemusiq">ZombieMusiq Video Guide at bottom of page!</a> 
-<br><br> -->
-<b>Description:</b> After saving the holy man Drezel, he's seeking some assistance again.
-This time he has a special request for any adventurous sorts to search for the Druid 'Filliman Tarlock' and brave the terrors that infest the swamp of Mort Myre.
-<br><br>
-<b>Difficulty: <font color="Green">Novice</font></b>
-<br><br>
-<b>Length: <font color="Yellow">Medium</font></b><br>
-<h3>Required Quests:</h3>
-<ul style="list-style-type: none;">
-    <li><div data-progress>Priest In Peril</div></li>
-    <li><div data-progress>Restless Ghost</div></li>
-</ul>
-<h3>Items & Skills Needed:</h3>
-<ul style="list-style-type: none;">
-    <li><div data-progress>18 Crafting</div></li>
-    <li><div data-progress><canvas itemname="amulet_of_ghostspeak" icon-size="25" show-label="inline"></canvas></div></li>
-    <li><div data-progress><canvas itemname="silver_bar" icon-size="25" show-label="inline"></canvas></div></li>
-    <li><div data-progress><canvas itemname="sickle_mould" icon-size="25" show-label="inline"></canvas></div></li>
-    <li><div data-progress>The ability to defeat a level 30 monster</div></li>
-</ul>
-<b>Starting Location:</b> Underground passageway of Sarodomin Temple (where you finish the Priest in Peril Quest)
-<br><br>
-<b>Reward:</b> 2 Quest points, 2,000 Defence XP, 2,000 Hitpoints XP, 3,000 Crafting XP, a Blessed Silver Sickle, and a Druid Pouch (and with it, the ability to kill Ghasts in swamp)
-<br><br>
-<hr>
+<div id="narrowscroll">
+    <h2>$questName</h2>
+    <b>Description:</b> After saving the holy man Drezel, he's seeking some assistance again.
+    This time he has a special request for any adventurous sorts to search for the Druid 'Filliman Tarlock' and brave the terrors that infest the swamp of Mort Myre.
+    <br><br>
+    <b>Difficulty: <font color="Green">Novice</font></b>
+    <br><br>
+    <b>Length: <font color="Yellow">Medium</font></b>
+    <br><br>
+    <h3>Required Quests:</h3>
+    <ul style="list-style-type: none;">
+        <li><div data-progress>Priest In Peril</div></li>
+        <li><div data-progress>Restless Ghost</div></li>
+    </ul>
+    <h3>Items & Skills Needed:</h3>
+    <ul style="list-style-type: none;">
+        <li><div data-progress>18 Crafting</div></li>
+        <li><div data-progress><canvas itemname="amulet_of_ghostspeak" icon-size="25" show-label="inline"></canvas></div></li>
+        <li><div data-progress><canvas itemname="silver_bar" icon-size="25" show-label="inline"></canvas></div></li>
+        <li><div data-progress><canvas itemname="sickle_mould" icon-size="25" show-label="inline"></canvas></div></li>
+        <li><div data-progress>The ability to defeat a level 30 monster</div></li>
+    </ul>
+    <b>Starting Location:</b> Underground passageway of Sarodomin Temple (where you finish the Priest in Peril Quest)
+    <br><br>
+    <b>Reward:</b> 2 Quest points, 2,000 Defence XP, 2,000 Hitpoints XP, 3,000 Crafting XP, a Blessed Silver Sickle, and a Druid Pouch (and with it, the ability to kill Ghasts in swamp)
+</div>
 <h3>Instructions:</h3>
 <br>
 <div data-progress>Talk to Drezel (in the underground section entrence to Morytania).
@@ -76,11 +75,8 @@ This time he has a special request for any adventurous sorts to search for the D
 <br><br>
 <div data-progress>Kill three Ghasts and go back and talk to him.</div>
 <br><br>
-Quest Completed!
 $questComplete
-<!-- <span id="zombiemusiq"></span>
-<iframe width="450" height="253" src="https://www.youtube.com/embed/UjPa7n7Ymj8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<hr> -->
+
 This quest guide was written by Rekeri. Thanks to Sporhund, Stormer, ossie000, the_peleton, Ju Juitsu, Cricket55416, malku_raj, DRAVAN, trekkie, and SchmackyEvil for corrections.
 <br><br>
 This quest guide was entered into the RuneHQ.com database on Tue, Jul 13, 2004, at 02:18:08 PM by Pirate Bob49 and CJH and was last updated on Wed, Nov 02, 2005, at 08:37:48 PM by DRAVAN.

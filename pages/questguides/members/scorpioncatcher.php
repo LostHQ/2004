@@ -1,25 +1,25 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>$questName</h2>
 <a href="#zombiemusiq">ZombieMusiq Video Guide at bottom of page!</a>
-<br><br>
-<b>Description:</b> Thormac has lost his rare lesser kharid scorpions after leaving their cage door open. These scorpions have hidden in areas that are rather difficult to get into. You will have to overcome various challenges (and drink a lot of beer) to get all the scorpions back. If you manage to help him Thormac will improve your battle staffs.
-<br><br>
-<b>Difficulty: <font color="Red">Experienced</font></b>
-<br><br>
-<b>Length: <font color="Red">Long</font></b><br>
-<h3>Items & Skills Needed:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress>31 Prayer</div></li>
-<li><div data-progress>Completion of <a href="?p=questguides&quest=barcrawl">Alfred Grimhand's Barcrawl</a></div></li>
-<li><div data-progress><canvas itemname="dusty_key" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress>The ability to go deep in to the Taverley Dungeon</div></li>
-</ul>
-<b>Starting Location:</b> Thormac the wizard in the Wizard Tower south of Seers Village
-<br><br>
-<b>Reward:</b> 1 Quest point, 6,625 Strength XP, Thormac will enchant battlestaves into mystic staves for 40,000 coins
-<br><br>
-<hr>
+<div id="narrowscroll">
+    <h2>$questName</h2>
+    <b>Description:</b> Thormac has lost his rare lesser kharid scorpions after leaving their cage door open. These scorpions have hidden in areas that are rather difficult to get into. You will have to overcome various challenges (and drink a lot of beer) to get all the scorpions back. If you manage to help him Thormac will improve your battle staffs.
+    <br><br>
+    <b>Difficulty: <font color="Red">Experienced</font></b>
+    <br><br>
+    <b>Length: <font color="Red">Long</font></b>
+    <br><br>
+    <h3>Items & Skills Needed:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress>31 Prayer</div></li>
+    <li><div data-progress>Completion of <a href="?p=questguides&quest=barcrawl">Alfred Grimhand's Barcrawl</a></div></li>
+    <li><div data-progress><canvas itemname="dusty_key" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress>The ability to go deep in to the Taverley Dungeon</div></li>
+    </ul>
+    <b>Starting Location:</b> Thormac the wizard in the Wizard Tower south of Seers Village
+    <br><br>
+    <b>Reward:</b> 1 Quest point, 6,625 Strength XP, Thormac will enchant battlestaves into mystic staves for 40,000 coins
+    </div>
 <h3>Instructions:</h3>
 <br>
 <img src="img/questimages/scorp1.png" height="200" width="200">

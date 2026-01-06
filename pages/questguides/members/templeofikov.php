@@ -1,34 +1,35 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>$questName</h2>
-<b>Description:</b> A mysterious stranger called Lucien asks you to go on a mission deep under the Temple of Ikov in central Kandarin. He wants you to retrieve an artifact known as the Staff of Armadyl. Towards the end of the quest you are presented with a choice on how to complete the quest.
-<br><br>
-<b>Difficulty: <font color="Red">Experienced</font></b>
-<br><br>
-<b>Length: <font color="Red">Long</font></b><br>
-<h3>Items & Skills Needed:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress>42 Thieving</div></li>
-<li><div data-progress>40 Ranged</div></li>
-<li><div data-progress><canvas itemname="yew_shortbow" icon-size="25" show-label="inline" name-append=" or better"></canvas></div></li>
-<li><div data-progress><canvas itemname="limpwurt_root" icon-size="25" show-label="inline" name-replace="20 limpwurt roots"></canvas></div></li>
-<li><div data-progress><canvas itemname="lit_candle" icon-size="25" show-label="inline" name-replace="A light source"></canvas></div></li>
-<li><div data-progress><canvas itemname="knife" icon-size="25" show-label="inline" name-replace="Something to cut webs (knife/slash weapon)"></canvas></div></li>
-<li><div data-progress>The ability to defeat a level 84 enemy with Ranged</div></li>
-</ul>
-<h3>Recommended:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress>43 Prayer</div></li>
-<li><div data-progress><canvas itemname="3doseprayerrestore" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="dragonhide_body" icon-size="25" show-label="inline" name-replace="Dragon leather ranged armour"></canvas></div></li>
-<li><div data-progress><canvas itemname="lawrune" icon-size="25" show-label="inline" name-replace="Varrock and Ardougne teleports"></canvas></div></li>
-<li><div data-progress>A trustworthy friend to do the quest with</div></li>
-</ul>
-<b>Starting Location:</b> In the 'Flying Horse' bar west of the Ardougne River
-<br><br>
-<b>Reward:</b> 1 Quest point, 10,500 Ranged XP, 8,000 Fletching XP, Boots of lightness, Pendant of Lucien which grants access to a door in the Temple of Ikov, Shiny key for a shortcut between the Temple of Ikov and McGrubor's Wood, Armadyl pendant (if you sided with Lucien)
-<br><br>
-<hr>
+<div id="narrowscroll">
+    <h2>$questName</h2>
+    <b>Description:</b> A mysterious stranger called Lucien asks you to go on a mission deep under the Temple of Ikov in central Kandarin. He wants you to retrieve an artifact known as the Staff of Armadyl. Towards the end of the quest you are presented with a choice on how to complete the quest.
+    <br><br>
+    <b>Difficulty: <font color="Red">Experienced</font></b>
+    <br><br>
+    <b>Length: <font color="Red">Long</font></b>
+    <br><br>
+    <h3>Items & Skills Needed:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress>42 Thieving</div></li>
+    <li><div data-progress>40 Ranged</div></li>
+    <li><div data-progress><canvas itemname="yew_shortbow" icon-size="25" show-label="inline" name-append=" or better"></canvas></div></li>
+    <li><div data-progress><canvas itemname="limpwurt_root" icon-size="25" show-label="inline" name-replace="20 limpwurt roots"></canvas></div></li>
+    <li><div data-progress><canvas itemname="lit_candle" icon-size="25" show-label="inline" name-replace="A light source"></canvas></div></li>
+    <li><div data-progress><canvas itemname="knife" icon-size="25" show-label="inline" name-replace="Something to cut webs (knife/slash weapon)"></canvas></div></li>
+    <li><div data-progress>The ability to defeat a level 84 enemy with Ranged</div></li>
+    </ul>
+    <h3>Recommended:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress>43 Prayer</div></li>
+    <li><div data-progress><canvas itemname="3doseprayerrestore" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="dragonhide_body" icon-size="25" show-label="inline" name-replace="Dragon leather ranged armour"></canvas></div></li>
+    <li><div data-progress><canvas itemname="lawrune" icon-size="25" show-label="inline" name-replace="Varrock and Ardougne teleports"></canvas></div></li>
+    <li><div data-progress>A trustworthy friend to do the quest with</div></li>
+    </ul>
+    <b>Starting Location:</b> In the 'Flying Horse' bar west of the Ardougne River
+    <br><br>
+    <b>Reward:</b> 1 Quest point, 10,500 Ranged XP, 8,000 Fletching XP, Boots of lightness, Pendant of Lucien which grants access to a door in the Temple of Ikov, Shiny key for a shortcut between the Temple of Ikov and McGrubor's Wood, Armadyl pendant (if you sided with Lucien)
+</div>
 <h3>Instructions:</h3>
 <br>
 <div data-progress>Talk to Lucien, he will be in the Flying Horse Bar, north west of the Paladin's Tower, on the west side of the river. Lucien will tell you about how he needs the Staff of Armadyl. He gives you a pendant and asks you to get it for him.</div>

@@ -1,43 +1,43 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>$questName</h2>
 <a href="#zombiemusiq">ZombieMusiq Video Guide at bottom of page!</a>
-<br><br>
-<b>Description:</b> New areas in the Southern part of Karamja Island have been discovered with a mysterious village. Who knows what hidden treasures exist, and what dangers lurk to guard them?
-<br><br>
-<b>Difficulty: <font color="Red">Experienced</font></b>
-<br><br>
-<b>Length: <font color="Red">Long</font></b><br>
-<h3>Required Quests:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress>Jungle Potion</div><br></li>
-<li><div data-progress>Druidic Ritual</div><br></li>
-</ul>
-<h3>Items & Skills Needed:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress>32 Agility</div><br></li>
-<li><div data-progress>20 Crafting</div><br></li>
-<li><div data-progress><canvas itemname="spade" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="rope" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="bronzecraftwire" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="chisel" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="torch_lit" icon-size="25" show-label="inline"></canvas> or <canvas itemname="lit_candle" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="bones" icon-size="25" show-label="inline" name-replace="3 bones"></canvas></div></li>
-<li><div data-progress>The ability to kill a level 91, 68, and 93 monster in a row</div></li>
-</ul>
-<h3>Recommended:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress>Decent armour and a weapon</div></li>
-<li><div data-progress>Good food</div></li>
-<li><div data-progress><canvas itemname="3doseantipoison" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="3doseprayerrestore" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="lawrune" icon-size="25" show-label="inline" name-replace="Teleportation Runes"></canvas></div></li>
-</ul>
-<b>Starting Location:</b> Deep in the Karamja Jungle. When you see a village surrounded by walls, head east and you will find a man named Mosol
-<br><br>
-<b>Reward:</b> 2 Quest points, 3,875 Crafting XP, ability to get into Shilo Village, ability to quick travel to Shilo Village using the cart near the Brimhaven docks, ability to mine the gem rocks in Shilo Village mine, up to 2,000 coins if you sell every item you obtained during the quest
-<br><br>
-<hr>
+<div id="narrowscroll">
+    <h2>$questName</h2>
+    <b>Description:</b> New areas in the Southern part of Karamja Island have been discovered with a mysterious village. Who knows what hidden treasures exist, and what dangers lurk to guard them?
+    <br><br>
+    <b>Difficulty: <font color="Red">Experienced</font></b>
+    <br><br>
+    <b>Length: <font color="Red">Long</font></b>
+    <br><br>
+    <h3>Required Quests:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress>Jungle Potion</div><br></li>
+    <li><div data-progress>Druidic Ritual</div><br></li>
+    </ul>
+    <h3>Items & Skills Needed:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress>32 Agility</div><br></li>
+    <li><div data-progress>20 Crafting</div><br></li>
+    <li><div data-progress><canvas itemname="spade" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="rope" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="bronzecraftwire" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="chisel" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="torch_lit" icon-size="25" show-label="inline"></canvas> or <canvas itemname="lit_candle" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="bones" icon-size="25" show-label="inline" name-replace="3 bones"></canvas></div></li>
+    <li><div data-progress>The ability to kill a level 91, 68, and 93 monster in a row</div></li>
+    </ul>
+    <h3>Recommended:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress>Decent armour and a weapon</div></li>
+    <li><div data-progress>Good food</div></li>
+    <li><div data-progress><canvas itemname="3doseantipoison" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="3doseprayerrestore" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="lawrune" icon-size="25" show-label="inline" name-replace="Teleportation Runes"></canvas></div></li>
+    </ul>
+    <b>Starting Location:</b> Deep in the Karamja Jungle. When you see a village surrounded by walls, head east and you will find a man named Mosol
+    <br><br>
+    <b>Reward:</b> 2 Quest points, 3,875 Crafting XP, ability to get into Shilo Village, ability to quick travel to Shilo Village using the cart near the Brimhaven docks, ability to mine the gem rocks in Shilo Village mine, up to 2,000 coins if you sell every item you obtained during the quest
+</div>
 <h3>Instructions:</h3>
 <br>
 <div data-progress>Talk to Mosol and he will tell you about Rashiliyia. She has brought a plague of Undead upon the village. Ask him what you can do. He will say you need to find Trufitus, the man you spoke to in the Jungle Potion quest. He will also give you a Wambum belt.</div>

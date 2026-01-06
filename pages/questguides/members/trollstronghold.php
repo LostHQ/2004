@@ -1,24 +1,25 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>$questName</h2>
-<b>Description:</b> The Imperial Guards have had struggle with the troll army, The trolls have taken Hostages, Godric and Mad Eadgar, find your way into the stronghold and save them.
-<br><br>
-<b>Difficulty: <font color="Green">Novice</font></b>
-<br><br>
-<b>Length: <font color="yellow">Medium</font></b><br>
-<h3>Items & Skills Needed:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress>Able to hold your own against trolls (can have a max hit of 42), Protect from Missiles if you wish to fight the trolls</div></li>
-</ul>
-<h3>Recommended:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress>Prayer 43+ is helpful, Prayer potion, good armour/weapon</div></li>
-</ul>
-<b>Starting Location:</b> Imperial Guard's Tent, Speak to Denulth
-<br><br>
-<b>Reward:</b> 1 Quest point, a Law Talisman, and once you have freed the captured man you can trade him logs for stews up on the hill
-<br><br>
-<hr>
+<div id="narrowscroll">
+    <h2>$questName</h2>
+    <b>Description:</b> The Imperial Guards have had struggle with the troll army, The trolls have taken Hostages, Godric and Mad Eadgar, find your way into the stronghold and save them.
+    <br><br>
+    <b>Difficulty: <font color="Green">Novice</font></b>
+    <br><br>
+    <b>Length: <font color="yellow">Medium</font></b>
+    <br><br>
+    <h3>Items & Skills Needed:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress>Able to hold your own against trolls (can have a max hit of 42), Protect from Missiles if you wish to fight the trolls</div></li>
+    </ul>
+    <h3>Recommended:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress>Prayer 43+ is helpful, Prayer potion, good armour/weapon</div></li>
+    </ul>
+    <b>Starting Location:</b> Imperial Guard's Tent, Speak to Denulth
+    <br><br>
+    <b>Reward:</b> 1 Quest point, a Law Talisman, and once you have freed the captured man you can trade him logs for stews up on the hill
+</div>
 <h3>Instructions:</h3>
 <br>
 <div data-progress>

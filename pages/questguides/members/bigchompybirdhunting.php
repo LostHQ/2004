@@ -1,33 +1,33 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>$questName</h2>
 <a href="#zombiemusiq">ZombieMusiq Video Guide at bottom of page!</a>
-<br><br>
-<b>Description:</b> Rantz the Ogre needs to feed his demanding children, Fycie and Bugs so he wants to go Big Chompy Bird hunting. Problem is, he's all fingers and thumbs when it comes to making ogre arrows. Could someone please give him a hand.
-<br><br>
-<b>Difficulty: <font color="Yellow">Intermediate</font></b>
-<br><br>
-<b>Length: <font color="Green">Short</font></b><br>
-<h3>Items & Skills Needed:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress>5 Fletching</div><br></li>
-<li><div data-progress>30 Cooking</div><br></li>
-<li><div data-progress>30 Ranging</div><br></li>
-<li><div data-progress><canvas itemname="chisel" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="knife" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="steel_axe" icon-size="25" show-label="inline" name-replace="Any woodcutting axe"></canvas></div></li>
-<li><div data-progress><canvas itemname="feather" icon-size="25" show-label="inline" name-replace="About 100 feathers"></canvas></div></li>
-<li><div data-progress><canvas itemname="wolf_bones" icon-size="25" show-label="inline" name-replace="About 4-5 wolf bones"></canvas></div></li>
-</ul>
-<h3>Recommended:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress>Weapons/armor to kill a level 64 wolf if necessary (can be safespotted)</div></li>
-</ul>
-<b>Starting Location:</b> Southeast of Ogre City, which is southeast of Yanille
-<br><br>
-<b>Reward:</b> 2 Quest points, 735 Ranged XP, 262 Fletching XP, 1,470 Cooking XP, Ogre Bow, the ability to make Ogre Arrows
-<br><br>
-<hr>
+<div id="narrowscroll">
+    <h2>$questName</h2>
+    <b>Description:</b> Rantz the Ogre needs to feed his demanding children, Fycie and Bugs so he wants to go Big Chompy Bird hunting. Problem is, he's all fingers and thumbs when it comes to making ogre arrows. Could someone please give him a hand.
+    <br><br>
+    <b>Difficulty: <font color="Yellow">Intermediate</font></b>
+    <br><br>
+    <b>Length: <font color="Green">Short</font></b>
+    <br><br>
+    <h3>Items & Skills Needed:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress>5 Fletching</div><br></li>
+    <li><div data-progress>30 Cooking</div><br></li>
+    <li><div data-progress>30 Ranging</div><br></li>
+    <li><div data-progress><canvas itemname="chisel" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="knife" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="steel_axe" icon-size="25" show-label="inline" name-replace="Any woodcutting axe"></canvas></div></li>
+    <li><div data-progress><canvas itemname="feather" icon-size="25" show-label="inline" name-replace="About 100 feathers"></canvas></div></li>
+    <li><div data-progress><canvas itemname="wolf_bones" icon-size="25" show-label="inline" name-replace="About 4-5 wolf bones"></canvas></div></li>
+    </ul>
+    <h3>Recommended:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress>Weapons/armor to kill a level 64 wolf if necessary (can be safespotted)</div></li>
+    </ul>
+    <b>Starting Location:</b> Southeast of Ogre City, which is southeast of Yanille
+    <br><br>
+    <b>Reward:</b> 2 Quest points, 735 Ranged XP, 262 Fletching XP, 1,470 Cooking XP, Ogre Bow, the ability to make Ogre Arrows
+</div>
 <h3>Instructions:</h3>
 <br>
 <div data-progress>Talk to Rantz who is southeast of Yanille.</div>

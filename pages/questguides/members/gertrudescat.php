@@ -1,29 +1,29 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>$questName</h2>
 <a href="#zombiemusiq">ZombieMusiq Video Guide at bottom of page!</a>
-<br><br>
-<b>Description:</b> Gertrude's cat has been missing for some time now - for her piece of mind her prized pet must be rescued. Handling cats isn't an easy business. They get hungry and need plenty of attention but if you're the pet type, then this is the quest for you!
-<br><br>
-<b>Difficulty: <font color="Green">Novice</font></b>
-<br><br>
-<b>Length: <font color="Green">Short</font></b><br>
-<h3>Items & Skills Needed:</h3>
-<ul style="list-style-type: none;">
-    <li><div data-progress><canvas itemname="coins_100" icon-size="25" show-label="inline" name-replace="100 Coins"></canvas></div></li>
-    <li><div data-progress><canvas itemname="raw_sardine" icon-size="25" show-label="inline"></canvas></div></li>
-    <li><div data-progress><canvas itemname="bucket_milk" icon-size="25" show-label="inline"></canvas></div></li>
-    <li><div data-progress><canvas itemname="doogleleaves" icon-size="25" show-label="inline" name-append=" (can be obtained during quest)"></canvas></div></li>
-</ul>
-<h3>Recommended:</h3>
-<ul style="list-style-type: none;">
-    <li><div data-progress><canvas itemname="lawrune" icon-size="25" show-label="inline" name-replace="Runes for Teleport to Varrock"></canvas></div></li>
-</ul>
-<b>Starting Location:</b> Just across the road from Juliet's house, west of Varrock
-<br><br>
-<b>Reward:</b> 1 Quest point, 1,525 Cooking XP, Chocolate Cake, Stew, a Kitten
-<br><br>
-<hr>
+<div id="narrowscroll">
+    <h2>$questName</h2>
+    <b>Description:</b> Gertrude's cat has been missing for some time now - for her piece of mind her prized pet must be rescued. Handling cats isn't an easy business. They get hungry and need plenty of attention but if you're the pet type, then this is the quest for you!
+    <br><br>
+    <b>Difficulty: <font color="Green">Novice</font></b>
+    <br><br>
+    <b>Length: <font color="Green">Short</font></b>
+    <br><br>
+    <h3>Items & Skills Needed:</h3>
+    <ul style="list-style-type: none;">
+        <li><div data-progress><canvas itemname="coins_100" icon-size="25" show-label="inline" name-replace="100 Coins"></canvas></div></li>
+        <li><div data-progress><canvas itemname="raw_sardine" icon-size="25" show-label="inline"></canvas></div></li>
+        <li><div data-progress><canvas itemname="bucket_milk" icon-size="25" show-label="inline"></canvas></div></li>
+        <li><div data-progress><canvas itemname="doogleleaves" icon-size="25" show-label="inline" name-append=" (can be obtained during quest)"></canvas></div></li>
+    </ul>
+    <h3>Recommended:</h3>
+    <ul style="list-style-type: none;">
+        <li><div data-progress><canvas itemname="lawrune" icon-size="25" show-label="inline" name-replace="Runes for Teleport to Varrock"></canvas></div></li>
+    </ul>
+    <b>Starting Location:</b> Just across the road from Juliet's house, west of Varrock
+    <br><br>
+    <b>Reward:</b> 1 Quest point, 1,525 Cooking XP, Chocolate Cake, Stew, a Kitten
+</div>
 <h3>Instructions:</h3>
 <br>
 <div data-progress>Find Gertrude and get the information about her problem. She'll tell you to talk to her boys, Wilough and Shilop, in Varrock Square (they are just west of the big fountain).</div>

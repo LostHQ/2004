@@ -1,31 +1,31 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>$questName</h2>
 <a href="#zombiemusiq">ZombieMusiq Video Guide at bottom of page!</a>
-<br><br>
-<b>Description:</b> Trufitus Shakaya of the Tai Bwo Wannai Village requires that you collect five special jungle herbs for a potion so he can commune with his Gods.
-<br><br>
-<b>Difficulty: <font color="Yellow">Intermediate</font></b>
-<br><br>
-<b>Length: <font color="Green">Short</font></b><br>
-<h3>Required Quests:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress>Druidic Ritual</div><br></li>
-</ul>
-<h3>Items & Skills Needed:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress>None</div></li>
-</ul>
-<h3>Recommended:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress><canvas itemname="3doseantipoison" icon-size="25" show-label="inline" name-replace="1-2 Antipoison Potions"></canvas></div></li>
-<li><div data-progress>Weapon and armor to run past Jogres (level 48)</div></li>
-</ul>
-<b>Starting Location:</b> Tai Bwo Wannai's circular bamboo house
-<br><br>
-<b>Reward:</b> 1 Quest point, 775 Herblore XP
-<br><br>
-<hr>
+<div id="narrowscroll">
+    <h2>$questName</h2>
+    <b>Description:</b> Trufitus Shakaya of the Tai Bwo Wannai Village requires that you collect five special jungle herbs for a potion so he can commune with his Gods.
+    <br><br>
+    <b>Difficulty: <font color="Yellow">Intermediate</font></b>
+    <br><br>
+    <b>Length: <font color="Green">Short</font></b>
+    <br><br>
+    <h3>Required Quests:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress>Druidic Ritual</div><br></li>
+    </ul>
+    <h3>Items & Skills Needed:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress>None</div></li>
+    </ul>
+    <h3>Recommended:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress><canvas itemname="3doseantipoison" icon-size="25" show-label="inline" name-replace="1-2 Antipoison Potions"></canvas></div></li>
+    <li><div data-progress>Weapon and armor to run past Jogres (level 48)</div></li>
+    </ul>
+    <b>Starting Location:</b> Tai Bwo Wannai's circular bamboo house
+    <br><br>
+    <b>Reward:</b> 1 Quest point, 775 Herblore XP
+</div>
 <h3>Instructions:</h3>
 <br>
 <div data-progress>If you haven't already, consider buying an Antipoison potion from the nearby general store, Jiminua's Jungle Store., for 432 gold.</div>

@@ -1,32 +1,32 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>$questName</h2>
 <a href="#zombiemusiq">ZombieMusiq Video Guide at bottom of page!</a>
-<br><br>
-<b>Description:</b> Hundreds of years ago a mineral was found that had the ability to change the property of magic. The magicians, fearing the effect this may have on there profession, sealed this workshop forever; or so they had hoped. See if you can rediscover the lost knowledge of elemental ore.
-<br><br>
-<b>Difficulty: <font color="Green">Novice</font></b>
-<br><br>
-<b>Length: <font color="Green">Short</font></b><br>
-<h3>Items & Skills Needed:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress>20 Mining</div></li>
-<li><div data-progress>20 Smithing</div></li>
-<li><div data-progress>20 Crafting</div></li>
-<li><div data-progress><canvas itemname="steel_pickaxe" icon-size="25" show-label="inline" name-replace="Any pickaxe"></canvas></div></li>
-<li><div data-progress><canvas itemname="coal" icon-size="25" show-label="inline" name-replace="4 coal"></canvas></div></li>
-<li><div data-progress><canvas itemname="hammer" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="thread" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="needle" icon-size="25" show-label="inline" name-append=" (can be obtained during quest)"></canvas></div></li>
-<li><div data-progress><canvas itemname="leather" icon-size="25" show-label="inline" name-append=" (can be obtained during quest)"></canvas></div></li>
-<li><div data-progress><canvas itemname="knife" icon-size="25" show-label="inline" name-append=" (can be obtained during quest)"></canvas></div></li>
-<li><div data-progress>The ability to defeat a level 35 Earth Elemental</div></li>
-</ul>
-<b>Starting Location:</b> Search the bookcase on the east wall in the house southwest of the bank in Seers' Village
-<br><br>
-<b>Reward:</b> 1 Quest point, 5,000 Crafting XP, 5,000 Smithing XP, access to the Elemental Workshop, Elemental Shield, as well as the ability to make and wield them
-<br><br>
-<hr>
+<div id="narrowscroll">
+    <h2>$questName</h2>
+    <b>Description:</b> Hundreds of years ago a mineral was found that had the ability to change the property of magic. The magicians, fearing the effect this may have on there profession, sealed this workshop forever; or so they had hoped. See if you can rediscover the lost knowledge of elemental ore.
+    <br><br>
+    <b>Difficulty: <font color="Green">Novice</font></b>
+    <br><br>
+    <b>Length: <font color="Green">Short</font></b>
+    <br><br>
+    <h3>Items & Skills Needed:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress>20 Mining</div></li>
+    <li><div data-progress>20 Smithing</div></li>
+    <li><div data-progress>20 Crafting</div></li>
+    <li><div data-progress><canvas itemname="steel_pickaxe" icon-size="25" show-label="inline" name-replace="Any pickaxe"></canvas></div></li>
+    <li><div data-progress><canvas itemname="coal" icon-size="25" show-label="inline" name-replace="4 coal"></canvas></div></li>
+    <li><div data-progress><canvas itemname="hammer" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="thread" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="needle" icon-size="25" show-label="inline" name-append=" (can be obtained during quest)"></canvas></div></li>
+    <li><div data-progress><canvas itemname="leather" icon-size="25" show-label="inline" name-append=" (can be obtained during quest)"></canvas></div></li>
+    <li><div data-progress><canvas itemname="knife" icon-size="25" show-label="inline" name-append=" (can be obtained during quest)"></canvas></div></li>
+    <li><div data-progress>The ability to defeat a level 35 Earth Elemental</div></li>
+    </ul>
+    <b>Starting Location:</b> Search the bookcase on the east wall in the house southwest of the bank in Seers' Village
+    <br><br>
+    <b>Reward:</b> 1 Quest point, 5,000 Crafting XP, 5,000 Smithing XP, access to the Elemental Workshop, Elemental Shield, as well as the ability to make and wield them
+</div>
 <h3>Instructions:</h3>
 <div data-progress>Go to the house southwest of the bank in Seers' Village.</div>
 <br><br>

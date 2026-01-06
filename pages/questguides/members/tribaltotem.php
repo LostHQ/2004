@@ -1,23 +1,23 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>$questName</h2>
 <a href="#zombiemusiq">ZombieMusiq Video Guide at bottom of page!</a>
-<br><br>
-<b>Description:</b> Lord Handelmort of Ardougne is a collector of exotic artifacts. A recent addition to his private collection is a strange looking totem from Karamja. The Rantuki tribe are not happy about the recent disaperance of their totem.
-<br><br>
-<b>Difficulty: <font color="Yellow">Intermediate</font></b>
-<br><br>
-<b>Length: <font color="Yellow">Medium</font></b><br>
-<h3>Items & Skills Needed:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress>21 Thieving</div></li>
-<li><div data-progress><canvas itemname="coins_25" icon-size="25" show-label="inline" name-replace="60 coins"></canvas></div></li>
-</ul>
-<b>Starting Location:</b> Brimhaven
-<br><br>
-<b>Reward:</b> 1 Quest point, 1,250 Thieving XP, 5 cooked swordfish
-<br><br>
-<hr>
+<div id="narrowscroll">
+    <h2>$questName</h2>
+    <b>Description:</b> Lord Handelmort of Ardougne is a collector of exotic artifacts. A recent addition to his private collection is a strange looking totem from Karamja. The Rantuki tribe are not happy about the recent disaperance of their totem.
+    <br><br>
+    <b>Difficulty: <font color="Yellow">Intermediate</font></b>
+    <br><br>
+    <b>Length: <font color="Yellow">Medium</font></b>
+    <br><br>
+    <h3>Items & Skills Needed:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress>21 Thieving</div></li>
+    <li><div data-progress><canvas itemname="coins_25" icon-size="25" show-label="inline" name-replace="60 coins"></canvas></div></li>
+    </ul>
+    <b>Starting Location:</b> Brimhaven
+    <br><br>
+    <b>Reward:</b> 1 Quest point, 1,250 Thieving XP, 5 cooked swordfish
+</div>
 <h3>Instructions:</h3>
 <br>
 <div data-progress>Talk to Kangai in the Shrimp and Parrot pub. He will tell you that his totem was stolen by Lord Handelmort.</div>

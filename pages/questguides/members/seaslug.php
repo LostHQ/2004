@@ -1,23 +1,22 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>$questName</h2>
 <a href="#zombiemusiq">ZombieMusiq Video Guide at bottom of page!</a>
-<br><br>
-<b>Description:</b> Something strange is happening on the fishing platform. Missing fishermen and the presence of dozens of strange sea creatures gives cause for concern. Investigate the platform, discover the truth before it's too late.
-<br><br>
-<b>Difficulty: <font color="Yellow">Intermediate</font></b>
-<br><br>
-<b>Length: <font color="Green">Short</font></b><br>
-<h3>Items & Skills Needed:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress>30 Firemaking</div></li>
-<li><div data-progress><canvas itemname="swamppaste" icon-size="25" show-label="inline"></canvas></div></li>
-</ul>
-<b>Starting Location:</b> South of the Legends' Guild and southeast of Ardougne
-<br><br>
-<b>Reward:</b> 1 Quest point, 7,175 Fishing XP, Oyster Pearls, access to the Fishing Platform
-<br><br>
-<hr>
+<div id="narrowscroll">
+    <h2>$questName</h2>
+    <b>Description:</b> Something strange is happening on the fishing platform. Missing fishermen and the presence of dozens of strange sea creatures gives cause for concern. Investigate the platform, discover the truth before it's too late.
+    <br><br>
+    <b>Difficulty: <font color="Yellow">Intermediate</font></b>
+    <br><br>
+    <b>Length: <font color="Green">Short</font></b><br>
+    <h3>Items & Skills Needed:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress>30 Firemaking</div></li>
+    <li><div data-progress><canvas itemname="swamppaste" icon-size="25" show-label="inline"></canvas></div></li>
+    </ul>
+    <b>Starting Location:</b> South of the Legends' Guild and southeast of Ardougne
+    <br><br>
+    <b>Reward:</b> 1 Quest point, 7,175 Fishing XP, Oyster Pearls, access to the Fishing Platform
+</div>
 <h3>Instructions:</h3>
 <br>
 <div data-progress>Talk to Caroline, she'll tell you of her plight. She tells you that her friend Holgart can take you to the platform.</div>

@@ -1,28 +1,27 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>$questName</h2>
-<!-- <a href="#zombiemusiq">ZombieMusiq Video Guide at bottom of page!</a> 
-<br><br> -->
-<b>Description:</b> Recently contact has been lost with the temple to Saradomin on Misthalins' Eastern border. King Roald would be very interested to know what has caused this lack of communication, and seeks an adventurer willing to report back to him on the situation.
-<br><br>
-<b>Difficulty: <font color="Green">Novice</font></b>
-<br><br>
-<b>Length: <font color="Yellow">Medium</font></b><br>
-<h3>Required Quests:</h3>
-<ul style="list-style-type: none;">
-    <li><div data-progress>Rune Mysteries</div></li>
-</ul>
-<h3>Items & Skills Needed:</h3>
-<ul style="list-style-type: none;">
-    <li><div data-progress><canvas itemname="bucket_empty" icon-size="25" show-label="inline"></canvas></div></li>
-    <li><div data-progress><canvas itemname="blankrune" icon-size="25" show-label="inline" name-replace="50 rune essence"></canvas></div></li>
-    <li><div data-progress>The ability to defeat two level 30 enemies</div></li>
-</ul>
-<b>Starting Location:</b> King Roald in Varrock Palace
-<br><br>
-<b>Reward:</b> 1 Quest point, 1,406 Prayer XP, Wolfbane - a special silver dagger that prevents werewolves from shapeshifting into wolves when attacked, and access to a new town
-<br><br>
-<hr>
+<div id="narrowscroll">
+    <h2>$questName</h2>
+    <b>Description:</b> Recently contact has been lost with the temple to Saradomin on Misthalins' Eastern border. King Roald would be very interested to know what has caused this lack of communication, and seeks an adventurer willing to report back to him on the situation.
+    <br><br>
+    <b>Difficulty: <font color="Green">Novice</font></b>
+    <br><br>
+    <b>Length: <font color="Yellow">Medium</font></b>
+    <br><br>
+    <h3>Required Quests:</h3>
+    <ul style="list-style-type: none;">
+        <li><div data-progress>Rune Mysteries</div></li>
+    </ul>
+    <h3>Items & Skills Needed:</h3>
+    <ul style="list-style-type: none;">
+        <li><div data-progress><canvas itemname="bucket_empty" icon-size="25" show-label="inline"></canvas></div></li>
+        <li><div data-progress><canvas itemname="blankrune" icon-size="25" show-label="inline" name-replace="50 rune essence"></canvas></div></li>
+        <li><div data-progress>The ability to defeat two level 30 enemies</div></li>
+    </ul>
+    <b>Starting Location:</b> King Roald in Varrock Palace
+    <br><br>
+    <b>Reward:</b> 1 Quest point, 1,406 Prayer XP, Wolfbane - a special silver dagger that prevents werewolves from shapeshifting into wolves when attacked, and access to a new town
+</div>
 <h3>Instructions:</h3>
 <br>
 <div data-progress>Start by talking to King Roald in Varrock Palace. He tells you that contact has been lost with the temple and wants you to go and check it out for him.</div>
@@ -69,9 +68,7 @@ Note: You MUST bring unnoted essence or he will not accept it.
 <br><br>
 <div data-progress>You have now completed the quest, talk to the priest again and he will tell you about the underworld beyond the rift which will take you to a new land.</div>
 $questComplete
-<!-- <span id="zombiemusiq"></span>
-<iframe width="450" height="253" src="https://www.youtube.com/embed/UjPa7n7Ymj8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<hr> -->
+
 This quest guide was written by monkeymatt9. Thanks to xxtigurxx, chrisbarker, MuH-K0o0o, trekkie, faigel, and Gnat88 for corrections.
 <br><br>
 This quest guide was entered into the RuneHQ.com database on Tue, Jun 29, 2004, at 02:09:22 PM by stormer and CJH and was last updated on Tue, Jun 14, 2005, at 01:39:56 PM by Lewt04.

@@ -1,40 +1,40 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>$questName</h2>
 <a href="#zombiemusiq">ZombieMusiq Video Guide at bottom of page!</a>
-<br><br>
-<b>Description:</b> South of Al Kharid a new desert pass has opened up, leading to the dangers of the Kharid desert. Don your desert garb and make sure your waterskin is full before heading off into the trackless dunes in search of desert adventure.
-<br><br>
-<b>Difficulty: <font color="Yellow">Intermediate</font></b>
-<br><br>
-<b>Length: <font color="Red">Long</font></b><br>
-<h3>Items & Skills Needed:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress>10 Fletching</div></li>
-<li><div data-progress>20 Smithing</div></li>
-<li><div data-progress><canvas itemname="desert_shirt" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="desert_robe" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="desert_boots" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="shantay_pass" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="hammer" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="bronze_bar" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="feather" icon-size="25" show-label="inline" name-replace="10 feathers"></canvas></div></li>
-<li><div data-progress>The ability to defeat a level 47 enemy</div></li>
-</ul>
-<h3>Recommended:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress><canvas itemname="knife" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="water_skin4" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="bronze_bar" icon-size="25" show-label="inline" name-replace="3 bronze bars"></canvas></div></li>
-<li><div data-progress><canvas itemname="feather" icon-size="25" show-label="inline" name-replace="50 feathers"></canvas></div></li>
-<li><div data-progress><canvas itemname="steel_pickaxe" icon-size="25" show-label="inline" name-replace="Any pickaxe"></canvas></div></li>
-<li><div data-progress><canvas itemname="coins_100" icon-size="25" show-label="inline" name-replace="100 coins"></canvas></div></li>
-</ul>
-<b>Starting Location:</b> South of Shantay Pass
-<br><br>
-<b>Reward:</b> 2 Quest points, 4,650 XP in your choice of two skills (you may pick same skill twice): Agility, Fletching, Smithing, or Thieving, the ability to smith dart tips, the wrought iron key - allows access to a special door inside the Desert Mining Camp which has several higher tier ores inside - including mithril ore and adamantite ore, full slave robes, 6 bronze darts
-<br><br>
-<hr>
+<div id="narrowscroll">
+    <h2>$questName</h2>
+    <b>Description:</b> South of Al Kharid a new desert pass has opened up, leading to the dangers of the Kharid desert. Don your desert garb and make sure your waterskin is full before heading off into the trackless dunes in search of desert adventure.
+    <br><br>
+    <b>Difficulty: <font color="Yellow">Intermediate</font></b>
+    <br><br>
+    <b>Length: <font color="Red">Long</font></b>
+    <br><br>
+    <h3>Items & Skills Needed:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress>10 Fletching</div></li>
+    <li><div data-progress>20 Smithing</div></li>
+    <li><div data-progress><canvas itemname="desert_shirt" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="desert_robe" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="desert_boots" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="shantay_pass" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="hammer" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="bronze_bar" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="feather" icon-size="25" show-label="inline" name-replace="10 feathers"></canvas></div></li>
+    <li><div data-progress>The ability to defeat a level 47 enemy</div></li>
+    </ul>
+    <h3>Recommended:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress><canvas itemname="knife" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="water_skin4" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="bronze_bar" icon-size="25" show-label="inline" name-replace="3 bronze bars"></canvas></div></li>
+    <li><div data-progress><canvas itemname="feather" icon-size="25" show-label="inline" name-replace="50 feathers"></canvas></div></li>
+    <li><div data-progress><canvas itemname="steel_pickaxe" icon-size="25" show-label="inline" name-replace="Any pickaxe"></canvas></div></li>
+    <li><div data-progress><canvas itemname="coins_100" icon-size="25" show-label="inline" name-replace="100 coins"></canvas></div></li>
+    </ul>
+    <b>Starting Location:</b> South of Shantay Pass
+    <br><br>
+    <b>Reward:</b> 2 Quest points, 4,650 XP in your choice of two skills (you may pick same skill twice): Agility, Fletching, Smithing, or Thieving, the ability to smith dart tips, the wrought iron key - allows access to a special door inside the Desert Mining Camp which has several higher tier ores inside - including mithril ore and adamantite ore, full slave robes, 6 bronze darts
+</div>
 <h3>Instructions:</h3>
 <br>
 <div data-progress>Start by talking to Irena. She is found through the Shantay Pass. You can pay Shantay 5gp to buy a pass first. Then go through and speak with Irena. (Note: Shantay also sells other items you will need for this quest.)</div>

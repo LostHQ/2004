@@ -1,43 +1,43 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>$questName</h2>
 <a href="#zombiemusiq">ZombieMusiq Video Guide at bottom of page!</a>
-<br><br>
-<b>Description:</b> The Underground Pass, sealed for thousands of years, has now been reopened to reveal a complex labyrinth of tunnels and chasms. You must find a way through, and get one step closer to the evil King Tyras. But the road is long and it could be lonely. When fatigue starts to take it's toll, mental strength is what you'll need...
-<br><br>
-<b>Difficulty: <font color="Red">Experienced</font></b>
-<br><br>
-<b>Length: <font color="Red">Long</font></b><br>
-<h3>Required Quests:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress>Biohazard</div></li>
-<li><div data-progress>Plague City</div></li>
-</ul>
-<h3>Items & Skills Needed:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress>25 Ranged</div></li>
-<li><div data-progress><canvas itemname="rope" icon-size="25" show-label="inline" name-replace="2-6 ropes"></canvas></div></li>
-<li><div data-progress><canvas itemname="shortbow" icon-size="25" show-label="inline" name-replace="Any bow"></canvas></div></li>
-<li><div data-progress><canvas itemname="bronze_arrow" icon-size="25" show-label="inline" name-replace="1-10 arrows of any type"></canvas></div></li>
-<li><div data-progress><canvas itemname="spade" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress>The ability to defeat three level 91 demons (safespottable)</div></li>
-</ul>
-<h3>Recommended:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress>79 Combat</div></li>
-<li><div data-progress>50 Agility to have a better success rate on agility checks</div></li>
-<li><div data-progress>50 Thieving to access a shortcut</div></li>
-<li><div data-progress>43 Prayer for Protect from Melee</div></li>
-<li><div data-progress>Decent magic armor & spells</div></li>
-<li><div data-progress><canvas itemname="shark" icon-size="25" show-label="inline" name-replace="Lots of good food"></canvas></div></li>
-<li><div data-progress><canvas itemname="lawrune" icon-size="25" show-label="inline" name-replace="Teleports to Ardougne"></canvas></div></li>
-<li><div data-progress><canvas itemname="airrune" icon-size="25" show-label="inline" name-replace="Telekinetic grab runes"></canvas></div></li>
-</ul>
-<b>Starting Location:</b> East Ardougne, speak to King Lathas
-<br><br>
-<b>Reward:</b> 5 Quest points, 3,000 Agility XP, 3,000 Attack XP, Staff of Iban, the ability to use Iban Blast
-<br><br>
-<hr>
+<div id="narrowscroll">
+    <h2>$questName</h2>
+    <b>Description:</b> The Underground Pass, sealed for thousands of years, has now been reopened to reveal a complex labyrinth of tunnels and chasms. You must find a way through, and get one step closer to the evil King Tyras. But the road is long and it could be lonely. When fatigue starts to take it's toll, mental strength is what you'll need...
+    <br><br>
+    <b>Difficulty: <font color="Red">Experienced</font></b>
+    <br><br>
+    <b>Length: <font color="Red">Long</font></b>
+    <br><br>
+    <h3>Required Quests:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress>Biohazard</div></li>
+    <li><div data-progress>Plague City</div></li>
+    </ul>
+    <h3>Items & Skills Needed:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress>25 Ranged</div></li>
+    <li><div data-progress><canvas itemname="rope" icon-size="25" show-label="inline" name-replace="2-6 ropes"></canvas></div></li>
+    <li><div data-progress><canvas itemname="shortbow" icon-size="25" show-label="inline" name-replace="Any bow"></canvas></div></li>
+    <li><div data-progress><canvas itemname="bronze_arrow" icon-size="25" show-label="inline" name-replace="1-10 arrows of any type"></canvas></div></li>
+    <li><div data-progress><canvas itemname="spade" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress>The ability to defeat three level 91 demons (safespottable)</div></li>
+    </ul>
+    <h3>Recommended:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress>79 Combat</div></li>
+    <li><div data-progress>50 Agility to have a better success rate on agility checks</div></li>
+    <li><div data-progress>50 Thieving to access a shortcut</div></li>
+    <li><div data-progress>43 Prayer for Protect from Melee</div></li>
+    <li><div data-progress>Decent magic armor & spells</div></li>
+    <li><div data-progress><canvas itemname="shark" icon-size="25" show-label="inline" name-replace="Lots of good food"></canvas></div></li>
+    <li><div data-progress><canvas itemname="lawrune" icon-size="25" show-label="inline" name-replace="Teleports to Ardougne"></canvas></div></li>
+    <li><div data-progress><canvas itemname="airrune" icon-size="25" show-label="inline" name-replace="Telekinetic grab runes"></canvas></div></li>
+    </ul>
+    <b>Starting Location:</b> East Ardougne, speak to King Lathas
+    <br><br>
+    <b>Reward:</b> 5 Quest points, 3,000 Agility XP, 3,000 Attack XP, Staff of Iban, the ability to use Iban Blast
+</div>
 <h3>Instructions:</h3>
 <br>
 <div data-progress>Start by talking to King Lathas, who is on the <span data-floors="US">2nd floor</span> of the Paladin Tower in Ardougne. Accept the quest to find a way through the underground pass. He will tell you a scout, named Koftik, will meet you at the entrance in West Ardougne.</div>

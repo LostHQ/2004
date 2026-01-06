@@ -1,31 +1,31 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>$questName</h2>
 <a href="#zombiemusiq">ZombieMusiq Video Guide at bottom of page!</a>
-<br><br>
-<b>Description:</b> The mountain Dwarves home would be an ideal way to get across White Wolf mountain safely. However, the Dwarves aren't too fond of strangers. They will let you through if you can bring them a trophy. The trophy is the prize for the annual Hemenster fishing competition.
-<br><br>
-<b>Difficulty: <font color="Green">Novice</font></b>
-<br><br>
-<b>Length: <font color="Yellow">Medium</font></b><br>
-<h3>Items & Skills Needed:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress>10 Fishing</div><br></li>
-<li><div data-progress><canvas itemname="coins_5" icon-size="25" show-label="inline" name-replace="5 coins"></canvas></div></li>
-<li><div data-progress><canvas itemname="fishing_rod" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="garlic" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="spade" icon-size="25" show-label="inline"></canvas></div></li>
-</ul>
-<h3>Recommended:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress>The ability to run past level 44 enemies</div></li>
-<li><div data-progress><canvas itemname="lobster" icon-size="25" show-label="inline" name-replace="Food at low combat levels"></canvas></div></li>
-</ul>
-<b>Starting Location:</b> East or west of White Wolf Mountain, talk to the dwarf
-<br><br>
-<b>Reward:</b> 1 Quest point, 2,437 Fishing XP, access to the underground White Wolf Mountain passage
-<br><br>
-<hr>
+<div id="narrowscroll">
+    <h2>$questName</h2>
+    <b>Description:</b> The mountain Dwarves home would be an ideal way to get across White Wolf mountain safely. However, the Dwarves aren't too fond of strangers. They will let you through if you can bring them a trophy. The trophy is the prize for the annual Hemenster fishing competition.
+    <br><br>
+    <b>Difficulty: <font color="Green">Novice</font></b>
+    <br><br>
+    <b>Length: <font color="Yellow">Medium</font></b>
+    <br><br>
+    <h3>Items & Skills Needed:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress>10 Fishing</div><br></li>
+    <li><div data-progress><canvas itemname="coins_5" icon-size="25" show-label="inline" name-replace="5 coins"></canvas></div></li>
+    <li><div data-progress><canvas itemname="fishing_rod" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="garlic" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="spade" icon-size="25" show-label="inline"></canvas></div></li>
+    </ul>
+    <h3>Recommended:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress>The ability to run past level 44 enemies</div></li>
+    <li><div data-progress><canvas itemname="lobster" icon-size="25" show-label="inline" name-replace="Food at low combat levels"></canvas></div></li>
+    </ul>
+    <b>Starting Location:</b> East or west of White Wolf Mountain, talk to the dwarf
+    <br><br>
+    <b>Reward:</b> 1 Quest point, 2,437 Fishing XP, access to the underground White Wolf Mountain passage
+</div>
 <h3>Instructions:</h3>
 <br>
 <div data-progress>Talk to the Dwarf and say that you want to use the secret way to cross White Wolf Mountain. Also, tell him you want to become his friend. He will ask you to retrieve a trophy from the Hemenster Fishing Competition and will give you a Competition Pass.</div>

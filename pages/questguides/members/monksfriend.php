@@ -1,27 +1,27 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>$questName</h2>
 <a href="#zombiemusiq">ZombieMusiq Video Guide at bottom of page!</a>
-<br><br>
-<b>Description:</b> A monk's child has had their blanket stolen. Find the thieves' den and return the blanket, then help Brother Omad organise the drinks for the child's birthday party.
-<br><br>
-<b>Difficulty: <font color="Green">Novice</font></b>
-<br><br>
-<b>Length: <font color="Green">Short</font></b><br>
-<h3>Items & Skills Needed:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress><canvas itemname="jug_water" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress>
-    <canvas itemname="logs" icon-size="25" show-label="inline"></canvas> or
-    <canvas itemname="steel_axe" icon-size="25" show-label="inline" name-replace="Any hatchet"></canvas>
-</div></li>
-<li><div data-progress>Food or armor to run past some thieves (level 14 and 26)</div></li>
-</ul>
-<b>Starting Location:</b> The monastery south of Ardougne Zoo
-<br><br>
-<b>Reward:</b> 1 Quest point, 2,000 Woodcutting XP, 8 Law Runes
-<br><br>
-<hr>
+<div id="narrowscroll">
+    <h2>$questName</h2>
+    <b>Description:</b> A monk's child has had their blanket stolen. Find the thieves' den and return the blanket, then help Brother Omad organise the drinks for the child's birthday party.
+    <br><br>
+    <b>Difficulty: <font color="Green">Novice</font></b>
+    <br><br>
+    <b>Length: <font color="Green">Short</font></b>
+    <br><br>
+    <h3>Items & Skills Needed:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress><canvas itemname="jug_water" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress>
+        <canvas itemname="logs" icon-size="25" show-label="inline"></canvas> or
+        <canvas itemname="steel_axe" icon-size="25" show-label="inline" name-replace="Any hatchet"></canvas>
+    </div></li>
+    <li><div data-progress>Food or armor to run past some thieves (level 14 and 26)</div></li>
+    </ul>
+    <b>Starting Location:</b> The monastery south of Ardougne Zoo
+    <br><br>
+    <b>Reward:</b> 1 Quest point, 2,000 Woodcutting XP, 8 Law Runes
+</div>
 <h3>Instructions:</h3>
 <br>
 <div data-progress>Talk to Omad and learn of his sleepless nights due to the crying child. He tells you that the thieves (level 14s and a 26) who stole the blanket are hiding in a secret cave.</div>

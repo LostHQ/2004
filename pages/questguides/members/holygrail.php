@@ -1,33 +1,34 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>$questName</h2>
-<b>Description:</b> King Arthur is sending out his knights on a quest for the famous holy grail. If you are a knight of the round table go to King Arthur for further orders.
-<br><br>
-<b>Difficulty: <font color="Red">Experienced</font></b>
-<br><br>
-<b>Length: <font color="Red">Long</font></b><br>
-<h3>Required Quests:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress>Merlin's Crystal</div><br></li>
-</ul>
-<h3>Items & Skills Needed:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress>20 Attack</div></li>
-<li><div data-progress><canvas itemname="excalibur" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress>Must be able to defeat a level 120 Black Knight Titan with melee (can be flinched)</div></li>
-</ul>
-<h3>Recommended:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress>43 Prayer</div></li>
-<li><div data-progress><canvas itemname="3doseprayerrestore" icon-size="25" show-label="inline" name-replace="1-2 Prayer Potion"></canvas></div></li>
-<li><div data-progress><canvas itemname="3doseantipoison" icon-size="25" show-label="inline" name-replace="1-2 Antipoison Potions"></canvas></div></li>
-<li><div data-progress>Decent weapon and armor</div></li>
-</ul>
-<b>Starting Location:</b> Talk to King Arthur in Camelot Castle
-<br><br>
-<b>Reward:</b> 2 Quest points, 15,300 Defence XP, 11,000 Prayer XP
-<br><br>
-<hr>
+<div id="narrowscroll">
+    <h2>$questName</h2>
+    <b>Description:</b> King Arthur is sending out his knights on a quest for the famous holy grail. If you are a knight of the round table go to King Arthur for further orders.
+    <br><br>
+    <b>Difficulty: <font color="Red">Experienced</font></b>
+    <br><br>
+    <b>Length: <font color="Red">Long</font></b>
+    <br><br>
+    <h3>Required Quests:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress>Merlin's Crystal</div><br></li>
+    </ul>
+    <h3>Items & Skills Needed:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress>20 Attack</div></li>
+    <li><div data-progress><canvas itemname="excalibur" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress>Must be able to defeat a level 120 Black Knight Titan with melee (can be flinched)</div></li>
+    </ul>
+    <h3>Recommended:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress>43 Prayer</div></li>
+    <li><div data-progress><canvas itemname="3doseprayerrestore" icon-size="25" show-label="inline" name-replace="1-2 Prayer Potion"></canvas></div></li>
+    <li><div data-progress><canvas itemname="3doseantipoison" icon-size="25" show-label="inline" name-replace="1-2 Antipoison Potions"></canvas></div></li>
+    <li><div data-progress>Decent weapon and armor</div></li>
+    </ul>
+    <b>Starting Location:</b> Talk to King Arthur in Camelot Castle
+    <br><br>
+    <b>Reward:</b> 2 Quest points, 15,300 Defence XP, 11,000 Prayer XP
+</div>
 <h3>Instructions:</h3>
 <br>
 <div data-progress>Talk to King Arthur in the Castle in Camelot. He will tell you that he wants you to go on a quest to retrieve the Holy Grail and that for more details you should talk to Merlin.</div>

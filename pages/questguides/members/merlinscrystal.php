@@ -1,26 +1,26 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>$questName</h2>
 <a href="#zombiemusiq">ZombieMusiq Video Guide at bottom of page!</a>
-<br><br>
-<b>Description:</b> Merlin the wizard has carelessly become imprisoned inside a giant crystal. Take up King Arthur's quest to free Merlin and become one of the knights of the round table.
-<br><br>
-<b>Difficulty: <font color="Yellow">Intermediate</font></b>
-<br><br>
-<b>Length: <font color="Red">Long</font></b><br>
-<h3>Items & Skills Needed:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress><canvas itemname="bat_bones" icon-size="25" show-label="inline" name-append=" (can be obtained during quest)"></canvas></div></li>
-<li><div data-progress><canvas itemname="bucket_wax" icon-size="25" show-label="inline" name-append=" (can be obtained during quest)"></canvas></div></li>
-<li><div data-progress><canvas itemname="tinderbox" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="bread" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress>The ability to fight a level 39 Sir Mordred</div></li>
-</ul>
-<b>Starting Location:</b> Talk to King Arthur in Camelot Castle
-<br><br>
-<b>Reward:</b> 6 Quest points, Excalibur
-<br><br>
-<hr>
+<div id="narrowscroll">
+    <h2>$questName</h2>
+    <b>Description:</b> Merlin the wizard has carelessly become imprisoned inside a giant crystal. Take up King Arthur's quest to free Merlin and become one of the knights of the round table.
+    <br><br>
+    <b>Difficulty: <font color="Yellow">Intermediate</font></b>
+    <br><br>
+    <b>Length: <font color="Red">Long</font></b>
+    <br><br>
+    <h3>Items & Skills Needed:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress><canvas itemname="bat_bones" icon-size="25" show-label="inline" name-append=" (can be obtained during quest)"></canvas></div></li>
+    <li><div data-progress><canvas itemname="bucket_wax" icon-size="25" show-label="inline" name-append=" (can be obtained during quest)"></canvas></div></li>
+    <li><div data-progress><canvas itemname="tinderbox" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="bread" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress>The ability to fight a level 39 Sir Mordred</div></li>
+    </ul>
+    <b>Starting Location:</b> Talk to King Arthur in Camelot Castle
+    <br><br>
+    <b>Reward:</b> 6 Quest points, Excalibur
+</div>
 <h3>Instructions:</h3>
 <br>
 <div data-progress>Start the quest by talking to King Arthur in Camelot Castle and ask him if you can be a knight of his round table.</div>
