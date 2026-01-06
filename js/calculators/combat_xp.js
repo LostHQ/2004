@@ -12,7 +12,7 @@ let npcData = {};
 let npcSearchable = {};
 
 Promise.all([
-    fetch(`js/droptables/npc_data.json?v=${currentGameVer}`).then((res) => res.json())
+    fetch(`js/npcdb/npc_data.json?v=${currentGameVer}`).then((res) => res.json())
 ]).then(([npcDataJson]) => {
     npcData = npcDataJson;
     populateNPCDropdown();

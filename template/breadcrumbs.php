@@ -3,7 +3,7 @@ $breadcrumbMap = [
     'Skill Guides' => '?p=skillguides',
     'Quest Guides' => '?p=questguides',
     'Calculators' => '?p=calculators',
-    'Drop Tables' => '?p=droptables',
+    'NPC Database' => '?p=npcdb',
     'Clue Tables' => '?p=clueptables',
     'Street Prices' => '?p=streetprices',
     'Treasure Trails' => '?p=clueguides',

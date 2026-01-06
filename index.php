@@ -10,12 +10,12 @@ $p = htmlspecialchars($_GET['p'] ?? '');
 
 switch ($p) {
     case 'skillguides':
-    case 'droptables':
     case 'cluetables':
     case 'clueguides':
     case 'calculators':
     case 'questguides':
     case 'itemdb':
+    case 'npcdb':
     case 'wallpapers':
     case 'specialguides':
     case 'tools':

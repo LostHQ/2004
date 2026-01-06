@@ -1,7 +1,7 @@
 <?php
 function getPageContent() { 
     global $meta_data;
-    $meta_data['title'] = 'Drop Tables';
+    $meta_data['title'] = 'NPC Database';
     $meta_data['og:title'] = $meta_data['title'];
     $meta_data['og:image'] = 'img/skeleton.webp';
     ob_start();
@@ -16,7 +16,7 @@ select, #itemSearch {
     position: relative;
 }
 </style>
-<h2>NPC Drop Tables</h2>
+<h2>NPC Database</h2>
 <p>Typing in the search box will filter the NPCs shown in the dropdown.</p>
 <hr>
 <table width="100%">
@@ -78,6 +78,6 @@ select, #itemSearch {
   color: #004499;
 }
 </style>
-HTML.getJS('js/droptables/droptables.js');
+HTML.getJS(filename: 'js/npcdb/npcdb.js');
     return ob_get_clean();
 }

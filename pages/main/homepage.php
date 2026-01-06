@@ -25,13 +25,13 @@ function getPageContent() { return <<<HTML
         </tr>
         <tr>
             <td width="100">
-                <a href="?p=droptables">
+                <a href="?p=npcdb">
                     <img src="img/skeleton.png">
                 </a>
             </td>
             <td width="120">
                 NPC Database<br>
-                <a href="?p=droptables">Click Here</a>
+                <a href="?p=npcdb">Click Here</a>
             </td>
             <td width="10"></td>
             <td width="100">

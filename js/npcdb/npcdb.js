@@ -11,8 +11,8 @@ const SHARED_TABLE_ICONS = {
 };
 
 Promise.all([
-    fetch(`js/droptables/npc_data.json?v=${currentGameVer}`).then((res) => res.json()),
-    fetch(`js/droptables/shared_drops.json?v=${currentGameVer}`).then((res) => res.json()),
+    fetch(`js/npcdb/npc_data.json?v=${currentGameVer}`).then((res) => res.json()),
+    fetch(`js/npcdb/shared_drops.json?v=${currentGameVer}`).then((res) => res.json()),
     fetch(`js/itemlist.json?v=${currentGameVer}`).then((res) => res.json()),
 ]).then(([npcDataJson, sharedDropTablesData, itemData]) => {
     npcData = npcDataJson;
