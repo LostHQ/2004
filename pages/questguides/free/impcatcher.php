@@ -1,23 +1,24 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>$questName</h2>
-<b>Description:</b> The Wizard Grayzag has summoned hundreds of little imps. They have stolen a lot of things belonging to the Wizard Mizgog including his magic beads.
-<br><br>
-<b>Difficulty: <font color="Green">Novice</font></b>
-<br><br>
-<b>Length: <font color="Yellow">Medium</font></b><br>
-<h3>Items & Skills Needed:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress><canvas itemname="black_bead" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="red_bead" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="white_bead" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="yellow_bead" icon-size="25" show-label="inline"></canvas></div></li>
-</ul>
-<b>Starting Location:</b> <span data-floors="US">3rd floor</span> of the Wizard's Tower south of Draynor Village
-<br><br>
-<b>Reward:</b> 1 Quest point, 375 Magic XP, Amulet of Accuracy (+4 weapon accuracy)
-<br><br>
-<hr>
+<div id="narrowscroll">
+    <h2>$questName</h2>
+    <b>Description:</b> The Wizard Grayzag has summoned hundreds of little imps. They have stolen a lot of things belonging to the Wizard Mizgog including his magic beads.
+    <br><br>
+    <b>Difficulty: <font color="Green">Novice</font></b>
+    <br><br>
+    <b>Length: <font color="Yellow">Medium</font></b>
+    <br><br>
+    <h3>Items & Skills Needed:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress><canvas itemname="black_bead" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="red_bead" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="white_bead" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="yellow_bead" icon-size="25" show-label="inline"></canvas></div></li>
+    </ul>
+    <b>Starting Location:</b> <span data-floors="US">3rd floor</span> of the Wizard's Tower south of Draynor Village
+    <br><br>
+    <b>Reward:</b> 1 Quest point, 375 Magic XP, Amulet of Accuracy (+4 weapon accuracy)
+</div>
 <h3>Instructions:</h3>
 <br>
 <div data-progress>Talk to Wizard Mizgog. He will tell you that he has lost his beads — red, white, black, and yellow. He will also tell you that Wizard Grayzag's imp stole the beads. Tell him that you will return them.</div>

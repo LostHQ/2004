@@ -1,22 +1,23 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>$questName</h2>
-Description: Veronica is very worried. Her fiancee went into the big spooky manor house to ask for directions. An hour later and he's still not out yet.
-<br><br>
-<b>Difficulty: <font color="Green">Novice</font></b>
-<br><br>
-<b>Length: <font color="Yellow">Medium</font></b><br>
-<h3>Items & Skills Needed:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress><canvas itemname="spade" icon-size="25" show-label="inline" name-append=" (can be obtained during the quest)"></canvas></div></li>
-<li><div data-progress><canvas itemname="fish_food" icon-size="25" show-label="inline" name-append=" (can be obtained during the quest)"></canvas></div></li>
-<li><div data-progress><canvas itemname="poison" icon-size="25" show-label="inline" name-append=" (can be obtained during the quest)"></canvas></div></li>
-</ul>
-<b>Starting Location:</b> South of Draynor Manor
-<br><br>
-<b>Reward:</b> 4 Quest points, 300 coins
-<br><br>
-<hr>
+<div id="narrowscroll">
+    <h2>$questName</h2>
+    Description: Veronica is very worried. Her fiancee went into the big spooky manor house to ask for directions. An hour later and he's still not out yet.
+    <br><br>
+    <b>Difficulty: <font color="Green">Novice</font></b>
+    <br><br>
+    <b>Length: <font color="Yellow">Medium</font></b>
+    <br><br>
+    <h3>Items & Skills Needed:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress><canvas itemname="spade" icon-size="25" show-label="inline" name-append=" (can be obtained during the quest)"></canvas></div></li>
+    <li><div data-progress><canvas itemname="fish_food" icon-size="25" show-label="inline" name-append=" (can be obtained during the quest)"></canvas></div></li>
+    <li><div data-progress><canvas itemname="poison" icon-size="25" show-label="inline" name-append=" (can be obtained during the quest)"></canvas></div></li>
+    </ul>
+    <b>Starting Location:</b> South of Draynor Manor
+    <br><br>
+    <b>Reward:</b> 4 Quest points, 300 coins
+</div>
 <h3>Instructions:</h3>
 <br>
 <div data-progress>Talk to Veronica outside the Mansion in Draynor. She will tell you about Ernest. He has gone into the house for an hour and hasn't come out yet. Tell her that you will help her to find Ernest.</div>

@@ -2,27 +2,28 @@
 $meta_data['title'] = 'Quest Guides > Rune Essentials';
 $meta_data['og:title'] = $meta_data['title'];
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>$questName</h2>
-<b>Description:</b> Recent research at the Wizards Tower has found a way to create Runes for the first time in centuries. Assist the head wizard Sedridor in his research and he too may teach you these secrets!
-<br><br>
-<b>Difficulty: <font color="Green">Novice</font></b>
-<br><br>
-<b>Length: <font color="Green">Short</font></b><br>
-<h3>Items & Skills Needed:</h3>
-<!-- Items/Skills Needed To Start: Pick Axe to mine Rune Essentials -->
-<ul style="list-style-type: none;">
-<li><div data-progress>None</div><br></li>
-</ul>
-<h3>Recommended:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress><canvas itemname="lawrune" icon-size="25" show-label="inline" name-replace="Runes for Teleport to Lumbridge"></canvas></div></li>
-<li><div data-progress><canvas itemname="lawrune" icon-size="25" show-label="inline" name-replace="Runes for Teleport to Varrock"></canvas></div></li>
-</ul>
-<b>Starting Location:</b> <span data-floors="US">2nd floor</span> of Lumbridge Castle
-<br><br>
-<b>Reward:</b> 1 Quest point, free teleport to the Rune Essence Mine by speaking to either Aubury or Sedridor
-<br><br>
-<hr>
+<div id="narrowscroll">
+    <h2>$questName</h2>
+    <b>Description:</b> Recent research at the Wizards Tower has found a way to create Runes for the first time in centuries. Assist the head wizard Sedridor in his research and he too may teach you these secrets!
+    <br><br>
+    <b>Difficulty: <font color="Green">Novice</font></b>
+    <br><br>
+    <b>Length: <font color="Green">Short</font></b>
+    <br><br>
+    <h3>Items & Skills Needed:</h3>
+    <!-- Items/Skills Needed To Start: Pick Axe to mine Rune Essentials -->
+    <ul style="list-style-type: none;">
+    <li><div data-progress>None</div><br></li>
+    </ul>
+    <h3>Recommended:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress><canvas itemname="lawrune" icon-size="25" show-label="inline" name-replace="Runes for Teleport to Lumbridge"></canvas></div></li>
+    <li><div data-progress><canvas itemname="lawrune" icon-size="25" show-label="inline" name-replace="Runes for Teleport to Varrock"></canvas></div></li>
+    </ul>
+    <b>Starting Location:</b> <span data-floors="US">2nd floor</span> of Lumbridge Castle
+    <br><br>
+    <b>Reward:</b> 1 Quest point, free teleport to the Rune Essence Mine by speaking to either Aubury or Sedridor
+</div>
 <h3>Instructions:</h3>
 <br>
 <div data-progress>To start the quest, speak to Duke Horacio, who is located on the <span data-floors="US">2nd floor</span> of Lumbridge Castle.</div>

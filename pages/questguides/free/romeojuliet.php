@@ -1,20 +1,21 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>$questName</h2>
-<b>Description:</b> Romeo & Juliet are desperately in love, but Juliet's father doesn't approve. Help them to find a way to get married and live happily ever after.
-<br><br>
-<b>Difficulty: <font color="Green">Novice</font></b>
-<br><br>
-<b>Length: <font color="Green">Short</font></b><br>
-<h3>Items & Skills Needed:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress><canvas itemname="cadavaberries" icon-size="25" show-label="inline" name-append=" (can be obtained during quest)"></canvas></div></li>
-</ul>
-<b>Starting Location:</b> Romeo who is south of Varrock's central fountain OR Juliet in her house just west of Varrock on the north side of the road<br>
-<br>
-<b>Reward:</b> 5 Quest points
-<br><br>
-<hr>
+<div id="narrowscroll">
+    <h2>$questName</h2>
+    <b>Description:</b> Romeo & Juliet are desperately in love, but Juliet's father doesn't approve. Help them to find a way to get married and live happily ever after.
+    <br><br>
+    <b>Difficulty: <font color="Green">Novice</font></b>
+    <br><br>
+    <b>Length: <font color="Green">Short</font></b>
+    <br><br>
+    <h3>Items & Skills Needed:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress><canvas itemname="cadavaberries" icon-size="25" show-label="inline" name-append=" (can be obtained during quest)"></canvas></div></li>
+    </ul>
+    <b>Starting Location:</b> Romeo who is south of Varrock's central fountain OR Juliet in her house just west of Varrock on the north side of the road<br>
+    <br>
+    <b>Reward:</b> 5 Quest points
+</div>
 <h3>Instructions:</h3>
 <br>
 <div data-progress>Talk to Juliet on her <span data-floors="US">2nd floor</span> balcony to learn about her love affair with Romeo and the complications that have set in. She asks you to take a message to Romeo in Varrock Square.</div>

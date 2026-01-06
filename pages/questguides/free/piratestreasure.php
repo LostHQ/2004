@@ -1,22 +1,23 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>$questName</h2>
-<b>Description:</b> Redbeard Frank knows where secret pirate treasure is hidden, it may require some work to persuade him to let you know where though.
-<br><br>
-<b>Difficulty: <font color="Green">Novice</font></b>
-<br><br>
-<b>Length: <font color="Yellow">Medium</font></b><br>
-<h3>Items & Skills Needed:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress><canvas itemname="white_apron" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="coins_25" icon-size="25" show-label="inline" name-replace="30 coins"></canvas></div></li>
-<li><div data-progress><canvas itemname="spade" icon-size="25" show-label="inline" name-append=" (obtainable during quest)"></canvas></div></li>
-</ul>
-<b>Starting Location:</b> The pub in Port Sarim
-<br><br>
-<b>Reward:</b> 2 Quest points, 450 coins, a cut Emerald, a Gold Ring
-<br><br>
-<hr>
+<div id="narrowscroll">
+    <h2>$questName</h2>
+    <b>Description:</b> Redbeard Frank knows where secret pirate treasure is hidden, it may require some work to persuade him to let you know where though.
+    <br><br>
+    <b>Difficulty: <font color="Green">Novice</font></b>
+    <br><br>
+    <b>Length: <font color="Yellow">Medium</font></b>
+    <br><br>
+    <h3>Items & Skills Needed:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress><canvas itemname="white_apron" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="coins_25" icon-size="25" show-label="inline" name-replace="30 coins"></canvas></div></li>
+    <li><div data-progress><canvas itemname="spade" icon-size="25" show-label="inline" name-append=" (obtainable during quest)"></canvas></div></li>
+    </ul>
+    <b>Starting Location:</b> The pub in Port Sarim
+    <br><br>
+    <b>Reward:</b> 2 Quest points, 450 coins, a cut Emerald, a Gold Ring
+</div>
 <h3>Instructions:</h3>
 <br>
 <div data-progress>Talk to Redbeard the pirate. He will tell you about the treasure. Say that you want to get it. He will ask you to bring him some rum.</div>

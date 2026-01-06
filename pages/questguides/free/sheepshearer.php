@@ -1,21 +1,22 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>$questName</h2>
-<b>Description:</b> Farmer Fred's sheep are getting mighty woolly. He will pay you to shear them.
-<br><br>
-<b>Difficulty: <font color="Green">Novice</font></b>
-<br><br>
-<b>Length: <font color="Green">Short</font></b><br>
-<h3>Items & Skills Needed:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress><canvas itemname="shears" icon-size="25" show-label="inline" name-append=" (obtainable during quest)"></canvas></div></li>
-<li><div data-progress><canvas itemname="ball_of_wool" icon-size="25" show-label="inline" name-replace="20 Balls of wool (obtainable during quest)"></canvas></div></li>
-</ul>
-<b>Starting Location:</b> The house just west of the sheep, northwest of Lumbridge
-<br><br>
-<b>Reward:</b> 1 Quest point, 150 Crafting XP, 60 coins
-<br><br>
-<hr>
+<div id="narrowscroll">
+    <h2>$questName</h2>
+    <b>Description:</b> Farmer Fred's sheep are getting mighty woolly. He will pay you to shear them.
+    <br><br>
+    <b>Difficulty: <font color="Green">Novice</font></b>
+    <br><br>
+    <b>Length: <font color="Green">Short</font></b>
+    <br><br>
+    <h3>Items & Skills Needed:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress><canvas itemname="shears" icon-size="25" show-label="inline" name-append=" (obtainable during quest)"></canvas></div></li>
+    <li><div data-progress><canvas itemname="ball_of_wool" icon-size="25" show-label="inline" name-replace="20 Balls of wool (obtainable during quest)"></canvas></div></li>
+    </ul>
+    <b>Starting Location:</b> The house just west of the sheep, northwest of Lumbridge
+    <br><br>
+    <b>Reward:</b> 1 Quest point, 150 Crafting XP, 60 coins
+</div>
 <h3>Instructions:</h3>
 <br>
 <div data-progress>Talk to Fred the Farmer, who is located north of Lumbridge in the little building by all the sheep. Tell him that you are in search of a quest. He'll respond by saying his sheep need to be sheared and will reward you if you bring back 20 balls of wool.</div>

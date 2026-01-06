@@ -7,7 +7,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
     <b>Difficulty: <font color="Green">Novice</font></b>
     <br><br>
     <b>Length: <font color="Yellow">Medium</font></b>
-    <br>
+    <br><br>
     <h3>Items & Skills Needed:</h3>
     <ul style="list-style-type: none;">
     <li><div data-progress>None</div></li>
@@ -20,7 +20,6 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
     <b>Starting Location:</b> Lumbridge Chapel
     <br><br>
     <b>Reward:</b> 1 Quest point, 1,125 Prayer XP
-    <br><br>
 </div>
 <h3>Instructions:</h3>
 <br>

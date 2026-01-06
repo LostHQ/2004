@@ -1,28 +1,29 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>$questName</h2>
-<b>Description:</b> A mighty demon is being summoned to destroy the city of Varrock. You find out you are the one destined to stop him.(or at least to try)
-<br><br>
-<b>Difficulty: <font color="Green">Novice</font></b>
-<br><br>
-<b>Length: <font color="Yellow">Medium</font></b><br>
-<h3>Items & Skills Needed:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress><canvas itemname="bucket_water" icon-size="25" show-label="inline" name-append=" (can be obtained during quest)"></canvas></div></li>
-<li><div data-progress><canvas itemname="bones" icon-size="25" show-label="inline" name-append=" (can't be noted, but can be delivered in increments)"></canvas></div></li>
-<li><div data-progress><canvas itemname="coins" icon-size="25" show-label="inline" name-append=" (1gp)"></canvas></div></li>
-</ul>
-<h3>Recommended:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress><canvas itemname="lawrune" icon-size="25" show-label="inline" name-replace="Runes for Teleport to Lumbridge"></canvas></div></li>
-<li><div data-progress><canvas itemname="lawrune" icon-size="25" show-label="inline" name-replace="Runes for Teleport to Varrock"></canvas></div></li>
-<li><div data-progress>41 Combat (avoids aggro from level 20 Dark Wizards)</div></li>
-</ul>
-<b>Starting Location:</b> The Gypsy in her tent at Varrock Square
-<br><br>
-<b>Reward:</b> 3 Quest points, Silverlight (which is useful for weakening any kind of demon)
-<br><br>
-<hr>
+<div id="narrowscroll">
+    <h2>$questName</h2>
+    <b>Description:</b> A mighty demon is being summoned to destroy the city of Varrock. You find out you are the one destined to stop him.(or at least to try)
+    <br><br>
+    <b>Difficulty: <font color="Green">Novice</font></b>
+    <br><br>
+    <b>Length: <font color="Yellow">Medium</font></b>
+    <br><br>
+    <h3>Items & Skills Needed:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress><canvas itemname="bucket_water" icon-size="25" show-label="inline" name-append=" (can be obtained during quest)"></canvas></div></li>
+    <li><div data-progress><canvas itemname="bones" icon-size="25" show-label="inline" name-append=" (can't be noted, but can be delivered in increments)"></canvas></div></li>
+    <li><div data-progress><canvas itemname="coins" icon-size="25" show-label="inline" name-append=" (1gp)"></canvas></div></li>
+    </ul>
+    <h3>Recommended:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress><canvas itemname="lawrune" icon-size="25" show-label="inline" name-replace="Runes for Teleport to Lumbridge"></canvas></div></li>
+    <li><div data-progress><canvas itemname="lawrune" icon-size="25" show-label="inline" name-replace="Runes for Teleport to Varrock"></canvas></div></li>
+    <li><div data-progress>41 Combat (avoids aggro from level 20 Dark Wizards)</div></li>
+    </ul>
+    <b>Starting Location:</b> The Gypsy in her tent at Varrock Square
+    <br><br>
+    <b>Reward:</b> 3 Quest points, Silverlight (which is useful for weakening any kind of demon)
+</div>
 <h3>Instructions:</h3>
 <br>
 <div data-progress>Talk to the Gypsy in her tent and pay her a coin to reveal the future to you. She'll do her thing and tell you that Delrith has been released. She also says that you're the only one who can stop him. She goes on into some history of Delrith, then tells you to see Sir Prysin in Varrock castle. Make sure you ask what the magical incantation is. You don't need to write it down if you're following this guide.</div>

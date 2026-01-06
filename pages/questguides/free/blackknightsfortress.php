@@ -1,27 +1,28 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>$questName</h2>
-<b>Description:</b> The black knights are up to no good. You are hired by the white knights to spy on them and uncover their evil scheme.
-<br><br>
-<b>Difficulty: <font color="Yellow">Intermediate</font></b>
-<br><br>
-<b>Length: <font color="Yellow">Medium</font></b><br>
-<h3>Items & Skills Needed:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress>12 Quest points</div><br></li>
-<li><div data-progress><canvas itemname="cabbage" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="bronze_med_helm" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="iron_chainbody" icon-size="25" show-label="inline"></canvas></div></li>
-</ul>
-<h3>Recommended:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress>Food and/or equipment to run past aggressive level 33 Black Knights</div></li>
-</ul>
-<b>Starting Location:</b> <span data-floors="US">3rd floor</span> of White Knights' Castle in Falador
-<br><br>
-<b>Reward:</b> 3 Quest points, 2,500 coins
-<br><br>
-<hr>
+<div id="narrowscroll">
+    <h2>$questName</h2>
+    <b>Description:</b> The black knights are up to no good. You are hired by the white knights to spy on them and uncover their evil scheme.
+    <br><br>
+    <b>Difficulty: <font color="Yellow">Intermediate</font></b>
+    <br><br>
+    <b>Length: <font color="Yellow">Medium</font></b>
+    <br><br>
+    <h3>Items & Skills Needed:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress>12 Quest points</div><br></li>
+    <li><div data-progress><canvas itemname="cabbage" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="bronze_med_helm" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="iron_chainbody" icon-size="25" show-label="inline"></canvas></div></li>
+    </ul>
+    <h3>Recommended:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress>Food and/or equipment to run past aggressive level 33 Black Knights</div></li>
+    </ul>
+    <b>Starting Location:</b> <span data-floors="US">3rd floor</span> of White Knights' Castle in Falador
+    <br><br>
+    <b>Reward:</b> 3 Quest points, 2,500 coins
+</div>
 <h3>Instructions:</h3>
 <br>
 <div data-progress>Talk to Sir Amik Varze. He will tell you that the Black knights are planning to destroy the White knights. He will ask you to spy on them. Accept his challenge.</div>

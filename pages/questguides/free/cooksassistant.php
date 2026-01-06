@@ -1,22 +1,23 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>$questName</h2>
-<b>Description:</b> The Lumbridge castle cook is in a mess. It is the Duke of Lumbridge's birthday and the cook is making the cake. He needs a lot of ingredients and doesn't have much time.
-<br><br>
-<b>Difficulty: <font color="Green">Novice</font></b>
-<br><br>
-<b>Length: <font color="Green">Short</font></b><br>
-<h3>Items & Skills Needed:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress><canvas itemname="egg" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="bucket_milk" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="pot_flour" icon-size="25" show-label="inline"></canvas></div></li>
-</ul>
-<b>Starting Location:</b> Lumbridge Castle
-<br><br>
-<b>Reward:</b> 1 Quest point, 300 Cooking XP, permission to use the Cook's range
-<br><br>
-<hr>
+<div id="narrowscroll">
+    <h2>$questName</h2>
+    <b>Description:</b> The Lumbridge castle cook is in a mess. It is the Duke of Lumbridge's birthday and the cook is making the cake. He needs a lot of ingredients and doesn't have much time.
+    <br><br>
+    <b>Difficulty: <font color="Green">Novice</font></b>
+    <br><br>
+    <b>Length: <font color="Green">Short</font></b>
+    <br><br>
+    <h3>Items & Skills Needed:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress><canvas itemname="egg" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="bucket_milk" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="pot_flour" icon-size="25" show-label="inline"></canvas></div></li>
+    </ul>
+    <b>Starting Location:</b> Lumbridge Castle
+    <br><br>
+    <b>Reward:</b> 1 Quest point, 300 Cooking XP, permission to use the Cook's range
+</div>
 <h3>Instructions:</h3>
 <br>
 <div data-progress>Talk to the Cook in the Lumbridge Castle. He will ask you to help him get the ingredients for the cake, as he forgot to buy them. Tell him that you will help.</div>

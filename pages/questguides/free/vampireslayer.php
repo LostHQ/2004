@@ -1,22 +1,23 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>$questName</h2>
-<b>Description:</b> The people of Draynor village live in constant terror. Their numbers are dwindling, all due to the foul creature lurking in the manor to the north known as a vampire.
-<br><br>
-<b>Difficulty: <font color="Green">Novice</font></b>
-<br><br>
-<b>Length: <font color="Yellow">Medium</font></b><br>
-<h3>Items & Skills Needed:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress><canvas itemname="hammer" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="beer" icon-size="25" show-label="inline" name-append=" (or 2 coins to buy during quest)"></canvas></div></li>
-<li><div data-progress>Decent armor and weapon to defeat a combat level 34 vampire</div></li>
-</ul>
-<b>Starting Location:</b> Draynor Village
-<br><br>
-<b>Reward:</b> 3 Quest points, 4,825 Attack XP
-<br><br>
-<hr>
+<div id="narrowscroll">
+    <h2>$questName</h2>
+    <b>Description:</b> The people of Draynor village live in constant terror. Their numbers are dwindling, all due to the foul creature lurking in the manor to the north known as a vampire.
+    <br><br>
+    <b>Difficulty: <font color="Green">Novice</font></b>
+    <br><br>
+    <b>Length: <font color="Yellow">Medium</font></b>
+    <br><br>
+    <h3>Items & Skills Needed:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress><canvas itemname="hammer" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="beer" icon-size="25" show-label="inline" name-append=" (or 2 coins to buy during quest)"></canvas></div></li>
+    <li><div data-progress>Decent armor and weapon to defeat a combat level 34 vampire</div></li>
+    </ul>
+    <b>Starting Location:</b> Draynor Village
+    <br><br>
+    <b>Reward:</b> 3 Quest points, 4,825 Attack XP
+<</div>
 <h3>Instructions:</h3>
 <br>
 <div data-progress>Find Morgan in Draynor; he has the quest symbol above his house. He'll tell you about the vampire and ask you to kill it. He'll also tell you to go find his friend, Dr. Harlow, at the Jolly Boar Inn.</div>

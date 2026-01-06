@@ -1,22 +1,23 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>$questName</h2>
-Description: There's a disturbance in the goblin village. Help the goblins solve their dispute so the world doesn't have to worry about rioting goblins.
-<br><br>
-<b>Difficulty: <font color="Green">Novice</font></b>
-<br><br>
-<b>Length: <font color="Yellow">Medium</font></b><br>
-<h3>Items & Skills Needed:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress><canvas itemname="goblin_armour" icon-size="25" show-label="inline" name-replace="3 Goblin Mail"></canvas></div></li>
-<li><div data-progress><canvas itemname="bluedye" icon-size="25" show-label="inline" name-append=" (or 2 woad leaves and 5 coins to obtain a blue dye from Aggie)"></canvas></div></li>
-<li><div data-progress><canvas itemname="orangedye" icon-size="25" show-label="inline" name-append=" (or 3 redberries, 2 onions, and 10 coins to obtain a red and yellow dye from Aggie)"></canvas></div></li>
-</ul>
-<b>Starting Location:</b> Port Sarim Pub
-<br><br>
-<b>Reward:</b> 5 Quest points, 815 Crafting XP, 1 Gold Bar
-<br><br>
-<hr>
+<div id="narrowscroll">
+    <h2>$questName</h2>
+    Description: There's a disturbance in the goblin village. Help the goblins solve their dispute so the world doesn't have to worry about rioting goblins.
+    <br><br>
+    <b>Difficulty: <font color="Green">Novice</font></b>
+    <br><br>
+    <b>Length: <font color="Yellow">Medium</font></b>
+    <br><br>
+    <h3>Items & Skills Needed:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress><canvas itemname="goblin_armour" icon-size="25" show-label="inline" name-replace="3 Goblin Mail"></canvas></div></li>
+    <li><div data-progress><canvas itemname="bluedye" icon-size="25" show-label="inline" name-append=" (or 2 woad leaves and 5 coins to obtain a blue dye from Aggie)"></canvas></div></li>
+    <li><div data-progress><canvas itemname="orangedye" icon-size="25" show-label="inline" name-append=" (or 3 redberries, 2 onions, and 10 coins to obtain a red and yellow dye from Aggie)"></canvas></div></li>
+    </ul>
+    <b>Starting Location:</b> Port Sarim Pub
+    <br><br>
+    <b>Reward:</b> 5 Quest points, 815 Crafting XP, 1 Gold Bar
+</div>
 <h3>Instructions:</h3>
 <br>
 <div data-progress>To begin the quest, speak with the Bartender at the Rusty Anchor, located in Port Sarim. He tells you that the goblins are about to go to war over the color of their armor.</div>

@@ -1,31 +1,32 @@
 <?php
 function getQuestGuide($questName) { return <<<HTML
-<h2>$questName</h2>
-<b>Description:</b> This quest allows you to learn three new magic spells and get three new staves.
-<br><br>
-<b>Difficulty: <font color="Red">Hard</font></b>
-<br><br>
-<b>Length: <font color="Green">Short</font></b><br>
-<h3>Items & Skills Needed:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress>60 Magic</div></li>
-<li><div data-progress>Runes to fight Kolodion</div></li>
-<li><div data-progress><canvas itemname="knife" icon-size="25" show-label="inline" name-replace="Something to cut webs (knife/slash weapon)"></canvas></div></li>
-</ul>
-<h3>Recommended:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress><canvas itemname="lobster" icon-size="25" show-label="inline" name-replace="15 Lobsters"></canvas></div></li>
-<li><div data-progress><canvas itemname="wizards_robe" icon-size="25" show-label="inline" name-replace="Mage boosting armour"></canvas></div></li>
-<li><div data-progress><canvas itemname="staff_of_air" icon-size="25" show-label="inline" name-replace="Staff of air, Air battlestaff, or Mystic air staff"></canvas></div></li>
-<li><div data-progress><canvas itemname="deathrune" icon-size="25" show-label="inline" name-replace="~100 Death Runes"></canvas></div></li>
-<li><div data-progress><canvas itemname="4doseprayerrestore" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress>55 Combat level</div></li>
-</ul>
-<b>Starting Location:</b> Mage Arena (West of the Member Wilderness Gate in Level 55 Wilderness)
-<br><br>
-<b>Reward:</b> A God Cape of your choice, the ability to purchase the God Staves, the ability to unlock the god spells (after casting them 100 times in the arena)
-<br><br>
-<hr>
+<div id="narrowscroll">
+    <h2>$questName</h2>
+    <b>Description:</b> This quest allows you to learn three new magic spells and get three new staves.
+    <br><br>
+    <b>Difficulty: <font color="Red">Hard</font></b>
+    <br><br>
+    <b>Length: <font color="Green">Short</font></b>
+    <br><br>
+    <h3>Items & Skills Needed:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress>60 Magic</div></li>
+    <li><div data-progress>Runes to fight Kolodion</div></li>
+    <li><div data-progress><canvas itemname="knife" icon-size="25" show-label="inline" name-replace="Something to cut webs (knife/slash weapon)"></canvas></div></li>
+    </ul>
+    <h3>Recommended:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress><canvas itemname="lobster" icon-size="25" show-label="inline" name-replace="15 Lobsters"></canvas></div></li>
+    <li><div data-progress><canvas itemname="wizards_robe" icon-size="25" show-label="inline" name-replace="Mage boosting armour"></canvas></div></li>
+    <li><div data-progress><canvas itemname="staff_of_air" icon-size="25" show-label="inline" name-replace="Staff of air, Air battlestaff, or Mystic air staff"></canvas></div></li>
+    <li><div data-progress><canvas itemname="deathrune" icon-size="25" show-label="inline" name-replace="~100 Death Runes"></canvas></div></li>
+    <li><div data-progress><canvas itemname="4doseprayerrestore" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress>55 Combat level</div></li>
+    </ul>
+    <b>Starting Location:</b> Mage Arena (West of the Member Wilderness Gate in Level 55 Wilderness)
+    <br><br>
+    <b>Reward:</b> A God Cape of your choice, the ability to purchase the God Staves, the ability to unlock the god spells (after casting them 100 times in the arena)
+</div>
 <h3>Instructions:</h3>
 <i>Note: If you die, then you do not have to start all over again, you just restart the last monster you faced, and there is no chance of being pk'd in the arena when fighting Kolodion because it is Non Multi-combat</i>
 <br><br>

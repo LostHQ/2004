@@ -1,22 +1,23 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>$questName</h2>
-<b>Description:</b> Become one with your darker side. Tap into your hidden depths of magical potential by making a potion with the help of Hetty the Rimmington witch.
-<br><br>
-<b>Difficulty: <font color="Green">Novice</font></b>
-<br><br>
-<b>Length: <font color="Green">Short</font></b><br>
-<h3>Items & Skills Needed:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress><canvas itemname="burnt_meat" icon-size="25" show-label="inline" name-append=" (can be obtained during quest)"></canvas></div></li>
-<li><div data-progress><canvas itemname="eye_of_newt" icon-size="25" show-label="inline" name-append=" (or 3 coins to purchase)"></canvas></div></li>
-<li><div data-progress><canvas itemname="onion" icon-size="25" show-label="inline" name-append=" (can be obtained during quest)"></canvas></div></li>
-</ul>
-<b>Starting Location:</b> Rimmington's local witch
-<br><br>
-<b>Reward:</b> 1 Quest point, 325 Magic XP
-<br><br>
-<hr>
+<div id="narrowscroll">
+    <h2>$questName</h2>
+    <b>Description:</b> Become one with your darker side. Tap into your hidden depths of magical potential by making a potion with the help of Hetty the Rimmington witch.
+    <br><br>
+    <b>Difficulty: <font color="Green">Novice</font></b>
+    <br><br>
+    <b>Length: <font color="Green">Short</font></b>
+    <br><br>
+    <h3>Items & Skills Needed:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress><canvas itemname="burnt_meat" icon-size="25" show-label="inline" name-append=" (can be obtained during quest)"></canvas></div></li>
+    <li><div data-progress><canvas itemname="eye_of_newt" icon-size="25" show-label="inline" name-append=" (or 3 coins to purchase)"></canvas></div></li>
+    <li><div data-progress><canvas itemname="onion" icon-size="25" show-label="inline" name-append=" (can be obtained during quest)"></canvas></div></li>
+    </ul>
+    <b>Starting Location:</b> Rimmington's local witch
+    <br><br>
+    <b>Reward:</b> 1 Quest point, 325 Magic XP
+</div>
 <h3>Instructions:</h3>
 <br>
 <div data-progress>Talk to the witch, Hetty, and she will tell you about getting the ingredients for the cauldron. You will need four items: an onion, burnt meat, an eye of newt, and a rat's tail.</div>

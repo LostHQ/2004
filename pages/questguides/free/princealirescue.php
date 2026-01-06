@@ -1,40 +1,40 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>$questName</h2>
-<b>Description:</b> Prince Ali of Al Kharid has been kidnapped by the scheming Lady Keli. You are hired to stage a rescue mission.
-<br><br>
-<b>Difficulty: <font color="Green">Novice</font></b>
-<br><br>
-<b>Length: <font color="Red">Long</font></b><br>
-<h3>Items & Skills Needed:</h3>
-(All items can be obtained during the quest)
-<ul style="list-style-type: none;">
-<li><div data-progress><canvas itemname="softclay" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="ball_of_wool" icon-size="25" show-label="inline" name-replace="3 Balls of wool"></canvas></div></li>
-<li><div data-progress><canvas itemname="yellowdye" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="ashes" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress>
-    <canvas itemname="jug_water" icon-size="25" show-label="inline" name-append=" (obtainable during quest)"></canvas> or
-    <canvas itemname="bucket_water" icon-size="25" show-label="inline"></canvas>
-</div></li>
-<li><div data-progress><canvas itemname="pot_flour" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="bronze_bar" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="pink_skirt" icon-size="25" show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas itemname="beer" icon-size="25" show-label="inline" name-replace="3 beers"></canvas></div></li>
-<li><div data-progress><canvas itemname="rope" icon-size="25" show-label="inline"></canvas></div></li>
-</ul>
-<h3>Recommended:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress>
-    <canvas itemname="coins_5" icon-size="25" show-label="inline" name-replace="20 coins"></canvas> or a
-    <canvas itemname="ring_of_dueling_8" icon-size="25" show-label="inline" name-replace="Ring of Dueling for the Al Kharid toll gate"></canvas>
-</div></li>
-</ul>
-<b>Starting Location:</b> Talk to Hassan in the Al Kharid palace
-<br><br>
-<b>Reward:</b> 3 Quest points, 700 coins, free passage through the Al Kharid gate
-<br><br>
-<hr>
+<div id="narrowscroll">
+    <h2>$questName</h2>
+    <b>Description:</b> Prince Ali of Al Kharid has been kidnapped by the scheming Lady Keli. You are hired to stage a rescue mission.
+    <br><br>
+    <b>Difficulty: <font color="Green">Novice</font></b>
+    <br><br>
+    <b>Length: <font color="Red">Long</font></b><br>
+    <h3>Items & Skills Needed:</h3>
+    (All items can be obtained during the quest)
+    <ul style="list-style-type: none;">
+    <li><div data-progress><canvas itemname="softclay" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="ball_of_wool" icon-size="25" show-label="inline" name-replace="3 Balls of wool"></canvas></div></li>
+    <li><div data-progress><canvas itemname="yellowdye" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="ashes" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress>
+        <canvas itemname="jug_water" icon-size="25" show-label="inline" name-append=" (obtainable during quest)"></canvas> or
+        <canvas itemname="bucket_water" icon-size="25" show-label="inline"></canvas>
+    </div></li>
+    <li><div data-progress><canvas itemname="pot_flour" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="bronze_bar" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="pink_skirt" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="beer" icon-size="25" show-label="inline" name-replace="3 beers"></canvas></div></li>
+    <li><div data-progress><canvas itemname="rope" icon-size="25" show-label="inline"></canvas></div></li>
+    </ul>
+    <h3>Recommended:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress>
+        <canvas itemname="coins_5" icon-size="25" show-label="inline" name-replace="20 coins"></canvas> or a
+        <canvas itemname="ring_of_dueling_8" icon-size="25" show-label="inline" name-replace="Ring of Dueling for the Al Kharid toll gate"></canvas>
+    </div></li>
+    </ul>
+    <b>Starting Location:</b> Talk to Hassan in the Al Kharid palace
+    <br><br>
+    <b>Reward:</b> 3 Quest points, 700 coins, free passage through the Al Kharid gate
+</div>
 <h3>Instructions:</h3>
 <div data-progress>Start the quest by talking to Hassan in the southern room of Al Kharid Palace. He'll tell you to speak with Osman. Talk to him again and complain about the heat, and he will hand you a jug of water. Keep it for later.</div>
 <br><br>

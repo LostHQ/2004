@@ -323,9 +323,28 @@ A.pink:hover {
         display: table;
     }
 
-    h1 { font-size: 30px; }
-    h2 { font-size: 28px; }
-    th, h3 { font-size: 20px; }
+    h1 {
+        margin: 0;
+        padding: 0;
+        font-size: 30px;
+        font-family: RSQuill8;
+        font-weight: normal;
+    }
+    h2 {
+        margin: 0;
+        padding: 0;
+        font-size: 28px;
+        font-family: RSQuill8;
+        font-weight: normal;
+    }
+    h3 {
+        margin: 0;
+        padding: 0;
+        font-size: 18px;
+        font-family: RSQuill8;
+        font-weight: normal;
+    }
+    th { font-size: 20px; }
     .sheet-pagination {
         margin-top: 12px;
         text-align: center;
@@ -395,7 +414,6 @@ A.pink:hover {
     }
     ol, ul {
         text-align: left;
-        margin-left: auto;
         margin-right: auto;
         display: table;
     }
@@ -659,4 +677,5 @@ img.narrowscroll-bottom {
     color: #2c2c2c !important;
     position: relative;
     margin: 0 5px;
+    padding-bottom: 35px;
 }

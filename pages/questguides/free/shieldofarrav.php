@@ -1,26 +1,27 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>$questName</h2>
-<b>Description:</b> Varrockian literature tells of a valuable shield, stolen long ago from the museum of Varrock, by a gang of professional thieves. See if you can track down this shield and return it to the museum. You will need a friend to help you complete this quest.
-<br><br>
-<b>Difficulty: <font color="Green">Novice</font></b>
-<br><br>
-<b>Length: <font color="Yellow">Medium</font></b><br>
-<h3>Items & Skills Needed:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress><canvas itemname="coins_5" icon-size="25" show-label="inline" name-replace="20 coins (Phoenix Gang)"></canvas></div></li>
-<li><div data-progress>Another player who has not done the quest</div></li>
-</ul>
-<h3>Recommended:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress>10 Combat & Food (Black Arm Gang)</div></li>
-<li><div data-progress>Combat Gear</div></li>
-</ul>
-<b>Starting Location:</b> Reldo in the palace library of Varrock
-<br><br>
-<b>Reward:</b> 1 Quest point, 600 coins
-<br><br>
-<hr>
+<div id="narrowscroll">
+    <h2>$questName</h2>
+    <b>Description:</b> Varrockian literature tells of a valuable shield, stolen long ago from the museum of Varrock, by a gang of professional thieves. See if you can track down this shield and return it to the museum. You will need a friend to help you complete this quest.
+    <br><br>
+    <b>Difficulty: <font color="Green">Novice</font></b>
+    <br><br>
+    <b>Length: <font color="Yellow">Medium</font></b>
+    <br><br>
+    <h3>Items & Skills Needed:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress><canvas itemname="coins_5" icon-size="25" show-label="inline" name-replace="20 coins (Phoenix Gang)"></canvas></div></li>
+    <li><div data-progress>Another player who has not done the quest</div></li>
+    </ul>
+    <h3>Recommended:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress>10 Combat & Food (Black Arm Gang)</div></li>
+    <li><div data-progress>Combat Gear</div></li>
+    </ul>
+    <b>Starting Location:</b> Reldo in the palace library of Varrock
+    <br><br>
+    <b>Reward:</b> 1 Quest point, 600 coins
+</div>
 <h3>Instructions</h3>
 <div data-progress>Walk to the palace library and ask Reldo if he's got any quests for you. He will begin talking about the Shield of Arrav and ask you to find a book on one of the shelves. It should be on the eastern side of the middle shelf in the middle of the room.</div>
 <br><br>

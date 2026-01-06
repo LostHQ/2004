@@ -1,28 +1,29 @@
 <?php
 function getQuestGuide($questName) { return <<<HTML
-<h2>$questName</h2>
-<b>Description:</b> Complete this Fremennik 'rite of passage' to gain access to the Barbarian Outpost agility course.
-<br><br>
-<b>Difficulty: <font color="Green">Easy</font></b>
-<br><br>
-<b>Length: <font color="Yellow">Medium</font></b><br>
-<h3>Items & Skills Needed:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress><canvas itemname="coins_100" icon-size="25" show-label="inline" name-replace="208 coins"></canvas></div></li>
-<li><div data-progress>Food for players with low HP</div></li>
-</ul>
-<h3>Recommended:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress><canvas itemname="lawrune" icon-size="25" show-label="inline" name-replace="Teleport to Camelot"></canvas></div></li>
-<li><div data-progress><canvas itemname="lawrune" icon-size="25" show-label="inline" name-replace="Teleport to Falador"></canvas></div></li>
-<li><div data-progress><canvas itemname="lawrune" icon-size="25" show-label="inline" name-replace="Teleport to Varrock"></canvas></div></li>
-<li><div data-progress><canvas itemname="lawrune" icon-size="25" show-label="inline" name-replace="Teleport to Ardougne"></canvas></div></li>
-</ul>
-<b>Starting Location:</b> Barbarian Outpost agility course
-<br><br>
-<b>Reward:</b> Access to the Barbarian Outpost agility course
-<br><br>
-<hr>
+<div id="narrowscroll">
+    <h2>$questName</h2>
+    <b>Description:</b> Complete this Fremennik 'rite of passage' to gain access to the Barbarian Outpost agility course.
+    <br><br>
+    <b>Difficulty: <font color="Green">Easy</font></b>
+    <br><br>
+    <b>Length: <font color="Yellow">Medium</font></b>
+    <br><br>
+    <h3>Items & Skills Needed:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress><canvas itemname="coins_100" icon-size="25" show-label="inline" name-replace="208 coins"></canvas></div></li>
+    <li><div data-progress>Food for players with low HP</div></li>
+    </ul>
+    <h3>Recommended:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress><canvas itemname="lawrune" icon-size="25" show-label="inline" name-replace="Teleport to Camelot"></canvas></div></li>
+    <li><div data-progress><canvas itemname="lawrune" icon-size="25" show-label="inline" name-replace="Teleport to Falador"></canvas></div></li>
+    <li><div data-progress><canvas itemname="lawrune" icon-size="25" show-label="inline" name-replace="Teleport to Varrock"></canvas></div></li>
+    <li><div data-progress><canvas itemname="lawrune" icon-size="25" show-label="inline" name-replace="Teleport to Ardougne"></canvas></div></li>
+    </ul>
+    <b>Starting Location:</b> Barbarian Outpost agility course
+    <br><br>
+    <b>Reward:</b> Access to the Barbarian Outpost agility course
+</div>
 <h3>Instructions:</h3>
 <div data-progress>Go to Barbarian Outpost and talk to the barbarian at the gate to recieve your barcrawl card.</div>
 <br><br>
