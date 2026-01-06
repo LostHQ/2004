@@ -40,10 +40,8 @@ select, #itemSearch {
                 <tr>
                     <td class="b" bgcolor="#474747" background="img/stoneback.gif">
                         <div class="stone-box">
-                            <canvas itemname="ring_of_wealth" name-append="inline"></canvas> Equipped
-                            <label style="color: white;">
-                                <input type="checkbox" id="ringOfWealthCheckbox" style="margin-right: 5px;"><br>
-                            </label>
+                            <input type="checkbox" id="ringOfWealthCheckbox" style="margin-right: 5px;">
+                            <canvas itemname="ring_of_wealth" show-label="inline" name-append=" equipped"></canvas>
                         </div>
                     </td>
                 </tr>
@@ -67,7 +65,6 @@ select, #itemSearch {
 </table>
 <br>
 <div id="dropTableContainer"></div>
-
 <style>
 .shared-table-toggle { 
   cursor: pointer;

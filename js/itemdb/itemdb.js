@@ -1,7 +1,7 @@
 // itemlist.js
 (async function () {
     // load & filter & tag items
-    const raw = await fetch("js/itemdb/itemdb.json").then((r) => r.json());
+    const raw = await fetch("js/itemdb/item_data.json").then((r) => r.json());
     const items = raw
         .filter((i) => i.name && !i.debugname.startsWith("cert_"))
         .map((i) => {

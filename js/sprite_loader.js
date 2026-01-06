@@ -5,7 +5,7 @@ let itemData = [];
 const spritesheet = new Image();
 spritesheet.src = "img/item_spritesheet.png?v254";
 
-Promise.all([fetch(`js/itemdb/itemdb.json?v=${currentGameVer}`).then((res) => res.json()), new Promise((resolve) => (spritesheet.onload = resolve))])
+Promise.all([fetch(`js/itemdb/item_data.json?v=${currentGameVer}`).then((res) => res.json()), new Promise((resolve) => (spritesheet.onload = resolve))])
     .then(([json]) => {
         itemData = json;
         window.spriteLoaderReady = true;
@@ -69,7 +69,7 @@ function renderSpriteToCanvas(debugname, canvas) {
 
             label.textContent = nameAppend ? (name + nameAppend) : (nameReplace ? nameReplace : name);
             label.className = "item-label";
-            label.style.color = "white";
+            //label.style.color = "white";
 
             if (inline) {
                 const wrapper = document.createElement("div");
