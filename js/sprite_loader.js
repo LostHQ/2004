@@ -36,7 +36,7 @@ function renderSpriteToCanvas(debugname, canvas) {
         cost = baseItem.cost || 0;
     }
 
-    const imageId = item.id;
+    const imageId = id;
 
     const col = imageId % spritesPerRow;
     const row = Math.floor(imageId / spritesPerRow);
@@ -77,7 +77,6 @@ function renderSpriteToCanvas(debugname, canvas) {
                 wrapper.style.alignItems = "center";
                 wrapper.style.gap = "6px";
                 wrapper.style.flexDirection = "row";
-                wrapper.style.justifyContent = "center";
                 const parent = canvas.parentNode;
                 parent.insertBefore(wrapper, canvas);
                 wrapper.appendChild(canvas);

@@ -9,21 +9,26 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h3>Items & Skills Needed:</h3>
 (All items can be obtained during the quest)
 <ul style="list-style-type: none;">
-<li><div data-progress><canvas itemname="softclay" icon-size="25" show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas itemname="ball_of_wool" icon-size="25"></canvas>&nbsp;&nbsp;3 Balls of wool</div><br></li>
-<li><div data-progress><canvas itemname="yellowdye" icon-size="25"></canvas>&nbsp;&nbsp;Yellow dye (or<canvas itemname="onion" icon-size="25"></canvas>2 onions and<canvas itemname="coins_5" icon-size="25"></canvas>&nbsp;5 coins to obtain a yellow dye from Aggie)</div><br></li>
-<li><div data-progress><canvas itemname="redberries" icon-size="25" show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas itemname="ashes" icon-size="25" show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas itemname="jug_water" icon-size="25"></canvas>&nbsp;&nbsp;Jug of water (obtainable during quest) or<canvas itemname="bucket_water" icon-size="25"></canvas>&nbsp;Bucket of water</div><br></li>
-<li><div data-progress><canvas itemname="pot_flour" icon-size="25" show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas itemname="bronze_bar" icon-size="25" show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas itemname="pink_skirt" icon-size="25" show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas itemname="beer" icon-size="25"></canvas>&nbsp;&nbsp;3 beers</div><br></li>
-<li><div data-progress><canvas itemname="rope" icon-size="25"></canvas>&nbsp;&nbsp;Rope (or<canvas itemname="ball_of_wool" icon-size="25"></canvas>&nbsp;&nbsp;4 balls of wool or<canvas itemname="coins_5" icon-size="25"></canvas>&nbsp;&nbsp;15 coins to obtain rope from Ned)</div><br></li>
+<li><div data-progress><canvas itemname="softclay" icon-size="25" show-label="inline"></canvas></div></li>
+<li><div data-progress><canvas itemname="ball_of_wool" icon-size="25" show-label="inline" name-replace="3 Balls of wool"></canvas></div></li>
+<li><div data-progress><canvas itemname="yellowdye" icon-size="25" show-label="inline"></canvas></div></li>
+<li><div data-progress><canvas itemname="ashes" icon-size="25" show-label="inline"></canvas></div></li>
+<li><div data-progress>
+    <canvas itemname="jug_water" icon-size="25" show-label="inline" name-append=" (obtainable during quest)"></canvas> or
+    <canvas itemname="bucket_water" icon-size="25" show-label="inline"></canvas>
+</div></li>
+<li><div data-progress><canvas itemname="pot_flour" icon-size="25" show-label="inline"></canvas></div></li>
+<li><div data-progress><canvas itemname="bronze_bar" icon-size="25" show-label="inline"></canvas></div></li>
+<li><div data-progress><canvas itemname="pink_skirt" icon-size="25" show-label="inline"></canvas></div></li>
+<li><div data-progress><canvas itemname="beer" icon-size="25" show-label="inline" name-replace="3 beers"></canvas></div></li>
+<li><div data-progress><canvas itemname="rope" icon-size="25" show-label="inline"></canvas></div></li>
 </ul>
 <h3>Recommended:</h3>
 <ul style="list-style-type: none;">
-<li><div data-progress><canvas itemname="coins_5" icon-size="25"></canvas>&nbsp;&nbsp;20 coins or a<canvas itemname="ring_of_dueling_8" icon-size="25"></canvas>&nbsp;Ring of Dueling for the Al Kharid toll gate</div><br></li>
+<li><div data-progress>
+    <canvas itemname="coins_5" icon-size="25" show-label="inline" name-replace="20 coins"></canvas> or a
+    <canvas itemname="ring_of_dueling_8" icon-size="25" show-label="inline" name-replace="Ring of Dueling for the Al Kharid toll gate"></canvas>
+</div></li>
 </ul>
 <b>Starting Location:</b> Talk to Hassan in the Al Kharid palace
 <br><br>

@@ -9,9 +9,9 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h3>Items & Skills Needed:</h3>
 <ul style="list-style-type: none;">
 <li><div data-progress>12 Quest points</div><br></li>
-<li><div data-progress><canvas itemname="cabbage" icon-size="25" show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas itemname="bronze_med_helm" icon-size="25" show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas itemname="iron_chainbody" icon-size="25" show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas itemname="cabbage" icon-size="25" show-label="inline"></canvas></div></li>
+<li><div data-progress><canvas itemname="bronze_med_helm" icon-size="25" show-label="inline"></canvas></div></li>
+<li><div data-progress><canvas itemname="iron_chainbody" icon-size="25" show-label="inline"></canvas></div></li>
 </ul>
 <h3>Recommended:</h3>
 <ul style="list-style-type: none;">

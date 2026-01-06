@@ -8,9 +8,9 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <b>Length: <font color="Green">Short</font></b><br>
 <h3>Items & Skills Needed:</h3>
 <ul style="list-style-type: none;">
-<li><div data-progress><canvas itemname="burnt_meat" icon-size="25"></canvas>&nbsp;&nbsp;Burnt meat (can be obtained during quest)</div><br></li>
-<li><div data-progress><canvas itemname="eye_of_newt" icon-size="25"></canvas>&nbsp;&nbsp;Eye of newt (or 3 coins to purchase)</div><br></li>
-<li><div data-progress><canvas itemname="onion" icon-size="25"></canvas>&nbsp;&nbsp;Onion (can be obtained during quest)</div><br></li>
+<li><div data-progress><canvas itemname="burnt_meat" icon-size="25" show-label="inline" name-append=" (can be obtained during quest)"></canvas></div></li>
+<li><div data-progress><canvas itemname="eye_of_newt" icon-size="25" show-label="inline" name-append=" (or 3 coins to purchase)"></canvas></div></li>
+<li><div data-progress><canvas itemname="onion" icon-size="25" show-label="inline" name-append=" (can be obtained during quest)"></canvas></div></li>
 </ul>
 <b>Starting Location:</b> Rimmington's local witch
 <br><br>

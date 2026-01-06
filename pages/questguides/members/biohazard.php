@@ -14,7 +14,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 </ul>
 <h3>Items & Skills Needed:</h3>
 <ul style="list-style-type: none;">
-<li><div data-progress><canvas itemname="coins_5" icon-size="25"></canvas>&nbsp;&nbsp;12 coins</div><br></li>
+<li><div data-progress><canvas itemname="coins_5" icon-size="25" show-label="inline" name-replace="12 coins"></canvas></div><br></li>
 <li><div data-progress><canvas itemname="priest_gown" icon-size="25" show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas itemname="priest_robe" icon-size="25" show-label="inline"></canvas></div><br></li>
 </ul>

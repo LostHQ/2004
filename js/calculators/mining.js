@@ -31,7 +31,7 @@ function runCalc() {
         if (item == "gemrock") {
             row.innerHTML =
                 `<td>${data.level}</td>
-                <td><div class="item-label" style="color: white; display: flex; align-items: center; justify-content: center; gap: 6px;"><canvas itemname="uncut_red_topaz"></canvas> Gem Rock</div></td>
+                <td><canvas itemname="uncut_red_topaz" show-label="inline" name-replace="Gem Rock"></canvas></td>
                 <td>${data.xp}</td>
                 <td>${oreCount.toLocaleString()}</td>`;
         } else {

@@ -8,9 +8,9 @@ Description: Veronica is very worried. Her fiancee went into the big spooky mano
 <b>Length: <font color="Yellow">Medium</font></b><br>
 <h3>Items & Skills Needed:</h3>
 <ul style="list-style-type: none;">
-<li><div data-progress><canvas itemname="spade" icon-size="25"></canvas>&nbsp;&nbsp;Spade (can be obtained during the quest)</div><br></li>
-<li><div data-progress><canvas itemname="fish_food" icon-size="25"></canvas>&nbsp;&nbsp;Fish food (can be obtained during the quest)</div><br></li>
-<li><div data-progress><canvas itemname="poison" icon-size="25"></canvas>&nbsp;&nbsp;Poison (can be obtained during the quest)</div><br></li>
+<li><div data-progress><canvas itemname="spade" icon-size="25" show-label="inline" name-append=" (can be obtained during the quest)"></canvas></div></li>
+<li><div data-progress><canvas itemname="fish_food" icon-size="25" show-label="inline" name-append=" (can be obtained during the quest)"></canvas></div></li>
+<li><div data-progress><canvas itemname="poison" icon-size="25" show-label="inline" name-append=" (can be obtained during the quest)"></canvas></div></li>
 </ul>
 <b>Starting Location:</b> South of Draynor Manor
 <br><br>
