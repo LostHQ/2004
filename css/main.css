@@ -122,17 +122,17 @@ A.pink:hover {
 
 @font-face {
     font-family: RSBold12;
-    src: url('../assets/RuneScape-Bold-12.otf');
+    src: url('/assets/RuneScape-Bold-12.otf');
 }
 
 @font-face {
     font-family: RSPlain12;
-    src: url('../assets/RuneScape-Plain-12.otf');
+    src: url('/assets/RuneScape-Plain-12.otf');
 }
 
 @font-face {
     font-family: RSQuill8;
-    src: url('../assets/RuneScape-Quill-8.otf');
+    src: url('/assets/RuneScape-Quill-8.otf');
 }
 
 .rsbold12 { font-family: RSBold12; }
@@ -620,4 +620,43 @@ A.pink:hover {
     max-width: 100px;
     display: block;
     margin: 0 auto;
+}
+img.narrowscroll-top {
+    position: relative;
+    top: 25px;
+    padding: 0;
+    margin: 0;
+    z-index: 100;
+    display: block;
+    width: 466px;
+    height: 50px;
+    left: 8px;
+}
+img.narrowscroll-bottom {
+    position: relative;
+    top: -25px;
+    padding: 0;
+    margin: 0;
+    display: block;
+    width: 466px;
+    height: 50px;
+    left: 8px;
+}
+.narrowscroll-bg {
+    width: 447px;
+    background-color: #C2AB79;
+    margin-left:20px;
+}
+.narrowscroll-bgimg {
+    width: 457px;
+    position: relative;
+    margin: 0 -5px;
+    background-image: url(/img/scroll/scroll457t.gif);
+    background-repeat: repeat-y;
+}
+.narrowscroll-content {
+    padding: 25px 10px;
+    color: #2c2c2c !important;
+    position: relative;
+    margin: 0 5px;
 }

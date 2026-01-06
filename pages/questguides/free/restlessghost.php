@@ -1,26 +1,27 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>$questName</h2>
-<b>Description:</b> A ghost is haunting Lumbridge graveyard. The priest of the Lumbridge church of Saradomin wants you to find out how to get rid of it.
-<br><br>
-<b>Difficulty: <font color="Green">Novice</font></b>
-<br><br>
-<b>Length: <font color="Yellow">Medium</font></b>
-<br>
-<h3>Items & Skills Needed:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress>None</div></li>
-</ul>
-<h3>Recommended:</h3>
-<ul style="list-style-type: none;">
-<li><div data-progress>The ability to kill or run away from a level 13 skeleton</div></li>
-<li><div data-progress><canvas itemname="lawrune" icon-size="25" show-label="inline" name-replace="Runes for 2x Teleport to Lumbridge"></canvas></div></li>
-</ul>
-<b>Starting Location:</b> Lumbridge Chapel
-<br><br>
-<b>Reward:</b> 1 Quest point, 1,125 Prayer XP
-<br><br>
-<hr>
+<div id="narrowscroll">
+    <h2>$questName</h2>
+    <b>Description:</b> A ghost is haunting Lumbridge graveyard. The priest of the Lumbridge church of Saradomin wants you to find out how to get rid of it.
+    <br><br>
+    <b>Difficulty: <font color="Green">Novice</font></b>
+    <br><br>
+    <b>Length: <font color="Yellow">Medium</font></b>
+    <br>
+    <h3>Items & Skills Needed:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress>None</div></li>
+    </ul>
+    <h3>Recommended:</h3>
+    <ul style="list-style-type: none;">
+    <li><div data-progress>The ability to kill or run away from a level 13 skeleton</div></li>
+    <li><div data-progress><canvas itemname="lawrune" icon-size="25" show-label="inline" name-replace="Runes for 2x Teleport to Lumbridge"></canvas></div></li>
+    </ul>
+    <b>Starting Location:</b> Lumbridge Chapel
+    <br><br>
+    <b>Reward:</b> 1 Quest point, 1,125 Prayer XP
+    <br><br>
+</div>
 <h3>Instructions:</h3>
 <br>
 <div data-progress>Talk to Father Aerick and he'll inform you of the situation. He wants you to visit Father Urhney, who is meditating in the swamps (how boring would that be?), and ask him how to get rid of the ghost.</div>
