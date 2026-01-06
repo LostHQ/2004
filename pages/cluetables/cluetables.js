@@ -4,13 +4,27 @@ let listenersInitialized = false;
 
 async function fetchClueTables() {
     if (dropTablesCache) return dropTablesCache;
+
+    async function fetchJson(path) {
+        const resp = await fetch(path);
+        if (!resp.ok) throw new Error(`Failed to fetch ${path}: ${resp.status}`);
+        return resp.json();
+    }
+
     try {
-        const resp = await fetch("pages/api/getcluetables.php");
-        dropTablesCache = await resp.json();
+        const [easy, medium, hard] = await Promise.all([
+            fetchJson('/pages/cluetables/easy.json'),
+            fetchJson('/pages/cluetables/medium.json'),
+            fetchJson('/pages/cluetables/hard.json'),
+        ]);
+
+        const tag = (arr, difficulty) => (arr || []).map((r) => ({ ...r, difficulty }));
+        dropTablesCache = [].concat(tag(easy, 'easy'), tag(medium, 'medium'), tag(hard, 'hard'));
     } catch (err) {
-        console.error("Error fetching clue tables:", err);
+        console.error('Error fetching clue tables:', err);
         dropTablesCache = [];
     }
+
     return dropTablesCache;
 }
 
@@ -47,10 +61,8 @@ async function loadDropTables() {
         wrapper.style.flexDirection = "column";
 
         const canvas = document.createElement("canvas");
-        canvas.width = 36;
-        canvas.height = 36;
-        canvas.dataset.itemname = name;
-        canvas.dataset.showLabel = "true";
+        canvas.setAttribute("itemname", name);
+        canvas.setAttribute("show-label", "inline");
         wrapper.appendChild(canvas);
         imgTd.appendChild(wrapper);
 
@@ -71,29 +83,26 @@ async function loadDropTables() {
         const tbody = document.querySelector(`.${drop.difficulty}Table tbody`);
         tbody.appendChild(row);
     });
-
-    document.querySelectorAll("canvas[itemname]").forEach((canvas) => {
-        renderSpriteToCanvas(canvas.dataset.itemname, canvas);
-    });
 }
 
-async function waitForSpriteLoaderAndLoad() {
-    while (!window.spriteLoaderReady) {
-        await new Promise((r) => setTimeout(r, 50));
-    }
-    loadDropTables();
-}
-
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", async () => {
     if (listenersInitialized) return;
     const searchInput = document.getElementById("searchInput");
     searchInput.disabled = false;
-    searchInput.addEventListener("input", loadDropTables);
+
+    searchInput.addEventListener("input", async () => {
+        await loadDropTables();
+        await window.safeRenderAllSprites();
+    });
 
     document.querySelectorAll('input[name="clueTier"]').forEach((radio) => {
-        radio.addEventListener("change", loadDropTables);
+        radio.addEventListener("change", async () => {
+            await loadDropTables();
+            await window.safeRenderAllSprites();
+        });
     });
 
     listenersInitialized = true;
-    waitForSpriteLoaderAndLoad();
+    await loadDropTables();
+    await window.safeRenderAllSprites();
 });
