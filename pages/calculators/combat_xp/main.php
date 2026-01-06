@@ -15,10 +15,10 @@ function getCalcContent() { return <<<HTML
         <div id="searchResults" style="width:400px;"></div>
     </div>
     <div class="input-group">
-        <label>Hitpoints of Monster:</label>
-        <input type="number" id="monsterHP" min="1" value="1">
-        <label>Number of Monsters:</label>
-        <input type="number" id="numMonsters" min="1" value="1">
+        <label>NPC HP:</label>
+        <input type="number" id="npcHP" min="1" value="1">
+        <label>Number of NPCs:</label>
+        <input type="number" id="numNpcs" min="1" value="1">
     </div>
     <div class="input-group">
         <label>Current Attack XP:</label>
@@ -51,15 +51,14 @@ function getCalcContent() { return <<<HTML
 
         <label>Bury Every Bone?</label>
         <select id="buryBones">
+            <option value="yes" selected>Yes</option>
             <option value="no">No</option>
-            <option value="yes">Yes</option>
         </select>
     </div>
     <div class="input-group justify-center">
         <button onclick="runCalc()">Calculate!</button>
     </div>
     <hr>
-    <h2>Updated XP:</h2>
-    <p id="newXP" class="gold-text"></p>
+    <div id="output"></div>
 </div>
 HTML.getJS('js/calculators/combat_xp.js'); }
