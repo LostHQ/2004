@@ -10,15 +10,15 @@ function getQuestGuide($questName) { return <<<HTML
 <ul style="list-style-type: none;">
 <li><div data-progress>60 Magic</div></li>
 <li><div data-progress>Runes to fight Kolodion</div></li>
-<li><div data-progress>Something to cut webs (knife, slash weapon, or any Wilderness sword)</div></li>
+<li><div data-progress><canvas itemname="knife" icon-size="25" show-label="inline" name-replace="Something to cut webs (knife/slash weapon)"></canvas></div></li>
 </ul>
 <h3>Recommended:</h3>
 <ul style="list-style-type: none;">
-<li><div data-progress><canvas itemname="lobster" icon-size="25"></canvas>&nbsp;&nbsp;15 Lobsters</div><br></li>
-<li><div data-progress><canvas itemname="wizards_robe" icon-size="25"></canvas>&nbsp;&nbsp;Mage boosting armour</div><br></li>
-<li><div data-progress><canvas itemname="staff_of_air" icon-size="25"></canvas>&nbsp;&nbsp;Staff of air, Air battlestaff, or Mystic air staff</div><br></li>
-<li><div data-progress><canvas itemname="deathrune" icon-size="25"></canvas>&nbsp;&nbsp;~100 Death Runes</div><br></li>
-<li><div data-progress><canvas itemname="4doseprayerrestore" icon-size="25" show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas itemname="lobster" icon-size="25" show-label="inline" name-replace="15 Lobsters"></canvas></div></li>
+<li><div data-progress><canvas itemname="wizards_robe" icon-size="25" show-label="inline" name-replace="Mage boosting armour"></canvas></div></li>
+<li><div data-progress><canvas itemname="staff_of_air" icon-size="25" show-label="inline" name-replace="Staff of air, Air battlestaff, or Mystic air staff"></canvas></div></li>
+<li><div data-progress><canvas itemname="deathrune" icon-size="25" show-label="inline" name-replace="~100 Death Runes"></canvas></div></li>
+<li><div data-progress><canvas itemname="4doseprayerrestore" icon-size="25" show-label="inline"></canvas></div></li>
 <li><div data-progress>55 Combat level</div></li>
 </ul>
 <b>Starting Location:</b> Mage Arena (West of the Member Wilderness Gate in Level 55 Wilderness)
