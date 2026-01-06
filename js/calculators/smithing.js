@@ -5,7 +5,7 @@ function setMode(selectedMode) {
     runCalc();
 }
 const smithingXP = {
-    bronze: {
+    bronze_bar: {
         bronze_dagger: { bars: 1, xp: 12.5, level: 1 },
         bronze_axe: { bars: 1, xp: 12.5, level: 1 },
         bronze_mace: { bars: 1, xp: 12.5, level: 2 },
@@ -29,7 +29,7 @@ const smithingXP = {
         bronze_plateskirt: { bars: 3, xp: 37.5, level: 16 },
         bronze_platebody: { bars: 5, xp: 62.5, level: 18 },
     },
-    iron: {
+    iron_bar: {
         iron_dagger: { bars: 1, xp: 25, level: 15 },
         iron_axe: { bars: 1, xp: 25, level: 16 },
         iron_mace: { bars: 1, xp: 25, level: 17 },
@@ -52,7 +52,7 @@ const smithingXP = {
         iron_plateskirt: { bars: 3, xp: 75, level: 31 },
         iron_platebody: { bars: 5, xp: 125, level: 33 },
     },
-    steel: {
+    steel_bar: {
         steel_dagger: { bars: 1, xp: 37.5, level: 30 },
         steel_axe: { bars: 1, xp: 37.5, level: 31 },
         steel_mace: { bars: 1, xp: 37.5, level: 32 },
@@ -78,7 +78,7 @@ const smithingXP = {
         steel_plateskirt: { bars: 3, xp: 112.5, level: 46 },
         steel_platebody: { bars: 5, xp: 187.5, level: 48 },
     },
-    mithril: {
+    mithril_bar: {
         mithril_dagger: { bars: 1, xp: 50, level: 50 },
         mithril_axe: { bars: 1, xp: 50, level: 51 },
         mithril_mace: { bars: 1, xp: 50, level: 52 },
@@ -101,7 +101,7 @@ const smithingXP = {
         mithril_plateskirt: { bars: 3, xp: 150, level: 66 },
         mithril_platebody: { bars: 5, xp: 250, level: 68 },
     },
-    adamant: {
+    adamantite_bar: {
         adamant_dagger: { bars: 1, xp: 62.5, level: 70 },
         adamant_axe: { bars: 1, xp: 62.5, level: 71 },
         adamant_mace: { bars: 1, xp: 62.5, level: 72 },
@@ -124,7 +124,7 @@ const smithingXP = {
         adamant_plateskirt: { bars: 3, xp: 187.5, level: 86 },
         adamant_platebody: { bars: 5, xp: 312.5, level: 88 },
     },
-    rune: {
+    runite_bar: {
         rune_dagger: { bars: 1, xp: 75, level: 85 },
         rune_axe: { bars: 1, xp: 75, level: 86 },
         rune_mace: { bars: 1, xp: 75, level: 87 },
@@ -150,15 +150,50 @@ const smithingXP = {
 };
 
 const smeltingXP = {
-    bronze_bar: { xp: 6.2, level: 1 },
-    iron_bar: { xp: 12.5, level: 15 },
-    silver_bar: { xp: 13.7, level: 20 },
-    steel_bar: { xp: 17.5, level: 30 },
-    gold_bar: { xp: 22.5, level: 40 },
-    goldsmithgauntlets: { xp: 56.2, level: 40 }, //not a debugname
-    mithril_bar: { xp: 30, level: 50 },
-    adamantite_bar: { xp: 37.5, level: 70 },
-    runite_bar: { xp: 50, level: 85 },
+    bronze_bar: {
+        xp: 6.2, level: 1,
+        ingredients: { copper_ore: 1, tin_ore: 1 }
+    },
+    iron_bar: {
+        xp: 12.5, level: 15,
+        ingredients: { iron_ore: 2 }
+    },
+    iron_bar_forging: {//not a debugname
+        xp: 12.5, level: 15,
+        ingredients: { iron_ore: 1 }
+    }, 
+    elemental_workshop_bar: {
+        xp: 8, level: 20,
+        ingredients: { elemental_workshop_ore: 1, coal: 4 }
+    },
+    silver_bar: {
+        xp: 13.7, level: 20,
+        ingredients: { silver_ore: 1 }
+    },
+    steel_bar: {
+        xp: 17.5, level: 30,
+        ingredients: { iron_ore: 1, coal: 2 }
+    },
+    gold_bar: {
+        xp: 22.5, level: 40,
+        ingredients: { gold_ore: 1 }
+    },
+    gold_smithgauntlets: {//not a debugname
+        xp: 56.2, level: 40,
+        ingredients: { gold_ore: 1 }
+    },
+    mithril_bar: {
+        xp: 30, level: 50,
+        ingredients: { mithril_ore: 1, coal: 4 }
+    },
+    adamantite_bar: {
+        xp: 37.5, level: 70,
+        ingredients: { adamantite_ore: 1, coal: 6 }
+    },
+    runite_bar: {
+        xp: 50, level: 85,
+        ingredients: { runite_ore: 1, coal: 8 }
+    },
 };
 
 function runCalc() {
@@ -173,78 +208,82 @@ function runCalc() {
     updateProgressBar(currentXP, targetXP);
 
     const tableElem = document.querySelector("#resultsTable");
-    const tableBody = tableElem.querySelector("tbody");
-    const tableHead = tableElem.querySelector("thead");
-    tableHead.innerHTML = "";
+    tableElem.innerHTML = "";
+    const tableBody = document.createElement("tbody");
+    const tableHead = document.createElement("thead");
     const headerRow = document.createElement("tr");
-
-    if (mode === "smelting") {
-        headerRow.innerHTML = `<th>Level</th><th>Item</th><th>XP per Smelt</th><th>Total Bars</th>`;
-    } else {
-        headerRow.innerHTML = `<th>Level</th><th>Item</th><th>Bars Needed</th><th>Total Items</th>`;
-    }
-
-    tableHead.appendChild(headerRow);
-
-    tableBody.innerHTML = "";
+    const barXPvalue = smeltingXP[selectedMetal].xp;
 
     switch (mode) {
         default:
         case "smelting":
+            headerRow.innerHTML = `<th>Level</th><th>Action</th><th>XP Each</th><th>Bars Needed</th><th>Total Materials</th>`;
+            tableHead.appendChild(headerRow);
             for (const [item, data] of Object.entries(smeltingData)) {
                 const amountNeeded = Math.ceil(xpNeeded / data.xp);
                 const row = document.createElement("tr");
+
                 let iteminfo = `"${item}"`;
-                if (item == "goldsmithgauntlets") {
-                    iteminfo = `"gold_bar" name-append="(Goldsmith Gauntlets)"`;
+                switch (item) {
+                    case "iron_bar_forging":
+                        iteminfo = `"iron_bar" name-append=" (Ring of Forging/Superheat)"`; break;
+                    case "gold_smithgauntlets":
+                        iteminfo = `"gold_bar" name-append=" (Gauntlets)"`; break;
+                    default: break;
                 }
-                row.innerHTML =
-                    `<td>${data.level}</td>
-                    <td><canvas itemname=${iteminfo} show-label="inline"></canvas></td>
-                    <td>${data.xp}</td>
-                    <td>${amountNeeded.toLocaleString()}</td>`;
+
+                let ingredientsList = "";
+                for (const [ingredient, qty] of Object.entries(data.ingredients)) {
+                    ingredientsList += `<canvas itemname="${ingredient}" show-label="inline" name-append=" x ${(qty*amountNeeded).toLocaleString()}"></canvas>`;
+                }
+
+                row.innerHTML = `<td>${data.level}</td>
+                                <td><canvas itemname=${iteminfo} show-label="true"></canvas></td>
+                                <td>${data.xp}</td>
+                                <td>${amountNeeded.toLocaleString()}</td>
+                                <td>${ingredientsList}</td>`;
+                    
                 tableBody.appendChild(row);
             }
             break;
         case "smithing":
+            headerRow.innerHTML = `<th>Level</th><th>Action</th><th>XP Each</th><th>Bars Each</th><th>Total Materials</th>`;
+            tableHead.appendChild(headerRow);
+
             for (const [item, data] of Object.entries(smithingData)) {
                 const amountNeeded = Math.ceil(xpNeeded / data.xp);
                 const row = document.createElement("tr");
-                row.innerHTML =
-                    `<td>${data.level}</td>
-                    <td><canvas itemname="${item}" show-label="inline"></canvas></td>
-                    <td>${data.bars}</td>
-                    <td>${amountNeeded.toLocaleString()}</td>`;
+                row.innerHTML = `<td>${data.level}</td>
+                                <td><canvas itemname="${item}" show-label="true"></canvas></td>
+                                <td>${data.xp}</td>
+                                <td>${data.bars}</td>
+                                <td><canvas itemname="${selectedMetal}" show-label="true" name-append=" x ${amountNeeded.toLocaleString()}"></canvas></td>`;
                 tableBody.appendChild(row);
             }
             break;
         case "smelting_smithing":
+            headerRow.innerHTML = `<th>Level</th><th>Action</th><th>XP Each</th><th>Bars Each</th><th>Total Materials</th>`;
+            tableHead.appendChild(headerRow);
+
             for (const [item, data] of Object.entries(smithingData)) {
-                let barXPvalue = smeltingXP["bronze_bar"].xp;
-                switch (selectedMetal) {
-                    default: case "bronze": break;
-                    case "iron":
-                        barXPvalue = smeltingXP["iron_bar"].xp; break;
-                    case "steel":
-                        barXPvalue = smeltingXP["steel_bar"].xp; break;
-                    case "mithril":
-                        barXPvalue = smeltingXP["mithril_bar"].xp; break;
-                    case "adamant":
-                        barXPvalue = smeltingXP["adamantite_bar"].xp; break;
-                    case "rune":
-                        barXPvalue = smeltingXP["runite_bar"].xp; break;
-                }
+
                 const amountNeeded = Math.ceil(xpNeeded / (data.xp + data.bars * barXPvalue));
                 const row = document.createElement("tr");
-                row.innerHTML =
-                    `<td>${data.level}</td>
-                    <td><canvas itemname="${item}" show-label="inline"></canvas></td>
-                    <td>${data.bars}</td>
-                    <td>${amountNeeded.toLocaleString()}</td>`;
+
+                let ingredientsList = "";
+                for (const [ingredient, qty] of Object.entries(smeltingData[selectedMetal].ingredients)) {
+                    ingredientsList += `<canvas itemname="${ingredient}" show-label="inline" name-append=" x ${(qty*amountNeeded).toLocaleString()}"></canvas>`;
+                }
+                row.innerHTML = `<td>${data.level}</td>
+                                <td><canvas itemname="${item}" show-label="true"></canvas></td>
+                                <td>${data.xp}</td>
+                                <td>${data.bars}</td>
+                                <td>${ingredientsList}</td>`;
                 tableBody.appendChild(row);
             }
             break;
     }
-
+    tableElem.appendChild(tableHead);
+    tableElem.appendChild(tableBody);
     window.safeRenderAllSprites();
 }

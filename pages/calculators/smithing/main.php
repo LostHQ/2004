@@ -32,25 +32,14 @@ function getCalcContent() { return <<<HTML
     <div class="input-group justify-center" id="metalSelection" style="display: none;">
         <label for="metalType">Select Metal:</label>
         <select id="metalType" onchange="runCalc()">
-            <option value="bronze">Bronze</option>
-            <option value="iron">Iron</option>
-            <option value="steel">Steel</option>
-            <option value="mithril">Mithril</option>
-            <option value="adamant">Adamant</option>
-            <option value="rune">Rune</option>
+            <option value="bronze_bar">Bronze</option>
+            <option value="iron_bar">Iron</option>
+            <option value="steel_bar">Steel</option>
+            <option value="mithril_bar">Mithril</option>
+            <option value="adamantite_bar">Adamant</option>
+            <option value="runite_bar">Rune</option>
         </select>
     </div>
-    
-    <table id="resultsTable" class="table">
-        <thead>
-            <tr>
-                <th>Level</th>
-                <th>Item</th>
-                <th>XP per Smelt</th>
-                <th>Total Bars</th>
-            </tr>
-        </thead>
-        <tbody></tbody>
-    </table>
+    <table id="resultsTable" class="table" style="width: 100%;"></table>
 </div>
 HTML.getJS('js/calculators/smithing.js'); }
