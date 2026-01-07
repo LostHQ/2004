@@ -239,7 +239,7 @@ function runCalc() {
 
                 row.innerHTML = `<td>${data.level}</td>
                                 <td><canvas itemname=${iteminfo} amount="${amountNeeded}" show-label="true"></canvas></td>
-                                <td>${amountNeeded.toLocaleString()}</td>
+                                <td>${data.xp}</td>
                                 <td>${ingredientsList}</td>`;
                     
                 tableBody.appendChild(row);
