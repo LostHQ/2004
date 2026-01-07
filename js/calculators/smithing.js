@@ -217,7 +217,7 @@ function runCalc() {
     switch (mode) {
         default:
         case "smelting":
-            headerRow.innerHTML = `<th>Level</th><th>Action</th><th>XP Each</th><th>Bars Needed</th><th>Total Materials</th>`;
+            headerRow.innerHTML = `<th>Level</th><th>Actions</th><th>XP Each</th><th>Total Materials</th>`;
             tableHead.appendChild(headerRow);
             for (const [item, data] of Object.entries(smeltingData)) {
                 const amountNeeded = Math.ceil(xpNeeded / data.xp);
@@ -234,12 +234,11 @@ function runCalc() {
 
                 let ingredientsList = "";
                 for (const [ingredient, qty] of Object.entries(data.ingredients)) {
-                    ingredientsList += `<canvas itemname="${ingredient}" show-label="inline" name-append=" x ${(qty*amountNeeded).toLocaleString()}"></canvas>`;
+                    ingredientsList += `<canvas itemname="${ingredient}" show-label="inline" amount="${qty*amountNeeded}"></canvas>`;
                 }
 
                 row.innerHTML = `<td>${data.level}</td>
-                                <td><canvas itemname=${iteminfo} show-label="true"></canvas></td>
-                                <td>${data.xp}</td>
+                                <td><canvas itemname=${iteminfo} amount="${amountNeeded}" show-label="true"></canvas></td>
                                 <td>${amountNeeded.toLocaleString()}</td>
                                 <td>${ingredientsList}</td>`;
                     
@@ -247,22 +246,22 @@ function runCalc() {
             }
             break;
         case "smithing":
-            headerRow.innerHTML = `<th>Level</th><th>Action</th><th>XP Each</th><th>Bars Each</th><th>Total Materials</th>`;
+            headerRow.innerHTML = `<th>Level</th><th>Actions</th><th>XP Each</th><th>Bars Each</th><th>Total Materials</th>`;
             tableHead.appendChild(headerRow);
 
             for (const [item, data] of Object.entries(smithingData)) {
                 const amountNeeded = Math.ceil(xpNeeded / data.xp);
                 const row = document.createElement("tr");
                 row.innerHTML = `<td>${data.level}</td>
-                                <td><canvas itemname="${item}" show-label="true"></canvas></td>
+                                <td><canvas itemname="${item}" show-label="true" amount="${amountNeeded}"></canvas></td>
                                 <td>${data.xp}</td>
                                 <td>${data.bars}</td>
-                                <td><canvas itemname="${selectedMetal}" show-label="true" name-append=" x ${amountNeeded.toLocaleString()}"></canvas></td>`;
+                                <td><canvas itemname="${selectedMetal}" show-label="inline" amount="${amountNeeded}"></canvas></td>`;
                 tableBody.appendChild(row);
             }
             break;
         case "smelting_smithing":
-            headerRow.innerHTML = `<th>Level</th><th>Action</th><th>XP Each</th><th>Bars Each</th><th>Total Materials</th>`;
+            headerRow.innerHTML = `<th>Level</th><th>Actions</th><th>XP Each</th><th>Bars Each</th><th>Total Materials</th>`;
             tableHead.appendChild(headerRow);
 
             for (const [item, data] of Object.entries(smithingData)) {
@@ -272,10 +271,10 @@ function runCalc() {
 
                 let ingredientsList = "";
                 for (const [ingredient, qty] of Object.entries(smeltingData[selectedMetal].ingredients)) {
-                    ingredientsList += `<canvas itemname="${ingredient}" show-label="inline" name-append=" x ${(qty*amountNeeded).toLocaleString()}"></canvas>`;
+                    ingredientsList += `<canvas itemname="${ingredient}" show-label="inline" amount="${(qty*amountNeeded*data.bars)}"></canvas>`;
                 }
                 row.innerHTML = `<td>${data.level}</td>
-                                <td><canvas itemname="${item}" show-label="true"></canvas></td>
+                                <td><canvas itemname="${item}" show-label="true" amount="${amountNeeded}"></canvas></td>
                                 <td>${data.xp}</td>
                                 <td>${data.bars}</td>
                                 <td>${ingredientsList}</td>`;

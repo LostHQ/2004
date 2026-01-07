@@ -220,6 +220,7 @@ function renderSpriteToCanvas(debugname, canvas) {
     const nameReplace = canvas.getAttribute("name-replace");
     const showLabel = canvas.getAttribute("show-label");
     const amount = parseInt(canvas.getAttribute("amount"), 10);
+    let qty = isNaN(amount) ? 1 : amount;
 
     const isCert = debugname.startsWith("cert_");
     const baseName = isCert ? debugname.replace(/^cert_/, "") : debugname;
@@ -232,12 +233,12 @@ function renderSpriteToCanvas(debugname, canvas) {
     }
 
     if (baseItem) {
-        name = isCert ? `${baseItem.name} (Noted)` : baseItem.name;
+        name = baseItem.name;
         desc = baseItem.desc;
         cost = baseItem.cost || 0;
     }
 
-    const imageId = getStackableSpriteId(id, amount);
+    const imageId = getStackableSpriteId(id, qty);
 
     const col = imageId % spritesPerRow;
     const row = Math.floor(imageId / spritesPerRow);
@@ -249,14 +250,21 @@ function renderSpriteToCanvas(debugname, canvas) {
     ctx.clearRect(0, 0, size, size);
     ctx.drawImage(spritesheet, col * spriteSize, row * spriteSize, spriteSize, spriteSize, 0, 0, size, size);
 
-    if ((id in stackableSpriteOverrides || debugname.startsWith('cert_')) || amount > 1) {
-        drawP11(ctx, formatQuantity(amount), (size / spriteSize), (size / spriteSize), '#FFFF00');
+    if ((id in stackableSpriteOverrides || debugname.startsWith('cert_')) || qty > 1) {
+        drawP11(ctx, formatQuantity(qty), (size / spriteSize), (size / spriteSize), '#FFFF00');
     }
 
-    let tooltip = `${name} - ${desc}`;
+    let tooltip = `${isCert ? `${name} (Noted)` : name} - ${desc}`;
+
     if (cost > 0) {
         const highAlch = Math.floor(cost * 0.6);
-        tooltip += `\nHigh Alch: ${highAlch.toLocaleString()} coins`;
+        const totalHighAlch = highAlch * qty;
+        if (qty > 1) {
+            tooltip = `${qty.toLocaleString()} x ${tooltip}`;
+            tooltip += `\nHigh Alch: ${totalHighAlch.toLocaleString()} coins (total), ${highAlch.toLocaleString()} coins (each)`;
+        } else {
+            tooltip += `\nHigh Alch: ${highAlch.toLocaleString()} coins`;
+        }
     }
 
     canvas.title = tooltip;
