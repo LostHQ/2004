@@ -136,10 +136,10 @@ function renderDrops(npcData, searchTerm = "") {
                 html: `<tr${isMatch ? ' style="background:rgba(85, 62, 5, 0.62);"' : ""}>
                  <td>
                    <div style="display: flex; align-items: center; justify-content: center; gap: 5px;">
-                     <canvas itemname="${itemName}" show-label="inline"></canvas>${noteHtml}
+                     <canvas itemname="${itemName}" amount="${amount}" show-label="inline"></canvas>${noteHtml}
                    </div>
                  </td>
-                 <td colspan="2">${formatAmount(amount)}</td>
+                 <td colspan="2">${amount.toLocaleString()}</td>
                </tr>`,
                 match: isMatch,
             });
@@ -156,10 +156,10 @@ function renderDrops(npcData, searchTerm = "") {
                 html: `<tr${isMatch ? ' style="background:rgba(85, 62, 5, 0.62);"' : ""}>
                  <td>
                    <div style="display: flex; align-items: center; justify-content: center; gap: 5px;">
-                     <canvas itemname="${itemName}" show-label="inline"></canvas>${noteHtml}
+                     <canvas itemname="${itemName}" amount="${amount}" show-label="inline"></canvas>${noteHtml}
                    </div>
                  </td>
-                 <td colspan="2">${formatAmount(amount)}</td>
+                 <td colspan="2">${amount.toLocaleString()}</td>
                </tr>`,
                 match: isMatch,
             });
@@ -198,10 +198,10 @@ function renderDrops(npcData, searchTerm = "") {
                             html: `<tr${isMatch ? ' style="background: rgba(85, 62, 5, 0.62);"' : ""}>
                                     <td>
                                         <div style="display: flex; align-items: center; justify-content: center; gap: 5px;">
-                                            <canvas itemname="${itemName}" show-label="inline"></canvas>${noteHtml}
+                                            <canvas itemname="${itemName}" amount="${amount}" show-label="inline"></canvas>${noteHtml}
                                         </div>
                                     </td>
-                                    <td>${formatAmount(amount)}</td>
+                                    <td>${amount.toLocaleString()}</td>
                                     ${chanceCell}
                                 </tr>`,
                             match: isMatch,
@@ -218,9 +218,8 @@ function renderDrops(npcData, searchTerm = "") {
                 const sharedTable = sharedDropTables[sharedTableName];
                 if (sharedTable) {
                     const iconItem = SHARED_TABLE_ICONS[sharedTableName];
-                    const iconHtml = iconItem ? `<canvas itemname="${iconItem}" show-label="none"></canvas>` : "";
+                    const iconHtml = iconItem ? `<canvas itemname="${iconItem}" amount="${amount}"></canvas>` : "";
                     const noteHtml = roll.note ? ` <span class="note-indicator" title="${roll.note}">[?]</span>` : "";
-
                     rollableRows.push({
                         html: `<tr>
               <td>
@@ -232,7 +231,7 @@ function renderDrops(npcData, searchTerm = "") {
                     ${noteHtml}
                 </div>
               </td>
-              <td>${formatAmount(amount)}</td>
+              <td>${amount.toLocaleString()}</td>
               <td>${calculateChance(roll.chance, rollBase)}</td>
             </tr>`,
                         match: false,
@@ -265,7 +264,7 @@ function renderDrops(npcData, searchTerm = "") {
                                     <canvas itemname="${undergroundItem}" show-label="inline"></canvas>${noteHtml}
                                 </div>
                             </td>
-                            <td>${formatAmount(amount)}</td>
+                            <td>${amount.toLocaleString()}</td>
                             <td>${calculateChance(roll.chance, rollBase)}</td>
                         </tr>`,
                         match: isMatch,
@@ -277,10 +276,10 @@ function renderDrops(npcData, searchTerm = "") {
                         html: `<tr${isMatch ? ' style="background: rgba(85, 62, 5, 0.62);"' : ""}>
                                 <td>
                                     <div style="display: flex; align-items: center; justify-content: center; gap: 5px;">
-                                        <canvas itemname="${itemName}" show-label="inline"></canvas>${noteHtml}
+                                        <canvas itemname="${itemName}" amount="${amount}" show-label="inline"></canvas>${noteHtml}
                                     </div>
                                 </td>
-                                <td>${formatAmount(amount)}</td>
+                                <td>${amount.toLocaleString()}</td>
                                 <td>${calculateChance(roll.chance, rollBase)}</td>
                             </tr>`,
                         match: isMatch,
@@ -383,15 +382,6 @@ function renderDrops(npcData, searchTerm = "") {
     window.safeRenderAllSprites();
 }
 
-function formatAmount(amount) {
-    if (Array.isArray(amount)) {
-        if (amount.length === 2) {
-            return amount[0] + "-" + amount[1];
-        }
-        return amount.join(", ");
-    }
-    return amount;
-}
 
 function formatNumber(num) {
     return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
@@ -645,7 +635,7 @@ function openSharedTableModal(sharedTableName, searchTerm = "", parentChance = n
                 }</span>${noteHtml}
             </div>
           </td>
-          <td>${formatAmount(subAmount)}</td>
+          <td>${subAmount.toLocaleString()}</td>
           <td>${calculateChance(subRoll.chance, rollBase)}</td>
           ${totalChanceHtml}
         </tr>`;
@@ -658,7 +648,7 @@ function openSharedTableModal(sharedTableName, searchTerm = "", parentChance = n
 
                 tableHtml += `<tr>
                         <td>${nestedTableName} (Missing Table)${noteHtml}</td>
-                        <td>${formatAmount(subAmount)}</td>
+                        <td>${subAmount.toLocaleString()}</td>
                         <td>${calculateChance(subRoll.chance, rollBase)}</td>
                         ${totalChanceHtml}
                     </tr>`;
@@ -695,7 +685,7 @@ function openSharedTableModal(sharedTableName, searchTerm = "", parentChance = n
                             <canvas itemname="${undergroundItem}" show-label="inline"></canvas>${noteHtml}
                         </div>
                     </td>
-                    <td>${formatAmount(subAmount)}</td>
+                    <td>${subAmount.toLocaleString()}</td>
                     <td>${calculateChance(subRoll.chance, rollBase)}</td>
                     ${totalChanceHtml}
                 </tr>`;
@@ -710,10 +700,10 @@ function openSharedTableModal(sharedTableName, searchTerm = "", parentChance = n
                 tableHtml += `<tr${isMatch ? ' style="background:rgba(85, 62, 5, 0.62);"' : ""}>
                     <td>
                         <div style="display: flex; align-items: center; justify-content: center; gap: 5px;">
-                            <canvas itemname="${subItem}" show-label="inline"></canvas>${noteHtml}
+                            <canvas itemname="${subItem}" amount="${subAmount}" show-label="inline"></canvas>${noteHtml}
                         </div>
                     </td>
-                    <td>${formatAmount(subAmount)}</td>
+                    <td>${subAmount.toLocaleString()}</td>
                     <td>${calculateChance(subRoll.chance, rollBase)}</td>
                     ${totalChanceHtml}
                 </tr>`;

@@ -33,6 +33,7 @@ if (substr($meta_data['og:image'], 0, 4) == "http") {
     <?php
     echo getCSS('css/main.css');
     echo getJS('js/main.js');
+    echo getJS('js/fonts.js');
     echo getJS('js/site_options.js');
     echo getJS('js/floor_selector.js');
     echo getJS('js/sprite_loader.js');
