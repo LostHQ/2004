@@ -10,7 +10,7 @@ $p = htmlspecialchars($_GET['p'] ?? '');
 
 switch ($p) {
     case 'droptables':
-        include 'pages/npcdb/main.php';
+        header('Location: ?p=npcdb');
         break;
     case 'skillguides':
     case 'cluetables':
