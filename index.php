@@ -9,6 +9,9 @@ include 'config.php';
 $p = htmlspecialchars($_GET['p'] ?? '');
 
 switch ($p) {
+    case 'droptables':
+        include 'pages/npcdb/main.php';
+        break;
     case 'skillguides':
     case 'cluetables':
     case 'clueguides':
