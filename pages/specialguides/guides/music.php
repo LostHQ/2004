@@ -56,7 +56,7 @@ Quick Links<br>
     <tr><td>Attack6</td><td>Ogre City cave where the Ogre Shamans are</td></tr>
     <tr><td>Attention</td><td>East Karamja Dock and North of the Blurite Mine</td></tr>
     <tr><td>Autumn Voyage</td><td>Northeast of Lumbridge by livestock and farms</td></tr>
-    <!-- <tr><td>Aztec</td><td>Brimhaven Agility Arena</td></tr> -->
+    <tr><td>Aztec</td><td>Brimhaven Agility Arena</td></tr>
     <tr>
         <th colspan="2"><span id="b"></span>B</th>
     </tr>
@@ -83,7 +83,7 @@ Quick Links<br>
     <tr><td>Close Quarters</td><td>Red Spider ruins at level 26-29 Wilderness</td></tr>
     <!-- <tr><td>Competition</td><td>Burthorpe Game Room</td></tr> -->
     <!-- <tr><td>Complication</td><td>Chaos Rune Altar</td></tr> -->
-    <!-- <tr><td>Contest</td><td>Death Plateau</td></tr> -->
+    <tr><td>Contest</td><td>Death Plateau</td></tr>
     <!-- <tr><td>Courage</td><td>Start of Taverly Dungeon</td></tr> -->
     <!-- <tr><td>Crystal Castle</td><td>Near Prifddinas Gate</td></tr> -->
     <tr><td>Crystal Cave</td><td>Water Rune Altar</td></tr>
@@ -163,7 +163,7 @@ Quick Links<br>
     <tr><td>Iban</td><td>Past the door in the Underground Pass after the Flames of Zamorak Well</td></tr>
     <tr><td>Ice Melody</td><td>White Wolf Mountain</td></tr>
     <tr><td>In The Manor</td><td>Ogre Island east of the Ogre City</td></tr>
-    <!-- <tr><td>Insect Queen</td><td>Kalphite Tunnels</td></tr> -->
+    <tr><td>Insect Queen</td><td>Kalphite Tunnels</td></tr>
     <tr><td>Inspiritation</td><td>Wilderness North of the Monastary</td></tr>
     <!-- <tr><td>Into the Abyss</td><td>Abyssal Space</td></tr> -->
     <tr><td>Intrepid</td><td>In the cavern in the Underground Pass that is below the Iban temple where the dwarfs are</td></tr>
@@ -179,7 +179,7 @@ Quick Links<br>
     <tr>
         <th colspan="2"><span id="k"></span>K</th>
     </tr>
-    <!-- <tr><td>Kingdom</td><td>On the way to the Death Plateau</td></tr> -->
+    <tr><td>Kingdom</td><td>On the way to the Death Plateau</td></tr>
     <tr><td>Knightly</td><td>Ardougne Courtyard</td></tr>
     <tr>
         <th colspan="2"><span id="l"></span>L</th>
@@ -201,13 +201,13 @@ Quick Links<br>
     <tr>
         <th colspan="2"><span id="m"></span>M</th>
     </tr>
-    <!-- <tr><td>Mad Eadgar</td><td>Mad Eadgar's home, atop Trollheim</td></tr> -->
+    <tr><td>Mad Eadgar</td><td>Mad Eadgar's home, atop Trollheim</td></tr>
     <tr><td>Mage Arena</td><td>Around the Mage Arena and in the bank and worship room</td></tr>
     <tr><td>Magic Dance</td><td>Around Yanille</td></tr>
     <tr><td>Magical Journey</td><td>Around Thormac the Sorcerer's Tower</td></tr>
     <tr><td>March2</td><td>Around King Lathas's Training Area</td></tr>
     <!-- <tr><td>Marooned</td><td>Crash Island before you get to Ape Atoll (Monkey Madness quest)</td></tr> -->
-    <!-- <tr><td>Marzipan</td><td>Around Trollheim</td></tr> -->
+    <tr><td>Marzipan</td><td>Around Trollheim</td></tr>
     <tr><td>Mausoleum</td><td>Temple guardian's place, near the Sarodomin's Shrine (Priest in Peril)</td></tr>
     <tr><td>Medieval</td><td>By the mostly Member's Area of Varrock</td></tr>
     <tr><td>Mellow</td><td>Between Dwarf base and Fishing Guild</td></tr>
@@ -224,7 +224,6 @@ Quick Links<br>
     </tr>
     <!-- <tr><td>Narnode's Theme</td><td>Gnome Mine beneath Grand Tree</td></tr> -->
     <tr><td>Natural</td><td>Outside of the island for Nature spirit quest</td></tr>
-    <!-- <tr><td>The Navigator</td><td>Swensen's Portal Maze in Relleka</td></tr> -->
     <tr><td>Neverland</td><td>Around the entrance to the Gnome Stronghold</td></tr>
     <tr><td>Newbie Melody</td><td>In Lumbridge Castle</td></tr>
     <tr><td>Nightfall</td><td>South of Falador and East Member Wilderness</td></tr>
@@ -241,7 +240,7 @@ Quick Links<br>
     </tr>
     <tr><td>Parade</td><td>By the Jolly Boar Inn</td></tr>
     <!-- <tr><td>Pirates of Peril</td><td>Pirate House in Member's Wilderness</td></tr> -->
-    <!-- <tr><td>Principality</td><td>Burthorpe</td></tr> -->
+    <tr><td>Principality</td><td>Burthorpe</td></tr>
     <tr>
         <th colspan="2"><span id="q"></span>Q</th>
     </tr>
@@ -255,7 +254,7 @@ Quick Links<br>
     <tr><td>Reggae</td><td>Jungle West of Brimhaven and East Kharazi Jungle</td></tr>
     <tr><td>Reggae2</td><td>East Karamja on East side of the river</td></tr>
     <!-- <tr><td>Relleka</td><td>In the Viking town of Relleka</td></tr> -->
-    <!-- <tr><td>Righteousness</td><td>In the Law Rune Altar</td></tr> -->
+    <tr><td>Righteousness</td><td>In the Law Rune Altar</td></tr>
     <tr><td>Riverside</td><td>Mining area east of Ardougne</td></tr>
     <tr><td>Royale</td><td>Black Knight Hideout in Taverly Dungeon</td></tr>
     <tr><td>Rune Essence</td><td>At the Rune Essence</td></tr>
@@ -277,7 +276,7 @@ Quick Links<br>
     <tr><td>Shine</td><td>Duel Arena Hospital and the Wilderness above the Lumber Yard</td></tr>
     <tr><td>Shining</td><td>Bone Yard at level 26-29 wilderness</td></tr>
     <!-- <tr><td>Showdown</td><td>Arena where you fight the Jungle Demon in Monkey Madness Quest</td></tr> -->
-    <!-- <tr><td>Sojourn</td><td>TrollHeim Maze</td></tr> -->
+    <tr><td>Sojourn</td><td>TrollHeim Maze</td></tr>
     <tr><td>Soundscape</td><td>South of Ogre City</td></tr>
     <tr><td>Spirit</td><td>West Varrock</td></tr>
     <tr><td>Splendour</td><td>North of Taverly</td></tr>
@@ -298,18 +297,19 @@ Quick Links<br>
     <!-- <tr><td>Technology</td><td>Gnome Glider Hangar (Monkey Madness quest)</td></tr> -->
     <!-- <tr><td>Temple</td><td>Beneath the Ape Atoll Monkey's Temple</td></tr> -->
     <tr><td>The Desert</td><td>West part of Shantay Pass Desert</td></tr>
+    <!-- <tr><td>The Navigator</td><td>Swensen's Portal Maze in Relleka</td></tr> -->
     <tr><td>The Shadow</td><td>On Crandor Isle</td></tr>
     <tr><td>The Tower</td><td>Chaos Druid Tower</td></tr>
     <tr><td>Theme</td><td>Around the Dwarf base with the Coal Trucks and in Baxtorian Waterfall cave</td></tr>
     <!-- <tr><td>Throne of the Demon</td><td>Golem Quest Portal area.</td></tr> -->
-    <!-- <tr><td>Time Out</td><td>Random Event Maze</td></tr> -->
+    <tr><td>Time Out</td><td>Random Event Maze</td></tr>
     <!-- <tr><td>Time to Mine</td><td>Using the golden cannonball in "Between a rock..."</td></tr> -->
     <!-- <tr><td>Tiptoe</td><td>Draynor Manor basement where Count Draynor's coffin is</td></tr> -->
     <tr><td>Tomorrow</td><td>By the Blurite Mine entrance</td></tr>
     <tr><td>Trawler</td><td>In the Trawler boat</td></tr>
     <tr><td>Trawler Minor</td><td>When you sink on the Trawler</td></tr>
     <tr><td>Tree Spirits</td><td>West of the Gnome Stronghold entrance</td></tr>
-    <!-- <tr><td>Tremble</td><td>Secret way to Death Plateau</td></tr> -->
+    <tr><td>Tremble</td><td>Secret way to Death Plateau</td></tr>
     <tr><td>Tribal Background</td><td>East of Tai Bwo Wannai</td></tr>
     <tr><td>Tribal</td><td>At the Nature Altar ruins</td></tr>
     <tr><td>Tribal2</td><td>East of the Shilo Village Ah-Za-Rhoom Temple Entrance</td></tr>
