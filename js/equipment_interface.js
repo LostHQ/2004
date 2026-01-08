@@ -195,16 +195,15 @@ function loadEquipInterface(targetDiv, allowChange, headItem, capeItem, neckItem
 
         if (itemDebugName) {
             const canvas = document.createElement("canvas");
-            canvas.dataset.itemname = itemDebugName;
-            canvas.dataset.size = "32";
+            canvas.setAttribute("itemname", itemDebugName);
             slot.appendChild(canvas);
 
             if (window.spriteLoaderReady) {
-                renderSpriteToCanvas(itemDebugName, canvas);
+                renderSpriteToCanvas(canvas);
             } else {
                 const checkReady = () => {
                     if (window.spriteLoaderReady) {
-                        renderSpriteToCanvas(itemDebugName, canvas);
+                        renderSpriteToCanvas(canvas);
                     } else {
                         setTimeout(checkReady, 50);
                     }
@@ -307,8 +306,7 @@ function openEquipmentSearch(slotType, slotElement, equipment, container) {
             const canvas = document.createElement("canvas");
             canvas.width = 32;
             canvas.height = 32;
-            canvas.dataset.itemname = item.debugname;
-            canvas.dataset.size = "32";
+            canvas.setAttribute("itemname", item.debugname);
 
             const nameSpan = document.createElement("span");
             nameSpan.textContent = item.name;
@@ -324,7 +322,7 @@ function openEquipmentSearch(slotType, slotElement, equipment, container) {
             };
 
             resultsContainer.appendChild(itemDiv);
-            renderSpriteToCanvas(item.debugname, canvas);
+            renderSpriteToCanvas(canvas);
         });
     };
 
@@ -351,11 +349,10 @@ function updateEquipmentSlot(slotElement, slotType, itemDebugName) {
 
     if (itemDebugName) {
         const canvas = document.createElement("canvas");
-        canvas.dataset.itemname = itemDebugName;
-        canvas.dataset.size = "32";
+        canvas.setAttribute("itemname", itemDebugName);
         slotElement.appendChild(canvas);
 
-        renderSpriteToCanvas(itemDebugName, canvas);
+        renderSpriteToCanvas(canvas);
     } else {
         const placeholder = document.createElement("img");
         const slotNumber = getEquipmentSlotNumber(slotType);

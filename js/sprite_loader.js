@@ -210,17 +210,18 @@ function formatQuantity(quantity) {
     return quantity.toString();
 }
 
-function renderSpriteToCanvas(debugname, canvas) {
+function renderSpriteToCanvas(canvas) {
+    const debugname = canvas.getAttribute("itemname");
+    const amount = parseInt(canvas.getAttribute("amount"), 10);
+    const qty = isNaN(amount) ? 1 : amount;
+    const nameAppend = canvas.getAttribute("name-append");
+    const nameReplace = canvas.getAttribute("name-replace");
+    const showLabel = canvas.getAttribute("show-label");
+    const iconSize = parseInt(canvas.getAttribute("icon-size"), 10) || 32;
     let id = 0;
     let name = "Unknown Item";
     let desc = "Please report this bug.";
     let cost = 0;
-
-    const nameAppend = canvas.getAttribute("name-append");
-    const nameReplace = canvas.getAttribute("name-replace");
-    const showLabel = canvas.getAttribute("show-label");
-    const amount = parseInt(canvas.getAttribute("amount"), 10);
-    let qty = isNaN(amount) ? 1 : amount;
 
     const isCert = debugname.startsWith("cert_");
     const baseName = isCert ? debugname.replace(/^cert_/, "") : debugname;
@@ -242,16 +243,15 @@ function renderSpriteToCanvas(debugname, canvas) {
 
     const col = imageId % spritesPerRow;
     const row = Math.floor(imageId / spritesPerRow);
-    const size = parseInt(canvas.dataset.size) || 32;
 
     const ctx = canvas.getContext("2d");
-    canvas.width = size;
-    canvas.height = size;
-    ctx.clearRect(0, 0, size, size);
-    ctx.drawImage(spritesheet, col * spriteSize, row * spriteSize, spriteSize, spriteSize, 0, 0, size, size);
+    canvas.width = iconSize;
+    canvas.height = iconSize;
+    ctx.clearRect(0, 0, iconSize, iconSize);
+    ctx.drawImage(spritesheet, col * spriteSize, row * spriteSize, spriteSize, spriteSize, 0, 0, iconSize, iconSize);
 
     if ((id in stackableSpriteOverrides || debugname.startsWith('cert_')) || qty > 1) {
-        drawP11(ctx, formatQuantity(qty), (size / spriteSize), (size / spriteSize), '#FFFF00');
+        drawP11(ctx, formatQuantity(qty), (iconSize / spriteSize), (iconSize / spriteSize), '#FFFF00');
     }
 
     let tooltip = `${isCert ? `${name} (Noted)` : name} - ${desc}`;
@@ -301,8 +301,7 @@ function renderSpriteToCanvas(debugname, canvas) {
 
 window.renderAllSprites = function () {
     document.querySelectorAll("canvas[itemname]").forEach((canvas) => {
-        const debugname = canvas.getAttribute("itemname");
-        renderSpriteToCanvas(debugname, canvas);
+        renderSpriteToCanvas(canvas);
     });
 };
 

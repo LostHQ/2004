@@ -16,7 +16,7 @@
     // grab inputs & container
     const search1 = document.getElementById("search1");
     const search2 = document.getElementById("search2");
-    const container = document.getElementById("item-tables-container");
+    const container = document.getElementById("items-container");
 
     // get url params
     const initParams = new URLSearchParams(window.location.search);
@@ -59,13 +59,13 @@
 
         matches.forEach((it) => {
             const li = document.createElement("li");
-            const icon = document.createElement("canvas");
-            icon.width = icon.height = 20;
-            icon.dataset.itemname = it.debugname;
-            icon.dataset.size = 20;
-            icon.dataset.showLabel = "false";
-            li.appendChild(icon);
-            if (typeof renderSpriteToCanvas === "function") renderSpriteToCanvas(it.debugname, icon);
+            const canvas = document.createElement("canvas");
+            canvas.width = canvas.height = 20;
+            canvas.setAttribute("itemname", it.debugname);
+            canvas.setAttribute("icon-size", "20");
+            canvas.setAttribute("show-label", "false");
+            li.appendChild(canvas);
+            if (typeof renderSpriteToCanvas === "function") renderSpriteToCanvas(canvas);
             li.append(` ${it.name} (${it.id})`);
             li.addEventListener("mousedown", () => {
                 e.target.value = `${it.name} (${it.id})`;
@@ -135,14 +135,14 @@
         const canvasIcon = document.createElement("canvas");
         const size = 60;
         canvasIcon.width = canvasIcon.height = size;
-        canvasIcon.dataset.itemname = item.debugname;
-        canvasIcon.dataset.size = size;
-        canvasIcon.dataset.showLabel = "true";
+        canvasIcon.setAttribute("itemname", item.debugname);
+        canvasIcon.setAttribute("icon-size", size.toString());
+        canvasIcon.setAttribute("show-label", "true");
         thIcon.appendChild(canvasIcon);
         if (window.spriteLoaderReady && typeof renderSpriteToCanvas === "function") {
-            renderSpriteToCanvas(item.debugname, canvasIcon);
+            renderSpriteToCanvas(canvasIcon);
         }
-        //if (typeof renderSpriteToCanvas === 'function') renderSpriteToCanvas(item.debugname, canvasIcon);
+
         row.appendChild(thIcon);
         if (item.dummyitem) {
             return table;
