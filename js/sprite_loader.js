@@ -167,6 +167,11 @@ const stackableSpriteOverrides = {
     2864: null,// Ogre arrow shaft (ogre_arrow_shaft)
     2865: null,// Flighted ogre arrow (ogre_headless_arrow)
     2866: [ [2, 2870], [3, 2869], [4, 2868], [5, 2867] ],// Ogre arrow (ogre_arrow)
+    2958: null,// Druid Pouch (druid_pouch)
+    2966: null,// Agility arena ticket (agilityarena_ticket)
+    3062: null,// Strange box (macro_cube)
+    3093: null,// Black dart (black_dart)
+    3094: null,// Black dart(p) (black_dart_p)
 };
 
 function getStackableSpriteId(id, count) {
