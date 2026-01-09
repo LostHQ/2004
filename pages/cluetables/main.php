@@ -9,40 +9,22 @@ function getPageContent() {
     return <<<HTML
 <h2>Clue Tables</h2>
 <p>Please note that the rates listed here are per casket opened, not per roll.</p>
-<hr>
-<table>
-    <tr>
-        <td>
-            <table width="200px" height="70px" cellpadding="4px">
-                <tr>
-                    <td class="b" bgcolor="#474747">
-                        <div class="stone-box">
-                            <b>Select a Clue Tier</b>
-                            <label><input type="radio" name="clueTier" value="easy" checked> Easy</label>
-                            <label><input type="radio" name="clueTier" value="medium"> Medium</label>
-                            <label><input type="radio" name="clueTier" value="hard"> Hard</label>
-                        </div>
-                    </td>
-                </tr>
-            </table>
-        </td>
-        <td>
-            <table width="280px" height="70px" cellpadding="4px">
-                <tr>
-                    <td class="b" bgcolor="#474747">
-                        <div class="stone-box">
-                            <b>Search for an item</b><br>
-                            <input type="text" id="searchInput" placeholder="Search..." autocomplete="off" disabled>
-                            <div id="searchResults" class="search-results"></div>
-                        </div>
-                    </td>
-                </tr>
-            </table>
-        </td>
-    </tr>
-</table>
+<div class="row">
+    <div class="stone-box">
+        <b>Select a Clue Tier</b>
+        <label><input type="radio" name="clueTier" value="easy" checked> Easy</label>
+        <label><input type="radio" name="clueTier" value="medium"> Medium</label>
+        <label><input type="radio" name="clueTier" value="hard"> Hard</label>
+    </div>
+    <div class="stone-box">
+        <b>Search for an item</b><br>
+        <input type="text" id="searchInput" placeholder="Search..." autocomplete="off" disabled>
+        <div id="searchResults" class="search-results"></div>
+    </div>
+</div>
+<br>
 <div class="easyTable">
-    <br><br>
+    <br>
     <table width="100%" class="table">
         <thead>
             <tr>
@@ -59,7 +41,7 @@ function getPageContent() {
     </table>
 </div>
 <div class="mediumTable">
-    <br><br>
+    <br>
     <table width="100%" class="table">
         <thead>
             <tr>
@@ -76,7 +58,7 @@ function getPageContent() {
     </table>
 </div>
 <div class="hardTable">
-    <br><br>
+    <br>
     <table width="100%" class="table">
         <thead>
             <tr>

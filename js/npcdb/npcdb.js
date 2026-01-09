@@ -1,7 +1,6 @@
 let npcData = {};
 let sharedDropTables = {};
 let itemList = {};
-let activeSearchTerm = "";
 
 const SHARED_TABLE_ICONS = {
     randomherb: "unidentified_guam",
@@ -21,58 +20,29 @@ Promise.all([
         map[item.debugname] = item.name;
         return map;
     }, {});
-    populateNPCDropdown();
     loadNPCFromURL();
 });
 
 function getNPCName(debugname) {
-    if (!debugname) { return "Unknown NPC"; }
-
     if (typeof debugname === "object") {
         const npcObj = debugname;
         const name = npcObj.name || npcObj.debugname || "Unknown NPC";
         const vis = npcObj.vislevel || (npcObj.info && npcObj.info.vislevel);
-        return vis ? `${name} (level-${vis})` : name;
+        if (vis == 'hide') return name;
+        return `${name} (level-${vis})`;
     }
 
     const npc = npcData[debugname];
     if (npc && npc.name) {
         const vis = npc.vislevel || (npc.info && npc.info.vislevel);
-        return vis ? `${npc.name} (level-${vis})` : npc.name;
+        if (vis == 'hide') return npc.name;
+        return `${npc.name} (level-${vis})`;
     }
 
     return debugname;
 }
 
-function populateNPCDropdown() {
-    const select = document.getElementById("npcSelect");
-    select.innerHTML = '<option value="">Select NPC...</option>';
 
-    const npcList = [];
-    for (const debugname in npcData) {
-        const npc = npcData[debugname];
-        if (npc.drops) {
-            // TODO: Show non-dropping NPCs in a different view
-            npcList.push({
-                key: debugname,
-                displayName: getNPCName(debugname),
-                hasName: !!npc.name,
-            });
-        }
-    }
-
-    npcList.sort((a, b) => a.displayName.toLowerCase().localeCompare(b.displayName.toLowerCase()));
-    npcList.forEach((npcInfo) => {
-        const option = document.createElement("option");
-        option.value = npcInfo.key;
-        option.textContent = npcInfo.displayName;
-
-        if (!npcInfo.hasName) {
-            option.style.color = "red";
-        }
-        select.appendChild(option);
-    });
-}
 
 function findNPC(npcName) {
     if (npcData[npcName]) {
@@ -101,17 +71,16 @@ function loadNPCFromURL() {
     if (npcFromURL) {
         const npcData = findNPC(npcFromURL);
         if (npcData) {
-            const select = document.getElementById("npcSelect");
-            select.value = npcFromURL;
-            renderDrops(npcData, activeSearchTerm);
-            document.getElementById("itemSearch").value = "";
-            activeSearchTerm = "";
+            const npcSearch = document.getElementById("npcSearch");
+            if (npcSearch) npcSearch.value = getNPCName(npcFromURL);
+            renderDrops(npcData);
         }
     }
 }
 
-function renderDrops(npcData, searchTerm = "") {
-    const container = document.getElementById("dropTableContainer");
+function renderDrops(npcData) {
+    const container = document.getElementById("npc-container");
+    const { drops } = npcData;
     const baseTitle = getNPCName(npcData);
     let html = "<h2>" + baseTitle + "</h2>";
 
@@ -119,256 +88,202 @@ function renderDrops(npcData, searchTerm = "") {
     let rollableRows = [];
     let tertiaryRows = [];
 
-    const matchesSearch = (debugName) => {
-        if (!searchTerm) return false;
-        const readable = itemList[debugName]?.toLowerCase() || "";
-        return debugName.toLowerCase().includes(searchTerm) || readable.includes(searchTerm);
-    };
 
-    if (npcData.guaranteed && npcData.guaranteed.length > 0) {
-        npcData.guaranteed.forEach((item) => {
-            const itemName = typeof item === "object" ? item.item : item;
-            const amount = typeof item === "object" && item.amount ? item.amount : 1;
-            const note = typeof item === "object" ? item.note : null;
-            const isMatch = matchesSearch(itemName);
-            const noteHtml = note ? ` <span class="note-indicator" title="${note}">[?]</span>` : "";
-            guaranteedRows.push({
-                html: `<tr${isMatch ? ' style="background:rgba(85, 62, 5, 0.62);"' : ""}>
-                 <td>
-                   <div style="display: flex; align-items: center; justify-content: center; gap: 5px;">
-                     <canvas itemname="${itemName}" amount="${amount}" show-label="inline"></canvas>${noteHtml}
-                   </div>
-                 </td>
-                 <td colspan="2">${amount.toLocaleString()}</td>
-               </tr>`,
-                match: isMatch,
+    if (drops) {
+        if (drops.always && drops.always.length > 0) {
+            drops.always.forEach((item) => {
+                const [itemName, amount] = item.item;
+                const note = item.note;
+                const noteHtml = note ? `<span class="note-indicator" title="${note}">[?]</span>` : "";
+                guaranteedRows.push({
+                    html: `<tr>
+                    <td colspan="2">
+                    <div style="display: flex; align-items: center; justify-content: center; gap: 5px;">
+                        <canvas itemname="${itemName}" amount="${amount}" show-label="inline"></canvas>${noteHtml}
+                    </div>
+                    </td>
+                </tr>`,
+                });
             });
-        });
-    }
+        }
 
-    if (npcData.drops.always && npcData.drops.always.length > 0) {
-        npcData.drops.always.forEach((item) => {
-            const [itemName, amount] = item.item;
-            const note = item.note;
-            const isMatch = matchesSearch(itemName);
-            const noteHtml = note ? ` <span class="note-indicator" title="${note}">[?]</span>` : "";
-            guaranteedRows.push({
-                html: `<tr${isMatch ? ' style="background:rgba(85, 62, 5, 0.62);"' : ""}>
-                 <td>
-                   <div style="display: flex; align-items: center; justify-content: center; gap: 5px;">
-                     <canvas itemname="${itemName}" amount="${amount}" show-label="inline"></canvas>${noteHtml}
-                   </div>
-                 </td>
-                 <td colspan="2">${amount.toLocaleString()}</td>
-               </tr>`,
-                match: isMatch,
-            });
-        });
-    }
+        if (drops.roll_table && drops.roll_table.length > 0) {
+            const rollBase = drops.roll_base || 128;
+            let totalUsedSlots = 0;
 
-    if (npcData.drops.roll_table && npcData.drops.roll_table.length > 0) {
-        const rollBase = npcData.drops.roll_base || 128;
-        let totalUsedSlots = 0;
+            for (const roll of drops.roll_table) {
+                const chance = parseInt(roll.chance);
+                totalUsedSlots += chance;
 
-        for (const roll of npcData.drops.roll_table) {
-            const chance = parseInt(roll.chance);
-            totalUsedSlots += chance;
+                if (roll.items && roll.items.count) {
+                    const itemCount = roll.items.count;
 
-            if (roll.items && roll.items.count) {
-                const itemCount = roll.items.count;
-                let isAnyMatch = false;
+                    for (let i = 0; i < itemCount; i++) {
+                        const itemData = roll.items[i.toString()];
+                        if (itemData) {
+                            const [itemName, amount] = itemData.item;
 
-                for (let i = 0; i < itemCount; i++) {
-                    const itemData = roll.items[i.toString()];
-                    if (itemData) {
-                        const [itemName, amount] = itemData.item;
-                        const isMatch = matchesSearch(itemName);
-                        if (isMatch) isAnyMatch = true;
+                            let noteHtml = "";
+                            if (itemData.note) {
+                                noteHtml = `<span class="note-indicator" title="${itemData.note}">[?]</span>`;
+                            } else if (i === 0 && roll.note) {
+                                noteHtml = `<span class="note-indicator" title="${roll.note}">[?]</span>`;
+                            }
 
-                        let noteHtml = "";
-                        if (itemData.note) {
-                            noteHtml = ` <span class="note-indicator" title="${itemData.note}">[?]</span>`;
-                        } else if (i === 0 && roll.note) {
-                            noteHtml = ` <span class="note-indicator" title="${roll.note}">[?]</span>`;
+                            const chanceCell = i === 0 ? `<td rowspan="${itemCount}">${calculateChance(roll.chance, rollBase)}</td>` : "";
+
+                            rollableRows.push({
+                                html: `<tr>
+                                        <td>
+                                            <div style="display: flex; align-items: center; justify-content: center; gap: 5px;">
+                                                <canvas itemname="${itemName}" amount="${amount}" show-label="inline"></canvas>${noteHtml}
+                                            </div>
+                                        </td>
+                                        <td>${amount.toLocaleString()}</td>
+                                        ${chanceCell}
+                                    </tr>`
+                            });
                         }
+                    }
+                    continue;
+                }
 
-                        const chanceCell = i === 0 ? `<td rowspan="${itemCount}">${calculateChance(roll.chance, rollBase)}</td>` : "";
+                const [itemName, amount] = roll.item;
+
+                if (itemName.startsWith("~")) {
+                    const sharedTableName = itemName.slice(1);
+                    const sharedTable = sharedDropTables[sharedTableName];
+                    if (sharedTable) {
+                        const iconItem = SHARED_TABLE_ICONS[sharedTableName];
+                        const iconHtml = iconItem ? `<canvas itemname="${iconItem}" amount="${amount}"></canvas>` : "";
+                        const noteHtml = roll.note ? `<span class="note-indicator" title="${roll.note}">[?]</span>` : "";
+                        rollableRows.push({
+                            html: `<tr>
+                            <td>
+                                <div style="display: flex; align-items: center; justify-content: center; gap: 5px;">
+                                ${iconHtml}
+                                <span class="shared-table-toggle"
+                                onclick="openSharedTableModal('${sharedTableName}', '${calculateChance(roll.chance, rollBase)}',
+                                    '${npcData.name || "Unknown NPC"} (${calculateChance(roll.chance, rollBase)})')">${sharedTable.name || sharedTableName}</span>
+                                    ${noteHtml}
+                                </div>
+                            </td>
+                            <td>${calculateChance(roll.chance, rollBase)}</td>
+                            </tr>`
+                        });
+                    }
+                } else {
+                    if (itemName.includes("aboveground =") && itemName.includes("underground =")) {
+                        const parts = itemName.split("|").map((part) => part.trim());
+                        let abovegroundItem = "";
+                        let undergroundItem = "";
+
+                        parts.forEach((part) => {
+                            if (part.startsWith("aboveground =")) {
+                                abovegroundItem = part.replace("aboveground =", "").trim();
+                            } else if (part.startsWith("underground =")) {
+                                undergroundItem = part.replace("underground =", "").trim();
+                            }
+                        });
+
+                        const noteHtml = roll.note ? `<span class="note-indicator" title="${roll.note}">[?]</span>` : "";
 
                         rollableRows.push({
-                            html: `<tr${isMatch ? ' style="background: rgba(85, 62, 5, 0.62);"' : ""}>
+                            html: `<tr>
+                                <td>
+                                    <div style="display: flex; align-items: center; justify-content: center; gap: 5px;">
+                                        <canvas itemname="${abovegroundItem}" amount="${amount}" show-label="inline"></canvas> or 
+                                        <canvas itemname="${undergroundItem}" amount="${amount}" show-label="inline"></canvas>${noteHtml}
+                                    </div>
+                                </td>
+                                <td>${calculateChance(roll.chance, rollBase)}</td>
+                            </tr>`
+                        });
+                    } else {
+                        const noteHtml = roll.note ? `<span class="note-indicator" title="${roll.note}">[?]</span>` : "";
+                        rollableRows.push({
+                            html: `<tr>
                                     <td>
                                         <div style="display: flex; align-items: center; justify-content: center; gap: 5px;">
                                             <canvas itemname="${itemName}" amount="${amount}" show-label="inline"></canvas>${noteHtml}
                                         </div>
                                     </td>
-                                    <td>${amount.toLocaleString()}</td>
-                                    ${chanceCell}
-                                </tr>`,
-                            match: isMatch,
+                                    <td>${calculateChance(roll.chance, rollBase)}</td>
+                                </tr>`
                         });
                     }
                 }
-                continue;
             }
 
-            const [itemName, amount] = roll.item;
-
-            if (itemName.startsWith("~")) {
-                const sharedTableName = itemName.slice(1);
-                const sharedTable = sharedDropTables[sharedTableName];
-                if (sharedTable) {
-                    const iconItem = SHARED_TABLE_ICONS[sharedTableName];
-                    const iconHtml = iconItem ? `<canvas itemname="${iconItem}" amount="${amount}"></canvas>` : "";
-                    const noteHtml = roll.note ? ` <span class="note-indicator" title="${roll.note}">[?]</span>` : "";
-                    rollableRows.push({
-                        html: `<tr>
-              <td>
-                <div style="display: flex; align-items: center; justify-content: center; gap: 5px;">
-                  ${iconHtml}
-                  <span class="shared-table-toggle"
-                  onclick="openSharedTableModal('${sharedTableName}', '${searchTerm}', '${calculateChance(roll.chance, rollBase)}',
-                    '${npcData.name || "Unknown NPC"} (${calculateChance(roll.chance, rollBase)})')">${sharedTable.name || sharedTableName}</span>
-                    ${noteHtml}
-                </div>
-              </td>
-              <td>${amount.toLocaleString()}</td>
-              <td>${calculateChance(roll.chance, rollBase)}</td>
-            </tr>`,
-                        match: false,
-                    });
-                }
-            } else {
-                if (itemName.includes("aboveground =") && itemName.includes("underground =")) {
-                    const parts = itemName.split("|").map((part) => part.trim());
-                    let abovegroundItem = "";
-                    let undergroundItem = "";
-
-                    parts.forEach((part) => {
-                        if (part.startsWith("aboveground =")) {
-                            abovegroundItem = part.replace("aboveground =", "").trim();
-                        } else if (part.startsWith("underground =")) {
-                            undergroundItem = part.replace("underground =", "").trim();
-                        }
-                    });
-
-                    const isAboveMatch = matchesSearch(abovegroundItem);
-                    const isUnderMatch = matchesSearch(undergroundItem);
-                    const isMatch = isAboveMatch || isUnderMatch;
-                    const noteHtml = roll.note ? ` <span class="note-indicator" title="${roll.note}">[?]</span>` : "";
-
-                    rollableRows.push({
-                        html: `<tr${isMatch ? ' style="background: rgba(85, 62, 5, 0.62);"' : ""}>
-                            <td>
-                                <div style="display: flex; align-items: center; justify-content: center; gap: 5px;">
-                                    <canvas itemname="${abovegroundItem}" show-label="inline"></canvas> or 
-                                    <canvas itemname="${undergroundItem}" show-label="inline"></canvas>${noteHtml}
-                                </div>
-                            </td>
-                            <td>${amount.toLocaleString()}</td>
-                            <td>${calculateChance(roll.chance, rollBase)}</td>
-                        </tr>`,
-                        match: isMatch,
-                    });
-                } else {
-                    const isMatch = matchesSearch(itemName);
-                    const noteHtml = roll.note ? ` <span class="note-indicator" title="${roll.note}">[?]</span>` : "";
-                    rollableRows.push({
-                        html: `<tr${isMatch ? ' style="background: rgba(85, 62, 5, 0.62);"' : ""}>
-                                <td>
-                                    <div style="display: flex; align-items: center; justify-content: center; gap: 5px;">
-                                        <canvas itemname="${itemName}" amount="${amount}" show-label="inline"></canvas>${noteHtml}
-                                    </div>
-                                </td>
-                                <td>${amount.toLocaleString()}</td>
-                                <td>${calculateChance(roll.chance, rollBase)}</td>
-                            </tr>`,
-                        match: isMatch,
-                    });
-                }
+            const nothingSlots = rollBase - totalUsedSlots;
+            if (nothingSlots > 0) {
+                rollableRows.push({
+                    html: `<tr style="color: #888;">
+                        <td style="font-style: italic; text-align: center;">Nothing</td>
+                        <td>${calculateChance(nothingSlots, rollBase)}</td>
+                        </tr>`
+                });
             }
         }
 
-        const nothingSlots = rollBase - totalUsedSlots;
-        if (nothingSlots > 0) {
-            const isNothingMatch = searchTerm && searchTerm.includes("nothing");
-            rollableRows.push({
-                html: `<tr${isNothingMatch ? ' style="background: rgba(85, 62, 5, 0.62);"' : ""} style="color: #888;">
-                    <td style="font-style: italic; text-align: center;">Nothing</td>
-                    <td>-</td>
-                    <td>${calculateChance(nothingSlots, rollBase)}</td>
-                    </tr>`,
-                match: isNothingMatch,
+        if (drops.tertiary) {
+            const tertiaryData = Array.isArray(drops.tertiary) ? drops.tertiary : [drops.tertiary];
+
+            tertiaryData.forEach((tertiary) => {
+                const itemName = tertiary.item;
+                const chance = tertiary.chance;
+                const note = tertiary.note;
+
+                let displayItemName = itemName;
+                let nameAppend = "";
+
+                if (itemName.startsWith("clue-")) {
+                    const tier = itemName.replace("clue-", "");
+                    if (tier === "easy") {
+                        displayItemName = "trail_clue_easy_simple001";
+                    } else if (tier === "medium") {
+                        displayItemName = "trail_clue_medium_sextant001";
+                    } else if (tier === "hard") {
+                        displayItemName = "trail_clue_hard_sextant001";
+                    }
+                    const tierCapitalized = tier.charAt(0).toUpperCase() + tier.slice(1);
+                    nameAppend = ` (${tierCapitalized})`;
+                }
+
+                const noteHtml = note ? `<span class="note-indicator" title="${note}">[?]</span>` : "";
+                tertiaryRows.push({
+                    html: `<tr>
+                        <td>
+                            <div style="display: flex; align-items: center; justify-content: center; gap: 5px;">
+                                <canvas itemname="${displayItemName}" amount="1" show-label="inline"${nameAppend ? ` name-append="${nameAppend}"` : ""}></canvas>${noteHtml}
+                            </div>
+                        </td>
+                        <td>${chance}</td>
+                        </tr>`
+                });
             });
         }
-    }
-
-    if (npcData.drops.tertiary) {
-        const tertiaryData = Array.isArray(npcData.drops.tertiary) ? npcData.drops.tertiary : [npcData.drops.tertiary];
-
-        tertiaryData.forEach((tertiary) => {
-            const itemName = tertiary.item;
-            const chance = tertiary.chance;
-            const note = tertiary.note;
-
-            let displayItemName = itemName;
-            let nameAppend = "";
-
-            if (itemName.startsWith("clue-")) {
-                const tier = itemName.replace("clue-", "");
-                if (tier === "easy") {
-                    displayItemName = "trail_clue_easy_simple001";
-                } else if (tier === "medium") {
-                    displayItemName = "trail_clue_medium_sextant001";
-                } else if (tier === "hard") {
-                    displayItemName = "trail_clue_hard_sextant001";
-                }
-                const tierCapitalized = tier.charAt(0).toUpperCase() + tier.slice(1);
-                nameAppend = ` (${tierCapitalized})`;
-            }
-
-            const isTertiaryMatch =
-                searchTerm &&
-                (itemName.toLowerCase().includes(searchTerm) || (itemList[displayItemName]?.toLowerCase() || "").includes(searchTerm) || (itemName.includes("clue") && searchTerm.includes("clue")));
-            const noteHtml = note ? ` <span class="note-indicator" title="${note}">[?]</span>` : "";
-            tertiaryRows.push({
-                html: `<tr${isTertiaryMatch ? ' style="background: rgba(85, 62, 5, 0.62);"' : ""}>
-                    <td>
-                        <div style="display: flex; align-items: center; justify-content: center; gap: 5px;">
-                                        <canvas itemname="${displayItemName}" show-label="inline"${nameAppend ? ` name-append="${nameAppend}"` : ""}></canvas>${noteHtml}
-                        </div>
-                    </td>
-                    <td>1</td>
-                    <td>${chance}</td>
-                    </tr>`,
-                match: isTertiaryMatch,
-            });
-        });
     }
 
     let hasContent = false;
     html += '<table class="table" width="100%">';
     if (guaranteedRows.length > 0) {
-        html += '<tr><th colspan="3">Always Drops</th></tr>';
-        html += '<tr><th>Item</th><th colspan="2">Amount</th></tr>';
-        guaranteedRows.filter((r) => r.match).forEach((r) => (html += r.html));
-        guaranteedRows.filter((r) => !r.match).forEach((r) => (html += r.html));
+        html += '<tr><th colspan="2">Always Drops</th></tr>';
+        guaranteedRows.forEach((r) => (html += r.html));
         hasContent = true;
     }
 
     if (rollableRows.length > 0) {
         html += '<tr><th colspan="3">Primary Drops</th></tr>';
-        html += "<tr><th>Item</th><th>Amount</th><th>Chance</th></tr>";
-        rollableRows.filter((r) => r.match).forEach((r) => (html += r.html));
-        rollableRows.filter((r) => !r.match).forEach((r) => (html += r.html));
+        html += "<tr><th>Item</th><th>Chance</th></tr>";
+        rollableRows.forEach((r) => (html += r.html));
         hasContent = true;
     }
 
     if (tertiaryRows.length > 0) {
         html += '<tr><th colspan="3">Tertiary Drops</th></tr>';
-        html += "<tr><th>Item</th><th>Amount</th><th>Chance</th></tr>";
-        tertiaryRows.filter((r) => r.match).forEach((r) => (html += r.html));
-        tertiaryRows.filter((r) => !r.match).forEach((r) => (html += r.html));
-
+        html += "<tr><th>Item</th><th>Chance</th></tr>";
+        tertiaryRows.forEach((r) => (html += r.html));
         hasContent = true;
     }
 
@@ -494,15 +409,10 @@ function calculateTotalChance(sharedTableChance, itemChance, rollBase) {
     return exactFraction;
 }
 
-function openSharedTableModal(sharedTableName, searchTerm = "", parentChance = null, chainPath = "") {
+function openSharedTableModal(sharedTableName, parentChance = null, chainPath = "") {
     const sharedTable = sharedDropTables[sharedTableName];
     if (!sharedTable) return;
 
-    const matchesSearch = (debugName) => {
-        if (!searchTerm) return false;
-        const readable = itemList[debugName]?.toLowerCase() || "";
-        return debugName.toLowerCase().includes(searchTerm) || readable.includes(searchTerm);
-    };
 
     let modal = document.getElementById("sharedTableModal");
     if (!modal) {
@@ -593,9 +503,9 @@ function openSharedTableModal(sharedTableName, searchTerm = "", parentChance = n
 
     let tableHtml = '<table class="table" width="100%">';
     if (parentChance) {
-        tableHtml += "<tr><th>Item</th><th>Amount</th><th>Chance</th><th>Total Chance</th></tr>";
+        tableHtml += "<tr><th>Item</th><th>Chance</th><th>Total Chance</th></tr>";
     } else {
-        tableHtml += "<tr><th>Item</th><th>Amount</th><th>Chance</th></tr>";
+        tableHtml += "<tr><th>Item</th><th>Chance</th></tr>";
     }
 
     let totalUsedSlots = 0;
@@ -608,7 +518,6 @@ function openSharedTableModal(sharedTableName, searchTerm = "", parentChance = n
             const nestedTableName = subItem.slice(1);
             if (sharedDropTables[nestedTableName]) {
                 const nestedTable = sharedDropTables[nestedTableName];
-                const isTableMatch = searchTerm && (nestedTableName.toLowerCase().includes(searchTerm) || (nestedTable.name && nestedTable.name.toLowerCase().includes(searchTerm)));
 
                 const chanceValue = parseInt(subRoll.chance) || 0;
                 totalUsedSlots += chanceValue;
@@ -620,22 +529,22 @@ function openSharedTableModal(sharedTableName, searchTerm = "", parentChance = n
 
                 const totalChanceHtml = parentChance ? `<td>${calculateTotalChance(parentChance, subRoll.chance, rollBase)}</td>` : "";
                 const iconItem = SHARED_TABLE_ICONS[nestedTableName];
-                const iconHtml = iconItem ? `<canvas itemname="${iconItem}" show-label="none"></canvas> ` : "";
+                const iconHtml = iconItem ? `<canvas itemname="${iconItem}" amount="${subAmount}" show-label="none"></canvas> ` : "";
                 const noteHtml = subRoll.note ? ` <span class="note-indicator" title="${subRoll.note}">[?]</span>` : "";
 
                 const currentTableName = sharedTable.name || sharedTableName;
                 const currentChance = calculateChance(subRoll.chance, rollBase);
                 const newChainPath = chainPath ? `${chainPath} → ${currentTableName} (${currentChance})` : `${currentTableName} (${currentChance})`;
 
-                tableHtml += `<tr${isTableMatch ? ' style="background:rgba(85, 62, 5, 0.62);"' : ""}>
+                tableHtml += `<tr>
           <td>
             <div style="display: flex; align-items: center; justify-content: center; gap: 5px;">
-                            ${iconHtml}<span class="nested-shared-table" onclick="openSharedTableModal('${nestedTableName}', '${searchTerm}', '${nestedParentChance || "null"}', '${newChainPath}')">${
+                            ${iconHtml}
+                    <span class="nested-shared-table" onclick="openSharedTableModal('${nestedTableName}', '${nestedParentChance || "null"}', '${newChainPath}')">${
                     nestedTable.name || nestedTableName
                 }</span>${noteHtml}
             </div>
           </td>
-          <td>${subAmount.toLocaleString()}</td>
           <td>${calculateChance(subRoll.chance, rollBase)}</td>
           ${totalChanceHtml}
         </tr>`;
@@ -648,7 +557,6 @@ function openSharedTableModal(sharedTableName, searchTerm = "", parentChance = n
 
                 tableHtml += `<tr>
                         <td>${nestedTableName} (Missing Table)${noteHtml}</td>
-                        <td>${subAmount.toLocaleString()}</td>
                         <td>${calculateChance(subRoll.chance, rollBase)}</td>
                         ${totalChanceHtml}
                     </tr>`;
@@ -667,43 +575,36 @@ function openSharedTableModal(sharedTableName, searchTerm = "", parentChance = n
                     }
                 });
 
-                const isAboveMatch = matchesSearch(abovegroundItem);
-                const isUnderMatch = matchesSearch(undergroundItem);
-                const isMatch = isAboveMatch || isUnderMatch;
-
                 const chanceValue = parseInt(subRoll.chance) || 0;
                 totalUsedSlots += chanceValue;
 
                 const totalChanceHtml = parentChance ? `<td>${calculateTotalChance(parentChance, subRoll.chance, rollBase)}</td>` : "";
-                const noteHtml = subRoll.note ? ` <span class="note-indicator" title="${subRoll.note}">[?]</span>` : "";
+                const noteHtml = subRoll.note ? `<span class="note-indicator" title="${subRoll.note}">[?]</span>` : "";
 
-                tableHtml += `<tr${isMatch ? ' style="background:rgba(85, 62, 5, 0.62);"' : ""}>
+                tableHtml += `<tr>
                     <td>
                         <div style="display: flex; align-items: center; justify-content: center; gap: 5px;">
-                            <canvas itemname="${abovegroundItem}" show-label="inline"></canvas>
+                            <canvas itemname="${abovegroundItem}" amount="${subAmount}" show-label="inline"></canvas>
                             or
-                            <canvas itemname="${undergroundItem}" show-label="inline"></canvas>${noteHtml}
+                            <canvas itemname="${undergroundItem}" amount="${subAmount}" show-label="inline"></canvas>${noteHtml}
                         </div>
                     </td>
-                    <td>${subAmount.toLocaleString()}</td>
                     <td>${calculateChance(subRoll.chance, rollBase)}</td>
                     ${totalChanceHtml}
                 </tr>`;
             } else {
-                const isMatch = matchesSearch(subItem);
                 const chanceValue = parseInt(subRoll.chance) || 0;
                 totalUsedSlots += chanceValue;
 
                 const totalChanceHtml = parentChance ? `<td>${calculateTotalChance(parentChance, subRoll.chance, rollBase)}</td>` : "";
-                const noteHtml = subRoll.note ? ` <span class="note-indicator" title="${subRoll.note}">[?]</span>` : "";
+                const noteHtml = subRoll.note ? `<span class="note-indicator" title="${subRoll.note}">[?]</span>` : "";
 
-                tableHtml += `<tr${isMatch ? ' style="background:rgba(85, 62, 5, 0.62);"' : ""}>
+                tableHtml += `<tr>
                     <td>
                         <div style="display: flex; align-items: center; justify-content: center; gap: 5px;">
                             <canvas itemname="${subItem}" amount="${subAmount}" show-label="inline"></canvas>${noteHtml}
                         </div>
                     </td>
-                    <td>${subAmount.toLocaleString()}</td>
                     <td>${calculateChance(subRoll.chance, rollBase)}</td>
                     ${totalChanceHtml}
                 </tr>`;
@@ -713,12 +614,10 @@ function openSharedTableModal(sharedTableName, searchTerm = "", parentChance = n
 
     const nothingSlots = rollBase - totalUsedSlots;
     if (nothingSlots > 0) {
-        const isNothingMatch = searchTerm && searchTerm.includes("nothing");
         const totalChanceHtml = parentChance ? `<td>${calculateTotalChance(parentChance, nothingSlots, rollBase)}</td>` : "";
 
-        tableHtml += `<tr${isNothingMatch ? ' style="background:rgba(85, 62, 5, 0.62);"' : ""} style="color: #888;">
+        tableHtml += `<tr style="color: #888;">
             <td style="font-style: italic; text-align: center;">Nothing</td>
-            <td>-</td>
             <td>${calculateChance(nothingSlots, rollBase)}</td>${totalChanceHtml}</tr>`;
     }
 
@@ -744,250 +643,103 @@ window.onclick = function (event) {
     }
 };
 
-function searchInSharedTable(sharedTableName, searchTerm, visitedTables = new Set()) {
-    if (visitedTables.has(sharedTableName)) {
-        return false;
-    }
 
-    const sharedTable = sharedDropTables[sharedTableName];
-    if (!sharedTable || !sharedTable.roll_table) return false;
-
-    visitedTables.add(sharedTableName);
-
-    for (const roll of sharedTable.roll_table) {
-        const [itemName] = roll.item;
-
-        if (itemName.startsWith("~")) {
-            const nestedTableName = itemName.slice(1);
-            const nestedTable = sharedDropTables[nestedTableName];
-
-            if (nestedTableName.toLowerCase().includes(searchTerm) || (nestedTable && nestedTable.name && nestedTable.name.toLowerCase().includes(searchTerm))) {
-                visitedTables.delete(sharedTableName);
-                return true;
-            } else if (searchInSharedTable(nestedTableName, searchTerm, visitedTables)) {
-                visitedTables.delete(sharedTableName);
-                return true;
-            }
-        } else {
-            if (itemName.includes("aboveground =") && itemName.includes("underground =")) {
-                const parts = itemName.split("|").map((part) => part.trim());
-                for (const part of parts) {
-                    if (part.startsWith("aboveground =")) {
-                        const abovegroundItem = part.replace("aboveground =", "").trim();
-                        const readable = itemList[abovegroundItem]?.toLowerCase() || "";
-                        if (abovegroundItem.toLowerCase().includes(searchTerm) || readable.includes(searchTerm)) {
-                            visitedTables.delete(sharedTableName);
-                            return true;
-                        }
-                    } else if (part.startsWith("underground =")) {
-                        const undergroundItem = part.replace("underground =", "").trim();
-                        const readable = itemList[undergroundItem]?.toLowerCase() || "";
-                        if (undergroundItem.toLowerCase().includes(searchTerm) || readable.includes(searchTerm)) {
-                            visitedTables.delete(sharedTableName);
-                            return true;
-                        }
-                    }
-                }
-            } else {
-                const readable = itemList[itemName]?.toLowerCase() || "";
-                if (itemName.toLowerCase().includes(searchTerm) || readable.includes(searchTerm)) {
-                    visitedTables.delete(sharedTableName);
-                    return true;
-                }
-            }
+function buildNpcIndex() {
+    const arr = [];
+    const droppableOnlyCheckbox = typeof document !== 'undefined' ? document.getElementById('droppableOnlyCheckbox') : null;
+    const droppableOnly = droppableOnlyCheckbox && droppableOnlyCheckbox.checked;
+    for (const key in npcData) {
+        const npc = npcData[key];
+        if (droppableOnly) {
+            const drops = npc && npc.drops;
+            const hasDrops = !!drops && (
+                (Array.isArray(drops.always) && drops.always.length > 0) ||
+                (Array.isArray(drops.roll_table) && drops.roll_table.length > 0) ||
+                (drops.tertiary && (Array.isArray(drops.tertiary) ? drops.tertiary.length > 0 : true))
+            );
+            if (!hasDrops) continue;
         }
-    }
 
-    visitedTables.delete(sharedTableName);
-    return false;
+        const display = getNPCName(key) || key;
+        arr.push({ key, display, tags: (key + " " + display).toLowerCase() });
+    }
+    arr.sort((a, b) => a.display.toLowerCase().localeCompare(b.display.toLowerCase()));
+    return arr;
 }
 
-document.getElementById("itemSearch").addEventListener("input", function () {
-    activeSearchTerm = this.value.trim().toLowerCase();
-    const select = document.getElementById("npcSelect");
-    select.innerHTML = '<option value="">Select NPC...</option>';
+function attachSuggestionBox(input, onType) {
+    const wrapper = document.createElement('div');
+    wrapper.className = 'search-wrapper';
+    input.parentNode.insertBefore(wrapper, input);
+    wrapper.appendChild(input);
 
-    if (!activeSearchTerm) {
-        populateNPCDropdown();
-        return;
+    const sugg = document.createElement('ul');
+    sugg.className = 'suggestions floating-suggestions';
+    sugg.style.position = 'fixed';
+    sugg.style.display = 'block';
+    sugg.style.left = '0px';
+    sugg.style.top = '0px';
+    sugg.style.minWidth = '120px';
+    sugg.style.zIndex = '2147483647';
+    document.body.appendChild(sugg);
+
+    input.suggBox = sugg;
+
+    function updatePos() {
+        if (!sugg || !input) return;
+        const rect = input.getBoundingClientRect();
+        const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
+        sugg.style.left = rect.left + 'px';
+        sugg.style.top = rect.bottom + 'px';
+        sugg.style.width = 'auto';
+        sugg.style.minWidth = rect.width + 'px';
+        sugg.style.maxWidth = Math.max(320, Math.min(vw - 20, 700)) + 'px';
+        const contentW = Math.min(sugg.scrollWidth + 8, parseInt(sugg.style.maxWidth, 10));
+        const finalW = Math.max(rect.width, contentW);
+        sugg.style.width = finalW + 'px';
+        const rightEdge = rect.left + finalW;
+        if (rightEdge > vw - 10) {
+            const shift = rightEdge - (vw - 10);
+            sugg.style.left = Math.max(10, rect.left - shift) + 'px';
+        }
+        const maxH = window.innerHeight - rect.bottom - 10;
+        sugg.style.maxHeight = (maxH > 40 ? maxH : 40) + 'px';
     }
 
-    const matchedNPCs = new Map();
+    input.updateSuggPos = updatePos;
 
-    for (const npcKey in npcData) {
-        const npc = npcData[npcKey];
-        let foundReason = "";
+    input.addEventListener('input', onType);
+    input.addEventListener('blur', () => setTimeout(() => (input.suggBox.innerHTML = ''), 150));
 
-        if (
-            npc.guaranteed &&
-            npc.guaranteed.some((item) => {
-                const itemName = typeof item === "object" ? item.item : item;
-                const readable = itemList[itemName]?.toLowerCase() || "";
-                return itemName.toLowerCase().includes(activeSearchTerm) || readable.includes(activeSearchTerm);
-            })
-        ) {
-            foundReason = "guaranteed";
-        }
+    window.addEventListener('resize', () => { if (input.suggBox && input.suggBox.children.length) updatePos(); });
+    window.addEventListener('scroll', () => { if (input.suggBox && input.suggBox.children.length) updatePos(); }, true);
+}
 
-        if (
-            !foundReason &&
-            npc.always &&
-            npc.always.some((item) => {
-                const [itemName] = item.item;
-                const readable = itemList[itemName]?.toLowerCase() || "";
-                return itemName.toLowerCase().includes(activeSearchTerm) || readable.includes(activeSearchTerm);
-            })
-        ) {
-            foundReason = "guaranteed";
-        }
-
-        if (!foundReason && npc.roll_table) {
-            for (const roll of npc.roll_table) {
-                let foundInRoll = false;
-
-                if (roll.items && roll.items.count) {
-                    for (let i = 0; i < roll.items.count; i++) {
-                        const itemData = roll.items[i.toString()];
-                        if (itemData) {
-                            const [itemName] = itemData.item;
-                            const readable = itemList[itemName]?.toLowerCase() || "";
-                            if (itemName.toLowerCase().includes(activeSearchTerm) || readable.includes(activeSearchTerm)) {
-                                foundInRoll = true;
-                                break;
-                            }
-                        }
-                    }
-                } else if (roll.item) {
-                    const [itemName] = roll.item;
-
-                    if (itemName.startsWith("~")) {
-                        const sharedTableName = itemName.slice(1);
-                        const sharedTable = sharedDropTables[sharedTableName];
-
-                        if (sharedTableName.toLowerCase().includes(activeSearchTerm) || (sharedTable && sharedTable.name && sharedTable.name.toLowerCase().includes(activeSearchTerm))) {
-                            foundInRoll = true;
-                        } else if (searchInSharedTable(sharedTableName, activeSearchTerm)) {
-                            foundInRoll = true;
-                        }
-                    } else {
-                        if (itemName.includes("aboveground =") && itemName.includes("underground =")) {
-                            const parts = itemName.split("|").map((part) => part.trim());
-                            for (const part of parts) {
-                                if (part.startsWith("aboveground =")) {
-                                    const abovegroundItem = part.replace("aboveground =", "").trim();
-                                    const readable = itemList[abovegroundItem]?.toLowerCase() || "";
-                                    if (abovegroundItem.toLowerCase().includes(activeSearchTerm) || readable.includes(activeSearchTerm)) {
-                                        foundInRoll = true;
-                                        break;
-                                    }
-                                } else if (part.startsWith("underground =")) {
-                                    const undergroundItem = part.replace("underground =", "").trim();
-                                    const readable = itemList[undergroundItem]?.toLowerCase() || "";
-                                    if (undergroundItem.toLowerCase().includes(activeSearchTerm) || readable.includes(activeSearchTerm)) {
-                                        foundInRoll = true;
-                                        break;
-                                    }
-                                }
-                            }
-                        } else {
-                            const readable = itemList[itemName]?.toLowerCase() || "";
-                            if (itemName.toLowerCase().includes(activeSearchTerm) || readable.includes(activeSearchTerm)) {
-                                foundInRoll = true;
-                            }
-                        }
-                    }
-                }
-
-                if (foundInRoll) {
-                    foundReason = "rollable";
-                    break;
-                }
+function onNPCType(e) {
+    const val = e.target.value.toLowerCase().trim();
+    const box = e.target.suggBox;
+    box.innerHTML = '';
+    if (!val) return;
+    const idx = buildNpcIndex();
+    const matches = idx.filter(n => n.tags.includes(val)).slice(0,15);
+    matches.forEach(n => {
+        const li = document.createElement('li');
+        li.textContent = n.display;
+        li.addEventListener('mousedown', () => {
+            e.target.value = n.display;
+            e.target.suggBox.innerHTML = '';
+            const npcD = findNPC(n.key);
+            if (npcD) {
+                renderDrops(npcD);
+                updateURL(n.key);
             }
-        }
-
-        if (!foundReason && npc.tertiary && Array.isArray(npc.tertiary)) {
-            for (const tertiaryData of npc.tertiary) {
-                const itemName = tertiaryData.item;
-                const readable = itemList[itemName]?.toLowerCase() || "";
-                if ((itemName && itemName.toLowerCase().includes(activeSearchTerm)) || readable.includes(activeSearchTerm) || (itemName.includes("clue") && activeSearchTerm.includes("clue"))) {
-                    foundReason = "tertiary";
-                    break;
-                }
-            }
-        }
-
-        if (foundReason) matchedNPCs.set(npcKey, foundReason);
-    }
-
-    if (matchedNPCs.size === 0) {
-        const option = document.createElement("option");
-        option.disabled = true;
-        option.textContent = "No NPCs found";
-        select.appendChild(option);
-    } else {
-        const matchedArray = [];
-        for (const [npcName, reason] of matchedNPCs.entries()) {
-            const npcData = npcData[npcName];
-            let displayName = npcData && npcData.name ? npcData.name : npcName;
-            if (npcData && npcData.info && npcData.info.vislevel) displayName += ` (level-${npcData.info.vislevel})`;
-            matchedArray.push({ npcName, reason, displayName, hasName: !!(npcData && npcData.name) });
-        }
-
-        matchedArray.sort((a, b) => a.displayName.toLowerCase().localeCompare(b.displayName.toLowerCase()));
-
-        matchedArray.forEach((entry) => {
-            const option = document.createElement("option");
-            option.value = entry.npcName;
-            option.textContent = entry.displayName;
-            option.style.fontWeight = "bold";
-            if (entry.hasName) {
-                option.style.color = entry.reason === "tertiary" ? "blue" : "green";
-            } else {
-                option.style.color = "darkred";
-            }
-            select.appendChild(option);
         });
+        box.appendChild(li);
+    });
+    if (typeof e.target.updateSuggPos === 'function') e.target.updateSuggPos();
+}
 
-        if (matchedArray.length === 1) {
-            const firstMatch = matchedArray[0].npcName;
-            select.value = firstMatch;
-            const npcData = findNPC(firstMatch);
-            if (npcData) {
-                renderDrops(npcData, activeSearchTerm);
-                updateURL(firstMatch);
-            }
-        }
-    }
-});
-
-document.getElementById("itemSearch").addEventListener("keydown", function (e) {
-    if (e.key === "Enter") {
-        const select = document.getElementById("npcSelect");
-        if (select.options.length > 1) {
-            e.preventDefault();
-            select.selectedIndex = 1;
-            const npcData = findNPC(select.value);
-            if (npcData) {
-                renderDrops(npcData, activeSearchTerm);
-                updateURL(select.value);
-            }
-        }
-    }
-});
-
-npcSelect.addEventListener("change", () => {
-    const selectedNPC = npcSelect.value;
-    if (selectedNPC) {
-        const npcData = findNPC(selectedNPC);
-        if (npcData) {
-            renderDrops(npcData, activeSearchTerm);
-            updateURL(selectedNPC);
-        }
-    } else {
-        document.getElementById("dropTableContainer").innerHTML = "";
-        updateURL(null);
-    }
-});
+attachSuggestionBox(document.getElementById('npcSearch'), onNPCType);
 
 window.addEventListener("popstate", function () {
     loadNPCFromURL();
@@ -997,13 +749,24 @@ document.addEventListener("DOMContentLoaded", function () {
     const ringOfWealthCheckbox = document.getElementById("ringOfWealthCheckbox");
     if (ringOfWealthCheckbox) {
         ringOfWealthCheckbox.addEventListener("change", function () {
-            const npcSelect = document.getElementById("npcSelect");
-            if (npcSelect.value) {
-                const npcData = findNPC(npcSelect.value);
-                if (npcData) {
-                    renderDrops(npcData, activeSearchTerm);
+            const currentNPC = getURLParameter('npc');
+            if (currentNPC) {
+                const npcData = findNPC(currentNPC);
+                if (npcData) renderDrops(npcData);
+            }
+        });
+    }
+    const droppableOnlyCheckbox = document.getElementById('droppableOnlyCheckbox');
+    if (droppableOnlyCheckbox) {
+        droppableOnlyCheckbox.addEventListener('change', function () {
+            const npcSearch = document.getElementById('npcSearch');
+            if (npcSearch && npcSearch.suggBox) {
+                npcSearch.suggBox.innerHTML = '';
+                if (npcSearch.value && npcSearch.value.trim()) {
+                    onNPCType({ target: npcSearch });
                 }
             }
         });
     }
 });
+

@@ -72,7 +72,7 @@ function getPageContent() { return <<<HTML
                 </a>
             </td>
             <td width="120">
-                Clue Casket<br>Tables<br>
+                Treasure Trail<br>Rewards<br>
                 <a href="?p=cluetables">Click Here</a>
             </td>
             <td width="10"></td>
