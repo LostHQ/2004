@@ -17,89 +17,90 @@ function getSkillContent($skill) { return <<<HTML
         </tr>
         <tr>
             <td>3</td>
-            <td><canvas itemname="unidentified_guam"></canvas><br>Herb</td>
-            <td><canvas itemname="guam_leaf"></canvas><br>Guam Leaf</td>
+            <td><canvas itemname="unidentified_guam" show-label="true"></canvas></td>
+            <td><canvas itemname="guam_leaf" show-label="true"></canvas></td>
             <td>2.5</td>
         </tr>
         <tr>
             <td>5</td>
-            <td><canvas itemname="unidentified_marentill"></canvas><br>Herb</td>
-            <td><canvas itemname="marentill"></canvas><br>Marrentill</td>
+            <td><canvas itemname="unidentified_marentill" show-label="true"></canvas></td>
+            <td><canvas itemname="marentill" show-label="true"></canvas></td>
             <td>3.8</td>
         </tr>
         <tr>
             <td>11</td>
-            <td><canvas itemname="unidentified_tarromin"></canvas><br>Herb</td>
-            <td><canvas itemname="tarromin"></canvas><br>Tarromin</td>
+            <td><canvas itemname="unidentified_tarromin" show-label="true"></canvas></td>
+            <td><canvas itemname="tarromin" show-label="true"></canvas></td>
             <td>5</td>
         </tr>
         <tr>
             <td>20</td>
-            <td><canvas itemname="unidentified_harralander"></canvas><br>Herb</td>
-            <td><canvas itemname="harralander"></canvas><br>Harralander</td>
+            <td><canvas itemname="unidentified_harralander" show-label="true"></canvas></td>
+            <td><canvas itemname="harralander" show-label="true"></canvas></td>
             <td>6.3</td>
         </tr>
         <tr>
             <td>25</td>
-            <td><canvas itemname="unidentified_ranarr"></canvas><br>Herb</td>
-            <td><canvas itemname="ranarr_weed"></canvas><br>Ranarr weed</td>
+            <td><canvas itemname="unidentified_ranarr" show-label="true"></canvas></td>
+            <td><canvas itemname="ranarr_weed" show-label="true"></canvas></td>
             <td>7.5</td>
         </tr>
         <tr>
             <td>30</td>
-            <td><canvas itemname="unidentified_toadflax"></canvas><br>Herb</td>
-            <td><canvas itemname="toadflax"></canvas><br>Toadflax</td>
+            <td><canvas itemname="unidentified_toadflax" show-label="true"></canvas></td>
+            <td><canvas itemname="toadflax" show-label="true"></canvas></td>
             <td>8</td>
         </tr>
         <tr>
             <td>40</td>
-            <td><canvas itemname="unidentified_irit"></canvas><br>Herb</td>
-            <td><canvas itemname="irit_leaf"></canvas><br>Irit Leaf</td>
+            <td><canvas itemname="unidentified_irit" show-label="true"></canvas></td>
+            <td><canvas itemname="irit_leaf" show-label="true"></canvas></td>
             <td>8.8</td>
         </tr>
         <tr>
             <td>48</td>
-            <td><canvas itemname="unidentified_avantoe"></canvas><br>Herb</td>
-            <td><canvas itemname="avantoe"></canvas><br>Avantoe</td>
+            <td><canvas itemname="unidentified_avantoe" show-label="true"></canvas></td>
+            <td><canvas itemname="avantoe" show-label="true"></canvas></td>
             <td>10</td>
         </tr>
         <tr>
             <td>54</td>
-            <td><canvas itemname="unidentified_kwuarm"></canvas><br>Herb</td>
-            <td><canvas itemname="kwuarm"></canvas><br>Kwuarm</td>
+            <td><canvas itemname="unidentified_kwuarm" show-label="true"></canvas></td>
+            <td><canvas itemname="kwuarm" show-label="true"></canvas></td>
             <td>11.3</td>
         </tr>
         <tr>
             <td>59</td>
-            <td><canvas itemname="unidentified_snapdragon"></canvas><br>Herb</td>
-            <td><canvas itemname="snapdragon"></canvas><br>Snapdragon</td>
+            <td><canvas itemname="unidentified_snapdragon" show-label="true"></canvas></td>
+            <td><canvas itemname="snapdragon" show-label="true"></canvas></td>
             <td>11.8</td>
         </tr>
         <tr>
             <td>65</td>
-            <td><canvas itemname="unidentified_cadantine"></canvas><br>Herb</td>
-            <td><canvas itemname="cadantine"></canvas><br>Cadantine</td>
+            <td><canvas itemname="unidentified_cadantine" show-label="true"></canvas></td>
+            <td><canvas itemname="cadantine" show-label="true"></canvas></td>
             <td>12.5</td>
         </tr>
         <tr>
             <td>67</td>
-            <td><canvas itemname="unidentified_lantadyme"></canvas><br>Herb</td>
-            <td><canvas itemname="lantadyme"></canvas><br>Lantadyme</td>
+            <td><canvas itemname="unidentified_lantadyme" show-label="true"></canvas></td>
+            <td><canvas itemname="lantadyme" show-label="true"></canvas></td>
             <td>13.1</td>
         </tr>
         <tr>
             <td>70</td>
-            <td><canvas itemname="unidentified_dwarf_weed"></canvas><br>Herb</td>
-            <td><canvas itemname="dwarf_weed"></canvas><br>Dwarf weed</td>
+            <td><canvas itemname="unidentified_dwarf_weed" show-label="true"></canvas></td>
+            <td><canvas itemname="dwarf_weed" show-label="true"></canvas></td>
             <td>13.8</td>
         </tr>
         <tr>
             <td>75</td>
-            <td><canvas itemname="unidentified_torstol"></canvas><br>Herb</td>
-            <td><canvas itemname="torstol"></canvas><br>Torstol</td>
+            <td><canvas itemname="unidentified_torstol" show-label="true"></canvas></td>
+            <td><canvas itemname="torstol" show-label="true"></canvas></td>
             <td>15</td>
         </tr>
     </table>
+    <br>
     <h3>Mixing Potions</h3>
     <!-- an image named mixpotion.gif goes on the right side of this wall of text if ever found -->
     You will need a vial. These can be bought from shops such as the herblore shop in Taverley or made using glassmaking (see the <a href="?p=skillguides&skill=crafting">crafting</a> guide).
@@ -111,6 +112,7 @@ function getSkillContent($skill) { return <<<HTML
     You must add your herb to your vial of water first and then the other ingredient.
     <br><br>
     As you reach higher levels you will be able to make more types of potions.
+    <br><br>
     <h3>Potion Ingredients</h3>
     <table class="table">
         <tr>
@@ -125,10 +127,10 @@ function getSkillContent($skill) { return <<<HTML
             <td>
                 <canvas itemname="guam_leaf"></canvas>
                 <canvas itemname="guamvial"></canvas><br>
-                Guam Leaf
+                Guam leaf
             </td>
-            <td><canvas itemname="eye_of_newt"></canvas><br>Eye of Newt</td>
-            <td><canvas itemname="3dose1attack"></canvas><br>Attack potion</td>
+            <td><canvas itemname="eye_of_newt" show-label="true"></canvas></td>
+            <td><canvas itemname="3dose1attack" show-label="true"></canvas></td>
             <td>25</td>
         </tr>
         <tr>
@@ -138,8 +140,8 @@ function getSkillContent($skill) { return <<<HTML
                 <canvas itemname="marrentillvial"></canvas><br>
                 Marrentill
             </td>
-            <td><canvas itemname="unicorn_horn_dust"></canvas><br>Ground unicorn horn</td>
-            <td><canvas itemname="3doseantipoison"></canvas><br>Antipoison potion</td>
+            <td><canvas itemname="unicorn_horn_dust" show-label="true"></canvas></td>
+            <td><canvas itemname="3doseantipoison" show-label="true"></canvas></td>
             <td>37.5</td>
         </tr>
         <tr>
@@ -149,8 +151,8 @@ function getSkillContent($skill) { return <<<HTML
                 <canvas itemname="tarrominvial"></canvas><br>
                 Tarromin
             </td>
-            <td><canvas itemname="limpwurt_root"></canvas><br>Limpwurt root</td>
-            <td><canvas itemname="3dose1strength"></canvas><br>Strength potion</td>
+            <td><canvas itemname="limpwurt_root" show-label="true"></canvas></td>
+            <td><canvas itemname="3dose1strength" show-label="true"></canvas></td>
             <td>50</td>
         </tr>
         <tr>
@@ -160,8 +162,8 @@ function getSkillContent($skill) { return <<<HTML
                 <canvas itemname="harralandervial"></canvas><br>
                 Harralander
             </td>
-            <td><canvas itemname="red_spiders_eggs"></canvas><br>Red spider's eggs</td>
-            <td><canvas itemname="3dosestatrestore"></canvas><br>Stat restore potion</td>
+            <td><canvas itemname="red_spiders_eggs" show-label="true"></canvas></td>
+            <td><canvas itemname="3dosestatrestore" show-label="true"></canvas></td>
             <td>62.5</td>
         </tr>
         <tr>
@@ -171,8 +173,8 @@ function getSkillContent($skill) { return <<<HTML
                 <canvas itemname="harralandervial"></canvas><br>
                 Harralander
             </td>
-            <td><canvas itemname="chocolate_dust"></canvas><br>Chocolate dust</td>
-            <td><canvas itemname="3dose1energy"></canvas><br>Energy potion</td>
+            <td><canvas itemname="chocolate_dust" show-label="true"></canvas></td>
+            <td><canvas itemname="3dose1energy" show-label="true"></canvas></td>
             <td>67.5</td>
         </tr>
         <tr>
@@ -182,8 +184,8 @@ function getSkillContent($skill) { return <<<HTML
                 <canvas itemname="ranarrvial"></canvas><br>
                 Ranarr weed
             </td>
-            <td><canvas itemname="white_berries"></canvas><br>White Berries</td>
-            <td><canvas itemname="3dose1defense"></canvas><br>Defence potion</td>
+            <td><canvas itemname="white_berries" show-label="true"></canvas></td>
+            <td><canvas itemname="3dose1defense" show-label="true"></canvas></td>
             <td>75</td>
         </tr>
         <tr>
@@ -193,8 +195,8 @@ function getSkillContent($skill) { return <<<HTML
                 <canvas itemname="toadflaxvial"></canvas><br>
                 Toadflax
             </td>
-            <td><canvas itemname="toads_legs"></canvas><br>Toad's legs</td>
-            <td><canvas itemname="3dose1agility"></canvas><br>Agility potion</td>
+            <td><canvas itemname="toads_legs" show-label="true"></canvas></td>
+            <td><canvas itemname="3dose1agility" show-label="true"></canvas></td>
             <td>80</td>
         </tr>
         <tr>
@@ -204,8 +206,8 @@ function getSkillContent($skill) { return <<<HTML
                 <canvas itemname="ranarrvial"></canvas><br>
                 Ranarr weed
             </td>
-            <td><canvas itemname="snape_grass"></canvas><br>Snape Grass</td>
-            <td><canvas itemname="3doseprayerrestore"></canvas><br>Restore prayer potion</td>
+            <td><canvas itemname="snape_grass" show-label="true"></canvas></td>
+            <td><canvas itemname="3doseprayerrestore" show-label="true"></canvas></td>
             <td>87.5</td>
         </tr>
         <tr>
@@ -215,8 +217,8 @@ function getSkillContent($skill) { return <<<HTML
                 <canvas itemname="iritvial"></canvas><br>
                 Irit Leaf
             </td>
-            <td><canvas itemname="eye_of_newt"></canvas><br>Eye of newt</td>
-            <td><canvas itemname="3dose2attack"></canvas><br>Super attack potion</td>
+            <td><canvas itemname="eye_of_newt" show-label="true"></canvas></td>
+            <td><canvas itemname="3dose2attack" show-label="true"></canvas></td>
             <td>100</td>
         </tr>
         <tr>
@@ -226,8 +228,8 @@ function getSkillContent($skill) { return <<<HTML
                 <canvas itemname="iritvial"></canvas><br>
                 Irit Leaf
             </td>
-            <td><canvas itemname="unicorn_horn_dust"></canvas><br>Ground unicorn horn</td>
-            <td><canvas itemname="3dose2antipoison"></canvas><br>Super antipoison potion</td>
+            <td><canvas itemname="unicorn_horn_dust" show-label="true"></canvas></td>
+            <td><canvas itemname="3dose2antipoison" show-label="true"></canvas></td>
             <td>106.3</td>
         </tr>
         <tr>
@@ -237,8 +239,8 @@ function getSkillContent($skill) { return <<<HTML
                 <canvas itemname="avantoevial"></canvas><br>
                 Avantoe
             </td>
-            <td><canvas itemname="snape_grass"></canvas><br>Snape Grass</td>
-            <td><canvas itemname="3dosefisherspotion"></canvas><br>Fishing potion</td>
+            <td><canvas itemname="snape_grass" show-label="true"></canvas></td>
+            <td><canvas itemname="3dosefisherspotion" show-label="true"></canvas></td>
             <td>112.5</td>
         </tr>
         <tr>
@@ -248,8 +250,8 @@ function getSkillContent($skill) { return <<<HTML
                 <canvas itemname="avantoevial"></canvas><br>
                 Avantoe
             </td>
-            <td><canvas itemname="mortmyremushroom"></canvas><br>Mort myre fungi</td>
-            <td><canvas itemname="3dose2energy"></canvas><br>Super energy potion</td>
+            <td><canvas itemname="mortmyremushroom" show-label="true"></canvas></td>
+            <td><canvas itemname="3dose2energy" show-label="true"></canvas></td>
             <td>117.5</td>
         </tr>
         <tr>
@@ -259,8 +261,8 @@ function getSkillContent($skill) { return <<<HTML
                 <canvas itemname="kwuarmvial"></canvas><br>
                 Kwuarm
             </td>
-            <td><canvas itemname="limpwurt_root"></canvas><br>Limpwurt root</td>
-            <td><canvas itemname="3dose2strength"></canvas><br>Super strength potion</td>
+            <td><canvas itemname="limpwurt_root" show-label="true"></canvas></td>
+            <td><canvas itemname="3dose2strength" show-label="true"></canvas></td>
             <td>125</td>
         </tr>
         <tr>
@@ -270,8 +272,8 @@ function getSkillContent($skill) { return <<<HTML
                 <canvas itemname="kwuarmvial"></canvas><br>
                 Kwuarm
             </td>
-            <td><canvas itemname="dragon_scale_dust"></canvas><br>Ground dragon scale</td>
-            <td><canvas itemname="weapon_poison"></canvas><br>Weapon poison</td>
+            <td><canvas itemname="dragon_scale_dust" show-label="true"></canvas></td>
+            <td><canvas itemname="weapon_poison" show-label="true"></canvas></td>
             <td>127.5</td>
         </tr>
         <tr>
@@ -281,8 +283,8 @@ function getSkillContent($skill) { return <<<HTML
                 <canvas itemname="snapdragonvial"></canvas><br>
                 Snapdragon
             </td>
-            <td><canvas itemname="red_spiders_eggs"></canvas><br>Red spiders' eggs</td>
-            <td><canvas itemname="3dose2restore"></canvas><br>Super restore potion</td>
+            <td><canvas itemname="red_spiders_eggs" show-label="true"></canvas></td>
+            <td><canvas itemname="3dose2restore" show-label="true"></canvas></td>
             <td>142.5</td>
         </tr>
         <tr>
@@ -292,8 +294,8 @@ function getSkillContent($skill) { return <<<HTML
                 <canvas itemname="cadantinevial"></canvas><br>
                 Cadantine
             </td>
-            <td><canvas itemname="white_berries"></canvas><br>White Berries</td>
-            <td><canvas itemname="3dose2defense"></canvas><br>Super defence potion</td>
+            <td><canvas itemname="white_berries" show-label="true"></canvas></td>
+            <td><canvas itemname="3dose2defense" show-label="true"></canvas></td>
             <td>150</td>
         </tr>
         <tr>
@@ -303,8 +305,8 @@ function getSkillContent($skill) { return <<<HTML
                 <canvas itemname="lantadymevial"></canvas><br>
                 Lantadyme
             </td>
-            <td><canvas itemname="dragon_scale_dust"></canvas><br>Ground dragon scale</td>
-            <td><canvas itemname="3dose1antidragon"></canvas><br>Anti-FireBreath potion</td>
+            <td><canvas itemname="dragon_scale_dust" show-label="true"></canvas></td>
+            <td><canvas itemname="3dose1antidragon" show-label="true"></canvas></td>
             <td>157.5</td>
         </tr>
         <tr>
@@ -314,8 +316,8 @@ function getSkillContent($skill) { return <<<HTML
                 <canvas itemname="dwarfweedvial"></canvas><br>
                 Dwarf weed
             </td>
-            <td><canvas itemname="wine_of_zamorak"></canvas><br>Wine of Zamorak</td>
-            <td><canvas itemname="3doserangerspotion"></canvas><br>Ranging potion</td>
+            <td><canvas itemname="wine_of_zamorak" show-label="true"></canvas></td>
+            <td><canvas itemname="3doserangerspotion" show-label="true"></canvas></td>
             <td>162.5</td>
         </tr>
         <tr>
@@ -325,11 +327,12 @@ function getSkillContent($skill) { return <<<HTML
                 <canvas itemname="torstolvial"></canvas><br>
                 Torstol
             </td>
-            <td><canvas itemname="jangerberries"></canvas><br>Jangerberries</td>
-            <td><canvas itemname="3dosepotionofzamorak"></canvas><br>Zamorak potion</td>
+            <td><canvas itemname="jangerberries" show-label="true"></canvas></td>
+            <td><canvas itemname="3dosepotionofzamorak" show-label="true"></canvas></td>
             <td>175</td>
         </tr>
     </table>
+    <br>
     <h3>Ground Ingredients</h3>
     The unicorn and dragon scale need to be ground before they can be used in the potions. To grind them use the pestle and mortar bought from the herblore shop.
     <br><br>
@@ -340,21 +343,22 @@ function getSkillContent($skill) { return <<<HTML
             <th>Result</th>
         </tr>
         <tr>
-            <td><canvas itemname="unicorn_horn"></canvas><br>Unicorn horn</td>
-            <td><canvas itemname="pestle_and_mortar"></canvas><br>Pestle & mortar</td>
-            <td><canvas itemname="unicorn_horn_dust"></canvas><br>Unicorn horn dust</td>
+            <td><canvas itemname="unicorn_horn" show-label="true"></canvas></td>
+            <td><canvas itemname="pestle_and_mortar" show-label="true"></canvas></td>
+            <td><canvas itemname="unicorn_horn_dust" show-label="true"></canvas></td>
         </tr>
         <tr>
-            <td><canvas itemname="chocolate_bar"></canvas><br>Chocolate bar</td>
-            <td><canvas itemname="pestle_and_mortar"></canvas><br>Pestle & mortar</td>
-            <td><canvas itemname="chocolate_dust"></canvas><br>Chocolate dust</td>
+            <td><canvas itemname="chocolate_bar" show-label="true"></canvas></td>
+            <td><canvas itemname="pestle_and_mortar" show-label="true"></canvas></td>
+            <td><canvas itemname="chocolate_dust" show-label="true"></canvas></td>
         </tr>
         <tr>
-            <td><canvas itemname="blue_dragon_scale"></canvas><br>Blue dragon scale</td>
-            <td><canvas itemname="pestle_and_mortar"></canvas><br>Pestle & mortar</td>
-            <td><canvas itemname="dragon_scale_dust"></canvas><br>Ground dragon scale</td>
+            <td><canvas itemname="blue_dragon_scale" show-label="true"></canvas></td>
+            <td><canvas itemname="pestle_and_mortar" show-label="true"></canvas></td>
+            <td><canvas itemname="dragon_scale_dust" show-label="true"></canvas></td>
         </tr>
     </table>
+    <br>
     <h3>Weapon Poison</h3>
     <table>
         <tr>
@@ -369,6 +373,7 @@ function getSkillContent($skill) { return <<<HTML
             <td><canvas itemname="3doseantipoison"></canvas></td>
         </tr>
     </table>
+    <br>
     <h3>Secondary Ingredients</h3>
     <table class="table" width="100%">
         <tr>
