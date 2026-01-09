@@ -46,6 +46,12 @@ function getSkillContent($skill) { return <<<HTML
             <td>7.5</td>
         </tr>
         <tr>
+            <td>30</td>
+            <td><canvas itemname="unidentified_toadflax"></canvas><br>Herb</td>
+            <td><canvas itemname="toadflax"></canvas><br>Toadflax</td>
+            <td>8</td>
+        </tr>
+        <tr>
             <td>40</td>
             <td><canvas itemname="unidentified_irit"></canvas><br>Herb</td>
             <td><canvas itemname="irit_leaf"></canvas><br>Irit Leaf</td>
@@ -62,6 +68,12 @@ function getSkillContent($skill) { return <<<HTML
             <td><canvas itemname="unidentified_kwuarm"></canvas><br>Herb</td>
             <td><canvas itemname="kwuarm"></canvas><br>Kwuarm</td>
             <td>11.3</td>
+        </tr>
+        <tr>
+            <td>59</td>
+            <td><canvas itemname="unidentified_snapdragon"></canvas><br>Herb</td>
+            <td><canvas itemname="snapdragon"></canvas><br>Snapdragon</td>
+            <td>11.8</td>
         </tr>
         <tr>
             <td>65</td>
@@ -153,6 +165,17 @@ function getSkillContent($skill) { return <<<HTML
             <td>62.5</td>
         </tr>
         <tr>
+            <td>26</td>
+            <td>
+                <canvas itemname="harralander"></canvas>
+                <canvas itemname="harralandervial"></canvas><br>
+                Harralander
+            </td>
+            <td><canvas itemname="chocolate_dust"></canvas><br>Chocolate dust</td>
+            <td><canvas itemname="3dose1energy"></canvas><br>Energy potion</td>
+            <td>67.5</td>
+        </tr>
+        <tr>
             <td>30</td>
             <td>
                 <canvas itemname="ranarr_weed"></canvas>
@@ -162,6 +185,17 @@ function getSkillContent($skill) { return <<<HTML
             <td><canvas itemname="white_berries"></canvas><br>White Berries</td>
             <td><canvas itemname="3dose1defense"></canvas><br>Defence potion</td>
             <td>75</td>
+        </tr>
+        <tr>
+            <td>34</td>
+            <td>
+                <canvas itemname="toadflax"></canvas>
+                <canvas itemname="toadflaxvial"></canvas><br>
+                Toadflax
+            </td>
+            <td><canvas itemname="toads_legs"></canvas><br>Toad's legs</td>
+            <td><canvas itemname="3dose1agility"></canvas><br>Agility potion</td>
+            <td>80</td>
         </tr>
         <tr>
             <td>38</td>
@@ -208,6 +242,17 @@ function getSkillContent($skill) { return <<<HTML
             <td>112.5</td>
         </tr>
         <tr>
+            <td>52</td>
+            <td>
+                <canvas itemname="avantoe"></canvas>
+                <canvas itemname="avantoevial"></canvas><br>
+                Avantoe
+            </td>
+            <td><canvas itemname="mortmyremushroom"></canvas><br>Mort myre fungi</td>
+            <td><canvas itemname="3dose2energy"></canvas><br>Super energy potion</td>
+            <td>117.5</td>
+        </tr>
+        <tr>
             <td>55</td>
             <td>
                 <canvas itemname="kwuarm"></canvas>
@@ -228,6 +273,17 @@ function getSkillContent($skill) { return <<<HTML
             <td><canvas itemname="dragon_scale_dust"></canvas><br>Ground dragon scale</td>
             <td><canvas itemname="weapon_poison"></canvas><br>Weapon poison</td>
             <td>127.5</td>
+        </tr>
+        <tr>
+            <td>63</td>
+            <td>
+                <canvas itemname="snapdragon"></canvas>
+                <canvas itemname="snapdragonvial"></canvas><br>
+                Snapdragon
+            </td>
+            <td><canvas itemname="red_spiders_eggs"></canvas><br>Red spiders' eggs</td>
+            <td><canvas itemname="3dose2restore"></canvas><br>Super restore potion</td>
+            <td>142.5</td>
         </tr>
         <tr>
             <td>66</td>
@@ -284,13 +340,18 @@ function getSkillContent($skill) { return <<<HTML
             <th>Result</th>
         </tr>
         <tr>
-            <td><canvas itemname="unicorn_horn"></canvas><br>Unicorn Horn</td>
-            <td><canvas itemname="pestle_and_mortar"></canvas><br>Pestle & Mortar</td>
+            <td><canvas itemname="unicorn_horn"></canvas><br>Unicorn horn</td>
+            <td><canvas itemname="pestle_and_mortar"></canvas><br>Pestle & mortar</td>
             <td><canvas itemname="unicorn_horn_dust"></canvas><br>Unicorn horn dust</td>
         </tr>
         <tr>
-            <td><canvas itemname="blue_dragon_scale"></canvas><br>Blue Dragon Scale</td>
-            <td><canvas itemname="pestle_and_mortar"></canvas><br>Pestle & Mortar</td>
+            <td><canvas itemname="chocolate_bar"></canvas><br>Chocolate bar</td>
+            <td><canvas itemname="pestle_and_mortar"></canvas><br>Pestle & mortar</td>
+            <td><canvas itemname="chocolate_dust"></canvas><br>Chocolate dust</td>
+        </tr>
+        <tr>
+            <td><canvas itemname="blue_dragon_scale"></canvas><br>Blue dragon scale</td>
+            <td><canvas itemname="pestle_and_mortar"></canvas><br>Pestle & mortar</td>
             <td><canvas itemname="dragon_scale_dust"></canvas><br>Ground dragon scale</td>
         </tr>
     </table>
@@ -331,12 +392,20 @@ function getSkillContent($skill) { return <<<HTML
             <td>Spawns in the Varrock Sewers and Edgeville Dungeon (Wilderness Area)</td>
         </tr>
         <tr>
+            <td><canvas itemname="chocolate_dust" show-label="true"></canvas></td>
+            <td>Found by grinding chocolate bars with a Pestle and Mortar. Chocolate bars can be found at the cook's guild.</td>
+        </tr>
+        <tr>
             <td><canvas itemname="white_berries" show-label="true"></canvas></td>
             <td>Spawns in the wilderness at the Lava Dragon Isle</td>
         </tr>
         <tr>
             <td><canvas itemname="snape_grass" show-label="true"></canvas></td>
             <td>Spawns at the Hobgoblin Peninsula west of the Crafting Guild</td>
+        </tr>
+        <tr>
+            <td><canvas itemname="mortmyremushroom" show-label="true"></canvas></td>
+            <td>Found at the Mort Myre Swamp. It is obtained by casting Bloom with a blessed silver sickle (requires <a href="?p=questguides&quest=naturespirit">Nature Spirit</a> quest) near rotting logs.</td>
         </tr>
         <tr>
             <td><canvas itemname="dragon_scale_dust" show-label="true"></canvas></td>
