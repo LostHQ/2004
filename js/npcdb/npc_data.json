@@ -1,5 +1,6 @@
 {
   "abbot_langley": {
+    "id": 801,
     "name": "Abbot Langley",
     "vislevel": "hide",
     "desc": "A holy man.",
@@ -14,6 +15,7 @@
     ]
   },
   "achietties": {
+    "id": 796,
     "name": "Achietties",
     "vislevel": "hide",
     "desc": "Distinctly heroic.",
@@ -27,6 +29,7 @@
     ]
   },
   "aemad": {
+    "id": 590,
     "name": "Aemad",
     "vislevel": "hide",
     "desc": "He runs the adventurers' shop.",
@@ -41,12 +44,14 @@
     ]
   },
   "aggie": {
+    "id": 922,
     "name": "Aggie",
     "desc": "A witch.",
     "op1": "Talk-to",
     "vislevel": "hide"
   },
   "aggressive_black_knight": {
+    "id": 179,
     "name": "Black Knight",
     "desc": "A dark-hearted knight.",
     "op2": "Attack",
@@ -104,6 +109,7 @@
     }
   },
   "agilityarena_clerk": {
+    "id": 437,
     "name": "Cap'n Izzy No-Beard",
     "desc": "Entrance clerk for the Brimhaven Agility Arena.",
     "op1": "Talk-to",
@@ -112,6 +118,7 @@
     "moverestrict": "indoors"
   },
   "agilityarena_tickettrader": {
+    "id": 1055,
     "name": "Pirate Jackie the Fruit",
     "desc": "Ticket trader for the Brimhaven Agility Arena.",
     "op1": "Talk-to",
@@ -120,6 +127,7 @@
     "moverestrict": "indoors"
   },
   "al_kharid_man": {
+    "id": 16,
     "name": "Man",
     "desc": "One of the citizens of Al-Kharid.",
     "op3": "Pickpocket",
@@ -159,6 +167,7 @@
     }
   },
   "al_kharid_warrior": {
+    "id": 18,
     "name": "Al-Kharid warrior",
     "desc": "Part of Al-Kharid's elite fighting force.",
     "op3": "Pickpocket",
@@ -208,6 +217,7 @@
     }
   },
   "al_shabim": {
+    "id": 832,
     "name": "Al Shabim.",
     "vislevel": "hide",
     "desc": "He's the leader of the Bedabin tribe.",
@@ -215,6 +225,7 @@
     "wanderrange": "3"
   },
   "alfonse_the_waiter": {
+    "id": 793,
     "name": "Alfonse the waiter",
     "vislevel": "hide",
     "desc": "Smartly dressed, and ready to deliver food.",
@@ -230,6 +241,7 @@
     ]
   },
   "almera_waterfall_quest": {
+    "id": 304,
     "name": "Almera",
     "desc": "Nice hair.",
     "op1": "Talk-to",
@@ -237,6 +249,7 @@
     "moverestrict": "indoors"
   },
   "alomone_hazeel_cultist": {
+    "id": 891,
     "name": "Alomone",
     "desc": "Leader of the Hazeel cult.",
     "op1": "Talk-to",
@@ -262,12 +275,14 @@
     }
   },
   "alrena": {
+    "id": 710,
     "name": "Alrena",
     "vislevel": "hide",
     "desc": "She looks concerned.",
     "op1": "Talk-to"
   },
   "aluft_gianne": {
+    "id": 850,
     "name": "Aluft Gianne",
     "desc": "It's a tree gnome chef.",
     "op1": "Talk-to",
@@ -275,6 +290,7 @@
     "wanderrange": "3"
   },
   "ana": {
+    "id": 822,
     "name": "Ana",
     "vislevel": "hide",
     "desc": "She looks like a tourist.",
@@ -282,12 +298,14 @@
     "wanderrange": "3"
   },
   "anna_sinclair": {
+    "id": 814,
     "name": "Anna",
     "vislevel": "hide",
     "desc": "She's dressed in a red top and green trousers.",
     "op1": "Talk-to"
   },
   "apothecary": {
+    "id": 638,
     "name": "Apothecary",
     "desc": "A dealer in potions.",
     "op1": "Talk-to",
@@ -295,6 +313,7 @@
     "moverestrict": "indoors"
   },
   "aprilfoolshorsesalesman": {
+    "id": 970,
     "name": "Diango",
     "vislevel": "hide",
     "desc": "He smells funny.",
@@ -309,18 +328,21 @@
     ]
   },
   "archaeological_expert": {
+    "id": 619,
     "name": "Archaeological expert",
     "vislevel": "hide",
     "desc": "An expert on archaeology.",
     "op1": "Talk-to"
   },
   "archeradventurerpg": {
+    "id": 649,
     "name": "Archer",
     "vislevel": "hide",
     "desc": "She looks quite experienced.",
     "op1": "Talk-to"
   },
   "ardougne_archer": {
+    "id": 27,
     "name": "Archer",
     "desc": "Good with arrows.",
     "op2": "Attack",
@@ -348,6 +370,7 @@
     ]
   },
   "ardougne_guard": {
+    "id": 32,
     "name": "Guard",
     "desc": "Keeps the peace... kind of.",
     "op2": "Attack",
@@ -404,6 +427,7 @@
     }
   },
   "ardougne_paladin2": {
+    "id": 365,
     "name": "Paladin",
     "desc": "A military man.",
     "op2": "Attack",
@@ -423,6 +447,7 @@
     ]
   },
   "ardougnian_female1": {
+    "id": 25,
     "name": "Woman",
     "desc": "One of RuneScape's many citizens.",
     "op2": "Attack",
@@ -441,6 +466,7 @@
     ]
   },
   "ardougnian_male1": {
+    "id": 24,
     "name": "Man",
     "desc": "One of RuneScape's many citizens.",
     "op2": "Attack",
@@ -459,11 +485,13 @@
     ]
   },
   "ardounge_barman": {
+    "id": 30,
     "name": "Barman",
     "vislevel": "hide",
     "desc": "Doesn't water down the beer too much."
   },
   "ardounge_wizard": {
+    "id": 844,
     "name": "Wizard Cromperty",
     "vislevel": "hide",
     "desc": "The hat is a dead give away.",
@@ -472,6 +500,7 @@
     "moverestrict": "indoors"
   },
   "arena_bouncer": {
+    "id": 269,
     "name": "Bouncer",
     "size": "2",
     "desc": "Nice doggy.",
@@ -490,6 +519,7 @@
     ]
   },
   "arena_guard1": {
+    "id": 253,
     "name": "Khazard Guard",
     "desc": "It's one of General Khazard's guards.",
     "op1": "Talk-to",
@@ -512,6 +542,7 @@
     ]
   },
   "arena_guard2": {
+    "id": 254,
     "name": "Khazard Guard",
     "desc": "It's one of General Khazard's guards.",
     "op1": "Talk-to",
@@ -534,6 +565,7 @@
     ]
   },
   "arena_guard3": {
+    "id": 255,
     "name": "Khazard Guard",
     "desc": "It's one of General Khazard's guards.",
     "op1": "Talk-to",
@@ -556,6 +588,7 @@
     ]
   },
   "arena_guard4": {
+    "id": 256,
     "name": "Khazard Guard",
     "desc": "It's one of General Khazard's guards.",
     "op1": "Talk-to",
@@ -578,6 +611,7 @@
     ]
   },
   "arena_guard5_cutscene": {
+    "id": 257,
     "name": "Khazard Guard",
     "desc": "It's one of General Khazard's guards.",
     "vislevel": "25",
@@ -597,12 +631,14 @@
     ]
   },
   "arena_local": {
+    "id": 268,
     "name": "Local",
     "vislevel": "hide",
     "desc": "A scruffy looking chap.",
     "op1": "Talk-to"
   },
   "arena_ogre": {
+    "id": 270,
     "name": "Khazard Ogre",
     "desc": "Khazard's strongest ogre warrior.",
     "size": "2",
@@ -624,6 +660,7 @@
     ]
   },
   "arena_scorpion": {
+    "id": 271,
     "name": "Khazard Scorpion",
     "desc": "A large angry scorpion.",
     "size": "2",
@@ -646,6 +683,7 @@
     ]
   },
   "arenamage1": {
+    "id": 905,
     "name": "Kolodion",
     "vislevel": "hide",
     "desc": "He runs the mage arena.",
@@ -653,6 +691,7 @@
     "wanderrange": "1"
   },
   "arenamage2": {
+    "id": 906,
     "name": "Kolodion",
     "vislevel": "hide",
     "desc": "He runs the mage arena.",
@@ -660,6 +699,7 @@
     "moverestrict": "nomove"
   },
   "arhein": {
+    "id": 563,
     "name": "Arhein",
     "vislevel": "hide",
     "desc": "He looks fairly well-to-do.",
@@ -675,6 +715,7 @@
     ]
   },
   "aris": {
+    "id": 882,
     "name": "Gypsy",
     "vislevel": "hide",
     "desc": "An old gypsy lady.",
@@ -682,6 +723,7 @@
     "moverestrict": "indoors"
   },
   "Artist1": {
+    "id": 336,
     "name": "DeVinci",
     "vislevel": "hide",
     "op1": "Talk-to",
@@ -689,6 +731,7 @@
     "wanderrange": "3"
   },
   "Artist2": {
+    "id": 337,
     "name": "DeVinci",
     "vislevel": "hide",
     "op1": "Talk-to",
@@ -697,6 +740,7 @@
     "moverestrict": "indoors"
   },
   "aubury": {
+    "id": 553,
     "name": "Aubury",
     "vislevel": "hide",
     "desc": "Runes are his passion.",
@@ -712,12 +756,14 @@
     ]
   },
   "avan": {
+    "id": 663,
     "name": "Man",
     "vislevel": "hide",
     "desc": "A well dressed nobleman.",
     "op1": "Talk-to"
   },
   "babybluedragon": {
+    "id": 52,
     "name": "Baby blue dragon",
     "size": "2",
     "desc": "Young but still dangerous.",
@@ -747,6 +793,7 @@
     }
   },
   "babydragon": {
+    "id": 51,
     "name": "Baby dragon",
     "size": "2",
     "desc": "Young but still dangerous.",
@@ -776,6 +823,7 @@
     }
   },
   "bailey": {
+    "id": 695,
     "name": "Bailey",
     "vislevel": "hide",
     "op1": "Talk-to",
@@ -783,6 +831,7 @@
     "moverestrict": "indoors"
   },
   "baker_merchant": {
+    "id": 571,
     "name": "Baker",
     "vislevel": "hide",
     "desc": "So where are the butcher and the candlestick maker?",
@@ -797,12 +846,14 @@
     ]
   },
   "ballboy": {
+    "id": 895,
     "name": "Boy",
     "vislevel": "hide",
     "desc": "A sad looking child...",
     "op1": "Talk-to"
   },
   "banker1": {
+    "id": 494,
     "name": "Banker",
     "vislevel": "hide",
     "desc": "He can look after my money.",
@@ -813,6 +864,7 @@
     "moverestrict": "nomove"
   },
   "banker2": {
+    "id": 495,
     "name": "Banker",
     "vislevel": "hide",
     "desc": "Good with money.",
@@ -823,6 +875,7 @@
     "moverestrict": "nomove"
   },
   "baraek": {
+    "id": 547,
     "name": "Baraek",
     "vislevel": "hide",
     "desc": "Animal skins are a speciality.",
@@ -830,6 +883,7 @@
     "wanderrange": "2"
   },
   "barbarian": {
+    "id": 12,
     "name": "Barbarian",
     "desc": "Not very civilised looking.",
     "op1": "Talk-to",
@@ -885,6 +939,7 @@
     }
   },
   "barbarian_guard": {
+    "id": 197,
     "name": "Barbarian guard",
     "desc": "Not very civilised looking.",
     "op2": "Attack",
@@ -906,6 +961,7 @@
     ]
   },
   "barbarian_woman": {
+    "id": 17,
     "name": "Barbarian woman",
     "desc": "Scary in an argument!",
     "op2": "Attack",
@@ -957,6 +1013,7 @@
     }
   },
   "barbguard1": {
+    "id": 384,
     "name": "Barbarian guard",
     "vislevel": "hide",
     "desc": "Not very civilised looking.",
@@ -964,6 +1021,7 @@
     "wanderrange": "2"
   },
   "bat": {
+    "id": 78,
     "name": "Giant bat",
     "desc": "Annoying flappy thing.",
     "size": "2",
@@ -994,6 +1052,7 @@
     }
   },
   "bearded_dark_wizard": {
+    "id": 172,
     "name": "Dark wizard",
     "desc": "A practicer of dark arts.",
     "op2": "Attack",
@@ -1051,6 +1110,7 @@
     }
   },
   "bedabin": {
+    "id": 833,
     "name": "Bedabin Nomad",
     "vislevel": "hide",
     "desc": "A bedabin nomad, they live in the harshest extremes in the desert.",
@@ -1065,6 +1125,7 @@
     ]
   },
   "bedabin_guard": {
+    "id": 834,
     "name": "Bedabin Nomad Guard",
     "desc": "A bedabin nomad guard - it looks like he's protecting an area.",
     "op1": "Talk-to",
@@ -1085,6 +1146,7 @@
     ]
   },
   "betty": {
+    "id": 583,
     "name": "Betty",
     "vislevel": "hide",
     "desc": "She seems like a nice sort of person.",
@@ -1099,6 +1161,7 @@
     ]
   },
   "bigdave": {
+    "id": 228,
     "name": "Big Dave",
     "vislevel": "hide",
     "desc": "I can see how he got his name.",
@@ -1106,6 +1169,7 @@
     "wanderrange": "1"
   },
   "billy_rehnison": {
+    "id": 723,
     "name": "Billy Rehnison",
     "vislevel": "hide",
     "desc": "The Rehnisons' eldest son.",
@@ -1113,6 +1177,7 @@
     "moverestrict": "indoors"
   },
   "bioguard1": {
+    "id": 368,
     "name": "Guard",
     "vislevel": "hide",
     "desc": "He tries to keep order around here.",
@@ -1121,6 +1186,7 @@
     "moverestrict": "nomove"
   },
   "bionurse": {
+    "id": 373,
     "name": "Nurse Sarah",
     "vislevel": "hide",
     "desc": "She's quite a looker!",
@@ -1128,6 +1194,7 @@
     "moverestrict": "indoors"
   },
   "black_demon": {
+    "id": 84,
     "name": "Black Demon",
     "size": "3",
     "desc": "A big, scary, jet-black demon.",
@@ -1179,6 +1246,7 @@
     }
   },
   "black_dragon": {
+    "id": 54,
     "name": "Black dragon",
     "size": "4",
     "desc": "A fierce dragon with black scales!",
@@ -1236,6 +1304,7 @@
     }
   },
   "black_heather": {
+    "id": 202,
     "name": "Black Heather",
     "desc": "Has a fearsome scowl.",
     "op1": "Talk-to",
@@ -1285,6 +1354,7 @@
     }
   },
   "black_knight": {
+    "id": 178,
     "name": "Black Knight",
     "desc": "A dark-hearted knight.",
     "op2": "Attack",
@@ -1340,6 +1410,7 @@
     }
   },
   "black_knight_titan": {
+    "id": 221,
     "name": "Black Knight Titan",
     "desc": "He looks mean and powerful.",
     "op1": "Talk-to",
@@ -1400,6 +1471,7 @@
     }
   },
   "black_unicorn": {
+    "id": 133,
     "name": "Black unicorn",
     "size": "2",
     "desc": "A unicorn with a blackened heart.",
@@ -1426,6 +1498,7 @@
     }
   },
   "blessed_giantrat": {
+    "id": 978,
     "name": "Blessed Giant rat",
     "size": "2",
     "desc": "It's one of Ibans' pet vermin.",
@@ -1448,6 +1521,7 @@
     ]
   },
   "blessed_spider": {
+    "id": 977,
     "name": "Blessed spider",
     "desc": "It's one of Ibans' pets.",
     "op2": "Attack",
@@ -1471,6 +1545,7 @@
     ]
   },
   "bloated_toad": {
+    "id": 1014,
     "name": "Bloated Toad",
     "vislevel": "hide",
     "desc": "A green skinned croaker.",
@@ -1478,6 +1553,7 @@
     "moverestrict": "nomove"
   },
   "blue_dragon": {
+    "id": 55,
     "name": "Blue dragon",
     "size": "4",
     "desc": "A mother dragon.",
@@ -1534,6 +1610,7 @@
     }
   },
   "bluemoon_bartender": {
+    "id": 733,
     "name": "Bartender",
     "vislevel": "hide",
     "desc": "I could get a beer from him.",
@@ -1541,6 +1618,7 @@
     "wanderrange": "2"
   },
   "blurberry": {
+    "id": 848,
     "name": "Blurberry",
     "vislevel": "hide",
     "desc": "He seems to run the cocktail bar.",
@@ -1548,6 +1626,7 @@
     "wanderrange": "3"
   },
   "blurberrybarmen": {
+    "id": 849,
     "name": "Barman",
     "vislevel": "hide",
     "desc": "He serves cocktails.",
@@ -1562,6 +1641,7 @@
     ]
   },
   "bob": {
+    "id": 519,
     "name": "Bob",
     "vislevel": "hide",
     "desc": "An expert on axes.",
@@ -1576,18 +1656,21 @@
     ]
   },
   "bob_sinclair": {
+    "id": 815,
     "name": "Bob",
     "vislevel": "hide",
     "desc": "He's dressed all in red.",
     "op1": "Talk-to"
   },
   "bonzo": {
+    "id": 225,
     "name": "Bonzo",
     "vislevel": "hide",
     "desc": "The Fishing Contest Judge.",
     "op1": "Talk-to"
   },
   "boot_the_dwarf": {
+    "id": 665,
     "name": "Boot",
     "vislevel": "hide",
     "desc": "A short angry guy.",
@@ -1603,6 +1686,7 @@
     ]
   },
   "borderguard1": {
+    "id": 925,
     "name": "Border Guard",
     "desc": "Guards the border.",
     "op1": "Talk-to",
@@ -1622,6 +1706,7 @@
     ]
   },
   "borderguard2": {
+    "id": 926,
     "name": "Border Guard",
     "desc": "Guards the border.",
     "op1": "Talk-to",
@@ -1641,6 +1726,7 @@
     ]
   },
   "boulder_legends": {
+    "id": 939,
     "name": "Boulder",
     "desc": "I wonder what this is doing here.",
     "size": "2",
@@ -1651,6 +1737,7 @@
     "defaultmode": "none"
   },
   "boulder_upass": {
+    "id": 986,
     "name": "Boulder",
     "desc": "Precariously balanced....",
     "size": "2",
@@ -1662,12 +1749,14 @@
     "blockwalk": "all"
   },
   "bravek": {
+    "id": 711,
     "name": "Bravek",
     "vislevel": "hide",
     "desc": "The city warder of West Ardougne.",
     "op1": "Talk-to"
   },
   "brawling_bandit": {
+    "id": 195,
     "name": "Bandit",
     "desc": "A wilderness outlaw.",
     "op2": "Attack",
@@ -1714,6 +1803,7 @@
     }
   },
   "brian": {
+    "id": 559,
     "name": "Brian",
     "vislevel": "hide",
     "desc": "An expert on axes.",
@@ -1728,6 +1818,7 @@
     ]
   },
   "brimhavencartdriver": {
+    "id": 510,
     "name": "Hajedy",
     "vislevel": "hide",
     "desc": "A cart driver, it looks like he's quite experienced.",
@@ -1735,12 +1826,14 @@
     "wanderrange": "3"
   },
   "brother_cedric": {
+    "id": 280,
     "name": "Brother Cedric",
     "vislevel": "hide",
     "desc": "An old drunk monk.",
     "op1": "Talk-to"
   },
   "brother_galahad": {
+    "id": 218,
     "name": "Galahad",
     "vislevel": "hide",
     "desc": "A former Knight of the Round Table.",
@@ -1748,6 +1841,7 @@
     "moverestrict": "indoors"
   },
   "brother_jered": {
+    "id": 802,
     "name": "Brother Jered",
     "vislevel": "hide",
     "desc": "A holy man.",
@@ -1762,12 +1856,14 @@
     ]
   },
   "brother_kojo": {
+    "id": 223,
     "name": "Brother Kojo",
     "vislevel": "hide",
     "desc": "A peaceful monk.",
     "op1": "Talk-to"
   },
   "brother_omad": {
+    "id": 279,
     "name": "Brother Omad",
     "vislevel": "hide",
     "desc": "An old monk.",
@@ -1775,6 +1871,7 @@
     "wanderrange": "3"
   },
   "browclothedgnome": {
+    "id": 67,
     "name": "Gnome",
     "desc": "Like a mini man!",
     "op1": "Talk-to",
@@ -1797,6 +1894,7 @@
     ]
   },
   "brownbear": {
+    "id": 105,
     "name": "Bear",
     "size": "2",
     "desc": "Eek! A bear!",
@@ -1823,6 +1921,7 @@
     }
   },
   "bugs": {
+    "id": 1012,
     "name": "Bugs",
     "vislevel": "hide",
     "desc": "This must be Rantz's son.",
@@ -1833,54 +1932,63 @@
     ]
   },
   "butler_jones_hazeel_cultist": {
+    "id": 890,
     "name": "Butler Jones",
     "vislevel": "hide",
     "desc": "The Carnillean family butler.",
     "op1": "Talk-to"
   },
   "butterfly": {
+    "id": 153,
     "name": "Butterfly",
     "desc": "These look much better in the wild.",
     "vislevel": "hide",
     "wanderrange": "10"
   },
   "butterfly_bluemorpo": {
+    "id": 155,
     "name": "Butterfly",
     "desc": "It's a Blue Morpho Butterfly.",
     "vislevel": "hide",
     "wanderrange": "10"
   },
   "butterfly_tigerswallowtail": {
+    "id": 156,
     "name": "Butterfly",
     "desc": "It's a Tiger Swallowtail Butterfly.",
     "vislevel": "hide",
     "wanderrange": "10"
   },
   "butterfly_viceroy": {
+    "id": 157,
     "name": "Butterfly",
     "desc": "It's a Viceroy Butterfly.",
     "vislevel": "hide",
     "wanderrange": "10"
   },
   "butterfly2": {
+    "id": 154,
     "name": "Butterfly",
     "desc": "I love butterflies.",
     "vislevel": "hide",
     "wanderrange": "10"
   },
   "cabin_boy_jenkins": {
+    "id": 754,
     "name": "Cabin Boy Jenkins",
     "vislevel": "hide",
     "desc": "His job is to keep the ship in tip-top condition!",
     "op1": "Talk-to"
   },
   "caleb_fitzharmon": {
+    "id": 666,
     "name": "Caleb",
     "vislevel": "hide",
     "desc": "A well dressed nobleman.",
     "op1": "Talk-to"
   },
   "camel": {
+    "id": 80,
     "name": "Camel",
     "vislevel": "hide",
     "size": "2",
@@ -1888,6 +1996,7 @@
     "moverestrict": "outdoors"
   },
   "canafis_man1": {
+    "id": 1024,
     "name": "Man",
     "op2": "Attack",
     "desc": "One of RuneScape's many citizens.",
@@ -1950,6 +2059,7 @@
     }
   },
   "canafis_man2": {
+    "id": 1025,
     "name": "Man",
     "op2": "Attack",
     "desc": "One of RuneScape's many citizens.",
@@ -2012,6 +2122,7 @@
     }
   },
   "canafis_man3": {
+    "id": 1026,
     "name": "Man",
     "op2": "Attack",
     "desc": "One of RuneScape's many citizens.",
@@ -2074,6 +2185,7 @@
     }
   },
   "canafis_werewolf_man1": {
+    "id": 1030,
     "name": "Wolfman",
     "desc": "Eek! A werewolf!",
     "op2": "Attack",
@@ -2117,6 +2229,7 @@
     }
   },
   "canafis_werewolf_man2": {
+    "id": 1031,
     "name": "Wolfman",
     "desc": "Eek! A werewolf!",
     "op2": "Attack",
@@ -2160,6 +2273,7 @@
     }
   },
   "canafis_werewolf_man3": {
+    "id": 1032,
     "name": "Wolfman",
     "desc": "Eek! A werewolf!",
     "op2": "Attack",
@@ -2203,6 +2317,7 @@
     }
   },
   "canafis_werewolf_woman1": {
+    "id": 1033,
     "name": "Wolfwoman",
     "desc": "Eek! A werewolf!",
     "op2": "Attack",
@@ -2246,6 +2361,7 @@
     }
   },
   "canafis_werewolf_woman2": {
+    "id": 1034,
     "name": "Wolfwoman",
     "desc": "Eek! A werewolf!",
     "op2": "Attack",
@@ -2289,6 +2405,7 @@
     }
   },
   "canafis_werewolf_woman3": {
+    "id": 1035,
     "name": "Wolfwoman",
     "desc": "Eek! A werewolf!",
     "op2": "Attack",
@@ -2332,6 +2449,7 @@
     }
   },
   "canafis_woman1": {
+    "id": 1027,
     "name": "Woman",
     "op2": "Attack",
     "desc": "One of RuneScape's many citizens.",
@@ -2394,6 +2512,7 @@
     }
   },
   "canafis_woman2": {
+    "id": 1028,
     "name": "Woman",
     "op2": "Attack",
     "desc": "One of RuneScape's many citizens.",
@@ -2456,6 +2575,7 @@
     }
   },
   "canafis_woman3": {
+    "id": 1029,
     "name": "Woman",
     "op2": "Attack",
     "desc": "One of RuneScape's many citizens.",
@@ -2518,6 +2638,7 @@
     }
   },
   "candle_maker": {
+    "id": 562,
     "name": "Candle maker",
     "vislevel": "hide",
     "desc": "Has an odd smell about him.",
@@ -2533,6 +2654,7 @@
     ]
   },
   "capt_siad": {
+    "id": 831,
     "name": "Captain Siad",
     "desc": "He's in control of the whole mining camp.",
     "op1": "Talk-to",
@@ -2540,6 +2662,7 @@
     "wanderrange": "3"
   },
   "captain_barnaby": {
+    "id": 381,
     "name": "Captain Barnaby",
     "vislevel": "hide",
     "desc": "An old sailor.",
@@ -2547,6 +2670,7 @@
     "wanderrange": "6"
   },
   "captain_rovin": {
+    "id": 884,
     "name": "Captain Rovin",
     "vislevel": "hide",
     "desc": "The head of the palace guard.",
@@ -2554,35 +2678,41 @@
     "moverestrict": "indoors"
   },
   "captain_shanks": {
+    "id": 518,
     "name": "Captain Shanks",
     "vislevel": "hide",
     "desc": "He's the Captain of the 'Lady of the Waves'.",
     "op1": "Talk-to"
   },
   "captain_tobias": {
+    "id": 376,
     "name": "Captain Tobias",
     "vislevel": "hide",
     "desc": "An old sea dog.",
     "op1": "Talk-to"
   },
   "carla": {
+    "id": 712,
     "name": "Carla",
     "vislevel": "hide",
     "desc": "She looks upset.",
     "op1": "Talk-to"
   },
   "carnillean_wife": {
+    "id": 889,
     "name": "Henryeta Carnillean",
     "vislevel": "hide",
     "desc": "Ceril Carnilleans' wife."
   },
   "carol_sinclair": {
+    "id": 816,
     "name": "Carol",
     "vislevel": "hide",
     "desc": "She's wearing a blue top and red trousers.",
     "op1": "Talk-to"
   },
   "caroline": {
+    "id": 696,
     "name": "Caroline",
     "vislevel": "hide",
     "op1": "Talk-to",
@@ -2590,6 +2720,7 @@
     "wanderrange": "2"
   },
   "cassie": {
+    "id": 577,
     "name": "Cassie",
     "vislevel": "hide",
     "desc": "Nice eyes.",
@@ -2604,6 +2735,7 @@
     ]
   },
   "cave_monk": {
+    "id": 656,
     "name": "Cave monk",
     "vislevel": "hide",
     "desc": "Unsurprisingly monk like.",
@@ -2612,60 +2744,70 @@
     "moverestrict": "nomove"
   },
   "cave_slave1": {
+    "id": 979,
     "name": "Slave",
     "vislevel": "hide",
     "desc": "A wretched slave of Iban.",
     "op1": "Talk-to"
   },
   "cave_slave2": {
+    "id": 980,
     "name": "Slave",
     "vislevel": "hide",
     "desc": "A wretched slave of Iban.",
     "op1": "Talk-to"
   },
   "cave_slave3": {
+    "id": 981,
     "name": "Slave",
     "vislevel": "hide",
     "desc": "A wretched slave of Iban.",
     "op1": "Talk-to"
   },
   "cave_slave4": {
+    "id": 982,
     "name": "Slave",
     "vislevel": "hide",
     "desc": "A wretched slave of Iban.",
     "op1": "Talk-to"
   },
   "cave_slave5": {
+    "id": 983,
     "name": "Slave",
     "vislevel": "hide",
     "desc": "A wretched slave of Iban.",
     "op1": "Talk-to"
   },
   "cave_slave6": {
+    "id": 984,
     "name": "Slave",
     "vislevel": "hide",
     "desc": "A wretched slave of Iban.",
     "op1": "Talk-to"
   },
   "cave_slave7": {
+    "id": 985,
     "name": "Slave",
     "vislevel": "hide",
     "desc": "A wretched slave of Iban.",
     "op1": "Talk-to"
   },
   "caveguide1": {
+    "id": 972,
     "name": "Koftik",
     "vislevel": "hide",
     "desc": "The cave guide.",
     "op1": "Talk-to"
   },
   "caveguide2": {
+    "id": 973,
     "name": "Koftik",
     "vislevel": "hide",
     "desc": "The cave guide.",
     "op1": "Talk-to"
   },
   "caveguide3": {
+    "id": 974,
     "name": "Koftik",
     "vislevel": "hide",
     "desc": "The cave guide.",
@@ -2673,24 +2815,28 @@
     "wanderrange": "2"
   },
   "caveguide4": {
+    "id": 975,
     "name": "Koftik",
     "vislevel": "hide",
     "desc": "The cave guide.",
     "op1": "Talk-to"
   },
   "caveguide5": {
+    "id": 976,
     "name": "Koftik",
     "vislevel": "hide",
     "desc": "The cave guide.",
     "op1": "Talk-to"
   },
   "cavewitch": {
+    "id": 992,
     "name": "Kardia",
     "vislevel": "hide",
     "desc": "A dark and evil crone.",
     "op1": "Talk-to"
   },
   "cavewitchcat": {
+    "id": 993,
     "name": "Witches cat",
     "vislevel": "hide",
     "desc": "Curiosity is yet to kill this one...",
@@ -2698,6 +2844,7 @@
     "respawnrate": "100"
   },
   "chadwell": {
+    "id": 971,
     "name": "chadwell",
     "vislevel": "hide",
     "desc": "Shop keeper.",
@@ -2711,6 +2858,7 @@
     ]
   },
   "chantergnome": {
+    "id": 485,
     "name": "Local Gnome",
     "vislevel": "hide",
     "desc": "It's a young tree gnome.",
@@ -2723,6 +2871,7 @@
     "defence": "3"
   },
   "chaos_druid": {
+    "id": 181,
     "name": "Chaos druid",
     "desc": "A crazy evil druid.",
     "op2": "Attack",
@@ -2766,6 +2915,7 @@
     }
   },
   "chaos_druid_warrior": {
+    "id": 193,
     "name": "Chaos druid warrior",
     "desc": "A crazy evil druid.",
     "op2": "Attack",
@@ -2817,6 +2967,7 @@
     }
   },
   "chaosmonk1": {
+    "id": 188,
     "name": "Monk of Zamorak",
     "desc": "An evil human cleric.",
     "op2": "Attack",
@@ -2836,6 +2987,7 @@
     ]
   },
   "chaosmonk2": {
+    "id": 189,
     "name": "Monk of Zamorak",
     "desc": "An evil human cleric.",
     "op2": "Attack",
@@ -2855,6 +3007,7 @@
     ]
   },
   "chaosmonk3": {
+    "id": 190,
     "name": "Monk of Zamorak",
     "desc": "An evil human cleric.",
     "op2": "Attack",
@@ -2874,6 +3027,7 @@
     ]
   },
   "charlie_the_cook": {
+    "id": 794,
     "name": "Charlie the cook",
     "vislevel": "hide",
     "desc": "Distinctly cook-like.",
@@ -2887,6 +3041,7 @@
     ]
   },
   "chemist": {
+    "id": 367,
     "name": "Chemist",
     "vislevel": "hide",
     "desc": "Smells very chemically...",
@@ -2894,6 +3049,7 @@
     "moverestrict": "indoors"
   },
   "chicken": {
+    "id": 41,
     "name": "Chicken",
     "desc": "Yep, definitely a chicken.",
     "op2": "Attack",
@@ -2924,6 +3080,7 @@
     }
   },
   "chicken_brown": {
+    "id": 1017,
     "name": "Chicken",
     "desc": "Yep, definitely a chicken.",
     "op2": "Attack",
@@ -2953,6 +3110,7 @@
     }
   },
   "chompy_bird": {
+    "id": 1015,
     "name": "Chompy bird",
     "desc": "A large boisterous bird, a delicacy for ogres.",
     "op5": "Attack",
@@ -2965,6 +3123,7 @@
     "huntrange": "2"
   },
   "chompybird_dead": {
+    "id": 1016,
     "name": "Chompy bird",
     "vislevel": "hide",
     "desc": "A once boisterous bird, closer to being an ogre delicacy.",
@@ -2974,6 +3133,7 @@
     "moverestrict": "nomove"
   },
   "chronozon": {
+    "id": 667,
     "name": "Chronozon",
     "size": "3",
     "desc": "Chronozon the blood demon.",
@@ -3000,6 +3160,7 @@
     }
   },
   "chuck_woodman": {
+    "id": 29,
     "name": "Chuck",
     "desc": "He's a lumberjack, and he's ok.",
     "vislevel": "1",
@@ -3011,6 +3172,7 @@
     ]
   },
   "city_guard": {
+    "id": 862,
     "name": "City guard",
     "desc": "Tries to keep the peace.",
     "size": "2",
@@ -3037,12 +3199,14 @@
     }
   },
   "claus_carnillean": {
+    "id": 886,
     "name": "Claus the chef",
     "vislevel": "hide",
     "desc": "The Carnillean family chef.",
     "op1": "Talk-to"
   },
   "clerk": {
+    "id": 713,
     "name": "Clerk",
     "vislevel": "hide",
     "desc": "A bureaucratic administrator.",
@@ -3051,6 +3215,7 @@
     "moverestrict": "nomove"
   },
   "clivet_hazeel_cultist": {
+    "id": 893,
     "name": "Clivet",
     "desc": "A member of the Hazeel cult.",
     "op1": "Talk-to",
@@ -3068,6 +3233,7 @@
     ]
   },
   "clocktower_rat": {
+    "id": 224,
     "name": "Dungeon rat",
     "desc": "A dirty rat.",
     "op2": "Attack",
@@ -3084,6 +3250,7 @@
     ]
   },
   "colonel_radick": {
+    "id": 878,
     "name": "Colonel Radick",
     "desc": "A military man.",
     "op1": "Talk-to",
@@ -3133,12 +3300,14 @@
     }
   },
   "commander_montai": {
+    "id": 470,
     "name": "Commander Montai",
     "vislevel": "hide",
     "desc": "It's a tree gnome.",
     "op1": "Talk-to"
   },
   "cook": {
+    "id": 278,
     "name": "Cook",
     "vislevel": "hide",
     "desc": "The head cook of Lumbridge castle.",
@@ -3146,6 +3315,7 @@
     "moverestrict": "indoors"
   },
   "councillor_halgrive": {
+    "id": 289,
     "name": "Councillor Halgrive",
     "vislevel": "hide",
     "desc": "Important looking.",
@@ -3153,6 +3323,7 @@
     "wanderrange": "3"
   },
   "count_draynor": {
+    "id": 757,
     "name": "Count Draynor",
     "desc": "Stop looking and run!",
     "op2": "Attack",
@@ -3170,6 +3341,7 @@
     ]
   },
   "cow": {
+    "id": 81,
     "name": "Cow",
     "size": "2",
     "desc": "It's a dairy cow.",
@@ -3196,6 +3368,7 @@
     }
   },
   "cow2": {
+    "id": 397,
     "name": "Cow",
     "size": "2",
     "desc": "It's a dairy cow.",
@@ -3222,6 +3395,7 @@
     }
   },
   "cow3": {
+    "id": 955,
     "name": "Cow",
     "size": "2",
     "desc": "It's a dairy cow.",
@@ -3248,12 +3422,14 @@
     }
   },
   "curator": {
+    "id": 646,
     "name": "Curator",
     "vislevel": "hide",
     "desc": "He runs the museum.",
     "op1": "Talk-to"
   },
   "customs_officer": {
+    "id": 380,
     "name": "Customs officer",
     "vislevel": "hide",
     "desc": "Inspects peoples' packages.",
@@ -3261,6 +3437,7 @@
     "wanderrange": "4"
   },
   "cyclops": {
+    "id": 116,
     "name": "Cyclops",
     "size": "2",
     "desc": "A one-eyed man eater.",
@@ -3285,6 +3462,7 @@
     }
   },
   "d_skingnomeknight": {
+    "id": 480,
     "name": "Gnome troop",
     "desc": "It's a tree gnome trooper.",
     "op1": "Talk-to",
@@ -3306,6 +3484,7 @@
     ]
   },
   "dark_warrior": {
+    "id": 192,
     "name": "Dark warrior",
     "desc": "A warrior touched by chaos.",
     "op2": "Attack",
@@ -3354,6 +3533,7 @@
     }
   },
   "darkbear": {
+    "id": 106,
     "name": "Bear",
     "size": "2",
     "desc": "Eek! A bear!",
@@ -3380,6 +3560,7 @@
     }
   },
   "darkskinned_gnome": {
+    "id": 68,
     "name": "Gnome",
     "desc": "Like a mini man!",
     "op1": "Talk-to",
@@ -3402,12 +3583,14 @@
     ]
   },
   "david_sinclair": {
+    "id": 817,
     "name": "David",
     "vislevel": "hide",
     "desc": "He's dressed all in green.",
     "op1": "Talk-to"
   },
   "davon": {
+    "id": 588,
     "name": "Davon",
     "vislevel": "hide",
     "desc": "An amulet trader.",
@@ -3423,6 +3606,7 @@
     ]
   },
   "deadly_red_spider": {
+    "id": 63,
     "name": "Deadly red spider",
     "desc": "I think this spider has been genetically modified.",
     "op2": "Attack",
@@ -3446,12 +3630,14 @@
     ]
   },
   "deadmans_bartender": {
+    "id": 735,
     "name": "Bartender",
     "vislevel": "hide",
     "desc": "I could get a beer from him.",
     "op1": "Talk-to"
   },
   "death_archer_trapped": {
+    "id": 1075,
     "name": "Archer",
     "desc": "A Burthorpe Castle archer.",
     "op1": "Talk-to",
@@ -3507,6 +3693,7 @@
     }
   },
   "death_archer1": {
+    "id": 1073,
     "name": "Archer",
     "desc": "A Burthorpe Castle archer.",
     "op1": "Talk-to",
@@ -3562,6 +3749,7 @@
     }
   },
   "death_archer2": {
+    "id": 1074,
     "name": "Archer",
     "desc": "A Burthorpe Castle archer.",
     "op1": "Talk-to",
@@ -3617,6 +3805,7 @@
     }
   },
   "death_barman": {
+    "id": 1079,
     "name": "Tostig",
     "desc": "Barman of the Toad and Chicken.",
     "op1": "Talk-to",
@@ -3630,6 +3819,7 @@
     ]
   },
   "death_cook": {
+    "id": 1072,
     "name": "Eadburg",
     "desc": "The Burthorpe Castle cook.",
     "op1": "Talk-to",
@@ -3650,12 +3840,14 @@
     ]
   },
   "death_guard_equiproom": {
+    "id": 1078,
     "name": "Harold",
     "desc": "An off-duty Burthorpe Castle guard.",
     "op1": "Talk-to",
     "vislevel": "hide"
   },
   "death_guard1": {
+    "id": 1076,
     "name": "Guard",
     "desc": "A Burthorpe Castle guard.",
     "op1": "Talk-to",
@@ -3713,6 +3905,7 @@
     }
   },
   "death_guard2": {
+    "id": 1077,
     "name": "Guard",
     "desc": "A Burthorpe Castle guard.",
     "op1": "Talk-to",
@@ -3770,12 +3963,14 @@
     }
   },
   "death_headservant": {
+    "id": 1080,
     "name": "Eohric",
     "desc": "Head servant for Prince Anlaf.",
     "op1": "Talk-to",
     "vislevel": "hide"
   },
   "death_ig_commander": {
+    "id": 1060,
     "name": "Denulth",
     "desc": "Commander of the Imperial Guard.",
     "op1": "Talk-to",
@@ -3783,6 +3978,7 @@
     "moverestrict": "indoors"
   },
   "death_ig_sergeant_drilling": {
+    "id": 1061,
     "name": "Sergeant",
     "desc": "Sergeant of the Imperial Guard.",
     "op1": "Talk-to",
@@ -3791,6 +3987,7 @@
     "moverestrict": "nomove"
   },
   "death_ig_sergeant_training": {
+    "id": 1062,
     "name": "Sergeant",
     "desc": "Sergeant of the Imperial Guard.",
     "op1": "Talk-to",
@@ -3798,6 +3995,7 @@
     "moverestrict": "outdoors"
   },
   "death_ig_solider_drilling": {
+    "id": 1063,
     "name": "Soldier",
     "desc": "A soldier of the Imperial Guard.",
     "op1": "Talk-to",
@@ -3806,6 +4004,7 @@
     "moverestrict": "nomove"
   },
   "death_ig_solider_sitting1": {
+    "id": 1066,
     "name": "Soldier",
     "desc": "A soldier of the Imperial Guard.",
     "op1": "Talk-to",
@@ -3814,6 +4013,7 @@
     "moverestrict": "nomove"
   },
   "death_ig_solider_sitting2": {
+    "id": 1067,
     "name": "Soldier",
     "desc": "A soldier of the Imperial Guard.",
     "op1": "Talk-to",
@@ -3822,6 +4022,7 @@
     "moverestrict": "nomove"
   },
   "death_ig_solider_sitting3": {
+    "id": 1068,
     "name": "Soldier",
     "desc": "A soldier of the Imperial Guard.",
     "op1": "Talk-to",
@@ -3830,6 +4031,7 @@
     "moverestrict": "nomove"
   },
   "death_ig_solider_training": {
+    "id": 1064,
     "name": "Soldier",
     "desc": "A soldier of the Imperial Guard.",
     "op1": "Talk-to",
@@ -3838,6 +4040,7 @@
     "moverestrict": "nomove"
   },
   "death_ig_solider_wander": {
+    "id": 1065,
     "name": "Soldier",
     "desc": "A soldier of the Imperial Guard.",
     "op1": "Talk-to",
@@ -3885,6 +4088,7 @@
     }
   },
   "death_ig_solider_wounded": {
+    "id": 1069,
     "name": "Soldier",
     "desc": "A soldier of the Imperial Guard.",
     "size": "2",
@@ -3894,6 +4098,7 @@
     "moverestrict": "nomove"
   },
   "death_man_indoors2": {
+    "id": 1087,
     "name": "Penda",
     "desc": "A citizen of Burthorpe.",
     "op1": "Talk-to",
@@ -3941,6 +4146,7 @@
     }
   },
   "death_man_outdoors1": {
+    "id": 1084,
     "name": "Breoca",
     "desc": "A citizen of Burthorpe.",
     "op1": "Talk-to",
@@ -3988,6 +4194,7 @@
     }
   },
   "death_man_outdoors2": {
+    "id": 1085,
     "name": "Ocga",
     "desc": "A citizen of Burthorpe.",
     "op1": "Talk-to",
@@ -4035,17 +4242,20 @@
     }
   },
   "death_mountain_goat": {
+    "id": 1093,
     "name": "Billy",
     "vislevel": "hide",
     "desc": "Billy is a baahd goat."
   },
   "death_saba": {
+    "id": 1070,
     "name": "Saba",
     "desc": "A dishevelled and irritable hermit.",
     "op1": "Talk-to",
     "vislevel": "hide"
   },
   "death_servant1": {
+    "id": 1081,
     "name": "Servant",
     "desc": "A servant for Prince Anlaf.",
     "op1": "Talk-to",
@@ -4066,12 +4276,14 @@
     ]
   },
   "death_sherpa": {
+    "id": 1071,
     "name": "Tenzing",
     "desc": "An experienced Sherpa.",
     "op1": "Talk-to",
     "vislevel": "hide"
   },
   "death_shopkeeper": {
+    "id": 1083,
     "name": "Wistan",
     "desc": "Shopkeeper for Burthorpe.",
     "op1": "Talk-to",
@@ -4086,6 +4298,7 @@
     ]
   },
   "death_smithy": {
+    "id": 1082,
     "name": "Dunstan",
     "desc": "Smithy for Burthorpe.",
     "op1": "Talk-to",
@@ -4093,6 +4306,7 @@
     "moverestrict": "indoors"
   },
   "death_troll_commander": {
+    "id": 1095,
     "name": "Rock",
     "desc": "The biggest and badest troll.",
     "size": "2",
@@ -4148,18 +4362,21 @@
     }
   },
   "death_troll_cook1": {
+    "id": 1099,
     "name": "Dung",
     "desc": "Human is his speciality.",
     "size": "2",
     "vislevel": "hide"
   },
   "death_troll_cook2": {
+    "id": 1100,
     "name": "Ash",
     "desc": "Human is his speciality.",
     "size": "2",
     "vislevel": "hide"
   },
   "death_troll_guard1": {
+    "id": 1097,
     "name": "Pee Hat",
     "desc": "A nasty looking troll.",
     "size": "2",
@@ -4216,6 +4433,7 @@
     }
   },
   "death_troll_guard2": {
+    "id": 1098,
     "name": "Kraka",
     "desc": "A nasty looking troll.",
     "size": "2",
@@ -4272,6 +4490,7 @@
     }
   },
   "death_troll_leuitanant": {
+    "id": 1096,
     "name": "Stick",
     "desc": "A big, bad troll.",
     "size": "2",
@@ -4328,6 +4547,7 @@
     }
   },
   "death_troll_melee1": {
+    "id": 1106,
     "name": "Mountain Troll",
     "desc": "Small for a troll but mean and ugly.",
     "op2": "Attack",
@@ -4378,6 +4598,7 @@
     }
   },
   "death_troll_melee2": {
+    "id": 1107,
     "name": "Mountain Troll",
     "desc": "Small for a troll but mean and ugly.",
     "op2": "Attack",
@@ -4428,6 +4649,7 @@
     }
   },
   "death_troll_melee3": {
+    "id": 1108,
     "name": "Mountain Troll",
     "desc": "Small for a troll but mean and ugly.",
     "op2": "Attack",
@@ -4478,6 +4700,7 @@
     }
   },
   "death_troll_melee4": {
+    "id": 1109,
     "name": "Mountain Troll",
     "desc": "Small for a troll but mean and ugly.",
     "op2": "Attack",
@@ -4528,6 +4751,7 @@
     }
   },
   "death_troll_melee5": {
+    "id": 1110,
     "name": "Mountain Troll",
     "desc": "Small for a troll but mean and ugly.",
     "op2": "Attack",
@@ -4578,6 +4802,7 @@
     }
   },
   "death_troll_melee6": {
+    "id": 1111,
     "name": "Mountain Troll",
     "desc": "Small for a troll but mean and ugly.",
     "op2": "Attack",
@@ -4628,6 +4853,7 @@
     }
   },
   "death_troll_melee7": {
+    "id": 1112,
     "name": "Mountain Troll",
     "desc": "Small for a troll but mean and ugly.",
     "op2": "Attack",
@@ -4678,6 +4904,7 @@
     }
   },
   "death_troll_thrower1": {
+    "id": 1101,
     "name": "Thrower Troll",
     "desc": "Small for a troll but mean, ugly and throws rocks.",
     "op2": "Attack",
@@ -4706,6 +4933,7 @@
     }
   },
   "death_troll_thrower2": {
+    "id": 1102,
     "name": "Thrower Troll",
     "desc": "Small for a troll but mean, ugly and throws rocks.",
     "op2": "Attack",
@@ -4734,6 +4962,7 @@
     }
   },
   "death_troll_thrower3": {
+    "id": 1103,
     "name": "Thrower Troll",
     "desc": "Small for a troll but mean, ugly and throws rocks.",
     "op2": "Attack",
@@ -4762,6 +4991,7 @@
     }
   },
   "death_troll_thrower4": {
+    "id": 1104,
     "name": "Thrower Troll",
     "desc": "Small for a troll but mean, ugly and throws rocks.",
     "op2": "Attack",
@@ -4790,6 +5020,7 @@
     }
   },
   "death_troll_thrower5": {
+    "id": 1105,
     "name": "Thrower Troll",
     "desc": "Small for a troll but mean, ugly and throws rocks.",
     "op2": "Attack",
@@ -4818,6 +5049,7 @@
     }
   },
   "death_white_knight": {
+    "id": 1092,
     "name": "White Knight",
     "desc": "The Knight seems to be watching something.",
     "op1": "Talk-to",
@@ -4841,6 +5073,7 @@
     ]
   },
   "death_woman_indoors1": {
+    "id": 1090,
     "name": "Hild",
     "desc": "A citizen of Burthorpe.",
     "op1": "Talk-to",
@@ -4888,6 +5121,7 @@
     }
   },
   "death_woman_indoors2": {
+    "id": 1091,
     "name": "Bob",
     "vislevel": "hide",
     "desc": "The Jagex cat.",
@@ -4895,6 +5129,7 @@
     "maxrange": "30000"
   },
   "death_woman_outdoors1": {
+    "id": 1088,
     "name": "Hygd",
     "desc": "A citizen of Burthorpe.",
     "op1": "Talk-to",
@@ -4942,6 +5177,7 @@
     }
   },
   "death_woman_outdoors2": {
+    "id": 1089,
     "name": "Ceolburg",
     "desc": "A citizen of Burthorpe.",
     "op1": "Talk-to",
@@ -4989,6 +5225,7 @@
     }
   },
   "deathwing": {
+    "id": 79,
     "name": "Death wing",
     "desc": "A shadowy, barely visible flying entity from some evil place.",
     "size": "2",
@@ -5008,6 +5245,7 @@
     ]
   },
   "delrith": {
+    "id": 879,
     "name": "Delrith",
     "size": "2",
     "desc": "A freshly summoned demon.",
@@ -5030,6 +5268,7 @@
     }
   },
   "delrith_weakened": {
+    "id": 880,
     "name": "Weakened Delrith",
     "size": "2",
     "desc": "The demon doesn't look so strong now.",
@@ -5039,6 +5278,7 @@
     "moverestrict": "nomove"
   },
   "desert_wolf": {
+    "id": 839,
     "name": "Desert Wolf",
     "desc": "A vicious Desert wolf",
     "op2": "Attack",
@@ -5062,6 +5302,7 @@
     }
   },
   "desertminingcaptain": {
+    "id": 830,
     "name": "Mercenary Captain",
     "desc": "He looks a bit aggressive.",
     "op1": "Talk-to",
@@ -5094,6 +5335,7 @@
     }
   },
   "desertminingmercenary1": {
+    "id": 828,
     "name": "Mercenary",
     "desc": "He looks a bit aggressive.",
     "op1": "Talk-to",
@@ -5120,6 +5362,7 @@
     ]
   },
   "desertminingmercenary2": {
+    "id": 829,
     "name": "Mercenary",
     "desc": "He looks a bit aggressive.",
     "op1": "Talk-to",
@@ -5146,6 +5389,7 @@
     ]
   },
   "digworkman1": {
+    "id": 613,
     "name": "Digsite workman",
     "vislevel": "hide",
     "desc": "This person is working on the site.",
@@ -5153,6 +5397,7 @@
     "op3": "Steal-from"
   },
   "digworkman2": {
+    "id": 614,
     "name": "Digsite workman",
     "vislevel": "hide",
     "desc": "This person is working on the site.",
@@ -5160,12 +5405,14 @@
     "op3": "Steal-from"
   },
   "dimintheis": {
+    "id": 664,
     "name": "Dimintheis",
     "vislevel": "hide",
     "desc": "A well dressed nobleman.",
     "op1": "Talk-to"
   },
   "doctor_orbon": {
+    "id": 290,
     "name": "Doctor Orbon",
     "vislevel": "hide",
     "desc": "Seems very serious.",
@@ -5173,11 +5420,13 @@
     "wanderrange": "3"
   },
   "dog": {
+    "id": 98,
     "name": "Dog",
     "desc": "Bow wow.",
     "vislevel": "hide"
   },
   "dommik": {
+    "id": 545,
     "name": "Dommik",
     "vislevel": "hide",
     "desc": "If crafting's your thing, he's your man!",
@@ -5192,6 +5441,7 @@
     ]
   },
   "donkey_bartender": {
+    "id": 732,
     "name": "Bartender",
     "vislevel": "hide",
     "desc": "I could get a beer from him.",
@@ -5199,6 +5449,7 @@
     "wanderrange": "2"
   },
   "donny_the_lad": {
+    "id": 203,
     "name": "Donny the lad",
     "desc": "Has a fearsome posture.",
     "op1": "Talk-to",
@@ -5248,12 +5499,14 @@
     }
   },
   "donovan_the_family_handyman": {
+    "id": 806,
     "name": "Donovan the Family Handyman",
     "vislevel": "hide",
     "desc": "He looks very tired...",
     "op1": "Talk-to"
   },
   "doomion": {
+    "id": 999,
     "name": "Doomion",
     "size": "3",
     "desc": "One of the Guardians of Iban.",
@@ -5281,6 +5534,7 @@
     }
   },
   "doorman": {
+    "id": 33,
     "name": "Door man",
     "vislevel": "hide",
     "desc": "What a boring job he has.",
@@ -5288,6 +5542,7 @@
     "wanderrange": "2"
   },
   "doric": {
+    "id": 284,
     "name": "Doric",
     "vislevel": "hide",
     "op1": "Talk-to",
@@ -5295,6 +5550,7 @@
     "moverestrict": "indoors"
   },
   "dragon_bartender": {
+    "id": 739,
     "name": "Bartender",
     "vislevel": "hide",
     "desc": "I could get a beer from him.",
@@ -5302,6 +5558,7 @@
     "wanderrange": "2"
   },
   "dragonslayer_demon": {
+    "id": 752,
     "name": "Lesser demon",
     "size": "2",
     "desc": "Lesser, but still pretty big.",
@@ -5329,6 +5586,7 @@
     }
   },
   "dragonslayer_ghost": {
+    "id": 749,
     "name": "Ghost",
     "desc": "Eeek! A ghost!",
     "op2": "Attack",
@@ -5358,6 +5616,7 @@
     }
   },
   "dragonslayer_giant_rat": {
+    "id": 748,
     "name": "Giant rat",
     "size": "2",
     "desc": "Overgrown vermin.",
@@ -5378,11 +5637,13 @@
     "drops": {
       "always": [
         {"item":["bones",1]},
+        {"item":["raw_rat_meat",1]},
         {"item":["redkey",1]}
       ]
     }
   },
   "dragonslayer_ned": {
+    "id": 743,
     "name": "Ned",
     "vislevel": "hide",
     "desc": "An old sailor.",
@@ -5391,6 +5652,7 @@
     "moverestrict": "nomove"
   },
   "dragonslayer_skeleton": {
+    "id": 750,
     "name": "Skeleton",
     "desc": "Could do with gaining a few pounds.",
     "op2": "Attack",
@@ -5423,6 +5685,7 @@
     }
   },
   "dragonslayer_zombie": {
+    "id": 751,
     "name": "Zombie",
     "desc": "The walking dead.",
     "op2": "Attack",
@@ -5454,6 +5717,7 @@
     }
   },
   "drogo": {
+    "id": 579,
     "name": "Drogo dwarf",
     "vislevel": "hide",
     "desc": "He runs a mining store.",
@@ -5469,6 +5733,7 @@
     ]
   },
   "druid": {
+    "id": 14,
     "name": "Druid",
     "desc": "Loves nature.",
     "op2": "Attack",
@@ -5511,6 +5776,7 @@
     }
   },
   "drunk1": {
+    "id": 340,
     "name": "Hops",
     "vislevel": "hide",
     "op1": "Talk-to",
@@ -5518,6 +5784,7 @@
     "wanderrange": "3"
   },
   "drunk2": {
+    "id": 341,
     "name": "Hops",
     "vislevel": "hide",
     "op1": "Talk-to",
@@ -5526,17 +5793,20 @@
     "moverestrict": "indoors"
   },
   "dryhad": {
+    "id": 56,
     "name": "Dryad",
     "desc": "A wood nymph.",
     "vislevel": "1"
   },
   "dskin_w_ardoungechild1": {
+    "id": 356,
     "name": "Child",
     "vislevel": "hide",
     "desc": "One of RuneScapes' many citizens.",
     "op1": "Talk-to"
   },
   "dskin_w_ardoungecitizen1": {
+    "id": 351,
     "name": "Man",
     "desc": "One of RuneScapes' many citizens.",
     "op1": "Talk-to",
@@ -5553,6 +5823,7 @@
     ]
   },
   "dskin_w_ardoungecitizen2": {
+    "id": 352,
     "name": "Woman",
     "desc": "One of RuneScapes' many citizens.",
     "op1": "Talk-to",
@@ -5569,6 +5840,7 @@
     ]
   },
   "dskin_w_ardoungecitizenlady1": {
+    "id": 354,
     "name": "Woman",
     "desc": "One of RuneScapes' many citizens.",
     "op1": "Talk-to",
@@ -5585,6 +5857,7 @@
     ]
   },
   "dskin_w_ardoungecitizenlady3": {
+    "id": 360,
     "name": "Woman",
     "desc": "One of RuneScapes' many citizens.",
     "op1": "Talk-to",
@@ -5601,6 +5874,7 @@
     ]
   },
   "dskin_w_ardoungecitizenlady4": {
+    "id": 361,
     "name": "Woman",
     "desc": "One of RuneScapes' many citizens.",
     "op1": "Talk-to",
@@ -5616,6 +5890,7 @@
     ]
   },
   "duck": {
+    "id": 44,
     "name": "Duck",
     "desc": "Quackers.",
     "op2": "Attack",
@@ -5637,6 +5912,7 @@
     ]
   },
   "duck_female": {
+    "id": 45,
     "name": "Duck",
     "desc": "She quackers.",
     "op2": "Attack",
@@ -5658,6 +5934,7 @@
     ]
   },
   "duckling": {
+    "id": 46,
     "name": "Duckling",
     "desc": "Mini quackers.",
     "op2": "Attack",
@@ -5682,6 +5959,7 @@
     ]
   },
   "duel_crowdfemale1": {
+    "id": 967,
     "name": "Dalal",
     "desc": "A citizen of Al Kharid.",
     "op1": "Talk-to",
@@ -5690,6 +5968,7 @@
     "hitpoints": "7"
   },
   "duel_crowdfemale2": {
+    "id": 968,
     "name": "Afrah",
     "desc": "A citizen of Al Kharid.",
     "op1": "Talk-to",
@@ -5698,6 +5977,7 @@
     "hitpoints": "7"
   },
   "duel_crowdfemale3": {
+    "id": 969,
     "name": "Jeed",
     "desc": "A citizen of Al Kharid.",
     "op1": "Talk-to",
@@ -5706,6 +5986,7 @@
     "hitpoints": "7"
   },
   "duel_crowdmale1": {
+    "id": 964,
     "name": "Ima",
     "desc": "A citizen of Al Kharid.",
     "op1": "Talk-to",
@@ -5714,6 +5995,7 @@
     "hitpoints": "7"
   },
   "duel_crowdmale2": {
+    "id": 965,
     "name": "Sabeil",
     "desc": "A citizen of Al Kharid.",
     "op1": "Talk-to",
@@ -5722,6 +6004,7 @@
     "hitpoints": "7"
   },
   "duel_crowdmale3": {
+    "id": 966,
     "name": "Jadid",
     "desc": "A citizen of Al Kharid.",
     "op1": "Talk-to",
@@ -5730,6 +6013,7 @@
     "hitpoints": "7"
   },
   "duel_fadli": {
+    "id": 958,
     "name": "Fadli",
     "desc": "Looks kinda bored.",
     "op1": "Talk-to",
@@ -5745,6 +6029,7 @@
     ]
   },
   "duel_injured1": {
+    "id": 963,
     "name": "Zahwa",
     "desc": "'Battle scarred'.",
     "op1": "Talk-to",
@@ -5752,6 +6037,7 @@
     "moverestrict": "indoors"
   },
   "duel_jaraah": {
+    "id": 962,
     "name": "Jaraah",
     "desc": "Has the messy job of putting players back together again.",
     "op1": "Talk-to",
@@ -5760,6 +6046,7 @@
     "moverestrict": "indoors"
   },
   "duel_monk": {
+    "id": 1008,
     "name": "Hamid",
     "desc": "A holy man.",
     "op1": "Talk-to",
@@ -5767,6 +6054,7 @@
     "wanderrange": "2"
   },
   "duel_mubariz": {
+    "id": 957,
     "name": "Mubariz",
     "desc": "Tough looking combat type.",
     "op1": "Talk-to",
@@ -5774,6 +6062,7 @@
     "wanderrange": "2"
   },
   "duel_nurse1": {
+    "id": 959,
     "name": "A'abla",
     "desc": "Trained to deal with all sorts of injuries.",
     "op1": "Talk-to",
@@ -5782,6 +6071,7 @@
     "moverestrict": "indoors"
   },
   "duel_nurse2": {
+    "id": 960,
     "name": "Sabreen",
     "desc": "Wow! She's made a statement with that hair!",
     "op1": "Talk-to",
@@ -5790,6 +6080,7 @@
     "moverestrict": "indoors"
   },
   "duel_nurse3": {
+    "id": 961,
     "name": "Tafani",
     "desc": "Looks after injured fighters.",
     "op1": "Talk-to",
@@ -5798,12 +6089,14 @@
     "moverestrict": "indoors"
   },
   "duke_of_lumbridge": {
+    "id": 741,
     "name": "Duke Horacio",
     "vislevel": "hide",
     "desc": "Duke Horacio of Lumbridge.",
     "op1": "Talk-to"
   },
   "dungeon_rat": {
+    "id": 88,
     "name": "Dungeon rat",
     "size": "2",
     "desc": "Overgrown vermin.",
@@ -5823,6 +6116,7 @@
     ]
   },
   "dungeonspider": {
+    "id": 1009,
     "name": "Poison spider",
     "desc": "A nasty poisonous arachnid.",
     "op2": "Attack",
@@ -5845,6 +6139,7 @@
     ]
   },
   "dwarf_chaos": {
+    "id": 119,
     "name": "Chaos dwarf",
     "desc": "A dwarf gone bad.",
     "op2": "Attack",
@@ -5901,6 +6196,7 @@
     }
   },
   "dwarf_mountain": {
+    "id": 120,
     "name": "Dwarf",
     "desc": "A mountain dwelling short angry guy.",
     "op2": "Attack",
@@ -5946,6 +6242,7 @@
     }
   },
   "dwarf_mountain2": {
+    "id": 121,
     "name": "Dwarf",
     "desc": "A short angry guy.",
     "op2": "Attack",
@@ -5991,6 +6288,7 @@
     }
   },
   "dwarf_normal": {
+    "id": 118,
     "name": "Dwarf",
     "desc": "A short angry guy.",
     "op2": "Attack",
@@ -6036,6 +6334,7 @@
     }
   },
   "dwarfchildtw1": {
+    "id": 207,
     "name": "Dwarf youngster",
     "vislevel": "hide",
     "desc": "A young Dwarf lad.",
@@ -6043,6 +6342,7 @@
     "hitpoints": "6"
   },
   "dwarven_shopkeeper": {
+    "id": 582,
     "name": "Dwarf",
     "vislevel": "hide",
     "desc": "I wonder if he wants to buy my junk?",
@@ -6058,11 +6358,13 @@
     ]
   },
   "eadgar_storeroom_guard": {
+    "id": 1150,
     "name": "Guard",
     "desc": "He's guarding the goutweed.",
     "vislevel": "hide"
   },
   "eadgar_troll_chief_cook": {
+    "id": 1151,
     "name": "Burntmeat",
     "desc": "Human is his speciality.",
     "size": "2",
@@ -6070,6 +6372,7 @@
     "op1": "Talk-to"
   },
   "earth_elemental_rock_version": {
+    "id": 1023,
     "name": "Earth elemental",
     "desc": "An earth elemental.",
     "op2": "Attack",
@@ -6092,6 +6395,7 @@
     }
   },
   "earthwarrior": {
+    "id": 124,
     "name": "Earth warrior",
     "desc": "A strange inhuman elemental warrior.",
     "op2": "Attack",
@@ -6132,6 +6436,7 @@
     }
   },
   "echned_zekin": {
+    "id": 940,
     "name": "Echned Zekin",
     "desc": "A spirit of the underworld.",
     "op1": "Talk-to",
@@ -6147,12 +6452,14 @@
     ]
   },
   "edmond": {
+    "id": 714,
     "name": "Edmond",
     "vislevel": "hide",
     "desc": "A local civilian.",
     "op1": "Talk-to"
   },
   "elemental_air": {
+    "id": 1021,
     "name": "Air elemental",
     "desc": "An air elemental.",
     "op2": "Attack",
@@ -6186,6 +6493,7 @@
     }
   },
   "elemental_earth": {
+    "id": 1020,
     "name": "Earth elemental",
     "desc": "An earth elemental.",
     "op2": "Attack",
@@ -6223,6 +6531,7 @@
     }
   },
   "elemental_fire": {
+    "id": 1019,
     "name": "Fire elemental",
     "desc": "A fire elemental.",
     "op2": "Attack",
@@ -6259,6 +6568,7 @@
     }
   },
   "elemental_water": {
+    "id": 1022,
     "name": "Water elemental",
     "desc": "A water elemental.",
     "op2": "Attack",
@@ -6295,24 +6605,28 @@
     }
   },
   "elena2": {
+    "id": 335,
     "name": "Elena",
     "vislevel": "hide",
     "op1": "Talk-to",
     "desc": "She looks concerned."
   },
   "elenap": {
+    "id": 715,
     "name": "Elena",
     "vislevel": "hide",
     "desc": "She doesn't look too happy.",
     "op1": "Talk-to"
   },
   "elizabeth_sinclair": {
+    "id": 818,
     "name": "Elizabeth",
     "vislevel": "hide",
     "desc": "She's wearing a green top and blue trousers.",
     "op1": "Talk-to"
   },
   "elkoy": {
+    "id": 473,
     "name": "Elkoy",
     "vislevel": "hide",
     "desc": "It's a tree gnome.",
@@ -6320,6 +6634,7 @@
     "wanderrange": "3"
   },
   "elkoy_village": {
+    "id": 474,
     "name": "Elkoy",
     "vislevel": "hide",
     "desc": "It's a tree gnome.",
@@ -6327,6 +6642,7 @@
     "wanderrange": "3"
   },
   "elvarg": {
+    "id": 742,
     "name": "Elvarg",
     "desc": "Rawr! A dragon!",
     "size": "4",
@@ -6352,6 +6668,7 @@
     ]
   },
   "enclave_guard": {
+    "id": 870,
     "name": "Enclave guard",
     "desc": "Big and ugly looking.",
     "size": "2",
@@ -6380,6 +6697,7 @@
     }
   },
   "entrana_monk": {
+    "id": 222,
     "name": "Monk",
     "desc": "A holy man.",
     "op1": "Talk-to",
@@ -6397,33 +6715,39 @@
     ]
   },
   "ernest": {
+    "id": 287,
     "name": "Ernest",
     "vislevel": "hide",
     "desc": "A former chicken."
   },
   "ernest_the_chicken": {
+    "id": 288,
     "name": "Chicken",
     "vislevel": "hide",
     "desc": "Yep, definitely a chicken."
   },
   "escaped_slave": {
+    "id": 826,
     "name": "Escaping slave.",
     "vislevel": "hide",
     "desc": "He's making a break for it!",
     "op1": "Talk-to"
   },
   "examiner": {
+    "id": 618,
     "name": "Examiner",
     "vislevel": "hide",
     "desc": "Upon examining the examiner you examine it is indeed an examiner!",
     "op1": "Talk-to"
   },
   "fairy": {
+    "id": 57,
     "name": "Fairy",
     "vislevel": "hide",
     "desc": "A delicate creature from this strange realm."
   },
   "fairy_banker": {
+    "id": 498,
     "name": "Banker",
     "vislevel": "hide",
     "desc": "Manages money momentarily.",
@@ -6433,6 +6757,7 @@
     "moverestrict": "nomove"
   },
   "fairy_ladder_attendant": {
+    "id": 567,
     "name": "Fairy",
     "vislevel": "hide",
     "desc": "Looks strange and mysterious.",
@@ -6441,6 +6766,7 @@
     "moverestrict": "nomove"
   },
   "fairy_lunderwin": {
+    "id": 565,
     "name": "Lunderwin",
     "vislevel": "hide",
     "desc": "Smells strangely of cabbage.",
@@ -6448,12 +6774,14 @@
     "wanderrange": "2"
   },
   "fairy_queen": {
+    "id": 653,
     "name": "Fairy Queen",
     "vislevel": "hide",
     "desc": "Looks otherworldy...",
     "op1": "Talk-to"
   },
   "falseogretrader": {
+    "id": 876,
     "name": "Ogre trader",
     "desc": "Funnily enough, doesn't actually buy or sell ogres.",
     "size": "2",
@@ -6477,12 +6805,14 @@
     }
   },
   "farmer_brumty": {
+    "id": 291,
     "name": "Farmer Brumty",
     "vislevel": "hide",
     "desc": "There's a sadness in his eyes.",
     "op1": "Talk-to"
   },
   "farmer1": {
+    "id": 7,
     "name": "Farmer",
     "op3": "Pickpocket",
     "op2": "Attack",
@@ -6528,6 +6858,7 @@
     }
   },
   "fat_tony": {
+    "id": 596,
     "name": "Fat tony",
     "vislevel": "hide",
     "desc": "An expert on Pizzas. Both making and eating.",
@@ -6543,6 +6874,7 @@
     ]
   },
   "father_aereck": {
+    "id": 456,
     "name": "Father Aereck",
     "vislevel": "hide",
     "desc": "Looks a bit holy.",
@@ -6550,6 +6882,7 @@
     "moverestrict": "indoors"
   },
   "father_lawrence": {
+    "id": 640,
     "name": "Father Lawrence",
     "desc": "A religious man... And occasional drunk.",
     "op1": "Talk-to",
@@ -6557,6 +6890,7 @@
     "moverestrict": "indoors"
   },
   "father_urhney": {
+    "id": 458,
     "name": "Father Urhney",
     "vislevel": "hide",
     "desc": "Looks very holy.",
@@ -6564,6 +6898,7 @@
     "moverestrict": "indoors"
   },
   "fightslave": {
+    "id": 262,
     "name": "Fightslave",
     "vislevel": "hide",
     "desc": "A fightslave. He looks mistreated and weak.",
@@ -6571,6 +6906,7 @@
     "wanderrange": "1"
   },
   "fightslave_joe": {
+    "id": 261,
     "name": "Joe",
     "vislevel": "hide",
     "desc": "A fightslave. He looks mistreated and weak.",
@@ -6578,6 +6914,7 @@
     "wanderrange": "1"
   },
   "fightslave_kelvin": {
+    "id": 260,
     "name": "Kelvin",
     "vislevel": "hide",
     "desc": "A fightslave. He looks mistreated and weak.",
@@ -6585,6 +6922,7 @@
     "wanderrange": "1"
   },
   "filliman_tarlock_ns": {
+    "id": 1051,
     "name": "Nature Spirit",
     "vislevel": "hide",
     "desc": "A spirit of Nature.",
@@ -6593,6 +6931,7 @@
     "moverestrict": "nomove"
   },
   "filliman_tarlock_spirit": {
+    "id": 1050,
     "name": "Filliman Tarlock",
     "vislevel": "hide",
     "desc": "The animated spirit of a soul not at rest.",
@@ -6601,18 +6940,21 @@
     "moverestrict": "nomove"
   },
   "fin1": {
+    "id": 467,
     "name": "Shark",
     "desc": "Let's not go skinny dipping eh?",
     "vislevel": "hide",
     "moverestrict": "nomove"
   },
   "fin2": {
+    "id": 468,
     "name": "Shark",
     "desc": "Let's not go skinny dipping eh?",
     "vislevel": "hide",
     "moverestrict": "nomove"
   },
   "fionella": {
+    "id": 932,
     "name": "Fionella",
     "vislevel": "hide",
     "desc": "She sells general items at the Legends Guild.",
@@ -6628,6 +6970,7 @@
     ]
   },
   "fire_bird": {
+    "id": 139,
     "name": "Entrana Fire Bird",
     "desc": "Probably not a chicken.",
     "op2": "Attack",
@@ -6653,6 +6996,7 @@
     }
   },
   "firegiant": {
+    "id": 110,
     "name": "Fire giant",
     "size": "2",
     "desc": "A very large elemental adversary.",
@@ -6706,12 +7050,14 @@
     }
   },
   "fisher_king": {
+    "id": 220,
     "name": "The Fisher King",
     "vislevel": "hide",
     "desc": "He doesn't look very well...",
     "op1": "Talk-to"
   },
   "fishguildshop": {
+    "id": 592,
     "name": "Roachey",
     "vislevel": "hide",
     "desc": "He runs the fishing guild shop.",
@@ -6725,34 +7071,40 @@
     ]
   },
   "fishplatform1": {
+    "id": 702,
     "name": "Fisherman",
     "vislevel": "hide",
     "op1": "Talk-to",
     "desc": "He smells of salty fish."
   },
   "fishplatform2": {
+    "id": 703,
     "name": "Fisherman",
     "vislevel": "hide",
     "op1": "Talk-to",
     "desc": "He smells of salty fish."
   },
   "fishplatform3": {
+    "id": 704,
     "name": "Fisherman",
     "vislevel": "hide",
     "op1": "Talk-to",
     "desc": "He smells of salty fish."
   },
   "fishplatform4": {
+    "id": 705,
     "name": "Fisherman",
     "vislevel": "hide",
     "desc": "Something fishy about him..."
   },
   "floatingtwig_broken1": {
+    "id": 301,
     "name": "Twig",
     "vislevel": "hide",
     "desc": "Reminds me of playing pooh sticks."
   },
   "flyinghorse_bartender": {
+    "id": 738,
     "name": "Bartender",
     "vislevel": "hide",
     "desc": "I could get a beer from him.",
@@ -6760,6 +7112,7 @@
     "wanderrange": "2"
   },
   "flynn": {
+    "id": 580,
     "name": "Flynn",
     "vislevel": "hide",
     "desc": "The mace salesman.",
@@ -6774,6 +7127,7 @@
     ]
   },
   "flytrap": {
+    "id": 151,
     "name": "Fly trap",
     "vislevel": "hide",
     "desc": "No flies on me.",
@@ -6794,6 +7148,7 @@
     ]
   },
   "forester": {
+    "id": 22,
     "name": "Forester",
     "desc": "They love the forests.",
     "op2": "Attack",
@@ -6812,6 +7167,7 @@
     ]
   },
   "foresters_bartender": {
+    "id": 737,
     "name": "Bartender",
     "vislevel": "hide",
     "desc": "I could get a beer from him.",
@@ -6819,6 +7175,7 @@
     "wanderrange": "2"
   },
   "fortressguard": {
+    "id": 609,
     "name": "Fortress Guard",
     "desc": "A generic evil henchman.",
     "op1": "Talk-to",
@@ -6842,23 +7199,27 @@
     ]
   },
   "fortwitch": {
+    "id": 611,
     "name": "Witch",
     "vislevel": "hide",
     "desc": "The Black Knights' resident witch."
   },
   "frank_sinclair": {
+    "id": 819,
     "name": "Frank",
     "vislevel": "hide",
     "desc": "He's dressed all in blue.",
     "op1": "Talk-to"
   },
   "fred_the_farmer": {
+    "id": 758,
     "name": "Fred the Farmer",
     "vislevel": "hide",
     "desc": "A well fed looking farmer.",
     "op1": "Talk-to"
   },
   "frenita": {
+    "id": 593,
     "name": "Frenita",
     "vislevel": "hide",
     "desc": "A recipe for success...in cooking.",
@@ -6873,6 +7234,7 @@
     ]
   },
   "freshfish": {
+    "id": 331,
     "name": "Fishing spot",
     "vislevel": "hide",
     "desc": "I can see fish swimming in the water.",
@@ -6885,6 +7247,7 @@
     "moverestrict": "nomove"
   },
   "frincos": {
+    "id": 578,
     "name": "Frincos",
     "vislevel": "hide",
     "desc": "Kind of funny looking.",
@@ -6899,6 +7262,7 @@
     ]
   },
   "fur_merchant": {
+    "id": 573,
     "name": "Fur trader",
     "vislevel": "hide",
     "desc": "Knows how to keep warm in the winter.",
@@ -6913,6 +7277,7 @@
     ]
   },
   "fycie": {
+    "id": 1011,
     "name": "Fycie",
     "vislevel": "hide",
     "desc": "This must be Rantz's daughter.",
@@ -6923,6 +7288,7 @@
     ]
   },
   "gaius": {
+    "id": 586,
     "name": "Gaius",
     "vislevel": "hide",
     "desc": "Ironically, makes a living from swords.",
@@ -6937,6 +7303,7 @@
     ]
   },
   "gambler1": {
+    "id": 338,
     "name": "Chancy",
     "vislevel": "hide",
     "op1": "Talk-to",
@@ -6944,6 +7311,7 @@
     "wanderrange": "3"
   },
   "gambler2": {
+    "id": 339,
     "name": "Chancy",
     "vislevel": "hide",
     "op1": "Talk-to",
@@ -6952,6 +7320,7 @@
     "moverestrict": "indoors"
   },
   "garv": {
+    "id": 788,
     "name": "Garv",
     "vislevel": "hide",
     "desc": "A diligent guard.",
@@ -6966,6 +7335,7 @@
     ]
   },
   "gem_merchant": {
+    "id": 570,
     "name": "Gem merchant",
     "vislevel": "hide",
     "desc": "Seems very well off.",
@@ -6981,6 +7351,7 @@
     ]
   },
   "gem_trader": {
+    "id": 540,
     "name": "Gem trader",
     "vislevel": "hide",
     "desc": "Makes his money selling rocks.",
@@ -6995,6 +7366,7 @@
     ]
   },
   "general_bentnoze": {
+    "id": 296,
     "name": "General Bentnoze",
     "vislevel": "hide",
     "desc": "An ugly green creature.",
@@ -7002,6 +7374,7 @@
     "wanderrange": "3"
   },
   "general_khazard": {
+    "id": 258,
     "name": "General Khazard",
     "desc": "He looks really nasty. Smells bad too.",
     "op1": "Talk-to",
@@ -7018,6 +7391,7 @@
     ]
   },
   "general_wartface": {
+    "id": 297,
     "name": "General Wartface",
     "vislevel": "hide",
     "desc": "An ugly green creature.",
@@ -7025,6 +7399,7 @@
     "wanderrange": "3"
   },
   "generalassistant1": {
+    "id": 521,
     "name": "Shop assistant",
     "vislevel": "hide",
     "desc": "Helps sell stuff.",
@@ -7039,6 +7414,7 @@
     ]
   },
   "generalassistant2": {
+    "id": 523,
     "name": "Shop assistant",
     "vislevel": "hide",
     "desc": "Likes helping sell stuff.",
@@ -7053,6 +7429,7 @@
     ]
   },
   "generalassistant3": {
+    "id": 525,
     "name": "Shop assistant",
     "vislevel": "hide",
     "desc": "Likes you more the more you spend.",
@@ -7067,6 +7444,7 @@
     ]
   },
   "generalassistant4": {
+    "id": 527,
     "name": "Shop assistant",
     "vislevel": "hide",
     "desc": "Likes you more the more you spend.",
@@ -7081,6 +7459,7 @@
     ]
   },
   "generalassistant5": {
+    "id": 529,
     "name": "Shop assistant",
     "vislevel": "hide",
     "desc": "Is here on work experience.",
@@ -7095,6 +7474,7 @@
     ]
   },
   "generalassistant6": {
+    "id": 531,
     "name": "Shop assistant",
     "vislevel": "hide",
     "desc": "Works on commission.",
@@ -7109,6 +7489,7 @@
     ]
   },
   "generalassistant7": {
+    "id": 533,
     "name": "Shop assistant",
     "vislevel": "hide",
     "desc": "Needs a haircut.",
@@ -7123,6 +7504,7 @@
     ]
   },
   "generalassistant8": {
+    "id": 535,
     "name": "Fairy shop assistant",
     "vislevel": "hide",
     "desc": "Sells stuff.",
@@ -7137,6 +7519,7 @@
     ]
   },
   "generalshopkeeper1": {
+    "id": 520,
     "name": "Shop keeper",
     "vislevel": "hide",
     "desc": "Sells stuff.",
@@ -7151,6 +7534,7 @@
     ]
   },
   "generalshopkeeper2": {
+    "id": 522,
     "name": "Shop keeper",
     "vislevel": "hide",
     "desc": "Likes people spending money.",
@@ -7165,6 +7549,7 @@
     ]
   },
   "generalshopkeeper3": {
+    "id": 524,
     "name": "Shop keeper",
     "vislevel": "hide",
     "desc": "A product of consumerist society.",
@@ -7179,6 +7564,7 @@
     ]
   },
   "generalshopkeeper4": {
+    "id": 526,
     "name": "Shop keeper",
     "vislevel": "hide",
     "desc": "A product of consumerist society.",
@@ -7193,6 +7579,7 @@
     ]
   },
   "generalshopkeeper5": {
+    "id": 528,
     "name": "Shop keeper",
     "vislevel": "hide",
     "desc": "If he doesn't have it, he can't sell it!",
@@ -7207,6 +7594,7 @@
     ]
   },
   "generalshopkeeper6": {
+    "id": 530,
     "name": "Shop keeper",
     "vislevel": "hide",
     "desc": "An interesting assortment of items for sale.",
@@ -7221,6 +7609,7 @@
     ]
   },
   "generalshopkeeper7": {
+    "id": 532,
     "name": "Shop keeper",
     "vislevel": "hide",
     "desc": "Clearly takes pride in his appearance.",
@@ -7235,6 +7624,7 @@
     ]
   },
   "generalshopkeeper8": {
+    "id": 534,
     "name": "Fairy shop keeper",
     "vislevel": "hide",
     "desc": "Sells stuff.",
@@ -7249,6 +7639,7 @@
     ]
   },
   "gerald_waterfall_quest": {
+    "id": 303,
     "name": "Gerald",
     "desc": "Looks suspiciously like a fisherman.",
     "op1": "Talk-to",
@@ -7256,6 +7647,7 @@
     "wanderrange": "2"
   },
   "gerrant": {
+    "id": 558,
     "name": "Gerrant",
     "vislevel": "hide",
     "desc": "An expert on fishing.",
@@ -7270,6 +7662,7 @@
     ]
   },
   "gertrude": {
+    "id": 780,
     "name": "Gertrude",
     "vislevel": "hide",
     "desc": "A busy housewife.",
@@ -7277,6 +7670,7 @@
     "members": "yes"
   },
   "gertrudescat": {
+    "id": 759,
     "name": "Gertrudes cat",
     "vislevel": "hide",
     "desc": "A friendly feline?",
@@ -7285,6 +7679,7 @@
     "members": "yes"
   },
   "ghast_invis": {
+    "id": 1052,
     "name": "Ghast",
     "vislevel": "hide",
     "desc": "Arrghhh... A Ghast.",
@@ -7299,6 +7694,7 @@
     "huntrange": "5"
   },
   "ghast_vis": {
+    "id": 1053,
     "name": "Ghast",
     "desc": "Arrghhh... A Ghast.",
     "size": "2",
@@ -7336,6 +7732,7 @@
     }
   },
   "ghost": {
+    "id": 103,
     "name": "Ghost",
     "desc": "Eeek! A ghost!",
     "op2": "Attack",
@@ -7360,6 +7757,7 @@
     ]
   },
   "ghostx": {
+    "id": 457,
     "name": "Restless ghost",
     "vislevel": "hide",
     "desc": "Eek! A ghost!",
@@ -7367,6 +7765,7 @@
     "moverestrict": "indoors"
   },
   "giant": {
+    "id": 117,
     "name": "Giant",
     "size": "2",
     "desc": "A very large foe.",
@@ -7421,6 +7820,7 @@
     }
   },
   "giantrat": {
+    "id": 86,
     "name": "Giant rat",
     "size": "2",
     "desc": "Overgrown vermin.",
@@ -7444,6 +7844,7 @@
     }
   },
   "giantrat1": {
+    "id": 87,
     "name": "Giant rat",
     "size": "2",
     "desc": "Overgrown vermin.",
@@ -7469,6 +7870,7 @@
     }
   },
   "giantskeleton": {
+    "id": 93,
     "name": "Skeleton",
     "desc": "Could do with gaining a few pounds.",
     "op2": "Attack",
@@ -7522,6 +7924,7 @@
     }
   },
   "giantspider1": {
+    "id": 59,
     "name": "Giant spider",
     "desc": "I think this spider has been genetically modified.",
     "op2": "Attack",
@@ -7544,6 +7947,7 @@
     ]
   },
   "giantspider2": {
+    "id": 60,
     "name": "Giant spider",
     "desc": "I think this spider has been genetically modified.",
     "op2": "Attack",
@@ -7562,6 +7966,7 @@
     ]
   },
   "gnome": {
+    "id": 66,
     "name": "Gnome",
     "desc": "Like a mini man!",
     "op1": "Talk-to",
@@ -7584,6 +7989,7 @@
     ]
   },
   "gnome_brimstail": {
+    "id": 171,
     "name": "Brimstail",
     "desc": "Small but powerful.",
     "vislevel": "hide",
@@ -7591,6 +7997,7 @@
     "op3": "Teleport"
   },
   "gnome_gulluck": {
+    "id": 602,
     "name": "Gulluck",
     "desc": "He sells weapons.",
     "op1": "Talk-to",
@@ -7604,6 +8011,7 @@
     ]
   },
   "gnome_heckelfunch": {
+    "id": 603,
     "name": "Heckel Funch",
     "desc": "It's another jolly tree gnome.",
     "op1": "Talk-to",
@@ -7617,6 +8025,7 @@
     ]
   },
   "gnome_hudo": {
+    "id": 600,
     "name": "Hudo",
     "desc": "It's another jolly tree gnome.",
     "op1": "Talk-to",
@@ -7631,6 +8040,7 @@
     ]
   },
   "gnome_rometti": {
+    "id": 601,
     "name": "Rometti",
     "desc": "It's a well dressed tree gnome.",
     "op1": "Talk-to",
@@ -7644,6 +8054,7 @@
     ]
   },
   "gnome_waiter": {
+    "id": 851,
     "name": "Gnome Waiter",
     "desc": "He can serve you gnome food.",
     "op1": "Talk-to",
@@ -7658,11 +8069,13 @@
     ]
   },
   "gnomeballer": {
+    "id": 167,
     "name": "Gnome baller",
     "desc": "A professional gnome baller.",
     "vislevel": "hide"
   },
   "gnomeballer_green": {
+    "id": 633,
     "name": "Gnome winger",
     "desc": "A professional gnome baller.",
     "vislevel": "hide",
@@ -7670,6 +8083,7 @@
     "respawnrate": "0"
   },
   "gnomeballer_green_withball": {
+    "id": 634,
     "name": "Gnome winger",
     "desc": "A professional gnome baller.",
     "vislevel": "hide",
@@ -7677,6 +8091,7 @@
     "respawnrate": "0"
   },
   "gnomeballer_orange": {
+    "id": 625,
     "name": "Gnome baller",
     "desc": "A professional gnome baller.",
     "vislevel": "hide",
@@ -7693,6 +8108,7 @@
     ]
   },
   "gnomeballer_orange_tackled": {
+    "id": 627,
     "name": "Gnome baller",
     "desc": "A professional gnome baller.",
     "vislevel": "hide",
@@ -7706,6 +8122,7 @@
     ]
   },
   "gnomeballer_orange_tackled2": {
+    "id": 628,
     "name": "Gnome baller",
     "desc": "A professional gnome baller.",
     "vislevel": "hide",
@@ -7719,6 +8136,7 @@
     ]
   },
   "gnomeballer_orange_withball": {
+    "id": 626,
     "name": "Gnome baller",
     "desc": "A professional gnome baller.",
     "vislevel": "hide",
@@ -7732,6 +8150,7 @@
     ]
   },
   "gnomeballer_red": {
+    "id": 621,
     "name": "Gnome baller",
     "desc": "A professional gnome baller.",
     "vislevel": "hide",
@@ -7748,6 +8167,7 @@
     ]
   },
   "gnomeballer_red_tackled": {
+    "id": 623,
     "name": "Gnome baller",
     "desc": "A professional gnome baller.",
     "vislevel": "hide",
@@ -7761,6 +8181,7 @@
     ]
   },
   "gnomeballer_red_tackled2": {
+    "id": 624,
     "name": "Gnome baller",
     "desc": "A professional gnome baller.",
     "vislevel": "hide",
@@ -7774,6 +8195,7 @@
     ]
   },
   "gnomeballer_red_withball": {
+    "id": 622,
     "name": "Gnome baller",
     "desc": "A professional gnome baller.",
     "vislevel": "hide",
@@ -7787,6 +8209,7 @@
     ]
   },
   "gnomeballer_yellow": {
+    "id": 629,
     "name": "Gnome baller",
     "desc": "A professional gnome baller.",
     "vislevel": "hide",
@@ -7803,6 +8226,7 @@
     ]
   },
   "gnomeballer_yellow_tackled": {
+    "id": 631,
     "name": "Gnome baller",
     "desc": "A professional gnome baller.",
     "vislevel": "hide",
@@ -7816,6 +8240,7 @@
     ]
   },
   "gnomeballer_yellow_tackled2": {
+    "id": 632,
     "name": "Gnome baller",
     "desc": "A professional gnome baller.",
     "vislevel": "hide",
@@ -7829,6 +8254,7 @@
     ]
   },
   "gnomeballer_yellow_withball": {
+    "id": 630,
     "name": "Gnome baller",
     "desc": "A professional gnome baller.",
     "vislevel": "hide",
@@ -7842,6 +8268,7 @@
     ]
   },
   "gnomebanker": {
+    "id": 166,
     "name": "Gnome banker",
     "desc": "Banks gnomish things.",
     "vislevel": "hide",
@@ -7850,6 +8277,7 @@
     "moverestrict": "nomove"
   },
   "gnomecheerleader": {
+    "id": 636,
     "name": "Cheerleader",
     "desc": "Cheerleading is a real sport!",
     "vislevel": "hide",
@@ -7858,6 +8286,7 @@
     "moverestrict": "nomove"
   },
   "gnomechild": {
+    "id": 161,
     "name": "Gnome child",
     "desc": "Small, even by gnome standards.",
     "op1": "Talk-to",
@@ -7878,6 +8307,7 @@
     ]
   },
   "gnomechildblue": {
+    "id": 160,
     "name": "Gnome child",
     "desc": "Small, even by gnome standards.",
     "op1": "Talk-to",
@@ -7898,6 +8328,7 @@
     ]
   },
   "gnomechildgreen": {
+    "id": 159,
     "name": "Gnome child",
     "desc": "Small, even by gnome standards.",
     "op1": "Talk-to",
@@ -7918,6 +8349,7 @@
     ]
   },
   "gnomefemale": {
+    "id": 168,
     "name": "Gnome woman",
     "desc": "A female gnome.",
     "op1": "Talk-to",
@@ -7939,6 +8371,7 @@
     ]
   },
   "gnomefemale_dskinned": {
+    "id": 169,
     "name": "Gnome woman",
     "desc": "A female gnome.",
     "op1": "Talk-to",
@@ -7960,6 +8393,7 @@
     ]
   },
   "gnomekingsguard": {
+    "id": 163,
     "name": "Gnome guard",
     "desc": "A tree gnome guard.",
     "op2": "Attack",
@@ -7977,6 +8411,7 @@
     ]
   },
   "gnomekingsguard2": {
+    "id": 164,
     "name": "Gnome guard",
     "desc": "A tree gnome guard.",
     "op2": "Attack",
@@ -7997,6 +8432,7 @@
     ]
   },
   "gnomeknight": {
+    "id": 479,
     "name": "Gnome troop",
     "desc": "It's a tree gnome trooper.",
     "op1": "Talk-to",
@@ -8018,6 +8454,7 @@
     ]
   },
   "gnomepilot": {
+    "id": 170,
     "name": "Gnome pilot",
     "desc": "He can fly the glider.",
     "vislevel": "hide",
@@ -8026,6 +8463,7 @@
     "members": "yes"
   },
   "gnomereferee": {
+    "id": 635,
     "name": "Gnome ball referee",
     "desc": "Keeps the game fair.",
     "vislevel": "hide",
@@ -8033,17 +8471,20 @@
     "wanderrange": "1"
   },
   "gnomeshopkeeper": {
+    "id": 165,
     "name": "Gnome shop keeper",
     "desc": "Sells gnomish things.",
     "vislevel": "hide"
   },
   "gnometrainer": {
+    "id": 162,
     "name": "Gnome trainer",
     "desc": "He can advise on training.",
     "vislevel": "hide",
     "op1": "Talk-to"
   },
   "goblin": {
+    "id": 100,
     "name": "Goblin",
     "desc": "An ugly green creature.",
     "op2": "Attack",
@@ -8091,6 +8532,7 @@
     }
   },
   "goblin_armed": {
+    "id": 101,
     "name": "Goblin",
     "desc": "An ugly green creature.",
     "op2": "Attack",
@@ -8136,6 +8578,7 @@
     }
   },
   "goblin_greenarmour": {
+    "id": 298,
     "name": "Goblin",
     "desc": "An ugly green creature.",
     "op2": "Attack",
@@ -8186,6 +8629,7 @@
     }
   },
   "goblin_guard": {
+    "id": 489,
     "name": "Goblin guard",
     "desc": "I will have to kill him to get past him.",
     "op1": "Talk-to",
@@ -8235,6 +8679,7 @@
     }
   },
   "goblin_helmet": {
+    "id": 102,
     "name": "Goblin",
     "desc": "These goblins have grown strong.",
     "op2": "Attack",
@@ -8283,6 +8728,7 @@
     }
   },
   "goblin_redarmour": {
+    "id": 299,
     "name": "Goblin",
     "desc": "An ugly green creature.",
     "op2": "Attack",
@@ -8333,6 +8779,7 @@
     }
   },
   "golem": {
+    "id": 85,
     "name": "Golem",
     "desc": "A creature made from clay.",
     "size": "2",
@@ -8350,6 +8797,7 @@
     ]
   },
   "golrie_waterfall_quest": {
+    "id": 306,
     "name": "Golrie",
     "desc": "It's a tree gnome",
     "op1": "Talk-to",
@@ -8357,6 +8805,7 @@
     "wanderrange": "3"
   },
   "gorad": {
+    "id": 856,
     "name": "Gorad",
     "desc": "Big, dumb and ugly.",
     "size": "2",
@@ -8385,30 +8834,35 @@
     }
   },
   "gossipy_man": {
+    "id": 813,
     "name": "Gossip",
     "vislevel": "hide",
     "desc": "One of those people who love to gossip!",
     "op1": "Talk-to"
   },
   "grail_crone": {
+    "id": 217,
     "name": "Crone",
     "vislevel": "hide",
     "desc": "A crone.",
     "op1": "Talk-to"
   },
   "grail_fisherman": {
+    "id": 219,
     "name": "Fisherman",
     "vislevel": "hide",
     "desc": "Its a fisherman!",
     "op1": "Talk-to"
   },
   "grail_maiden": {
+    "id": 210,
     "name": "Grail Maiden",
     "vislevel": "hide",
     "desc": "She looks serene.",
     "op1": "Talk-to"
   },
   "grandpa_jack": {
+    "id": 230,
     "name": "Grandpa Jack",
     "vislevel": "hide",
     "desc": "He looks elderly.",
@@ -8416,12 +8870,14 @@
     "moverestrict": "indoors"
   },
   "grandtree_anita": {
+    "id": 672,
     "name": "Anita",
     "desc": "Glough's girlfriend.",
     "vislevel": "hide",
     "op1": "Talk-to"
   },
   "grandtree_black_demon": {
+    "id": 677,
     "name": "Black Demon",
     "size": "3",
     "desc": "A big, scary, jet-black demon.",
@@ -8472,6 +8928,7 @@
     }
   },
   "grandtree_charlie": {
+    "id": 673,
     "name": "Charlie",
     "desc": "Poor guy, he looks frightened.",
     "op1": "Talk-to",
@@ -8480,6 +8937,7 @@
     "moverestrict": "nomove"
   },
   "grandtree_femi": {
+    "id": 676,
     "name": "Femi",
     "desc": "A gnome trader.",
     "op1": "Talk-to",
@@ -8487,6 +8945,7 @@
     "wanderrange": "1"
   },
   "grandtree_foreman": {
+    "id": 674,
     "name": "Foreman",
     "desc": "The boss!",
     "op1": "Talk-to",
@@ -8513,18 +8972,21 @@
     }
   },
   "grandtree_glough": {
+    "id": 671,
     "name": "Glough",
     "desc": "A rough looking gnome.",
     "vislevel": "hide",
     "op1": "Talk-to"
   },
   "grandtree_hazelmere": {
+    "id": 669,
     "name": "Hazelmere",
     "desc": "An ancient looking gnome.",
     "vislevel": "hide",
     "op1": "Talk-to"
   },
   "grandtree_narnode": {
+    "id": 670,
     "name": "King Narnode Shareen",
     "desc": "An important looking gnome.",
     "vislevel": "hide",
@@ -8532,6 +8994,7 @@
     "wanderrange": "2"
   },
   "grandtree_shipyardguard": {
+    "id": 675,
     "name": "Shipyard worker",
     "desc": "Builds ships for a living.",
     "vislevel": "hide",
@@ -8548,6 +9011,7 @@
     ]
   },
   "grave_scorpion": {
+    "id": 493,
     "name": "Grave Scorpion",
     "desc": "A vicious little stinging thing.",
     "op2": "Attack",
@@ -8566,6 +9030,7 @@
     ]
   },
   "greater_demon": {
+    "id": 83,
     "name": "Greater demon",
     "size": "3",
     "desc": "Big, red, and incredibly evil.",
@@ -8617,6 +9082,7 @@
     }
   },
   "green_dragon": {
+    "id": 941,
     "name": "Green dragon",
     "size": "4",
     "desc": "Must be related to Elvarg.",
@@ -8675,6 +9141,7 @@
     }
   },
   "greldo": {
+    "id": 612,
     "name": "Greldo",
     "vislevel": "hide",
     "desc": "An ugly green creature.",
@@ -8683,6 +9150,7 @@
     ]
   },
   "grew": {
+    "id": 854,
     "name": "Grew",
     "vislevel": "hide",
     "desc": "Very probably an ogre.",
@@ -8690,12 +9158,14 @@
     "op1": "Talk-to"
   },
   "grillknight": {
+    "id": 610,
     "name": "Black Knight",
     "vislevel": "hide",
     "desc": "One of the Black Knights.",
     "op1": "Talk-to"
   },
   "grip": {
+    "id": 792,
     "name": "Grip",
     "desc": "Looks like he's been in the wars...",
     "op1": "Talk-to",
@@ -8722,6 +9192,7 @@
     }
   },
   "growncat": {
+    "id": 768,
     "name": "Cat",
     "vislevel": "hide",
     "desc": "A fully grown feline.",
@@ -8736,6 +9207,7 @@
     ]
   },
   "growncat_black": {
+    "id": 771,
     "name": "Cat",
     "vislevel": "hide",
     "desc": "A fully grown feline.",
@@ -8750,6 +9222,7 @@
     ]
   },
   "growncat_bluegrey": {
+    "id": 773,
     "name": "Cat",
     "vislevel": "hide",
     "desc": "A fully grown feline.",
@@ -8764,6 +9237,7 @@
     ]
   },
   "growncat_brown": {
+    "id": 770,
     "name": "Cat",
     "vislevel": "hide",
     "desc": "A fully grown feline.",
@@ -8778,6 +9252,7 @@
     ]
   },
   "growncat_browngrey": {
+    "id": 772,
     "name": "Cat",
     "vislevel": "hide",
     "desc": "A fully grown feline.",
@@ -8792,6 +9267,7 @@
     ]
   },
   "growncat_light": {
+    "id": 769,
     "name": "Cat",
     "vislevel": "hide",
     "desc": "A fully grown feline.",
@@ -8806,6 +9282,7 @@
     ]
   },
   "grubor": {
+    "id": 789,
     "name": "Grubor",
     "vislevel": "hide",
     "desc": "A rough looking thief.",
@@ -8819,6 +9296,7 @@
     ]
   },
   "grum": {
+    "id": 556,
     "name": "Grum",
     "vislevel": "hide",
     "desc": "Loves his gold!",
@@ -8832,6 +9310,7 @@
     ]
   },
   "guard_bandit": {
+    "id": 196,
     "name": "Guard Bandit",
     "desc": "Bandit Camp guard.",
     "op2": "Attack",
@@ -8855,12 +9334,14 @@
     ]
   },
   "guard_carnillean": {
+    "id": 887,
     "name": "Guard",
     "vislevel": "hide",
     "desc": "On special duty to protect the Carnilleans.",
     "op1": "Talk-to"
   },
   "guard1": {
+    "id": 9,
     "name": "Guard",
     "desc": "He tries to keep order around here.",
     "op2": "Attack",
@@ -8918,6 +9399,7 @@
     }
   },
   "guard2": {
+    "id": 10,
     "name": "Guard",
     "desc": "He tries to keep order around here.",
     "op2": "Attack",
@@ -8979,6 +9461,7 @@
     }
   },
   "guarddog": {
+    "id": 99,
     "name": "Guard dog",
     "desc": "He doesn't seem pleased to see me.",
     "op2": "Attack",
@@ -9002,12 +9485,14 @@
     }
   },
   "guidor": {
+    "id": 343,
     "name": "Guidor",
     "vislevel": "hide",
     "desc": "He's not that ill.",
     "op1": "Talk-to"
   },
   "guidors_wife": {
+    "id": 342,
     "name": "Guidor's wife",
     "vislevel": "hide",
     "desc": "She looks rather concerned.",
@@ -9015,6 +9500,7 @@
     "moverestrict": "indoors"
   },
   "guild_towerarcher1": {
+    "id": 688,
     "name": "Tower Archer",
     "desc": "Defender of the north tower.",
     "op2": "Attack",
@@ -9039,6 +9525,7 @@
     ]
   },
   "guild_towerarcher2": {
+    "id": 689,
     "name": "Tower Archer",
     "desc": "Defender of the east tower.",
     "op2": "Attack",
@@ -9063,6 +9550,7 @@
     ]
   },
   "guild_towerarcher3": {
+    "id": 690,
     "name": "Tower Archer",
     "desc": "Defender of the south tower.",
     "op2": "Attack",
@@ -9087,6 +9575,7 @@
     ]
   },
   "guild_towerarcher4": {
+    "id": 691,
     "name": "Tower Archer",
     "desc": "Defender of the west tower.",
     "op2": "Attack",
@@ -9111,6 +9600,7 @@
     ]
   },
   "guild_wizard": {
+    "id": 462,
     "name": "Wizard Distentor",
     "vislevel": "hide",
     "desc": "Head of the Magic Guild.",
@@ -9119,12 +9609,14 @@
     "wanderrange": "4"
   },
   "guildmaster": {
+    "id": 198,
     "name": "Guild master",
     "vislevel": "hide",
     "desc": "Master of the guild.",
     "op1": "Talk-to"
   },
   "gujuo": {
+    "id": 928,
     "name": "Gujuo",
     "vislevel": "hide",
     "desc": "A dark, charismatic jungle native.",
@@ -9134,6 +9626,7 @@
     "huntrange": "3"
   },
   "gull1": {
+    "id": 149,
     "name": "Gull",
     "desc": "A sea bird.",
     "size": "2",
@@ -9151,6 +9644,7 @@
     ]
   },
   "gull2": {
+    "id": 150,
     "name": "Gull",
     "desc": "A sea bird.",
     "size": "2",
@@ -9168,12 +9662,14 @@
     ]
   },
   "gunnjorn": {
+    "id": 607,
     "name": "Gunnjorn",
     "vislevel": "hide",
     "desc": "He maintains this agility course",
     "op1": "Talk-to"
   },
   "gunthor_the_brave": {
+    "id": 199,
     "name": "Gunthor the brave",
     "desc": "A mighty warrior!",
     "op1": "Talk-to",
@@ -9229,6 +9725,7 @@
     }
   },
   "guthix_mage": {
+    "id": 914,
     "name": "Battle mage",
     "desc": "He kills in the name of Guthix.",
     "op2": "Attack",
@@ -9246,12 +9743,14 @@
     ]
   },
   "hadley_waterfall_quest": {
+    "id": 302,
     "name": "Hadley",
     "desc": "Could do with losing a bit of weight.",
     "op1": "Talk-to",
     "vislevel": "hide"
   },
   "hairdresser": {
+    "id": 598,
     "name": "Hairdresser",
     "vislevel": "hide",
     "desc": "Anyone fancy a trim?",
@@ -9259,6 +9758,7 @@
     "moverestrict": "indoors"
   },
   "hans": {
+    "id": 0,
     "name": "Hans",
     "vislevel": "hide",
     "desc": "Servant of the Duke of Lumbridge.",
@@ -9278,6 +9778,7 @@
     "patrol10": "0_50_50_2_32,0"
   },
   "happy_peasant": {
+    "id": 215,
     "name": "Peasant",
     "vislevel": "hide",
     "desc": "He looks happy...",
@@ -9285,12 +9786,14 @@
     "wanderrange": "2"
   },
   "harlow": {
+    "id": 756,
     "name": "Dr Harlow",
     "vislevel": "hide",
     "op1": "Talk-to",
     "desc": "A few too many drinks perhaps..."
   },
   "harry": {
+    "id": 576,
     "name": "Harry",
     "vislevel": "hide",
     "desc": "Something fishy about him.",
@@ -9305,12 +9808,14 @@
     ]
   },
   "hassan": {
+    "id": 923,
     "name": "Hassan",
     "desc": "The chancellor to the Emir.",
     "op1": "Talk-to",
     "vislevel": "hide"
   },
   "hazeel": {
+    "id": 892,
     "name": "Hazeel",
     "vislevel": "296",
     "desc": "An evil being raised from the dead.",
@@ -9319,6 +9824,7 @@
     "moverestrict": "nomove"
   },
   "hazeel_cultist": {
+    "id": 894,
     "name": "Hazeel Cultist",
     "desc": "A member of the Hazeel cult.",
     "op1": "Talk-to",
@@ -9336,6 +9842,7 @@
     ]
   },
   "head_chef": {
+    "id": 847,
     "name": "Head chef",
     "vislevel": "hide",
     "desc": "Despite his name, rarely actually cooks heads.",
@@ -9343,6 +9850,7 @@
     "wanderrange": "3"
   },
   "head_wizard": {
+    "id": 300,
     "name": "Sedridor",
     "vislevel": "hide",
     "desc": "Chief of research at Wizards' Tower.",
@@ -9350,12 +9858,14 @@
     "op3": "Teleport"
   },
   "headmourner": {
+    "id": 716,
     "name": "Head mourner",
     "vislevel": "hide",
     "desc": "In charge of people with silly outfits.",
     "op1": "Talk-to"
   },
   "headthief_blanket": {
+    "id": 283,
     "name": "Head Thief",
     "desc": "The head of the treacherous blanket stealing gang.",
     "op2": "Attack",
@@ -9381,6 +9891,7 @@
     ]
   },
   "helemos": {
+    "id": 797,
     "name": "Helemos",
     "vislevel": "hide",
     "desc": "A retired hero.",
@@ -9394,6 +9905,7 @@
     ]
   },
   "hellhound": {
+    "id": 49,
     "name": "Hellhound",
     "size": "2",
     "desc": "Hello, nice doggy...",
@@ -9421,6 +9933,7 @@
     }
   },
   "hengrad": {
+    "id": 263,
     "name": "Hengrad",
     "vislevel": "hide",
     "desc": "He looks mistreated and weak.",
@@ -9428,6 +9941,7 @@
     "wanderrange": "1"
   },
   "herder_plaguesheep_1": {
+    "id": 292,
     "name": "Diseased sheep 1",
     "vislevel": "hide",
     "desc": "Even from here you can see this sheep's not well.",
@@ -9435,6 +9949,7 @@
     "wanderrange": "3"
   },
   "herder_plaguesheep_2": {
+    "id": 293,
     "name": "Diseased sheep 2",
     "vislevel": "hide",
     "desc": "Even from here you can see this sheep's not well.",
@@ -9442,6 +9957,7 @@
     "wanderrange": "3"
   },
   "herder_plaguesheep_3": {
+    "id": 294,
     "name": "Diseased sheep 3",
     "vislevel": "hide",
     "desc": "Even from here you can see this sheep's not well.",
@@ -9449,6 +9965,7 @@
     "wanderrange": "3"
   },
   "herder_plaguesheep_4": {
+    "id": 295,
     "name": "Diseased sheep 4",
     "vislevel": "hide",
     "desc": "Even from here you can see this sheep's not well.",
@@ -9456,6 +9973,7 @@
     "wanderrange": "3"
   },
   "hero": {
+    "id": 21,
     "name": "Hero",
     "desc": "Heroic!",
     "op2": "Attack",
@@ -9479,6 +9997,7 @@
     ]
   },
   "herquin": {
+    "id": 584,
     "name": "Herquin",
     "vislevel": "hide",
     "desc": "Seems very well off.",
@@ -9493,6 +10012,7 @@
     ]
   },
   "hetty": {
+    "id": 307,
     "name": "Hetty",
     "desc": "An old motherly witch with a curious smile and a hooked nose.",
     "op1": "Talk-to",
@@ -9500,6 +10020,7 @@
     "moverestrict": "indoors"
   },
   "hickton": {
+    "id": 575,
     "name": "Hickton",
     "vislevel": "hide",
     "desc": "A master fletcher.",
@@ -9514,12 +10035,14 @@
     ]
   },
   "high_priest_of_entrana": {
+    "id": 216,
     "name": "High Priest",
     "vislevel": "hide",
     "desc": "High Priest of Entrana.",
     "op1": "Talk-to"
   },
   "highwayman": {
+    "id": 180,
     "name": "Highwayman",
     "desc": "He holds up passers by.",
     "op2": "Attack",
@@ -9549,12 +10072,14 @@
     }
   },
   "hobbes_the_butler": {
+    "id": 808,
     "name": "Hobbes",
     "vislevel": "hide",
     "desc": "He looks kind of stuck up...",
     "op1": "Talk-to"
   },
   "hobgoblin_armed": {
+    "id": 123,
     "name": "Hobgoblin",
     "desc": "An ugly, smelly creature, with a spear.",
     "op2": "Attack",
@@ -9607,6 +10132,7 @@
     }
   },
   "hobgoblin_unarmed": {
+    "id": 122,
     "name": "Hobgoblin",
     "desc": "An ugly, smelly creature.",
     "op2": "Attack",
@@ -9655,6 +10181,7 @@
     }
   },
   "holgartland": {
+    "id": 700,
     "name": "Holgart",
     "vislevel": "hide",
     "op1": "Talk-to",
@@ -9662,12 +10189,14 @@
     "wanderrange": "2"
   },
   "holgartplatform": {
+    "id": 699,
     "name": "Holgart",
     "vislevel": "hide",
     "op1": "Talk-to",
     "desc": "A very good sailor."
   },
   "holgartsunkboat": {
+    "id": 698,
     "name": "Holgart",
     "vislevel": "hide",
     "op1": "Talk-to",
@@ -9675,6 +10204,7 @@
     "wanderrange": "2"
   },
   "holthion": {
+    "id": 1000,
     "name": "Holthion",
     "size": "3",
     "desc": "One of the Guardians of Iban.",
@@ -9702,6 +10232,7 @@
     }
   },
   "horacio": {
+    "id": 845,
     "name": "Horacio",
     "vislevel": "hide",
     "desc": "Could do with losing a few pounds.",
@@ -9709,6 +10240,7 @@
     "wanderrange": "2"
   },
   "horvik_the_armourer": {
+    "id": 549,
     "name": "Horvik",
     "vislevel": "hide",
     "desc": "The man with the armour.",
@@ -9723,6 +10255,7 @@
     ]
   },
   "house_ghost": {
+    "id": 104,
     "name": "Ghost",
     "desc": "Eeek! A ghost!",
     "op2": "Attack",
@@ -9743,6 +10276,7 @@
     ]
   },
   "hudon_waterfall_quest": {
+    "id": 305,
     "name": "Hudon",
     "desc": "Looks young.",
     "op1": "Talk-to",
@@ -9750,6 +10284,7 @@
     "wanderrange": "1"
   },
   "iban": {
+    "id": 1003,
     "name": "Lord Iban",
     "vislevel": "hide",
     "size": "2",
@@ -9763,6 +10298,7 @@
     "defence": "77"
   },
   "ibanmonk": {
+    "id": 1002,
     "name": "Iban disciple",
     "desc": "A dark magic user.",
     "op1": "Talk-to",
@@ -9786,6 +10322,7 @@
     }
   },
   "ice_queen": {
+    "id": 795,
     "name": "Ice Queen",
     "desc": "A cold hearted lady.",
     "op2": "Attack",
@@ -9810,6 +10347,7 @@
     }
   },
   "ice_spider": {
+    "id": 64,
     "name": "Ice spider",
     "desc": "I think this spider has been genetically modified.",
     "op2": "Attack",
@@ -9833,6 +10371,7 @@
     ]
   },
   "icegiant": {
+    "id": 111,
     "name": "Ice giant",
     "size": "2",
     "desc": "He's got icicles in his beard.",
@@ -9888,6 +10427,7 @@
     }
   },
   "icewarrior": {
+    "id": 125,
     "name": "Ice warrior",
     "desc": "A cold hearted elemental warrior.",
     "op2": "Attack",
@@ -9933,6 +10473,7 @@
     }
   },
   "icewarrior_queen": {
+    "id": 145,
     "name": "Ice warrior",
     "desc": "The Ice Queen's Royal Guard.",
     "op2": "Attack",
@@ -9978,6 +10519,7 @@
     }
   },
   "ikov_firewarrior": {
+    "id": 277,
     "name": "Fire Warrior of Lesarkus",
     "desc": "Intimidating!",
     "op1": "Talk-to",
@@ -10003,6 +10545,7 @@
     ]
   },
   "ikov_guardianfemale": {
+    "id": 275,
     "name": "Guardian of Armadyl",
     "desc": "A guard who has devoted their life to Armadyl.",
     "op1": "Talk-to",
@@ -10027,6 +10570,7 @@
     ]
   },
   "ikov_guardianmale": {
+    "id": 274,
     "name": "Guardian of Armadyl",
     "desc": "A guard who has devoted their life to Armadyl.",
     "op1": "Talk-to",
@@ -10051,12 +10595,14 @@
     ]
   },
   "ikov_lucien1": {
+    "id": 273,
     "name": "Lucien",
     "desc": "He walks with a slight limp.",
     "vislevel": "hide",
     "op1": "Talk-to"
   },
   "ikov_lucien2": {
+    "id": 272,
     "name": "Lucien",
     "desc": "He walks with a slight limp.",
     "op1": "Talk-to",
@@ -10079,12 +10625,14 @@
     ]
   },
   "ikov_winelda": {
+    "id": 276,
     "name": "Winelda",
     "desc": "A witch.",
     "vislevel": "hide",
     "op1": "Talk-to"
   },
   "imp": {
+    "id": 708,
     "name": "Imp",
     "desc": "A cheeky little imp.",
     "op2": "Attack",
@@ -10147,6 +10695,7 @@
     }
   },
   "imp_grayzag": {
+    "id": 709,
     "name": "Imp",
     "desc": "A vicious little imp.",
     "op2": "Attack",
@@ -10170,6 +10719,7 @@
     }
   },
   "invrigar_the_necromancer": {
+    "id": 173,
     "name": "Invrigar the Necromancer",
     "desc": "An evil user of Magic powers",
     "op2": "Attack",
@@ -10186,6 +10736,7 @@
     ]
   },
   "irena": {
+    "id": 835,
     "name": "Irena",
     "vislevel": "hide",
     "desc": "A resident of Al-Kharid.",
@@ -10193,6 +10744,7 @@
     "wanderrange": "2"
   },
   "irksol": {
+    "id": 566,
     "name": "Irksol",
     "vislevel": "hide",
     "desc": "Is he invisible or just a set of floating clothing?",
@@ -10207,6 +10759,7 @@
     ]
   },
   "irvig_senay": {
+    "id": 937,
     "name": "Irvig Senay",
     "desc": "The spirit of a long dead warrior.",
     "op1": "Talk-to",
@@ -10235,6 +10788,7 @@
     ]
   },
   "jailer": {
+    "id": 201,
     "name": "Jailer",
     "desc": "Guards prisoners for the black knights.",
     "op1": "Talk-to",
@@ -10258,6 +10812,7 @@
     }
   },
   "jailguard": {
+    "id": 917,
     "name": "Jail guard",
     "desc": "I wonder who he's guarding?",
     "op1": "Talk-to",
@@ -10285,6 +10840,7 @@
     ]
   },
   "jakut": {
+    "id": 564,
     "name": "Jakut",
     "vislevel": "hide",
     "desc": "A being from a mysterious other realm.",
@@ -10299,6 +10855,7 @@
     ]
   },
   "jatix": {
+    "id": 587,
     "name": "Jatix",
     "vislevel": "hide",
     "desc": "He runs the Herblore Shop",
@@ -10313,6 +10870,7 @@
     ]
   },
   "jeremy_servil": {
+    "id": 265,
     "name": "Jeremy Servil",
     "vislevel": "hide",
     "desc": "A young squire. He looks worse for wear.",
@@ -10320,6 +10878,7 @@
     "wanderrange": "1"
   },
   "jeremy_servil_arena": {
+    "id": 266,
     "name": "Jeremy Servil",
     "vislevel": "hide",
     "desc": "A young squire. He looks worse for wear.",
@@ -10327,6 +10886,7 @@
     "wanderrange": "1"
   },
   "jerico": {
+    "id": 366,
     "name": "Jerico",
     "vislevel": "hide",
     "desc": "He looks friendly enough.",
@@ -10334,12 +10894,14 @@
     "moverestrict": "indoors"
   },
   "jethick": {
+    "id": 725,
     "name": "Jethick",
     "vislevel": "hide",
     "desc": "A cynical old man.",
     "op1": "Talk-to"
   },
   "jiminua": {
+    "id": 560,
     "name": "Jiminua",
     "vislevel": "hide",
     "desc": "Goods for sale and trade!",
@@ -10354,12 +10916,14 @@
     ]
   },
   "joe": {
+    "id": 916,
     "name": "Joe",
     "desc": "Lady Keli's head guard.",
     "op1": "Talk-to",
     "vislevel": "hide"
   },
   "jogre": {
+    "id": 113,
     "name": "Jogre",
     "size": "2",
     "desc": "An aggressive humanoid.",
@@ -10409,12 +10973,14 @@
     }
   },
   "johnathon_fitzharmon": {
+    "id": 668,
     "name": "Johnathon",
     "vislevel": "hide",
     "desc": "A well dressed nobleman.",
     "op1": "Talk-to"
   },
   "jollyboar_bartender": {
+    "id": 731,
     "name": "Bartender",
     "vislevel": "hide",
     "desc": "I could get a beer from him.",
@@ -10422,6 +10988,7 @@
     "wanderrange": "2"
   },
   "jonny_the_beard": {
+    "id": 645,
     "name": "Jonny the beard",
     "desc": "Looks kind of shifty...",
     "op1": "Talk-to",
@@ -10442,6 +11009,7 @@
     }
   },
   "joshua": {
+    "id": 229,
     "name": "Joshua",
     "vislevel": "hide",
     "desc": "He loves to fish!",
@@ -10449,12 +11017,14 @@
     "wanderrange": "1"
   },
   "juliet": {
+    "id": 637,
     "name": "Juliet",
     "desc": "A tearful damsel, maybe I can help her?",
     "op1": "Talk-to",
     "vislevel": "hide"
   },
   "jungle_savage": {
+    "id": 931,
     "name": "Jungle Savage",
     "desc": "An aggresive native of the Kharazi jungle.",
     "op2": "Attack",
@@ -10475,6 +11045,7 @@
     ]
   },
   "jungle_spider": {
+    "id": 62,
     "name": "Jungle spider",
     "desc": "A venomous deadly spider.",
     "op2": "Attack",
@@ -10498,6 +11069,7 @@
     ]
   },
   "jungle_wolf": {
+    "id": 143,
     "name": "Jungle Wolf",
     "desc": "A rare jungle wolf - specific to the Kharazi jungle.",
     "size": "2",
@@ -10522,6 +11094,7 @@
     }
   },
   "jungleforester_f": {
+    "id": 402,
     "name": "Jungle Forester",
     "vislevel": "hide",
     "desc": "She deals in exotic types of wood.",
@@ -10532,6 +11105,7 @@
     ]
   },
   "jungleforester_m": {
+    "id": 401,
     "name": "Jungle Forester",
     "vislevel": "hide",
     "desc": "He deals in exotic types of wood.",
@@ -10542,6 +11116,7 @@
     ]
   },
   "justin_servil": {
+    "id": 267,
     "name": "Justin Servil",
     "vislevel": "hide",
     "desc": "Jeremy's father Sir Servil.",
@@ -10550,6 +11125,7 @@
     "hitpoints": "20"
   },
   "kalphite_flyingqueen": {
+    "id": 1160,
     "name": "Kalphite Queen",
     "desc": "I don't think insect repellent will work...",
     "size": "5",
@@ -10599,6 +11175,7 @@
     }
   },
   "kalphite_larva": {
+    "id": 1161,
     "name": "Kalphite Larva",
     "vislevel": "hide",
     "desc": "I don't think insect repellent will work...",
@@ -10608,6 +11185,7 @@
     "huntmode": "kalphite_larva"
   },
   "kalphite_lord": {
+    "id": 1155,
     "name": "Kalphite Guardian",
     "desc": "I don't think insect repellent will work...",
     "size": "4",
@@ -10657,6 +11235,7 @@
     }
   },
   "kalphite_lord_chamber": {
+    "id": 1157,
     "name": "Kalphite Guardian",
     "desc": "I don't think insect repellent will work...",
     "size": "4",
@@ -10706,12 +11285,14 @@
     }
   },
   "kalphite_oldman": {
+    "id": 1152,
     "name": "Weird Old Man",
     "vislevel": "hide",
     "desc": "What's he mumbling about?",
     "op1": "Talk-to"
   },
   "kalphite_queen": {
+    "id": 1158,
     "name": "Kalphite Queen",
     "desc": "I don't think insect repellent will work...",
     "size": "5",
@@ -10735,6 +11316,7 @@
     ]
   },
   "kalphite_queen_form_swap": {
+    "id": 1159,
     "name": "Kalphite Queen",
     "vislevel": "296",
     "desc": "I don't think insect repellent will work...",
@@ -10742,6 +11324,7 @@
     "defaultmode": "none"
   },
   "kalphite_soldier": {
+    "id": 1154,
     "name": "Kalphite Soldier",
     "desc": "I don't think insect repellent will work...",
     "size": "3",
@@ -10787,6 +11370,7 @@
     }
   },
   "kalphite_worker": {
+    "id": 1153,
     "name": "Kalphite Worker",
     "desc": "I don't think insect repellent will work...",
     "size": "2",
@@ -10834,6 +11418,7 @@
     }
   },
   "kalphite_worker_chamber": {
+    "id": 1156,
     "name": "Kalphite Worker",
     "desc": "I don't think insect repellent will work...",
     "size": "2",
@@ -10880,6 +11465,7 @@
     }
   },
   "kalrag": {
+    "id": 997,
     "name": "Kalrag",
     "desc": "A giant spider.",
     "size": "3",
@@ -10904,6 +11490,7 @@
     ]
   },
   "kanel": {
+    "id": 784,
     "name": "Kanel",
     "vislevel": "hide",
     "desc": "One of Gertrude's Sons.",
@@ -10912,6 +11499,7 @@
     "members": "yes"
   },
   "kangai_mau": {
+    "id": 846,
     "name": "Kangai Mau",
     "vislevel": "hide",
     "desc": "A happening kind of guy!",
@@ -10919,18 +11507,21 @@
     "wanderrange": "2"
   },
   "kaqemeex": {
+    "id": 455,
     "name": "Kaqemeex",
     "vislevel": "hide",
     "desc": "A wise druid.",
     "op1": "Talk-to"
   },
   "katrine": {
+    "id": 642,
     "name": "Katrine",
     "vislevel": "hide",
     "desc": "An empowered woman.",
     "op1": "Talk-to"
   },
   "kebab_seller": {
+    "id": 543,
     "name": "Kebab seller",
     "vislevel": "hide",
     "desc": "Kebabs are full of meaty goodness!",
@@ -10938,6 +11529,7 @@
     "wanderrange": "2"
   },
   "kennith": {
+    "id": 697,
     "name": "Kennith",
     "vislevel": "hide",
     "op1": "Talk-to",
@@ -10945,6 +11537,7 @@
     "wanderrange": "1"
   },
   "kent": {
+    "id": 701,
     "name": "Kent",
     "vislevel": "hide",
     "op1": "Talk-to",
@@ -10952,6 +11545,7 @@
     "wanderrange": "2"
   },
   "kharidbanker1": {
+    "id": 496,
     "name": "Banker",
     "vislevel": "hide",
     "desc": "A financial expert.",
@@ -10961,6 +11555,7 @@
     "moverestrict": "nomove"
   },
   "kharidbanker2": {
+    "id": 497,
     "name": "Banker",
     "vislevel": "hide",
     "desc": "Looks after your money.",
@@ -10970,12 +11565,14 @@
     "moverestrict": "nomove"
   },
   "khazard_barman": {
+    "id": 259,
     "name": "Khazard barman",
     "vislevel": "hide",
     "desc": "A tough looking barman.",
     "op1": "Talk-to"
   },
   "khazard_commander": {
+    "id": 478,
     "name": "Khazard commander",
     "desc": "It's one of General Khazard's commanders.",
     "op2": "Attack",
@@ -10994,6 +11591,7 @@
     ]
   },
   "khazard_shopkeeper": {
+    "id": 555,
     "name": "Shop keeper",
     "vislevel": "hide",
     "desc": "Has a fine moustache!",
@@ -11008,6 +11606,7 @@
     ]
   },
   "khazard_troop": {
+    "id": 475,
     "name": "Khazard trooper",
     "desc": "It's one of General Khazard's warriors.",
     "op2": "Attack",
@@ -11031,6 +11630,7 @@
     ]
   },
   "khazard_troop_spearmen": {
+    "id": 476,
     "name": "Khazard trooper",
     "desc": "It's one of General Khazard's warriors.",
     "op2": "Attack",
@@ -11054,6 +11654,7 @@
     ]
   },
   "khazard_warlord": {
+    "id": 477,
     "name": "Khazard warlord",
     "desc": "He looks real nasty, smells bad too.",
     "op1": "Talk-to",
@@ -11076,6 +11677,7 @@
     }
   },
   "kilron": {
+    "id": 349,
     "name": "Kilron",
     "vislevel": "hide",
     "desc": "He looks shifty.",
@@ -11084,12 +11686,14 @@
     "moverestrict": "nomove"
   },
   "king_arthur": {
+    "id": 251,
     "name": "King Arthur",
     "vislevel": "hide",
     "desc": "Legendary King of the Britons.",
     "op1": "Talk-to"
   },
   "king_bolren": {
+    "id": 469,
     "name": "King Bolren",
     "vislevel": "hide",
     "desc": "It's a gnome.  He looks important.",
@@ -11097,6 +11701,7 @@
     "wanderrange": "2"
   },
   "king_dragon": {
+    "id": 50,
     "name": "King black dragon",
     "size": "5",
     "desc": "The biggest meanest dragon around.",
@@ -11158,6 +11763,7 @@
     }
   },
   "king_lathas": {
+    "id": 364,
     "name": "King Lathas",
     "vislevel": "hide",
     "desc": "King Lathas of East Ardougne.",
@@ -11165,18 +11771,21 @@
     "wanderrange": "2"
   },
   "king_percival": {
+    "id": 212,
     "name": "King Percival",
     "vislevel": "hide",
     "desc": "A former Knight of the Round Table.",
     "op1": "Talk-to"
   },
   "king_roald": {
+    "id": 648,
     "name": "King Roald",
     "vislevel": "hide",
     "desc": "Varrocks' resident monarch.",
     "op1": "Talk-to"
   },
   "kingscorpion": {
+    "id": 144,
     "name": "King Scorpion",
     "size": "2",
     "desc": "Wow! Scorpions shouldn't grow that big.",
@@ -11200,6 +11809,7 @@
     ]
   },
   "kittenpet_black": {
+    "id": 764,
     "name": "Kitten",
     "vislevel": "hide",
     "desc": "A friendly little pet.",
@@ -11214,6 +11824,7 @@
     ]
   },
   "kittenpet_bluegrey": {
+    "id": 766,
     "name": "Kitten",
     "vislevel": "hide",
     "desc": "A friendly little pet.",
@@ -11228,6 +11839,7 @@
     ]
   },
   "kittenpet_brown": {
+    "id": 763,
     "name": "Kitten",
     "vislevel": "hide",
     "desc": "A friendly little pet.",
@@ -11242,6 +11854,7 @@
     ]
   },
   "kittenpet_browngrey": {
+    "id": 765,
     "name": "Kitten",
     "vislevel": "hide",
     "desc": "A friendly little pet.",
@@ -11256,6 +11869,7 @@
     ]
   },
   "kittenpet_light": {
+    "id": 762,
     "name": "Kitten",
     "vislevel": "hide",
     "desc": "A friendly little pet.",
@@ -11270,6 +11884,7 @@
     ]
   },
   "kittenpet1": {
+    "id": 761,
     "name": "Kitten",
     "vislevel": "hide",
     "desc": "A friendly little pet.",
@@ -11284,6 +11899,7 @@
     ]
   },
   "kittens_mew": {
+    "id": 767,
     "name": "Crate",
     "vislevel": "hide",
     "desc": "Can I hear kittens?",
@@ -11294,12 +11910,14 @@
     "blockwalk": "all"
   },
   "klarense": {
+    "id": 744,
     "name": "Klarense",
     "vislevel": "hide",
     "desc": "A young sailor.",
     "op1": "Talk-to"
   },
   "knight_of_ardougne": {
+    "id": 23,
     "name": "Knight of Ardougne",
     "desc": "A member of Ardougne's militia.",
     "op2": "Attack",
@@ -11325,6 +11943,7 @@
     ]
   },
   "knight_of_ardougne2": {
+    "id": 26,
     "name": "Knight of Ardougne",
     "desc": "To protect and serve the populace of Ardougne.",
     "op2": "Attack",
@@ -11350,6 +11969,7 @@
     ]
   },
   "koldemon": {
+    "id": 911,
     "name": "Kolodion",
     "size": "3",
     "desc": "He's a shape shifter.",
@@ -11370,6 +11990,7 @@
     ]
   },
   "kolethereal": {
+    "id": 910,
     "name": "Kolodion",
     "vislevel": "hide",
     "desc": "He's a shape shifter.",
@@ -11388,6 +12009,7 @@
     ]
   },
   "kolhuman": {
+    "id": 907,
     "name": "Kolodion",
     "vislevel": "hide",
     "desc": "He runs the mage arena.",
@@ -11402,6 +12024,7 @@
     "magic": "15"
   },
   "kologre": {
+    "id": 908,
     "name": "Kolodion",
     "vislevel": "hide",
     "desc": "He's a shape shifter.",
@@ -11420,6 +12043,7 @@
     ]
   },
   "kolspider": {
+    "id": 909,
     "name": "Kolodion",
     "vislevel": "hide",
     "desc": "He's a shape shifter.",
@@ -11439,6 +12063,7 @@
     ]
   },
   "kortan": {
+    "id": 591,
     "name": "Kortan",
     "vislevel": "hide",
     "desc": "He helps to run the adventurers' shop.",
@@ -11453,6 +12078,7 @@
     ]
   },
   "lady_keli": {
+    "id": 919,
     "name": "Lady Keli",
     "desc": "An infamous bandit.",
     "op1": "Talk-to",
@@ -11460,6 +12086,7 @@
     "respawnrate": "100"
   },
   "lady_pirate": {
+    "id": 185,
     "name": "Pirate",
     "desc": "A fine example of piracys' equal opportunities program.",
     "op1": "Talk-to",
@@ -11507,12 +12134,14 @@
     }
   },
   "lady_servil": {
+    "id": 264,
     "name": "Lady Servil",
     "vislevel": "hide",
     "desc": "She looks wealthy.",
     "op1": "Talk-to"
   },
   "ladyofthelake": {
+    "id": 250,
     "name": "The Lady of the Lake",
     "vislevel": "hide",
     "desc": "A powerful sorceress who guards Excalibur.",
@@ -11520,6 +12149,7 @@
     "wanderrange": "1"
   },
   "lake_beggar": {
+    "id": 252,
     "name": "Beggar",
     "vislevel": "hide",
     "desc": "He looks very hungry...",
@@ -11528,6 +12158,7 @@
     "moverestrict": "nomove"
   },
   "lathas_shopkeeper": {
+    "id": 561,
     "name": "Shop keeper",
     "vislevel": "hide",
     "desc": "Could stand to lose a few pounds.",
@@ -11543,6 +12174,7 @@
     ]
   },
   "lathastrainer1": {
+    "id": 344,
     "name": "Guard",
     "vislevel": "hide",
     "desc": "He tries to keep order around here.",
@@ -11550,6 +12182,7 @@
     "wanderrange": "1"
   },
   "lathastrainer2": {
+    "id": 345,
     "name": "Guard",
     "vislevel": "hide",
     "desc": "He tries to keep order around here.",
@@ -11557,12 +12190,14 @@
     "wanderrange": "1"
   },
   "lathastrainer3": {
+    "id": 346,
     "name": "Guard",
     "vislevel": "hide",
     "desc": "He tries to keep order around here.",
     "op1": "Talk-to"
   },
   "lathastrainingogre": {
+    "id": 374,
     "name": "Ogre",
     "desc": "Big, ugly, and smelly.",
     "size": "2",
@@ -11590,6 +12225,7 @@
     }
   },
   "lawgof2": {
+    "id": 208,
     "name": "Dwarf Commander",
     "vislevel": "hide",
     "desc": "He guards the mines.",
@@ -11597,12 +12233,14 @@
     "hitpoints": "16"
   },
   "leela": {
+    "id": 915,
     "name": "Leela",
     "desc": "She comes from Al-Kharid.",
     "op1": "Talk-to",
     "vislevel": "hide"
   },
   "legends_guild_guard1": {
+    "id": 398,
     "name": "Legends Guard",
     "vislevel": "hide",
     "desc": "A Legends Guild Guard, he protects the entrance to the Legends Guild.",
@@ -11616,6 +12254,7 @@
     ]
   },
   "legends_guild_guard2": {
+    "id": 399,
     "name": "Legends Guard",
     "vislevel": "hide",
     "desc": "A Legends Guild Guard, he protects the entrance to the Legends Guild.",
@@ -11629,6 +12268,7 @@
     ]
   },
   "leprechaun": {
+    "id": 65,
     "name": "Leprechaun",
     "desc": "A funny little man normally associated with rainbows.",
     "op2": "Attack",
@@ -11643,6 +12283,7 @@
     ]
   },
   "lesser_demon": {
+    "id": 82,
     "name": "Lesser demon",
     "size": "2",
     "desc": "Lesser, but still pretty big.",
@@ -11692,6 +12333,7 @@
     }
   },
   "lizardman": {
+    "id": 69,
     "name": "Lizard man",
     "desc": "A scaly reptilian creature.",
     "size": "2",
@@ -11701,6 +12343,7 @@
     "huntrange": "2"
   },
   "localgnome": {
+    "id": 484,
     "name": "Local Gnome",
     "vislevel": "hide",
     "desc": "It's a young tree gnome.",
@@ -11713,6 +12356,7 @@
     "defence": "3"
   },
   "lord_daquarius": {
+    "id": 200,
     "name": "Lord Daquarius",
     "desc": "Wears a stylish suit of armour.",
     "op1": "Talk-to",
@@ -11730,6 +12374,7 @@
     ]
   },
   "lostgnome": {
+    "id": 486,
     "name": "Kalron",
     "vislevel": "hide",
     "desc": "He looks lost.",
@@ -11740,11 +12385,13 @@
     "defence": "3"
   },
   "lostkitten": {
+    "id": 760,
     "name": "Kitten",
     "vislevel": "hide",
     "desc": "It looks lost."
   },
   "louie_legs": {
+    "id": 542,
     "name": "Louie legs",
     "vislevel": "hide",
     "desc": "For the finest in armoured legware.",
@@ -11759,12 +12406,14 @@
     ]
   },
   "louisa_the_cook": {
+    "id": 809,
     "name": "Louisa",
     "vislevel": "hide",
     "desc": "She looks like she enjoys her job.",
     "op1": "Talk-to"
   },
   "lowe": {
+    "id": 550,
     "name": "Lowe",
     "vislevel": "hide",
     "desc": "Sells arrows.",
@@ -11779,6 +12428,7 @@
     ]
   },
   "luthas": {
+    "id": 379,
     "name": "Luthas",
     "vislevel": "hide",
     "desc": "The owner of the banana plantation.",
@@ -11786,6 +12436,7 @@
     "moverestrict": "indoors"
   },
   "macro_dryhad1": {
+    "id": 438,
     "name": "Tree spirit",
     "desc": "A very angry nymph.",
     "op2": "Attack",
@@ -11819,6 +12470,7 @@
     }
   },
   "macro_dryhad2": {
+    "id": 439,
     "name": "Tree spirit",
     "desc": "A very angry nymph.",
     "op2": "Attack",
@@ -11852,6 +12504,7 @@
     }
   },
   "macro_dryhad3": {
+    "id": 440,
     "name": "Tree spirit",
     "desc": "A very angry nymph.",
     "op2": "Attack",
@@ -11885,6 +12538,7 @@
     }
   },
   "macro_dryhad4": {
+    "id": 441,
     "name": "Tree spirit",
     "desc": "A very angry nymph.",
     "op2": "Attack",
@@ -11918,6 +12572,7 @@
     }
   },
   "macro_dryhad5": {
+    "id": 442,
     "name": "Tree spirit",
     "desc": "A very angry nymph.",
     "op2": "Attack",
@@ -11951,6 +12606,7 @@
     }
   },
   "macro_dryhad6": {
+    "id": 443,
     "name": "Tree spirit",
     "desc": "A very angry nymph.",
     "op2": "Attack",
@@ -11984,6 +12640,7 @@
     }
   },
   "macro_dwarf": {
+    "id": 956,
     "name": "Drunken Dwarf",
     "vislevel": "hide",
     "desc": "He's had a fair bit to drink...",
@@ -11998,6 +12655,7 @@
     ]
   },
   "macro_geni": {
+    "id": 409,
     "name": "Genie",
     "vislevel": "hide",
     "desc": "Maybe he'll grant me a wish...",
@@ -12007,6 +12665,7 @@
     ]
   },
   "macro_mysterious_old_man": {
+    "id": 410,
     "name": "Mysterious Old Man",
     "vislevel": "hide",
     "desc": "A very strange old man...",
@@ -12016,6 +12675,7 @@
     ]
   },
   "macro_rivertroll1": {
+    "id": 391,
     "name": "River troll",
     "desc": "Likes fish... hates people.",
     "op2": "Attack",
@@ -12052,6 +12712,7 @@
     }
   },
   "macro_rivertroll2": {
+    "id": 392,
     "name": "River troll",
     "desc": "Likes fish... hates people.",
     "op2": "Attack",
@@ -12088,6 +12749,7 @@
     }
   },
   "macro_rivertroll3": {
+    "id": 393,
     "name": "River troll",
     "desc": "Likes fish... hates people.",
     "op2": "Attack",
@@ -12124,6 +12786,7 @@
     }
   },
   "macro_rivertroll4": {
+    "id": 394,
     "name": "River troll",
     "desc": "Likes fish... hates people.",
     "op2": "Attack",
@@ -12160,6 +12823,7 @@
     }
   },
   "macro_rivertroll5": {
+    "id": 395,
     "name": "River troll",
     "desc": "Likes fish... hates people.",
     "op2": "Attack",
@@ -12196,6 +12860,7 @@
     }
   },
   "macro_rivertroll6": {
+    "id": 396,
     "name": "River troll",
     "desc": "Likes fish... hates people.",
     "op2": "Attack",
@@ -12232,6 +12897,7 @@
     }
   },
   "macro_rockgolem1": {
+    "id": 413,
     "name": "Rock Golem",
     "desc": "Rock with attitude.",
     "size": "2",
@@ -12269,6 +12935,7 @@
     }
   },
   "macro_rockgolem2": {
+    "id": 414,
     "name": "Rock Golem",
     "desc": "Rock with attitude.",
     "size": "2",
@@ -12306,6 +12973,7 @@
     }
   },
   "macro_rockgolem3": {
+    "id": 415,
     "name": "Rock Golem",
     "desc": "Rock with attitude.",
     "size": "2",
@@ -12343,6 +13011,7 @@
     }
   },
   "macro_rockgolem4": {
+    "id": 416,
     "name": "Rock Golem",
     "desc": "Rock with attitude.",
     "size": "2",
@@ -12380,6 +13049,7 @@
     }
   },
   "macro_rockgolem5": {
+    "id": 417,
     "name": "Rock Golem",
     "desc": "Rock with attitude.",
     "size": "2",
@@ -12417,6 +13087,7 @@
     }
   },
   "macro_rockgolem6": {
+    "id": 418,
     "name": "Rock Golem",
     "desc": "Rock with attitude.",
     "size": "2",
@@ -12454,6 +13125,7 @@
     }
   },
   "macro_shade1": {
+    "id": 425,
     "name": "Shade",
     "desc": "The angry dead!",
     "op2": "Attack",
@@ -12478,6 +13150,7 @@
     }
   },
   "macro_shade2": {
+    "id": 426,
     "name": "Shade",
     "desc": "The angry dead!",
     "op2": "Attack",
@@ -12502,6 +13175,7 @@
     }
   },
   "macro_shade3": {
+    "id": 427,
     "name": "Shade",
     "desc": "The angry dead!",
     "op2": "Attack",
@@ -12526,6 +13200,7 @@
     }
   },
   "macro_shade4": {
+    "id": 428,
     "name": "Shade",
     "desc": "The angry dead!",
     "op2": "Attack",
@@ -12550,6 +13225,7 @@
     }
   },
   "macro_shade5": {
+    "id": 429,
     "name": "Shade",
     "desc": "The angry dead!",
     "op2": "Attack",
@@ -12574,6 +13250,7 @@
     }
   },
   "macro_shade6": {
+    "id": 430,
     "name": "Shade",
     "desc": "The angry dead!",
     "op2": "Attack",
@@ -12592,6 +13269,7 @@
     ]
   },
   "macro_watchman1": {
+    "id": 431,
     "name": "Watchman",
     "desc": "The strong arm of the law.",
     "op2": "Attack",
@@ -12633,6 +13311,7 @@
     }
   },
   "macro_watchman2": {
+    "id": 432,
     "name": "Watchman",
     "desc": "The strong arm of the law.",
     "op2": "Attack",
@@ -12674,6 +13353,7 @@
     }
   },
   "macro_watchman3": {
+    "id": 433,
     "name": "Watchman",
     "desc": "The strong arm of the law.",
     "op2": "Attack",
@@ -12715,6 +13395,7 @@
     }
   },
   "macro_watchman4": {
+    "id": 434,
     "name": "Watchman",
     "desc": "The strong arm of the law.",
     "op2": "Attack",
@@ -12756,6 +13437,7 @@
     }
   },
   "macro_watchman5": {
+    "id": 435,
     "name": "Watchman",
     "desc": "The strong arm of the law.",
     "op2": "Attack",
@@ -12797,6 +13479,7 @@
     }
   },
   "macro_watchman6": {
+    "id": 436,
     "name": "Watchman",
     "desc": "The strong arm of the law.",
     "op2": "Attack",
@@ -12838,6 +13521,7 @@
     }
   },
   "macro_zombie1": {
+    "id": 419,
     "name": "Zombie",
     "desc": "The walking dead!",
     "op2": "Attack",
@@ -12870,6 +13554,7 @@
     }
   },
   "macro_zombie2": {
+    "id": 420,
     "name": "Zombie",
     "desc": "The walking dead!",
     "op2": "Attack",
@@ -12902,6 +13587,7 @@
     }
   },
   "macro_zombie3": {
+    "id": 421,
     "name": "Zombie",
     "desc": "The walking dead!",
     "op2": "Attack",
@@ -12934,6 +13620,7 @@
     }
   },
   "macro_zombie4": {
+    "id": 422,
     "name": "Zombie",
     "desc": "The walking dead!",
     "op2": "Attack",
@@ -12966,6 +13653,7 @@
     }
   },
   "macro_zombie5": {
+    "id": 423,
     "name": "Zombie",
     "desc": "The walking dead!",
     "op2": "Attack",
@@ -12998,6 +13686,7 @@
     }
   },
   "macro_zombie6": {
+    "id": 424,
     "name": "Zombie",
     "desc": "The walking dead!",
     "op2": "Attack",
@@ -13030,6 +13719,7 @@
     }
   },
   "mad_skavid": {
+    "id": 864,
     "name": "Mad skavid",
     "vislevel": "hide",
     "desc": "Looks mad.",
@@ -13037,12 +13727,14 @@
     "op1": "Talk-to"
   },
   "magearena_banker": {
+    "id": 902,
     "name": "Gundai",
     "vislevel": "hide",
     "desc": "He must get lonely out here.",
     "op1": "Talk-to"
   },
   "magearena_guardian": {
+    "id": 904,
     "name": "Chamber guardian",
     "vislevel": "hide",
     "desc": "He hasn't seen much sun lately.",
@@ -13056,6 +13748,7 @@
     ]
   },
   "magearena_runeshop": {
+    "id": 903,
     "name": "Lundail",
     "vislevel": "hide",
     "desc": "He sells rune stones.",
@@ -13069,6 +13762,7 @@
     ]
   },
   "magic_store_owner": {
+    "id": 461,
     "name": "Magic Store owner",
     "desc": "A Supplier of Magical items.",
     "op1": "Talk-to",
@@ -13087,6 +13781,7 @@
     ]
   },
   "magicaxe": {
+    "id": 127,
     "name": "Magic axe",
     "desc": "A magic axe with a mind of it's own.",
     "op2": "Attack",
@@ -13115,6 +13810,7 @@
     }
   },
   "makeover_mage": {
+    "id": 599,
     "name": "Make-over mage",
     "vislevel": "hide",
     "desc": "Master of the mystical make-over.",
@@ -13123,6 +13819,7 @@
     "moverestrict": "indoors"
   },
   "mammoth": {
+    "id": 135,
     "name": "Mammoth",
     "size": "3",
     "desc": "A wooly elephantlike monster.",
@@ -13140,6 +13837,7 @@
     }
   },
   "man": {
+    "id": 1,
     "name": "Man",
     "op2": "Attack",
     "op3": "Pickpocket",
@@ -13185,6 +13883,7 @@
     }
   },
   "man2": {
+    "id": 2,
     "name": "Man",
     "op2": "Attack",
     "op3": "Pickpocket",
@@ -13230,6 +13929,7 @@
     }
   },
   "man3": {
+    "id": 3,
     "name": "Man",
     "op2": "Attack",
     "op3": "Pickpocket",
@@ -13275,6 +13975,7 @@
     }
   },
   "man4": {
+    "id": 1086,
     "name": "Unferth",
     "desc": "A citizen of Burthorpe.",
     "op1": "Talk-to",
@@ -13322,6 +14023,7 @@
     }
   },
   "martha_rehnison": {
+    "id": 722,
     "name": "Martha Rehnison",
     "vislevel": "hide",
     "desc": "A fairly poor looking woman.",
@@ -13329,12 +14031,14 @@
     "moverestrict": "indoors"
   },
   "mary_the_maid": {
+    "id": 810,
     "name": "Mary",
     "vislevel": "hide",
     "desc": "She looks very nervous...",
     "op1": "Talk-to"
   },
   "master_crafter": {
+    "id": 805,
     "name": "Master crafter",
     "desc": "The man in charge of the crafter's guild.",
     "vislevel": "hide",
@@ -13342,6 +14046,7 @@
     "moverestrict": "indoors"
   },
   "master_fisher": {
+    "id": 308,
     "name": "Master fisher",
     "vislevel": "hide",
     "desc": "The man in charge of the fishing guild.",
@@ -13349,6 +14054,7 @@
     "wanderrange": "3"
   },
   "mcannonguard": {
+    "id": 206,
     "name": "Dwarf",
     "desc": "A Dwarf guard.",
     "op1": "Talk-to",
@@ -13372,12 +14078,14 @@
     ]
   },
   "mcgruborforester": {
+    "id": 231,
     "name": "Forester",
     "vislevel": "hide",
     "desc": "He likes to cut down trees.",
     "op1": "Talk-to"
   },
   "melzar_the_mad": {
+    "id": 753,
     "name": "Melzar the mad",
     "desc": "He looks totally insane!",
     "op2": "Attack",
@@ -13403,6 +14111,7 @@
     }
   },
   "memberfish": {
+    "id": 334,
     "name": "Fishing spot",
     "vislevel": "hide",
     "desc": "I can see fish swimming in the water.",
@@ -13415,12 +14124,14 @@
     "moverestrict": "nomove"
   },
   "merlin": {
+    "id": 249,
     "name": "Merlin",
     "vislevel": "hide",
     "desc": "A powerful Wizard of the Knights of the Round Table.",
     "op1": "Talk-to"
   },
   "merlin2": {
+    "id": 213,
     "name": "Merlin",
     "vislevel": "hide",
     "desc": "A powerful Wizard of the Knights of the Round Table.",
@@ -13428,6 +14139,7 @@
     "wanderrange": "1"
   },
   "mguild_dwarf1": {
+    "id": 382,
     "name": "Dwarf",
     "vislevel": "hide",
     "desc": "A dwarf who looks after the mining guild.",
@@ -13435,6 +14147,7 @@
     "wanderrange": "2"
   },
   "milli": {
+    "id": 724,
     "name": "Milli Rehnison",
     "vislevel": "hide",
     "desc": "She doesn't seem very happy.",
@@ -13442,6 +14155,7 @@
     "moverestrict": "indoors"
   },
   "mining_cart_driver": {
+    "id": 841,
     "name": "Mine cart driver",
     "vislevel": "hide",
     "desc": "He looks busy attending to his cart.",
@@ -13449,6 +14163,7 @@
     "wanderrange": "3"
   },
   "mining_slave_female": {
+    "id": 824,
     "name": "Female slave",
     "vislevel": "hide",
     "desc": "She looks like she's been down here a long time.",
@@ -13456,6 +14171,7 @@
     "wanderrange": "3"
   },
   "mining_slave_male": {
+    "id": 825,
     "name": "Male slave",
     "vislevel": "hide",
     "desc": "It looks like he's been here a long time.",
@@ -13463,6 +14179,7 @@
     "wanderrange": "3"
   },
   "monk": {
+    "id": 803,
     "name": "Monk",
     "desc": "A holy man.",
     "op1": "Talk-to",
@@ -13480,6 +14197,7 @@
     ]
   },
   "monk_ardougne": {
+    "id": 281,
     "name": "Monk",
     "desc": "An Ardougne Monk.",
     "op1": "Talk-to",
@@ -13496,12 +14214,14 @@
     ]
   },
   "monkadventurerpg": {
+    "id": 651,
     "name": "Monk",
     "vislevel": "hide",
     "desc": "He looks holy.",
     "op1": "Talk-to"
   },
   "monkey": {
+    "id": 132,
     "name": "Monkey",
     "desc": "Perhaps our oldest relatives?",
     "op2": "Attack",
@@ -13518,6 +14238,7 @@
     ]
   },
   "morgan": {
+    "id": 755,
     "name": "Morgan",
     "vislevel": "hide",
     "op1": "Talk-to",
@@ -13525,12 +14246,14 @@
     "moverestrict": "indoors"
   },
   "morgan_le_faye": {
+    "id": 248,
     "name": "Morgan Le Faye",
     "vislevel": "hide",
     "desc": "An evil and powerful sorceress.",
     "op1": "Talk-to"
   },
   "morris": {
+    "id": 227,
     "name": "Morris",
     "vislevel": "hide",
     "desc": "He checks the entrants to the fishing contest.",
@@ -13539,6 +14262,7 @@
     "moverestrict": "nomove"
   },
   "mort_myre_gate_guard": {
+    "id": 1054,
     "name": "Ulizius",
     "desc": "A slightly nervous guard.",
     "vislevel": "hide",
@@ -13546,6 +14270,7 @@
     "wanderrange": "5"
   },
   "mosol_rei": {
+    "id": 500,
     "name": "Mosol Rei",
     "vislevel": "hide",
     "desc": "Slightly under dressed.",
@@ -13555,6 +14280,7 @@
     "patrol2": "0_45_46_0_10,1"
   },
   "mossgiant": {
+    "id": 112,
     "name": "Moss giant",
     "size": "2",
     "desc": "His beard seems to have a life of it's own.",
@@ -13610,11 +14336,13 @@
     }
   },
   "mountain_goat2": {
+    "id": 1094,
     "name": "Mountain Goat",
     "vislevel": "hide",
     "desc": "This beast doesn't need climbing boots."
   },
   "mourner_armed": {
+    "id": 357,
     "name": "Mourner",
     "desc": "A mourner, or plague healer.",
     "op2": "Attack",
@@ -13633,12 +14361,14 @@
     ]
   },
   "mourner1": {
+    "id": 717,
     "name": "Mourner",
     "vislevel": "hide",
     "desc": "A mourner, or plague healer.",
     "op1": "Talk-to"
   },
   "mourner2": {
+    "id": 347,
     "name": "Mourner",
     "desc": "A mourner, or plague healer.",
     "op1": "Talk-to",
@@ -13658,6 +14388,7 @@
     ]
   },
   "mourner3": {
+    "id": 348,
     "name": "Mourner",
     "desc": "A mourner, or plague healer.",
     "op1": "Talk-to",
@@ -13675,6 +14406,7 @@
     ]
   },
   "mournerstew1": {
+    "id": 371,
     "name": "Mourner",
     "desc": "A mourner, or plague healer.",
     "op1": "Talk-to",
@@ -13692,6 +14424,7 @@
     ]
   },
   "mournerstew2": {
+    "id": 370,
     "name": "Mourner",
     "desc": "A mourner, or plague healer.",
     "op1": "Talk-to",
@@ -13712,6 +14445,7 @@
     ]
   },
   "mournerstew3": {
+    "id": 369,
     "name": "Mourner",
     "desc": "A mourner, or plague healer.",
     "op1": "Talk-to",
@@ -13729,12 +14463,14 @@
     ]
   },
   "mournertwa": {
+    "id": 718,
     "name": "Mourner",
     "vislevel": "hide",
     "desc": "A mourner, or plague healer.",
     "op1": "Talk-to"
   },
   "mournertwb": {
+    "id": 719,
     "name": "Mourner",
     "vislevel": "hide",
     "desc": "A mourner, or plague healer.",
@@ -13742,12 +14478,14 @@
     "maxrange": "10"
   },
   "mournerwatchtower": {
+    "id": 372,
     "name": "Mourner",
     "vislevel": "hide",
     "desc": "A mourner, or plague healer.",
     "op1": "Talk-to"
   },
   "mugger": {
+    "id": 175,
     "name": "Mugger",
     "desc": "He jumps out and attacks people.",
     "op2": "Attack",
@@ -13791,6 +14529,7 @@
     }
   },
   "mummy": {
+    "id": 70,
     "name": "Mummy",
     "desc": "A tightly wrapped monster.",
     "op2": "attack",
@@ -13799,17 +14538,20 @@
     "huntrange": "1"
   },
   "murder_mystery_guarddog": {
+    "id": 821,
     "name": "Sinclair Guard dog",
     "desc": "Big, noisy, and scary looking!",
     "vislevel": "1"
   },
   "murderguard": {
+    "id": 812,
     "name": "Guard",
     "vislevel": "hide",
     "desc": "An officer of the Law.",
     "op1": "Talk-to"
   },
   "murphy": {
+    "id": 463,
     "name": "Murphy",
     "vislevel": "hide",
     "desc": "Salty old sea dog.",
@@ -13817,6 +14559,7 @@
     "wanderrange": "2"
   },
   "murphy_halfsunk": {
+    "id": 465,
     "name": "Murphy",
     "vislevel": "hide",
     "desc": "Salty old sea dog.",
@@ -13827,6 +14570,7 @@
     "patrol2": "^trawler_flood_patrol2"
   },
   "murphy_normal": {
+    "id": 464,
     "name": "Murphy",
     "vislevel": "hide",
     "desc": "Salty old sea dog.",
@@ -13837,6 +14581,7 @@
     "patrol2": "^trawler_start_patrol2"
   },
   "murphy_sunk": {
+    "id": 466,
     "name": "Murphy",
     "desc": "Salty old sea dog.",
     "op1": "Talk-to",
@@ -13844,6 +14589,7 @@
     "wanderrange": "1"
   },
   "nasty_tree": {
+    "id": 152,
     "name": "Tree",
     "vislevel": "hide",
     "desc": "It's bark is worse than its swipe.",
@@ -13865,6 +14611,7 @@
     ]
   },
   "necromancer": {
+    "id": 194,
     "name": "Necromancer",
     "desc": "A crazy evil necromancer.",
     "op2": "Attack",
@@ -13914,12 +14661,14 @@
     }
   },
   "ned": {
+    "id": 918,
     "name": "Ned",
     "desc": "An old sailor.",
     "op1": "Talk-to",
     "vislevel": "hide"
   },
   "nezikchened": {
+    "id": 934,
     "name": "Nezikchened",
     "desc": "An ancient powerful demon of the underworld.",
     "size": "3",
@@ -13943,6 +14692,7 @@
     ]
   },
   "non_combat_bat": {
+    "id": 1005,
     "name": "Giant bat",
     "desc": "Annoying flappy thing.",
     "size": "2",
@@ -13950,6 +14700,7 @@
     "wanderrange": "8"
   },
   "nora_t_hagg": {
+    "id": 896,
     "name": "Nora T. Hagg",
     "vislevel": "hide",
     "desc": "Distinctly witchey.",
@@ -13963,6 +14714,7 @@
     "patrol6": "0_45_54_41_7,0"
   },
   "noterazzo": {
+    "id": 597,
     "name": "Noterazzo",
     "vislevel": "hide",
     "desc": "The lawless shop keeper.",
@@ -13978,26 +14730,31 @@
     ]
   },
   "npc_1056": {
+    "id": 1056,
     "name": "Mime",
     "desc": "A mute performer.",
     "vislevel": "1"
   },
   "npc_1057": {
+    "id": 1057,
     "name": "Strange watcher",
     "vislevel": "hide",
     "desc": "A member of the audience."
   },
   "npc_1058": {
+    "id": 1058,
     "name": "Strange watcher",
     "vislevel": "hide",
     "desc": "A member of the audience."
   },
   "npc_1059": {
+    "id": 1059,
     "name": "Strange watcher",
     "vislevel": "hide",
     "desc": "A member of the audience."
   },
   "nulodion": {
+    "id": 209,
     "name": "Nulodion",
     "vislevel": "hide",
     "desc": "The Dwarven armoury engineer.",
@@ -14011,6 +14768,7 @@
     ]
   },
   "nurmof": {
+    "id": 594,
     "name": "Nurmof",
     "vislevel": "hide",
     "desc": "He runs a pickaxe store.",
@@ -14026,6 +14784,7 @@
     ]
   },
   "observatory_assistant": {
+    "id": 487,
     "name": "Observatory assistant",
     "vislevel": "hide",
     "desc": "He helps the professor.",
@@ -14033,6 +14792,7 @@
     "moverestrict": "indoors"
   },
   "observatory_professor": {
+    "id": 488,
     "name": "Observatory professor",
     "vislevel": "hide",
     "desc": "A learned man in the ways of the stars.",
@@ -14040,12 +14800,14 @@
     "moverestrict": "indoors"
   },
   "observatory_professor2": {
+    "id": 490,
     "name": "Observatory professor",
     "vislevel": "hide",
     "desc": "A learned man in the ways of the stars.",
     "op1": "Talk-to"
   },
   "og": {
+    "id": 853,
     "name": "Og",
     "vislevel": "hide",
     "desc": "A senior member of the ogre community.",
@@ -14053,6 +14815,7 @@
     "op1": "Talk-to"
   },
   "ogre": {
+    "id": 114,
     "name": "Ogre",
     "size": "2",
     "desc": "A large dim looking humanoid.",
@@ -14080,6 +14843,7 @@
     }
   },
   "ogre_chieftan": {
+    "id": 852,
     "name": "Ogre chieftain",
     "desc": "Tough looking.",
     "size": "2",
@@ -14110,6 +14874,7 @@
     }
   },
   "ogre_guard": {
+    "id": 857,
     "name": "Ogre guard",
     "desc": "An ogre that guards.",
     "size": "2",
@@ -14135,6 +14900,7 @@
     }
   },
   "ogre_guard1": {
+    "id": 858,
     "name": "Ogre guard",
     "desc": "These ogres protect the city.",
     "size": "2",
@@ -14160,6 +14926,7 @@
     }
   },
   "ogre_guard2": {
+    "id": 859,
     "name": "Ogre guard",
     "desc": "An ogre that guards.",
     "size": "2",
@@ -14185,6 +14952,7 @@
     }
   },
   "ogre_guard3": {
+    "id": 860,
     "name": "Ogre guard",
     "desc": "An ogre that guards.",
     "size": "2",
@@ -14210,6 +14978,7 @@
     }
   },
   "ogre_guard4": {
+    "id": 861,
     "name": "Ogre guard",
     "desc": "An ogre that guards.",
     "size": "2",
@@ -14235,6 +15004,7 @@
     }
   },
   "ogre_merchant": {
+    "id": 874,
     "name": "Ogre merchant",
     "desc": "Funnily enough, doesn't actually buy or sell ogres.",
     "size": "2",
@@ -14262,6 +15032,7 @@
     }
   },
   "ogre_shaman": {
+    "id": 871,
     "name": "Ogre shaman",
     "desc": "Seems intelligent... for an ogre.",
     "size": "2",
@@ -14278,6 +15049,7 @@
     ]
   },
   "ogre_trader1": {
+    "id": 873,
     "name": "Ogre trader",
     "desc": "Funnily enough, doesn't actually buy or sell ogres.",
     "size": "2",
@@ -14305,6 +15077,7 @@
     }
   },
   "ogre_trader2": {
+    "id": 875,
     "name": "Ogre trader",
     "desc": "Funnily enough, doesn't actually buy or sell ogres.",
     "size": "2",
@@ -14328,6 +15101,7 @@
     }
   },
   "ogre2": {
+    "id": 115,
     "name": "Ogre",
     "size": "2",
     "desc": "A large dim looking humanoid.",
@@ -14355,6 +15129,7 @@
     }
   },
   "omart": {
+    "id": 350,
     "name": "Omart",
     "vislevel": "hide",
     "desc": "A nervous looking fellow.",
@@ -14363,6 +15138,7 @@
     "moverestrict": "nomove"
   },
   "oomlie_bird": {
+    "id": 48,
     "name": "Oomlie Bird",
     "desc": "A jungle version of the chicken, but more vicious.",
     "op2": "Attack",
@@ -14383,18 +15159,21 @@
     }
   },
   "oracle": {
+    "id": 746,
     "name": "Oracle",
     "vislevel": "hide",
     "desc": "A mystical fount of knowledge.",
     "op1": "Talk-to"
   },
   "orbon_priest": {
+    "id": 31,
     "name": "Priest",
     "vislevel": "hide",
     "desc": "A holy man.",
     "moverestrict": "indoors"
   },
   "orc": {
+    "id": 71,
     "name": "Orc",
     "desc": "A hideous malformed elf.",
     "op2": "Attack",
@@ -14416,12 +15195,14 @@
     ]
   },
   "osman": {
+    "id": 924,
     "name": "Osman",
     "desc": "He looks a little shifty.",
     "op1": "Talk-to",
     "vislevel": "hide"
   },
   "othainian": {
+    "id": 998,
     "name": "Othainian",
     "size": "3",
     "desc": "One of the Guardians of Iban.",
@@ -14449,6 +15230,7 @@
     }
   },
   "otherworldly_being": {
+    "id": 126,
     "name": "Otherworldly being",
     "desc": "Is he invisible or just a set of floating clothing?",
     "op2": "Attack",
@@ -14490,6 +15272,7 @@
     }
   },
   "overgrowncat": {
+    "id": 774,
     "name": "Overgrown cat",
     "vislevel": "hide",
     "desc": "A friendly not-so little pet.",
@@ -14503,6 +15286,7 @@
     ]
   },
   "overgrowncat_black": {
+    "id": 777,
     "name": "Overgrown cat",
     "vislevel": "hide",
     "desc": "A friendly not-so little pet.",
@@ -14516,6 +15300,7 @@
     ]
   },
   "overgrowncat_bluegrey": {
+    "id": 779,
     "name": "Overgrown cat",
     "vislevel": "hide",
     "desc": "A friendly not-so little pet.",
@@ -14529,6 +15314,7 @@
     ]
   },
   "overgrowncat_brown": {
+    "id": 776,
     "name": "Overgrown cat",
     "vislevel": "hide",
     "desc": "A friendly not-so little pet.",
@@ -14542,6 +15328,7 @@
     ]
   },
   "overgrowncat_browngrey": {
+    "id": 778,
     "name": "Overgrown cat",
     "vislevel": "hide",
     "desc": "A friendly not-so little pet.",
@@ -14555,6 +15342,7 @@
     ]
   },
   "overgrowncat_light": {
+    "id": 775,
     "name": "Overgrown cat",
     "vislevel": "hide",
     "desc": "A friendly not-so little pet.",
@@ -14568,6 +15356,7 @@
     ]
   },
   "oziach": {
+    "id": 747,
     "name": "Oziach",
     "vislevel": "hide",
     "desc": "A strange little man.",
@@ -14582,6 +15371,7 @@
     ]
   },
   "pack_wolf_whiter": {
+    "id": 142,
     "name": "Wolf",
     "size": "2",
     "desc": "A social killer.",
@@ -14606,6 +15396,7 @@
     }
   },
   "paladin": {
+    "id": 20,
     "name": "Paladin",
     "desc": "A holy warrior.",
     "op3": "Pickpocket",
@@ -14657,24 +15448,28 @@
     }
   },
   "panning_guide": {
+    "id": 620,
     "name": "Panning guide",
     "vislevel": "hide",
     "desc": "A specialist in panning for gold.",
     "op1": "Talk-to"
   },
   "partyroom_barmaid": {
+    "id": 661,
     "name": "Megan",
     "desc": "Pretty barmaid.",
     "op1": "Talk-to",
     "vislevel": "hide"
   },
   "partyroom_barmaid2": {
+    "id": 662,
     "name": "Lucy",
     "desc": "Pretty barmaid.",
     "op1": "Talk-to",
     "vislevel": "hide"
   },
   "partyroom_knight": {
+    "id": 660,
     "name": "Knight",
     "desc": "You'd need a tin opener to get him out.",
     "op1": "Talk-to",
@@ -14683,12 +15478,14 @@
     "moverestrict": "nomove"
   },
   "partyroom_pete": {
+    "id": 659,
     "name": "Party Pete",
     "desc": "He likes to paaaarty!",
     "op1": "Talk-to",
     "vislevel": "hide"
   },
   "peksa": {
+    "id": 538,
     "name": "Peksa",
     "vislevel": "hide",
     "desc": "Always up to date with the latest fashions in hats.",
@@ -14703,6 +15500,7 @@
     ]
   },
   "penguin": {
+    "id": 131,
     "name": "Penguin",
     "desc": "An inhabitant of icy regions.",
     "op2": "Attack",
@@ -14718,12 +15516,14 @@
     ]
   },
   "philipe_carnillean": {
+    "id": 888,
     "name": "Philipe Carnillean",
     "vislevel": "hide",
     "desc": "The newest member of the Carnillean family.",
     "op1": "Talk-to"
   },
   "philop": {
+    "id": 782,
     "name": "Philop",
     "vislevel": "hide",
     "desc": "One of Gertrude's Sons.",
@@ -14732,12 +15532,14 @@
     "members": "yes"
   },
   "pierre_the_family_dog_handler": {
+    "id": 807,
     "name": "Pierre",
     "vislevel": "hide",
     "desc": "His job doesn't look very fun...",
     "op1": "Talk-to"
   },
   "pirate_aggressive": {
+    "id": 184,
     "name": "Pirate",
     "desc": "This ones had too much to drink!",
     "op2": "Attack",
@@ -14788,6 +15590,7 @@
     }
   },
   "pirate_guard": {
+    "id": 799,
     "name": "Pirate Guard",
     "desc": "A morally ambiguous guard.",
     "op1": "Talk-to",
@@ -14810,6 +15613,7 @@
     ]
   },
   "pirate1": {
+    "id": 182,
     "name": "Pirate",
     "desc": "Yar! Shiver me timbers!",
     "op1": "Talk-to",
@@ -14857,6 +15661,7 @@
     }
   },
   "pirate2": {
+    "id": 183,
     "name": "Pirate",
     "desc": "Avast ye scurvy land lubbers!",
     "op1": "Talk-to",
@@ -14906,12 +15711,14 @@
     }
   },
   "poison_salesman": {
+    "id": 820,
     "name": "Poison Salesman",
     "vislevel": "hide",
     "desc": "He sure likes to sell stuff!",
     "op1": "Talk-to"
   },
   "poison_scorpion": {
+    "id": 108,
     "name": "Poison Scorpion",
     "size": "2",
     "desc": "It has a very vicious looking tail.",
@@ -14936,6 +15743,7 @@
     ]
   },
   "poisonspider": {
+    "id": 134,
     "name": "Poison spider",
     "desc": "I think this spider has been genetically modified.",
     "op2": "Attack",
@@ -14961,6 +15769,7 @@
     ]
   },
   "priestperilevilmonk1": {
+    "id": 1044,
     "name": "Monk of Zamorak",
     "desc": "An evil human cleric.",
     "op2": "Attack",
@@ -14974,6 +15783,7 @@
     "maxrange": "14"
   },
   "priestperilevilmonk2": {
+    "id": 1045,
     "name": "Monk of Zamorak",
     "desc": "An evil human cleric.",
     "op2": "Attack",
@@ -14987,6 +15797,7 @@
     "maxrange": "14"
   },
   "priestperilevilmonk3": {
+    "id": 1046,
     "name": "Monk of Zamorak",
     "vislevel": "30",
     "desc": "An evil human cleric.",
@@ -15004,6 +15815,7 @@
     }
   },
   "priestperilguarddog": {
+    "id": 1047,
     "name": "Temple guardian",
     "vislevel": "30",
     "size": "2",
@@ -15020,6 +15832,7 @@
     ]
   },
   "priestperiltrappedmonk": {
+    "id": 1048,
     "name": "Drezel",
     "desc": "A holy man.",
     "vislevel": "hide",
@@ -15027,6 +15840,7 @@
     "wanderrange": "5"
   },
   "priestperiltrappedmonk2": {
+    "id": 1049,
     "name": "Drezel",
     "desc": "A holy man.",
     "vislevel": "hide",
@@ -15034,12 +15848,14 @@
     "wanderrange": "1"
   },
   "prince_ali_disguised": {
+    "id": 921,
     "name": "Prince Ali",
     "desc": "Now that's an effective disguise!",
     "vislevel": "hide",
     "respawnrate": "200"
   },
   "prince_ali_prison": {
+    "id": 920,
     "name": "Prince Ali",
     "desc": "A young prince.",
     "op1": "Talk-to",
@@ -15047,6 +15863,7 @@
     "wanderrange": "2"
   },
   "professor_oddenstein": {
+    "id": 286,
     "name": "Professor Oddenstein",
     "vislevel": "hide",
     "desc": "A mad scientist if ever I saw one!",
@@ -15054,6 +15871,7 @@
     "wanderrange": "2"
   },
   "questscorpiona": {
+    "id": 385,
     "name": "Kharid Scorpion",
     "vislevel": "hide",
     "desc": "Looks vicious!",
@@ -15061,6 +15879,7 @@
     "respawnrate": "100"
   },
   "questscorpionb": {
+    "id": 386,
     "name": "Kharid Scorpion",
     "vislevel": "hide",
     "desc": "Looks vicious!",
@@ -15068,6 +15887,7 @@
     "respawnrate": "100"
   },
   "questscorpionc": {
+    "id": 387,
     "name": "Kharid Scorpion",
     "vislevel": "hide",
     "desc": "Looks vicious!",
@@ -15075,6 +15895,7 @@
     "respawnrate": "100"
   },
   "radimus_erkle": {
+    "id": 400,
     "name": "Radimus Erkle",
     "vislevel": "hide",
     "desc": "Radimus is the Grand Vizier of the Legends Guild.",
@@ -15086,6 +15907,7 @@
     ]
   },
   "ranael": {
+    "id": 544,
     "name": "Ranael",
     "vislevel": "hide",
     "desc": "She's an expert on armoured skirts!",
@@ -15100,6 +15922,7 @@
     ]
   },
   "ranalph_devere": {
+    "id": 938,
     "name": "Ranalph Devere",
     "desc": "The spirit of a long dead warrior.",
     "op1": "Talk-to",
@@ -15127,6 +15950,7 @@
     ]
   },
   "ranging_advisor1": {
+    "id": 684,
     "name": "Tower Advisor",
     "vislevel": "hide",
     "desc": "Tower keeper and competition judge.",
@@ -15135,6 +15959,7 @@
     "moverestrict": "nomove"
   },
   "ranging_advisor2": {
+    "id": 685,
     "name": "Tower Advisor",
     "vislevel": "hide",
     "desc": "Tower keeper and competition judge.",
@@ -15143,6 +15968,7 @@
     "moverestrict": "nomove"
   },
   "ranging_advisor3": {
+    "id": 686,
     "name": "Tower Advisor",
     "vislevel": "hide",
     "desc": "Tower keeper and competition judge.",
@@ -15151,6 +15977,7 @@
     "moverestrict": "nomove"
   },
   "ranging_advisor4": {
+    "id": 687,
     "name": "Tower Advisor",
     "vislevel": "hide",
     "desc": "Tower keeper and competition judge.",
@@ -15159,6 +15986,7 @@
     "moverestrict": "nomove"
   },
   "ranging_guild_armour_salesman": {
+    "id": 682,
     "name": "Armour salesman",
     "vislevel": "hide",
     "desc": "Supplier of Rangers armour.",
@@ -15173,6 +16001,7 @@
     ]
   },
   "ranging_guild_bow_salesman": {
+    "id": 683,
     "name": "Bow and Arrow salesman",
     "vislevel": "hide",
     "desc": "Supplier of Archery equipment.",
@@ -15187,6 +16016,7 @@
     ]
   },
   "ranging_guild_competition_judge": {
+    "id": 693,
     "name": "Competition Judge",
     "vislevel": "hide",
     "desc": "Overseer of the Archery competition.",
@@ -15194,6 +16024,7 @@
     "wanderrange": "1"
   },
   "ranging_guild_doorman": {
+    "id": 679,
     "name": "Ranging Guild Doorman",
     "vislevel": "hide",
     "desc": "The keeper of the gates to the ranging guild.",
@@ -15205,6 +16036,7 @@
     "defence": "40"
   },
   "ranging_guild_guard": {
+    "id": 678,
     "name": "Guard",
     "desc": "Keeps order in the ranging guild.",
     "op1": "Talk-to",
@@ -15233,6 +16065,7 @@
     ]
   },
   "ranging_guild_leatherworker": {
+    "id": 680,
     "name": "Leatherworker",
     "vislevel": "hide",
     "desc": "An expert leatherworker.",
@@ -15240,12 +16073,14 @@
     "wanderrange": "2"
   },
   "ranging_guild_poison_salesman": {
+    "id": 681,
     "name": "Weapon poison salesman",
     "vislevel": "hide",
     "desc": "Supplier of deadly liquids.",
     "op1": "Talk-to"
   },
   "ranging_guild_ticket_exchange": {
+    "id": 694,
     "name": "Ticket Merchant",
     "vislevel": "hide",
     "desc": "Exchanges your tickets for equipment.",
@@ -15253,6 +16088,7 @@
     "wanderrange": "3"
   },
   "ranging_guild_tribal_salesman": {
+    "id": 692,
     "name": "Tribal Weapon Salesman",
     "vislevel": "hide",
     "desc": "Supplier of authentic throwing weapons.",
@@ -15266,6 +16102,7 @@
     ]
   },
   "rantz": {
+    "id": 1010,
     "name": "Rantz",
     "vislevel": "hide",
     "desc": "A large dim looking humanoid.",
@@ -15277,6 +16114,7 @@
     ]
   },
   "rarefish": {
+    "id": 333,
     "name": "Fishing spot",
     "vislevel": "hide",
     "desc": "I can see fish swimming in the water.",
@@ -15289,6 +16127,7 @@
     "moverestrict": "nomove"
   },
   "rat": {
+    "id": 47,
     "name": "Rat",
     "desc": "A popular dwarven delicacy.",
     "op2": "Attack",
@@ -15314,6 +16153,7 @@
     }
   },
   "recruiter": {
+    "id": 720,
     "name": "Recruiter",
     "vislevel": "hide",
     "desc": "A member of the Ardougne Royal Army.",
@@ -15321,6 +16161,7 @@
     "wanderrange": "2"
   },
   "red_dragon": {
+    "id": 53,
     "name": "Red dragon",
     "size": "4",
     "desc": "A big powerful dragon.",
@@ -15377,24 +16218,28 @@
     }
   },
   "redbeard_frank": {
+    "id": 375,
     "name": "Redbeard Frank",
     "vislevel": "hide",
     "desc": "A pirate.",
     "op1": "Talk-to"
   },
   "reldo": {
+    "id": 647,
     "name": "Reldo",
     "vislevel": "hide",
     "desc": "Reldo the librarian.",
     "op1": "Talk-to"
   },
   "remsai": {
+    "id": 472,
     "name": "Remsai",
     "vislevel": "hide",
     "desc": "It's a tree gnome.",
     "op1": "Talk-to"
   },
   "renegade_knight": {
+    "id": 237,
     "name": "Renegade Knight",
     "desc": "He isn't very friendly.",
     "op2": "Attack",
@@ -15416,6 +16261,7 @@
     ]
   },
   "risingsun_barmaid": {
+    "id": 736,
     "name": "Barmaid",
     "vislevel": "hide",
     "desc": "I could get a beer from her.",
@@ -15424,6 +16270,7 @@
     "wanderrange": "4"
   },
   "rogue": {
+    "id": 187,
     "name": "Rogue",
     "desc": "Rogueish.",
     "op2": "Attack",
@@ -15471,12 +16318,14 @@
     }
   },
   "romeo": {
+    "id": 639,
     "name": "Romeo",
     "desc": "Rather dense and soppy looking.",
     "op1": "Talk-to",
     "vislevel": "hide"
   },
   "rommik": {
+    "id": 585,
     "name": "Rommik",
     "vislevel": "hide",
     "desc": "If craftings your thing, he's your man!",
@@ -15491,6 +16340,7 @@
     ]
   },
   "rooster": {
+    "id": 1018,
     "name": "Rooster",
     "desc": "He rules the...er...roost.",
     "op2": "Attack",
@@ -15511,6 +16361,7 @@
     ]
   },
   "rowdymineguard": {
+    "id": 842,
     "name": "Rowdy Guard",
     "desc": "He looks a bit aggressive and rowdy.",
     "op1": "Talk-to",
@@ -15538,18 +16389,21 @@
     ]
   },
   "rpdt_employee": {
+    "id": 843,
     "name": "RPDT employee",
     "vislevel": "hide",
     "desc": "Inefficient looking.",
     "op1": "Talk-to"
   },
   "rustyanchor_bartender": {
+    "id": 734,
     "name": "Bartender",
     "vislevel": "hide",
     "desc": "I could get a beer from him.",
     "op1": "Talk-to"
   },
   "salarin_the_twisted": {
+    "id": 205,
     "name": "Salarin the twisted",
     "desc": "A crazy evil druid",
     "op2": "Attack",
@@ -15588,6 +16442,7 @@
     }
   },
   "saltfish": {
+    "id": 332,
     "name": "Fishing spot",
     "vislevel": "hide",
     "desc": "I can see fish swimming in the water.",
@@ -15600,6 +16455,7 @@
     "moverestrict": "nomove"
   },
   "san_tojalon": {
+    "id": 936,
     "name": "San Tojalon",
     "desc": "The spirit of a long dead warrior.",
     "op1": "Talk-to",
@@ -15629,12 +16485,14 @@
     ]
   },
   "sanfew": {
+    "id": 454,
     "name": "Sanfew",
     "vislevel": "hide",
     "desc": "An old druid.",
     "op1": "Talk-to"
   },
   "saradomin_mage": {
+    "id": 913,
     "name": "Battle mage",
     "desc": "He kills in the name of Saradomin.",
     "op2": "Attack",
@@ -15651,12 +16509,14 @@
     ]
   },
   "savage_bird": {
+    "id": 412,
     "name": "Bat",
     "desc": "Annoying flappy thing.",
     "op2": "Attack",
     "vislevel": "27"
   },
   "scared_skavid": {
+    "id": 863,
     "name": "Scared skavid",
     "vislevel": "hide",
     "desc": "Frightened looking.",
@@ -15664,6 +16524,7 @@
     "op1": "Talk-to"
   },
   "scavvo": {
+    "id": 537,
     "name": "Scavvo",
     "vislevel": "hide",
     "desc": "He's got the best armour around!",
@@ -15678,6 +16539,7 @@
     ]
   },
   "scorpion": {
+    "id": 107,
     "name": "Scorpion",
     "size": "2",
     "desc": "An extremely vicious scorpion.",
@@ -15701,6 +16563,7 @@
     ]
   },
   "seabird1": {
+    "id": 146,
     "name": "Gull",
     "desc": "A sea bird.",
     "size": "2",
@@ -15720,6 +16583,7 @@
     ]
   },
   "seabird2": {
+    "id": 147,
     "name": "Cormorant",
     "desc": "A sea bird.",
     "size": "2",
@@ -15737,6 +16601,7 @@
     ]
   },
   "seabird3": {
+    "id": 148,
     "name": "Albatross",
     "desc": "A sea bird.",
     "size": "2",
@@ -15754,18 +16619,21 @@
     ]
   },
   "seaman_lorris": {
+    "id": 377,
     "name": "Seaman Lorris",
     "vislevel": "hide",
     "desc": "A young sailor.",
     "op1": "Talk-to"
   },
   "seaman_thresnor": {
+    "id": 378,
     "name": "Seaman Thresnor",
     "vislevel": "hide",
     "desc": "A young sailor.",
     "op1": "Talk-to"
   },
   "seaslug": {
+    "id": 1006,
     "name": "Sea slug",
     "vislevel": "hide",
     "desc": "A rather nasty looking crustacean.",
@@ -15773,18 +16641,21 @@
     "wanderrange": "1"
   },
   "seer": {
+    "id": 388,
     "name": "Seer",
     "vislevel": "hide",
     "desc": "Could do with a shave...",
     "op1": "Talk-to"
   },
   "seth": {
+    "id": 791,
     "name": "Seth",
     "vislevel": "hide",
     "desc": "Slightly fishy smelling.",
     "op1": "Talk-to"
   },
   "shadow_spider": {
+    "id": 58,
     "name": "Shadow spider",
     "desc": "Is it a spider or is it a shadow?",
     "op2": "Attack",
@@ -15808,6 +16679,7 @@
     ]
   },
   "shadow_warrior": {
+    "id": 158,
     "name": "Shadow warrior",
     "desc": "A fighter from the supernatural world, he's a shadow of his former self.",
     "op2": "Attack",
@@ -15857,6 +16729,7 @@
     }
   },
   "shantay": {
+    "id": 836,
     "name": "Shantay",
     "vislevel": "hide",
     "desc": "He's in control of the Shantay pass.",
@@ -15871,6 +16744,7 @@
     ]
   },
   "shantay_guard": {
+    "id": 837,
     "name": "Shantay Guard",
     "desc": "He patrols the Shantay Pass.",
     "op1": "Talk-to",
@@ -15897,6 +16771,7 @@
     ]
   },
   "shantay_guard_still": {
+    "id": 838,
     "name": "Shantay Guard",
     "desc": "He patrols the Shantay Pass.",
     "op1": "Talk-to",
@@ -15922,6 +16797,7 @@
     ]
   },
   "shapeshifterbear": {
+    "id": 899,
     "name": "Witches experiment third form",
     "desc": "Looks unnatural.",
     "size": "2",
@@ -15936,6 +16812,7 @@
     ]
   },
   "shapeshifterglob": {
+    "id": 897,
     "name": "Witches experiment",
     "desc": "Looks unnatural.",
     "op2": "Attack",
@@ -15949,6 +16826,7 @@
     ]
   },
   "shapeshifterspider": {
+    "id": 898,
     "name": "Witches experiment second form",
     "desc": "Looks unnatural.",
     "op2": "Attack",
@@ -15962,6 +16840,7 @@
     ]
   },
   "shapeshifterwolf": {
+    "id": 900,
     "name": "Witches experiment fourth form",
     "desc": "Looks unnatural.",
     "op2": "Attack",
@@ -15975,22 +16854,26 @@
     ]
   },
   "shark": {
+    "id": 40,
     "name": "Shark",
     "desc": "Let's not go skinny dipping eh?",
     "vislevel": "1",
     "moverestrict": "blocked"
   },
   "sheepsheered": {
+    "id": 42,
     "name": "Sheep",
     "vislevel": "hide",
     "desc": "Freshly sheared."
   },
   "sheepunsheered": {
+    "id": 43,
     "name": "Sheep",
     "vislevel": "hide",
     "desc": "White and fluffy."
   },
   "shiloantiques": {
+    "id": 515,
     "name": "Yanni Salika",
     "vislevel": "hide",
     "desc": "Yanni Salika - He buys and sells antiques.",
@@ -15998,6 +16881,7 @@
     "wanderrange": "2"
   },
   "shilobanker": {
+    "id": 499,
     "name": "Banker",
     "vislevel": "hide",
     "desc": "He can look after my money.",
@@ -16007,6 +16891,7 @@
     "moverestrict": "nomove"
   },
   "shilocartdriver": {
+    "id": 511,
     "name": "Vigroy",
     "vislevel": "hide",
     "desc": "A cart driver, it looks like he's quite experienced.",
@@ -16014,6 +16899,7 @@
     "wanderrange": "3"
   },
   "shilofishowner": {
+    "id": 517,
     "name": "Fernahei",
     "vislevel": "hide",
     "desc": "This is Fernahei - he owns the local fishing tackle shop.",
@@ -16028,6 +16914,7 @@
     ]
   },
   "shilofurnaceowner": {
+    "id": 513,
     "name": "Yohnus",
     "vislevel": "hide",
     "desc": "This is Yohnus - he runs the local blacksmiths.",
@@ -16035,6 +16922,7 @@
     "wanderrange": "1"
   },
   "shilogeneralstore": {
+    "id": 516,
     "name": "Obli",
     "vislevel": "hide",
     "desc": "An intelligent looking shop owner.",
@@ -16049,6 +16937,7 @@
     ]
   },
   "shiloinnowner": {
+    "id": 512,
     "name": "Kaleb Paramaya",
     "vislevel": "hide",
     "desc": "This is Kaleb Paramaya - a warm and friendly inn owner.",
@@ -16056,6 +16945,7 @@
     "wanderrange": "3"
   },
   "shilop": {
+    "id": 781,
     "name": "Shilop",
     "vislevel": "hide",
     "desc": "One of Gertrude's Sons.",
@@ -16064,6 +16954,7 @@
     "members": "yes"
   },
   "shiloshiptickets": {
+    "id": 514,
     "name": "Seravel",
     "vislevel": "hide",
     "desc": "This is Seravel - he sells tickets for the 'Lady of the Waves'.",
@@ -16072,18 +16963,21 @@
     "moverestrict": "nomove"
   },
   "shipmonk": {
+    "id": 657,
     "name": "Monk of Entrana",
     "vislevel": "hide",
     "desc": "Holy looking.",
     "op1": "Talk-to"
   },
   "shipmonk2": {
+    "id": 658,
     "name": "Monk of Entrana",
     "vislevel": "hide",
     "desc": "Holy looking.",
     "op1": "Talk-to"
   },
   "shipyardworker1": {
+    "id": 38,
     "name": "Shipyard worker",
     "desc": "Builds ships for a living.",
     "op1": "Talk-to",
@@ -16101,6 +16995,7 @@
     ]
   },
   "shipyardworker2": {
+    "id": 39,
     "name": "Shipyard worker",
     "desc": "Builds ships for a living.",
     "op1": "Talk-to",
@@ -16121,6 +17016,7 @@
     ]
   },
   "siegfried_erkle": {
+    "id": 933,
     "name": "Siegfried Erkle",
     "vislevel": "hide",
     "desc": "An eccentric shop keeper - related to the Grand Vizier of the Legends Guild.",
@@ -16136,12 +17032,14 @@
     ]
   },
   "sigbert_the_adventurer": {
+    "id": 37,
     "name": "Sigbert the Adventurer",
     "vislevel": "hide",
     "desc": "A bold knight famed for his travels.",
     "op1": "Talk-to"
   },
   "silk_merchant": {
+    "id": 574,
     "name": "Silk merchant",
     "vislevel": "hide",
     "desc": "Seems very well off.",
@@ -16150,6 +17048,7 @@
     "moverestrict": "nomove"
   },
   "silk_trader": {
+    "id": 539,
     "name": "Silk trader",
     "vislevel": "hide",
     "desc": "Very snappily dressed!",
@@ -16157,6 +17056,7 @@
     "wanderrange": "2"
   },
   "silver_merchant": {
+    "id": 569,
     "name": "Silver merchant",
     "vislevel": "hide",
     "desc": "Looks fairly well fed.",
@@ -16172,54 +17072,63 @@
     ]
   },
   "sinister_stranger": {
+    "id": 226,
     "name": "A Sinister Stranger",
     "vislevel": "hide",
     "desc": "He looks a LOT like a vampire...",
     "op1": "Talk-to"
   },
   "sir_amik_varze": {
+    "id": 608,
     "name": "Sir Amik Varze",
     "vislevel": "hide",
     "desc": "Leader of the White Knights.",
     "op1": "Talk-to"
   },
   "sir_bedivere": {
+    "id": 242,
     "name": "Sir Bedivere",
     "vislevel": "hide",
     "desc": "One of the Knights of the Round Table.",
     "op1": "Talk-to"
   },
   "sir_ceril_carnillean": {
+    "id": 885,
     "name": "Ceril Carnillean",
     "vislevel": "hide",
     "desc": "Head of the Carnillean household.",
     "op1": "Talk-to"
   },
   "sir_gawain": {
+    "id": 240,
     "name": "Sir Gawain",
     "vislevel": "hide",
     "desc": "One of the Knights of the Round Table.",
     "op1": "Talk-to"
   },
   "sir_kay": {
+    "id": 241,
     "name": "Sir Kay",
     "vislevel": "hide",
     "desc": "One of the Knights of the Round Table.",
     "op1": "Talk-to"
   },
   "sir_lancelot": {
+    "id": 239,
     "name": "Sir Lancelot",
     "vislevel": "hide",
     "desc": "One of the Knights of the Round Table.",
     "op1": "Talk-to"
   },
   "sir_lucan": {
+    "id": 245,
     "name": "Sir Lucan",
     "vislevel": "hide",
     "desc": "One of the Knights of the Round Table.",
     "op1": "Talk-to"
   },
   "sir_mordred": {
+    "id": 247,
     "name": "Sir Mordred",
     "desc": "Leader of the Renegade Knights.",
     "op1": "Talk-to",
@@ -16242,18 +17151,21 @@
     ]
   },
   "sir_palomedes": {
+    "id": 246,
     "name": "Sir Palomedes",
     "vislevel": "hide",
     "desc": "One of the Knights of the Round Table.",
     "op1": "Talk-to"
   },
   "sir_pelleas": {
+    "id": 244,
     "name": "Sir Pelleas",
     "vislevel": "hide",
     "desc": "One of the Knights of the Round Table.",
     "op1": "Talk-to"
   },
   "sir_percival": {
+    "id": 211,
     "name": "Sir Percival",
     "vislevel": "hide",
     "desc": "One of the Knights of the Round Table.",
@@ -16261,6 +17173,7 @@
     "wanderrange": "1"
   },
   "sir_prysin": {
+    "id": 883,
     "name": "Sir Prysin",
     "vislevel": "hide",
     "desc": "One of the king's knights.",
@@ -16268,12 +17181,14 @@
     "moverestrict": "indoors"
   },
   "sir_tristram": {
+    "id": 243,
     "name": "Sir Tristram",
     "vislevel": "hide",
     "desc": "One of the Knights of the Round Table.",
     "op1": "Talk-to"
   },
   "sir_vyvin": {
+    "id": 605,
     "name": "Sir Vyvin",
     "vislevel": "hide",
     "desc": "An elderly White Knight.",
@@ -16281,6 +17196,7 @@
     "wanderrange": "8"
   },
   "skavid": {
+    "id": 129,
     "name": "Skavid",
     "desc": "Servant race to the ogres.",
     "op2": "Attack",
@@ -16291,6 +17207,7 @@
     ]
   },
   "skavidtalker1": {
+    "id": 865,
     "name": "Skavid",
     "vislevel": "hide",
     "desc": "A skavid.",
@@ -16298,6 +17215,7 @@
     "op1": "Talk-to"
   },
   "skavidtalker2": {
+    "id": 866,
     "name": "Skavid",
     "vislevel": "hide",
     "desc": "A skavid.",
@@ -16305,6 +17223,7 @@
     "op1": "Talk-to"
   },
   "skavidtalker3": {
+    "id": 867,
     "name": "Skavid",
     "vislevel": "hide",
     "desc": "A skavid.",
@@ -16312,6 +17231,7 @@
     "op1": "Talk-to"
   },
   "skavidtalker4": {
+    "id": 868,
     "name": "Skavid",
     "vislevel": "hide",
     "desc": "A skavid.",
@@ -16319,6 +17239,7 @@
     "op1": "Talk-to"
   },
   "skavidtalker5": {
+    "id": 869,
     "name": "Skavid",
     "vislevel": "hide",
     "desc": "A skavid.",
@@ -16326,6 +17247,7 @@
     "op1": "Talk-to"
   },
   "skeleton_armed": {
+    "id": 92,
     "name": "Skeleton",
     "desc": "Could do with gaining a few pounds.",
     "op2": "Attack",
@@ -16379,6 +17301,7 @@
     }
   },
   "skeleton_unagressive": {
+    "id": 90,
     "name": "Skeleton",
     "desc": "Could do with gaining a few pounds.",
     "op2": "Attack",
@@ -16430,6 +17353,7 @@
     }
   },
   "skeleton_unarmed": {
+    "id": 91,
     "name": "Skeleton",
     "desc": "Could do with gaining a few pounds.",
     "op2": "Attack",
@@ -16483,6 +17407,7 @@
     }
   },
   "skeletonmage": {
+    "id": 94,
     "name": "Skeleton Mage",
     "desc": "An undead worker of dark magic.",
     "op2": "Attack",
@@ -16499,6 +17424,7 @@
     ]
   },
   "skull_skeleton": {
+    "id": 459,
     "name": "Skeleton",
     "desc": "It rattles when it walks.",
     "op2": "Attack",
@@ -16519,6 +17445,7 @@
     ]
   },
   "slave_rowdy": {
+    "id": 827,
     "name": "Rowdy slave",
     "desc": "He looks a bit aggressive.",
     "op1": "Talk-to",
@@ -16548,6 +17475,7 @@
     }
   },
   "smallscorpion": {
+    "id": 109,
     "name": "Pit Scorpion",
     "desc": "Tiny, annoying, stinging thing.",
     "op2": "Attack",
@@ -16568,6 +17496,7 @@
     ]
   },
   "snake": {
+    "id": 128,
     "name": "Snake",
     "desc": "A slithering serpent.",
     "op2": "Attack",
@@ -16584,6 +17513,7 @@
     ]
   },
   "souless": {
+    "id": 140,
     "name": "Souless",
     "desc": "A servent to Zamorak.",
     "op2": "Attack",
@@ -16603,6 +17533,7 @@
     ]
   },
   "soulman": {
+    "id": 991,
     "name": "Half-Souless",
     "size": "2",
     "desc": "A creature empty of emotion.",
@@ -16611,6 +17542,7 @@
     "moverestrict": "nomove"
   },
   "speedy_keith": {
+    "id": 204,
     "name": "Speedy Keith",
     "desc": "Nice hair.",
     "op1": "Talk-to",
@@ -16660,6 +17592,7 @@
     }
   },
   "spice_merchant": {
+    "id": 572,
     "name": "Spice seller",
     "vislevel": "hide",
     "desc": "Has a very exotic aroma about him.",
@@ -16674,6 +17607,7 @@
     ]
   },
   "spider": {
+    "id": 61,
     "name": "Spider",
     "desc": "Incey wincey.",
     "op2": "Attack",
@@ -16694,6 +17628,7 @@
     ]
   },
   "spirit_of_scorpius": {
+    "id": 492,
     "name": "Spirit of Scorpius",
     "vislevel": "hide",
     "desc": "The essence of evil.",
@@ -16704,6 +17639,7 @@
     ]
   },
   "squire": {
+    "id": 606,
     "name": "Squire",
     "vislevel": "hide",
     "desc": "Indentured servant of a Knight.",
@@ -16711,12 +17647,14 @@
     "wanderrange": "4"
   },
   "stanford_the_gardener": {
+    "id": 811,
     "name": "Stanford",
     "vislevel": "hide",
     "desc": "He looks like he spends a lot of time outdoors.",
     "op1": "Talk-to"
   },
   "stankers": {
+    "id": 383,
     "name": "Stankers",
     "vislevel": "hide",
     "desc": "He's in control of the coal trucks.",
@@ -16727,6 +17665,7 @@
     ]
   },
   "straven": {
+    "id": 644,
     "name": "Straven",
     "desc": "Kind of funny looking.",
     "op1": "Talk-to",
@@ -16742,24 +17681,28 @@
     ]
   },
   "student1": {
+    "id": 615,
     "name": "Student",
     "vislevel": "hide",
     "desc": "A student busily digging.",
     "op1": "Talk-to"
   },
   "student2": {
+    "id": 617,
     "name": "Student",
     "vislevel": "hide",
     "desc": "A student busily digging.",
     "op1": "Talk-to"
   },
   "student3": {
+    "id": 616,
     "name": "Student",
     "vislevel": "hide",
     "desc": "A student busily digging.",
     "op1": "Talk-to"
   },
   "suit_of_armour": {
+    "id": 453,
     "name": "Suit of armour",
     "desc": "A dusty old suit of armour.",
     "op2": "Attack",
@@ -16781,6 +17724,7 @@
     ]
   },
   "summonedzombie": {
+    "id": 77,
     "name": "Summoned Zombie",
     "desc": "The living dead.",
     "op2": "Attack",
@@ -16797,6 +17741,7 @@
     ]
   },
   "swordshop1": {
+    "id": 551,
     "name": "Shop keeper",
     "vislevel": "hide",
     "desc": "Ironically, makes a living from swords.",
@@ -16811,6 +17756,7 @@
     ]
   },
   "swordshop2": {
+    "id": 552,
     "name": "Shop assistant",
     "vislevel": "hide",
     "desc": "Helps the shop keeper sell swords.",
@@ -16825,6 +17771,7 @@
     ]
   },
   "tailorp": {
+    "id": 554,
     "name": "Fancy dress shop owner",
     "vislevel": "hide",
     "desc": "For the interesting clothing items you just can't find elsewhere.",
@@ -16839,6 +17786,7 @@
     ]
   },
   "tanner": {
+    "id": 804,
     "name": "Tanner",
     "vislevel": "hide",
     "desc": "Manufacturer of fine leathers.",
@@ -16846,6 +17794,7 @@
     "moverestrict": "indoors"
   },
   "tea_seller": {
+    "id": 595,
     "name": "Tea seller",
     "vislevel": "hide",
     "desc": "He seems to sell tea.",
@@ -16860,6 +17809,7 @@
     ]
   },
   "ted_rehnison": {
+    "id": 721,
     "name": "Ted Rehnison",
     "vislevel": "hide",
     "desc": "The head of the Rehnison family.",
@@ -16867,6 +17817,7 @@
     "moverestrict": "indoors"
   },
   "terrorbird": {
+    "id": 136,
     "name": "Terrorbird",
     "desc": "A giant raptor.",
     "size": "2",
@@ -16884,6 +17835,7 @@
     ]
   },
   "terrorbird_mounted": {
+    "id": 137,
     "name": "Mounted terrorbird gnome",
     "desc": "These gnomes know how to get around!",
     "size": "2",
@@ -16906,6 +17858,7 @@
     ]
   },
   "terrorbird_mountedspear": {
+    "id": 138,
     "name": "Mounted terrorbird gnome",
     "desc": "These gnomes know how to get around!",
     "size": "2",
@@ -16929,6 +17882,7 @@
     ]
   },
   "thessalia": {
+    "id": 548,
     "name": "Thessalia",
     "vislevel": "hide",
     "desc": "Interesting assortment of clothes on offer...",
@@ -16943,6 +17897,7 @@
     ]
   },
   "thief_blanket": {
+    "id": 282,
     "name": "Thief",
     "desc": "A dastardly blanket thief.",
     "op2": "Attack",
@@ -16996,6 +17951,7 @@
     }
   },
   "thief1": {
+    "id": 8,
     "name": "Thief",
     "desc": "Known for his lightfingered qualities.",
     "op2": "Attack",
@@ -17040,12 +17996,14 @@
     }
   },
   "thormac": {
+    "id": 389,
     "name": "Thormac",
     "vislevel": "hide",
     "desc": "Nice hat.",
     "op1": "Talk-to"
   },
   "thrantax": {
+    "id": 238,
     "name": "Thrantax The Mighty",
     "desc": "A scary looking spirit.",
     "op2": "Attack",
@@ -17062,6 +18020,7 @@
     ]
   },
   "thug": {
+    "id": 186,
     "name": "Thug",
     "desc": "Low on brains, high on aggression.",
     "op2": "Attack",
@@ -17111,17 +18070,20 @@
     }
   },
   "thurgo": {
+    "id": 604,
     "name": "Thurgo",
     "vislevel": "hide",
     "desc": "Dwarvish.",
     "op1": "Talk-to"
   },
   "toad": {
+    "id": 1013,
     "name": "Swamp toad",
     "vislevel": "hide",
     "desc": "A green skinned croaker, loves the swamp."
   },
   "toban": {
+    "id": 855,
     "name": "Toban",
     "vislevel": "hide",
     "desc": "Ogre-ish.",
@@ -17129,6 +18091,7 @@
     "op1": "Talk-to"
   },
   "tower_guard": {
+    "id": 877,
     "name": "Tower guard",
     "desc": "Tries to keep the peace.",
     "op1": "Talk-to",
@@ -17179,24 +18142,28 @@
     }
   },
   "tracker1": {
+    "id": 481,
     "name": "Gnome",
     "vislevel": "hide",
     "desc": "Looks like a gnome to me.",
     "op1": "Talk-to"
   },
   "tracker2": {
+    "id": 482,
     "name": "Gnome",
     "vislevel": "hide",
     "desc": "Looks like a gnome to me.",
     "op1": "Talk-to"
   },
   "tracker3": {
+    "id": 483,
     "name": "Gnome",
     "vislevel": "hide",
     "desc": "Looks like a gnome to me.",
     "op1": "Talk-to"
   },
   "traiborn": {
+    "id": 881,
     "name": "Traiborn",
     "vislevel": "hide",
     "desc": "An old wizard.",
@@ -17204,6 +18171,7 @@
     "moverestrict": "indoors"
   },
   "trail_hard": {
+    "id": 1007,
     "name": "Zamorak Wizard",
     "desc": "A servant of Zamorak.",
     "op2": "Attack",
@@ -17253,6 +18221,7 @@
     }
   },
   "tramp": {
+    "id": 11,
     "name": "Tramp",
     "op2": "Attack",
     "desc": "A man down on his luck.",
@@ -17271,6 +18240,7 @@
     ]
   },
   "tramppg": {
+    "id": 641,
     "name": "Tramp",
     "vislevel": "hide",
     "desc": "Looks down on his luck.",
@@ -17278,6 +18248,7 @@
     "wanderrange": "2"
   },
   "tree_spirit": {
+    "id": 655,
     "name": "Tree spirit",
     "desc": "Guardian of the dramen tree.",
     "op2": "Attack",
@@ -17291,6 +18262,7 @@
     ]
   },
   "treevillage_shopkeeper1": {
+    "id": 471,
     "name": "Bolkoy",
     "vislevel": "hide",
     "desc": "It's a tree gnome.",
@@ -17304,6 +18276,7 @@
     ]
   },
   "tribesman": {
+    "id": 191,
     "name": "Tribesman",
     "desc": "A primitive warrior.",
     "op2": "Attack",
@@ -17360,6 +18333,7 @@
     }
   },
   "trobert": {
+    "id": 790,
     "name": "Trobert",
     "vislevel": "hide",
     "desc": "A well dressed thief.",
@@ -17373,6 +18347,7 @@
     ]
   },
   "troll": {
+    "id": 72,
     "name": "Troll",
     "desc": "A hideously deformed creature.",
     "op2": "Attack",
@@ -17401,6 +18376,7 @@
     }
   },
   "troll_champion": {
+    "id": 1125,
     "name": "Dad",
     "desc": "An unusually large troll.",
     "size": "3",
@@ -17434,30 +18410,35 @@
     }
   },
   "troll_cook": {
+    "id": 1135,
     "name": "Cook",
     "desc": "Human is his speciality.",
     "size": "2",
     "vislevel": "hide"
   },
   "troll_cook2": {
+    "id": 1136,
     "name": "Cook",
     "desc": "Human is his speciality.",
     "size": "2",
     "vislevel": "hide"
   },
   "troll_cook3": {
+    "id": 1137,
     "name": "Cook",
     "desc": "Human is his speciality.",
     "size": "2",
     "vislevel": "hide"
   },
   "troll_eadgar": {
+    "id": 1113,
     "name": "Eadgar",
     "desc": "A rather mad looking hermit.",
     "op1": "Talk-to",
     "vislevel": "hide"
   },
   "troll_general": {
+    "id": 1115,
     "name": "Troll General",
     "desc": "One of the Troll Generals.",
     "size": "2",
@@ -17514,6 +18495,7 @@
     }
   },
   "troll_general2": {
+    "id": 1116,
     "name": "Troll General",
     "desc": "One of the Troll Generals.",
     "size": "2",
@@ -17570,6 +18552,7 @@
     }
   },
   "troll_general3": {
+    "id": 1117,
     "name": "Troll General",
     "desc": "One of the Troll Generals.",
     "size": "2",
@@ -17626,12 +18609,14 @@
     }
   },
   "troll_godric": {
+    "id": 1114,
     "name": "Godric",
     "desc": "Dunstan's son.",
     "op1": "Talk-to",
     "vislevel": "hide"
   },
   "troll_melee1": {
+    "id": 1138,
     "name": "Mountain Troll",
     "desc": "Small for a troll but mean and ugly.",
     "op2": "Attack",
@@ -17682,23 +18667,25 @@
     }
   },
   "troll_mountain_goat": {
+    "id": 1140,
     "name": "Mountain Goat",
     "vislevel": "hide",
     "desc": "This beast doesn't need climbing boots."
   },
   "troll_mountain_goat_smaller": {
+    "id": 1141,
     "name": "Mountain Goat",
     "vislevel": "hide",
     "desc": "This beast doesn't need climbing boots."
   },
   "troll_prison_guard1": {
+    "id": 1128,
     "name": "Twig",
     "desc": "He's guarding the cells.",
     "size": "2",
     "op2": "Attack",
     "op3": "Pickpocket",
     "vislevel": "71",
-    "defaultmode": "none",
     "wanderrange": "0",
     "respawnrate": "100",
     "hitpoints": "90",
@@ -17745,13 +18732,13 @@
     }
   },
   "troll_prison_guard2": {
+    "id": 1129,
     "name": "Berry",
     "desc": "He's guarding the cells.",
     "size": "2",
     "op2": "Attack",
     "op3": "Pickpocket",
     "vislevel": "71",
-    "defaultmode": "none",
     "wanderrange": "0",
     "respawnrate": "100",
     "hitpoints": "90",
@@ -17798,46 +18785,55 @@
     }
   },
   "troll_sguard1": {
+    "id": 1142,
     "name": "Guard",
     "desc": "He's guarding the storeroom.",
     "vislevel": "hide"
   },
   "troll_sguard2": {
+    "id": 1143,
     "name": "Guard",
     "desc": "He's guarding the storeroom.",
     "vislevel": "hide"
   },
   "troll_sguard3": {
+    "id": 1144,
     "name": "Guard",
     "desc": "He's guarding the storeroom.",
     "vislevel": "hide"
   },
   "troll_sguard4": {
+    "id": 1145,
     "name": "Guard",
     "desc": "He's guarding the storeroom.",
     "vislevel": "hide"
   },
   "troll_sguard5": {
+    "id": 1146,
     "name": "Guard",
     "desc": "He's guarding the storeroom.",
     "vislevel": "hide"
   },
   "troll_sguard6": {
+    "id": 1147,
     "name": "Guard",
     "desc": "He's guarding the storeroom.",
     "vislevel": "hide"
   },
   "troll_sguard7": {
+    "id": 1148,
     "name": "Guard",
     "desc": "He's guarding the storeroom.",
     "vislevel": "hide"
   },
   "troll_sguard8": {
+    "id": 1149,
     "name": "Guard",
     "desc": "He's guarding the storeroom.",
     "vislevel": "hide"
   },
   "troll_spectator1": {
+    "id": 1118,
     "name": "Troll Spectator",
     "desc": "He's watching the arena.",
     "op2": "Attack",
@@ -17865,6 +18861,7 @@
     }
   },
   "troll_spectator2": {
+    "id": 1119,
     "name": "Troll Spectator",
     "desc": "He's watching the arena.",
     "op2": "Attack",
@@ -17892,6 +18889,7 @@
     }
   },
   "troll_spectator3": {
+    "id": 1120,
     "name": "Troll Spectator",
     "desc": "He's watching the arena.",
     "op2": "Attack",
@@ -17919,6 +18917,7 @@
     }
   },
   "troll_spectator4": {
+    "id": 1121,
     "name": "Troll Spectator",
     "desc": "He's watching the arena.",
     "op2": "Attack",
@@ -17946,6 +18945,7 @@
     }
   },
   "troll_spectator5": {
+    "id": 1122,
     "name": "Troll Spectator",
     "desc": "He's watching the arena.",
     "op2": "Attack",
@@ -17973,6 +18973,7 @@
     }
   },
   "troll_spectator6": {
+    "id": 1123,
     "name": "Troll Spectator",
     "desc": "He's watching the arena.",
     "op2": "Attack",
@@ -18000,6 +19001,7 @@
     }
   },
   "troll_spectator7": {
+    "id": 1124,
     "name": "Troll Spectator",
     "desc": "He's watching the arena.",
     "op2": "Attack",
@@ -18027,6 +19029,7 @@
     }
   },
   "troll_stronghold_camp_guard": {
+    "id": 1139,
     "name": "Mushroom",
     "desc": "He's fast asleep.",
     "size": "2",
@@ -18036,6 +19039,7 @@
     "moverestrict": "nomove"
   },
   "troll_thrower1": {
+    "id": 1130,
     "name": "Thrower Troll",
     "desc": "Small for a troll but mean, ugly and throws rocks.",
     "op2": "Attack",
@@ -18064,6 +19068,7 @@
     }
   },
   "troll_thrower2": {
+    "id": 1131,
     "name": "Thrower Troll",
     "desc": "Small for a troll but mean, ugly and throws rocks.",
     "op2": "Attack",
@@ -18092,6 +19097,7 @@
     }
   },
   "troll_thrower3": {
+    "id": 1132,
     "name": "Thrower Troll",
     "desc": "Small for a troll but mean, ugly and throws rocks.",
     "op2": "Attack",
@@ -18120,6 +19126,7 @@
     }
   },
   "troll_thrower4": {
+    "id": 1133,
     "name": "Thrower Troll",
     "desc": "Small for a troll but mean, ugly and throws rocks.",
     "op2": "Attack",
@@ -18148,6 +19155,7 @@
     }
   },
   "troll_thrower5": {
+    "id": 1134,
     "name": "Thrower Troll",
     "desc": "Small for a troll but mean, ugly and throws rocks.",
     "op2": "Attack",
@@ -18176,6 +19184,7 @@
     }
   },
   "trufitus": {
+    "id": 740,
     "name": "Trufitus",
     "vislevel": "hide",
     "desc": "A wise old witch doctor.",
@@ -18183,12 +19192,14 @@
     "moverestrict": "indoors"
   },
   "tunnel_dwarf": {
+    "id": 232,
     "name": "Mountain Dwarf",
     "vislevel": "hide",
     "desc": "He looks short and grumpy.",
     "op1": "Talk-to"
   },
   "ugthanki": {
+    "id": 840,
     "name": "Ugthanki",
     "desc": "A vicious attaking camel.",
     "size": "2",
@@ -18215,6 +19226,7 @@
     }
   },
   "ungadulu_bad": {
+    "id": 930,
     "name": "Ungadulu",
     "desc": "The Kharazi tribes elusive Shaman - something doesn't look quite right with him.",
     "op1": "Talk-to",
@@ -18235,6 +19247,7 @@
     ]
   },
   "ungadulu_good": {
+    "id": 929,
     "name": "Ungadulu",
     "desc": "The Kharazi tribes elusive Shaman.",
     "op1": "Talk-to",
@@ -18255,6 +19268,7 @@
     ]
   },
   "unhappy_peasant": {
+    "id": 214,
     "name": "Peasant",
     "vislevel": "hide",
     "desc": "He looks unhappy...",
@@ -18262,6 +19276,7 @@
     "wanderrange": "2"
   },
   "unicorn": {
+    "id": 89,
     "name": "Unicorn",
     "size": "2",
     "desc": "Horse with a horn.",
@@ -18286,6 +19301,7 @@
     }
   },
   "unicorn_upass": {
+    "id": 987,
     "name": "Unicorn",
     "size": "2",
     "desc": "The animal is caged here.",
@@ -18300,6 +19316,7 @@
     ]
   },
   "upass_little_spider": {
+    "id": 1004,
     "name": "Spider",
     "desc": "Incey wincey.",
     "op2": "Attack",
@@ -18320,6 +19337,7 @@
     ]
   },
   "upass_paladin1": {
+    "id": 988,
     "name": "Sir Jerro",
     "desc": "A mighty looking warrior.",
     "op1": "Talk-to",
@@ -18368,6 +19386,7 @@
     }
   },
   "upass_paladin2": {
+    "id": 989,
     "name": "Sir Carl",
     "desc": "A mighty looking warrior.",
     "op1": "Talk-to",
@@ -18416,6 +19435,7 @@
     }
   },
   "upass_paladin3": {
+    "id": 990,
     "name": "Sir Harry",
     "desc": "A mighty looking warrior.",
     "op1": "Talk-to",
@@ -18464,30 +19484,35 @@
     }
   },
   "upassdwarf1": {
+    "id": 994,
     "name": "Nilhoof",
     "vislevel": "hide",
     "desc": "A strong and hardy dwarf.",
     "op1": "Talk-to"
   },
   "upassdwarf2": {
+    "id": 995,
     "name": "Klank",
     "vislevel": "hide",
     "desc": "A dwarven maker of gauntlets.",
     "op1": "Talk-to"
   },
   "upassdwarf3": {
+    "id": 996,
     "name": "Kamen",
     "vislevel": "hide",
     "desc": "This dwarf looks intoxicated.",
     "op1": "Talk-to"
   },
   "upassmage": {
+    "id": 1001,
     "name": "Dark mage",
     "desc": "A dark magic user.",
     "op1": "Talk-to",
     "vislevel": "13"
   },
   "valaine": {
+    "id": 536,
     "name": "Valaine",
     "vislevel": "hide",
     "desc": "A champion of a sales woman!",
@@ -18502,12 +19527,14 @@
     ]
   },
   "velrak_the_explorer": {
+    "id": 798,
     "name": "Velrak the explorer",
     "vislevel": "hide",
     "desc": "He looks cold and hungry.",
     "op1": "Talk-to"
   },
   "veronica": {
+    "id": 285,
     "name": "Veronica",
     "vislevel": "hide",
     "desc": "She doesn't look too happy.",
@@ -18515,6 +19542,7 @@
     "wanderrange": "2"
   },
   "viyeldi": {
+    "id": 935,
     "name": "Viyeldi",
     "desc": "The spirit of a long dead wizard.",
     "op1": "Talk-to",
@@ -18535,47 +19563,55 @@
     ]
   },
   "w_ardougnecitizen1": {
+    "id": 726,
     "name": "Man",
     "vislevel": "hide",
     "desc": "One of RuneScapes' many citizens.",
     "op1": "Talk-to"
   },
   "w_ardougnecitizen2": {
+    "id": 727,
     "name": "Man",
     "vislevel": "hide",
     "desc": "One of RuneScapes' many citizens.",
     "op1": "Talk-to"
   },
   "w_ardougnecitizen3": {
+    "id": 728,
     "name": "Man",
     "vislevel": "hide",
     "desc": "One of RuneScapes' many citizens.",
     "op1": "Talk-to"
   },
   "w_ardougnecitizen4": {
+    "id": 729,
     "name": "Man",
     "vislevel": "hide",
     "desc": "One of RuneScapes' many citizens.",
     "op1": "Talk-to"
   },
   "w_ardougnecitizen5": {
+    "id": 730,
     "name": "Man",
     "vislevel": "hide",
     "desc": "One of RuneScapes' many citizens.",
     "op1": "Talk-to"
   },
   "w_ardougnecitizen6": {
+    "id": 359,
     "name": "Man",
     "vislevel": "hide",
     "desc": "One of RuneScapes' many citizens."
   },
   "w_ardoungechild1": {
+    "id": 355,
     "name": "Child",
     "vislevel": "hide",
     "desc": "One of RuneScapes' many citizens.",
     "op1": "Talk-to"
   },
   "w_ardoungecitizenlady1": {
+    "id": 353,
     "name": "Woman",
     "desc": "One of RuneScapes' many citizens.",
     "op1": "Talk-to",
@@ -18592,6 +19628,7 @@
     ]
   },
   "w_ardoungecitizenlady2": {
+    "id": 362,
     "name": "Woman",
     "desc": "One of RuneScapes' many citizens.",
     "op1": "Talk-to",
@@ -18605,6 +19642,7 @@
     ]
   },
   "w_ardoungecitizenlady4": {
+    "id": 363,
     "name": "Woman",
     "desc": "One of RuneScapes' many citizens.",
     "op1": "Talk-to",
@@ -18620,30 +19658,35 @@
     ]
   },
   "w_ardoungepriest": {
+    "id": 358,
     "name": "Priest",
     "vislevel": "hide",
     "desc": "A holy man.",
     "op1": "Talk-to"
   },
   "wantcat1": {
+    "id": 785,
     "name": "Civillian",
     "vislevel": "hide",
     "desc": "A citizen of Ardougne.",
     "op1": "Talk-to"
   },
   "wantcat2": {
+    "id": 786,
     "name": "Civillian",
     "vislevel": "hide",
     "desc": "A citizen of Ardougne.",
     "op1": "Talk-to"
   },
   "wantcat3": {
+    "id": 787,
     "name": "Civillian",
     "vislevel": "hide",
     "desc": "A citizen of Ardougne.",
     "op1": "Talk-to"
   },
   "warrior_woman": {
+    "id": 15,
     "name": "Warrior woman",
     "desc": "Not very fashion conscious.",
     "op3": "Pickpocket",
@@ -18666,18 +19709,21 @@
     ]
   },
   "warrioradventurerpg": {
+    "id": 650,
     "name": "Warrior",
     "vislevel": "hide",
     "desc": "He looks big and dumb.",
     "op1": "Talk-to"
   },
   "watchtower_wizard": {
+    "id": 872,
     "name": "Watchtower wizard",
     "vislevel": "hide",
     "desc": "The hat is a dead give away.",
     "op1": "Talk-to"
   },
   "wayne": {
+    "id": 581,
     "name": "Wayne",
     "vislevel": "hide",
     "desc": "An armourer.",
@@ -18692,6 +19738,7 @@
     ]
   },
   "weaponsmaster": {
+    "id": 643,
     "name": "Weaponsmaster",
     "desc": "Looks kind of obsessive...",
     "op1": "Talk-to",
@@ -18715,6 +19762,7 @@
     ]
   },
   "werewolfbanker": {
+    "id": 1036,
     "name": "Banker",
     "vislevel": "hide",
     "desc": "He can look after my money.",
@@ -18724,6 +19772,7 @@
     "moverestrict": "nomove"
   },
   "werewolfinnkeeper": {
+    "id": 1042,
     "name": "Roavar",
     "vislevel": "hide",
     "desc": "Seems a jolly chap.",
@@ -18732,12 +19781,14 @@
     "wanderrange": "5"
   },
   "werewolfroadblocker": {
+    "id": 1037,
     "name": "Man",
     "vislevel": "hide",
     "desc": "One of RuneScape's many citizens.",
     "op1": "Talk-to"
   },
   "werewolfshopkeeper1": {
+    "id": 1038,
     "name": "Rufus",
     "vislevel": "hide",
     "desc": "There's something strange about him...",
@@ -18753,6 +19804,7 @@
     ]
   },
   "werewolfshopkeeper2": {
+    "id": 1039,
     "name": "Barker",
     "vislevel": "hide",
     "desc": "Has a distinguished air about him.",
@@ -18768,6 +19820,7 @@
     ]
   },
   "werewolfshopkeeper3": {
+    "id": 1040,
     "name": "Fidelio",
     "vislevel": "hide",
     "desc": "A lycanthrope shopkeeper.",
@@ -18783,6 +19836,7 @@
     ]
   },
   "werewolftanner": {
+    "id": 1041,
     "name": "Sbott",
     "vislevel": "hide",
     "desc": "Has a faint smell of chemicals about him.",
@@ -18791,6 +19845,7 @@
     "wanderrange": "5"
   },
   "white_knight": {
+    "id": 19,
     "name": "White Knight",
     "desc": "Nice armour!",
     "op2": "Attack",
@@ -18845,6 +19900,7 @@
     }
   },
   "whitewolf": {
+    "id": 97,
     "name": "White wolf",
     "size": "2",
     "desc": "A vicious mountain wolf.",
@@ -18869,6 +19925,7 @@
     }
   },
   "whitewolf_sentry": {
+    "id": 96,
     "name": "White wolf",
     "size": "2",
     "desc": "A vicious mountain wolf.",
@@ -18893,12 +19950,14 @@
     }
   },
   "willowthewisp": {
+    "id": 1043,
     "name": "Willow the wisp",
     "desc": "Mysterious swamp lights...",
     "vislevel": "hide",
     "wanderrange": "5"
   },
   "wilough": {
+    "id": 783,
     "name": "Wilough",
     "vislevel": "hide",
     "desc": "One of Gertrude's Sons.",
@@ -18907,6 +19966,7 @@
     "members": "yes"
   },
   "witch1": {
+    "id": 176,
     "name": "Witch",
     "desc": "The hat's a dead give away.",
     "op2": "Attack",
@@ -18926,6 +19986,7 @@
     ]
   },
   "witch2": {
+    "id": 177,
     "name": "Witch",
     "desc": "The hat's a dead give away.",
     "op2": "Attack",
@@ -18945,6 +20006,7 @@
     ]
   },
   "witchrat": {
+    "id": 901,
     "name": "Mouse",
     "vislevel": "hide",
     "desc": "Deceptively mouse shaped.",
@@ -18952,6 +20014,7 @@
     "moverestrict": "nomove"
   },
   "wizard": {
+    "id": 13,
     "name": "Wizard",
     "desc": "Slightly magical.",
     "op2": "Attack",
@@ -19002,6 +20065,7 @@
     }
   },
   "wizard_frumscone": {
+    "id": 460,
     "name": "Wizard Frumscone",
     "desc": "A Wizard of the Magic Guild.",
     "op1": "Talk-to",
@@ -19015,6 +20079,7 @@
     ]
   },
   "wizard_grayzag": {
+    "id": 707,
     "name": "Wizard Grayzag",
     "desc": "Master of imps.",
     "op2": "Attack",
@@ -19030,6 +20095,7 @@
     ]
   },
   "wizard_mizgog": {
+    "id": 706,
     "name": "Wizard Mizgog",
     "desc": "An old wizard.",
     "vislevel": "hide",
@@ -19040,12 +20106,14 @@
     "defence": "15"
   },
   "wizardadventuterpg": {
+    "id": 652,
     "name": "Wizard",
     "vislevel": "hide",
     "desc": "He looks kind of puny...",
     "op1": "Talk-to"
   },
   "wolf": {
+    "id": 95,
     "name": "Wolf",
     "desc": "Not mans' best friend.",
     "size": "2",
@@ -19070,6 +20138,7 @@
     }
   },
   "wolfpack_leader_whiter": {
+    "id": 141,
     "name": "Big Wolf",
     "size": "2",
     "desc": "Must be the pack leader.",
@@ -19094,6 +20163,7 @@
     }
   },
   "woman": {
+    "id": 4,
     "name": "Woman",
     "op2": "Attack",
     "op3": "Pickpocket",
@@ -19139,6 +20209,7 @@
     }
   },
   "woman2": {
+    "id": 5,
     "name": "Woman",
     "op2": "Attack",
     "op3": "Pickpocket",
@@ -19184,6 +20255,7 @@
     }
   },
   "woman3": {
+    "id": 6,
     "name": "Woman",
     "op2": "Attack",
     "op3": "Pickpocket",
@@ -19229,6 +20301,7 @@
     }
   },
   "wormbrain": {
+    "id": 745,
     "name": "Wormbrain",
     "desc": "A badly behaved goblin.",
     "op1": "Talk-to",
@@ -19248,6 +20321,7 @@
     }
   },
   "wydin": {
+    "id": 557,
     "name": "Wydin",
     "vislevel": "hide",
     "desc": "Likes his food to be kept fresh.",
@@ -19262,6 +20336,7 @@
     ]
   },
   "wyson": {
+    "id": 36,
     "name": "Wyson the gardener",
     "desc": "An old gardener.",
     "op1": "Talk-to",
@@ -19276,6 +20351,7 @@
     ]
   },
   "yanille_soldier": {
+    "id": 35,
     "name": "Soldier",
     "desc": "A soldier of the town of Yanille.",
     "op2": "Attack",
@@ -19326,6 +20402,7 @@
     }
   },
   "yanille_watchman": {
+    "id": 34,
     "name": "Watchman",
     "desc": "Watches stuff. But who watches him?",
     "op2": "Attack",
@@ -19346,6 +20423,7 @@
     ]
   },
   "yeti": {
+    "id": 130,
     "name": "Yeti",
     "desc": "The abominable snowman.",
     "size": "3",
@@ -19360,6 +20438,7 @@
     ]
   },
   "young_dark_wizard": {
+    "id": 174,
     "name": "Dark wizard",
     "desc": "He works evil magic.",
     "op2": "Attack",
@@ -19417,6 +20496,7 @@
     }
   },
   "zadimus_ghost": {
+    "id": 501,
     "name": "Zadimus' spirit.",
     "vislevel": "hide",
     "desc": "The animated spirit of a soul not at rest.",
@@ -19428,6 +20508,7 @@
     ]
   },
   "zaff": {
+    "id": 546,
     "name": "Zaff",
     "vislevel": "hide",
     "desc": "Sells superior staffs.",
@@ -19436,6 +20517,7 @@
     "moverestrict": "indoors"
   },
   "zambo": {
+    "id": 568,
     "name": "Zambo",
     "vislevel": "hide",
     "desc": "Appears slightly drunk.",
@@ -19450,6 +20532,7 @@
     ]
   },
   "zamorak_mage": {
+    "id": 912,
     "name": "Battle mage",
     "desc": "He kills in the name of Zamorak.",
     "op2": "Attack",
@@ -19466,6 +20549,7 @@
     ]
   },
   "zamorakghost": {
+    "id": 491,
     "name": "Ghost",
     "desc": "Spooky!",
     "op1": "Talk-to",
@@ -19482,6 +20566,7 @@
     ]
   },
   "zanarisleprechaun": {
+    "id": 654,
     "name": "Shamus",
     "vislevel": "hide",
     "desc": "A funny little man who lives in a tree.",
@@ -19496,6 +20581,7 @@
     ]
   },
   "zeke": {
+    "id": 541,
     "name": "Zeke",
     "vislevel": "hide",
     "desc": "Sells superior scimitars.",
@@ -19510,6 +20596,7 @@
     ]
   },
   "zenesha": {
+    "id": 589,
     "name": "Zenesha",
     "vislevel": "hide",
     "desc": "Sells top quality plate mail armour.",
@@ -19524,6 +20611,7 @@
     ]
   },
   "zombie_armed": {
+    "id": 75,
     "name": "Zombie",
     "desc": "The walking dead.",
     "op2": "Attack",
@@ -19579,6 +20667,7 @@
     }
   },
   "zombie_entranan": {
+    "id": 76,
     "name": "Zombie",
     "desc": "The walking dead.",
     "op2": "Attack",
@@ -19624,6 +20713,7 @@
     }
   },
   "zombie_unarmed": {
+    "id": 73,
     "name": "Zombie",
     "desc": "Dead man walking.",
     "op2": "Attack",
@@ -19669,6 +20759,7 @@
     }
   },
   "zombie2": {
+    "id": 74,
     "name": "Zombie",
     "desc": "Dead man walking.",
     "op2": "Attack",
@@ -19714,6 +20805,7 @@
     }
   },
   "zoo_keeper": {
+    "id": 28,
     "name": "Zoo keeper",
     "desc": "Enjoys locking up animals in small pens.",
     "op1": "Talk-to",
@@ -19728,6 +20820,7 @@
     ]
   },
   "zq_mainzombie1": {
+    "id": 507,
     "name": "Nazastarool",
     "desc": "A giant zombie of huge strength and devastating power.",
     "op2": "Attack",
@@ -19744,6 +20837,7 @@
     ]
   },
   "zq_mainzombie2": {
+    "id": 508,
     "name": "Nazastarool",
     "desc": "A giant skeleton of huge strength and devastating power.",
     "op2": "Attack",
@@ -19767,6 +20861,7 @@
     ]
   },
   "zq_mainzombie3": {
+    "id": 509,
     "name": "Nazastarool",
     "desc": "A giant ghost of huge strength and devastating power.",
     "op2": "Attack",
@@ -19783,6 +20878,7 @@
     ]
   },
   "zqskeleton_armed": {
+    "id": 503,
     "name": "Undead One",
     "desc": "A minion of Rashiliyia.",
     "op2": "Attack",
@@ -19811,6 +20907,7 @@
     ]
   },
   "zqskeleton_unarmed": {
+    "id": 502,
     "name": "Undead One",
     "desc": "It rattles when it walks.",
     "op2": "Attack",
@@ -19832,6 +20929,7 @@
     ]
   },
   "zqzombie_armed": {
+    "id": 505,
     "name": "Undead One",
     "desc": "The animated dead, one of Rashiliyias' minions.",
     "op2": "Attack",
@@ -19855,6 +20953,7 @@
     ]
   },
   "zqzombie_unarmed": {
+    "id": 504,
     "name": "Undead One",
     "desc": "The animated dead, one of Rashiliyias' minions.",
     "op2": "Attack",
@@ -19874,6 +20973,7 @@
     ]
   },
   "zqzombiequeen": {
+    "id": 506,
     "name": "Rashiliyia",
     "vislevel": "hide",
     "desc": "The animated spirit of Rashiliyia the Zombie Queen.",
