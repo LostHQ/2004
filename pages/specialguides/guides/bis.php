@@ -295,7 +295,7 @@ clearAllEquipment();
     'dragon_sq_shield',
     'rune_platelegs',
     'ice_gloves',
-    'boots_ranger',
+    'leather_boots',
     null,
     null
 );</script>
