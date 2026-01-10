@@ -32,21 +32,8 @@ const SLOT_POSITIONS = {
     quiver: { x: 147, y: 87 },
 };
 
-function loadEquipInterface(targetDiv, allowChange, headItem, capeItem, neckItem, weaponItem, bodyItem, shieldItem, legsItem, glovesItem, bootsItem, ringItem, quiverItem) {
-    if (document.readyState === "loading") {
-        document.addEventListener("DOMContentLoaded", () => {
-            loadEquipInterface(targetDiv, allowChange, headItem, capeItem, neckItem, weaponItem, bodyItem, shieldItem, legsItem, glovesItem, bootsItem, ringItem, quiverItem);
-        });
-        return;
-    }
-
-    const itemDataSource = window.itemData || (typeof itemData !== "undefined" ? itemData : null);
-    if (!itemDataSource || !Array.isArray(itemDataSource) || itemDataSource.length === 0) {
-        setTimeout(() => {
-            loadEquipInterface(targetDiv, allowChange, headItem, capeItem, neckItem, weaponItem, bodyItem, shieldItem, legsItem, glovesItem, bootsItem, ringItem, quiverItem);
-        }, 100);
-        return;
-    }
+async function loadEquipInterface(targetDiv, allowChange, headItem, capeItem, neckItem, weaponItem, bodyItem, shieldItem, legsItem, glovesItem, bootsItem, ringItem, quiverItem) {
+    await checkSpriteLoaderReady();
 
     const container = document.getElementById(targetDiv);
     if (!container) {
@@ -197,23 +184,10 @@ function loadEquipInterface(targetDiv, allowChange, headItem, capeItem, neckItem
             const canvas = document.createElement("canvas");
             canvas.setAttribute("itemname", itemDebugName);
             slot.appendChild(canvas);
-
-            if (window.spriteLoaderReady) {
-                renderSpriteToCanvas(canvas);
-            } else {
-                const checkReady = () => {
-                    if (window.spriteLoaderReady) {
-                        renderSpriteToCanvas(canvas);
-                    } else {
-                        setTimeout(checkReady, 50);
-                    }
-                };
-                checkReady();
-            }
         } else {
             const placeholder = document.createElement("img");
             const slotNumber = getEquipmentSlotNumber(slotType);
-            placeholder.src = `img/interfaces/equipment_${slotNumber}.png`;
+            placeholder.src = `/img/interfaces/equipment_${slotNumber}.png`;
             placeholder.className = "equipment-placeholder";
             placeholder.alt = `Empty ${slotType} slot`;
             slot.appendChild(placeholder);
@@ -225,6 +199,7 @@ function loadEquipInterface(targetDiv, allowChange, headItem, capeItem, neckItem
 
         container.appendChild(slot);
     });
+    window.safeRenderAllSprites();
 }
 
 function getEquipmentSlotNumber(slotType) {
@@ -245,14 +220,14 @@ function getEquipmentSlotNumber(slotType) {
 }
 
 function openEquipmentSearch(slotType, slotElement, equipment, container) {
-    const itemDataSource = window.itemData || (typeof itemData !== "undefined" ? itemData : null);
-    if (!window.spriteLoaderReady || !itemDataSource || itemDataSource.length === 0) {
+    const itemsMap = window.itemData;
+    if (!window.spriteLoaderReady || !itemsMap) {
         return;
     }
 
     const wearpos = EQUIPMENT_SLOTS[slotType];
 
-    const validItems = itemDataSource.filter((item) => item.equipable_item && item.equipable_item.wearpos === wearpos);
+    const validItems = Object.values(itemsMap).filter((item) => item && item.equipable_item && item.equipable_item.wearpos === wearpos);
 
     const modal = document.createElement("div");
     modal.className = "equipment-search-modal";
@@ -322,7 +297,7 @@ function openEquipmentSearch(slotType, slotElement, equipment, container) {
             };
 
             resultsContainer.appendChild(itemDiv);
-            renderSpriteToCanvas(canvas);
+            renderItemSpriteToCanvas(canvas);
         });
     };
 
@@ -330,7 +305,7 @@ function openEquipmentSearch(slotType, slotElement, equipment, container) {
 
     searchInput.addEventListener("input", (e) => {
         const searchTerm = e.target.value.toLowerCase();
-        const filteredItems = validItems.filter((item) => item.name.toLowerCase().includes(searchTerm) || item.debugname.toLowerCase().includes(searchTerm));
+        const filteredItems = validItems.filter((item) => (item.name || "").toLowerCase().includes(searchTerm) || (item.debugname || "").toLowerCase().includes(searchTerm));
         displayItems(filteredItems);
     });
 
@@ -352,7 +327,7 @@ function updateEquipmentSlot(slotElement, slotType, itemDebugName) {
         canvas.setAttribute("itemname", itemDebugName);
         slotElement.appendChild(canvas);
 
-        renderSpriteToCanvas(canvas);
+        renderItemSpriteToCanvas(canvas);
     } else {
         const placeholder = document.createElement("img");
         const slotNumber = getEquipmentSlotNumber(slotType);
@@ -364,9 +339,9 @@ function updateEquipmentSlot(slotElement, slotType, itemDebugName) {
 }
 
 function getItemInfo(debugName) {
-    const itemDataSource = window.itemData || (typeof itemData !== "undefined" ? itemData : null);
-    if (!debugName || !itemDataSource) return null;
-    return itemDataSource.find((item) => item.debugname === debugName);
+    const d = window.itemData;
+    if (!debugName || !d) return null;
+    return d[debugName] || null;
 }
 
 function isTwoHandedWeapon(debugName) {
@@ -381,7 +356,6 @@ function handleEquipmentChange(equipment, slotType, newItem, container) {
     const oldItem = equipment[slotType];
     equipment[slotType] = newItem;
 
-    // 2h weapons
     if (slotType === "weapon" && newItem && isTwoHandedWeapon(newItem)) {
         equipment["shield"] = null;
 
@@ -457,7 +431,7 @@ function calculateEquipmentStats(equipment) {
     return totalStats;
 }
 
-function createStatsDisplay(containerId, equipment) {
+async function createStatsDisplay(containerId, equipment) {
     const statsContainer = document.getElementById(containerId);
     if (!statsContainer) return;
 
@@ -501,7 +475,7 @@ function createStatsDisplay(containerId, equipment) {
         </table>`;
 }
 
-window.loadEquipInterfaceWithStats = function (
+window.loadEquipInterfaceWithStats = async function (
     targetDiv,
     statsDiv,
     allowChange,
@@ -517,26 +491,12 @@ window.loadEquipInterfaceWithStats = function (
     ringItem,
     quiverItem
 ) {
-    if (document.readyState === "loading") {
-        document.addEventListener("DOMContentLoaded", () => {
-            window.loadEquipInterfaceWithStats(targetDiv, statsDiv, allowChange, headItem, capeItem, neckItem, weaponItem, bodyItem, shieldItem, legsItem, glovesItem, bootsItem, ringItem, quiverItem);
-        });
-        return;
-    }
-
-    const itemDataSource = window.itemData || (typeof itemData !== "undefined" ? itemData : null);
-    if (!itemDataSource || !Array.isArray(itemDataSource) || itemDataSource.length === 0) {
-        setTimeout(() => {
-            window.loadEquipInterfaceWithStats(targetDiv, statsDiv, allowChange, headItem, capeItem, neckItem, weaponItem, bodyItem, shieldItem, legsItem, glovesItem, bootsItem, ringItem, quiverItem);
-        }, 100);
-        return;
-    }
-
-    loadEquipInterface(targetDiv, allowChange, headItem, capeItem, neckItem, weaponItem, bodyItem, shieldItem, legsItem, glovesItem, bootsItem, ringItem, quiverItem);
+    await checkSpriteLoaderReady();
+    await loadEquipInterface(targetDiv, allowChange, headItem, capeItem, neckItem, weaponItem, bodyItem, shieldItem, legsItem, glovesItem, bootsItem, ringItem, quiverItem);
 
     const container = document.getElementById(targetDiv);
     if (container && container.equipmentData && statsDiv) {
         container.statsDiv = statsDiv;
-        createStatsDisplay(statsDiv, container.equipmentData);
+        await createStatsDisplay(statsDiv, container.equipmentData);
     }
 };

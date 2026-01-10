@@ -1,33 +1,154 @@
-const spriteSize = 32;
-const spritesPerRow = 64;
-let itemData = [];
+const itemSpriteSize = 32;
+const itemSpritesPerRow = 64;
+const itemSpritesheetSrc = "/img/item_spritesheet.png";
+let itemBitmap = null;
+let itemBitmapWidth = 0;
+let itemBitmapHeight = 0;
+let itemBitmapLoading = null;
+let itemBitmapFailed = false;
+let itemData = {};
 
-const spritesheet = new Image();
-spritesheet.src = "img/item_spritesheet.png?v254";
+const npcSpriteSize = 256;
+const npcSpritesPerRow = 32;
+const npcSpritesheetSrc = "/img/npc_spritesheet.png";
+let npcBitmap = null;
+let npcBitmapWidth = 0;
+let npcBitmapHeight = 0;
+let npcBitmapLoading = null;
+let npcBitmapFailed = false;
+let npcData = {};
 
+async function checkSpriteLoaderReady() {
+    while (true) {
+        if (window.itemData && window.npcData) return true;
+        await new Promise((r) => setTimeout(r, 25));
+    }
+}
 (async () => {
     try {
         await loadFonts();
-        const spriteLoadedPromise = (function () {
-            if (spritesheet.complete && spritesheet.naturalWidth) return Promise.resolve();
-            if (typeof spritesheet.decode === 'function') return spritesheet.decode();
-            return new Promise((resolve, reject) => {
-                spritesheet.onload = resolve;
-                spritesheet.onerror = reject;
-            });
-        })();
 
-        const [json] = await Promise.all([
+        const [itemJson, npcJson] = await Promise.all([
             fetch(`js/itemdb/item_data.json?v=${currentGameVer}`).then((res) => res.json()),
-            spriteLoadedPromise,
+            fetch(`js/npcdb/npc_data.json?v=${currentGameVer}`).then((res) => res.json()),
         ]);
 
-        itemData = json;
+        function toMapByDebugname(data) {
+            if (!data) return {};
+            if (Array.isArray(data)) {
+                const out = {};
+                data.forEach((it) => {
+                    if (it && it.debugname) out[it.debugname] = it;
+                });
+                return out;
+            }
+            return data;
+        }
+
+        itemData = toMapByDebugname(itemJson);
+        npcData = toMapByDebugname(npcJson);
+        window.itemData = itemData;
+        window.npcData = npcData;
         window.spriteLoaderReady = true;
     } catch (err) {
         console.error("Error loading resources:", err);
     }
 })();
+
+function loadSpriteSheet(type) {
+    if (type == 'item') {
+        if (itemBitmap || itemBitmapFailed) return Promise.resolve(itemBitmap);
+        if (itemBitmapLoading) return itemBitmapLoading;
+
+        itemBitmapLoading = (async () => {
+            try {
+                const res = await fetch(itemSpritesheetSrc);
+                if (!res.ok) throw new Error('fetch failed: ' + res.status);
+                const blob = await res.blob();
+                const bitmap = await createImageBitmap(blob);
+                itemBitmap = bitmap;
+                itemBitmapWidth = bitmap.width;
+                itemBitmapHeight = bitmap.height;
+                itemBitmapLoading = null;
+                return itemBitmap;
+            } catch (e) {
+                itemBitmapFailed = true;
+                itemBitmapLoading = null;
+                console.error('Failed to load Item Spritesheet:', e);
+                throw e;
+            }
+        })();
+        return itemBitmapLoading;
+    } else if (type == 'npc') {
+        if (npcBitmap || npcBitmapFailed) return Promise.resolve(npcBitmap);
+        if (npcBitmapLoading) return npcBitmapLoading;
+
+        npcBitmapLoading = (async () => {
+            try {
+                const res = await fetch(npcSpritesheetSrc);
+                if (!res.ok) throw new Error('fetch failed: ' + res.status);
+                const blob = await res.blob();
+                const bitmap = await createImageBitmap(blob);
+                npcBitmap = bitmap;
+                npcBitmapWidth = bitmap.width;
+                npcBitmapHeight = bitmap.height;
+                npcBitmapLoading = null;
+                return npcBitmap;
+            } catch (e) {
+                npcBitmapFailed = true;
+                npcBitmapLoading = null;
+                console.error('Failed to load NPC Spritesheet:', e);
+                throw e;
+            }
+        })();
+        return npcBitmapLoading;
+    }
+    else return null;
+}
+
+async function drawItemImage(ctx, x, y, id, count) {
+    id = getStackableSpriteId(id, count);
+
+    const sx = (id % itemSpritesPerRow) * itemSpriteSize;
+    const sy = Math.floor(id / itemSpritesPerRow) * itemSpriteSize;
+
+    if (itemBitmap) {
+        if (sx + itemSpriteSize > itemBitmapWidth || sy + itemSpriteSize > itemBitmapHeight) return;
+        ctx.drawImage(itemBitmap, sx, sy, itemSpriteSize, itemSpriteSize, x, y, itemSpriteSize, itemSpriteSize);
+        return;
+    }
+
+    loadSpriteSheet('item').then((bitmap) => {
+        try {
+            if (!bitmap) return;
+            if (sx + itemSpriteSize > bitmap.width || sy + itemSpriteSize > bitmap.height) return;
+            ctx.drawImage(bitmap, sx, sy, itemSpriteSize, itemSpriteSize, x, y, itemSpriteSize, itemSpriteSize);
+        } catch (e) {
+        }
+    }).catch(() => {});
+}
+
+async function drawNPCImage(ctx, x, y, npcId, iconSize) {
+    const sx = (npcId % npcSpritesPerRow) * npcSpriteSize;
+    const sy = Math.floor(npcId / npcSpritesPerRow) * npcSpriteSize;
+
+    if (npcBitmap) {
+        if (sx + npcSpriteSize > npcBitmapWidth || sy + npcSpriteSize > npcBitmapHeight)
+            return;
+        ctx.drawImage(npcBitmap, sx, sy, npcSpriteSize, npcSpriteSize, x, y, iconSize, iconSize);
+        return;
+    }
+
+    loadSpriteSheet('npc').then((bitmap) => {
+        try {
+            if (!bitmap) return;
+            if (sx + npcSpriteSize > bitmap.width || sy + npcSpriteSize > bitmap.height) return;
+            ctx.drawImage(bitmap, sx, sy, npcSpriteSize, npcSpriteSize, x, y, iconSize, iconSize);
+        } catch (e) {
+        }
+    }).catch(() => {
+    });
+}
 
 const stackableSpriteOverrides = {
     2: null,// Cannonball (mcannonball)
@@ -173,7 +294,6 @@ const stackableSpriteOverrides = {
     3093: null,// Black dart (black_dart)
     3094: null,// Black dart(p) (black_dart_p)
 };
-
 function getStackableSpriteId(id, count) {
     if (count == 1) return id;
     
@@ -190,20 +310,6 @@ function getStackableSpriteId(id, count) {
     }
     return spriteId;
 }
-
-async function drawItemImage(ctx, x, y, id, count) {
-    id = getStackableSpriteId(id, count);
-
-    const spritesPerRow = 64;
-    const sx = (id % spritesPerRow) * spriteSize;
-    const sy = Math.floor(id / spritesPerRow) * spriteSize;
-
-    if (sx + spriteSize > spritesheet.width || sy + spriteSize > spritesheet.height)
-        return;
-
-    ctx.drawImage(spritesheet, sx, sy, spriteSize, spriteSize, x, y, spriteSize, spriteSize);
-}
-
 function formatQuantity(quantity) {
     if (isNaN(quantity)) return "";
     if (quantity > 9999999)
@@ -215,14 +321,35 @@ function formatQuantity(quantity) {
     return quantity.toString();
 }
 
-function renderSpriteToCanvas(canvas) {
+function renderNPCSpriteToCanvas(canvas) {
+    if (canvas.getAttribute('done')) return;
+    canvas.setAttribute("done", 'true');
+    const debugname = canvas.getAttribute("npcname");
+    const iconSize = parseInt(canvas.getAttribute("icon-size"), 10) || npcSpriteSize;
+    let id = 0;
+
+    const npc = npcData[debugname];
+    if (!npc) {
+        console.warn(`NPC not found: ${debugname}`);
+        return;
+    }
+    id = npc.id || 0;
+    const ctx = canvas.getContext("2d");
+    canvas.width = iconSize;
+    canvas.height = iconSize;
+    ctx.clearRect(0, 0, iconSize, iconSize);
+    drawNPCImage(ctx, 0, 0, id, iconSize);
+}
+function renderItemSpriteToCanvas(canvas) {
+    if (canvas.getAttribute('done')) return;
+    canvas.setAttribute("done", 'true');
     const debugname = canvas.getAttribute("itemname");
     const amount = parseInt(canvas.getAttribute("amount"), 10);
     const qty = isNaN(amount) ? 1 : amount;
     const nameAppend = canvas.getAttribute("name-append");
     const nameReplace = canvas.getAttribute("name-replace");
     const showLabel = canvas.getAttribute("show-label");
-    const iconSize = parseInt(canvas.getAttribute("icon-size"), 10) || 32;
+    const iconSize = parseInt(canvas.getAttribute("icon-size"), 10) || itemSpriteSize;
     let id = 0;
     let name = "Unknown Item";
     let desc = "Please report this bug.";
@@ -231,8 +358,8 @@ function renderSpriteToCanvas(canvas) {
     const isCert = debugname.startsWith("cert_");
     const baseName = isCert ? debugname.replace(/^cert_/, "") : debugname;
 
-    const item = itemData.find((i) => i.debugname === debugname) || itemData.find((i) => i.debugname === baseName);
-    const baseItem = itemData.find((i) => i.debugname === baseName);
+    const item = itemData[debugname];
+    const baseItem = itemData[baseName];
 
     if (item) {
         id = item.id;
@@ -246,17 +373,33 @@ function renderSpriteToCanvas(canvas) {
 
     const imageId = getStackableSpriteId(id, qty);
 
-    const col = imageId % spritesPerRow;
-    const row = Math.floor(imageId / spritesPerRow);
+    const col = imageId % itemSpritesPerRow;
+    const row = Math.floor(imageId / itemSpritesPerRow);
 
     const ctx = canvas.getContext("2d");
     canvas.width = iconSize;
     canvas.height = iconSize;
     ctx.clearRect(0, 0, iconSize, iconSize);
-    ctx.drawImage(spritesheet, col * spriteSize, row * spriteSize, spriteSize, spriteSize, 0, 0, iconSize, iconSize);
 
-    if ((id in stackableSpriteOverrides || debugname.startsWith('cert_')) || qty > 1) {
-        drawP11(ctx, formatQuantity(qty), (iconSize / spriteSize), (iconSize / spriteSize), '#FFFF00');
+    function drawQuantity() {
+        if (!((id in stackableSpriteOverrides || debugname.startsWith('cert_')) || qty > 1)) return;
+        drawP11(ctx, formatQuantity(qty), (iconSize / itemSpriteSize), (iconSize / itemSpriteSize), '#FFFF00');
+    }
+
+    if (itemBitmap) {
+        if (col * itemSpriteSize + itemSpriteSize <= itemBitmapWidth && row * itemSpriteSize + itemSpriteSize <= itemBitmapHeight) {
+            ctx.drawImage(itemBitmap, col * itemSpriteSize, row * itemSpriteSize, itemSpriteSize, itemSpriteSize, 0, 0, iconSize, iconSize);
+            drawQuantity();
+        }
+    } else {
+        loadSpriteSheet('item').then((bitmap) => {
+            try {
+                if (!bitmap) return;
+                if (col * itemSpriteSize + itemSpriteSize > bitmap.width || row * itemSpriteSize + itemSpriteSize > bitmap.height) return;
+                ctx.drawImage(bitmap, col * itemSpriteSize, row * itemSpriteSize, itemSpriteSize, itemSpriteSize, 0, 0, iconSize, iconSize);
+                drawQuantity();
+            } catch (e) {}
+        }).catch(() => {});
     }
 
     let tooltip = `${isCert ? `${name} (Noted)` : name} - ${desc}`;
@@ -304,24 +447,24 @@ function renderSpriteToCanvas(canvas) {
     }
 }
 
-window.renderAllSprites = function () {
-    document.querySelectorAll("canvas[itemname]").forEach((canvas) => {
-        renderSpriteToCanvas(canvas);
+renderAllSprites = function () {
+    document.querySelectorAll("canvas[itemname], canvas[npcname]").forEach((canvas) => {
+        if (canvas.getAttribute("itemname")) {
+            renderItemSpriteToCanvas(canvas);
+        } else if (canvas.getAttribute("npcname")) {
+            renderNPCSpriteToCanvas(canvas);
+        }
     });
 };
 
 window.safeRenderAllSprites = async function () {
-    while (!window.spriteLoaderReady) {
-        await new Promise((res) => setTimeout(res, 25));
-    }
-    window.renderAllSprites();
+    await checkSpriteLoaderReady();
+    addNarrowScrolls();
+    renderAllSprites();
+    progressCheckboxes();
 };
 
 document.addEventListener("DOMContentLoaded", async function () {
-    while (!window.spriteLoaderReady) {
-        await new Promise((resolve) => setTimeout(resolve, 25));
-    }
-    if (typeof window.renderAllSprites === "function") {
-        window.renderAllSprites();
-    }
+    await checkSpriteLoaderReady();
+    window.safeRenderAllSprites();
 });

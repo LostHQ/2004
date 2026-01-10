@@ -15,7 +15,6 @@ document.addEventListener("DOMContentLoaded", () => {
             behavior: "smooth",
         });
     });
-    addNarrowScrolls();
 });
 
 function openLightbox(src) {
@@ -42,6 +41,8 @@ function setCookie(name, value, days = 365) {
 function addNarrowScrolls(contents) {
     const findDivElements = document.querySelectorAll("[id='narrowscroll']");
     findDivElements.forEach(element => {
+        if (element.getAttribute('done')) return;
+        element.setAttribute('done', 'true');
         const previousContent = element.innerHTML;
         element.innerHTML = "";
 
@@ -71,4 +72,10 @@ function addNarrowScrolls(contents) {
         element.appendChild(outerBg);
         element.appendChild(scrollBottom);
     });
+}
+
+function addCombined(row, label, value, colspan = 2) {
+    const cell = row.insertCell();
+    cell.colSpan = colspan;
+    cell.textContent = `${label}: ${value}`;
 }

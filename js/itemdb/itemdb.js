@@ -1,33 +1,20 @@
-// itemlist.js
 (async function () {
-    // load & filter & tag items
-    const raw = await fetch("js/itemdb/item_data.json").then((r) => r.json());
-    const items = raw
-        .filter((i) => i.name && !i.debugname.startsWith("cert_"))
-        .map((i) => {
-            const dn = i.debugname;
-            const dnSpaced = dn.replace(/_/g, " ");
-            const tags = [i.name, i.id, dn, dnSpaced].join(" ").toLowerCase();
-            return { ...i, searchTags: tags };
-        })
-        .sort((a, b) => a.id - b.id)
-        .sort((a, b) => a.name.localeCompare(b.name));
+    await checkSpriteLoaderReady();
+    const itemData = window.itemData;
 
-    // grab inputs & container
     const search1 = document.getElementById("search1");
     const search2 = document.getElementById("search2");
     const container = document.getElementById("items-container");
-
-    // get url params
     const initParams = new URLSearchParams(window.location.search);
+
     if (initParams.has("item")) {
         const dn = initParams.get("item");
-        const found = items.find((i) => i.debugname === dn);
+        const found = itemData[dn];
         if (found) search1.value = `${found.name} (${found.id})`;
     }
     if (initParams.has("item2")) {
         const dn2 = initParams.get("item2");
-        const found2 = items.find((i) => i.debugname === dn2);
+        const found2 = itemData[dn2];
         if (found2) search2.value = `${found2.name} (${found2.id})`;
     }
 
@@ -47,7 +34,16 @@
         input.addEventListener("blur", () => setTimeout(() => (input.suggBox.innerHTML = ""), 150));
     });
 
-    // handle typing & show suggestions
+    function findItemById(id) {
+        if (id == null) return null;
+        for (const k in itemData) {
+            const it = itemData[k];
+            if (!it) continue;
+            if (Number(it.id) === Number(id)) return it;
+        }
+        return null;
+    }
+
     function onType(e) {
         const val = e.target.value.toLowerCase().trim();
         const box = e.target.suggBox;
@@ -55,7 +51,27 @@
         if (!val) return;
 
         const terms = val.split(/\s+/).filter(Boolean);
-        const matches = items.filter((it) => terms.every((t) => it.searchTags.includes(t))).slice(0, 15);
+        const matches = [];
+        for (const key in itemData) {
+            const it = itemData[key];
+            if (!it || !it.name) continue;
+            if (it.debugname && it.debugname.startsWith("cert_")) continue;
+
+            // normalize tags to array of lowercase strings
+            let tags = it.searchTags || [];
+            if (!Array.isArray(tags)) {
+                tags = String(tags).split(/\s+/).filter(Boolean);
+            }
+            tags = tags.map((t) => String(t).toLowerCase());
+
+            const nameLower = it.name.toLowerCase();
+            const debugLower = it.debugname ? it.debugname.toLowerCase() : "";
+
+            const matched = terms.every((t) => tags.includes(t) || nameLower.includes(t) || debugLower.includes(t));
+            if (matched) matches.push(it);
+        }
+        matches.sort((a, b) => a.name.localeCompare(b.name));
+        matches.splice(15);
 
         matches.forEach((it) => {
             const li = document.createElement("li");
@@ -65,7 +81,7 @@
             canvas.setAttribute("icon-size", "20");
             canvas.setAttribute("show-label", "false");
             li.appendChild(canvas);
-            if (typeof renderSpriteToCanvas === "function") renderSpriteToCanvas(canvas);
+            renderItemSpriteToCanvas(canvas);
             li.append(` ${it.name} (${it.id})`);
             li.addEventListener("mousedown", () => {
                 e.target.value = `${it.name} (${it.id})`;
@@ -106,13 +122,6 @@
         back: "Cape",
     };
 
-    // helper to insert combined cell
-    function addCombined(row, label, value, colspan = 2) {
-        const cell = row.insertCell();
-        cell.colSpan = colspan;
-        cell.textContent = `${label}: ${value}`;
-    }
-
     // build item detail table
     function renderTable(item) {
         const table = document.createElement("table");
@@ -139,8 +148,8 @@
         canvasIcon.setAttribute("icon-size", size.toString());
         canvasIcon.setAttribute("show-label", "true");
         thIcon.appendChild(canvasIcon);
-        if (window.spriteLoaderReady && typeof renderSpriteToCanvas === "function") {
-            renderSpriteToCanvas(canvasIcon);
+        if (window.spriteLoaderReady) {
+            renderItemSpriteToCanvas(canvasIcon);
         }
 
         row.appendChild(thIcon);
@@ -266,7 +275,6 @@
         return table;
     }
 
-    // display logic
     function updateDisplay() {
         container.innerHTML = "";
         container.classList.remove("compare-mode");
@@ -275,21 +283,28 @@
         const v2 = search2.value.trim();
         const id1 = parseSelectedId(v1);
         const id2 = parseSelectedId(v2);
-        const it1 = id1 != null ? items.find((i) => i.id === id1) : null;
-        const it2 = id2 != null ? items.find((i) => i.id === id2) : null;
+        const it1 = id1 != null ? findItemById(id1) : null;
+        const it2 = id2 != null ? findItemById(id2) : null;
 
         if (it1) container.appendChild(renderTable(it1));
-        else if (v1) container.innerHTML = `<p style="color:red">Item "${v1}" not found.</p>`;
+        else if (v1) {
+            const p = document.createElement("p");
+            p.style.color = "red";
+            p.textContent = `Item "${v1}" not found.`;
+            container.appendChild(p);
+        }
 
         if (it2) {
             container.classList.add("compare-mode");
             container.appendChild(document.createElement("hr"));
             container.appendChild(renderTable(it2));
         } else if (v2) {
-            container.innerHTML += `<p style="color:red">Item "${v2}" not found.</p>`;
+            const p2 = document.createElement("p");
+            p2.style.color = "red";
+            p2.textContent = `Item "${v2}" not found.`;
+            container.appendChild(p2);
         }
 
-        // update URL params
         const newParams = new URLSearchParams(window.location.search);
         if (it1) newParams.set("item", it1.debugname);
         else newParams.delete("item");

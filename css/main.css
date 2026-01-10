@@ -648,28 +648,6 @@ A.pink:hover {
     text-decoration: none;
 }
 
-.subtable {
-    width: auto;
-    border-collapse: collapse;
-    margin: 0.5em 0;
-  }
-  .subtable th {
-    font-size: 0.9em;
-    border: none;
-    text-align: center;
-    padding: 2px 2px;
-    color: yellow;
-    font-weight: bold;
-  }
-  .subtable td {
-    text-align: left;
-    padding: 2px 2px;
-    color: #ddd;
-  }
-  .subtable tr + tr td {
-    border: none;
-  }
-
 .main-page tr {
     height: 128px;
     vertical-align: top;
@@ -793,7 +771,8 @@ img.narrowscroll-bottom {
     background: #241801ed;
 }
 .itemdatabase {
-  .subtable table {
+  .subtable {
+    background-color: #222;
     vertical-align: middle;
     width: auto;
     border-collapse: collapse;
@@ -801,7 +780,7 @@ img.narrowscroll-bottom {
   .subtable th {
     font-size: 0.9em;
     border: none;
-    text-align: center;
+    text-align: left;
     padding: 2px 2px;
     color: yellow;
     font-weight: bold;

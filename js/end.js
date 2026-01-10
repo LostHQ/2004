@@ -1,5 +1,4 @@
-/* Start check boxes section */
-document.addEventListener("DOMContentLoaded", () => {
+function progressCheckboxes() {
     const PROGRESS_COOKIE = "progress_checkboxes";
 
     let savedState = {};
@@ -18,6 +17,8 @@ document.addEventListener("DOMContentLoaded", () => {
         if (!div.id) {
             div.id = `${pageKey}-progress-div-${index}`;
         }
+        if (div.getAttribute('done')) return;
+        div.setAttribute('done', 'true');
 
         const checkbox = document.createElement("input");
         checkbox.type = "checkbox";
@@ -50,7 +51,7 @@ document.addEventListener("DOMContentLoaded", () => {
             setCookie(PROGRESS_COOKIE, JSON.stringify(savedState));
         });
     });
-});
+}
 /* End check boxes section */
 const modal = document.getElementById("imgModal");
 const modalImg = document.getElementById("modalImage");

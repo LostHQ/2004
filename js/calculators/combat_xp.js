@@ -1,24 +1,7 @@
-const bonesXp = {
-    bones: 4.5,
-    bones_burnt: 4.5,
-    bat_bones: 4.5,
-    wolf_bones: 4.5,
-    big_bones: 15,
-    babydragon_bones: 30,
-    dragon_bones: 72,
-};
-
-let npcData = {};
 let npcSearchable = {};
 
-Promise.all([
-    fetch(`js/npcdb/npc_data.json?v=${currentGameVer}`).then((res) => res.json())
-]).then(([npcDataJson]) => {
-    npcData = npcDataJson;
-    populateNPCDropdown();
-});
-
-function getNPCName(debugname) {
+async function getNPCName(debugname) {
+    await checkSpriteLoaderReady();
     if (!debugname) { return "Unknown NPC"; }
     if (typeof debugname === "object") {
         const npcObj = debugname;
@@ -26,7 +9,7 @@ function getNPCName(debugname) {
         const vis = npcObj.vislevel || (npcObj.info && npcObj.info.vislevel);
         return vis ? `${name} (level-${vis})` : name;
     }
-    const npc = npcData[debugname];
+    const npc = window.npcData[debugname];
     if (npc && npc.name) {
         const vis = npc.vislevel || (npc.info && npc.info.vislevel);
         return vis ? `${npc.name} (level-${vis})` : npc.name;
@@ -34,56 +17,79 @@ function getNPCName(debugname) {
     return debugname;
 }
 
-function populateNPCDropdown() {
-    for (const debugname in npcData) {
-        const npc = npcData[debugname];
-        if (!npc.drops) continue;
+async function populateNPCDropdown() {
+    await checkSpriteLoaderReady();
+    if (!window.npcData) {
+        return;
+    }
 
-        let boneType = "bones"; // Default
-        const boneDrop = npc.drops.always?.find((drop) => drop.item[0].includes("bones")) || npc.drops.roll_table?.find((drop) => drop.item[0].includes("bones"));
-        if (boneDrop) {
-            const boneName = boneDrop.item[0];
-            if (bonesXp.hasOwnProperty(boneName)) {
-                boneType = boneName;
+    for (const debugname in window.npcData) {
+        const npc = window.npcData[debugname];
+        if (!npc.drops) continue;
+        const bonesXp = {
+            bones: 4.5,
+            bones_burnt: 4.5,
+            bat_bones: 4.5,
+            wolf_bones: 4.5,
+            big_bones: 15,
+            babydragon_bones: 30,
+            dragon_bones: 72,
+        };
+
+        let boneXp = bonesXp['bones'];
+        function findBoneDropXP(table) {
+            if (!table) return null;
+            for (const key in table) {
+                const drop = table[key];
+                if (!drop) continue;
+                const itemName = typeof drop.item === 'string' ? drop.item : (drop.item && typeof drop.item === 'object' ? drop.item[0] : null);
+                if (itemName && itemName.includes('bones')) {
+                    const bn = itemName;
+                    if (bn && bonesXp.hasOwnProperty(bn)) return bonesXp[bn];
+                    return bonesXp['bones'];
+                }
             }
+            return null;
         }
+
+        const foundXP = findBoneDropXP(npc.drops.always) || findBoneDropXP(npc.drops.roll_table);
+        if (typeof foundXP === 'number') boneXp = foundXP;
 
         if (npc.hitpoints && npc.hitpoints > 0) {
             npcSearchable[debugname] = {
-                name: getNPCName(debugname),
+                name: await getNPCName(debugname),
                 hitpoints: npc.hitpoints,
-                bones: boneType
+                bones: boneXp
             };
         }
     }
-
-    console.log("NPC data loaded:", Object.keys(npcSearchable).length, "entries");
 }
 
 document.getElementById("itemSearch").addEventListener("input", async function () {
     const searchQuery = this.value.toLowerCase();
     const resultsDiv = document.getElementById("searchResults");
-    resultsDiv.innerHTML = ""; // Clear previous results
+    resultsDiv.innerHTML = "";
     resultsDiv.style.display = searchQuery ? "block" : "none";
 
     if (!searchQuery) return;
 
-    const matches = Object.values(npcSearchable).filter((npc) => npc.name.toLowerCase().includes(searchQuery));
-
-    matches.forEach((npc) => {
-        const div = document.createElement("div");
-        div.classList.add("search-item");
-        div.textContent = npc.name;
-        div.onclick = function () {
-            document.getElementById("itemSearch").value = npc.name;
-            document.getElementById("npcHP").value = npc.hitpoints;
-            resultsDiv.style.display = "none";
-        };
-        resultsDiv.appendChild(div);
-    });
+    for (const key in npcSearchable) {
+        const npc = npcSearchable[key];
+        if (!npc || !npc.name) continue;
+        if (npc.name.toLowerCase().includes(searchQuery)) {
+            const div = document.createElement("div");
+            div.classList.add("search-item");
+            div.textContent = npc.name;
+            div.onclick = function () {
+                document.getElementById("itemSearch").value = npc.name;
+                document.getElementById("npcHP").value = npc.hitpoints;
+                resultsDiv.style.display = "none";
+            };
+            resultsDiv.appendChild(div);
+        }
+    }
 });
 
-// Hide search results when clicking outside
 document.addEventListener("click", function (e) {
     if (!document.getElementById("itemSearch").contains(e.target)) {
         document.getElementById("searchResults").style.display = "none";
@@ -114,9 +120,8 @@ async function fetchXP() {
                 document.getElementById(field).value = Math.floor(stat.value / 10);
             }
         });
-    } catch (error) {
-        console.error(error);
-        alert("Error fetching data.");
+    } catch (e) {
+        console.error(e);
     }
 }
 
@@ -163,9 +168,16 @@ function runCalc() {
     updated.hitpoints += totalXP / 3;
 
     if (buryBonesGet.value === "yes" && npcName && numNpcs > 0) {
-        const matchedNPC = Object.values(npcSearchable).find((n) => n.name.toLowerCase() === npcName);
+        let matchedNPC = null;
+        for (const k in npcSearchable) {
+            const n = npcSearchable[k];
+            if (n && n.name && n.name.toLowerCase() === npcName) {
+                matchedNPC = n;
+                break;
+            }
+        }
         if (matchedNPC && matchedNPC.bones) {
-            updated.prayer += (bonesXp[matchedNPC.bones] || 0) * numNpcs;
+            updated.prayer += (matchedNPC.bones || 0) * numNpcs;
         }
     }
 
@@ -211,3 +223,8 @@ function runCalc() {
 ["npcHP", "numNpcs", "attackStyle", "buryBones"].forEach((id) => {
     document.getElementById(id).addEventListener("change", runCalc);
 });
+
+(async function initNPCSearch() {
+    await checkSpriteLoaderReady();
+    await populateNPCDropdown();
+})();
