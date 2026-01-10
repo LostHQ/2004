@@ -14,8 +14,8 @@ If you are having troubles identifying a key, hover the cursor over the icon to 
     </tr>
     <tr>
         <td><canvas itemname="baxtorian_key_waterfall_quest" show-label="true"></canvas></td>
-        <td>Opens a cage to get Glarial's Pebble. (Waterfall Quest)</td>
-        <td>Search a crate in the dungeon under Tree Gnome Village.</td>
+        <td>Opens the two doors in the western part of the Waterfall Dungeon. (Waterfall Quest)</td>
+        <td>Search a crate in the Waterfall Dungeon.</td>
         <td>❌</td>
     </tr>
     <tr>
@@ -29,6 +29,12 @@ If you are having troubles identifying a key, hover the cursor over the icon to 
         <td>Opens the false wall in Seers Village. Allows access to the Elemental Workshop.</td>
         <td>Using a knife on a battered book.</td>
         <td>➖</td>
+    </tr>
+    <tr>
+        <td><canvas itemname="golrie_key_waterfall_quest" show-label="true"></canvas></td>
+        <td>Opens a cage to get Glarial's Pebble. (Waterfall Quest)</td>
+        <td>Search a crate in the dungeon under Tree Gnome Village.</td>
+        <td>❌</td>
     </tr>
     <tr>
         <td><canvas itemname="thbedobinkey" show-label="true"></canvas></td>
@@ -71,6 +77,18 @@ If you are having troubles identifying a key, hover the cursor over the icon to 
         <td>❌</td>
     </tr>
     <tr>
+        <td><canvas itemname="troll_key_godric" show-label="true"></canvas></td>
+        <td>Opens the cell door where Godric is held in the Troll Stronghold Quest.</td>
+        <td>Steal it from Twig who is in Troll Stronghold.</td>
+        <td>❌</td>
+    </tr>
+    <tr>
+        <td><canvas itemname="troll_key_eadgar" show-label="true"></canvas></td>
+        <td>Opens the cell door where Eadgar is held in the Troll Stronghold Quest.</td>
+        <td>Steal it from Berry who is in Troll Stronghold.</td>
+        <td>❌</td>
+    </tr>
+    <tr>
         <td><canvas itemname="chest_key" show-label="true"></canvas></td>
         <td>Opens Red Beard Frank's chest.</td>
         <td>Pirate's Treasure Quest.</td>
@@ -90,14 +108,12 @@ If you are having troubles identifying a key, hover the cursor over the icon to 
         <td>❌</td>
     </tr>
     -->
-    <!-- Closet key for Ernest the Chicken [be sure to check debug name]
     <tr>
-        <td><canvas itemname="closetkey" show-label="true"></canvas></td>
+        <td><canvas itemname="closet_key" show-label="true"></canvas></td>
         <td>Opens the door that contains the Rubber Tube used in the Ernest the Chicken Quest.</td>
         <td>Dig on the compost pile in Draynor Manor.</td>
         <td>❌</td>
     </tr>
-    -->
     <tr>
         <td><canvas itemname="crystal_key" show-label="true"></canvas></td>
         <td>Opens a chest in Taverly. Loot is uncut dragon stone and another random item(s).</td>
@@ -146,14 +162,18 @@ If you are having troubles identifying a key, hover the cursor over the icon to 
         <td>From Anita in the Tree Gnome Stronghold during The Grand Tree Quest.</td>
         <td>❌</td>
     </tr>
-    <!-- Golden key for Priest in Peril [be sure to check debug name]
     <tr>
-        <td><canvas itemname="golden_key" show-label="true"></canvas></td>
+        <td><canvas itemname="pipkey_gold" show-label="true"></canvas></td>
         <td>To exchange for a key that will open a cell door.</td>
         <td>Kill a Monk of Zamorak during the Priest in Peril Quest.</td>
         <td>❌</td>
     </tr>
-    -->
+    <tr>
+        <td><canvas itemname="grip_keys" show-label="true"></canvas></td>
+        <td>Opens the treasure room in the Black Arm Gang's second hideout. (Hero's Quest)</td>
+        <td>Having a Phoenix Gang partner kill Grip with ranged or magic during Hero's Quest.</td>
+        <td>❌</td>
+    </tr>
     <tr>
         <td><canvas itemname="keyhalf1" show-label="true"></canvas></td>
         <td>Use with Half a key (Teeth) to get a crystal key.</td>
@@ -166,14 +186,12 @@ If you are having troubles identifying a key, hover the cursor over the icon to 
         <td>Rare monster drop and obtained from a strange old man random event.</td>
         <td>✔️</td>
     </tr>
-    <!-- Iron key for Priest in Peril [be sure to check debug name]
     <tr>
-        <td><canvas itemname="iron_key" show-label="true"></canvas></td>
+        <td><canvas itemname="pipkey_iron" show-label="true"></canvas></td>
         <td>To free the priest from the Priest in Peril Quest.</td>
         <td>Swapping with a golden key.</td>
         <td>❌</td>
     </tr>
-    -->
     <tr>
         <td><canvas itemname="jail_key" show-label="true"></canvas></td>
         <td>Opens a jail in Taverly dungeon to a man that has the dusty key.</td>
@@ -251,6 +269,12 @@ If you are having troubles identifying a key, hover the cursor over the icon to 
         <td>➖</td>
     </tr>
     <tr>
+        <td><canvas itemname="misc_key" show-label="true"></canvas></td>
+        <td>To gain access to Scarface Pete's mansion in Brimhaven. (Hero's Quest)</td>
+        <td>Given by Grip during Hero's Quest.</td>
+        <td>❌</td>
+    </tr>
+    <tr>
         <td><canvas itemname="muddy_key" show-label="true"></canvas></td>
         <td>Opens a chest in the lava maze, Wilderness. Loot is: Mithril bar, Mithril dagger, Anchovy pizza, Uncut ruby, 2 Law runes, 10 Chaos runes, 2 Death runes and 50gp.</td>
         <td>Random drop from Chaos Dwarves.</td>
@@ -300,6 +324,12 @@ If you are having troubles identifying a key, hover the cursor over the icon to 
         <td>❌</td>
     </tr>
     -->
+    <tr>
+        <td><canvas itemname="troll_key_prison" show-label="true"></canvas></td>
+        <td>Used in the Troll Stronghold Quest to gain access to the troll prison.</td>
+        <td>Obtained by killing level 113 Troll generals in Troll Stronghold.</td>
+        <td>❌</td>
+    </tr>
     <tr>
         <td><canvas itemname="thgoodminekey" show-label="true"></canvas></td>
         <td>Grants access to the mine located at the Desert Mining camp.</td>
