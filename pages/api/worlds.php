@@ -92,8 +92,8 @@ foreach ($links as $link) {
         }
     }
     
-    $f2p_pos = strpos($response, 'Use these worlds to experience the game as a f2p player');
-    $p2p_pos = strpos($response, 'Use these worlds to experience the game as a p2p player');
+    $f2p_pos = strpos($response, 'Free Worlds below');
+    $p2p_pos = strpos($response, 'Members Worlds below');
     $link_pos = strpos($response, $href);
     $type = ($link_pos > $f2p_pos && $link_pos < $p2p_pos) ? 'f2p' : 'p2p';
 
