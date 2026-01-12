@@ -4,6 +4,7 @@ const bonesXp = {
     bat_bones: 4.5,
     wolf_bones: 4.5,
     big_bones: 15,
+    tbwt_jogre_bones: 15,
     babydragon_bones: 30,
     dragon_bones: 72,
 };

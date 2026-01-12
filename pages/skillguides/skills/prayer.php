@@ -133,43 +133,65 @@ function getSkillContent($skill) { return <<<HTML
     <br><br>
     <table cellpadding="1" cellspacing="0" class="table">
         <tbody><tr>
-            <th>Picture</th>
-            <th>Bone Name</th>
+            <th>Bone</th>
             <th>Exp</th>
         </tr>
         <tr>
-            <td><canvas itemname=bones></canvas></td>
-            <td>Bones</td>
+            <td><canvas itemname="bones" show-label="inline"></canvas></td>
             <td>4.5</td>
         </tr>
         <tr>
-            <td><canvas itemname=bones_burnt></canvas></td>
-            <td>Burnt Bones</td>
+            <td><canvas itemname="bones_burnt" show-label="inline"></canvas></td>
             <td>4.5</td>
         </tr>
         <tr>
-            <td><canvas itemname=bat_bones></canvas></td>
-            <td>Bat Bones</td>
+            <td><canvas itemname="bat_bones" show-label="inline"></canvas></td>
             <td>4.5</td>
         </tr>
         <tr>
-            <td><canvas itemname=wolf_bones></canvas></td>
-            <td>Wolf Bones</td>
+            <td><canvas itemname="wolf_bones" show-label="inline"></canvas></td>
             <td>4.5</td>
         </tr>
         <tr>
-            <td><canvas itemname=big_bones></canvas></td>
-            <td>Big Bones</td>
+            <td><canvas itemname="big_bones" show-label="inline"></canvas></td>
             <td>15</td>
         </tr>
         <tr>
-            <td><canvas itemname=babydragon_bones></canvas></td>
-            <td>Babydragon Bones</td>
+            <td><canvas itemname="tbwt_jogre_bones" show-label="inline"></canvas></td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td><canvas itemname="tbwt_burnt_jogre_bones" show-label="inline"></canvas><font style="font-style: italic;">(not currently obtainable)</font></td>
+            <td>16</td>
+        </tr>
+        <tr>
+            <td><canvas itemname="tbwt_burnt_jogre_bones_in_raw_karambwanji_paste" show-label="inline"></canvas><font style="font-style: italic;">(not currently obtainable)</font></td>
+            <td>17</td>
+        </tr>
+            <tr>
+            <td><canvas itemname="tbwt_burnt_jogre_bones_in_cooked_karambwanji_paste" show-label="inline"></canvas><font style="font-style: italic;">(not currently obtainable)</font></td>
+            <td>16</td>
+        </tr>
+        </tr>
+        <tr>
+            <td><canvas itemname="tbwt_burnt_jogre_bones_marinated_in_karambwanji" show-label="inline"></canvas><font style="font-style: italic;">(not currently obtainable)</font></td>
+            <td>18</td>
+        </tr>
+        </tr>
+        <tr>
+            <td><canvas itemname="tbwt_jogre_bones_in_raw_karambwanji_paste" show-label="inline"></canvas><font style="font-style: italic;">(not currently obtainable)</font></td>
+            <td>16</td>
+        </tr>
+        <tr>
+            <td><canvas itemname="tbwt_jogre_bones_marinated_in_karambwanji" show-label="inline"></canvas><font style="font-style: italic;">(not currently obtainable)</font></td>
+            <td>17</td>
+        </tr>
+        <tr>
+            <td><canvas itemname="babydragon_bones" show-label="inline"></canvas></td>
             <td>30</td>
         </tr>
         <tr>
-            <td><canvas itemname=dragon_bones></canvas></td>
-            <td>Dragon Bones</td>
+            <td><canvas itemname="dragon_bones" show-label="inline"></canvas></td>
             <td>72</td>
         </tr></tbody>
     </table>

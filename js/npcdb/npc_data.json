@@ -10965,7 +10965,7 @@
         {"item":["unidentified_rogues_purse",1],"chance":"5"}
       ],
       "always": [
-        {"item":["big_bones",1]}
+        {"item":["tbwt_jogre_bones",1]}
       ],
       "tertiary": [
         {"item":"clue-medium","chance":"1/129"}
