@@ -156,12 +156,12 @@ const smeltingXP = {
     },
     iron_bar: {
         xp: 12.5, level: 15,
-        ingredients: { iron_ore: 2 }
-    },
-    iron_bar_forging: {//not a debugname
-        xp: 12.5, level: 15,
         ingredients: { iron_ore: 1 }
     }, 
+    iron_bar_no_forging: {//not a debugname
+        xp: 12.5, level: 15,
+        ingredients: { iron_ore: 2 }
+    },
     elemental_workshop_bar: {
         xp: 8, level: 20,
         ingredients: { elemental_workshop_ore: 1, coal: 4 }
@@ -225,8 +225,8 @@ function runCalc() {
 
                 let iteminfo = `"${item}"`;
                 switch (item) {
-                    case "iron_bar_forging":
-                        iteminfo = `"iron_bar" name-append=" (Ring of Forging/Superheat)"`; break;
+                    case "iron_bar_no_forging":
+                        iteminfo = `"iron_bar" name-append=" (No Ring of Forging/Superheat)"`; break;
                     case "gold_smithgauntlets":
                         iteminfo = `"gold_bar" name-append=" (Gauntlets)"`; break;
                     default: break;
@@ -256,7 +256,7 @@ function runCalc() {
                                 <td><canvas itemname="${item}" show-label="true" amount="${amountNeeded}"></canvas></td>
                                 <td>${data.xp}</td>
                                 <td>${data.bars}</td>
-                                <td><canvas itemname="${selectedMetal}" show-label="inline" amount="${amountNeeded}"></canvas></td>`;
+                                <td><canvas itemname="${selectedMetal}" show-label="inline" amount="${amountNeeded*data.bars}"></canvas></td>`;
                 tableBody.appendChild(row);
             }
             break;
