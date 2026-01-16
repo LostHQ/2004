@@ -60,6 +60,9 @@ function getPageContent() {
       <td>Shrigis</td>
       <td>Nsyion</td>
     </tr>
+    <tr>
+      <td colspan="3">Sir Tyrael</td>
+    </tr>
   </table>
 </div>
 <hr>
