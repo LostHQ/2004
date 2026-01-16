@@ -344,8 +344,18 @@ function renderItemSpriteToCanvas(canvas) {
     if (canvas.getAttribute('done')) return;
     canvas.setAttribute("done", 'true');
     const debugname = canvas.getAttribute("itemname");
-    const amount = parseInt(canvas.getAttribute("amount"), 10);
-    const qty = isNaN(amount) ? 1 : amount;
+
+    const amount = canvas.getAttribute("amount");
+    let qty = 0;
+    if (!amount) {
+        qty = 1;
+    } else if (amount.includes('-')) {
+        const split = amount.split('-').map((s) => parseInt(s, 10)).filter((n) => !isNaN(n));
+        qty = split[split.length - 1];
+    } else {
+        qty = parseInt(amount, 10);
+    }
+
     const nameAppend = canvas.getAttribute("name-append");
     const nameReplace = canvas.getAttribute("name-replace");
     const showLabel = canvas.getAttribute("show-label");

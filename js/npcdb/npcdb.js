@@ -187,9 +187,10 @@
                     const [itemName, amount] = item.item;
                     const note = item.note;
                     const noteHtml = note ? `<span class="note-indicator" title="${note}">[?]</span>` : "";
+                    const quantityRow = (typeof amount === "string") ? `<td>${amount.toLocaleString()}</td><td colspan="2">` : `<td colspan="3">`;
                     guaranteedRows.push({
                         html: `<tr>
-                        <td colspan="2">
+                        ${quantityRow}
                         <div style="display: flex; align-items: center; justify-content: center; gap: 5px;">
                             <canvas itemname="${itemName}" amount="${amount}" show-label="inline"></canvas>${noteHtml}
                         </div>
@@ -223,10 +224,10 @@
                                 }
 
                                 const chanceCell = i === 0 ? `<td rowspan="${itemCount}">${calculateChance(roll.chance, rollBase)}</td>` : "";
-
+                                const quantityRow = (typeof amount === "string") ? `<td>${amount.toLocaleString()}</td><td>` : `<td colspan="2">`;
                                 rollableRows.push({
                                     html: `<tr>
-                                            <td>
+                                            ${quantityRow}
                                                 <div style="display: flex; align-items: center; justify-content: center; gap: 5px;">
                                                     <canvas itemname="${itemName}" amount="${amount}" show-label="inline"></canvas>${noteHtml}
                                                 </div>
@@ -249,9 +250,10 @@
                             const iconItem = SHARED_TABLE_ICONS[sharedTableName];
                             const iconHtml = iconItem ? `<canvas itemname="${iconItem}" amount="${amount}"></canvas>` : "";
                             const noteHtml = roll.note ? `<span class="note-indicator" title="${roll.note}">[?]</span>` : "";
+                            const quantityRow = (typeof amount === "string") ? `<td>${amount.toLocaleString()}</td><td>` : `<td colspan="2">`;
                             rollableRows.push({
                                 html: `<tr>
-                                <td>
+                                ${quantityRow}
                                     <div style="display: flex; align-items: center; justify-content: center; gap: 5px;">
                                     ${iconHtml}
                                     <span class="shared-table-toggle"
@@ -279,10 +281,10 @@
                             });
 
                             const noteHtml = roll.note ? `<span class="note-indicator" title="${roll.note}">[?]</span>` : "";
-
+                            const quantityRow = (typeof amount === "string") ? `<td>${amount.toLocaleString()}</td><td>` : `<td colspan="2">`;
                             rollableRows.push({
                                 html: `<tr>
-                                    <td>
+                                    ${quantityRow}
                                         <div style="display: flex; align-items: center; justify-content: center; gap: 5px;">
                                             <canvas itemname="${abovegroundItem}" amount="${amount}" show-label="inline"></canvas> or 
                                             <canvas itemname="${undergroundItem}" amount="${amount}" show-label="inline"></canvas>${noteHtml}
@@ -292,10 +294,11 @@
                                 </tr>`
                             });
                         } else {
+                            const quantityRow = (typeof amount === "string") ? `<td>${amount.toLocaleString()}</td><td>` : `<td colspan="2">`;
                             const noteHtml = roll.note ? `<span class="note-indicator" title="${roll.note}">[?]</span>` : "";
                             rollableRows.push({
                                 html: `<tr>
-                                        <td>
+                                    ${quantityRow}
                                             <div style="display: flex; align-items: center; justify-content: center; gap: 5px;">
                                                 <canvas itemname="${itemName}" amount="${amount}" show-label="inline"></canvas>${noteHtml}
                                             </div>
@@ -311,7 +314,7 @@
                 if (nothingSlots > 0) {
                     rollableRows.push({
                         html: `<tr style="color: #888;">
-                            <td style="font-style: italic; text-align: center;">Nothing</td>
+                            <td style="font-style: italic; text-align: center;" colspan="2">Nothing</td>
                             <td>${calculateChance(nothingSlots, rollBase)}</td>
                             </tr>`
                     });
@@ -345,7 +348,7 @@
                     const noteHtml = note ? `<span class="note-indicator" title="${note}">[?]</span>` : "";
                     tertiaryRows.push({
                         html: `<tr>
-                            <td>
+                            <td colspan="2">
                                 <div style="display: flex; align-items: center; justify-content: center; gap: 5px;">
                                     <canvas itemname="${displayItemName}" amount="1" show-label="inline"${nameAppend ? ` name-append="${nameAppend}"` : ""}></canvas>${noteHtml}
                                 </div>
@@ -357,19 +360,19 @@
             }
             html += '<table class="table" width="100%">';
             if (guaranteedRows.length > 0) {
-                html += '<tr><th colspan="2">Always Drops</th></tr>';
+                html += '<tr><th colspan="3">Always Drops</th></tr>';
                 guaranteedRows.forEach((r) => (html += r.html));
             }
 
             if (rollableRows.length > 0) {
                 html += '<tr><th colspan="3">Primary Drops</th></tr>';
-                html += "<tr><th>Item</th><th>Chance</th></tr>";
+                html += `<tr><th colspan="2">Item</th><th>Chance</th></tr>`;
                 rollableRows.forEach((r) => (html += r.html));
             }
 
             if (tertiaryRows.length > 0) {
                 html += '<tr><th colspan="3">Tertiary Drops</th></tr>';
-                html += "<tr><th>Item</th><th>Chance</th></tr>";
+                html += `<tr><th colspan="2">Item</th><th>Chance</th></tr>`;
                 tertiaryRows.forEach((r) => (html += r.html));
             }
             html += "</table>";
