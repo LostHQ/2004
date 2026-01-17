@@ -11,7 +11,7 @@ function getCalcContent() { return <<<HTML
     </div>
     <div class="input-group">
         <label>NPC Search:</label>
-        <input type="text" id="itemSearch" placeholder="Search NPC...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;">
+        <input type="text" id="npcSearch" placeholder="Search NPC...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;">
         <div id="searchResults" style="width:400px;"></div>
     </div>
     <div class="input-group">

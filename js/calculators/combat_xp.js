@@ -52,7 +52,7 @@ async function populateNPCDropdown() {
             }
             return null;
         }
-
+        
         const foundXP = findBoneDropXP(npc.drops.always) || findBoneDropXP(npc.drops.roll_table);
         if (typeof foundXP === 'number') boneXp = foundXP;
 
@@ -66,7 +66,7 @@ async function populateNPCDropdown() {
     }
 }
 
-document.getElementById("itemSearch").addEventListener("input", async function () {
+document.getElementById("npcSearch").addEventListener("input", async function () {
     const searchQuery = this.value.toLowerCase();
     const resultsDiv = document.getElementById("searchResults");
     resultsDiv.innerHTML = "";
@@ -82,7 +82,7 @@ document.getElementById("itemSearch").addEventListener("input", async function (
             div.classList.add("search-item");
             div.textContent = npc.name;
             div.onclick = function () {
-                document.getElementById("itemSearch").value = npc.name;
+                document.getElementById("npcSearch").value = npc.name;
                 document.getElementById("npcHP").value = npc.hitpoints;
                 resultsDiv.style.display = "none";
             };
@@ -92,7 +92,7 @@ document.getElementById("itemSearch").addEventListener("input", async function (
 });
 
 document.addEventListener("click", function (e) {
-    if (!document.getElementById("itemSearch").contains(e.target)) {
+    if (!document.getElementById("npcSearch").contains(e.target)) {
         document.getElementById("searchResults").style.display = "none";
     }
 });
@@ -100,7 +100,7 @@ document.addEventListener("click", function (e) {
 function runCalc() {
     // Cache DOM handles
     const get = (id) => document.getElementById(id);
-    const itemSearchGet = get("itemSearch");
+    const npcSearch = get("npcSearch");
     const npcHPGet = get("npcHP");
     const numNpcsGet = get("numNpcs");
     const attackStyleGet = get("attackStyle");
@@ -108,7 +108,7 @@ function runCalc() {
     const outputDiv = get("output");
 
     // Parse inputs (robust, fast)
-    const npcName = (itemSearchGet.value || "").trim().toLowerCase();
+    const npcName = (npcSearch.value || "").trim().toLowerCase();
     const npcHP = Number(npcHPGet.value) || 0;
     const numNpcs = Number(numNpcsGet.value) || 0;
     const totalXP = (npcHP * 4) * numNpcs;
