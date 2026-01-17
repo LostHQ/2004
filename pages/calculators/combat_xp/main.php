@@ -7,7 +7,7 @@ function getCalcContent() { return <<<HTML
     <div class="input-group">
         <label>Username:</label>
         <input type="text" id="username">
-        <button onclick="fetchXP()">Fetch XP</button>
+        <button onclick="fetchXPAll()">Fetch XP</button>
     </div>
     <div class="input-group">
         <label>NPC Search:</label>

@@ -112,6 +112,35 @@ function updateProgressBar(currentXP, targetXP) {
     }, 50);
 }
 
+async function fetchXPAll() {
+    const username = document.getElementById("username").value.trim();
+    if (!username) return alert("Please enter a username.");
+
+    try {
+        const response = await fetch(`pages/api/LCHiscoresProxy.php?username=${encodeURIComponent(username)}`);
+        if (!response.ok) throw new Error("Failed to fetch data.");
+        const data = await response.json();
+
+        const xpFields = {
+            attackXP: 1,
+            strengthXP: 3,
+            defenceXP: 2,
+            hitpointsXP: 4,
+            rangedXP: 5,
+            prayerXP: 6,
+        };
+
+        Object.entries(xpFields).forEach(([field, type]) => {
+            const stat = data.find((stat) => stat.type === type);
+            if (stat) {
+                document.getElementById(field).value = Math.floor(stat.value / 10);
+            }
+        });
+    } catch (e) {
+        console.error(e);
+    }
+}
+
 async function fetchXP(statType) {
     const username = document.getElementById("username").value.trim();
     if (!username) return alert("Please enter a username.");
