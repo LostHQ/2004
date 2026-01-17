@@ -99,6 +99,12 @@ function getSkillContent($skill) { return <<<HTML
             <td><canvas itemname="nature_talisman" show-label="true"></canvas></td>
             <td>On Karamja, North of Shilo Village</td>
         </tr>
+        <tr>
+            <td>54</td>
+            <td><canvas itemname="lawrune" show-label="true"></canvas></td>
+            <td><canvas itemname="law_talisman" show-label="true"></canvas></td>
+            <td>On the island of Entrana</td>
+        </tr>
     </table>
     <br>
     As you advance through the levels of runecraft, you will become more adept at turning the raw materials of rune essence into runes. What this means is that as your increases you will be able to make more than one rune from each essence you bind.
@@ -160,6 +166,10 @@ function getSkillContent($skill) { return <<<HTML
             <tr>
                 <td><canvas itemname="naturerune" show-label="inline"></canvas></td>
                 <td>44</td><td>91</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+            </tr>
+            <tr>
+                <td><canvas itemname="lawrune" show-label="inline"></canvas></td>
+                <td>54</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
             </tr>
         </tbody>
     </table>

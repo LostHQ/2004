@@ -8,6 +8,7 @@ const runes = {
     cosmicrune: { xp: 8, level: 27 },
     chaosrune: { xp: 8.5, level: 35 },
     naturerune: { xp: 9, level: 44 },
+    lawrune: { xp: 9.5, level: 54 }
 };
 
 function runCalc() {
