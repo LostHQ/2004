@@ -3841,6 +3841,14 @@
       {"damagetype":"^crush_style"}
     ]
   },
+  "death_growncat_black": {
+    "id": 1091,
+    "name": "Bob",
+    "vislevel": "hide",
+    "desc": "The Jagex cat.",
+    "wanderrange": "30000",
+    "maxrange": "30000"
+  },
   "death_guard_equiproom": {
     "id": 1078,
     "name": "Harold",
@@ -4098,6 +4106,55 @@
     "vislevel": "hide",
     "defaultmode": "none",
     "moverestrict": "nomove"
+  },
+  "death_man_indoors1": {
+    "id": 1086,
+    "name": "Unferth",
+    "desc": "A citizen of Burthorpe.",
+    "op1": "Talk-to",
+    "op2": "Attack",
+    "vislevel": "6",
+    "respawnrate": "50",
+    "hitpoints": "10",
+    "attack": "3",
+    "strength": "8",
+    "defence": "3",
+    "params": [
+      {"stabdefence":"-12"},
+      {"slashdefence":"-12"},
+      {"crushdefence":"-12"},
+      {"magicdefence":"-12"},
+      {"rangedefence":"-12"},
+      {"damagetype":"^crush_style"}
+    ],
+    "drops": {
+      "roll_base": 128,
+      "roll_table": [
+        {"item":["iron_dagger",1],"chance":"1"},
+        {"item":["bronze_med_helm",1],"chance":"2"},
+        {"item":["bolt","2-12"],"chance":"22"},
+        {"item":["bronze_arrow",7],"chance":"3"},
+        {"item":["earthrune",4],"chance":"2"},
+        {"item":["firerune",6],"chance":"2"},
+        {"item":["mindrune",9],"chance":"2"},
+        {"item":["chaosrune",2],"chance":"1"},
+        {"item":["~randomherb",1],"chance":"23"},
+        {"item":["coins",3],"chance":"38"},
+        {"item":["coins",5],"chance":"9"},
+        {"item":["coins",15],"chance":"4"},
+        {"item":["coins",25],"chance":"1"},
+        {"item":["fishing_bait",1],"chance":"5"},
+        {"item":["copper_ore",1],"chance":"2"},
+        {"item":["earth_talisman",1],"chance":"2"},
+        {"item":["cabbage",1],"chance":"1"}
+      ],
+      "always": [
+        {"item":["bones",1]}
+      ],
+      "tertiary": [
+        {"item":"clue-easy","chance":"1/128"}
+      ]
+    }
   },
   "death_man_indoors2": {
     "id": 1087,
@@ -4359,7 +4416,7 @@
         {"item":["coins",420],"chance":"1"},
         {"item":["cert_coal",6],"chance":"3"},
         {"item":["cert_raw_tuna",4],"chance":"2"},
-        {"item":["~randomjewel",1],"chance":"2"}
+        {"item":["~randomjewel",1],"chance":"5"}
       ],
       "always": [
         {"item":["big_bones",1]}
@@ -4430,7 +4487,7 @@
         {"item":["coins",420],"chance":"1"},
         {"item":["cert_coal",6],"chance":"3"},
         {"item":["cert_raw_tuna",4],"chance":"2"},
-        {"item":["~randomjewel",1],"chance":"2"}
+        {"item":["~randomjewel",1],"chance":"5"}
       ],
       "always": [
         {"item":["big_bones",1]}
@@ -4487,7 +4544,7 @@
         {"item":["coins",420],"chance":"1"},
         {"item":["cert_coal",6],"chance":"3"},
         {"item":["cert_raw_tuna",4],"chance":"2"},
-        {"item":["~randomjewel",1],"chance":"2"}
+        {"item":["~randomjewel",1],"chance":"5"}
       ],
       "always": [
         {"item":["big_bones",1]}
@@ -4544,7 +4601,7 @@
         {"item":["coins",420],"chance":"1"},
         {"item":["cert_coal",6],"chance":"3"},
         {"item":["cert_raw_tuna",4],"chance":"2"},
-        {"item":["~randomjewel",1],"chance":"2"}
+        {"item":["~randomjewel",1],"chance":"5"}
       ],
       "always": [
         {"item":["big_bones",1]}
@@ -5126,14 +5183,6 @@
       ]
     }
   },
-  "death_woman_indoors2": {
-    "id": 1091,
-    "name": "Bob",
-    "vislevel": "hide",
-    "desc": "The Jagex cat.",
-    "wanderrange": "30000",
-    "maxrange": "30000"
-  },
   "death_woman_outdoors1": {
     "id": 1088,
     "name": "Hygd",
@@ -5623,7 +5672,7 @@
       ]
     }
   },
-  "dragonslayer_giant_rat": {
+  "dragonslayer_giantrat": {
     "id": 748,
     "name": "Giant rat",
     "size": "2",
@@ -5668,10 +5717,10 @@
     "wanderrange": "9",
     "maxrange": "11",
     "respawnrate": "70",
-    "hitpoints": "17",
-    "attack": "24",
-    "strength": "24",
-    "defence": "24",
+    "hitpoints": "29",
+    "attack": "15",
+    "strength": "18",
+    "defence": "17",
     "huntmode": "cowardly",
     "huntrange": "1",
     "params": [
@@ -6991,7 +7040,7 @@
     "respawnrate": "70",
     "hitpoints": "5",
     "params": [
-      {"attackbonus":"-26"},
+      {"attackbonus":"-31"},
       {"strengthbonus":"-26"},
       {"stabdefence":"-26"},
       {"slashdefence":"-26"},
@@ -7698,11 +7747,15 @@
     "attack": "22",
     "strength": "22",
     "hitpoints": "45",
-    "defence": "17",
+    "defence": "18",
     "wanderrange": "5",
     "maxrange": "7",
     "huntmode": "aggressive_melee",
-    "huntrange": "5"
+    "huntrange": "5",
+    "moverestrict": "blocked+normal",
+    "params": [
+      {"damagetype":"^slash_style"}
+    ]
   },
   "ghast_vis": {
     "id": 1053,
@@ -7717,6 +7770,10 @@
     "defence": "18",
     "wanderrange": "5",
     "maxrange": "7",
+    "moverestrict": "blocked+normal",
+    "params": [
+      {"damagetype":"^slash_style"}
+    ],
     "drops": {
       "roll_base": 128,
       "roll_table": [
@@ -8887,7 +8944,7 @@
     "vislevel": "hide",
     "op1": "Talk-to"
   },
-  "grandtree_black_demon": {
+  "grandtree_blackdemon": {
     "id": 677,
     "name": "Black Demon",
     "size": "3",
@@ -11242,7 +11299,7 @@
         {"item":["lobster",1],"chance":"3"},
         {"item":["3dose1defense",1],"chance":"1"},
         {"item":["~randomjewel",1],"chance":"5"},
-        {"item":["~ultrarare_getitem",1],"chance":"5"}
+        {"item":["~ultrarare_getitem",1],"chance":"1"}
       ]
     }
   },
@@ -11255,7 +11312,7 @@
     "vislevel": "141",
     "maxrange": "25",
     "huntrange": "5",
-    "huntmode": "cowardly",
+    "huntmode": "kalphite_worker",
     "hitpoints": "170",
     "attack": "110",
     "strength": "110",
@@ -11292,7 +11349,7 @@
         {"item":["lobster",1],"chance":"3"},
         {"item":["3dose1defense",1],"chance":"1"},
         {"item":["~randomjewel",1],"chance":"5"},
-        {"item":["~ultrarare_getitem",1],"chance":"5"}
+        {"item":["~ultrarare_getitem",1],"chance":"1"}
       ]
     }
   },
@@ -11378,7 +11435,7 @@
         {"item":["coins",10],"chance":"7"},
         {"item":["coins",450],"chance":"1"},
         {"item":["water_skin4",1],"chance":"3"},
-        {"item":["~randomjewel",1],"chance":"3"}
+        {"item":["~randomjewel",1],"chance":"4"}
       ]
     }
   },
@@ -11426,7 +11483,7 @@
         {"item":["coins",62],"chance":"4"},
         {"item":["coins",42],"chance":"3"},
         {"item":["water_skin4",1],"chance":"21"},
-        {"item":["~randomjewel",1],"chance":"21"}
+        {"item":["~randomjewel",1],"chance":"3"}
       ]
     }
   },
@@ -11473,7 +11530,7 @@
         {"item":["coins",62],"chance":"4"},
         {"item":["coins",42],"chance":"3"},
         {"item":["water_skin4",1],"chance":"21"},
-        {"item":["~randomjewel",1],"chance":"21"}
+        {"item":["~randomjewel",1],"chance":"3"}
       ]
     }
   },
@@ -11764,7 +11821,7 @@
         {"item":["bigoysterpearls",4],"chance":"4"},
         {"item":["mithril_battleaxe",1],"chance":"3"},
         {"item":["~ultrarare_getitem",1],"chance":"8"},
-        {"item":["~randomjewel",1],"chance":"8"}
+        {"item":["~randomjewel",1],"chance":"2"}
       ],
       "always": [
         {"item":["dragon_bones",1]},
@@ -12338,7 +12395,7 @@
         {"item":["gold_ore",1],"chance":"2"},
         {"item":["deathrune",3],"chance":"3"},
         {"item":["chaosrune",12],"chance":"5"},
-        {"item":["coins",10],"chance":"5"}
+        {"item":["coins",10],"chance":"7"}
       ],
       "always": [
         {"item":["ashes",1]}
@@ -12478,7 +12535,7 @@
         {"item":["banana",1],"chance":"12"},
         {"item":["knife",1],"chance":"1"},
         {"item":["~randomherb",1],"chance":"29"},
-        {"item":["~randomjewel",1],"chance":"29"}
+        {"item":["~randomjewel",1],"chance":"8"}
       ]
     }
   },
@@ -12512,7 +12569,7 @@
         {"item":["banana",1],"chance":"12"},
         {"item":["knife",1],"chance":"1"},
         {"item":["~randomherb",1],"chance":"29"},
-        {"item":["~randomjewel",1],"chance":"29"}
+        {"item":["~randomjewel",1],"chance":"8"}
       ]
     }
   },
@@ -12546,7 +12603,7 @@
         {"item":["banana",1],"chance":"12"},
         {"item":["knife",1],"chance":"1"},
         {"item":["~randomherb",1],"chance":"29"},
-        {"item":["~randomjewel",1],"chance":"29"}
+        {"item":["~randomjewel",1],"chance":"8"}
       ]
     }
   },
@@ -12580,7 +12637,7 @@
         {"item":["banana",1],"chance":"12"},
         {"item":["knife",1],"chance":"1"},
         {"item":["~randomherb",1],"chance":"29"},
-        {"item":["~randomjewel",1],"chance":"29"}
+        {"item":["~randomjewel",1],"chance":"8"}
       ]
     }
   },
@@ -12614,7 +12671,7 @@
         {"item":["banana",1],"chance":"12"},
         {"item":["knife",1],"chance":"1"},
         {"item":["~randomherb",1],"chance":"29"},
-        {"item":["~randomjewel",1],"chance":"29"}
+        {"item":["~randomjewel",1],"chance":"8"}
       ]
     }
   },
@@ -12648,7 +12705,7 @@
         {"item":["banana",1],"chance":"12"},
         {"item":["knife",1],"chance":"1"},
         {"item":["~randomherb",1],"chance":"29"},
-        {"item":["~randomjewel",1],"chance":"29"}
+        {"item":["~randomjewel",1],"chance":"8"}
       ]
     }
   },
@@ -12676,6 +12733,12 @@
     "params": [
       {"follow_player_on_logout":"^true"}
     ]
+  },
+  "macro_mime": {
+    "id": 1056,
+    "name": "Mime",
+    "desc": "A mute performer.",
+    "vislevel": "1"
   },
   "macro_mysterious_old_man": {
     "id": 410,
@@ -12943,7 +13006,7 @@
         {"item":["runite_ore",1],"chance":"1"},
         {"item":["dwarven_stout",1],"chance":"13"},
         {"item":["hammer",1],"chance":"10"},
-        {"item":["~randomjewel",1],"chance":"10"}
+        {"item":["~randomjewel",1],"chance":"2"}
       ]
     }
   },
@@ -12981,7 +13044,7 @@
         {"item":["runite_ore",1],"chance":"1"},
         {"item":["dwarven_stout",1],"chance":"13"},
         {"item":["hammer",1],"chance":"10"},
-        {"item":["~randomjewel",1],"chance":"10"}
+        {"item":["~randomjewel",1],"chance":"2"}
       ]
     }
   },
@@ -13019,7 +13082,7 @@
         {"item":["runite_ore",1],"chance":"1"},
         {"item":["dwarven_stout",1],"chance":"13"},
         {"item":["hammer",1],"chance":"10"},
-        {"item":["~randomjewel",1],"chance":"10"}
+        {"item":["~randomjewel",1],"chance":"2"}
       ]
     }
   },
@@ -13057,7 +13120,7 @@
         {"item":["runite_ore",1],"chance":"1"},
         {"item":["dwarven_stout",1],"chance":"13"},
         {"item":["hammer",1],"chance":"10"},
-        {"item":["~randomjewel",1],"chance":"10"}
+        {"item":["~randomjewel",1],"chance":"2"}
       ]
     }
   },
@@ -13095,7 +13158,7 @@
         {"item":["runite_ore",1],"chance":"1"},
         {"item":["dwarven_stout",1],"chance":"13"},
         {"item":["hammer",1],"chance":"10"},
-        {"item":["~randomjewel",1],"chance":"10"}
+        {"item":["~randomjewel",1],"chance":"2"}
       ]
     }
   },
@@ -13133,7 +13196,7 @@
         {"item":["runite_ore",1],"chance":"1"},
         {"item":["dwarven_stout",1],"chance":"13"},
         {"item":["hammer",1],"chance":"10"},
-        {"item":["~randomjewel",1],"chance":"10"}
+        {"item":["~randomjewel",1],"chance":"2"}
       ]
     }
   },
@@ -13157,8 +13220,8 @@
     "drops": {
       "roll_base": 128,
       "roll_table": [
-        {"item":["blackrobetop",1],"chance":"96"},
-        {"item":["blackrobebottom",1],"chance":"96"}
+        {"item":["blackrobetop",1],"chance":"32"},
+        {"item":["blackrobebottom",1],"chance":"32"}
       ]
     }
   },
@@ -13182,8 +13245,8 @@
     "drops": {
       "roll_base": 128,
       "roll_table": [
-        {"item":["blackrobetop",1],"chance":"96"},
-        {"item":["blackrobebottom",1],"chance":"96"}
+        {"item":["blackrobetop",1],"chance":"32"},
+        {"item":["blackrobebottom",1],"chance":"32"}
       ]
     }
   },
@@ -13207,8 +13270,8 @@
     "drops": {
       "roll_base": 128,
       "roll_table": [
-        {"item":["blackrobetop",1],"chance":"96"},
-        {"item":["blackrobebottom",1],"chance":"96"}
+        {"item":["blackrobetop",1],"chance":"32"},
+        {"item":["blackrobebottom",1],"chance":"32"}
       ]
     }
   },
@@ -13232,8 +13295,8 @@
     "drops": {
       "roll_base": 128,
       "roll_table": [
-        {"item":["blackrobetop",1],"chance":"96"},
-        {"item":["blackrobebottom",1],"chance":"96"}
+        {"item":["blackrobetop",1],"chance":"32"},
+        {"item":["blackrobebottom",1],"chance":"32"}
       ]
     }
   },
@@ -13257,8 +13320,8 @@
     "drops": {
       "roll_base": 128,
       "roll_table": [
-        {"item":["blackrobetop",1],"chance":"96"},
-        {"item":["blackrobebottom",1],"chance":"96"}
+        {"item":["blackrobetop",1],"chance":"32"},
+        {"item":["blackrobebottom",1],"chance":"32"}
       ]
     }
   },
@@ -13280,6 +13343,24 @@
       {"undead":"^true"},
       {"combat_xp_multiplier":"25"}
     ]
+  },
+  "macro_theatre_guthix": {
+    "id": 1058,
+    "name": "Strange watcher",
+    "vislevel": "hide",
+    "desc": "A member of the audience."
+  },
+  "macro_theatre_saradomin": {
+    "id": 1057,
+    "name": "Strange watcher",
+    "vislevel": "hide",
+    "desc": "A member of the audience."
+  },
+  "macro_theatre_zamorak": {
+    "id": 1059,
+    "name": "Strange watcher",
+    "vislevel": "hide",
+    "desc": "A member of the audience."
   },
   "macro_watchman1": {
     "id": 431,
@@ -13555,22 +13636,7 @@
       {"damagetype":"^crush_style"},
       {"undead":"^true"},
       {"combat_xp_multiplier":"25"}
-    ],
-    "drops": {
-      "roll_table": [
-        {"item":["dragon_bones",1],"chance":"245"},
-        {"item":["big_bones",1],"chance":"245"},
-        {"item":["dragon_bones",2],"chance":"1"},
-        {"item":["big_bones",10],"chance":"1"},
-        {"item":["bones",10],"chance":"1"},
-        {"item":["dragon_bones",3],"chance":"1"},
-        {"item":["big_bones",6],"chance":"8"},
-        {"item":["~randomjewel",1],"chance":"8"}
-      ],
-      "always": [
-        {"item":["big_bones",1]}
-      ]
-    }
+    ]
   },
   "macro_zombie2": {
     "id": 420,
@@ -13588,22 +13654,7 @@
       {"damagetype":"^crush_style"},
       {"undead":"^true"},
       {"combat_xp_multiplier":"25"}
-    ],
-    "drops": {
-      "roll_table": [
-        {"item":["dragon_bones",1],"chance":"245"},
-        {"item":["big_bones",1],"chance":"245"},
-        {"item":["dragon_bones",2],"chance":"1"},
-        {"item":["big_bones",10],"chance":"1"},
-        {"item":["bones",10],"chance":"1"},
-        {"item":["dragon_bones",3],"chance":"1"},
-        {"item":["big_bones",6],"chance":"8"},
-        {"item":["~randomjewel",1],"chance":"8"}
-      ],
-      "always": [
-        {"item":["big_bones",1]}
-      ]
-    }
+    ]
   },
   "macro_zombie3": {
     "id": 421,
@@ -13621,22 +13672,7 @@
       {"damagetype":"^crush_style"},
       {"undead":"^true"},
       {"combat_xp_multiplier":"25"}
-    ],
-    "drops": {
-      "roll_table": [
-        {"item":["dragon_bones",1],"chance":"245"},
-        {"item":["big_bones",1],"chance":"245"},
-        {"item":["dragon_bones",2],"chance":"1"},
-        {"item":["big_bones",10],"chance":"1"},
-        {"item":["bones",10],"chance":"1"},
-        {"item":["dragon_bones",3],"chance":"1"},
-        {"item":["big_bones",6],"chance":"8"},
-        {"item":["~randomjewel",1],"chance":"8"}
-      ],
-      "always": [
-        {"item":["big_bones",1]}
-      ]
-    }
+    ]
   },
   "macro_zombie4": {
     "id": 422,
@@ -13654,22 +13690,7 @@
       {"damagetype":"^crush_style"},
       {"undead":"^true"},
       {"combat_xp_multiplier":"25"}
-    ],
-    "drops": {
-      "roll_table": [
-        {"item":["dragon_bones",1],"chance":"245"},
-        {"item":["big_bones",1],"chance":"245"},
-        {"item":["dragon_bones",2],"chance":"1"},
-        {"item":["big_bones",10],"chance":"1"},
-        {"item":["bones",10],"chance":"1"},
-        {"item":["dragon_bones",3],"chance":"1"},
-        {"item":["big_bones",6],"chance":"8"},
-        {"item":["~randomjewel",1],"chance":"8"}
-      ],
-      "always": [
-        {"item":["big_bones",1]}
-      ]
-    }
+    ]
   },
   "macro_zombie5": {
     "id": 423,
@@ -13687,22 +13708,7 @@
       {"damagetype":"^crush_style"},
       {"undead":"^true"},
       {"combat_xp_multiplier":"25"}
-    ],
-    "drops": {
-      "roll_table": [
-        {"item":["dragon_bones",1],"chance":"245"},
-        {"item":["big_bones",1],"chance":"245"},
-        {"item":["dragon_bones",2],"chance":"1"},
-        {"item":["big_bones",10],"chance":"1"},
-        {"item":["bones",10],"chance":"1"},
-        {"item":["dragon_bones",3],"chance":"1"},
-        {"item":["big_bones",6],"chance":"8"},
-        {"item":["~randomjewel",1],"chance":"8"}
-      ],
-      "always": [
-        {"item":["big_bones",1]}
-      ]
-    }
+    ]
   },
   "macro_zombie6": {
     "id": 424,
@@ -13720,22 +13726,7 @@
       {"damagetype":"^crush_style"},
       {"undead":"^true"},
       {"combat_xp_multiplier":"25"}
-    ],
-    "drops": {
-      "roll_table": [
-        {"item":["dragon_bones",1],"chance":"245"},
-        {"item":["big_bones",1],"chance":"245"},
-        {"item":["dragon_bones",2],"chance":"1"},
-        {"item":["big_bones",10],"chance":"1"},
-        {"item":["bones",10],"chance":"1"},
-        {"item":["dragon_bones",3],"chance":"1"},
-        {"item":["big_bones",6],"chance":"8"},
-        {"item":["~randomjewel",1],"chance":"8"}
-      ],
-      "always": [
-        {"item":["big_bones",1]}
-      ]
-    }
+    ]
   },
   "mad_skavid": {
     "id": 864,
@@ -13965,55 +13956,6 @@
       {"crushdefence":"-21"},
       {"magicdefence":"-21"},
       {"rangedefence":"-21"},
-      {"damagetype":"^crush_style"}
-    ],
-    "drops": {
-      "roll_base": 128,
-      "roll_table": [
-        {"item":["iron_dagger",1],"chance":"1"},
-        {"item":["bronze_med_helm",1],"chance":"2"},
-        {"item":["bolt","2-12"],"chance":"22"},
-        {"item":["bronze_arrow",7],"chance":"3"},
-        {"item":["earthrune",4],"chance":"2"},
-        {"item":["firerune",6],"chance":"2"},
-        {"item":["mindrune",9],"chance":"2"},
-        {"item":["chaosrune",2],"chance":"1"},
-        {"item":["~randomherb",1],"chance":"23"},
-        {"item":["coins",3],"chance":"38"},
-        {"item":["coins",5],"chance":"9"},
-        {"item":["coins",15],"chance":"4"},
-        {"item":["coins",25],"chance":"1"},
-        {"item":["fishing_bait",1],"chance":"5"},
-        {"item":["copper_ore",1],"chance":"2"},
-        {"item":["earth_talisman",1],"chance":"2"},
-        {"item":["cabbage",1],"chance":"1"}
-      ],
-      "always": [
-        {"item":["bones",1]}
-      ],
-      "tertiary": [
-        {"item":"clue-easy","chance":"1/128"}
-      ]
-    }
-  },
-  "man4": {
-    "id": 1086,
-    "name": "Unferth",
-    "desc": "A citizen of Burthorpe.",
-    "op1": "Talk-to",
-    "op2": "Attack",
-    "vislevel": "6",
-    "respawnrate": "50",
-    "hitpoints": "10",
-    "attack": "3",
-    "strength": "8",
-    "defence": "3",
-    "params": [
-      {"stabdefence":"-12"},
-      {"slashdefence":"-12"},
-      {"crushdefence":"-12"},
-      {"magicdefence":"-12"},
-      {"rangedefence":"-12"},
       {"damagetype":"^crush_style"}
     ],
     "drops": {
@@ -14751,30 +14693,6 @@
       {"shop_buy_multiplier":"600"},
       {"shop_title":"Bandit Duty Free"}
     ]
-  },
-  "npc_1056": {
-    "id": 1056,
-    "name": "Mime",
-    "desc": "A mute performer.",
-    "vislevel": "1"
-  },
-  "npc_1057": {
-    "id": 1057,
-    "name": "Strange watcher",
-    "vislevel": "hide",
-    "desc": "A member of the audience."
-  },
-  "npc_1058": {
-    "id": 1058,
-    "name": "Strange watcher",
-    "vislevel": "hide",
-    "desc": "A member of the audience."
-  },
-  "npc_1059": {
-    "id": 1059,
-    "name": "Strange watcher",
-    "vislevel": "hide",
-    "desc": "A member of the audience."
   },
   "nulodion": {
     "id": 209,
@@ -17279,10 +17197,10 @@
     "wanderrange": "9",
     "maxrange": "11",
     "respawnrate": "140",
-    "hitpoints": "17",
-    "attack": "24",
-    "strength": "24",
-    "defence": "24",
+    "hitpoints": "29",
+    "attack": "15",
+    "strength": "18",
+    "defence": "17",
     "huntmode": "cowardly",
     "huntrange": "1",
     "params": [
@@ -17331,10 +17249,10 @@
     "op2": "Attack",
     "vislevel": "25",
     "respawnrate": "140",
-    "hitpoints": "24",
-    "attack": "17",
-    "strength": "17",
-    "defence": "17",
+    "hitpoints": "17",
+    "attack": "24",
+    "strength": "24",
+    "defence": "24",
     "huntmode": "cowardly",
     "huntrange": "1",
     "params": [
@@ -17385,9 +17303,9 @@
     "wanderrange": "8",
     "maxrange": "10",
     "respawnrate": "70",
-    "hitpoints": "29",
-    "attack": "15",
-    "strength": "18",
+    "hitpoints": "24",
+    "attack": "17",
+    "strength": "17",
     "defence": "17",
     "huntmode": "cowardly",
     "huntrange": "1",
@@ -18512,7 +18430,7 @@
         {"item":["coins",420],"chance":"1"},
         {"item":["cert_coal",6],"chance":"3"},
         {"item":["cert_raw_tuna",4],"chance":"2"},
-        {"item":["~randomjewel",1],"chance":"2"}
+        {"item":["~randomjewel",1],"chance":"5"}
       ],
       "always": [
         {"item":["troll_key_prison",1]},
@@ -18569,7 +18487,7 @@
         {"item":["coins",420],"chance":"1"},
         {"item":["cert_coal",6],"chance":"3"},
         {"item":["cert_raw_tuna",4],"chance":"2"},
-        {"item":["~randomjewel",1],"chance":"2"}
+        {"item":["~randomjewel",1],"chance":"5"}
       ],
       "always": [
         {"item":["troll_key_prison",1]},
@@ -18626,7 +18544,7 @@
         {"item":["coins",420],"chance":"1"},
         {"item":["cert_coal",6],"chance":"3"},
         {"item":["cert_raw_tuna",4],"chance":"2"},
-        {"item":["~randomjewel",1],"chance":"2"}
+        {"item":["~randomjewel",1],"chance":"5"}
       ],
       "always": [
         {"item":["troll_key_prison",1]},
@@ -19336,7 +19254,7 @@
     "hitpoints": "19",
     "attack": "11",
     "strength": "13",
-    "defence": "1",
+    "defence": "13",
     "params": [
       {"damagetype":"^stab_style"}
     ]
@@ -19983,7 +19901,8 @@
     "name": "Willow the wisp",
     "desc": "Mysterious swamp lights...",
     "vislevel": "hide",
-    "wanderrange": "5"
+    "wanderrange": "5",
+    "moverestrict": "blocked"
   },
   "wilough": {
     "id": 783,
