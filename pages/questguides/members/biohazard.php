@@ -15,7 +15,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
     </ul>
     <h3>Items & Skills Needed:</h3>
     <ul style="list-style-type: none;">
-    <li><div data-progress><canvas itemname="coins_5" icon-size="25" show-label="inline" name-replace="12 coins"></canvas></div></li>
+    <li><div data-progress><canvas itemname="coins_5" icon-size="25" show-label="inline" name-replace="12 coins (if you do not have a priest gown top and bottom)"></canvas></div></li>
     <li><div data-progress><canvas itemname="priest_gown" icon-size="25" show-label="inline"></canvas></div></li>
     <li><div data-progress><canvas itemname="priest_robe" icon-size="25" show-label="inline"></canvas></div></li>
     </ul>
@@ -27,11 +27,11 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br>
 <div data-progress>Talk to Elena; she will say that her distillator has been stolen by the Mourner, and the tunnel is blocked. Accept the quest, and she will tell you to find a man called Jerico.</div>
 <br><br>
-<div data-progress>Jerico is located in the house south of the bank in East Ardougne. After you have found him, talk to him, and he will ask you to find Omart. Before you leave, pick up one Pigeon Cage and search his cupboards to find some bird feed.</div>
+<div data-progress>Jerico is located in the house south of the western bank in East Ardougne (The house with the pigeon cages in the backyard). After you have found him, talk to him, and he will ask you to find Omart. Before you leave, pick up one Pigeon Cage and search his cupboards to find some bird feed.</div>
 <br><br>
 <div data-progress>Omart is located in the southwest of West Ardougne, west of the Carnilleans' house. After you have found him, talk to him, and he will say everything is ready, but you and Omart can't risk it with the watchtower so close. He will say that you should go back and talk to Jerico again. You can, but if you don't want to waste time, <font color="red">DON'T</font>.</div>
 <br><br>
-<div data-progress>Remember that you took a Pigeon Cage and some bird feed? Go to the watchtower, which is located north of Omart, and use the bird feed on the watchtower. Then open the pigeon cage. The mourners will focus on the pigeons now, not you. Talk to Omart and go to West Ardougne by using a rope.</div>
+<div data-progress>Remember that you took a Pigeon Cage and some bird feed? Go to the watchtower, which is located north of Omart, and use the bird feed on the watchtower. Then open the pigeon cage. The mourners will focus on the pigeons now, not you. Talk to Omart and you will be in West Ardougne.</div>
 <br><br>
 <div data-progress>Go to the northeast building in West Ardougne. Take a rotten apple, which is just a little northwest of the house. Climb over the fence and use the rotten apple on the cauldron. Try to open the door, and a mourner will say that some mourners are ill and they need a doctor.</div>
 <br><br>
@@ -49,7 +49,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <div data-progress>The Dancing Donkey Inn is located in the southeast of Varrock. Before you reach there, a guard should search you. That's why you need the children to smuggle the vials. Talk to the children in the Dancing Donkey Inn to get back the vials.</div>
 <br><br>
-<div data-progress>Guidor's house is just southeast of the inn. Talk to his wife; she will say that she needs a priest. If you have the priest robes and gown here, put them on and talk to his wife again. She will allow you to go in.</div>
+<div data-progress>Guidor's house is just southeast of the inn. Talk to his wife; she will say that she needs a priest. If you have the priest robes and gown here, put them on and talk to his wife again. She will allow you to go in. (If you do not have the priest robes and gown, a set can be purchased from the Fancy dress shop to the north for 12gp)</div>
 <br><br>
 <div data-progress>Now it is time to realize the truth. Talk to Guidor and tell him you're here because of Elena. Give all the vials to him, and he will tell you that there is no plague.</div>
 <br><br>
