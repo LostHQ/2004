@@ -24,7 +24,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
     <b>Telekinetic Grab:</b>
     <br>
     <ul style="list-style-type: none;">
-    <li><div data-progress>33 Magic (or 31 Magic and a +2 boost from a Wizard's Mind Bomb)</div></li>
+    <li><div data-progress>33 Magic</div></li>
     <li><div data-progress><canvas itemname="lawrune" icon-size="25" show-label="inline"></canvas></div></li>
     <li><div data-progress><canvas itemname="airrune" icon-size="25" show-label="inline"></canvas></div></li>
     </ul>

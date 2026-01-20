@@ -12,7 +12,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
     <ul style="list-style-type: none;">
     <li><div data-progress>25 Thieving</div></li>
     <li><div data-progress>10 Agility</div></li>
-    <li><div data-progress>10 Herblore (can be boosted)</div></li>
+    <li><div data-progress>10 Herblore</div></li>
     <li><div data-progress><canvas itemname="pestle_and_mortar" icon-size="25" show-label="inline"></canvas></div></li>
     <li><div data-progress><canvas itemname="vial_empty" icon-size="25" show-label="inline"></canvas></div></li>
     <li><div data-progress><canvas itemname="tinderbox" icon-size="25" show-label="inline"></canvas></div></li>
