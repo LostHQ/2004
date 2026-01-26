@@ -26,7 +26,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <div data-progress>Go back to the main floor and then go down to the basement. Go through the gate, open, and search the wall cupboard for a magnet.</div>
 <br><br>
-<div data-progress>Go into the small room between the main one and the yard. Put on your leather gloves. Use the cheese with the mouse hole in the corner. Then quickly use your magnet with the mouse.</div>
+<div data-progress>Go back to the main floor and then go into the small room between the main one and the garden. Put on your leather gloves. Use the cheese with the mouse hole in the corner. Then quickly use your magnet with the mouse.</div>
 <br><br>
 <div data-progress>Now go into the yard. ALWAYS WATCH THE WITCH ON THE MAP. You must stay behind the hedges as she walks by. Make sure you stay near the center of the hedge.</div>
 <br><br>
