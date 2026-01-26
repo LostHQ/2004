@@ -79,3 +79,10 @@ function addCombined(row, label, value, colspan = 2) {
     cell.colSpan = colspan;
     cell.textContent = `${label}: ${value}`;
 }
+
+document.addEventListener('DOMContentLoaded', () => {
+    const now = new Date();
+    if ((now.getMonth()+1) == 12) {
+        document.body.classList.add('bg2-snow');
+    }
+});

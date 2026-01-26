@@ -82,19 +82,12 @@ function getPageContent() {
         <table class="table">
             <tr>
                 <th>Required for all<br>Free Quests</th>
-            <tr>
-                <td>
-                    <canvas data-questreqs="free"></canvas>
-                </td>
-            <tr/>
-            <tr>
                 <th>Required for all<br>Member\'s Quests</th>
             </tr>
             <tr>
-                <td>
-                    <canvas data-questreqs="members"></canvas>
-                </td>
-            </tr>
+                <td><canvas data-questreqs="free"></canvas></td>
+                <td><canvas data-questreqs="members"></canvas></td>
+            <tr/>
         </table>'.getJS('js/statcanvas.js');
     } else {
         $currQuest = htmlspecialchars($_GET['quest']);

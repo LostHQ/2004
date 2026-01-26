@@ -17,7 +17,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
     <li><div data-progress><canvas itemname="chisel" icon-size="25" show-label="inline"></canvas></div></li>
     <li><div data-progress><canvas itemname="knife" icon-size="25" show-label="inline"></canvas></div></li>
     <li><div data-progress><canvas itemname="steel_axe" icon-size="25" show-label="inline" name-replace="Any woodcutting axe"></canvas></div></li>
-    <li><div data-progress><canvas itemname="feather" icon-size="25" show-label="inline" name-replace="About 100 feathers"></canvas></div></li>
+    <li><div data-progress><canvas itemname="feather" icon-size="25" show-label="inline" amount="100" name-replace="About 100 feathers"></canvas></div></li>
     <li><div data-progress><canvas itemname="wolf_bones" icon-size="25" show-label="inline" name-replace="About 4-5 wolf bones"></canvas></div></li>
     </ul>
     <h3>Recommended:</h3>

@@ -21,7 +21,7 @@ if (substr($meta_data['og:image'], 0, 4) == "http") {
 <html>
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=0.7, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="color-scheme" content="light only">
     <meta property="og:title" content="LostHQ > <?php echo $meta_data['og:title']; ?>">
     <meta property="og:description" content="<?php echo $meta_data['og:description']; ?>">

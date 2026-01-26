@@ -36,16 +36,9 @@ $breadcumbOut = renderBreadcrumbs();
 
 if ($breadcumbOut != '<a href="?">LostHQ</a>') {
     echo <<<HTML
-    <table style="background-color:black;text-align:center;align-items:center;" class="main-menu">
-        <tbody>
-            <tr>
-                <td class="e">
-                    $breadcumbOut
-                </td>
-            </tr>
-        </tbody>
-    </table>
-    <div style="height:5px;"></div>
+    <div class="main-menu e">
+        $breadcumbOut
+    </div>
     HTML;
 }
 

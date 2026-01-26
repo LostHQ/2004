@@ -1,113 +1,66 @@
 <?php
 function getPageContent() { return <<<HTML
-<table class="main-page" style="padding-top: 15px;">
-    <tbody>
-        <tr>
-            <td width="100">
-                <a href="?p=questguides">
-                    <img src="img/questicon.png">
-                </a>
-            </td>
-            <td width="120">
-                Quest Guides<br>
-                <a href="?p=questguides">Click Here</a>
-            </td>
-            <td width="10"></td>
-            <td width="100">
-                <a href="?p=skillguides">
-                    <img src="img/stats.png">
-                </a>
-            </td>
-            <td width="120">
-                Skill Guides<br>
-                <a href="?p=skillguides">Click Here</a>
-            </td>
-        </tr>
-        <tr>
-            <td width="100">
-                <a href="?p=npcdb">
-                    <img src="img/skeleton.png">
-                </a>
-            </td>
-            <td width="120">
-                NPC Database<br>
-                <a href="?p=npcdb">Click Here</a>
-            </td>
-            <td width="10"></td>
-            <td width="100">
-                <a href="?p=itemdb">
-                    <img src="img/itemdb.png">
-                </a>
-            </td>
-            <td width="120">
-                Item Database<br>
-                <a href="?p=itemdb">Click Here</a>
-            </td>
-        </tr>
-        <tr>
-            <td width="100">
-                <a href="?p=specialguides">
-                    <img src="img/specialguides.png">
-                </a>
-            </td>
-            <td width="120">
-                Special Guides<br>
-                <a href="?p=specialguides">Click Here</a>
-            </td>
-            <td width="10"></td>
-            <td width="100">
-                <a href="?p=calculators">
-                    <img src="img/swordicon.png">
-                </a>
-            </td>
-            <td width="120">
-                Calculators<br>
-                <a href="?p=calculators">Click Here</a>
-            </td>
-        </tr>
-        <tr>
-            <td width="100">
-                <a href="?p=cluetables">
-                    <img src="img/casket.png">
-                </a>
-            </td>
-            <td width="120">
-                Treasure Trail<br>Rewards<br>
-                <a href="?p=cluetables">Click Here</a>
-            </td>
-            <td width="10"></td>
-            <td width="100">
-                <a href="?p=clueguides">
-                    <img src="img/clueicon.png">
-                </a>
-            </td>
-            <td width="120">
-                Treasure Trail Guides<br>
-                <a href="?p=clueguides">Click Here</a>
-            </td>
-        </tr>
-        <tr>
-            <td width="100">
-                <a href="?p=wallpapers">
-                    <img src="img/wallpapers.png">
-                </a>
-            </td>
-            <td width="120">
-                Wallpapers<br>
-                <a href="?p=wallpapers">Click Here</a>
-            </td>
-            <td width="10"></td>
-            <td width="100">
-                <a href="?p=tools">
-                    <img src="img/tools.png">
-                </a>
-            </td>
-            <td width="120">
-                Tools<br>
-                <a href="?p=tools">Click Here</a>
-            </td>
-        </tr>
-    </tbody>
-</table>
-<br>
+<div class="main-page">
+    <div class="menu-item">
+        <a href="/?p=questguides">
+            <img src="/img/questicon.png"><br><br>
+            Quest Guides
+        </a>
+    </div>
+    <div class="menu-item">
+        <a href="/?p=skillguides">
+            <img src="/img/stats.png"><br><br>
+            Skill Guides
+        </a>
+    </div>
+    <div class="menu-item">
+        <a href="/?p=npcdb">
+            <img src="/img/skeleton.png"><br><br>
+            NPC Database
+        </a>
+    </div>
+    <div class="menu-item">
+        <a href="/?p=itemdb">
+            <img src="/img/itemdb.png"><br><br>
+            Item Database
+        </a>
+    </div>
+    <div class="menu-item">
+        <a href="/?p=specialguides">
+            <img src="/img/specialguides.png"><br><br>
+            Special Guides
+        </a>
+    </div>
+    <div class="menu-item">
+        <a href="/?p=calculators">
+            <img src="/img/swordicon.png"><br><br>
+            Calculators
+        </a>
+    </div>
+    <div class="menu-item">
+        <a href="/?p=cluetables">
+            <img src="/img/casket.png"><br><br>
+            Treasure Trail<br>Rewards
+        </a>
+    </div>
+    <div class="menu-item">
+        <a href="/?p=clueguides">
+            <img src="/img/clueicon.png"><br><br>
+            Treasure Trail<br>Guides
+        </a>
+    </div>
+    <div class="menu-item">
+        <a href="/?p=wallpapers">
+            <img src="/img/wallpapers.png"><br><br>
+            Wallpapers
+        </a>
+    </div>
+    <div class="menu-item">
+        <a href="/?p=tools">
+            <img src="/img/tools.png"><br><br>
+            Tools
+        </a>
+    </div>
+</div>
+
 HTML; }
