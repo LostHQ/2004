@@ -277,7 +277,9 @@
 
     function updateDisplay() {
         container.innerHTML = "";
-        container.classList.remove("compare-mode");
+        const row = document.createElement("div");
+        row.className = "row";
+        container.appendChild(row);
 
         const v1 = search1.value.trim();
         const v2 = search2.value.trim();
@@ -286,23 +288,21 @@
         const it1 = id1 != null ? findItemById(id1) : null;
         const it2 = id2 != null ? findItemById(id2) : null;
 
-        if (it1) container.appendChild(renderTable(it1));
+        if (it1) row.appendChild(renderTable(it1));
         else if (v1) {
             const p = document.createElement("p");
             p.style.color = "red";
             p.textContent = `Item "${v1}" not found.`;
-            container.appendChild(p);
+            row.appendChild(p);
         }
 
         if (it2) {
-            container.classList.add("compare-mode");
-            container.appendChild(document.createElement("hr"));
-            container.appendChild(renderTable(it2));
+            row.appendChild(renderTable(it2));
         } else if (v2) {
             const p2 = document.createElement("p");
             p2.style.color = "red";
             p2.textContent = `Item "${v2}" not found.`;
-            container.appendChild(p2);
+            row.appendChild(p2);
         }
 
         const newParams = new URLSearchParams(window.location.search);

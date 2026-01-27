@@ -23,8 +23,6 @@ function getPageContent() {
         <b>Search for an Item</b><br>
         <input type="text" id="search1" list="items-list" placeholder="Search..."><br>
     </div>
-</div>
-<div class="row">
     <div class="stone-box b">
         <b>Search for an Item to compare (Optional)</b><br>
         <input type="text" id="search2" list="items-list" placeholder="Search..."><br>
