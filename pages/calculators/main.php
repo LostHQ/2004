@@ -35,6 +35,7 @@ class CalculatorType {
 }
 function getExtraHeaderContent() { return
     getCSS('css/calculators.css') .
+    getJS('js/equipment_interface.js') .
     getJS('js/calculators.js');
 }
 function getPageContent(): string {

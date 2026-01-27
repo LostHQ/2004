@@ -14,6 +14,7 @@ function runCalc() {
         const weaponBonus = parseInt(document.getElementById("meleeWeaponBonus").value) || 0;
         const amuletBonus = parseInt(document.getElementById("amuletBonus").value) || 0;
         const glovesBonus = parseInt(document.getElementById("glovesBonus").value) || 0;
+        const bootsBonus = parseInt(document.getElementById("bootsBonus").value) || 0;
 
         const potionValues = document.getElementById("meleePotion").value.split(",");
         const potionFlatBonus = parseInt(potionValues[0]);
@@ -100,9 +101,10 @@ function calculateFromEquipment() {
     if (!document.getElementById("meleeOptions").classList.contains("hidden")) {
         const meleeWeaponBonus = parseInt(document.getElementById("meleeWeaponBonus").value);
         const amuletBonus = parseInt(document.getElementById("amuletBonus").value);
+        const bootsBonus = parseInt(document.getElementById("bootsBonus").value);
         const glovesBonus = parseInt(document.getElementById("glovesBonus").value);
 
-        const totalStrengthBonus = meleeWeaponBonus + amuletBonus + glovesBonus;
+        const totalStrengthBonus = meleeWeaponBonus + amuletBonus + bootsBonus + glovesBonus;
         document.getElementById("strengthBonus").value = totalStrengthBonus;
     } else {
         const weaponSelect = document.getElementById("rangedWeaponBonus");
@@ -154,7 +156,7 @@ function toggleOptions() {
     document.getElementById(id).addEventListener("change", runCalc);
 });
 
-["meleeWeaponBonus", "amuletBonus", "glovesBonus", "rangedBonus", "arrowBonus", "boltBonus"].forEach((id) => {
+["meleeWeaponBonus", "amuletBonus", "bootsBonus", "glovesBonus", "rangedBonus", "arrowBonus", "boltBonus"].forEach((id) => {
     document.getElementById(id).addEventListener("change", calculateFromEquipment);
 });
 
