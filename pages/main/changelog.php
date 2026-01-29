@@ -125,6 +125,11 @@ function getPageContent() {
     </tr>
   </thead>
   <tbody>
+    <tr><td>25/01/2026</td><td>Updated website to use a wider layout</td></tr>
+    <tr><td>10/01/2026</td><td>Massive overhaul to the NPC database</td></tr>
+    <tr><td>05/01/2026</td><td>Prettified quest guides with a shiny new scroll</td></tr>
+    <tr><td>02/01/2026</td><td>Added Death Plateau and Troll Stronghold Quests</td></tr>
+    <tr><td>02/01/2026</td><td>Updated information across the site for cache 254</td></tr>
     <tr><td>23/10/2025</td><td>Added Nature Spirit and Priest in Peril Quests</td></tr>
     <tr><td>23/10/2025</td><td>Updated information across the site for cache 245</td></tr>
     <tr><td>06/10/2025</td><td>Added LostKit brought to you by Akg</td></tr>
