@@ -24,7 +24,7 @@ function getSkillContent($skill) { return <<<HTML
             <th>Fishing Spot</th>
         </tr>
         <tr>
-            <td><canvas itemname="raw_shrimp"></canvas><br>Shrimp</td>
+            <td><canvas itemname="raw_shrimp" show-label="true" name-replace="Shrimp"></canvas></td>
             <td>1</td>
             <td>10</td>
             <td>
@@ -34,7 +34,7 @@ function getSkillContent($skill) { return <<<HTML
             <td><u>Net</u> / Bait</td>
         </tr>
         <tr>
-            <td><canvas itemname="raw_sardine"></canvas><br>Sardine</td>
+            <td><canvas itemname="raw_sardine" show-label="true" name-replace="Sardine"></canvas></td>
             <td>5</td>
             <td>20</td>
             <td>
@@ -45,7 +45,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>Net / <u>Bait</u></td>
         </tr>
         <tr>
-            <td><canvas itemname="raw_herring"></canvas><br>Herring</td>
+            <td><canvas itemname="raw_herring" show-label="true" name-replace="Herring"></canvas></td>
             <td>10</td>
             <td>30</td>
             <td>
@@ -56,7 +56,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>Net / <u>Bait</u></td>
         </tr>
         <tr>
-            <td><canvas itemname="raw_anchovies"></canvas><br>Anchovies</td>
+            <td><canvas itemname="raw_anchovies" show-label="true" name-replace="Anchovies"></canvas></td>
             <td>15</td>
             <td>40</td>
             <td>
@@ -66,7 +66,7 @@ function getSkillContent($skill) { return <<<HTML
             <td><u>Net</u> / Bait</td>
         </tr>
         <tr>
-            <td><canvas itemname="raw_mackerel"></canvas><br>Mackerel</td>
+            <td><canvas itemname="raw_mackerel" show-label="true" name-replace="Mackerel"></canvas></td>
             <td>16</td>
             <td>20</td>
             <td>
@@ -76,7 +76,7 @@ function getSkillContent($skill) { return <<<HTML
             <td><u>Net </u> / Harpoon</td>
         </tr>
         <tr>
-            <td><canvas itemname="raw_trout"></canvas><br>Trout</td>
+            <td><canvas itemname="raw_trout" show-label="true" name-replace="Trout"></canvas></td>
             <td>20</td>
             <td>50</td>
             <td>
@@ -87,7 +87,7 @@ function getSkillContent($skill) { return <<<HTML
             <td><u>Lure</u> / Bait</td>
         </tr>
         <tr>
-            <td><canvas itemname="raw_cod"></canvas><br>Cod</td>
+            <td><canvas itemname="raw_cod" show-label="true" name-replace="Cod"></canvas></td>
             <td>23</td>
             <td>45</td>
             <td>
@@ -97,7 +97,7 @@ function getSkillContent($skill) { return <<<HTML
             <td><u>Net</u> / Harpoon</td>
         </tr>
         <tr>
-            <td><canvas itemname="raw_pike"></canvas><br>Pike</td>
+            <td><canvas itemname="raw_pike" show-label="true" name-replace="Pike"></canvas></td>
             <td>25</td>
             <td>60</td>
             <td>
@@ -108,7 +108,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>Lure / <u>Bait</u></td>
         </tr>
         <tr>
-            <td><canvas itemname="raw_salmon"></canvas><br>Salmon</td>
+            <td><canvas itemname="raw_salmon" show-label="true" name-replace="Salmon"></canvas></td>
             <td>30</td>
             <td>70</td>
             <td>
@@ -119,7 +119,7 @@ function getSkillContent($skill) { return <<<HTML
             <td><u>Lure</u> / Bait</td>
         </tr>
         <tr>
-            <td><canvas itemname="raw_tuna"></canvas><br>Tuna</td>
+            <td><canvas itemname="raw_tuna" show-label="true" name-replace="Tuna"></canvas></td>
             <td>35</td>
             <td>80</td>
             <td>
@@ -129,7 +129,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>Cage / <u>Harpoon</u></td>
         </tr>
         <tr>
-            <td><canvas itemname="raw_lobster"></canvas><br>Lobster</td>
+            <td><canvas itemname="raw_lobster" show-label="true" name-replace="Lobster"></canvas></td>
             <td>40</td>
             <td>90</td>
             <td>
@@ -139,7 +139,7 @@ function getSkillContent($skill) { return <<<HTML
             <td><u>Cage</u> / Harpoon</td>
         </tr>
         <tr>
-            <td><canvas itemname="raw_bass"></canvas><br>Bass</td>
+            <td><canvas itemname="raw_bass" show-label="true" name-replace="Bass"></canvas></td>
             <td>46</td>
             <td>100</td>
             <td>
@@ -149,7 +149,7 @@ function getSkillContent($skill) { return <<<HTML
             <td><u>Net</u> / Harpoon</td>
         </tr>
         <tr>
-            <td><canvas itemname="raw_swordfish"></canvas><br>Swordfish</td>
+            <td><canvas itemname="raw_swordfish" show-label="true" name-replace="Swordfish"></canvas></td>
             <td>50</td>
             <td>100</td>
             <td>
@@ -159,7 +159,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>Cage / <u>Harpoon</u></td>
         </tr>
         <tr>
-            <td><canvas itemname="raw_shark"></canvas><br>Shark</td>
+            <td><canvas itemname="raw_shark" show-label="true" name-replace="Shark"></canvas></td>
             <td>76</td>
             <td>110</td>
             <td>
@@ -169,13 +169,13 @@ function getSkillContent($skill) { return <<<HTML
             <td>Net / <u>Harpoon</u></td>
         </tr>
         <tr>
-            <td><canvas itemname="raw_seaturtle"></canvas><br>Sea Turtle</td>
+            <td><canvas itemname="raw_seaturtle" show-label="true" name-replace="Sea Turtle"></canvas></td>
             <td>79</td>
             <td>57</td>
             <td colspan=2>Trawler<br>Mini-Game</td>
         </tr>
         <tr>
-            <td><canvas itemname="raw_mantaray"></canvas><br>Manta Ray</td>
+            <td><canvas itemname="raw_mantaray" show-label="true" name-replace="Manta Ray"></canvas></td>
             <td>81</td>
             <td>69</td>
             <td colspan=2>Trawler<br>Mini-Game</td>

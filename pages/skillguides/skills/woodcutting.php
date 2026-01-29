@@ -27,37 +27,37 @@ function getSkillContent($skill) { return <<<HTML
             <th>Common woodcutting locations</td>
         </tr>
         <tr>
-            <td><canvas itemname="logs"></canvas><br>Tree</td>
+            <td><canvas itemname="logs" show-label="true" name-replace="Tree"></canvas></td>
             <td>1</td>
             <td><ul style="margin-top: 0px; margin-bottom: 0px;"><li>The area around Draynor bank<li>South of Seers bank</ul></td>
         </tr>
         <tr>
-            <td><canvas itemname="achey_tree_logs"></canvas><br>Achey tree</td>
+            <td><canvas itemname="achey_tree_logs" show-label="true" name-replace="Achey tree"></canvas></td>
             <td>1</td>
             <td><ul style="margin-top: 0px; margin-bottom: 0px;"><li>Feldip Hills</ul></td>
         </tr>
         <tr>
-            <td><canvas itemname="oak_logs"></canvas><br>Oak tree</td>
+            <td><canvas itemname="oak_logs" show-label="true" name-replace="Oak tree"></canvas></td>
             <td>15</td>
             <td><ul style="margin-top: 0px; margin-bottom: 0px;"><li>Directly East of Draynor bank<li>South of Seers bank</ul></td>
         </tr>
         <tr>
-            <td><canvas itemname="willow_logs"></canvas><br>Willow tree</td>
+            <td><canvas itemname="willow_logs" show-label="true" name-replace="Willow tree"></canvas></td>
             <td>30</td>
             <td><ul style="margin-top: 0px; margin-bottom: 0px;"><li>Directly Southwest of Draynor bank<li>North-west of Seers Bank</ul></td>
         </tr>
         <tr>
-            <td><canvas itemname="maple_logs"></canvas><br>Maple tree</td>
+            <td><canvas itemname="maple_logs" show-label="true" name-replace="Maple tree"></canvas></td>
             <td>45</td>
             <td><ul style="margin-top: 0px; margin-bottom: 0px;"><li>North of Seers bank<li>South of Seers bank</ul></td>
         </tr>
         <tr>
-            <td><canvas itemname="yew_logs"></canvas><br>Yew tree</td>
+            <td><canvas itemname="yew_logs" show-label="true" name-replace="Yew tree"></canvas></td>
             <td>60</td>
             <td><ul style="margin-top: 0px; margin-bottom: 0px;"><li>In the cemetery South of Seers bank<li>South of Edgeville bank</ul></td>
         </tr>
         <tr>
-            <td><canvas itemname="magic_logs"></canvas><br>Magic tree</td>
+            <td><canvas itemname="magic_logs" show-label="true" name-replace="Magic tree"></canvas></td>
             <td>75</td>
             <td><ul style="margin-top: 0px; margin-bottom: 0px;"><li>South of the Sorceror's Tower<li>Gnome's Stronghold</ul></td>
         </tr>

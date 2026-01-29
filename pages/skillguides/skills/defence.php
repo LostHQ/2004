@@ -111,93 +111,93 @@ function getSkillContent($skill) { return <<<HTML
             <th>Additional requirements</th>
         </tr>
         <tr>
-            <td><div class="centered-content"><canvas itemname="bronze_platebody"></canvas>&nbsp;&nbsp;Bronze armour</div></td>
+            <td><canvas itemname="bronze_platebody" show-label="inline" name-replace="Bronze armour"></canvas></td>
             <td rowspan="8">1</td>
             <td>&mdash;</td>
         </tr>
         <tr>
-            <td><div class="centered-content"><canvas itemname="iron_platebody"></canvas>&nbsp;&nbsp;Iron armour</div></td>
+            <td><canvas itemname="iron_platebody" show-label="inline" name-replace="Iron armour"></canvas></td>
             <td>&mdash;</td>
         </tr>
         <tr>
-            <td><div class="centered-content"><canvas itemname="leather_armour"></canvas>&nbsp;&nbsp;Leather armour</div></td>
+            <td><canvas itemname="leather_armour" show-label="inline" name-replace="Leather armour"></canvas></td>
             <td>&mdash;</td>
         </tr>
         <tr>
-            <td><div class="centered-content"><canvas itemname="wizards_robe"></canvas>&nbsp;&nbsp;Wizard robes</div></td>
+            <td><canvas itemname="wizards_robe" show-label="inline" name-replace="Wizard robes"></canvas></td>
             <td>&mdash;</td>
         </tr>
         <tr>
-            <td><div class="centered-content"><canvas itemname="dragonhide_chaps"></canvas>&nbsp;&nbsp;Green d'hide armour*</div></td>
+            <td><canvas itemname="dragonhide_chaps" show-label="inline" name-replace="Green d'hide armour*"></canvas></td>
             <td>*excluding the body; Requires 40 ranged</td>
         </tr>
         <tr>
-            <td><div class="centered-content"><canvas itemname="blue_dragonhide_chaps"></canvas>&nbsp;&nbsp;Blue d'hide armour*</div></td>
+            <td><canvas itemname="blue_dragonhide_chaps" show-label="inline" name-replace="Blue d'hide armour*"></canvas></td>
             <td>*excluding the body; Requires 50 ranged</td>
         </tr>
         <tr>
-            <td><div class="centered-content"><canvas itemname="red_dragonhide_chaps"></canvas>&nbsp;&nbsp;Red d'hide armour*</div></td>
+            <td><canvas itemname="red_dragonhide_chaps" show-label="inline" name-replace="Red d'hide armour*"></canvas></td>
             <td>*excluding the body; Requires 60 ranged</td>
         </tr>
         <tr>
-            <td><div class="centered-content"><canvas itemname="black_dragonhide_chaps"></canvas>&nbsp;&nbsp;Black d'hide armour*</div></td>
+            <td><canvas itemname="black_dragonhide_chaps" show-label="inline" name-replace="Black d'hide armour*"></canvas></td>
             <td>*excluding the body; Requires 70 ranged</td>
         </tr>
         <tr>
-            <td><div class="centered-content"><canvas itemname="steel_platebody"></canvas>&nbsp;&nbsp;Steel armour</div></td>
+            <td><canvas itemname="steel_platebody" show-label="inline" name-replace="Steel armour"></canvas></td>
             <td>5</td>
             <td>&mdash;</td>
         </tr>
         <tr>
-            <td><div class="centered-content"><canvas itemname="black_platebody"></canvas>&nbsp;&nbsp;Black armour</div></td>
+            <td><canvas itemname="black_platebody" show-label="inline" name-replace="Black armour"></canvas></td>
             <td rowspan="2">10</td>
             <td>&mdash;</td>
         </tr>
         <tr>
-            <td><div class="centered-content"><canvas itemname="hardleather_body" show-label="inline"></canvas></div></td>
+            <td><canvas itemname="hardleather_body" show-label="inline"></canvas></div></td>
             <td>&mdash;</td>
         </tr>
         <tr>
-            <td><div class="centered-content"><canvas itemname="mithril_platebody"></canvas>&nbsp;&nbsp;Mithril armour</div></td>
+            <td><canvas itemname="mithril_platebody" show-label="inline" name-replace="Mithril armour"></canvas></td>
             <td rowspan="2">20</td>
             <td>&mdash;</td>
         </tr>
         <tr>
-            <td><div class="centered-content"><canvas itemname="studded_body" show-label="inline"></canvas></div></td>
+            <td><canvas itemname="studded_body" show-label="inline"></canvas></div></td>
             <td>Requires 20 Ranged</td>
         <tr>
-            <td><div class="centered-content"><canvas itemname="adamant_platebody"></canvas>&nbsp;&nbsp;Adamant armour</div></td>
+            <td><canvas itemname="adamant_platebody" show-label="inline" name-replace="Adamant armour"></canvas></td>
             <td>30</td>
             <td>&mdash;</td>
         </tr>
         <tr>
-            <td><div class="centered-content"><canvas itemname="rune_platebody"></canvas>&nbsp;&nbsp;Rune armour*</div></td>
+            <td><canvas itemname="rune_platebody" show-label="inline" name-replace="Rune armour*"></canvas></td>
             <td rowspan="5">40</td>
             <td>*Rune platebody requires the completion of <a style="display: contents" href="?p=questguides&quest=dragonslayer">Dragon Slayer</a></td>
         </tr>
         <tr>
-            <td><div class="centered-content"><canvas itemname="dragonhide_body" show-label="inline"></canvas></div></td>
+            <td><canvas itemname="dragonhide_body" show-label="inline"></canvas></div></td>
             <td>Requires 40 Ranged and the completion of <a style="display: contents" href="?p=questguides&quest=dragonslayer">Dragon Slayer</a></td>
         </tr>
         <tr>
-            <td><div class="centered-content"><canvas itemname="blue_dragonhide_body" show-label="inline"></canvas></div></td>
+            <td><canvas itemname="blue_dragonhide_body" show-label="inline"></canvas></div></td>
             <td>Requires 50 Ranged</td>
         </tr>
         <tr>
-            <td><div class="centered-content"><canvas itemname="red_dragonhide_body" show-label="inline"></canvas></div></td>
+            <td><canvas itemname="red_dragonhide_body" show-label="inline"></canvas></div></td>
             <td>Requires 60 Ranged</td>
         </tr>
         <tr>
-            <td><div class="centered-content"><canvas itemname="black_dragonhide_body" show-label="inline"></canvas></div></td>
+            <td><canvas itemname="black_dragonhide_body" show-label="inline"></canvas></div></td>
             <td>Requires 70 Ranged</td>
         </tr>
         <tr>
-            <td><div class="centered-content"><canvas itemname="granite_shield" show-label="inline"></canvas></div></td>
+            <td><canvas itemname="granite_shield" show-label="inline"></canvas></div></td>
             <td>50</td>
             <td>Requires 50 Strength</td>
         </tr>
         <tr>
-            <td><div class="centered-content"><canvas itemname="dragon_chainbody"></canvas>&nbsp;&nbsp;Dragon armour</div></td>
+            <td><canvas itemname="dragon_chainbody" show-label="inline" name-replace="Dragon armour"></canvas></td>
             <td>60</td>
             <td>&mdash;</td>
         </tr>

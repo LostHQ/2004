@@ -81,6 +81,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>Required for high level wave spells.</td>
         </tr>
     </table>
+    <br>
     <h3>Staffs</h3>
     <table>
         <tr>
@@ -118,69 +119,69 @@ function getSkillContent($skill) { return <<<HTML
             <th>Number of uses</th>
         </tr>
         <tr>
-            <td><canvas itemname="ring_of_recoil"></canvas><br>Ring of Recoil</td>
+            <td><canvas itemname="ring_of_recoil" show-label="true"></canvas></td>
             <td>7</td>
             <td>Will deal the enemy you are fighting 10% of any damage you receive</td>
             <td>Allows a total damage of 40 to be done</td>
         </tr>
         <tr>
-            <td><canvas itemname="amulet_of_magic"></canvas><br>Amulet of Magic</td>
+            <td><canvas itemname="amulet_of_magic" show-label="true"></canvas></td>
             <td>7</td>
             <td>While worn players Magic attack is boosted by 10</td>
             <td>Permanent.<br>Works whenever it is equipped</td>
         </tr>
         <!-- disabled until november 24, 2004
         <tr>
-            <td><canvas itemname="games_necklace"></canvas><br>Games Necklace</td>
+            <td><canvas itemname="games_necklace" show-label="true"></canvas></td>
             <td>7</td>
             <td>Allows the player to teleport to the Burthorpe Games Rooms</td>
             <td>Each necklace allows 8 teleports in total</td>
         </tr>
         -->
         <tr>
-            <td><canvas itemname="ring_of_dueling_8"></canvas><br>Ring of Dueling</td>
+            <td><canvas itemname="ring_of_dueling_8" show-label="true" name-replace="Ring of dueling"></canvas></td>
             <td>27</td>
             <td>Allows the player to teleport to the entrance of the Duel Arena</td>
             <td>Each ring allows 8 teleports in total</td>
         </tr>
         <tr>
-            <td><canvas itemname="amulet_of_defence"></canvas><br>Amulet of Defence</td>
+            <td><canvas itemname="amulet_of_defence" show-label="true"></canvas></td>
             <td>27</td>
             <td>While worn the players defence will be boosted by 7</td>
             <td>Permanent.<br>Works whenever it is equipped</td>
         </tr>
         <tr>
-            <td><canvas itemname="ring_of_forging"></canvas><br>Ring of Forging</td>
+            <td><canvas itemname="ring_of_forging" show-label="true"></canvas></td>
             <td>49</td>
             <td>While smelting Iron ore the player will have a 100% success rate</td>
             <td>Allows 140 iron ores to be smelted in total</td>
         </tr>
         <tr>
-            <td><canvas itemname="amulet_of_strength"></canvas><br>Amulet of Strength</td>
+            <td><canvas itemname="amulet_of_strength" show-label="true"></canvas></td>
             <td>49</td>
             <td>While worn players strength is boosted by 10</td>
             <td>Permanent.<br>Works whenever it is equipped</td>
         </tr>
         <tr>
-            <td><br><canvas itemname="ring_of_life"></canvas><br>Ring of Life</td>
+            <td><br><canvas itemname="ring_of_life" show-label="true"></canvas></td>
             <td>57</td>
             <td>If your hitpoints drop below 10% without killing you, you will be teleported to Lumbridge</td>
             <td>Allows one teleport</td>
         </tr>
         <tr>
-            <td><canvas itemname="amulet_of_power"></canvas><br>Amulet of Power</td>
+            <td><canvas itemname="amulet_of_power" show-label="true"></canvas></td>
             <td>57</td>
             <td>While worn the players attack, strength and defence will be boosted by 6</td>
             <td>Permanent.<br>Works whenever it is equipped</td>
         </tr>
         <tr>
-            <td><canvas itemname="ring_of_wealth"></canvas><br>Ring of Wealth</td>
+            <td><canvas itemname="ring_of_wealth" show-label="true"></canvas></td>
             <td>68</td>
             <td>While equipped the chance of getting rare items from monsters is increased</td>
             <td>Permanent.<br>Works whenever it is equipped</td>
         </tr>
         <tr>
-            <td><canvas itemname="amulet_of_glory"></canvas><br>Amulet of Glory</td>
+            <td><canvas itemname="amulet_of_glory" show-label="true"></canvas></td>
             <td>68</td>
             <td>Boosts attack, strength, magic, ranged and defence when worn. Can also be charged in the Heroes Guild to allow teleporting and to increase the chances of getting a gem when mining.</td>
             <td>Permanent.<br>Works whenever it is equipped</td>
