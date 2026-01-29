@@ -9,19 +9,24 @@ function getSkillContent($skill) { return <<<HTML
             <td><img src="img/skillguides/mining/prospect.gif"></td>
         </tr>
     </table>
-    <br>
     <table>
         <tr>
             <td><img src="img/skillguides/mining/mining.gif"></td>
-            <td>To mine a rock simply click the "Mine" option on the rock, the first on in the list. If there is an ore in that rock there is a chance you will extract it, provided your mining is high enough to mine that particular ore.<br><br>Ore is quite hard to get out of rocks - it might take quite a few attempts before you meet with success.</td>
+            <td>
+                To mine a rock simply click the "Mine" option on the rock, the first on in the list. If there is an ore in that rock there is a chance you will extract it, provided your mining is high enough to mine that particular ore.
+                <br><br>
+                Ore is quite hard to get out of rocks - it might take quite a few attempts before you meet with success.
+                <br><br>
+                As your mining level gets higher it will become slowly easier. Once someone has mined a rock there will be no ore available to get from it for a short while; wait a bit and you will be able to mine ore from it again.
+            </td>
         </tr>
     </table>
     <br>
-     As your mining level gets higher it will become slowly easier. Once someone has mined a rock there will be no ore available to get from it for a short while; wait a bit and you will be able to mine ore from it again.
     <h3>The Mining Guild</h3>
     If you are level 60 or above in your mining skill then you can enter the Mining Guild which is in Falador.
     <br><br>
     The mining guild contains a number of items useful for miners, including coal rocks and mithril rocks. You will also have access to the main dwarven mines from here.
+    <br><br>
     <h3>Pickaxes</h3>
     The following is a table showing at what level you can wield the different Pickaxes. The better the Pickaxe, the more chance you have of sucessfully mining the ore.<!-- (added later) A similar table to the one below can be opened in the game by clicking the mining skill icon in the stats menu.-->
     <br><br>
@@ -66,7 +71,7 @@ function getSkillContent($skill) { return <<<HTML
     <br>
     <table>
         <tr>
-            <td>Players who have completed the <a href="?p=questguides&quest=shilovillage">Shilo Village</a> quest will have access to some special rocks solely for mining gems from. These rocks contain Sapphires, Rubies, Emeralds, Diamonds, Red Topaz, Opals and Jade gems.</td>
+            <td>Players who have completed the <a href="?p=questguides&quest=shilovillage">Shilo Village</a> quest will have access to some special rocks solely for mining gems from. These rocks contain Sapphires, Rubies, Emeralds, Diamonds, Red Topaz, Opals, and Jade gems.</td>
             <td><img src="img/skillguides/mining/gemrocks.gif"></td>
         </tr>
     </table>

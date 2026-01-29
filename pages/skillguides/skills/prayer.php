@@ -3,25 +3,33 @@ function getSkillContent($skill) { return <<<HTML
 <h2>$skill Skill Guide</h2>
 <p>
     <h3>Using Prayers</h3>
+    <br>
     <table>
         <tr>
-            <td>As well as using magic spells you can also pray to the gods of RuneScape to give you an advantage. To view the available prayers, select the prayer icon from your interface. You can see what each prayer does by moving your mouse over the icon.<br><br>The list of prayers shown will light up when you are at the appropriate level to use them. If the icon for the prayer is darkened then you are not at a high enough level to use that prayer.</td>
+            <td>
+                As well as using magic spells you can also pray to the gods of RuneScape to give you an advantage. To view the available prayers, select the prayer icon from your interface. You can see what each prayer does by moving your mouse over the icon.
+                <br><br>
+                The list of prayers shown will light up when you are at the appropriate level to use them. If the icon for the prayer is darkened then you are not at a high enough level to use that prayer.
+                <br><br>
+                Each of the prayers can be turned on or off individually. Whilst a prayer is in use, your player will be given an advantage depending on the prayer. To activate a prayer just left click on it. The icon will light up to indicate the prayer is active. Click on the prayer again to deactivate it.
+            </td>
             <td><img src="img/skillguides/prayer/prayer1.gif"></td>
         </tr>
     </table>
     <br>
-    Each of the prayers can be turned on or off individually. Whilst a prayer is in use, your player will be given an advantage depending on the prayer. To activate a prayer just left click on it. The icon will light up to indicate the prayer is active. Click on the prayer again to deactivate it.
-    <br><br>
     <table>
         <tr>
-            <td>Whilst you have prayers active your prayer-points will slowly drain down to zero. The more prayers you use at once, and the more powerful they are, the faster your points will drain. When you runout of prayer-points all the effects will be deactivated, and can't be used again until you recharge your prayer-points.</td>
+            <td>
+                Whilst you have prayers active your prayer-points will slowly drain down to zero. The more prayers you use at once, and the more powerful they are, the faster your points will drain. When you runout of prayer-points all the effects will be deactivated, and can't be used again until you recharge your prayer-points.
+                <br><br>
+                To recharge your prayer-points you must find a church in the game, and left click on the altar to recharge. You are then ready to use the different prayers again.
+            </td>
             <td><img src="img/skillguides/prayer/prayer2.gif"></td>
         </tr>
     </table>
     <br>
-    To recharge your prayer-points you must find a church in the game, and left click on the altar to recharge. You are then ready to use the different prayers again.
-    <br><br>
     To use the prayers for longer, and to use the higher-level prayers in the game you need to increase your total prayer-points. You do this by burying bones from monsters you kill. Take the bones, and then left click on them in your inventory to bury them. You need to bury quite a lot of bones to advance a level, but luckily they are quite easy to come by.
+    <br><br>
     <h3>The Monastery</h3>
     Players with a prayer level of 31 or greater may enter the Monastery located west of Edgeville.
     <br><br>
@@ -160,6 +168,7 @@ function getSkillContent($skill) { return <<<HTML
             <td><canvas itemname="tbwt_jogre_bones" show-label="inline"></canvas></td>
             <td>15</td>
         </tr>
+        <!--
         <tr>
             <td><canvas itemname="tbwt_burnt_jogre_bones" show-label="inline"></canvas><font style="font-style: italic;">(not currently obtainable)</font></td>
             <td>16</td>
@@ -186,6 +195,7 @@ function getSkillContent($skill) { return <<<HTML
             <td><canvas itemname="tbwt_jogre_bones_marinated_in_karambwanji" show-label="inline"></canvas><font style="font-style: italic;">(not currently obtainable)</font></td>
             <td>17</td>
         </tr>
+        -->
         <tr>
             <td><canvas itemname="babydragon_bones" show-label="inline"></canvas></td>
             <td>30</td>
@@ -202,7 +212,7 @@ function getSkillContent($skill) { return <<<HTML
     <table cellpadding="1" cellspacing="0" class="table">
         <tbody>
             <tr>
-                <th><div class="centered-content"><canvas itemname=bones></canvas> Regular Bones <canvas itemname=bones></canvas></div></th>
+                <th><div class="centered-content"><canvas itemname=bones></canvas>&nbsp;&nbsp;Regular Bones&nbsp;&nbsp;<canvas itemname=bones></canvas></div></th>
             </tr>
             <tr>
                 <td>
@@ -216,7 +226,7 @@ function getSkillContent($skill) { return <<<HTML
         <tbody>
             <tr>
                 <th>
-                    <div class="centered-content"><canvas itemname=bones_burnt></canvas> Burnt Bones <canvas itemname=bones_burnt></canvas></div>
+                    <div class="centered-content"><canvas itemname=bones_burnt></canvas>&nbsp;&nbsp;Burnt Bones&nbsp;&nbsp;<canvas itemname=bones_burnt></canvas></div>
                 </th>
             </tr>
             <tr>
@@ -230,7 +240,7 @@ function getSkillContent($skill) { return <<<HTML
     <table cellpadding="1" cellspacing="0" class="table">
         <tbody>
             <tr>
-                <th><div class="centered-content"><canvas itemname=bat_bones></canvas> Bat Bones <canvas itemname=bat_bones></canvas></div></th>
+                <th><div class="centered-content"><canvas itemname=bat_bones></canvas>&nbsp;&nbsp;Bat Bones&nbsp;&nbsp;<canvas itemname=bat_bones></canvas></div></th>
             </tr>
             <tr>
                 <td>
@@ -251,7 +261,7 @@ function getSkillContent($skill) { return <<<HTML
     <table cellpadding="1" cellspacing="0" class="table">
         <tbody>
             <tr>
-                <th><div class="centered-content"><canvas itemname=wolf_bones></canvas> Wolf Bones <canvas itemname=wolf_bones></canvas></div></th>
+                <th><div class="centered-content"><canvas itemname=wolf_bones></canvas>&nbsp;&nbsp;Wolf Bones&nbsp;&nbsp;<canvas itemname=wolf_bones></canvas></div></th>
             </tr>
             <tr>
                 <td>
@@ -273,7 +283,7 @@ function getSkillContent($skill) { return <<<HTML
     <table cellpadding="1" cellspacing="0" class="table">
         <tbody>
             <tr>
-                <th><div class="centered-content"><canvas itemname=big_bones></canvas> Big Bones <canvas itemname=big_bones></canvas></div></th>
+                <th><div class="centered-content"><canvas itemname=big_bones></canvas>&nbsp;&nbsp;Big Bones&nbsp;&nbsp;<canvas itemname=big_bones></canvas></div></th>
             </tr>
             <tr>
                 <td>
@@ -302,7 +312,7 @@ function getSkillContent($skill) { return <<<HTML
     <table cellpadding="1" cellspacing="0" class="table">
         <tbody>
             <tr>
-                <th><div class="centered-content"><canvas itemname=babydragon_bones></canvas> Babydragon Bones <canvas itemname=babydragon_bones></canvas></div></th>
+                <th><div class="centered-content"><canvas itemname=babydragon_bones></canvas>&nbsp;&nbsp;Babydragon Bones&nbsp;&nbsp;<canvas itemname=babydragon_bones></canvas></div></th>
             </tr>
             <tr>
                 <td>
@@ -320,7 +330,7 @@ function getSkillContent($skill) { return <<<HTML
     <table cellpadding="1" cellspacing="0" class="table">
         <tbody>
             <tr>
-                <th><div class="centered-content"><canvas itemname=dragon_bones></canvas> Dragon Bones <canvas itemname=dragon_bones></canvas></div></th>
+                <th><div class="centered-content"><canvas itemname=dragon_bones></canvas>&nbsp;&nbsp;Dragon Bones&nbsp;&nbsp;<canvas itemname=dragon_bones></canvas></div></th>
             </tr>
             <tr>
                 <td>
@@ -341,5 +351,4 @@ function getSkillContent($skill) { return <<<HTML
         </tbody>
     </table>
 </p>
-
 HTML; }

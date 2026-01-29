@@ -6,7 +6,11 @@ function getSkillContent($skill) { return <<<HTML
     <br>
     <table>
         <tr>
-            <td>Typically a fishing spot will have a left click option and a right click option. These options are net, bait, harpoon, lure and cage.<br><br>Click on the correct option and if you have the correct equipment you will attempt to catch a fish.</td>
+            <td>
+                Typically a fishing spot will have a left click option and a right click option. These options are net, bait, harpoon, lure, and cage.
+                <br><br>
+                Click on the correct option and if you have the correct equipment you will attempt to catch a fish.
+            </td>
             <td><img src="img/skillguides/fishing/fishingchoices.gif" alt="[image]"></td>
         </tr>
     </table>
@@ -35,7 +39,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>20</td>
             <td>
                 <canvas itemname="fishing_rod"></canvas>
-                <canvas itemname="fishing_bait"></canvas><br>
+                <canvas itemname="fishing_bait" hide-amount="true"></canvas><br>
                 Bait<br>Fishing
             </td>
             <td>Net / <u>Bait</u></td>
@@ -46,7 +50,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>30</td>
             <td>
                 <canvas itemname="fishing_rod"></canvas>
-                <canvas itemname="fishing_bait"></canvas><br>
+                <canvas itemname="fishing_bait" hide-amount="true"></canvas><br>
                 Bait<br>Fishing
             </td>
             <td>Net / <u>Bait</u></td>
@@ -77,7 +81,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>50</td>
             <td>
                 <canvas itemname="fly_fishing_rod"></canvas>
-                <canvas itemname="feather"></canvas><br>
+                <canvas itemname="feather" hide-amount="true"></canvas><br>
                 Fly<br>Fishing
             </td>
             <td><u>Lure</u> / Bait</td>
@@ -98,7 +102,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>60</td>
             <td>
                 <canvas itemname="fishing_rod"></canvas>
-                <canvas itemname="fishing_bait"></canvas><br>
+                <canvas itemname="fishing_bait" hide-amount="true"></canvas><br>
                 Bait<br>Fishing
             </td>
             <td>Lure / <u>Bait</u></td>
@@ -109,7 +113,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>70</td>
             <td>
                 <canvas itemname="fly_fishing_rod"></canvas>
-                <canvas itemname="feather"></canvas><br>
+                <canvas itemname="feather" hide-amount="true"></canvas><br>
                 Fly<br>Fishing
             </td>
             <td><u>Lure</u> / Bait</td>
@@ -177,6 +181,7 @@ function getSkillContent($skill) { return <<<HTML
             <td colspan=2>Trawler<br>Mini-Game</td>
         </tr>
     </table>
+    <br><br>
     <h3>Types of Fishing</h3>
     <b>Net fishing</b>
     <table width="100%">
@@ -251,13 +256,15 @@ function getSkillContent($skill) { return <<<HTML
         </tr>
     </table>
     -->
+    <br><br>
     <h3>Fishing Guild</h3>
     When you have reached a fishing level of 68 or higher you will be able to enter the Fishing Guild, located to the north of Ardougne.
-    <br>
+    <br><br>
     Inside you will find a number of different fishing spots, along with a number of ranges and a bank.
+    <br><br>
     <h3>Caskets</h3>
     Players using a big net to fish, will occasionally find a casket. These are rare items that usually contain a nice surpise for the lucky fisherman who finds one.
-    <br>
+    <br><br>
     To open a casket and see what is inside, simply click on it in your inventory. Caskets can contain many different items including money, gems, runecraft talismans, or even rare items like half keys!
 </p>
 HTML; }

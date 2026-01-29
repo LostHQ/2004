@@ -6,12 +6,17 @@ function getSkillContent($skill) { return <<<HTML
     <br>
     <table>
         <tr>
-            <td>To chop down a tree, just left click on a tree to start chopping. If you have an axe in your inventory and sufficient woodcutting level, you will attempt to chop down the tree.<br>More powerful axes will increase your chance of cutting down the tree.</td>
+            <td>
+                To chop down a tree, just left click on a tree to start chopping. If you have an axe in your inventory and sufficient woodcutting level, you will attempt to chop down the tree.
+                <br>
+                More powerful axes will increase your chance of cutting down the tree.
+                <br><br>
+                <div class="centered-content">This symbol indicates the location of the rarer trees on your maps:&nbsp;<img src="img/skillguides/woodcutting/rare_trees.gif" alt="[image]"></div>
+            </td>
             <td><img src="img/skillguides/woodcutting/woodcutting.gif" alt="[image]"></td>
         </tr>
     </table>
     <br>
-    <div class="centered-content">This symbol indicates the location of the rarer trees on your maps:&nbsp;<img src="img/skillguides/woodcutting/rare_trees.gif" alt="[image]"></div>
     <h3>Trees</h3>
     There are several types of trees all over the RuneScape world, the table below shows the types of trees available and where to cut them.
     <br><br>
@@ -57,6 +62,7 @@ function getSkillContent($skill) { return <<<HTML
             <td><ul style="margin-top: 0px; margin-bottom: 0px;"><li>South of the Sorceror's Tower<li>Gnome's Stronghold</ul></td>
         </tr>
     </table>
+    <br>
     <h3>Axes</h3>
     Woodcutters need to be familiar with the tools of their trade. Below is a table that shows the types of woodcutting axes available. Axes can be obtained in either of the following ways:
     <br><br>

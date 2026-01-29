@@ -2,8 +2,7 @@
 function getSkillContent($skill) { return <<<HTML
 <h2>$skill Skill Guide</h2>
 <p>
-    <b>Making Bows</b>
-    <br><br>
+    <h3>Making Bows</h3>
     <table>
         <tr>
             <td>To make bows you first need to acquire some wood. Depending on the type of tree you chop down you can get different sorts of logs. Next use a knife with the logs to cut them into either a shortbow or a longbow. To make a bow string you need to find a flax plant and use it with a spinning wheel. Finally add the string to the bow to complete it.</td>
@@ -12,6 +11,7 @@ function getSkillContent($skill) { return <<<HTML
     </table>
     <br>
     Rarer types of wood are harder to acquire, but make better bows which shoot more accurately. The table below lists the different types of bow you can make.
+    <br><br>
     <h3>Different types of bow</h3>
     <table width="100%" cellpadding="1" cellspacing="0" class="table">
         <tr>
@@ -110,6 +110,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>85</td>
         </tr>
     </table>
+    <br>
     <h3>Making arrows</h3>
     To make an arrow-shaft just use a knife with some ordinary logs. Add a feather to the arrow shaft, and finally add an arrow-head to complete the arrow. Arrow heads can either be purchased from the member's archery shop, or smithed at an anvil. Better arrow heads will inflict more damage, but you will require a better bow to fire them. The table belows lists the different arrow types:
     <br><br>
@@ -120,36 +121,37 @@ function getSkillContent($skill) { return <<<HTML
             <th>Minimum bow required</th>
         </tr>
         <tr>
-            <td><canvas itemname="bronze_arrow" show-label="inline"></canvas></td>
+            <td><canvas itemname="bronze_arrow" show-label="inline" hide-amount="true"></canvas></td>
             <td>1</td>
             <td><canvas itemname="shortbow"></canvas><canvas itemname="longbow"></canvas><br>Any</td>
         </tr>
         <tr>
-            <td><canvas itemname="iron_arrow" show-label="inline"></canvas></td>
+            <td><canvas itemname="iron_arrow" show-label="inline" hide-amount="true"></canvas></td>
             <td>15</td>
             <td><canvas itemname="shortbow"></canvas><canvas itemname="longbow"></canvas><br>Any</td>
         </tr>
         <tr>
-            <td><canvas itemname="steel_arrow" show-label="inline"></canvas></td>
+            <td><canvas itemname="steel_arrow" show-label="inline" hide-amount="true"></canvas></td>
             <td>30</td>
             <td><canvas itemname="oak_shortbow"></canvas><canvas itemname="oak_longbow"></canvas><br>Oak Bow</td>
         </tr>
         <tr>
-            <td><canvas itemname="mithril_arrow" show-label="inline"></canvas></td>
+            <td><canvas itemname="mithril_arrow" show-label="inline" hide-amount="true"></canvas></td>
             <td>45</td>
             <td><canvas itemname="willow_shortbow"></canvas><canvas itemname="willow_longbow"></canvas><br>Willow Bow</td>
         </tr>
         <tr>
-            <td><canvas itemname="adamant_arrow" show-label="inline"></canvas></td>
+            <td><canvas itemname="adamant_arrow" show-label="inline" hide-amount="true"></canvas></td>
             <td>60</td>
             <td><canvas itemname="maple_shortbow"></canvas><canvas itemname="maple_longbow"></canvas><br>Maple Bow</td>
         </tr>
         <tr>
-            <td><canvas itemname="rune_arrow" show-label="inline"></canvas></td>
+            <td><canvas itemname="rune_arrow" show-label="inline" hide-amount="true"></canvas></td>
             <td>75</td>
             <td><canvas itemname="yew_shortbow"></canvas><canvas itemname="yew_longbow"></canvas><br>Yew Bow</td>
         </tr>
     </table>
+    <br>
     <h3>Crossbow Bolt Tips</h3>
     Players using crossbows can make their bolts stronger by adding tips to them.
     <br>
@@ -169,18 +171,19 @@ function getSkillContent($skill) { return <<<HTML
             <th>Fletching Level</th>
         </tr>
         <tr>
-            <td><canvas itemname="opal_bolt" show-label="inline"></canvas></td>
+            <td><canvas itemname="opal_bolt" show-label="inline" hide-amount="true"></canvas></td>
             <td>17</td>
         </tr>
         <tr>
-            <td><canvas itemname="pearl_bolt" show-label="inline"></canvas></td>
+            <td><canvas itemname="pearl_bolt" show-label="inline" hide-amount="true"></canvas></td>
             <td>34</td>
         </tr>
         <tr>
-            <td><canvas itemname="barbed_bolt" show-label="inline"></canvas></td>
+            <td><canvas itemname="barbed_bolt" show-label="inline" hide-amount="true"></canvas></td>
             <td>51</td>
         </tr>
     </table>
+    <br>
     <h3>Throwing Darts</h3>
     Once you have completed the <a href="?p=questguides&quest=touristtrap">Tourist Trap</a> quest you will be able to fletch darts to throw at your enemies. Firstly use your <a href="?p=skillguides&skill=smithing">smithing skill</a> to make metal bars into dart tips. Then add a feather to each dart tip to complete the dart. Darts are not as powerful as arrows or throwing knives. Players may poison their darts to do more damage to their opponents. Each weapon poison vial contains enough poison for 5 darts.
     <br><br>
@@ -194,37 +197,37 @@ function getSkillContent($skill) { return <<<HTML
             <th>Ranged level to wield</th>
         </tr>
         <tr>
-            <td><canvas itemname="bronze_dart" show-label="inline"></canvas></td>
+            <td><canvas itemname="bronze_dart" show-label="inline" hide-amount="true"></canvas></td>
             <td>4</td>
             <td>1</td>
             <td>1</td>
         </tr>
         <tr>
-            <td><canvas itemname="iron_dart" show-label="inline"></canvas></td>
+            <td><canvas itemname="iron_dart" show-label="inline" hide-amount="true"></canvas></td>
             <td>19</td>
             <td>22</td>
             <td>1</td>
         </tr>
         <tr>
-            <td><canvas itemname="steel_dart" show-label="inline"></canvas></td>
+            <td><canvas itemname="steel_dart" show-label="inline" hide-amount="true"></canvas></td>
             <td>34</td>
             <td>37</td>
             <td>5</td>
         </tr>
         <tr>
-            <td><canvas itemname="mithril_dart" show-label="inline"></canvas></td>
+            <td><canvas itemname="mithril_dart" show-label="inline" hide-amount="true"></canvas></td>
             <td>54</td>
             <td>52</td>
             <td>20</td>
         </tr>
         <tr>
-            <td><canvas itemname="adamant_dart" show-label="inline"></canvas></td>
+            <td><canvas itemname="adamant_dart" show-label="inline" hide-amount="true"></canvas></td>
             <td>74</td>
             <td>67</td>
             <td>30</td>
         </tr>
         <tr>
-            <td><canvas itemname="rune_dart" show-label="inline"></canvas></td>
+            <td><canvas itemname="rune_dart" show-label="inline" hide-amount="true"></canvas></td>
             <td>89</td>
             <td>81</td>
             <td>40</td>

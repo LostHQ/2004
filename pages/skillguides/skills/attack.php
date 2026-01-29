@@ -12,35 +12,35 @@ function getSkillContent($skill) { return <<<HTML
         </tr>
         <tr>
             <td>1</td>
-            <td><div class="centered-content"><canvas itemname="bronze_mace"></canvas>Bronze</div></td>
+            <td><div class="centered-content"><canvas itemname="bronze_mace"></canvas>&nbsp;&nbsp;Bronze</div></td>
         </tr>
         <tr>
             <td>1</td>
-            <td><div class="centered-content"><canvas itemname="iron_mace"></canvas>Iron</div></td>
+            <td><div class="centered-content"><canvas itemname="iron_mace"></canvas>&nbsp;&nbsp;Iron</div></td>
         </tr>
         <tr>
             <td>5</td>
-            <td><div class="centered-content"><canvas itemname="steel_mace"></canvas>Steel</div></td>
+            <td><div class="centered-content"><canvas itemname="steel_mace"></canvas>&nbsp;&nbsp;Steel</div></td>
         </tr>
         <tr>
             <td>10</td>
-            <td><div class="centered-content"><canvas itemname="black_mace"></canvas>Black</div></td>
+            <td><div class="centered-content"><canvas itemname="black_mace"></canvas>&nbsp;&nbsp;Black</div></td>
         </tr>
         <tr>
             <td>20</td>
-            <td><div class="centered-content"><canvas itemname="mithril_mace"></canvas>Mithril</div></td>
+            <td><div class="centered-content"><canvas itemname="mithril_mace"></canvas>&nbsp;&nbsp;Mithril</div></td>
         </tr>
         <tr>
             <td>30</td>
-            <td><div class="centered-content"><canvas itemname="adamant_mace"></canvas>Adamant</div></td>
+            <td><div class="centered-content"><canvas itemname="adamant_mace"></canvas>&nbsp;&nbsp;Adamant</div></td>
         </tr>
         <tr>
             <td>40</td>
-            <td><div class="centered-content"><canvas itemname="rune_mace"></canvas>Rune</div></td>
+            <td><div class="centered-content"><canvas itemname="rune_mace"></canvas>&nbsp;&nbsp;Rune</div></td>
         </tr>
         <tr>
             <td>60</td>
-            <td><div class="centered-content"><canvas itemname="dragon_mace"></canvas>Dragon</div></td>
+            <td><div class="centered-content"><canvas itemname="dragon_mace"></canvas>&nbsp;&nbsp;Dragon</div></td>
         </tr></tbody>
     </table>
     <br><br>
