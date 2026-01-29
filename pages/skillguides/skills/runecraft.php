@@ -47,61 +47,61 @@ function getSkillContent($skill) { return <<<HTML
         </tr>
         <tr>
             <td>1</td>
-            <td><canvas itemname="airrune" show-label="true"></canvas></td>
+            <td><canvas itemname="airrune" show-label="true" hide-amount="true"></canvas></td>
             <td><canvas itemname="air_talisman" show-label="true"></canvas></td>
             <td>South of Falador</td>
         </tr>
         <tr>
             <td>2</td>
-            <td><canvas itemname="mindrune" show-label="true"></canvas></td>
+            <td><canvas itemname="mindrune" show-label="true" hide-amount="true"></canvas></td>
             <td><canvas itemname="mind_talisman" show-label="true"></canvas></td>
             <td>Between Ice Moutain and Goblin Village</td>
         </tr>
         <tr>
             <td>5</td>
-            <td><canvas itemname="waterrune" show-label="true"></canvas></td>
+            <td><canvas itemname="waterrune" show-label="true" hide-amount="true"></canvas></td>
             <td><canvas itemname="water_talisman" show-label="true"></canvas></td>
             <td>In Lumbridge Swamp</td>
         </tr>
         <tr>
             <td>9</td>
-            <td><canvas itemname="earthrune" show-label="true"></canvas></td>
+            <td><canvas itemname="earthrune" show-label="true" hide-amount="true"></canvas></td>
             <td><canvas itemname="earth_talisman" show-label="true"></canvas></td>
             <td>North-east of Varrock</td>
         </tr>
         <tr>
             <td>14</td>
-            <td><canvas itemname="firerune" show-label="true"></canvas></td>
+            <td><canvas itemname="firerune" show-label="true" hide-amount="true"></canvas></td>
             <td><canvas itemname="fire_talisman" show-label="true"></canvas></td>
             <td>North-east of Al Kharik, outside the Duel Arena entrance</td>
         </tr>
         <tr>
             <td>20</td>
-            <td><canvas itemname="bodyrune" show-label="true"></canvas></td>
+            <td><canvas itemname="bodyrune" show-label="true" hide-amount="true"></canvas></td>
             <td><canvas itemname="body_talisman" show-label="true"></canvas></td>
             <td>Between Ice Moutain and Barbarian Village</td>
         </tr>
         <tr>
             <td>27</td>
-            <td><canvas itemname="cosmicrune" show-label="true"></canvas></td>
+            <td><canvas itemname="cosmicrune" show-label="true" hide-amount="true"></canvas></td>
             <td><canvas itemname="cosmic_talisman" show-label="true"></canvas></td>
             <td>Southern part of Zanaris. Requires completing <a href="?p=questguides&quest=lostcity">Lost City</a></td>
         </tr>
         <tr>
             <td>35</td>
-            <td><canvas itemname="chaosrune" show-label="true"></canvas></td>
+            <td><canvas itemname="chaosrune" show-label="true" hide-amount="true"></canvas></td>
             <td><canvas itemname="chaos_talisman" show-label="true"></canvas></td>
             <td>Level 9 wilderness, south-east of the Dark Warrior's Fortress</td>
         </tr>
         <tr>
             <td>44</td>
-            <td><canvas itemname="naturerune" show-label="true"></canvas></td>
+            <td><canvas itemname="naturerune" show-label="true" hide-amount="true"></canvas></td>
             <td><canvas itemname="nature_talisman" show-label="true"></canvas></td>
             <td>On Karamja, North of Shilo Village</td>
         </tr>
         <tr>
             <td>54</td>
-            <td><canvas itemname="lawrune" show-label="true"></canvas></td>
+            <td><canvas itemname="lawrune" show-label="true" hide-amount="true"></canvas></td>
             <td><canvas itemname="law_talisman" show-label="true"></canvas></td>
             <td>On the island of Entrana</td>
         </tr>
@@ -132,43 +132,43 @@ function getSkillContent($skill) { return <<<HTML
         </thead>
         <tbody>
             <tr>
-                <td><canvas itemname="airrune" show-label="inline"></canvas></td>
+                <td><canvas itemname="airrune" show-label="inline" hide-amount="true"></canvas></td>
                 <td>1</td><td>11</td><td>22</td><td>33</td><td>44</td><td>55</td><td>66</td><td>77</td><td>88</td><td>99</td>
             </tr>
             <tr>
-                <td><canvas itemname="mindrune" show-label="inline"></canvas></td>
+                <td><canvas itemname="mindrune" show-label="inline" hide-amount="true"></canvas></td>
                 <td>2</td><td>14</td><td>28</td><td>42</td><td>56</td><td>70</td><td>84</td><td>98</td><td></td><td></td>
             </tr>
             <tr>
-                <td><canvas itemname="waterrune" show-label="inline"></canvas></td>
+                <td><canvas itemname="waterrune" show-label="inline" hide-amount="true"></canvas></td>
                 <td>5</td><td>19</td><td>38</td><td>57</td><td>76</td><td>95</td><td></td><td></td><td></td><td></td>
             </tr>
             <tr>
-                <td><canvas itemname="earthrune" show-label="inline"></canvas></td>
+                <td><canvas itemname="earthrune" show-label="inline" hide-amount="true"></canvas></td>
                 <td>9</td><td>26</td><td>52</td><td>78</td><td></td><td></td><td></td><td></td><td></td><td></td>
             </tr>
             <tr>
-                <td><canvas itemname="firerune" show-label="inline"></canvas></td>
+                <td><canvas itemname="firerune" show-label="inline" hide-amount="true"></canvas></td>
                 <td>14</td><td>35</td><td>70</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
             </tr>
             <tr>
-                <td><canvas itemname="bodyrune" show-label="inline"></canvas></td>
+                <td><canvas itemname="bodyrune" show-label="inline" hide-amount="true"></canvas></td>
                 <td>20</td><td>46</td><td>92</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
             </tr>
             <tr>
-                <td><canvas itemname="cosmicrune" show-label="inline"></canvas></td>
+                <td><canvas itemname="cosmicrune" show-label="inline" hide-amount="true"></canvas></td>
                 <td>27</td><td>59</td><td>92</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
             </tr>
             <tr>
-                <td><canvas itemname="chaosrune" show-label="inline"></canvas></td>
+                <td><canvas itemname="chaosrune" show-label="inline" hide-amount="true"></canvas></td>
                 <td>35</td><td>74</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
             </tr>
             <tr>
-                <td><canvas itemname="naturerune" show-label="inline"></canvas></td>
+                <td><canvas itemname="naturerune" show-label="inline" hide-amount="true"></canvas></td>
                 <td>44</td><td>91</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
             </tr>
             <tr>
-                <td><canvas itemname="lawrune" show-label="inline"></canvas></td>
+                <td><canvas itemname="lawrune" show-label="inline" hide-amount="true"></canvas></td>
                 <td>54</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
             </tr>
         </tbody>

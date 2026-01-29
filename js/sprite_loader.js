@@ -359,6 +359,7 @@ function renderItemSpriteToCanvas(canvas) {
     const nameAppend = canvas.getAttribute("name-append");
     const nameReplace = canvas.getAttribute("name-replace");
     const showLabel = canvas.getAttribute("show-label");
+    const hideAmount = canvas.getAttribute("hide-amount");
     const iconSize = parseInt(canvas.getAttribute("icon-size"), 10) || itemSpriteSize;
     let id = 0;
     let name = "Unknown Item";
@@ -393,6 +394,7 @@ function renderItemSpriteToCanvas(canvas) {
 
     function drawQuantity() {
         if (!((id in stackableSpriteOverrides || debugname.startsWith('cert_')) || qty > 1)) return;
+        if (hideAmount === "true") return;
         drawP11(ctx, formatQuantity(qty), (iconSize / itemSpriteSize), (iconSize / itemSpriteSize), '#FFFF00');
     }
 
