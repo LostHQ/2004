@@ -2,10 +2,13 @@
 function getSkillContent($skill) { return <<<HTML
 <h2>$skill Skill Guide</h2>
 <p>
-    Making a fire is useful for cooking food without having to go and find a range.
     <table>
         <tr>
-            <td>To make a fire, left-click on the tinderbox in your inventory so that it is outlined in white, then left-click on the logs to use them with the tinderbox. You will then place the logs on the ground and attempt to light the fire.</td>
+            <td>
+                Making a fire is useful for cooking food without having to go and find a range.
+                <br><br>
+                To make a fire, left-click on the tinderbox in your inventory so that it is outlined in white, then left-click on the logs to use them with the tinderbox. You will then place the logs on the ground and attempt to light the fire.
+            </td>
             <td><img src="img/skillguides/firemaking/lightingafire.gif" alt="[image]"></td>
         </tr>
     </table>
@@ -63,7 +66,7 @@ function getSkillContent($skill) { return <<<HTML
             <td><canvas itemname="maple_logs" show-label="true"></canvas></td>
             <td>45</td>
             <td>135</td>
-            <td>No</td>
+            <td>No*</td>
         </tr>
         <!-- disabled till 2005
         <tr>
@@ -86,6 +89,6 @@ function getSkillContent($skill) { return <<<HTML
             <td>Yes</td>
         </tr>
     </table>
-    <span style="text-align: center; display: block;">Maple logs are only available on a members server however, you can burn them on any server.</span>
+    <span style="text-align: center; display: block;">*Maple logs are only available on a members server however, you can burn them on any server.</span>
 </p>
 HTML; }

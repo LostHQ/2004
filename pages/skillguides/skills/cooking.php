@@ -14,7 +14,7 @@ function getSkillContent($skill) { return <<<HTML
 	<br><br>
 	The table below will show you the foods you can cook, the level requirements to cook them, and how much each food heals. Clicking the item names in the table will take you to instructions for making that item, all of which are listed below the table.
 	<br><br>
-	<table width="100%" cellpadding="1" cellspacing="0" class="table">
+	<table cellpadding="1" cellspacing="0" class="table">
 		<tbody>
 			<tr> 
 			<th>Food</th>
@@ -333,14 +333,17 @@ function getSkillContent($skill) { return <<<HTML
 			</tr>
 		</tbody>
 	</table>
+	<br>
 	<h3>The Cooking Guild</h3>
 	If you are level 32 or above in your cooking skill and are wearing a chefs hat then you can enter the Cooking Guild which is just North-west of Varrock.
 	<br><br>
 	The cooking guild contains a number of items useful for cooks, including a flour mill, a water supply, and stoves to cook on as well as useful ingredients such as apples and chocolate.
+	<br><br>
 	<h3>Other foods</h3>
 	There are a number of other foods available to Members obtainable from the various races that inhabit RuneScape.
 	<br><br>
 	Visitors to the Tree Gnome Stronghold will be able to taste and create a wide variety of different foods at the Gnome Restaurant by using the recipe book available there, and there are further local delicacys to be discovered in many different regions of RuneScape.
+	<br><br>
 	<h3>How to Cook</h3>
 	<h4 id="bread">Bread</h4>
 	<ol>

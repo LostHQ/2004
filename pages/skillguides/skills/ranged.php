@@ -3,11 +3,13 @@ function getSkillContent($skill) { return <<<HTML
 <h2>$skill Skill Guide</h2>
 <p>
     The ranged skill is used for attacking players or monsters from a distance with weapons such as bows and arrows, throwing knives and many others. This skill is useful if you prefer to fight a foe from a distance, using hit and run tactics to avoid damage yourself. Range is also particularly effective against Mages, so is a useful skill when fighting magic users.
-    <br><br>
-    To use a bow you need to wield it. You must also wield some appropriate arrows or bolts.
     <table cellpadding="3">
         <tr>
-            <td>Click to attack a monster or player and you will shoot your arrows/bolts until you do something else or are attacked. You cannot shoot a player or monster if you do not have a direct line of sight. (For example, if there is wall or tree between you and the monster.)</td>
+            <td>
+                To use a bow you need to wield it. You must also wield some appropriate arrows or bolts.
+                <br><br>
+                Click to attack a monster or player and you will shoot your arrows/bolts until you do something else or are attacked. You cannot shoot a player or monster if you do not have a direct line of sight. (For example, if there is wall or tree between you and the monster.)
+            </td>
         <td><img src="img/skillguides/ranging/ranging.gif"></td>
         </tr>
     </table>
@@ -20,8 +22,10 @@ function getSkillContent($skill) { return <<<HTML
     <br><br>
     A similar table to the one below can be opened in the game by clicking the ranging skill icon in the stats menu.
     -->
+    <br><br>
     <h3>Ranging Guild</h3>
     Experienced rangers (level 40) may enter the Ranging Guild in the Seers' Village, where they may practice shooting at targets and live foes of various levels. The Guild also offers a selection of items for sale, including a wide range of thrown weapons.
+    <br><br>
     <h3>Bow wield Requirements</h3>
     <table class="table">
     <tr>
@@ -37,22 +41,22 @@ function getSkillContent($skill) { return <<<HTML
         </td>
         <td>1</td>
         <td>
-            <canvas itemname="bronze_arrow"></canvas>
-            <canvas itemname="iron_arrow"></canvas><br>
+            <canvas itemname="bronze_arrow" hide-amount="true"></canvas>
+            <canvas itemname="iron_arrow" hide-amount="true"></canvas><br>
             Bronze & Iron
         </td>
     </tr>
     <tr>
         <td>
-            <canvas itemname="oak_shortbow"></canvas>
-            <canvas itemname="oak_longbow"></canvas><br>
+            <canvas itemname="oak_shortbow" hide-amount="true"></canvas>
+            <canvas itemname="oak_longbow" hide-amount="true"></canvas><br>
             Oak Bows
         </td>
         <td>5</td>
         <td>
-            <canvas itemname="bronze_arrow"></canvas>
-            <canvas itemname="iron_arrow"></canvas>
-            <canvas itemname="steel_arrow"></canvas><br>
+            <canvas itemname="bronze_arrow" hide-amount="true"></canvas>
+            <canvas itemname="iron_arrow" hide-amount="true"></canvas>
+            <canvas itemname="steel_arrow" hide-amount="true"></canvas><br>
             Bronze, Iron, & Steel
         </td>
     </tr>
@@ -64,10 +68,10 @@ function getSkillContent($skill) { return <<<HTML
         </td>
         <td>20</td>
         <td>
-            <canvas itemname="bronze_arrow"></canvas>
-            <canvas itemname="iron_arrow"></canvas>
-            <canvas itemname="steel_arrow"></canvas>
-            <canvas itemname="mithril_arrow"></canvas><br>
+            <canvas itemname="bronze_arrow" hide-amount="true"></canvas>
+            <canvas itemname="iron_arrow" hide-amount="true"></canvas>
+            <canvas itemname="steel_arrow" hide-amount="true"></canvas>
+            <canvas itemname="mithril_arrow" hide-amount="true"></canvas><br>
             All Arrows up to Mithril
         </td>
     </tr>
@@ -79,11 +83,11 @@ function getSkillContent($skill) { return <<<HTML
         </td>
         <td>30</td>
         <td>
-            <canvas itemname="bronze_arrow"></canvas>
-            <canvas itemname="iron_arrow"></canvas>
-            <canvas itemname="steel_arrow"></canvas>
-            <canvas itemname="mithril_arrow"></canvas>
-            <canvas itemname="adamant_arrow"></canvas><br>
+            <canvas itemname="bronze_arrow" hide-amount="true"></canvas>
+            <canvas itemname="iron_arrow" hide-amount="true"></canvas>
+            <canvas itemname="steel_arrow" hide-amount="true"></canvas>
+            <canvas itemname="mithril_arrow" hide-amount="true"></canvas>
+            <canvas itemname="adamant_arrow" hide-amount="true"></canvas><br>
             All Arrows up to Adamant
         </td>
     </tr>
@@ -95,12 +99,12 @@ function getSkillContent($skill) { return <<<HTML
         </td>
         <td>40</td>
         <td>
-            <canvas itemname="bronze_arrow"></canvas>
-            <canvas itemname="iron_arrow"></canvas>
-            <canvas itemname="steel_arrow"></canvas>
-            <canvas itemname="mithril_arrow"></canvas>
-            <canvas itemname="adamant_arrow"></canvas>
-            <canvas itemname="rune_arrow"></canvas><br>
+            <canvas itemname="bronze_arrow" hide-amount="true"></canvas>
+            <canvas itemname="iron_arrow" hide-amount="true"></canvas>
+            <canvas itemname="steel_arrow" hide-amount="true"></canvas>
+            <canvas itemname="mithril_arrow" hide-amount="true"></canvas>
+            <canvas itemname="adamant_arrow" hide-amount="true"></canvas>
+            <canvas itemname="rune_arrow" hide-amount="true"></canvas><br>
             All Arrows up to Rune
         </td>
     </tr>
@@ -112,19 +116,18 @@ function getSkillContent($skill) { return <<<HTML
         </td>
         <td>50</td>
         <td>
-            <canvas itemname="bronze_arrow"></canvas>
-            <canvas itemname="iron_arrow"></canvas>
-            <canvas itemname="steel_arrow"></canvas>
-            <canvas itemname="mithril_arrow"></canvas>
-            <canvas itemname="adamant_arrow"></canvas>
-            <canvas itemname="rune_arrow"></canvas><br>
+            <canvas itemname="bronze_arrow" hide-amount="true"></canvas>
+            <canvas itemname="iron_arrow" hide-amount="true"></canvas>
+            <canvas itemname="steel_arrow" hide-amount="true"></canvas>
+            <canvas itemname="mithril_arrow" hide-amount="true"></canvas>
+            <canvas itemname="adamant_arrow" hide-amount="true"></canvas>
+            <canvas itemname="rune_arrow" hide-amount="true"></canvas><br>
             All Arrows up to Rune
         </td>
     </tr>
     </table>
-
+    <br><br>
     <h3>Ranging Armour wield Requirements</h3>
-    
     <table class="table">
         <tr>
             <th>Armour Type</td>

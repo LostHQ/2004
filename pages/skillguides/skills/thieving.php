@@ -3,15 +3,6 @@ function getSkillContent($skill) { return <<<HTML
 <h2>$skill Skill Guide</h2>
 <p>
     The thieving skill is used for a number of different activities. The main uses of the thieving skill are pickpocketing, lock picking, trap disarming, and stealing from market stalls.
-    <h3>Pickpocketing</h3>
-    <table>
-        <tr>
-            <td>It is possible to steal from various npcs in the game, it is not possible to steal from other players. To start off with you can only steal from men, later on you can steal from farmers, warriors, guards and more. To pickpocket an npc right click on it and select the pickpocket option. There is a chance that the npc you are stealing from will notice and will attack you. As your thieving skill increases, you will get noticed less often.</td>
-            <!-- Enable if pickpocking.gif is ever found
-            <td><img src="img/skillguides/thieving/pickpocket.gif"></td>
-            -->
-        </tr>
-    </table>
     <table>
         <tr>
             <td><h3>Levels required to pick the pockets of various npcs</h3>
@@ -51,6 +42,10 @@ function getSkillContent($skill) { return <<<HTML
                 </table>
             </td>
             <td valign="top">
+                <h3>Pickpocketing</h3>
+                It is possible to steal from various npcs in the game, it is not possible to steal from other players. To start off with you can only steal from men, later on you can steal from farmers, warriors, guards and more. To pickpocket an npc right click on it and select the pickpocket option. There is a chance that the npc you are stealing from will notice and will attack you. As your thieving skill increases, you will get noticed less often.
+                <!-- an image named pickpocking.gif goes here. If ever found <img src="img/skillguides/thieving/pickpocket.gif"> -->
+                <br><br>
                 <h3>Lockpicking</h3>
                 <!-- an image named picklock.gif goes here. Don't forget to colspan="2" all previous parts to add a division here -->
                 Certain doors in the game can only be opened by picking their locks. To pick the lock on a door right click on it and select the picklock option.
@@ -63,6 +58,7 @@ function getSkillContent($skill) { return <<<HTML
     </table>
     <h3>Trap disarming</h3>
     Certain objects in the game such as chests have traps on them. If you don't disarm a trap on an item, you could receive damage or other penalties when trying to use it. If there is a trap to disarm you will find an option to disarm the trap when you right click on the item. If you are a high enough thieving level you will then be able to disarm the trap. Remember traps will become re-enabled again later.
+    <br><br>
     <h3>Stealing from market stalls</h3>
     <table>
         <tr>
@@ -72,7 +68,8 @@ function getSkillContent($skill) { return <<<HTML
             -->
         </tr>
     </table>
-    <h3>Thieving levels needed to be able to<br>steal from the various market stalls.</h3>
+    <br>
+    <h3>Thieving levels needed to be able to steal from the various market stalls.</h3>
     <table class="table" width="210">
         <tr>
             <th>Stall</th>
@@ -107,8 +104,8 @@ function getSkillContent($skill) { return <<<HTML
             <td>75</td>
         </tr>
     </table>
-    <br><br>
-    <h3>Thieving levels needed to be able to<br>steal from the various chests.</h3>
+    <br>
+    <h3>Thieving levels needed to be able to steal from the various chests.</h3>
     <table class="table" width="100%">
         <tr>
             <th>Chest</th>

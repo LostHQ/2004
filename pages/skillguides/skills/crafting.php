@@ -30,8 +30,8 @@ function getSkillContent($skill) { return <<<HTML
             <td>1</td>
             <td><canvas itemname="leather" show-label="true"></canvas></td>
             <td>
-                <canvas itemname="needle" show-label="inline"></canvas>
-                <canvas itemname="thread" show-label="inline"></canvas>
+                <canvas itemname="needle" show-label="inline" hide-amount="true"></canvas>
+                <canvas itemname="thread" show-label="inline" hide-amount="true"></canvas>
             </td>
             <td><canvas itemname="leather_gloves" show-label="true"></canvas></td>
         </tr>
@@ -113,8 +113,8 @@ function getSkillContent($skill) { return <<<HTML
             <td>7</td>
             <td><canvas itemname="leather" show-label="true"></canvas></td>
             <td>
-                <canvas itemname="needle" show-label="inline"></canvas>
-                <canvas itemname="thread" show-label="inline"></canvas>
+                <canvas itemname="needle" show-label="inline" hide-amount="true"></canvas>
+                <canvas itemname="thread" show-label="inline" hide-amount="true"></canvas>
             </td>
             <td><canvas itemname="leather_boots" show-label="true"></canvas></td>
         </tr>
@@ -157,8 +157,8 @@ function getSkillContent($skill) { return <<<HTML
             <td>9</td>
             <td><canvas itemname="leather" show-label="true"></canvas></td>
             <td>
-                <canvas itemname="needle" show-label="inline"></canvas>
-                <canvas itemname="thread" show-label="inline"></canvas>
+                <canvas itemname="needle" show-label="inline" hide-amount="true"></canvas>
+                <canvas itemname="thread" show-label="inline" hide-amount="true"></canvas>
             </td>
             <td><canvas itemname="leather_cowl" show-label="true"></canvas></td>
         </tr>
@@ -175,8 +175,8 @@ function getSkillContent($skill) { return <<<HTML
             <td>11</td>
             <td><canvas itemname="leather" show-label="true"></canvas></td>
             <td>
-                <canvas itemname="needle" show-label="inline"></canvas>
-                <canvas itemname="thread" show-label="inline"></canvas>
+                <canvas itemname="needle" show-label="inline" hide-amount="true"></canvas>
+                <canvas itemname="thread" show-label="inline" hide-amount="true"></canvas>
             </td>
             <td><canvas itemname="leather_vambraces" show-label="true"></canvas></td>
         </tr>
@@ -190,8 +190,8 @@ function getSkillContent($skill) { return <<<HTML
             <td>14</td>
             <td><canvas itemname="leather" show-label="true"></canvas></td>
             <td>
-                <canvas itemname="needle" show-label="inline"></canvas>
-                <canvas itemname="thread" show-label="inline"></canvas>
+                <canvas itemname="needle" show-label="inline" hide-amount="true"></canvas>
+                <canvas itemname="thread" show-label="inline" hide-amount="true"></canvas>
             </td>
             <td><canvas itemname="leather_armour" show-label="true"></canvas></td>
         </tr>
@@ -240,8 +240,8 @@ function getSkillContent($skill) { return <<<HTML
             <td>18</td>
             <td><canvas itemname="leather" show-label="true"></canvas></td>
             <td>
-                <canvas itemname="needle" show-label="inline"></canvas>
-                <canvas itemname="thread" show-label="inline"></canvas>
+                <canvas itemname="needle" show-label="inline" hide-amount="true"></canvas>
+                <canvas itemname="thread" show-label="inline" hide-amount="true"></canvas>
             </td>
             <td><canvas itemname="leather_chaps" show-label="true"></canvas></td>
         </tr>
@@ -333,8 +333,8 @@ function getSkillContent($skill) { return <<<HTML
             <td>28</td>
             <td><canvas itemname="hard_leather" show-label="true"></canvas></td>
             <td>
-                <canvas itemname="needle" show-label="inline"></canvas>
-                <canvas itemname="thread" show-label="inline"></canvas>
+                <canvas itemname="needle" show-label="inline" hide-amount="true"></canvas>
+                <canvas itemname="thread" show-label="inline" hide-amount="true"></canvas>
             </td>
             <td><canvas itemname="hardleather_body" show-label="true"></canvas></td>
         </tr>
@@ -400,8 +400,8 @@ function getSkillContent($skill) { return <<<HTML
             <td>38</td>
             <td><canvas itemname="leather" show-label="true"></canvas></td>
             <td>
-                <canvas itemname="needle" show-label="inline"></canvas>
-                <canvas itemname="thread" show-label="inline"></canvas>
+                <canvas itemname="needle" show-label="inline" hide-amount="true"></canvas>
+                <canvas itemname="thread" show-label="inline" hide-amount="true"></canvas>
             </td>
             <td><canvas itemname="coif" show-label="true"></canvas></td>
         </tr>
@@ -530,8 +530,8 @@ function getSkillContent($skill) { return <<<HTML
             <td>57</td>
             <td><canvas itemname="dragon_leather" show-label="true"></canvas></td>
             <td>
-                <canvas itemname="needle" show-label="inline"></canvas>
-                <canvas itemname="thread" show-label="inline"></canvas>
+                <canvas itemname="needle" show-label="inline" hide-amount="true"></canvas>
+                <canvas itemname="thread" show-label="inline" hide-amount="true"></canvas>
             </td>
             <td><canvas itemname="dragon_vambraces" show-label="true"></canvas></td>
         </tr>
@@ -551,8 +551,8 @@ function getSkillContent($skill) { return <<<HTML
                 <canvas itemname="dragon_leather" show-label="true"></canvas>
             </td>
             <td>
-                <canvas itemname="needle" show-label="inline"></canvas>
-                <canvas itemname="thread" show-label="inline"></canvas>
+                <canvas itemname="needle" show-label="inline" hide-amount="true"></canvas>
+                <canvas itemname="thread" show-label="inline" hide-amount="true"></canvas>
             </td>
             <td><canvas itemname="dragonhide_chaps" show-label="true"></canvas></td>
         </tr>
@@ -573,8 +573,8 @@ function getSkillContent($skill) { return <<<HTML
                 <canvas itemname="dragon_leather" show-label="true"></canvas>
             </td>
             <td>
-                <canvas itemname="needle" show-label="inline"></canvas>
-                <canvas itemname="thread" show-label="inline"></canvas>
+                <canvas itemname="needle" show-label="inline" hide-amount="true"></canvas>
+                <canvas itemname="thread" show-label="inline" hide-amount="true"></canvas>
             </td>
             <td><canvas itemname="dragonhide_body" show-label="true"></canvas></td>
         </tr>
@@ -591,8 +591,8 @@ function getSkillContent($skill) { return <<<HTML
             <td>66</td>
             <td><canvas itemname="dragon_leather_blue" show-label="true"></canvas></td>
             <td>
-                <canvas itemname="needle" show-label="inline"></canvas>
-                <canvas itemname="thread" show-label="inline"></canvas>
+                <canvas itemname="needle" show-label="inline" hide-amount="true"></canvas>
+                <canvas itemname="thread" show-label="inline" hide-amount="true"></canvas>
             </td>
             <td><canvas itemname="blue_dragon_vambraces" show-label="true"></canvas></td>
         </tr>
@@ -603,8 +603,8 @@ function getSkillContent($skill) { return <<<HTML
                 <canvas itemname="dragon_leather_blue" show-label="true"></canvas>
             </td>
             <td>
-                <canvas itemname="needle" show-label="inline"></canvas>
-                <canvas itemname="thread" show-label="inline"></canvas>
+                <canvas itemname="needle" show-label="inline" hide-amount="true"></canvas>
+                <canvas itemname="thread" show-label="inline" hide-amount="true"></canvas>
             </td>
             <td><canvas itemname="blue_dragonhide_chaps" show-label="true"></canvas></td>
         </tr>
@@ -632,8 +632,8 @@ function getSkillContent($skill) { return <<<HTML
                 <canvas itemname="dragon_leather_blue" show-label="true"></canvas>
             </td>
             <td>
-                <canvas itemname="needle" show-label="inline"></canvas>
-                <canvas itemname="thread" show-label="inline"></canvas>
+                <canvas itemname="needle" show-label="inline" hide-amount="true"></canvas>
+                <canvas itemname="thread" show-label="inline" hide-amount="true"></canvas>
             </td>
             <td><canvas itemname="blue_dragonhide_body" show-label="true"></canvas></td>
         </tr>
@@ -656,8 +656,8 @@ function getSkillContent($skill) { return <<<HTML
             <td>73</td>
             <td><canvas itemname="dragon_leather_red" show-label="true"></canvas></td>
             <td>
-                <canvas itemname="needle" show-label="inline"></canvas>
-                <canvas itemname="thread" show-label="inline"></canvas>
+                <canvas itemname="needle" show-label="inline" hide-amount="true"></canvas>
+                <canvas itemname="thread" show-label="inline" hide-amount="true"></canvas>
             </td>
             <td><canvas itemname="red_dragon_vambraces" show-label="true"></canvas></td>
         </tr>
@@ -668,8 +668,8 @@ function getSkillContent($skill) { return <<<HTML
                 <canvas itemname="dragon_leather_red" show-label="true"></canvas>
             </td>
             <td>
-                <canvas itemname="needle" show-label="inline"></canvas>
-                <canvas itemname="thread" show-label="inline"></canvas>
+                <canvas itemname="needle" show-label="inline" hide-amount="true"></canvas>
+                <canvas itemname="thread" show-label="inline" hide-amount="true"></canvas>
             </td>
             <td><canvas itemname="red_dragonhide_chaps" show-label="true"></canvas></td>
         </tr>
@@ -681,8 +681,8 @@ function getSkillContent($skill) { return <<<HTML
                 <canvas itemname="dragon_leather_red" show-label="true"></canvas>
             </td>
             <td>
-                <canvas itemname="needle" show-label="inline"></canvas>
-                <canvas itemname="thread" show-label="inline"></canvas>
+                <canvas itemname="needle" show-label="inline" hide-amount="true"></canvas>
+                <canvas itemname="thread" show-label="inline" hide-amount="true"></canvas>
             </td>
             <td><canvas itemname="red_dragonhide_body" show-label="true"></canvas></td>
         </tr>
@@ -690,8 +690,8 @@ function getSkillContent($skill) { return <<<HTML
             <td>79</td>
             <td><canvas itemname="dragon_leather_black" show-label="true"></canvas></td>
             <td>
-                <canvas itemname="needle" show-label="inline"></canvas>
-                <canvas itemname="thread" show-label="inline"></canvas>
+                <canvas itemname="needle" show-label="inline" hide-amount="true"></canvas>
+                <canvas itemname="thread" show-label="inline" hide-amount="true"></canvas>
             </td>
             <td><canvas itemname="black_dragon_vambraces" show-label="true"></canvas></td>
         </tr>
@@ -718,8 +718,8 @@ function getSkillContent($skill) { return <<<HTML
                 <canvas itemname="dragon_leather_black" show-label="true"></canvas>
             </td>
             <td>
-                <canvas itemname="needle" show-label="inline"></canvas>
-                <canvas itemname="thread" show-label="inline"></canvas>
+                <canvas itemname="needle" show-label="inline" hide-amount="true"></canvas>
+                <canvas itemname="thread" show-label="inline" hide-amount="true"></canvas>
             </td>
             <td><canvas itemname="black_dragonhide_chaps" show-label="true"></canvas></td>
         </tr>
@@ -731,12 +731,13 @@ function getSkillContent($skill) { return <<<HTML
                 <canvas itemname="dragon_leather_black" show-label="true"></canvas>
             </td>
             <td>
-                <canvas itemname="needle" show-label="inline"></canvas>
-                <canvas itemname="thread" show-label="inline"></canvas>
+                <canvas itemname="needle" show-label="inline" hide-amount="true"></canvas>
+                <canvas itemname="thread" show-label="inline" hide-amount="true"></canvas>
             </td>
             <td><canvas itemname="black_dragonhide_body" show-label="true"></canvas></td>
         </tr>
     </table>
+    <br>
     <h3>Pottery</h3>
     Bowls, pots and pie dishes can all be made by crafting. Clay is obtained by <a href="?p=skillguides&skill=mining">mining</a>.<br>To make the clay workable it needs to be softened first. Use a jug of water with the clay and it will be turned into soft clay. Take the clay to a potter's wheel. There is one in the barbarian village.
     <br><br>
@@ -765,10 +766,12 @@ function getSkillContent($skill) { return <<<HTML
     Kill a dragon to collect it's hide, then speak to a tanner in the same way, and you get the option to make dragon leather if you have any dragonhides in your inventory. The cost for converting dragonhides is more expensive than hardened leather however. Use a needle and thread again and a smaller crafting display is shown with the items that you can craft from dragon leather.
     <br><br>
     Adding studs to a leather body or chaps increases it's strength. Studs can be smithed from steel, then used with the leather item to make it studded. Studs can only be used on normal leather.
+    <br><br>
     <h3>Gems</h3>
     Gems are rare objects you will occasionally find, they can be made more valuable by cutting them. Once a gem is cut it can also be used when you are making gold jewelry.
     <br><br>
     You will need to buy a chisel from a general store or a crafting shop. Select the chisel from your inventory and then the gem you wish to cut. If you find your crafting level is not high enough to cut the gem you may want to make a bit more pottery or leather to raise your crafting level first.
+    <br><br>
     <h3>Holy and Unholy symbols</h3>
     You need a crafting level of 16 to craft silver bars. To make silver bars see the <a href="?p=skillguides&skill=mining">mining</a> and <a href="?p=skillguides&skill=smithing">smithing</a> guides.
     <br><br>
@@ -798,6 +801,7 @@ function getSkillContent($skill) { return <<<HTML
     Putting gems in your gold jewelry can increase the smithing level required quite a lot, but it also increases the value of what you are making.
     <br><br>
     All the gold jewelry can be sold for a good price, but amulets and rings with jewels in them can also be <a href="?p=skillguides&skill=magic">enchanted at a high enough magic level</a> to give various bonuses. First of all your amulet will need a string, this is made in the same way as the string for the holy amulets of Saradomin. Then it can be enchanted using the magic skill.
+    <br><br>
     <h3>Glassmaking</h3>
     <table>
         <tr>
@@ -807,10 +811,12 @@ function getSkillContent($skill) { return <<<HTML
     </table>
     <br>
     Use this molten glass with a glass-blowing pipe, which can also be found on Entrana. You will then be asked what object you would like to make. If you want to make several of the same object, simply right-click and select the number you wish to produce.
+    <br><br>
     <h3>Bowstrings</h3>
     You can make bowstrings by using flax on a spinning wheel. If you want to make several of the same object, simply right-click and select the number you wish to produce.
     <br><br>
     Making bow strings gives a good amount of crafting experience and the bowstrings are useful for making bows (see the <a href="?p=skillguides&skill=fletching">fletching guide</a>.)
+    <br><br>
     <h3>Battlestaffs</h3>
     First get an unpowered orb (see glassmaking).
     <br><br>
@@ -819,6 +825,7 @@ function getSkillContent($skill) { return <<<HTML
     Then buy a battlestaff from a staff shop on a members server. Use the battlestaff with a charged orb to make an elemental battlestaff.
     <br><br>
     The crafting levels needed to attach the orbs to the staffs are shown in the table at the top of this page.
+    <br><br>
     <h3>Crafting Guild</h3>
     The crafting Guild can be entered by players who have a crafting level of at least 40 and who are wearing a brown apron. It is located west of Port Sarim and north of Rimmington.
     <br><br>
