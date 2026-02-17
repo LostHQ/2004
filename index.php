@@ -9,47 +9,42 @@ include 'config.php';
 $p = htmlspecialchars($_GET['p'] ?? '');
 
 switch ($p) {
-    // case 'droptables':
-    //     header('Location: ?p=npcdb');
-    //     break;
-    // case 'skillguides':
-    // case 'cluetables':
-    // case 'clueguides':
-    // case 'calculators':
-    // case 'questguides':
-    // case 'itemdb':
-    // case 'npcdb':
-    // case 'wallpapers':
-    // case 'specialguides':
-    // case 'tools':
-    // case 'playerinfo':
-    //     include 'pages/'.$p.'/main.php';
-    //     break;
+    case 'droptables':
+        header('Location: ?p=npcdb');
+        break;
+    case 'skillguides':
+    case 'cluetables':
+    case 'clueguides':
+    case 'calculators':
+    case 'questguides':
+    case 'itemdb':
+    case 'npcdb':
+    case 'wallpapers':
+    case 'specialguides':
+    case 'tools':
+    case 'playerinfo':
+        include 'pages/'.$p.'/main.php';
+        break;
 
-    // case '404':
-    // case '403':
-    //     include 'pages/main/error/'.$p.'.php';
-    //     break;
+    case '404':
+    case '403':
+        include 'pages/main/error/'.$p.'.php';
+        break;
 
-    // case 'changelog':
-    //     include 'pages/main/changelog.php';
-    //     break;
+    case 'changelog':
+        include 'pages/main/changelog.php';
+        break;
 
-    // case '': // No ?p= value (homepage)
-    //     include 'pages/main/homepage.php';
-    //     break;
+    case '': // No ?p= value (homepage)
+        include 'pages/main/homepage.php';
+        break;
 
     /*case 'updatecluetables':
         include 'pages/api/updatecluetables.php';
         break;*/
 
-    case 'offline':
-        include 'pages/main/offline.php';
-        break;
-
     default: // All other unknown pages
-        //header('Location: ?p=404') ;
-        header('Location: ?p=offline');
+        header('Location: ?p=404') ;
         break;
 }
 
