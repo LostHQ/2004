@@ -5,10 +5,13 @@ function getGuideContent($guide) {
         <img id="lightbox-img" src="">
     </div>
     <h2>LostKit</h2>
-    LostKit is a standalone utility for managing and launching Lost City related tools.
+    <i>LostKit is a standalone utility for managing and launching Lost City related tools.</i>
     <br><br>
-    You can either download the Windows executable or<br>run the Python version directly.
+    <b><font color="Red">Note:</font></b> This version is no longer maintained. If you wish to receive the latest updates, use <a href="">LostKit 2</a>.
     <br><br>
+    <img src="img/tools/LostKit.png" width="475" onclick="openLightbox(this.src)">
+    <br><br>
+    You can either download the Windows executable or run the Python version directly.
     <hr>
     <h3>.EXE Version (Windows)</h3>
     Follow these steps to download and run the LostKit executable:
@@ -21,16 +24,14 @@ function getGuideContent($guide) {
     <br><br>
     After the file finishes downloading, navigate to your downloads folder and locate LostKit.exe. Double click the .exe to launch the program.
     <br><br>
-    Windows Defender may block the program. If prompted, click
-    <br>
-    "More info" then "Run anyway".
+    Windows Defender may block the program. If prompted, click "More info" then "Run anyway".
     <br><br>
     <img src="img/tools/LostKit2.gif" width="475" onclick="openLightbox(this.src)">
     <br><br>
     If you'd like to verify the program's safety, you can inspect the <a href="https://github.com/Razgals/LostKit">source code</a>. This program has been verified safe by the Lost City staff.
     <br><br>
     <hr>
-    <h3>Python Version (.bat / .sh)</h3>
+    <h3>Python Version</h3>
     If you prefer to run LostKit through Python instead of the Windows executable, follow the setup instructions below.
     <h4>Requirements/Dependencies</h4>
     <ul>
@@ -44,13 +45,9 @@ function getGuideContent($guide) {
     <br><br>
     After the file finishes downloading, navigate to your downloads folder and locate LostKit.zip. Extract the files, then navigate into the extracted directory.
     <br><br>
-    <b>Windows</b>
-    <br>
-    Double click the .bat file.
+    Windows users can just double click the .bat file.
     <br><br>
-    <b>Linux/MacOS</b>
-    <br>
-    Make sure the .sh file is executable by owner/group. Double click the .sh file. If that doesn't work, open up a terminal at the folder where the .sh is located and type in ./LostKit.sh.
+    On Linux or macOS, open a terminal in the extracted directory and run LostKit with: <i>python3 main.py</i>
     <br><br>
     <hr>
     <h3>Usage</h3>
