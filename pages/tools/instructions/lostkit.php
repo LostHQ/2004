@@ -7,7 +7,7 @@ function getGuideContent($guide) {
     <h2>LostKit</h2>
     <i>LostKit is a standalone utility for managing and launching Lost City related tools.</i>
     <br><br>
-    <b><font color="Red">Note:</font></b> This version is no longer maintained. If you wish to receive the latest updates, use <a href="">LostKit 2</a>.
+    <b><font color="Red">Note:</font></b> This version is no longer maintained. If you wish to receive the latest updates, use <a href="?p=tools">LostKit 2</a>.
     <br><br>
     <img src="img/tools/LostKit.png" width="475" onclick="openLightbox(this.src)">
     <br><br>
