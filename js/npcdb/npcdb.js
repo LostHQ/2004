@@ -192,7 +192,7 @@
                         html: `<tr>
                         ${quantityRow}
                         <div style="display: flex; align-items: center; justify-content: center; gap: 5px;">
-                            <canvas itemname="${itemName}" amount="${amount}" show-label="inline"></canvas>${noteHtml}
+                            <canvas itemname="${itemName}" amount="${amount}" show-label="inline" itemlink="true"></canvas>${noteHtml}
                         </div>
                         </td>
                     </tr>`,
@@ -267,46 +267,18 @@
                             });
                         }
                     } else {
-                        if (itemName.includes("aboveground =") && itemName.includes("underground =")) {
-                            const parts = itemName.split("|").map((part) => part.trim());
-                            let abovegroundItem = "";
-                            let undergroundItem = "";
-
-                            parts.forEach((part) => {
-                                if (part.startsWith("aboveground =")) {
-                                    abovegroundItem = part.replace("aboveground =", "").trim();
-                                } else if (part.startsWith("underground =")) {
-                                    undergroundItem = part.replace("underground =", "").trim();
-                                }
-                            });
-
-                            const noteHtml = roll.note ? `<span class="note-indicator" title="${roll.note}">[?]</span>` : "";
-                            const quantityRow = (typeof amount === "string") ? `<td>${amount.toLocaleString()}</td><td>` : `<td colspan="2">`;
-                            rollableRows.push({
-                                html: `<tr>
-                                    ${quantityRow}
+                        const quantityRow = (typeof amount === "string") ? `<td>${amount.toLocaleString()}</td><td>` : `<td colspan="2">`;
+                        const noteHtml = roll.note ? `<span class="note-indicator" title="${roll.note}">[?]</span>` : "";
+                        rollableRows.push({
+                            html: `<tr>
+                                ${quantityRow}
                                         <div style="display: flex; align-items: center; justify-content: center; gap: 5px;">
-                                            <canvas itemname="${abovegroundItem}" amount="${amount}" show-label="inline"></canvas> or 
-                                            <canvas itemname="${undergroundItem}" amount="${amount}" show-label="inline"></canvas>${noteHtml}
+                                            <canvas itemname="${itemName}" amount="${amount}" show-label="inline" itemlink="true" itemlink="true"></canvas>${noteHtml}
                                         </div>
                                     </td>
                                     <td>${calculateChance(roll.chance, rollBase)}</td>
                                 </tr>`
-                            });
-                        } else {
-                            const quantityRow = (typeof amount === "string") ? `<td>${amount.toLocaleString()}</td><td>` : `<td colspan="2">`;
-                            const noteHtml = roll.note ? `<span class="note-indicator" title="${roll.note}">[?]</span>` : "";
-                            rollableRows.push({
-                                html: `<tr>
-                                    ${quantityRow}
-                                            <div style="display: flex; align-items: center; justify-content: center; gap: 5px;">
-                                                <canvas itemname="${itemName}" amount="${amount}" show-label="inline"></canvas>${noteHtml}
-                                            </div>
-                                        </td>
-                                        <td>${calculateChance(roll.chance, rollBase)}</td>
-                                    </tr>`
-                            });
-                        }
+                        });
                     }
                 }
 
@@ -510,6 +482,7 @@
 
             const style = document.createElement("style");
             style.textContent = `
+        a { color: white; text-decoration: none; }
         .modal {
             display: none;
             position: fixed;
@@ -666,9 +639,9 @@
                     tableHtml += `<tr>
                         <td>
                             <div style="display: flex; align-items: center; justify-content: center; gap: 5px;">
-                                <canvas itemname="${abovegroundItem}" amount="${subAmount}" show-label="inline"></canvas>
+                                <canvas itemname="${abovegroundItem}" amount="${subAmount}" show-label="inline" itemlink="true"></canvas>
                                 or
-                                <canvas itemname="${undergroundItem}" amount="${subAmount}" show-label="inline"></canvas>${noteHtml}
+                                <canvas itemname="${undergroundItem}" amount="${subAmount}" show-label="inline" itemlink="true"></canvas>${noteHtml}
                             </div>
                         </td>
                         <td>${calculateChance(subRoll.chance, rollBase)}</td>
@@ -684,7 +657,7 @@
                     tableHtml += `<tr>
                         <td>
                             <div style="display: flex; align-items: center; justify-content: center; gap: 5px;">
-                                <canvas itemname="${subItem}" amount="${subAmount}" show-label="inline"></canvas>${noteHtml}
+                                <canvas itemname="${subItem}" amount="${subAmount}" show-label="inline" itemlink="true"></canvas>${noteHtml}
                             </div>
                         </td>
                         <td>${calculateChance(subRoll.chance, rollBase)}</td>

@@ -361,6 +361,8 @@ function renderItemSpriteToCanvas(canvas) {
     const showLabel = canvas.getAttribute("show-label");
     const hideAmount = canvas.getAttribute("hide-amount");
     const iconSize = parseInt(canvas.getAttribute("icon-size"), 10) || itemSpriteSize;
+    const itemLink = canvas.getAttribute("itemlink") === "true";
+
     let id = 0;
     let name = "Unknown Item";
     let desc = "Please report this bug.";
@@ -456,6 +458,15 @@ function renderItemSpriteToCanvas(canvas) {
                 canvas.parentNode.insertBefore(label, canvas.nextSibling);
             }
         }
+    }
+
+    if (itemLink) {
+        const link = document.createElement("a");
+        link.href = "/?p=itemdb&item=" + encodeURIComponent(debugname);
+        const parentDiv = canvas.parentNode;
+        const grandParent = parentDiv.parentNode;
+        grandParent.insertBefore(link, parentDiv);
+        link.appendChild(parentDiv);
     }
 }
 
