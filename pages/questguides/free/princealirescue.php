@@ -19,6 +19,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
         <canvas itemname="bucket_water" icon-size="25" show-label="inline"></canvas>
     </div></li>
     <li><div data-progress><canvas itemname="pot_flour" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="redberries" icon-size="25" show-label="inline"></canvas></div></li>
     <li><div data-progress><canvas itemname="bronze_bar" icon-size="25" show-label="inline"></canvas></div></li>
     <li><div data-progress><canvas itemname="pink_skirt" icon-size="25" show-label="inline"></canvas></div></li>
     <li><div data-progress><canvas itemname="beer" icon-size="25" show-label="inline" name-replace="3 beers"></canvas></div></li>
