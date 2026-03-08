@@ -80,6 +80,10 @@ function addCombined(row, label, value, colspan = 2) {
     cell.textContent = `${label}: ${value}`;
 }
 
+function gcd(a, b) {//greatest common divisor
+    return b === 0 ? a : gcd(b, a % b);
+}
+
 document.addEventListener('DOMContentLoaded', () => {
     const now = new Date();
     if ((now.getMonth()+1) == 12) {

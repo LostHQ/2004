@@ -1,6 +1,8 @@
 (async function () {
     await checkSpriteLoaderReady();
     const itemData = window.itemData;
+    const npcData = window.npcData;
+    const sharedDropTablesData = window.sharedDropTablesData;
 
     const search1 = document.getElementById("search1");
     const search2 = document.getElementById("search2");
@@ -55,7 +57,6 @@
         for (const key in itemData) {
             const it = itemData[key];
             if (!it || !it.name) continue;
-            if (it.debugname && it.debugname.startsWith("cert_")) continue;
 
             // normalize tags to array of lowercase strings
             let tags = it.searchTags || [];
@@ -272,7 +273,200 @@
             cell.appendChild(bonusTable);
         }
 
+        // npc drops subtable
+        const droppers = findDroppers(item.debugname);
+        if (droppers.length > 0) {
+            row = table.insertRow();
+            const drCell = row.insertCell();
+            drCell.colSpan = 6;
+            const drTable = document.createElement("table");
+            drTable.className = "table";
+
+            let drRow = drTable.insertRow();
+            const drHeadNpc = document.createElement("th");
+            drHeadNpc.textContent = "Dropped By";
+            drRow.appendChild(drHeadNpc);
+            const drHeadChance = document.createElement("th");
+            drHeadChance.textContent = "Chance";
+            drRow.appendChild(drHeadChance);
+
+            droppers.forEach(({ npcKey, routes }) => {
+                const npc = npcData[npcKey];
+                const npcName = npc
+                    ? npc.vislevel === "hide"
+                        ? npc.name
+                        : `${npc.name} (level-${npc.vislevel})`
+                    : npcKey;
+                const npcHtml = `<a href="?p=npcdb&npc=${encodeURIComponent(npcKey)}">${npcName}</a>`;
+                routes.forEach(({ path, chanceStr }) => {
+                    drRow = drTable.insertRow();
+                    const tdNpc = drRow.insertCell();
+                    tdNpc.innerHTML = npcHtml;
+                    const tdChance = drRow.insertCell();
+                    const tooltipHtml = path.length > 0
+                        ? ` <span class="note-indicator" title="${path.join(" \u2192 ")}">[?]</span>`
+                        : "";
+                    tdChance.innerHTML = `${chanceStr}${tooltipHtml}`;
+                });
+            });
+
+            drCell.appendChild(drTable);
+        }
+
         return table;
+    }
+
+    function findDroppers(debugname) {
+        const sharedTablesWithItem = new Set();
+
+        function itemStrMatchesTarget(itemStr) {
+            if (!itemStr) return false;
+            if (itemStr.includes("|")) {//above and below ground drops (nature/cosmic talis)
+                return itemStr.split("|").some((part) => {
+                    const val = part.includes("=") ? part.split("=")[1].trim() : part.trim();
+                    return val === debugname;
+                });
+            }
+            return itemStr === debugname;
+        }
+
+        for (const tableName in sharedDropTablesData) {
+            const table = sharedDropTablesData[tableName];
+            if (!table.roll_table) continue;
+            for (const entry of table.roll_table) {
+                if (!entry.item) continue;
+                const itemStr = Array.isArray(entry.item) ? entry.item[0] : entry.item;
+                if (!itemStr.startsWith("~") && itemStrMatchesTarget(itemStr)) {
+                    sharedTablesWithItem.add(tableName);
+                    break;
+                }
+            }
+        }
+
+        let changed = true;
+        while (changed) {
+            changed = false;
+            for (const tableName in sharedDropTablesData) {
+                if (sharedTablesWithItem.has(tableName)) continue;
+                const table = sharedDropTablesData[tableName];
+                if (!table.roll_table) continue;
+                for (const entry of table.roll_table) {
+                    if (!entry.item) continue;
+                    const itemStr = Array.isArray(entry.item) ? entry.item[0] : entry.item;
+                    if (itemStr.startsWith("~") && sharedTablesWithItem.has(itemStr.slice(1))) {
+                        sharedTablesWithItem.add(tableName);
+                        changed = true;
+                        break;
+                    }
+                }
+            }
+        }
+
+        function combineFrac(n1, d1, n2, d2) {
+            const rn = n1 * n2, rd = d1 * d2;
+            const g = gcd(Math.abs(rn), Math.abs(rd));
+            return { n: rn / g, d: rd / g };
+        }
+
+        function formatChance(n, d) {
+            if (n >= d) return "Always";
+            const g = gcd(Math.abs(n), Math.abs(d));
+            const sn = n / g, sd = d / g;
+            return sn === 1 ? `1/${sd.toLocaleString()}` : `${sn.toLocaleString()}/${sd.toLocaleString()}`;
+        }
+
+        function getRoutesFromSharedTable(tableName, outerN, outerD, pathSoFar) {
+            const table = sharedDropTablesData[tableName];
+            if (!table || !table.roll_table) return [];
+            const tableBase = table.roll_base || 128;
+            const label = table.name || tableName;
+            const newPath = [...pathSoFar, label];
+            const result = [];
+            for (const entry of table.roll_table) {
+                if (!entry.item) continue;
+                const itemStr = Array.isArray(entry.item) ? entry.item[0] : entry.item;
+                const ec = parseInt(entry.chance);
+                if (isNaN(ec)) continue;
+                const c = combineFrac(outerN, outerD, ec, tableBase);
+                if (!itemStr.startsWith("~") && itemStrMatchesTarget(itemStr)) {
+                    result.push({ path: newPath, chanceStr: formatChance(c.n, c.d) });
+                } else if (itemStr.startsWith("~") && sharedTablesWithItem.has(itemStr.slice(1))) {
+                    result.push(...getRoutesFromSharedTable(itemStr.slice(1), c.n, c.d, newPath));
+                }
+            }
+            return result;
+        }
+
+        function computeItemRoutes(drops) {
+            const routes = [];
+            const rollBase = drops.roll_base || 128;
+
+            if (drops.always) {
+                for (const entry of drops.always) {
+                    if (!entry.item) continue;
+                    const itemStr = Array.isArray(entry.item) ? entry.item[0] : entry.item;
+                    if (!itemStr.startsWith("~") && itemStrMatchesTarget(itemStr)) {
+                        routes.push({ path: [], chanceStr: "Always" });
+                    } else if (itemStr.startsWith("~") && sharedTablesWithItem.has(itemStr.slice(1))) {
+                        routes.push(...getRoutesFromSharedTable(itemStr.slice(1), 1, 1, []));
+                    }
+                }
+            }
+
+            if (drops.roll_table) {
+                for (const entry of drops.roll_table) {
+                    if (!entry.item) continue;
+                    const itemStr = Array.isArray(entry.item) ? entry.item[0] : entry.item;
+                    const ec = parseInt(entry.chance);
+                    if (isNaN(ec)) continue;
+                    if (!itemStr.startsWith("~") && itemStrMatchesTarget(itemStr)) {
+                        routes.push({ path: [], chanceStr: formatChance(ec, rollBase) });
+                    } else if (itemStr.startsWith("~") && sharedTablesWithItem.has(itemStr.slice(1))) {
+                        routes.push(...getRoutesFromSharedTable(itemStr.slice(1), ec, rollBase, []));
+                    }
+                }
+            }
+
+            if (drops.tertiary) {
+                const tertiaryData = Array.isArray(drops.tertiary) ? drops.tertiary : [drops.tertiary];
+                for (const entry of tertiaryData) {
+                    const itemStr = typeof entry.item === "string" ? entry.item : (Array.isArray(entry.item) ? entry.item[0] : null);
+                    if (!itemStr) continue;
+                    if (!itemStr.startsWith("~") && itemStrMatchesTarget(itemStr)) {
+                        routes.push({ path: ["Tertiary"], chanceStr: String(entry.chance) });
+                    } else if (itemStr.startsWith("~") && sharedTablesWithItem.has(itemStr.slice(1))) {
+                        const chanceStr = String(entry.chance);
+                        let tertiaryN = 1, tertiaryD = 1;
+                        if (chanceStr.includes("/")) {
+                            //chance in tertiary is just a fraction for now until other tertiary rolls are added aside from clue scrolls
+                            // todo: change whenever other tertiary drops are added
+                            const parts = chanceStr.split("/");
+                            tertiaryN = parseInt(parts[0].replace(/,/g, ""), 10);
+                            tertiaryD = parseInt(parts[1].replace(/,/g, ""), 10);
+                        }
+                        routes.push(...getRoutesFromSharedTable(itemStr.slice(1), tertiaryN, tertiaryD, ["Tertiary"]));
+                    }
+                }
+            }
+
+            return routes;
+        }
+
+        const dropperMap = new Map();
+        for (const npcKey in npcData) {
+            const npc = npcData[npcKey];
+            if (!npc || !npc.drops) continue;
+            const routes = computeItemRoutes(npc.drops);
+            if (routes.length > 0) dropperMap.set(npcKey, routes);
+        }
+
+        return [...dropperMap.keys()]
+            .sort((a, b) => {
+                const na = npcData[a]?.name || a;
+                const nb = npcData[b]?.name || b;
+                return na.localeCompare(nb);
+            })
+            .map((npcKey) => ({ npcKey, routes: dropperMap.get(npcKey) }));
     }
 
     function updateDisplay() {

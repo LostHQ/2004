@@ -804,3 +804,12 @@ img.narrowscroll-bottom {
     color: gold;
   }
 }
+.note-indicator {
+    color: #888;
+    font-size: 11px;
+    cursor: help;
+    margin-left: 5px;
+}
+.note-indicator:hover {
+    color: #ccc;
+}

@@ -3,7 +3,7 @@
     const npcData = window.npcData;
 
     Promise.all([
-        fetch(`js/npcdb/shared_drops.json?v=${currentGameVer}`).then((res) => res.json())
+        fetch(`/js/npcdb/shared_drops.json?v=${currentGameVer}`).then((res) => res.json())
     ]).then(([sharedDropTablesData]) => {
         sharedDropTables = sharedDropTablesData;
         loadNPCFromURL();
@@ -16,6 +16,9 @@
         randomjewel: "uncut_dragonstone",
         ultrarare_getitem: "dragon_med_helm",
         megararetable: "dragonshield_a",
+        "clue-easy": "trail_clue_easy_simple001",
+        "clue-medium": "trail_clue_medium_sextant001",
+        "clue-hard": "trail_clue_hard_sextant001",
     };
 
     function getNPCName(debugname) {
@@ -300,34 +303,41 @@
                     const itemName = tertiary.item;
                     const chance = tertiary.chance;
                     const note = tertiary.note;
-
-                    let displayItemName = itemName;
-                    let nameAppend = "";
-
-                    if (itemName.startsWith("clue-")) {
-                        const tier = itemName.replace("clue-", "");
-                        if (tier === "easy") {
-                            displayItemName = "trail_clue_easy_simple001";
-                        } else if (tier === "medium") {
-                            displayItemName = "trail_clue_medium_sextant001";
-                        } else if (tier === "hard") {
-                            displayItemName = "trail_clue_hard_sextant001";
-                        }
-                        const tierCapitalized = tier.charAt(0).toUpperCase() + tier.slice(1);
-                        nameAppend = ` (${tierCapitalized})`;
-                    }
-
                     const noteHtml = note ? `<span class="note-indicator" title="${note}">[?]</span>` : "";
-                    tertiaryRows.push({
-                        html: `<tr>
-                            <td colspan="2">
-                                <div style="display: flex; align-items: center; justify-content: center; gap: 5px;">
-                                    <canvas itemname="${displayItemName}" amount="1" show-label="inline"${nameAppend ? ` name-append="${nameAppend}"` : ""}></canvas>${noteHtml}
-                                </div>
-                            </td>
-                            <td>${chance}</td>
+
+                    if (itemName.startsWith("~")) {
+                        const sharedTableName = itemName.slice(1);
+                        const sharedTable = sharedDropTables[sharedTableName];
+                        if (sharedTable) {
+                            const iconItem = SHARED_TABLE_ICONS[sharedTableName];
+                            const iconHtml = iconItem ? `<canvas itemname="${iconItem}" amount="1"></canvas>` : "";
+                            tertiaryRows.push({
+                                html: `<tr>
+                                    <td colspan="2">
+                                        <div style="display: flex; align-items: center; justify-content: center; gap: 5px;">
+                                            ${iconHtml}
+                                            <span class="shared-table-toggle"
+                                                onclick="openSharedTableModal('${sharedTableName}', '${chance}',
+                                                '${baseTitle} (${chance})')">${sharedTable.name || sharedTableName}</span>
+                                            ${noteHtml}
+                                        </div>
+                                    </td>
+                                    <td>${chance}</td>
+                                </tr>`
+                            });
+                        }
+                    } else {
+                        tertiaryRows.push({
+                            html: `<tr>
+                                <td colspan="2">
+                                    <div style="display: flex; align-items: center; justify-content: center; gap: 5px;">
+                                        <canvas itemname="${itemName}" amount="1" show-label="inline"></canvas>${noteHtml}
+                                    </div>
+                                </td>
+                                <td>${chance}</td>
                             </tr>`
-                    });
+                        });
+                    }
                 });
             }
             html += '<table class="table" width="100%">';
@@ -420,9 +430,6 @@
             const chance = parseInt(sharedTableChance);
             if (isNaN(chance)) return "Unknown";
 
-            function gcd(a, b) {
-                return b === 0 ? a : gcd(b, a % b);
-            }
             const divisor = gcd(chance, rollBase);
             sharedNumerator = chance / divisor;
             sharedDenominator = rollBase / divisor;
@@ -437,9 +444,6 @@
             const chance = parseInt(itemChance);
             if (isNaN(chance)) return "Unknown";
 
-            function gcd(a, b) {
-                return b === 0 ? a : gcd(b, a % b);
-            }
             const divisor = gcd(chance, rollBase);
             itemNumerator = chance / divisor;
             itemDenominator = rollBase / divisor;
@@ -448,9 +452,6 @@
         const totalNumerator = sharedNumerator * itemNumerator;
         const totalDenominator = sharedDenominator * itemDenominator;
 
-        function gcd(a, b) {
-            return b === 0 ? a : gcd(b, a % b);
-        }
         const finalDivisor = gcd(totalNumerator, totalDenominator);
         const finalNumerator = totalNumerator / finalDivisor;
         const finalDenominator = totalDenominator / finalDivisor;
@@ -482,7 +483,6 @@
 
             const style = document.createElement("style");
             style.textContent = `
-        a { color: white; text-decoration: none; }
         .modal {
             display: none;
             position: fixed;
@@ -540,17 +540,7 @@
         .modal-content table.calculators td {
             background-color: #1a1a1a;
             color: white;
-        }
-        .note-indicator {
-            color: #888;
-            font-size: 11px;
-            cursor: help;
-            margin-left: 5px;
-        }
-        .note-indicator:hover {
-            color: #ccc;
-        }
-        `;
+        }`;
             document.head.appendChild(style);
         }
 

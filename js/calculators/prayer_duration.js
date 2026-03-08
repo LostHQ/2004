@@ -20,7 +20,7 @@ async function fetchPrayerLevel() {
     const username = document.getElementById("username").value.trim();
     if (!username) return alert("Please enter a username.");
     try {
-        const res = await fetch(`pages/api/LCHiscoresProxy.php?username=${encodeURIComponent(username)}`);
+        const res = await fetch(`/pages/api/LCHiscoresProxy.php?username=${encodeURIComponent(username)}`);
         if (!res.ok) throw new Error("Network error");
         const data = await res.json();
         const prayerData = data.find((stat) => stat.type === 6);

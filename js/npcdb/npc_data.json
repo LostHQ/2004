@@ -163,7 +163,7 @@
         {"item":["bones",1]}
       ],
       "tertiary": [
-        {"item":"clue-easy","chance":"1/128"}
+        {"item":"~clue-easy","chance":"1/128"}
       ]
     }
   },
@@ -214,7 +214,7 @@
         {"item":["bones",1]}
       ],
       "tertiary": [
-        {"item":"clue-easy","chance":"1/128"}
+        {"item":"~clue-easy","chance":"1/128"}
       ]
     }
   },
@@ -424,7 +424,7 @@
         {"item":["bones",1]}
       ],
       "tertiary": [
-        {"item":"clue-medium","chance":"1/128"}
+        {"item":"~clue-medium","chance":"1/128"}
       ]
     }
   },
@@ -936,7 +936,7 @@
         {"item":["bones",1]}
       ],
       "tertiary": [
-        {"item":"clue-easy","chance":"1/128"}
+        {"item":"~clue-easy","chance":"1/128"}
       ]
     }
   },
@@ -1010,7 +1010,7 @@
         {"item":["bones",1]}
       ],
       "tertiary": [
-        {"item":"clue-easy","chance":"1/128"}
+        {"item":"~clue-easy","chance":"1/128"}
       ]
     }
   },
@@ -1301,7 +1301,7 @@
         {"item":["dragonhide_black",1]}
       ],
       "tertiary": [
-        {"item":"clue-hard","chance":"1/128"}
+        {"item":"~clue-hard","chance":"1/128"}
       ]
     }
   },
@@ -1351,7 +1351,7 @@
         {"item":["bones",1]}
       ],
       "tertiary": [
-        {"item":"clue-medium","chance":"1/128"}
+        {"item":"~clue-medium","chance":"1/128"}
       ]
     }
   },
@@ -1607,7 +1607,7 @@
         {"item":["dragonhide_blue",1]}
       ],
       "tertiary": [
-        {"item":"clue-hard","chance":"1/128"}
+        {"item":"~clue-hard","chance":"1/128"}
       ]
     }
   },
@@ -3910,7 +3910,7 @@
         {"item":["bones",1]}
       ],
       "tertiary": [
-        {"item":"clue-medium","chance":"1/128"}
+        {"item":"~clue-medium","chance":"1/128"}
       ]
     }
   },
@@ -3968,7 +3968,7 @@
         {"item":["bones",1]}
       ],
       "tertiary": [
-        {"item":"clue-medium","chance":"1/128"}
+        {"item":"~clue-medium","chance":"1/128"}
       ]
     }
   },
@@ -4152,7 +4152,7 @@
         {"item":["bones",1]}
       ],
       "tertiary": [
-        {"item":"clue-easy","chance":"1/128"}
+        {"item":"~clue-easy","chance":"1/128"}
       ]
     }
   },
@@ -4201,7 +4201,7 @@
         {"item":["bones",1]}
       ],
       "tertiary": [
-        {"item":"clue-easy","chance":"1/128"}
+        {"item":"~clue-easy","chance":"1/128"}
       ]
     }
   },
@@ -4250,7 +4250,7 @@
         {"item":["bones",1]}
       ],
       "tertiary": [
-        {"item":"clue-easy","chance":"1/128"}
+        {"item":"~clue-easy","chance":"1/128"}
       ]
     }
   },
@@ -4299,7 +4299,7 @@
         {"item":["bones",1]}
       ],
       "tertiary": [
-        {"item":"clue-easy","chance":"1/128"}
+        {"item":"~clue-easy","chance":"1/128"}
       ]
     }
   },
@@ -5179,7 +5179,7 @@
         {"item":["bones",1]}
       ],
       "tertiary": [
-        {"item":"clue-easy","chance":"1/128"}
+        {"item":"~clue-easy","chance":"1/128"}
       ]
     }
   },
@@ -5228,7 +5228,7 @@
         {"item":["bones",1]}
       ],
       "tertiary": [
-        {"item":"clue-easy","chance":"1/128"}
+        {"item":"~clue-easy","chance":"1/128"}
       ]
     }
   },
@@ -5277,7 +5277,7 @@
         {"item":["bones",1]}
       ],
       "tertiary": [
-        {"item":"clue-easy","chance":"1/128"}
+        {"item":"~clue-easy","chance":"1/128"}
       ]
     }
   },
@@ -5551,7 +5551,7 @@
         {"item":["bones",1]}
       ],
       "tertiary": [
-        {"item":"clue-medium","chance":"1/128"}
+        {"item":"~clue-medium","chance":"1/128"}
       ]
     }
   },
@@ -8595,7 +8595,7 @@
         {"item":["bones",1]}
       ],
       "tertiary": [
-        {"item":"clue-easy","chance":"1/128"}
+        {"item":"~clue-easy","chance":"1/128"}
       ]
     }
   },
@@ -8641,7 +8641,7 @@
         {"item":["bones",1]}
       ],
       "tertiary": [
-        {"item":"clue-easy","chance":"1/128"}
+        {"item":"~clue-easy","chance":"1/128"}
       ]
     }
   },
@@ -8692,7 +8692,7 @@
         {"item":["bones",1]}
       ],
       "tertiary": [
-        {"item":"clue-easy","chance":"1/128"}
+        {"item":"~clue-easy","chance":"1/128"}
       ]
     }
   },
@@ -8742,7 +8742,7 @@
         {"item":["bones",1]}
       ],
       "tertiary": [
-        {"item":"clue-easy","chance":"1/128"}
+        {"item":"~clue-easy","chance":"1/128"}
       ]
     }
   },
@@ -8791,7 +8791,7 @@
         {"item":["bones",1]}
       ],
       "tertiary": [
-        {"item":"clue-easy","chance":"1/128"}
+        {"item":"~clue-easy","chance":"1/128"}
       ]
     }
   },
@@ -8842,7 +8842,7 @@
         {"item":["bones",1]}
       ],
       "tertiary": [
-        {"item":"clue-easy","chance":"1/128"}
+        {"item":"~clue-easy","chance":"1/128"}
       ]
     }
   },
@@ -9145,7 +9145,7 @@
         {"item":["ashes",1]}
       ],
       "tertiary": [
-        {"item":"clue-hard","chance":"1/128"}
+        {"item":"~clue-hard","chance":"1/128"}
       ]
     }
   },
@@ -9204,7 +9204,7 @@
         {"item":["dragonhide_green",1]}
       ],
       "tertiary": [
-        {"item":"clue-hard","chance":"1/128"}
+        {"item":"~clue-hard","chance":"1/128"}
       ]
     }
   },
@@ -9462,7 +9462,7 @@
         {"item":["bones",1]}
       ],
       "tertiary": [
-        {"item":"clue-medium","chance":"1/128"}
+        {"item":"~clue-medium","chance":"1/128"}
       ]
     }
   },
@@ -9524,7 +9524,7 @@
         {"item":["bones",1]}
       ],
       "tertiary": [
-        {"item":"clue-medium","chance":"1/128"}
+        {"item":"~clue-medium","chance":"1/128"}
       ]
     }
   },
@@ -9788,7 +9788,7 @@
         {"item":["bones",1]}
       ],
       "tertiary": [
-        {"item":"clue-easy","chance":"1/128"}
+        {"item":"~clue-easy","chance":"1/128"}
       ]
     }
   },
@@ -9996,7 +9996,7 @@
         {"item":["bones",1]}
       ],
       "tertiary": [
-        {"item":"clue-hard","chance":"1/64"}
+        {"item":"~clue-hard","chance":"1/64"}
       ]
     }
   },
@@ -10536,7 +10536,7 @@
         {"item":["bones",1]}
       ],
       "tertiary": [
-        {"item":"clue-medium","chance":"1/128"}
+        {"item":"~clue-medium","chance":"1/128"}
       ]
     }
   },
@@ -10582,7 +10582,7 @@
         {"item":["bones",1]}
       ],
       "tertiary": [
-        {"item":"clue-medium","chance":"1/128"}
+        {"item":"~clue-medium","chance":"1/128"}
       ]
     }
   },
@@ -11036,7 +11036,7 @@
         {"item":["tbwt_jogre_bones",1]}
       ],
       "tertiary": [
-        {"item":"clue-medium","chance":"1/129"}
+        {"item":"~clue-medium","chance":"1/129"}
       ]
     }
   },
@@ -11239,7 +11239,7 @@
         {"item":["~randomjewel",1],"chance":"6"}
       ],
       "tertiary": [
-        {"item":"clue-hard","chance":"1/128"}
+        {"item":"~clue-hard","chance":"1/128"}
       ]
     }
   },
@@ -11828,7 +11828,7 @@
         {"item":["dragonhide_black",1]}
       ],
       "tertiary": [
-        {"item":"clue-hard","chance":"1/128"}
+        {"item":"~clue-hard","chance":"1/128"}
       ]
     }
   },
@@ -13889,7 +13889,7 @@
         {"item":["bones",1]}
       ],
       "tertiary": [
-        {"item":"clue-easy","chance":"1/128"}
+        {"item":"~clue-easy","chance":"1/128"}
       ]
     }
   },
@@ -13936,7 +13936,7 @@
         {"item":["bones",1]}
       ],
       "tertiary": [
-        {"item":"clue-easy","chance":"1/128"}
+        {"item":"~clue-easy","chance":"1/128"}
       ]
     }
   },
@@ -13983,7 +13983,7 @@
         {"item":["bones",1]}
       ],
       "tertiary": [
-        {"item":"clue-easy","chance":"1/128"}
+        {"item":"~clue-easy","chance":"1/128"}
       ]
     }
   },
@@ -14489,7 +14489,7 @@
         {"item":["bones",1]}
       ],
       "tertiary": [
-        {"item":"clue-easy","chance":"1/128"}
+        {"item":"~clue-easy","chance":"1/128"}
       ]
     }
   },
@@ -15384,7 +15384,7 @@
         {"item":["bones",1]}
       ],
       "tertiary": [
-        {"item":"clue-medium","chance":"1/128"}
+        {"item":"~clue-medium","chance":"1/128"}
       ]
     }
   },
@@ -16154,7 +16154,7 @@
         {"item":["dragonhide_red",1]}
       ],
       "tertiary": [
-        {"item":"clue-hard","chance":"1/128"}
+        {"item":"~clue-hard","chance":"1/128"}
       ]
     }
   },
@@ -16255,7 +16255,7 @@
         {"item":["bones",1]}
       ],
       "tertiary": [
-        {"item":"clue-easy","chance":"1/128"}
+        {"item":"~clue-easy","chance":"1/128"}
       ]
     }
   },
@@ -17529,7 +17529,7 @@
         {"item":["bones",1]}
       ],
       "tertiary": [
-        {"item":"clue-medium","chance":"1/128"}
+        {"item":"~clue-medium","chance":"1/128"}
       ]
     }
   },
@@ -17889,7 +17889,7 @@
         {"item":["bones",1]}
       ],
       "tertiary": [
-        {"item":"clue-easy","chance":"1/128"}
+        {"item":"~clue-easy","chance":"1/128"}
       ]
     }
   },
@@ -17935,7 +17935,7 @@
         {"item":["bones",1]}
       ],
       "tertiary": [
-        {"item":"clue-easy","chance":"1/128"}
+        {"item":"~clue-easy","chance":"1/128"}
       ]
     }
   },
@@ -18009,7 +18009,7 @@
         {"item":["bones",1]}
       ],
       "tertiary": [
-        {"item":"clue-easy","chance":"1/128"}
+        {"item":"~clue-easy","chance":"1/128"}
       ]
     }
   },
@@ -18272,7 +18272,7 @@
         {"item":["bones",1]}
       ],
       "tertiary": [
-        {"item":"clue-medium","chance":"1/138"}
+        {"item":"~clue-medium","chance":"1/138"}
       ]
     }
   },
@@ -19325,7 +19325,7 @@
         {"item":["paladinbadge1",1]}
       ],
       "tertiary": [
-        {"item":"clue-medium","chance":"1/128"}
+        {"item":"~clue-medium","chance":"1/128"}
       ]
     }
   },
@@ -19374,7 +19374,7 @@
         {"item":["paladinbadge2",1]}
       ],
       "tertiary": [
-        {"item":"clue-medium","chance":"1/128"}
+        {"item":"~clue-medium","chance":"1/128"}
       ]
     }
   },
@@ -19423,7 +19423,7 @@
         {"item":["paladinbadge3",1]}
       ],
       "tertiary": [
-        {"item":"clue-medium","chance":"1/128"}
+        {"item":"~clue-medium","chance":"1/128"}
       ]
     }
   },
@@ -20153,7 +20153,7 @@
         {"item":["bones",1]}
       ],
       "tertiary": [
-        {"item":"clue-easy","chance":"1/128"}
+        {"item":"~clue-easy","chance":"1/128"}
       ]
     }
   },
@@ -20200,7 +20200,7 @@
         {"item":["bones",1]}
       ],
       "tertiary": [
-        {"item":"clue-easy","chance":"1/128"}
+        {"item":"~clue-easy","chance":"1/128"}
       ]
     }
   },
@@ -20247,7 +20247,7 @@
         {"item":["bones",1]}
       ],
       "tertiary": [
-        {"item":"clue-easy","chance":"1/128"}
+        {"item":"~clue-easy","chance":"1/128"}
       ]
     }
   },

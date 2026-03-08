@@ -28,9 +28,10 @@ async function checkSpriteLoaderReady() {
     try {
         await loadFonts();
 
-        const [itemJson, npcJson] = await Promise.all([
-            fetch(`js/itemdb/item_data.json?v=${currentGameVer}`).then((res) => res.json()),
-            fetch(`js/npcdb/npc_data.json?v=${currentGameVer}`).then((res) => res.json()),
+        const [itemJson, npcJson, sharedDropTablesData] = await Promise.all([
+            fetch(`/js/itemdb/item_data.json?v=${currentGameVer}`).then((res) => res.json()),
+            fetch(`/js/npcdb/npc_data.json?v=${currentGameVer}`).then((res) => res.json()),
+            fetch(`/js/npcdb/shared_drops.json?v=${currentGameVer}`).then((res) => res.json())
         ]);
 
         function toMapByDebugname(data) {
@@ -49,6 +50,7 @@ async function checkSpriteLoaderReady() {
         npcData = toMapByDebugname(npcJson);
         window.itemData = itemData;
         window.npcData = npcData;
+        window.sharedDropTablesData = sharedDropTablesData;
         window.spriteLoaderReady = true;
     } catch (err) {
         console.error("Error loading resources:", err);
@@ -463,6 +465,8 @@ function renderItemSpriteToCanvas(canvas) {
     if (itemLink) {
         const link = document.createElement("a");
         link.href = "/?p=itemdb&item=" + encodeURIComponent(debugname);
+        link.style.textDecoration = "none";
+        link.style.color = "white";
         const parentDiv = canvas.parentNode;
         const grandParent = parentDiv.parentNode;
         grandParent.insertBefore(link, parentDiv);

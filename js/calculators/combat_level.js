@@ -4,7 +4,7 @@ async function fetchCombatLevels() {
 
     try {
         // Fetch data from the API
-        const response = await fetch(`pages/api/LCHiscoresProxy.php?username=${encodeURIComponent(username)}`);
+        const response = await fetch(`/pages/api/LCHiscoresProxy.php?username=${encodeURIComponent(username)}`);
         if (!response.ok) throw new Error("Failed to fetch data.");
         const data = await response.json();
 

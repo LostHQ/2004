@@ -203,13 +203,13 @@ async function lookupPlayer() {
 }
 
 async function lookupAlog(username) {
-    const response = await fetch(`pages/api/LCAlogProxy.php?username=${encodeURIComponent(username)}&time=` + Date.now());
+    const response = await fetch(`/pages/api/LCAlogProxy.php?username=${encodeURIComponent(username)}&time=` + Date.now());
     if (!response.ok) throw new Error("Player adventure log not found.");
     return await response.json();
 }
 
 async function lookupHiscores(username) {
-    const response = await fetch(`pages/api/LCHiscoresProxy.php?username=${encodeURIComponent(username)}&time=` + Date.now());
+    const response = await fetch(`/pages/api/LCHiscoresProxy.php?username=${encodeURIComponent(username)}&time=` + Date.now());
     if (!response.ok) throw new Error("Player not found or not ranked in hiscores.");
     return await response.json();
 }
