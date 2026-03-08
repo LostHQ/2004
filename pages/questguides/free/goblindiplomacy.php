@@ -16,7 +16,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
     </ul>
     <b>Starting Location:</b> Port Sarim Pub
     <br><br>
-    <b>Reward:</b> 5 Quest points, 815 Crafting XP, 1 Gold Bar
+    <b>Reward:</b> 5 Quest points, 200 Crafting XP, 1 Gold Bar
 </div>
 <h3>Instructions:</h3>
 <br>
