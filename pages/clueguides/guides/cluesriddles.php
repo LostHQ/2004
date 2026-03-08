@@ -122,7 +122,7 @@ function getGuideContent($guide) { return <<<HTML
   </tr>
   <tr>
     <td>In a town where the guards<br>are armed with maces, search<br>the upstairs rooms of the<br>Public House.</td>
-    <td>Ardougne Tavern on the west side of the river, north of the palace. Search the drawers. If it is locked, right-click on it and find out why (usually need to kill something to get a key).</td>
+    <td>Ardougne Tavern on the west side of the river, north of the palace. Search the drawers. If it is locked, right-click on it and find out why. You need to kill a guard dog at the nearby Handelmort Mansion for a key.</td>
   </tr>
   <tr>
     <td>In a town where thieves<br>steal from stalls, search for<br>some drawers in the upstairs<br>of a house near the bank.</td>
