@@ -61,7 +61,9 @@ function getPageContent() {
       <td>Nsyion</td>
     </tr>
     <tr>
-      <td colspan="3">Sir Tyrael</td>
+      <td>Sir Tyrael</td>
+      <td>Index</td>
+      <td>Macaron</td>
     </tr>
   </table>
 </div>
