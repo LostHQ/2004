@@ -46943,7 +46943,7 @@
     "name": "Raw karambwanji",
     "desc": "Small brightly coloured tropical fish.",
     "cost": 10,
-    "weight": 170,
+    "weight": 140,
     "members": true,
     "iops": {
       "iop5": "Drop"
@@ -48694,6 +48694,7 @@
     "cost": 1,
     "weight": 0,
     "members": false,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -48706,6 +48707,7 @@
     "cost": 1,
     "weight": 0,
     "members": false,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -48718,6 +48720,7 @@
     "cost": 1,
     "weight": 0,
     "members": false,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -48730,6 +48733,7 @@
     "cost": 1,
     "weight": 0,
     "members": false,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -48742,6 +48746,7 @@
     "cost": 1,
     "weight": 0,
     "members": false,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -48754,6 +48759,7 @@
     "cost": 1,
     "weight": 0,
     "members": false,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -48766,6 +48772,7 @@
     "cost": 1,
     "weight": 0,
     "members": false,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -48778,6 +48785,7 @@
     "cost": 1,
     "weight": 0,
     "members": false,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -48790,6 +48798,7 @@
     "cost": 1,
     "weight": 0,
     "members": false,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -48802,6 +48811,7 @@
     "cost": 1,
     "weight": 0,
     "members": false,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -48814,6 +48824,7 @@
     "cost": 1,
     "weight": 0,
     "members": false,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -48826,6 +48837,7 @@
     "cost": 1,
     "weight": 0,
     "members": false,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -48838,6 +48850,7 @@
     "cost": 1,
     "weight": 0,
     "members": false,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -48850,6 +48863,7 @@
     "cost": 1,
     "weight": 0,
     "members": false,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -48862,6 +48876,7 @@
     "cost": 1,
     "weight": 0,
     "members": false,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -48874,6 +48889,7 @@
     "cost": 1,
     "weight": 0,
     "members": false,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -48886,6 +48902,7 @@
     "cost": 1,
     "weight": 0,
     "members": false,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -48898,6 +48915,7 @@
     "cost": 1,
     "weight": 0,
     "members": false,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -48910,6 +48928,7 @@
     "cost": 1,
     "weight": 0,
     "members": false,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -48922,6 +48941,7 @@
     "cost": 1,
     "weight": 0,
     "members": false,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -48934,6 +48954,7 @@
     "cost": 1,
     "weight": 0,
     "members": false,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -48946,6 +48967,7 @@
     "cost": 1,
     "weight": 0,
     "members": false,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -48958,6 +48980,7 @@
     "cost": 1,
     "weight": 0,
     "members": false,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -48970,6 +48993,7 @@
     "cost": 1,
     "weight": 0,
     "members": false,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -48982,6 +49006,7 @@
     "cost": 1,
     "weight": 0,
     "members": false,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -48994,6 +49019,7 @@
     "cost": 1,
     "weight": 0,
     "members": false,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -49006,6 +49032,7 @@
     "cost": 1,
     "weight": 0,
     "members": false,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -49018,6 +49045,7 @@
     "cost": 1,
     "weight": 0,
     "members": false,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -49030,6 +49058,7 @@
     "cost": 1,
     "weight": 0,
     "members": false,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -49042,6 +49071,7 @@
     "cost": 1,
     "weight": 0,
     "members": false,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -49054,6 +49084,7 @@
     "cost": 1,
     "weight": 0,
     "members": false,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -49066,6 +49097,7 @@
     "cost": 1,
     "weight": 0,
     "members": false,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -49078,6 +49110,7 @@
     "cost": 1,
     "weight": 0,
     "members": false,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -49090,6 +49123,7 @@
     "cost": 1,
     "weight": 0,
     "members": false,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -49102,6 +49136,7 @@
     "cost": 1,
     "weight": 0,
     "members": false,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -49114,6 +49149,7 @@
     "cost": 1,
     "weight": 0,
     "members": false,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -49126,6 +49162,7 @@
     "cost": 1,
     "weight": 0,
     "members": false,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -49138,6 +49175,7 @@
     "cost": 1,
     "weight": 0,
     "members": false,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -49150,6 +49188,7 @@
     "cost": 1,
     "weight": 0,
     "members": false,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -49162,6 +49201,7 @@
     "cost": 1,
     "weight": 0,
     "members": false,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -49174,6 +49214,7 @@
     "cost": 1,
     "weight": 0,
     "members": false,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -49186,6 +49227,7 @@
     "cost": 1,
     "weight": 0,
     "members": false,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -49198,6 +49240,7 @@
     "cost": 1,
     "weight": 0,
     "members": false,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -49210,6 +49253,7 @@
     "cost": 1,
     "weight": 0,
     "members": false,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -49222,6 +49266,7 @@
     "cost": 1,
     "weight": 0,
     "members": false,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -49234,6 +49279,7 @@
     "cost": 1,
     "weight": 0,
     "members": false,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -49246,6 +49292,7 @@
     "cost": 1,
     "weight": 0,
     "members": false,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -49258,6 +49305,7 @@
     "cost": 1,
     "weight": 0,
     "members": false,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -49270,6 +49318,7 @@
     "cost": 1,
     "weight": 0,
     "members": false,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -49282,6 +49331,7 @@
     "cost": 1,
     "weight": 0,
     "members": false,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -49294,6 +49344,7 @@
     "cost": 1,
     "weight": 0,
     "members": false,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -49306,6 +49357,7 @@
     "cost": 1,
     "weight": 0,
     "members": false,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
