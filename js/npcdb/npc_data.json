@@ -220,7 +220,7 @@
   },
   "al_shabim": {
     "id": 832,
-    "name": "Al Shabim.",
+    "name": "Al Shabim",
     "vislevel": "hide",
     "desc": "He's the leader of the Bedabin tribe.",
     "op1": "Talk-to",
@@ -236,7 +236,7 @@
     "hitpoints": "7",
     "params": [
       {"damagetype":"^crush_style"},
-      {"owned_shop":"fishrestaurant"},
+      {"owned_shop":"karamja_fishrestaurant"},
       {"shop_sell_multiplier":"1300"},
       {"shop_buy_multiplier":"750"},
       {"shop_title":"The Shrimp and Parrot"}
@@ -724,6 +724,14 @@
     "op1": "Talk-to",
     "moverestrict": "indoors"
   },
+  "armourmaking_wizard": {
+    "id": 1263,
+    "name": "Wizard",
+    "vislevel": "hide",
+    "desc": "Slightly more magical.",
+    "op1": "Talk-to",
+    "wanderrange": "5"
+  },
   "Artist1": {
     "id": 336,
     "name": "DeVinci",
@@ -1126,13 +1134,33 @@
       {"shop_title":"Bedabin Village Bartering"}
     ]
   },
+  "bedabin_fighter": {
+    "id": 1239,
+    "name": "Bedabin Nomad Fighter",
+    "desc": "A bedabin nomad fighter - a sandy swordsman.",
+    "op1": "Talk-to",
+    "op2": "Attack",
+    "vislevel": "56",
+    "wanderrange": "20",
+    "maxrange": "22",
+    "hitpoints": "50",
+    "attack": "40",
+    "strength": "50",
+    "defence": "60",
+    "magic": "0",
+    "ranged": "0",
+    "params": [
+      {"attackbonus":"9"},
+      {"strengthbonus":"14"},
+      {"damagetype":"^slash_style"}
+    ]
+  },
   "bedabin_guard": {
     "id": 834,
     "name": "Bedabin Nomad Guard",
+    "vislevel": "hide",
     "desc": "A bedabin nomad guard - it looks like he's protecting an area.",
     "op1": "Talk-to",
-    "op2": "Attack",
-    "vislevel": "64",
     "wanderrange": "0",
     "respawnrate": "100",
     "hitpoints": "70",
@@ -1499,6 +1527,25 @@
       ]
     }
   },
+  "black_unicorn_foal": {
+    "id": 1329,
+    "name": "Black unicorn Foal",
+    "size": "2",
+    "desc": "Cute but evil.",
+    "op2": "Attack",
+    "vislevel": "22",
+    "wanderrange": "17",
+    "maxrange": "19",
+    "respawnrate": "40",
+    "hitpoints": "25",
+    "attack": "18",
+    "strength": "18",
+    "defence": "18",
+    "params": [
+      {"damagetype":"^stab_style"},
+      {"retreat":"5"}
+    ]
+  },
   "blessed_giantrat": {
     "id": 978,
     "name": "Blessed Giant rat",
@@ -1640,6 +1687,34 @@
       {"shop_title":"Blurberry Bar"},
       {"shop_buy_multiplier":"250"},
       {"shop_sell_multiplier":"1000"}
+    ]
+  },
+  "boardgames_barmaid": {
+    "id": 1357,
+    "name": "Sam",
+    "desc": "Pretty barmaid.",
+    "op1": "Talk-to",
+    "op3": "Trade",
+    "vislevel": "hide",
+    "params": [
+      {"owned_shop":"death_pub"},
+      {"shop_sell_multiplier":"1000"},
+      {"shop_buy_multiplier":"0"},
+      {"shop_title":"The Toad and Chicken"}
+    ]
+  },
+  "boardgames_barmaid2": {
+    "id": 1358,
+    "name": "Rachael",
+    "desc": "Pretty barmaid.",
+    "op1": "Talk-to",
+    "op3": "Trade",
+    "vislevel": "hide",
+    "params": [
+      {"owned_shop":"death_pub"},
+      {"shop_sell_multiplier":"1000"},
+      {"shop_buy_multiplier":"0"},
+      {"shop_title":"The Toad and Chicken"}
     ]
   },
   "bob": {
@@ -1911,6 +1986,55 @@
     "defence": "15",
     "huntmode": "cowardly",
     "huntrange": "1",
+    "params": [
+      {"damagetype":"^slash_style"}
+    ],
+    "drops": {
+      "always": [
+        {"item":["bones",1]},
+        {"item":["fur",1]},
+        {"item":["raw_bear_meat",1]}
+      ]
+    }
+  },
+  "brownbear_cub_1": {
+    "id": 1326,
+    "name": "Bear Cub",
+    "size": "2",
+    "desc": "Cute.  But deadly.",
+    "op2": "Attack",
+    "vislevel": "15",
+    "wanderrange": "12",
+    "maxrange": "14",
+    "respawnrate": "100",
+    "hitpoints": "20",
+    "attack": "10",
+    "strength": "15",
+    "defence": "10",
+    "params": [
+      {"damagetype":"^slash_style"}
+    ],
+    "drops": {
+      "always": [
+        {"item":["bones",1]},
+        {"item":["fur",1]},
+        {"item":["raw_bear_meat",1]}
+      ]
+    }
+  },
+  "brownbear_cub_2": {
+    "id": 1327,
+    "name": "Bear Cub",
+    "desc": "Cute.  But deadly.",
+    "op2": "Attack",
+    "vislevel": "15",
+    "wanderrange": "12",
+    "maxrange": "14",
+    "respawnrate": "100",
+    "hitpoints": "20",
+    "attack": "10",
+    "strength": "15",
+    "defence": "10",
     "params": [
       {"damagetype":"^slash_style"}
     ],
@@ -2830,6 +2954,14 @@
     "desc": "The cave guide.",
     "op1": "Talk-to"
   },
+  "caveguide6": {
+    "id": 1209,
+    "name": "Koftik",
+    "vislevel": "hide",
+    "desc": "The cave guide.",
+    "op1": "Talk-to",
+    "wanderrange": "5"
+  },
   "cavewitch": {
     "id": 992,
     "name": "Kardia",
@@ -3122,7 +3254,7 @@
     "attack": "5",
     "strength": "5",
     "defence": "3",
-    "huntrange": "2"
+    "huntrange": "7"
   },
   "chompybird_dead": {
     "id": 1016,
@@ -3369,8 +3501,8 @@
       ]
     }
   },
-  "cow2": {
-    "id": 397,
+  "cow_beef": {
+    "id": 955,
     "name": "Cow",
     "size": "2",
     "desc": "It's a dairy cow.",
@@ -3396,8 +3528,8 @@
       ]
     }
   },
-  "cow3": {
-    "id": 955,
+  "cow2": {
+    "id": 397,
     "name": "Cow",
     "size": "2",
     "desc": "It's a dairy cow.",
@@ -3604,7 +3736,7 @@
       {"owned_shop":"amuletshop"},
       {"shop_sell_multiplier":"1200"},
       {"shop_buy_multiplier":"900"},
-      {"shop_title":"Davon's Amulet Store"}
+      {"shop_title":"Davon's Amulet Store."}
     ]
   },
   "deadly_red_spider": {
@@ -3646,8 +3778,8 @@
     "op2": "Attack",
     "vislevel": "42",
     "wanderrange": "2",
-    "attackrange": "10",
     "maxrange": "12",
+    "attackrange": "10",
     "respawnrate": "50",
     "hitpoints": "50",
     "attack": "0",
@@ -3657,6 +3789,7 @@
     "params": [
       {"attackrate":"6"},
       {"attackbonus":"34"},
+      {"rangebonus":"8"},
       {"stabdefence":"39"},
       {"slashdefence":"50"},
       {"crushdefence":"49"},
@@ -3702,8 +3835,8 @@
     "op2": "Attack",
     "vislevel": "42",
     "wanderrange": "2",
-    "attackrange": "10",
     "maxrange": "12",
+    "attackrange": "10",
     "respawnrate": "50",
     "hitpoints": "50",
     "attack": "0",
@@ -3713,6 +3846,7 @@
     "params": [
       {"attackrate":"6"},
       {"attackbonus":"34"},
+      {"rangebonus":"8"},
       {"stabdefence":"39"},
       {"slashdefence":"50"},
       {"crushdefence":"49"},
@@ -3758,8 +3892,8 @@
     "op2": "Attack",
     "vislevel": "42",
     "wanderrange": "2",
-    "attackrange": "10",
     "maxrange": "12",
+    "attackrange": "10",
     "respawnrate": "50",
     "hitpoints": "50",
     "attack": "0",
@@ -3769,6 +3903,7 @@
     "params": [
       {"attackrate":"6"},
       {"attackbonus":"34"},
+      {"rangebonus":"8"},
       {"stabdefence":"39"},
       {"slashdefence":"50"},
       {"crushdefence":"49"},
@@ -3813,6 +3948,7 @@
     "op1": "Talk-to",
     "op3": "Trade",
     "vislevel": "hide",
+    "wanderrange": "1",
     "params": [
       {"owned_shop":"death_pub"},
       {"shop_sell_multiplier":"1000"},
@@ -3827,6 +3963,8 @@
     "op1": "Talk-to",
     "op2": "Attack",
     "vislevel": "4",
+    "wanderrange": "5",
+    "maxrange": "7",
     "respawnrate": "50",
     "hitpoints": "10",
     "attack": "3",
@@ -3854,7 +3992,8 @@
     "name": "Harold",
     "desc": "An off-duty Burthorpe Castle guard.",
     "op1": "Talk-to",
-    "vislevel": "hide"
+    "vislevel": "hide",
+    "wanderrange": "1"
   },
   "death_guard1": {
     "id": 1076,
@@ -3865,10 +4004,10 @@
     "vislevel": "37",
     "wanderrange": "0",
     "maxrange": "5",
-    "attack": "30",
-    "defence": "30",
-    "strength": "30",
     "hitpoints": "40",
+    "attack": "30",
+    "strength": "30",
+    "defence": "30",
     "ranged": "0",
     "params": [
       {"attackrate":"6"},
@@ -3923,10 +4062,10 @@
     "vislevel": "37",
     "wanderrange": "0",
     "maxrange": "5",
-    "attack": "30",
-    "defence": "30",
-    "strength": "30",
     "hitpoints": "40",
+    "attack": "30",
+    "strength": "30",
+    "defence": "30",
     "ranged": "0",
     "params": [
       {"attackrate":"6"},
@@ -3977,7 +4116,8 @@
     "name": "Eohric",
     "desc": "Head servant for Prince Anlaf.",
     "op1": "Talk-to",
-    "vislevel": "hide"
+    "vislevel": "hide",
+    "wanderrange": "5"
   },
   "death_ig_commander": {
     "id": 1060,
@@ -3985,6 +4125,7 @@
     "desc": "Commander of the Imperial Guard.",
     "op1": "Talk-to",
     "vislevel": "hide",
+    "wanderrange": "2",
     "moverestrict": "indoors"
   },
   "death_ig_sergeant_drilling": {
@@ -3993,6 +4134,7 @@
     "desc": "Sergeant of the Imperial Guard.",
     "op1": "Talk-to",
     "vislevel": "hide",
+    "wanderrange": "0",
     "defaultmode": "none",
     "moverestrict": "nomove"
   },
@@ -4002,7 +4144,7 @@
     "desc": "Sergeant of the Imperial Guard.",
     "op1": "Talk-to",
     "vislevel": "hide",
-    "moverestrict": "outdoors"
+    "wanderrange": "2"
   },
   "death_ig_solider_drilling": {
     "id": 1063,
@@ -4010,6 +4152,7 @@
     "desc": "A soldier of the Imperial Guard.",
     "op1": "Talk-to",
     "vislevel": "hide",
+    "wanderrange": "0",
     "defaultmode": "none",
     "moverestrict": "nomove"
   },
@@ -4019,6 +4162,7 @@
     "desc": "A soldier of the Imperial Guard.",
     "op1": "Talk-to",
     "vislevel": "hide",
+    "wanderrange": "0",
     "defaultmode": "none",
     "moverestrict": "nomove"
   },
@@ -4028,6 +4172,7 @@
     "desc": "A soldier of the Imperial Guard.",
     "op1": "Talk-to",
     "vislevel": "hide",
+    "wanderrange": "0",
     "defaultmode": "none",
     "moverestrict": "nomove"
   },
@@ -4037,6 +4182,7 @@
     "desc": "A soldier of the Imperial Guard.",
     "op1": "Talk-to",
     "vislevel": "hide",
+    "wanderrange": "0",
     "defaultmode": "none",
     "moverestrict": "nomove"
   },
@@ -4046,6 +4192,7 @@
     "desc": "A soldier of the Imperial Guard.",
     "op1": "Talk-to",
     "vislevel": "hide",
+    "wanderrange": "0",
     "defaultmode": "none",
     "moverestrict": "nomove"
   },
@@ -4056,7 +4203,8 @@
     "op1": "Talk-to",
     "op2": "Attack",
     "vislevel": "48",
-    "maxrange": "8",
+    "wanderrange": "5",
+    "maxrange": "7",
     "respawnrate": "50",
     "hitpoints": "50",
     "attack": "40",
@@ -4104,6 +4252,7 @@
     "size": "2",
     "op1": "Talk-to",
     "vislevel": "hide",
+    "wanderrange": "0",
     "defaultmode": "none",
     "moverestrict": "nomove"
   },
@@ -4114,6 +4263,9 @@
     "op1": "Talk-to",
     "op2": "Attack",
     "vislevel": "6",
+    "wanderrange": "5",
+    "maxrange": "7",
+    "moverestrict": "indoors",
     "respawnrate": "50",
     "hitpoints": "10",
     "attack": "3",
@@ -4163,6 +4315,9 @@
     "op1": "Talk-to",
     "op2": "Attack",
     "vislevel": "5",
+    "wanderrange": "5",
+    "maxrange": "7",
+    "moverestrict": "indoors",
     "respawnrate": "50",
     "hitpoints": "10",
     "attack": "3",
@@ -4212,6 +4367,9 @@
     "op1": "Talk-to",
     "op2": "Attack",
     "vislevel": "5",
+    "wanderrange": "5",
+    "maxrange": "7",
+    "moverestrict": "outdoors",
     "respawnrate": "50",
     "hitpoints": "10",
     "attack": "3",
@@ -4261,6 +4419,9 @@
     "op1": "Talk-to",
     "op2": "Attack",
     "vislevel": "5",
+    "wanderrange": "5",
+    "maxrange": "7",
+    "moverestrict": "outdoors",
     "respawnrate": "50",
     "hitpoints": "10",
     "attack": "3",
@@ -4307,14 +4468,16 @@
     "id": 1093,
     "name": "Billy",
     "vislevel": "hide",
-    "desc": "Billy is a baahd goat."
+    "desc": "Billy is a baahd goat.",
+    "wanderrange": "5"
   },
   "death_saba": {
     "id": 1070,
     "name": "Saba",
     "desc": "A dishevelled and irritable hermit.",
     "op1": "Talk-to",
-    "vislevel": "hide"
+    "vislevel": "hide",
+    "wanderrange": "5"
   },
   "death_servant1": {
     "id": 1081,
@@ -4323,6 +4486,9 @@
     "op1": "Talk-to",
     "op2": "Attack",
     "vislevel": "5",
+    "wanderrange": "5",
+    "maxrange": "7",
+    "moverestrict": "indoors",
     "respawnrate": "50",
     "hitpoints": "10",
     "attack": "3",
@@ -4342,7 +4508,8 @@
     "name": "Tenzing",
     "desc": "An experienced Sherpa.",
     "op1": "Talk-to",
-    "vislevel": "hide"
+    "vislevel": "hide",
+    "wanderrange": "5"
   },
   "death_shopkeeper": {
     "id": 1083,
@@ -4351,6 +4518,7 @@
     "op1": "Talk-to",
     "op3": "Trade",
     "vislevel": "hide",
+    "wanderrange": "5",
     "moverestrict": "indoors",
     "params": [
       {"owned_shop":"death_generalshop"},
@@ -4365,15 +4533,18 @@
     "desc": "Smithy for Burthorpe.",
     "op1": "Talk-to",
     "vislevel": "hide",
+    "wanderrange": "5",
     "moverestrict": "indoors"
   },
   "death_troll_commander": {
     "id": 1095,
     "name": "Rock",
-    "desc": "The biggest and badest troll.",
+    "desc": "The biggest and baddest troll.",
     "size": "2",
     "op2": "Attack",
     "vislevel": "111",
+    "wanderrange": "3",
+    "maxrange": "5",
     "respawnrate": "100",
     "hitpoints": "140",
     "attack": "70",
@@ -4381,6 +4552,7 @@
     "defence": "70",
     "magic": "0",
     "ranged": "0",
+    "huntmode": "cowardly",
     "huntrange": "1",
     "params": [
       {"attackbonus":"60"},
@@ -4390,7 +4562,7 @@
       {"crushdefence":"35"},
       {"magicdefence":"200"},
       {"rangedefence":"200"},
-      {"damagetype":"^crush_style"}
+      {"damagetype":"^slash_style"}
     ],
     "drops": {
       "roll_base": 128,
@@ -4428,14 +4600,20 @@
     "name": "Dung",
     "desc": "Human is his speciality.",
     "size": "2",
-    "vislevel": "hide"
+    "vislevel": "hide",
+    "wanderrange": "0",
+    "defaultmode": "none",
+    "moverestrict": "nomove"
   },
   "death_troll_cook2": {
     "id": 1100,
     "name": "Ash",
     "desc": "Human is his speciality.",
     "size": "2",
-    "vislevel": "hide"
+    "vislevel": "hide",
+    "wanderrange": "0",
+    "defaultmode": "none",
+    "moverestrict": "nomove"
   },
   "death_troll_guard1": {
     "id": 1097,
@@ -4444,6 +4622,8 @@
     "size": "2",
     "op2": "Attack",
     "vislevel": "91",
+    "wanderrange": "0",
+    "maxrange": "5",
     "respawnrate": "100",
     "hitpoints": "120",
     "attack": "50",
@@ -4451,11 +4631,12 @@
     "defence": "50",
     "magic": "0",
     "ranged": "0",
+    "huntmode": "cowardly",
     "huntrange": "1",
     "params": [
+      {"attackrate":"6"},
       {"attackbonus":"40"},
       {"strengthbonus":"70"},
-      {"attackrate":"6"},
       {"stabdefence":"25"},
       {"slashdefence":"25"},
       {"crushdefence":"40"},
@@ -4501,6 +4682,8 @@
     "size": "2",
     "op2": "Attack",
     "vislevel": "91",
+    "wanderrange": "0",
+    "maxrange": "5",
     "respawnrate": "100",
     "hitpoints": "120",
     "attack": "50",
@@ -4508,11 +4691,12 @@
     "defence": "50",
     "magic": "0",
     "ranged": "0",
+    "huntmode": "cowardly",
     "huntrange": "1",
     "params": [
+      {"attackrate":"6"},
       {"attackbonus":"40"},
       {"strengthbonus":"70"},
-      {"attackrate":"6"},
       {"stabdefence":"25"},
       {"slashdefence":"25"},
       {"crushdefence":"40"},
@@ -4558,6 +4742,8 @@
     "size": "2",
     "op2": "Attack",
     "vislevel": "104",
+    "wanderrange": "3",
+    "maxrange": "5",
     "respawnrate": "100",
     "hitpoints": "135",
     "attack": "60",
@@ -4565,11 +4751,12 @@
     "defence": "60",
     "magic": "0",
     "ranged": "0",
+    "huntmode": "cowardly",
     "huntrange": "1",
     "params": [
+      {"attackrate":"6"},
       {"attackbonus":"50"},
       {"strengthbonus":"80"},
-      {"attackrate":"6"},
       {"stabdefence":"30"},
       {"slashdefence":"30"},
       {"crushdefence":"50"},
@@ -4614,6 +4801,8 @@
     "desc": "Small for a troll but mean and ugly.",
     "op2": "Attack",
     "vislevel": "69",
+    "wanderrange": "5",
+    "maxrange": "7",
     "respawnrate": "100",
     "hitpoints": "90",
     "attack": "40",
@@ -4624,9 +4813,10 @@
     "huntmode": "cowardly",
     "huntrange": "1",
     "params": [
+      {"attackrate":"6"},
       {"attackbonus":"20"},
       {"strengthbonus":"20"},
-      {"attackrate":"6"},
+      {"crushdefence":"10"},
       {"magicdefence":"200"},
       {"rangedefence":"200"},
       {"damagetype":"^crush_style"}
@@ -4665,6 +4855,8 @@
     "desc": "Small for a troll but mean and ugly.",
     "op2": "Attack",
     "vislevel": "69",
+    "wanderrange": "5",
+    "maxrange": "7",
     "respawnrate": "100",
     "hitpoints": "90",
     "attack": "40",
@@ -4675,9 +4867,10 @@
     "huntmode": "cowardly",
     "huntrange": "1",
     "params": [
+      {"attackrate":"6"},
       {"attackbonus":"20"},
       {"strengthbonus":"20"},
-      {"attackrate":"6"},
+      {"crushdefence":"10"},
       {"magicdefence":"200"},
       {"rangedefence":"200"},
       {"damagetype":"^crush_style"}
@@ -4716,6 +4909,8 @@
     "desc": "Small for a troll but mean and ugly.",
     "op2": "Attack",
     "vislevel": "69",
+    "wanderrange": "5",
+    "maxrange": "7",
     "respawnrate": "100",
     "hitpoints": "90",
     "attack": "40",
@@ -4726,9 +4921,10 @@
     "huntmode": "cowardly",
     "huntrange": "1",
     "params": [
+      {"attackrate":"6"},
       {"attackbonus":"20"},
       {"strengthbonus":"20"},
-      {"attackrate":"6"},
+      {"crushdefence":"10"},
       {"magicdefence":"200"},
       {"rangedefence":"200"},
       {"damagetype":"^crush_style"}
@@ -4767,6 +4963,8 @@
     "desc": "Small for a troll but mean and ugly.",
     "op2": "Attack",
     "vislevel": "69",
+    "wanderrange": "5",
+    "maxrange": "7",
     "respawnrate": "100",
     "hitpoints": "90",
     "attack": "40",
@@ -4777,9 +4975,10 @@
     "huntmode": "cowardly",
     "huntrange": "1",
     "params": [
+      {"attackrate":"6"},
       {"attackbonus":"20"},
       {"strengthbonus":"20"},
-      {"attackrate":"6"},
+      {"crushdefence":"10"},
       {"magicdefence":"200"},
       {"rangedefence":"200"},
       {"damagetype":"^crush_style"}
@@ -4818,6 +5017,8 @@
     "desc": "Small for a troll but mean and ugly.",
     "op2": "Attack",
     "vislevel": "69",
+    "wanderrange": "5",
+    "maxrange": "7",
     "respawnrate": "100",
     "hitpoints": "90",
     "attack": "40",
@@ -4828,9 +5029,10 @@
     "huntmode": "cowardly",
     "huntrange": "1",
     "params": [
+      {"attackrate":"6"},
       {"attackbonus":"20"},
       {"strengthbonus":"20"},
-      {"attackrate":"6"},
+      {"crushdefence":"10"},
       {"magicdefence":"200"},
       {"rangedefence":"200"},
       {"damagetype":"^crush_style"}
@@ -4869,6 +5071,8 @@
     "desc": "Small for a troll but mean and ugly.",
     "op2": "Attack",
     "vislevel": "69",
+    "wanderrange": "5",
+    "maxrange": "7",
     "respawnrate": "100",
     "hitpoints": "90",
     "attack": "40",
@@ -4879,9 +5083,10 @@
     "huntmode": "cowardly",
     "huntrange": "1",
     "params": [
+      {"attackrate":"6"},
       {"attackbonus":"20"},
       {"strengthbonus":"20"},
-      {"attackrate":"6"},
+      {"crushdefence":"10"},
       {"magicdefence":"200"},
       {"rangedefence":"200"},
       {"damagetype":"^crush_style"}
@@ -4920,6 +5125,8 @@
     "desc": "Small for a troll but mean and ugly.",
     "op2": "Attack",
     "vislevel": "69",
+    "wanderrange": "5",
+    "maxrange": "7",
     "respawnrate": "100",
     "hitpoints": "90",
     "attack": "40",
@@ -4930,9 +5137,10 @@
     "huntmode": "cowardly",
     "huntrange": "1",
     "params": [
+      {"attackrate":"6"},
       {"attackbonus":"20"},
       {"strengthbonus":"20"},
-      {"attackrate":"6"},
+      {"crushdefence":"10"},
       {"magicdefence":"200"},
       {"rangedefence":"200"},
       {"damagetype":"^crush_style"}
@@ -4979,6 +5187,7 @@
     "attack": "30",
     "strength": "80",
     "defence": "30",
+    "magic": "0",
     "ranged": "60",
     "huntmode": "aggressive_ranged",
     "huntrange": "8",
@@ -5008,6 +5217,7 @@
     "attack": "30",
     "strength": "80",
     "defence": "30",
+    "magic": "0",
     "ranged": "60",
     "huntmode": "aggressive_ranged",
     "huntrange": "8",
@@ -5037,6 +5247,7 @@
     "attack": "30",
     "strength": "80",
     "defence": "30",
+    "magic": "0",
     "ranged": "60",
     "huntmode": "aggressive_ranged",
     "huntrange": "8",
@@ -5066,6 +5277,7 @@
     "attack": "30",
     "strength": "80",
     "defence": "30",
+    "magic": "0",
     "ranged": "60",
     "huntmode": "aggressive_ranged",
     "huntrange": "8",
@@ -5095,6 +5307,7 @@
     "attack": "30",
     "strength": "80",
     "defence": "30",
+    "magic": "0",
     "ranged": "60",
     "huntmode": "aggressive_ranged",
     "huntrange": "8",
@@ -5117,6 +5330,8 @@
     "op1": "Talk-to",
     "op2": "Attack",
     "vislevel": "36",
+    "wanderrange": "5",
+    "maxrange": "7",
     "respawnrate": "100",
     "hitpoints": "52",
     "attack": "27",
@@ -5141,6 +5356,9 @@
     "op1": "Talk-to",
     "op2": "Attack",
     "vislevel": "4",
+    "wanderrange": "5",
+    "maxrange": "7",
+    "moverestrict": "indoors",
     "respawnrate": "50",
     "hitpoints": "10",
     "attack": "3",
@@ -5190,6 +5408,9 @@
     "op1": "Talk-to",
     "op2": "Attack",
     "vislevel": "4",
+    "wanderrange": "5",
+    "maxrange": "7",
+    "moverestrict": "outdoors",
     "respawnrate": "50",
     "hitpoints": "10",
     "attack": "3",
@@ -5239,6 +5460,9 @@
     "op1": "Talk-to",
     "op2": "Attack",
     "vislevel": "4",
+    "wanderrange": "5",
+    "maxrange": "7",
+    "moverestrict": "outdoors",
     "respawnrate": "50",
     "hitpoints": "10",
     "attack": "3",
@@ -5467,6 +5691,26 @@
     "vislevel": "hide",
     "desc": "A well dressed nobleman.",
     "op1": "Talk-to"
+  },
+  "direwolf": {
+    "id": 1198,
+    "name": "Dire Wolf",
+    "size": "2",
+    "desc": "What big teeth you have.",
+    "op2": "Attack",
+    "vislevel": "88",
+    "wanderrange": "20",
+    "maxrange": "22",
+    "respawnrate": "180",
+    "hitpoints": "85",
+    "attack": "75",
+    "strength": "75",
+    "defence": "75",
+    "huntmode": "aggressive_melee",
+    "huntrange": "10",
+    "params": [
+      {"damagetype":"^stab_style"}
+    ]
   },
   "doctor_orbon": {
     "id": 290,
@@ -6082,7 +6326,7 @@
       {"owned_shop":"duel_rottenfruitshop"},
       {"shop_sell_multiplier":"1000"},
       {"shop_buy_multiplier":"550"},
-      {"shop_title":"Shop of Distate"}
+      {"shop_title":"Shop of Distaste"}
     ]
   },
   "duel_injured1": {
@@ -6417,11 +6661,33 @@
       {"damagetype":"^stab_style"}
     ]
   },
+  "eadgar_druid_washing": {
+    "id": 1213,
+    "name": "Tegid",
+    "desc": "He's washing his clothes in the lake.",
+    "size": "2",
+    "op1": "Talk-to",
+    "vislevel": "hide",
+    "defaultmode": "none",
+    "wanderrange": "0",
+    "moverestrict": "nomove"
+  },
+  "eadgar_parrotts": {
+    "id": 1215,
+    "name": "Parrots",
+    "desc": "What a colourful bunch of parrots!",
+    "vislevel": "hide",
+    "defaultmode": "none",
+    "wanderrange": "0",
+    "moverestrict": "nomove"
+  },
   "eadgar_storeroom_guard": {
     "id": 1150,
     "name": "Guard",
     "desc": "He's guarding the goutweed.",
-    "vislevel": "hide"
+    "vislevel": "hide",
+    "defaultmode": "none",
+    "moverestrict": "nomove"
   },
   "eadgar_troll_chief_cook": {
     "id": 1151,
@@ -6429,7 +6695,27 @@
     "desc": "Human is his speciality.",
     "size": "2",
     "vislevel": "hide",
-    "op1": "Talk-to"
+    "op1": "Talk-to",
+    "defaultmode": "none",
+    "moverestrict": "nomove"
+  },
+  "eadgar_troll_thistle": {
+    "id": 1214,
+    "name": "Thistle",
+    "desc": "It's a Troll Thistle.",
+    "vislevel": "hide",
+    "op1": "Pick",
+    "defaultmode": "none",
+    "wanderrange": "0",
+    "moverestrict": "nomove"
+  },
+  "eadgar_zoo_keeper_aviary": {
+    "id": 1216,
+    "name": "Parroty Pete",
+    "desc": "He seems strangely familiar...",
+    "op1": "Talk-to",
+    "vislevel": "hide",
+    "wanderrange": "2"
   },
   "earth_elemental_rock_version": {
     "id": 1023,
@@ -6782,13 +7068,13 @@
   },
   "ernest_the_chicken": {
     "id": 288,
-    "name": "Chicken",
+    "name": "Ernest",
     "vislevel": "hide",
     "desc": "Yep, definitely a chicken."
   },
   "escaped_slave": {
     "id": 826,
-    "name": "Escaping slave.",
+    "name": "Escaping slave",
     "vislevel": "hide",
     "desc": "He's making a break for it!",
     "op1": "Talk-to"
@@ -6812,6 +7098,7 @@
     "vislevel": "hide",
     "desc": "Manages money momentarily.",
     "op1": "Talk-to",
+    "op3": "Bank",
     "wanderrange": "0",
     "maxrange": "2",
     "moverestrict": "nomove"
@@ -7433,6 +7720,27 @@
     "op1": "Talk-to",
     "wanderrange": "3"
   },
+  "general_karambwan": {
+    "id": 1177,
+    "name": "Fishing spot",
+    "vislevel": "hide",
+    "desc": "Something dark green is lurking in these waters.",
+    "op1": "Fish",
+    "defaultmode": "none",
+    "wanderrange": "0",
+    "moverestrict": "nomove"
+  },
+  "general_karambwanji": {
+    "id": 1175,
+    "name": "Fishing spot",
+    "vislevel": "hide",
+    "desc": "There are brightly coloured fish swimming in the water.",
+    "op1": "Net",
+    "op4": "hidden",
+    "defaultmode": "none",
+    "wanderrange": "0",
+    "moverestrict": "nomove"
+  },
   "general_khazard": {
     "id": 258,
     "name": "General Khazard",
@@ -7744,15 +8052,15 @@
     "vislevel": "hide",
     "desc": "Arrghhh... A Ghast.",
     "size": "2",
-    "attack": "22",
-    "strength": "22",
-    "hitpoints": "45",
-    "defence": "18",
     "wanderrange": "5",
     "maxrange": "7",
+    "hitpoints": "45",
+    "attack": "22",
+    "strength": "22",
+    "defence": "18",
     "huntmode": "aggressive_melee",
-    "huntrange": "5",
     "moverestrict": "blocked+normal",
+    "huntrange": "5",
     "params": [
       {"damagetype":"^slash_style"}
     ]
@@ -7764,12 +8072,12 @@
     "size": "2",
     "op2": "Attack",
     "vislevel": "30",
-    "attack": "22",
-    "strength": "22",
-    "hitpoints": "45",
-    "defence": "18",
     "wanderrange": "5",
     "maxrange": "7",
+    "hitpoints": "45",
+    "attack": "22",
+    "strength": "22",
+    "defence": "18",
     "moverestrict": "blocked+normal",
     "params": [
       {"damagetype":"^slash_style"}
@@ -7831,6 +8139,23 @@
     "desc": "Eek! A ghost!",
     "op1": "Talk-to",
     "moverestrict": "indoors"
+  },
+  "ghoul": {
+    "id": 1218,
+    "name": "Ghoul",
+    "desc": "It's totally savage.",
+    "op2": "Attack",
+    "vislevel": "42",
+    "wanderrange": "3",
+    "maxrange": "5",
+    "hitpoints": "50",
+    "attack": "30",
+    "strength": "40",
+    "defence": "30",
+    "huntmode": "cowardly",
+    "params": [
+      {"damagetype":"^crush_style"}
+    ]
   },
   "giant": {
     "id": 117,
@@ -8147,7 +8472,7 @@
     "name": "Gnome winger",
     "desc": "A professional gnome baller.",
     "vislevel": "hide",
-    "op1": "Talk-to",
+    "op1": "Pass-to",
     "respawnrate": "0"
   },
   "gnomeballer_green_withball": {
@@ -8341,6 +8666,7 @@
     "desc": "Banks gnomish things.",
     "vislevel": "hide",
     "op1": "Talk-to",
+    "op3": "Bank",
     "wanderrange": "0",
     "moverestrict": "nomove"
   },
@@ -9833,17 +10159,7 @@
     "op1": "Talk-to",
     "maxrange": "50",
     "moverestrict": "outdoors",
-    "defaultmode": "patrol",
-    "patrol1": "0_50_50_7_33,0",
-    "patrol2": "0_50_50_11_30,0",
-    "patrol3": "0_50_50_19_30,0",
-    "patrol4": "0_50_50_19_22,10",
-    "patrol5": "0_50_50_21_22,0",
-    "patrol6": "0_50_50_21_12,0",
-    "patrol7": "0_50_50_18_9,0",
-    "patrol8": "0_50_50_14_5,0",
-    "patrol9": "0_50_50_2_5,0",
-    "patrol10": "0_50_50_2_32,0"
+    "defaultmode": "patrol"
   },
   "happy_peasant": {
     "id": 215,
@@ -10306,6 +10622,798 @@
     "desc": "Could do with losing a few pounds.",
     "op1": "Talk-to",
     "wanderrange": "2"
+  },
+  "horror_dagannoth_jr1": {
+    "id": 1344,
+    "name": "Dagannoth",
+    "desc": "A horror from the ocean depths...",
+    "size": "2",
+    "vislevel": "92",
+    "wanderrange": "65",
+    "maxrange": "65",
+    "moverestrict": "blocked",
+    "hitpoints": "120",
+    "attack": "78",
+    "strength": "78",
+    "defence": "81",
+    "ranged": "50",
+    "params": [
+      {"stabdefence":"150"},
+      {"slashdefence":"150"},
+      {"crushdefence":"150"},
+      {"magicdefence":"50"},
+      {"rangedefence":"50"},
+      {"damagetype":"^stab_style"}
+    ]
+  },
+  "horror_dagannoth_jr2": {
+    "id": 1345,
+    "name": "Dagannoth",
+    "desc": "A horror from the ocean depths...",
+    "size": "2",
+    "vislevel": "100",
+    "wanderrange": "65",
+    "maxrange": "65",
+    "moverestrict": "blocked",
+    "hitpoints": "120",
+    "attack": "78",
+    "strength": "78",
+    "defence": "81",
+    "ranged": "50",
+    "params": [
+      {"stabdefence":"150"},
+      {"slashdefence":"150"},
+      {"crushdefence":"150"},
+      {"magicdefence":"50"},
+      {"rangedefence":"50"},
+      {"damagetype":"^stab_style"}
+    ]
+  },
+  "horror_dagannoth_jr3": {
+    "id": 1346,
+    "name": "Dagannoth",
+    "desc": "A horror from the ocean depths...",
+    "size": "2",
+    "vislevel": "100",
+    "wanderrange": "65",
+    "maxrange": "65",
+    "moverestrict": "blocked",
+    "hitpoints": "120",
+    "attack": "78",
+    "strength": "78",
+    "defence": "81",
+    "ranged": "50",
+    "params": [
+      {"stabdefence":"150"},
+      {"slashdefence":"150"},
+      {"crushdefence":"150"},
+      {"magicdefence":"50"},
+      {"rangedefence":"50"},
+      {"damagetype":"^stab_style"}
+    ]
+  },
+  "horror_dagannoth_jr4": {
+    "id": 1347,
+    "name": "Dagannoth",
+    "desc": "A horror from the ocean depths...",
+    "size": "2",
+    "op2": "Attack",
+    "vislevel": "100",
+    "wanderrange": "65",
+    "maxrange": "65",
+    "hitpoints": "120",
+    "attack": "78",
+    "strength": "78",
+    "defence": "81",
+    "ranged": "50",
+    "params": [
+      {"damagetype":"^stab_style"}
+    ]
+  },
+  "horror_dagannoth_medium": {
+    "id": 1341,
+    "name": "Dagannoth",
+    "desc": "A horror from the ocean depths...",
+    "size": "2",
+    "op2": "Attack",
+    "vislevel": "92",
+    "wanderrange": "65",
+    "maxrange": "65",
+    "respawnrate": "60",
+    "hitpoints": "120",
+    "attack": "68",
+    "strength": "70",
+    "defence": "71",
+    "huntmode": "cowardly",
+    "huntrange": "1",
+    "params": [
+      {"magicdefence":"50"},
+      {"damagetype":"^stab_style"}
+    ],
+    "drops": {
+      "roll_base": 128,
+      "roll_table": [
+        {"item":["iron_spear",1],"chance":"6"},
+        {"item":["bronze_spear",1],"chance":"5"},
+        {"item":["mithril_spear",1],"chance":"1"},
+        {"item":["waterrune",15],"chance":"4"},
+        {"item":["steel_arrow",15],"chance":"2"},
+        {"item":["mithril_javelin",3],"chance":"1"},
+        {"item":["lobster_pot",1],"chance":"12"},
+        {"item":["raw_herring",3],"chance":"4"},
+        {"item":["raw_sardine",5],"chance":"4"},
+        {"item":["harpoon",1],"chance":"3"},
+        {"item":["feather",15],"chance":"2"},
+        {"item":["fishing_bait",50],"chance":"2"},
+        {"item":["raw_lobster",1],"chance":"2"},
+        {"item":["raw_tuna",1],"chance":"2"},
+        {"item":["seaweed",10],"chance":"2"},
+        {"item":["bigoysterpearls",1],"chance":"1"},
+        {"item":["smalloysterpearls",1],"chance":"1"},
+        {"item":["coins",56],"chance":"29"},
+        {"item":["coins",25],"chance":"9"},
+        {"item":["coins",44],"chance":"8"},
+        {"item":["coins",41],"chance":"6"},
+        {"item":["opal_bolttips",12],"chance":"2"},
+        {"item":["casket",1],"chance":"1"},
+        {"item":["~randomjewel",1],"chance":"1"}
+      ],
+      "always": [
+        {"item":["bones",1]}
+      ],
+      "tertiary": [
+        {"item":"~clue-medium","chance":"1/128"}
+      ]
+    }
+  },
+  "horror_dagannoth_medium_darker": {
+    "id": 1342,
+    "name": "Dagannoth",
+    "desc": "A horror from the ocean depths...",
+    "size": "2",
+    "op2": "Attack",
+    "vislevel": "92",
+    "wanderrange": "65",
+    "maxrange": "65",
+    "respawnrate": "60",
+    "hitpoints": "120",
+    "attack": "68",
+    "strength": "70",
+    "defence": "71",
+    "huntmode": "cowardly",
+    "huntrange": "1",
+    "params": [
+      {"magicdefence":"50"},
+      {"damagetype":"^stab_style"}
+    ],
+    "drops": {
+      "roll_base": 128,
+      "roll_table": [
+        {"item":["iron_spear",1],"chance":"6"},
+        {"item":["bronze_spear",1],"chance":"5"},
+        {"item":["mithril_spear",1],"chance":"1"},
+        {"item":["waterrune",15],"chance":"4"},
+        {"item":["steel_arrow",15],"chance":"2"},
+        {"item":["mithril_javelin",3],"chance":"1"},
+        {"item":["lobster_pot",1],"chance":"12"},
+        {"item":["raw_herring",3],"chance":"4"},
+        {"item":["raw_sardine",5],"chance":"4"},
+        {"item":["harpoon",1],"chance":"3"},
+        {"item":["feather",15],"chance":"2"},
+        {"item":["fishing_bait",50],"chance":"2"},
+        {"item":["raw_lobster",1],"chance":"2"},
+        {"item":["raw_tuna",1],"chance":"2"},
+        {"item":["seaweed",10],"chance":"2"},
+        {"item":["bigoysterpearls",1],"chance":"1"},
+        {"item":["smalloysterpearls",1],"chance":"1"},
+        {"item":["coins",56],"chance":"29"},
+        {"item":["coins",25],"chance":"9"},
+        {"item":["coins",44],"chance":"8"},
+        {"item":["coins",41],"chance":"6"},
+        {"item":["opal_bolttips",12],"chance":"2"},
+        {"item":["casket",1],"chance":"1"},
+        {"item":["~randomjewel",1],"chance":"1"}
+      ],
+      "always": [
+        {"item":["bones",1]}
+      ],
+      "tertiary": [
+        {"item":"~clue-medium","chance":"1/128"}
+      ]
+    }
+  },
+  "horror_dagannoth_medium_lighter": {
+    "id": 1343,
+    "name": "Dagannoth",
+    "desc": "A horror from the ocean depths...",
+    "size": "2",
+    "op2": "Attack",
+    "vislevel": "92",
+    "wanderrange": "65",
+    "maxrange": "65",
+    "respawnrate": "60",
+    "hitpoints": "120",
+    "attack": "68",
+    "strength": "70",
+    "defence": "71",
+    "huntmode": "cowardly",
+    "huntrange": "1",
+    "params": [
+      {"magicdefence":"50"},
+      {"damagetype":"^stab_style"}
+    ],
+    "drops": {
+      "roll_base": 128,
+      "roll_table": [
+        {"item":["iron_spear",1],"chance":"6"},
+        {"item":["bronze_spear",1],"chance":"5"},
+        {"item":["mithril_spear",1],"chance":"1"},
+        {"item":["waterrune",15],"chance":"4"},
+        {"item":["steel_arrow",15],"chance":"2"},
+        {"item":["mithril_javelin",3],"chance":"1"},
+        {"item":["lobster_pot",1],"chance":"12"},
+        {"item":["raw_herring",3],"chance":"4"},
+        {"item":["raw_sardine",5],"chance":"4"},
+        {"item":["harpoon",1],"chance":"3"},
+        {"item":["feather",15],"chance":"2"},
+        {"item":["fishing_bait",50],"chance":"2"},
+        {"item":["raw_lobster",1],"chance":"2"},
+        {"item":["raw_tuna",1],"chance":"2"},
+        {"item":["seaweed",10],"chance":"2"},
+        {"item":["bigoysterpearls",1],"chance":"1"},
+        {"item":["smalloysterpearls",1],"chance":"1"},
+        {"item":["coins",56],"chance":"29"},
+        {"item":["coins",25],"chance":"9"},
+        {"item":["coins",44],"chance":"8"},
+        {"item":["coins",41],"chance":"6"},
+        {"item":["opal_bolttips",12],"chance":"2"},
+        {"item":["casket",1],"chance":"1"},
+        {"item":["~randomjewel",1],"chance":"1"}
+      ],
+      "always": [
+        {"item":["bones",1]}
+      ],
+      "tertiary": [
+        {"item":"~clue-medium","chance":"1/128"}
+      ]
+    }
+  },
+  "horror_dagganoth_air": {
+    "id": 1351,
+    "name": "Dagannoth mother",
+    "desc": "A horror from the ocean depths...",
+    "size": "3",
+    "op2": "Attack",
+    "vislevel": "100",
+    "wanderrange": "65",
+    "maxrange": "65",
+    "attackrange": "10",
+    "hitpoints": "120",
+    "attack": "78",
+    "strength": "78",
+    "defence": "81",
+    "ranged": "50",
+    "params": [
+      {"stabdefence":"150"},
+      {"slashdefence":"150"},
+      {"crushdefence":"150"},
+      {"magicdefence":"50"},
+      {"rangedefence":"50"},
+      {"damagetype":"^stab_style"}
+    ]
+  },
+  "horror_dagganoth_aira": {
+    "id": 1348,
+    "name": "Dagannoth mother",
+    "desc": "A horror from the ocean depths...",
+    "size": "3",
+    "vislevel": "100",
+    "moverestrict": "blocked",
+    "attackrange": "10",
+    "wanderrange": "65",
+    "maxrange": "65",
+    "hitpoints": "120",
+    "attack": "78",
+    "strength": "78",
+    "defence": "81",
+    "ranged": "50",
+    "params": [
+      {"stabdefence":"150"},
+      {"slashdefence":"150"},
+      {"crushdefence":"150"},
+      {"magicdefence":"50"},
+      {"rangedefence":"50"},
+      {"damagetype":"^stab_style"}
+    ]
+  },
+  "horror_dagganoth_airb": {
+    "id": 1349,
+    "name": "Dagannoth mother",
+    "desc": "A horror from the ocean depths...",
+    "size": "3",
+    "vislevel": "100",
+    "moverestrict": "blocked",
+    "attackrange": "10",
+    "wanderrange": "65",
+    "maxrange": "65",
+    "hitpoints": "120",
+    "attack": "78",
+    "strength": "78",
+    "defence": "81",
+    "ranged": "50",
+    "params": [
+      {"stabdefence":"150"},
+      {"slashdefence":"150"},
+      {"crushdefence":"150"},
+      {"magicdefence":"50"},
+      {"rangedefence":"50"},
+      {"damagetype":"^stab_style"}
+    ]
+  },
+  "horror_dagganoth_airc": {
+    "id": 1350,
+    "name": "Dagannoth mother",
+    "desc": "A horror from the ocean depths...",
+    "size": "3",
+    "vislevel": "100",
+    "attackrange": "10",
+    "moverestrict": "blocked",
+    "wanderrange": "65",
+    "maxrange": "65",
+    "hitpoints": "120",
+    "attack": "78",
+    "strength": "78",
+    "defence": "81",
+    "ranged": "50",
+    "params": [
+      {"stabdefence":"150"},
+      {"slashdefence":"150"},
+      {"crushdefence":"150"},
+      {"magicdefence":"50"},
+      {"rangedefence":"50"},
+      {"damagetype":"^stab_style"}
+    ]
+  },
+  "horror_dagganoth_earth": {
+    "id": 1354,
+    "name": "Dagannoth mother",
+    "desc": "A horror from the ocean depths...",
+    "size": "3",
+    "op2": "Attack",
+    "vislevel": "100",
+    "wanderrange": "65",
+    "maxrange": "65",
+    "attackrange": "10",
+    "hitpoints": "120",
+    "attack": "78",
+    "strength": "78",
+    "defence": "81",
+    "ranged": "50",
+    "params": [
+      {"stabdefence":"150"},
+      {"slashdefence":"150"},
+      {"crushdefence":"150"},
+      {"magicdefence":"50"},
+      {"rangedefence":"50"},
+      {"damagetype":"^stab_style"}
+    ]
+  },
+  "horror_dagganoth_fire": {
+    "id": 1353,
+    "name": "Dagannoth mother",
+    "desc": "A horror from the ocean depths...",
+    "size": "3",
+    "op2": "Attack",
+    "vislevel": "100",
+    "wanderrange": "65",
+    "maxrange": "65",
+    "attackrange": "10",
+    "hitpoints": "120",
+    "attack": "78",
+    "strength": "78",
+    "defence": "81",
+    "ranged": "50",
+    "params": [
+      {"stabdefence":"150"},
+      {"slashdefence":"150"},
+      {"crushdefence":"150"},
+      {"magicdefence":"50"},
+      {"rangedefence":"50"},
+      {"damagetype":"^stab_style"}
+    ]
+  },
+  "horror_dagganoth_jr": {
+    "id": 1338,
+    "name": "Dagannoth",
+    "desc": "A horror from the ocean depths...",
+    "op2": "Attack",
+    "vislevel": "74",
+    "wanderrange": "65",
+    "maxrange": "65",
+    "attackrange": "4",
+    "respawnrate": "60",
+    "hitpoints": "70",
+    "attack": "68",
+    "strength": "70",
+    "defence": "50",
+    "huntmode": "cowardly",
+    "huntrange": "1",
+    "params": [
+      {"damagetype":"^stab_style"}
+    ],
+    "drops": {
+      "roll_base": 128,
+      "roll_table": [
+        {"item":["iron_spear",1],"chance":"6"},
+        {"item":["bronze_spear",1],"chance":"5"},
+        {"item":["mithril_spear",1],"chance":"1"},
+        {"item":["waterrune",15],"chance":"4"},
+        {"item":["steel_arrow",15],"chance":"2"},
+        {"item":["mithril_javelin",3],"chance":"1"},
+        {"item":["lobster_pot",1],"chance":"12"},
+        {"item":["raw_herring",3],"chance":"4"},
+        {"item":["raw_sardine",5],"chance":"4"},
+        {"item":["harpoon",1],"chance":"3"},
+        {"item":["feather",15],"chance":"2"},
+        {"item":["fishing_bait",50],"chance":"2"},
+        {"item":["raw_lobster",1],"chance":"2"},
+        {"item":["raw_tuna",1],"chance":"2"},
+        {"item":["seaweed",10],"chance":"2"},
+        {"item":["bigoysterpearls",1],"chance":"1"},
+        {"item":["smalloysterpearls",1],"chance":"1"},
+        {"item":["coins",56],"chance":"29"},
+        {"item":["coins",25],"chance":"9"},
+        {"item":["coins",44],"chance":"8"},
+        {"item":["coins",41],"chance":"6"},
+        {"item":["opal_bolttips",12],"chance":"2"},
+        {"item":["casket",1],"chance":"1"},
+        {"item":["~randomjewel",1],"chance":"1"}
+      ],
+      "always": [
+        {"item":["bones",1]}
+      ],
+      "tertiary": [
+        {"item":"~clue-medium","chance":"1/128"}
+      ]
+    }
+  },
+  "horror_dagganoth_jr_darker": {
+    "id": 1339,
+    "name": "Dagannoth",
+    "desc": "A horror from the ocean depths...",
+    "op2": "Attack",
+    "vislevel": "74",
+    "wanderrange": "65",
+    "maxrange": "65",
+    "attackrange": "4",
+    "respawnrate": "60",
+    "hitpoints": "70",
+    "attack": "68",
+    "strength": "70",
+    "defence": "50",
+    "huntmode": "cowardly",
+    "huntrange": "1",
+    "params": [
+      {"damagetype":"^stab_style"}
+    ],
+    "drops": {
+      "roll_base": 128,
+      "roll_table": [
+        {"item":["iron_spear",1],"chance":"6"},
+        {"item":["bronze_spear",1],"chance":"5"},
+        {"item":["mithril_spear",1],"chance":"1"},
+        {"item":["waterrune",15],"chance":"4"},
+        {"item":["steel_arrow",15],"chance":"2"},
+        {"item":["mithril_javelin",3],"chance":"1"},
+        {"item":["lobster_pot",1],"chance":"12"},
+        {"item":["raw_herring",3],"chance":"4"},
+        {"item":["raw_sardine",5],"chance":"4"},
+        {"item":["harpoon",1],"chance":"3"},
+        {"item":["feather",15],"chance":"2"},
+        {"item":["fishing_bait",50],"chance":"2"},
+        {"item":["raw_lobster",1],"chance":"2"},
+        {"item":["raw_tuna",1],"chance":"2"},
+        {"item":["seaweed",10],"chance":"2"},
+        {"item":["bigoysterpearls",1],"chance":"1"},
+        {"item":["smalloysterpearls",1],"chance":"1"},
+        {"item":["coins",56],"chance":"29"},
+        {"item":["coins",25],"chance":"9"},
+        {"item":["coins",44],"chance":"8"},
+        {"item":["coins",41],"chance":"6"},
+        {"item":["opal_bolttips",12],"chance":"2"},
+        {"item":["casket",1],"chance":"1"},
+        {"item":["~randomjewel",1],"chance":"1"}
+      ],
+      "always": [
+        {"item":["bones",1]}
+      ],
+      "tertiary": [
+        {"item":"~clue-medium","chance":"1/128"}
+      ]
+    }
+  },
+  "horror_dagganoth_jr_lighter": {
+    "id": 1340,
+    "name": "Dagannoth",
+    "desc": "A horror from the ocean depths...",
+    "op2": "Attack",
+    "vislevel": "74",
+    "wanderrange": "65",
+    "maxrange": "65",
+    "attackrange": "4",
+    "respawnrate": "60",
+    "hitpoints": "70",
+    "attack": "68",
+    "strength": "70",
+    "defence": "50",
+    "huntmode": "cowardly",
+    "huntrange": "1",
+    "params": [
+      {"damagetype":"^stab_style"}
+    ],
+    "drops": {
+      "roll_base": 128,
+      "roll_table": [
+        {"item":["iron_spear",1],"chance":"6"},
+        {"item":["bronze_spear",1],"chance":"5"},
+        {"item":["mithril_spear",1],"chance":"1"},
+        {"item":["waterrune",15],"chance":"4"},
+        {"item":["steel_arrow",15],"chance":"2"},
+        {"item":["mithril_javelin",3],"chance":"1"},
+        {"item":["lobster_pot",1],"chance":"12"},
+        {"item":["raw_herring",3],"chance":"4"},
+        {"item":["raw_sardine",5],"chance":"4"},
+        {"item":["harpoon",1],"chance":"3"},
+        {"item":["feather",15],"chance":"2"},
+        {"item":["fishing_bait",50],"chance":"2"},
+        {"item":["raw_lobster",1],"chance":"2"},
+        {"item":["raw_tuna",1],"chance":"2"},
+        {"item":["seaweed",10],"chance":"2"},
+        {"item":["bigoysterpearls",1],"chance":"1"},
+        {"item":["smalloysterpearls",1],"chance":"1"},
+        {"item":["coins",56],"chance":"29"},
+        {"item":["coins",25],"chance":"9"},
+        {"item":["coins",44],"chance":"8"},
+        {"item":["coins",41],"chance":"6"},
+        {"item":["opal_bolttips",12],"chance":"2"},
+        {"item":["casket",1],"chance":"1"},
+        {"item":["~randomjewel",1],"chance":"1"}
+      ],
+      "always": [
+        {"item":["bones",1]}
+      ],
+      "tertiary": [
+        {"item":"~clue-medium","chance":"1/128"}
+      ]
+    }
+  },
+  "horror_dagganoth_melee": {
+    "id": 1356,
+    "name": "Dagannoth mother",
+    "desc": "A horror from the ocean depths...",
+    "size": "3",
+    "op2": "Attack",
+    "vislevel": "100",
+    "wanderrange": "65",
+    "maxrange": "65",
+    "attackrange": "10",
+    "hitpoints": "120",
+    "attack": "78",
+    "strength": "78",
+    "defence": "81",
+    "ranged": "50",
+    "params": [
+      {"stabdefence":"150"},
+      {"slashdefence":"150"},
+      {"crushdefence":"150"},
+      {"magicdefence":"50"},
+      {"rangedefence":"50"},
+      {"damagetype":"^stab_style"}
+    ]
+  },
+  "horror_dagganoth_ranged": {
+    "id": 1355,
+    "name": "Dagannoth mother",
+    "desc": "A horror from the ocean depths...",
+    "size": "3",
+    "op2": "Attack",
+    "vislevel": "100",
+    "wanderrange": "65",
+    "maxrange": "65",
+    "attackrange": "10",
+    "hitpoints": "120",
+    "attack": "78",
+    "strength": "78",
+    "defence": "81",
+    "ranged": "50",
+    "params": [
+      {"stabdefence":"150"},
+      {"slashdefence":"150"},
+      {"crushdefence":"150"},
+      {"magicdefence":"50"},
+      {"rangedefence":"50"},
+      {"damagetype":"^stab_style"}
+    ]
+  },
+  "horror_dagganoth_water": {
+    "id": 1352,
+    "name": "Dagannoth mother",
+    "desc": "A horror from the ocean depths...",
+    "size": "3",
+    "op2": "Attack",
+    "vislevel": "100",
+    "wanderrange": "65",
+    "maxrange": "65",
+    "attackrange": "10",
+    "hitpoints": "120",
+    "attack": "78",
+    "strength": "78",
+    "defence": "81",
+    "ranged": "50",
+    "params": [
+      {"stabdefence":"150"},
+      {"slashdefence":"150"},
+      {"crushdefence":"150"},
+      {"magicdefence":"50"},
+      {"rangedefence":"50"},
+      {"damagetype":"^stab_style"}
+    ]
+  },
+  "horror_girlfriend_postquest": {
+    "id": 1337,
+    "name": "Larrissa",
+    "vislevel": "hide",
+    "desc": "A fremennik girl.",
+    "op1": "Talk-to",
+    "wanderrange": "5"
+  },
+  "horror_girlfriend_prequest": {
+    "id": 1336,
+    "name": "Larrissa",
+    "vislevel": "hide",
+    "desc": "A fremennik girl.",
+    "op1": "Talk-to",
+    "wanderrange": "5"
+  },
+  "horror_lighthousekeeeper_injured": {
+    "id": 1335,
+    "name": "Jossik",
+    "desc": "Looks like he's in trouble...",
+    "size": "2",
+    "vislevel": "hide",
+    "op1": "Talk-to",
+    "defaultmode": "none",
+    "wanderrange": "0",
+    "moverestrict": "nomove"
+  },
+  "horror_lighthousekeeeper_well": {
+    "id": 1334,
+    "name": "Jossik",
+    "desc": "Apparently he keeps a lighthouse.",
+    "op1": "Talk-to",
+    "op3": "Trade",
+    "vislevel": "hide",
+    "wanderrange": "5",
+    "params": [
+      {"owned_shop":"lighthouseshop"},
+      {"shop_sell_multiplier":"1100"},
+      {"shop_buy_multiplier":"550"},
+      {"shop_title":"The Lighthouse Store"}
+    ]
+  },
+  "horror_rockcrab": {
+    "id": 1265,
+    "name": "Rock Crab",
+    "desc": "No one likes crabs...",
+    "op2": "Attack",
+    "vislevel": "13",
+    "wanderrange": "7",
+    "maxrange": "9",
+    "respawnrate": "100",
+    "hitpoints": "50",
+    "params": [
+      {"damagetype":"^crush_style"}
+    ],
+    "drops": {
+      "roll_base": 128,
+      "roll_table": [
+        {"item":["bronze_pickaxe",1],"chance":"6"},
+        {"item":["iron_pickaxe",1],"chance":"5"},
+        {"item":["seaweed",1],"chance":"4"},
+        {"item":["seaweed",2],"chance":"4"},
+        {"item":["seaweed",5],"chance":"2"},
+        {"item":["seaweed",2],"chance":"2"},
+        {"item":["oystershell",2],"chance":"12"},
+        {"item":["oystershell",1],"chance":"9"},
+        {"item":["oysterempty",1],"chance":"3"},
+        {"item":["oysterempty",3],"chance":"1"},
+        {"item":["smalloysterpearls",1],"chance":"1"},
+        {"item":["coins",4],"chance":"29"},
+        {"item":["coins",36],"chance":"8"},
+        {"item":["coins",8],"chance":"6"},
+        {"item":["fishing_bait",10],"chance":"2"},
+        {"item":["opal_bolttips",5],"chance":"2"},
+        {"item":["spinach_roll",1],"chance":"1"},
+        {"item":["casket",1],"chance":"1"},
+        {"item":["~randomjewel",1],"chance":"1"},
+        {"item":["tin_ore",3],"chance":"4"},
+        {"item":["iron_ore",1],"chance":"2"},
+        {"item":["coal",2],"chance":"2"},
+        {"item":["copper_ore",3],"chance":"2"}
+      ],
+      "tertiary": [
+        {"item":"~clue-easy","chance":"1/128"}
+      ]
+    }
+  },
+  "horror_rockcrab_inactive": {
+    "id": 1266,
+    "name": "Rocks",
+    "vislevel": "hide",
+    "desc": "A rocky outcrop.",
+    "wanderrange": "0",
+    "respawnrate": "100",
+    "hitpoints": "50",
+    "huntrange": "1",
+    "attackrange": "1",
+    "huntmode": "aggressive_ranged"
+  },
+  "horror_rockcrab_small": {
+    "id": 1267,
+    "name": "Rock Crab",
+    "desc": "No one likes crabs...",
+    "op2": "Attack",
+    "vislevel": "13",
+    "wanderrange": "7",
+    "maxrange": "9",
+    "respawnrate": "100",
+    "hitpoints": "50",
+    "params": [
+      {"damagetype":"^crush_style"}
+    ],
+    "drops": {
+      "roll_base": 128,
+      "roll_table": [
+        {"item":["bronze_pickaxe",1],"chance":"6"},
+        {"item":["iron_pickaxe",1],"chance":"5"},
+        {"item":["seaweed",1],"chance":"4"},
+        {"item":["seaweed",2],"chance":"4"},
+        {"item":["seaweed",5],"chance":"2"},
+        {"item":["seaweed",2],"chance":"2"},
+        {"item":["oystershell",2],"chance":"12"},
+        {"item":["oystershell",1],"chance":"9"},
+        {"item":["oysterempty",1],"chance":"3"},
+        {"item":["oysterempty",3],"chance":"1"},
+        {"item":["smalloysterpearls",1],"chance":"1"},
+        {"item":["coins",4],"chance":"29"},
+        {"item":["coins",36],"chance":"8"},
+        {"item":["coins",8],"chance":"6"},
+        {"item":["fishing_bait",10],"chance":"2"},
+        {"item":["opal_bolttips",5],"chance":"2"},
+        {"item":["spinach_roll",1],"chance":"1"},
+        {"item":["casket",1],"chance":"1"},
+        {"item":["~randomjewel",1],"chance":"1"},
+        {"item":["tin_ore",3],"chance":"4"},
+        {"item":["iron_ore",1],"chance":"2"},
+        {"item":["coal",2],"chance":"2"},
+        {"item":["copper_ore",3],"chance":"2"}
+      ],
+      "tertiary": [
+        {"item":"~clue-easy","chance":"1/128"}
+      ]
+    }
+  },
+  "horror_rockcrab_small_inactive": {
+    "id": 1268,
+    "name": "Rocks",
+    "vislevel": "hide",
+    "desc": "A rocky outcrop.",
+    "wanderrange": "0",
+    "respawnrate": "100",
+    "hitpoints": "50",
+    "huntrange": "1",
+    "attackrange": "1",
+    "huntmode": "aggressive_ranged"
   },
   "horvik_the_armourer": {
     "id": 549,
@@ -11115,7 +12223,7 @@
   "jungle_spider": {
     "id": 62,
     "name": "Jungle spider",
-    "desc": "A venomous deadly spider.",
+    "desc": "A barely visible deadly jungle spider.",
     "op2": "Attack",
     "vislevel": "44",
     "wanderrange": "10",
@@ -11620,6 +12728,7 @@
     "vislevel": "hide",
     "desc": "A financial expert.",
     "op1": "Talk-to",
+    "op3": "Bank",
     "wanderrange": "0",
     "maxrange": "2",
     "moverestrict": "nomove"
@@ -11630,6 +12739,7 @@
     "vislevel": "hide",
     "desc": "Looks after your money.",
     "op1": "Talk-to",
+    "op3": "Bank",
     "wanderrange": "0",
     "maxrange": "2",
     "moverestrict": "nomove"
@@ -12317,8 +13427,6 @@
     "op1": "Talk-to",
     "wanderrange": "3",
     "defaultmode": "wander",
-    "patrol1": "0_42_52_38_21,6",
-    "patrol2": "0_42_52_43_21,6",
     "params": [
       {"damagetype":"^stab_style"}
     ]
@@ -12331,8 +13439,6 @@
     "op1": "Talk-to",
     "wanderrange": "3",
     "defaultmode": "wander",
-    "patrol1": "0_42_52_38_20,6",
-    "patrol2": "0_42_52_43_20,6",
     "params": [
       {"damagetype":"^stab_style"}
     ]
@@ -12443,6 +13549,16 @@
       {"damagetype":"^crush_style"}
     ]
   },
+  "lord_iorwerth": {
+    "id": 1182,
+    "name": "Lord Iorwerth",
+    "desc": "An elf lord.",
+    "vislevel": "hide",
+    "op1": "Talk-to",
+    "defaultmode": "none",
+    "wanderrange": "0",
+    "moverestrict": "nomove"
+  },
   "lostgnome": {
     "id": 486,
     "name": "Kalron",
@@ -12472,7 +13588,7 @@
       {"owned_shop":"legsshop"},
       {"shop_sell_multiplier":"1000"},
       {"shop_buy_multiplier":"650"},
-      {"shop_title":"Louie's Armoured Legs Bazaar."}
+      {"shop_title":"Louies' Armoured Legs Bazaar."}
     ]
   },
   "louisa_the_cook": {
@@ -12497,6 +13613,16 @@
       {"shop_title":"Lowe's Archery Emporium"}
     ]
   },
+  "lubufu_karambwan": {
+    "id": 1178,
+    "name": "Fishing spot",
+    "vislevel": "hide",
+    "desc": "Something dark green is lurking in these waters.",
+    "op1": "Fish",
+    "defaultmode": "none",
+    "wanderrange": "0",
+    "moverestrict": "nomove"
+  },
   "luthas": {
     "id": 379,
     "name": "Luthas",
@@ -12505,7 +13631,7 @@
     "op1": "Talk-to",
     "moverestrict": "indoors"
   },
-  "macro_dryhad1": {
+  "macro_dryhadguardian_1": {
     "id": 438,
     "name": "Tree spirit",
     "desc": "A very angry nymph.",
@@ -12539,7 +13665,7 @@
       ]
     }
   },
-  "macro_dryhad2": {
+  "macro_dryhadguardian_2": {
     "id": 439,
     "name": "Tree spirit",
     "desc": "A very angry nymph.",
@@ -12573,7 +13699,7 @@
       ]
     }
   },
-  "macro_dryhad3": {
+  "macro_dryhadguardian_3": {
     "id": 440,
     "name": "Tree spirit",
     "desc": "A very angry nymph.",
@@ -12607,7 +13733,7 @@
       ]
     }
   },
-  "macro_dryhad4": {
+  "macro_dryhadguardian_4": {
     "id": 441,
     "name": "Tree spirit",
     "desc": "A very angry nymph.",
@@ -12641,7 +13767,7 @@
       ]
     }
   },
-  "macro_dryhad5": {
+  "macro_dryhadguardian_5": {
     "id": 442,
     "name": "Tree spirit",
     "desc": "A very angry nymph.",
@@ -12675,7 +13801,7 @@
       ]
     }
   },
-  "macro_dryhad6": {
+  "macro_dryhadguardian_6": {
     "id": 443,
     "name": "Tree spirit",
     "desc": "A very angry nymph.",
@@ -12734,6 +13860,252 @@
       {"follow_player_on_logout":"^true"}
     ]
   },
+  "macro_golemguardian_1": {
+    "id": 413,
+    "name": "Rock Golem",
+    "desc": "Rock with attitude.",
+    "size": "2",
+    "op2": "Attack",
+    "vislevel": "14",
+    "wanderrange": "3",
+    "maxrange": "5",
+    "hitpoints": "25",
+    "attack": "9",
+    "strength": "9",
+    "defence": "9",
+    "ranged": "8",
+    "params": [
+      {"combat_xp_multiplier":"25"}
+    ],
+    "drops": {
+      "roll_base": 128,
+      "roll_table": [
+        {"item":["bronze_pickaxe",1],"chance":"4"},
+        {"item":["adamant_pickaxe",1],"chance":"1"},
+        {"item":["rune_pickaxe",1],"chance":"1"},
+        {"item":["earthrune",5],"chance":"30"},
+        {"item":["earthrune",42],"chance":"4"},
+        {"item":["chaosrune",2],"chance":"4"},
+        {"item":["coal",1],"chance":"25"},
+        {"item":["mithril_ore",1],"chance":"10"},
+        {"item":["bronze_bar",1],"chance":"7"},
+        {"item":["iron_ore",1],"chance":"4"},
+        {"item":["iron_bar",1],"chance":"3"},
+        {"item":["tin_ore",1],"chance":"3"},
+        {"item":["copper_ore",1],"chance":"3"},
+        {"item":["adamantite_ore",1],"chance":"3"},
+        {"item":["runite_ore",1],"chance":"1"},
+        {"item":["dwarven_stout",1],"chance":"13"},
+        {"item":["hammer",1],"chance":"10"},
+        {"item":["~randomjewel",1],"chance":"2"}
+      ]
+    }
+  },
+  "macro_golemguardian_2": {
+    "id": 414,
+    "name": "Rock Golem",
+    "desc": "Rock with attitude.",
+    "size": "2",
+    "op2": "Attack",
+    "vislevel": "29",
+    "wanderrange": "3",
+    "maxrange": "5",
+    "hitpoints": "40",
+    "attack": "22",
+    "strength": "22",
+    "defence": "22",
+    "ranged": "20",
+    "params": [
+      {"combat_xp_multiplier":"25"}
+    ],
+    "drops": {
+      "roll_base": 128,
+      "roll_table": [
+        {"item":["bronze_pickaxe",1],"chance":"4"},
+        {"item":["adamant_pickaxe",1],"chance":"1"},
+        {"item":["rune_pickaxe",1],"chance":"1"},
+        {"item":["earthrune",5],"chance":"30"},
+        {"item":["earthrune",42],"chance":"4"},
+        {"item":["chaosrune",2],"chance":"4"},
+        {"item":["coal",1],"chance":"25"},
+        {"item":["mithril_ore",1],"chance":"10"},
+        {"item":["bronze_bar",1],"chance":"7"},
+        {"item":["iron_ore",1],"chance":"4"},
+        {"item":["iron_bar",1],"chance":"3"},
+        {"item":["tin_ore",1],"chance":"3"},
+        {"item":["copper_ore",1],"chance":"3"},
+        {"item":["adamantite_ore",1],"chance":"3"},
+        {"item":["runite_ore",1],"chance":"1"},
+        {"item":["dwarven_stout",1],"chance":"13"},
+        {"item":["hammer",1],"chance":"10"},
+        {"item":["~randomjewel",1],"chance":"2"}
+      ]
+    }
+  },
+  "macro_golemguardian_3": {
+    "id": 415,
+    "name": "Rock Golem",
+    "desc": "Rock with attitude.",
+    "size": "2",
+    "op2": "Attack",
+    "vislevel": "49",
+    "wanderrange": "3",
+    "maxrange": "5",
+    "hitpoints": "60",
+    "attack": "38",
+    "strength": "38",
+    "defence": "38",
+    "ranged": "35",
+    "params": [
+      {"combat_xp_multiplier":"25"}
+    ],
+    "drops": {
+      "roll_base": 128,
+      "roll_table": [
+        {"item":["bronze_pickaxe",1],"chance":"4"},
+        {"item":["adamant_pickaxe",1],"chance":"1"},
+        {"item":["rune_pickaxe",1],"chance":"1"},
+        {"item":["earthrune",5],"chance":"30"},
+        {"item":["earthrune",42],"chance":"4"},
+        {"item":["chaosrune",2],"chance":"4"},
+        {"item":["coal",1],"chance":"25"},
+        {"item":["mithril_ore",1],"chance":"10"},
+        {"item":["bronze_bar",1],"chance":"7"},
+        {"item":["iron_ore",1],"chance":"4"},
+        {"item":["iron_bar",1],"chance":"3"},
+        {"item":["tin_ore",1],"chance":"3"},
+        {"item":["copper_ore",1],"chance":"3"},
+        {"item":["adamantite_ore",1],"chance":"3"},
+        {"item":["runite_ore",1],"chance":"1"},
+        {"item":["dwarven_stout",1],"chance":"13"},
+        {"item":["hammer",1],"chance":"10"},
+        {"item":["~randomjewel",1],"chance":"2"}
+      ]
+    }
+  },
+  "macro_golemguardian_4": {
+    "id": 416,
+    "name": "Rock Golem",
+    "desc": "Rock with attitude.",
+    "size": "2",
+    "op2": "Attack",
+    "vislevel": "79",
+    "wanderrange": "3",
+    "maxrange": "5",
+    "hitpoints": "85",
+    "attack": "65",
+    "strength": "65",
+    "defence": "65",
+    "ranged": "70",
+    "params": [
+      {"combat_xp_multiplier":"25"}
+    ],
+    "drops": {
+      "roll_base": 128,
+      "roll_table": [
+        {"item":["bronze_pickaxe",1],"chance":"4"},
+        {"item":["adamant_pickaxe",1],"chance":"1"},
+        {"item":["rune_pickaxe",1],"chance":"1"},
+        {"item":["earthrune",5],"chance":"30"},
+        {"item":["earthrune",42],"chance":"4"},
+        {"item":["chaosrune",2],"chance":"4"},
+        {"item":["coal",1],"chance":"25"},
+        {"item":["mithril_ore",1],"chance":"10"},
+        {"item":["bronze_bar",1],"chance":"7"},
+        {"item":["iron_ore",1],"chance":"4"},
+        {"item":["iron_bar",1],"chance":"3"},
+        {"item":["tin_ore",1],"chance":"3"},
+        {"item":["copper_ore",1],"chance":"3"},
+        {"item":["adamantite_ore",1],"chance":"3"},
+        {"item":["runite_ore",1],"chance":"1"},
+        {"item":["dwarven_stout",1],"chance":"13"},
+        {"item":["hammer",1],"chance":"10"},
+        {"item":["~randomjewel",1],"chance":"2"}
+      ]
+    }
+  },
+  "macro_golemguardian_5": {
+    "id": 417,
+    "name": "Rock Golem",
+    "desc": "Rock with attitude.",
+    "size": "2",
+    "op2": "Attack",
+    "vislevel": "120",
+    "wanderrange": "3",
+    "maxrange": "5",
+    "hitpoints": "120",
+    "attack": "100",
+    "strength": "100",
+    "defence": "100",
+    "ranged": "75",
+    "params": [
+      {"combat_xp_multiplier":"25"}
+    ],
+    "drops": {
+      "roll_base": 128,
+      "roll_table": [
+        {"item":["bronze_pickaxe",1],"chance":"4"},
+        {"item":["adamant_pickaxe",1],"chance":"1"},
+        {"item":["rune_pickaxe",1],"chance":"1"},
+        {"item":["earthrune",5],"chance":"30"},
+        {"item":["earthrune",42],"chance":"4"},
+        {"item":["chaosrune",2],"chance":"4"},
+        {"item":["coal",1],"chance":"25"},
+        {"item":["mithril_ore",1],"chance":"10"},
+        {"item":["bronze_bar",1],"chance":"7"},
+        {"item":["iron_ore",1],"chance":"4"},
+        {"item":["iron_bar",1],"chance":"3"},
+        {"item":["tin_ore",1],"chance":"3"},
+        {"item":["copper_ore",1],"chance":"3"},
+        {"item":["adamantite_ore",1],"chance":"3"},
+        {"item":["runite_ore",1],"chance":"1"},
+        {"item":["dwarven_stout",1],"chance":"13"},
+        {"item":["hammer",1],"chance":"10"},
+        {"item":["~randomjewel",1],"chance":"2"}
+      ]
+    }
+  },
+  "macro_golemguardian_6": {
+    "id": 418,
+    "name": "Rock Golem",
+    "desc": "Rock with attitude.",
+    "size": "2",
+    "op2": "Attack",
+    "vislevel": "159",
+    "wanderrange": "3",
+    "maxrange": "5",
+    "hitpoints": "170",
+    "attack": "130",
+    "strength": "130",
+    "defence": "130",
+    "ranged": "80",
+    "params": [
+      {"combat_xp_multiplier":"25"}
+    ],
+    "drops": {
+      "roll_base": 128,
+      "roll_table": [
+        {"item":["bronze_pickaxe",1],"chance":"4"},
+        {"item":["adamant_pickaxe",1],"chance":"1"},
+        {"item":["rune_pickaxe",1],"chance":"1"},
+        {"item":["earthrune",5],"chance":"30"},
+        {"item":["earthrune",42],"chance":"4"},
+        {"item":["chaosrune",2],"chance":"4"},
+        {"item":["coal",1],"chance":"25"},
+        {"item":["mithril_ore",1],"chance":"10"},
+        {"item":["bronze_bar",1],"chance":"7"},
+        {"item":["iron_ore",1],"chance":"4"},
+        {"item":["iron_bar",1],"chance":"3"},
+        {"item":["tin_ore",1],"chance":"3"},
+        {"item":["copper_ore",1],"chance":"3"},
+        {"item":["adamantite_ore",1],"chance":"3"},
+        {"item":["runite_ore",1],"chance":"1"},
+        {"item":["dwarven_stout",1],"chance":"13"},
+        {"item":["hammer",1],"chance":"10"},
+        {"item":["~randomjewel",1],"chance":"2"}
+      ]
+    }
+  },
   "macro_mime": {
     "id": 1056,
     "name": "Mime",
@@ -12750,7 +14122,7 @@
       {"follow_player_on_logout":"^true"}
     ]
   },
-  "macro_rivertroll1": {
+  "macro_rivertrollguardian_1": {
     "id": 391,
     "name": "River troll",
     "desc": "Likes fish... hates people.",
@@ -12782,12 +14154,11 @@
         {"item":["raw_sardine",1],"chance":"4"},
         {"item":["raw_herring",1],"chance":"3"},
         {"item":["oystershell",5],"chance":"12"},
-        {"item":["casket",1],"chance":"5"},
-        {"item":["3dosefisherspotion",1],"chance":"5"}
+        {"item":["casket",1],"chance":"5"}
       ]
     }
   },
-  "macro_rivertroll2": {
+  "macro_rivertrollguardian_2": {
     "id": 392,
     "name": "River troll",
     "desc": "Likes fish... hates people.",
@@ -12819,12 +14190,11 @@
         {"item":["raw_sardine",1],"chance":"4"},
         {"item":["raw_herring",1],"chance":"3"},
         {"item":["oystershell",5],"chance":"12"},
-        {"item":["casket",1],"chance":"5"},
-        {"item":["3dosefisherspotion",1],"chance":"5"}
+        {"item":["casket",1],"chance":"5"}
       ]
     }
   },
-  "macro_rivertroll3": {
+  "macro_rivertrollguardian_3": {
     "id": 393,
     "name": "River troll",
     "desc": "Likes fish... hates people.",
@@ -12856,12 +14226,11 @@
         {"item":["raw_sardine",1],"chance":"4"},
         {"item":["raw_herring",1],"chance":"3"},
         {"item":["oystershell",5],"chance":"12"},
-        {"item":["casket",1],"chance":"5"},
-        {"item":["3dosefisherspotion",1],"chance":"5"}
+        {"item":["casket",1],"chance":"5"}
       ]
     }
   },
-  "macro_rivertroll4": {
+  "macro_rivertrollguardian_4": {
     "id": 394,
     "name": "River troll",
     "desc": "Likes fish... hates people.",
@@ -12893,12 +14262,11 @@
         {"item":["raw_sardine",1],"chance":"4"},
         {"item":["raw_herring",1],"chance":"3"},
         {"item":["oystershell",5],"chance":"12"},
-        {"item":["casket",1],"chance":"5"},
-        {"item":["3dosefisherspotion",1],"chance":"5"}
+        {"item":["casket",1],"chance":"5"}
       ]
     }
   },
-  "macro_rivertroll5": {
+  "macro_rivertrollguardian_5": {
     "id": 395,
     "name": "River troll",
     "desc": "Likes fish... hates people.",
@@ -12930,12 +14298,11 @@
         {"item":["raw_sardine",1],"chance":"4"},
         {"item":["raw_herring",1],"chance":"3"},
         {"item":["oystershell",5],"chance":"12"},
-        {"item":["casket",1],"chance":"5"},
-        {"item":["3dosefisherspotion",1],"chance":"5"}
+        {"item":["casket",1],"chance":"5"}
       ]
     }
   },
-  "macro_rivertroll6": {
+  "macro_rivertrollguardian_6": {
     "id": 396,
     "name": "River troll",
     "desc": "Likes fish... hates people.",
@@ -12967,236 +14334,7 @@
         {"item":["raw_sardine",1],"chance":"4"},
         {"item":["raw_herring",1],"chance":"3"},
         {"item":["oystershell",5],"chance":"12"},
-        {"item":["casket",1],"chance":"5"},
-        {"item":["3dosefisherspotion",1],"chance":"5"}
-      ]
-    }
-  },
-  "macro_rockgolem1": {
-    "id": 413,
-    "name": "Rock Golem",
-    "desc": "Rock with attitude.",
-    "size": "2",
-    "op2": "Attack",
-    "vislevel": "14",
-    "wanderrange": "3",
-    "maxrange": "5",
-    "hitpoints": "25",
-    "attack": "9",
-    "strength": "9",
-    "defence": "9",
-    "ranged": "8",
-    "drops": {
-      "roll_base": 128,
-      "roll_table": [
-        {"item":["bronze_pickaxe",1],"chance":"4"},
-        {"item":["adamant_pickaxe",1],"chance":"1"},
-        {"item":["rune_pickaxe",1],"chance":"1"},
-        {"item":["earthrune",5],"chance":"30"},
-        {"item":["earthrune",42],"chance":"4"},
-        {"item":["chaosrune",2],"chance":"4"},
-        {"item":["coal",1],"chance":"25"},
-        {"item":["mithril_ore",1],"chance":"10"},
-        {"item":["bronze_bar",1],"chance":"7"},
-        {"item":["iron_ore",1],"chance":"4"},
-        {"item":["iron_bar",1],"chance":"3"},
-        {"item":["tin_ore",1],"chance":"3"},
-        {"item":["copper_ore",1],"chance":"3"},
-        {"item":["adamantite_ore",1],"chance":"3"},
-        {"item":["runite_ore",1],"chance":"1"},
-        {"item":["dwarven_stout",1],"chance":"13"},
-        {"item":["hammer",1],"chance":"10"},
-        {"item":["~randomjewel",1],"chance":"2"}
-      ]
-    }
-  },
-  "macro_rockgolem2": {
-    "id": 414,
-    "name": "Rock Golem",
-    "desc": "Rock with attitude.",
-    "size": "2",
-    "op2": "Attack",
-    "vislevel": "29",
-    "wanderrange": "3",
-    "maxrange": "5",
-    "hitpoints": "40",
-    "attack": "22",
-    "strength": "22",
-    "defence": "22",
-    "ranged": "20",
-    "drops": {
-      "roll_base": 128,
-      "roll_table": [
-        {"item":["bronze_pickaxe",1],"chance":"4"},
-        {"item":["adamant_pickaxe",1],"chance":"1"},
-        {"item":["rune_pickaxe",1],"chance":"1"},
-        {"item":["earthrune",5],"chance":"30"},
-        {"item":["earthrune",42],"chance":"4"},
-        {"item":["chaosrune",2],"chance":"4"},
-        {"item":["coal",1],"chance":"25"},
-        {"item":["mithril_ore",1],"chance":"10"},
-        {"item":["bronze_bar",1],"chance":"7"},
-        {"item":["iron_ore",1],"chance":"4"},
-        {"item":["iron_bar",1],"chance":"3"},
-        {"item":["tin_ore",1],"chance":"3"},
-        {"item":["copper_ore",1],"chance":"3"},
-        {"item":["adamantite_ore",1],"chance":"3"},
-        {"item":["runite_ore",1],"chance":"1"},
-        {"item":["dwarven_stout",1],"chance":"13"},
-        {"item":["hammer",1],"chance":"10"},
-        {"item":["~randomjewel",1],"chance":"2"}
-      ]
-    }
-  },
-  "macro_rockgolem3": {
-    "id": 415,
-    "name": "Rock Golem",
-    "desc": "Rock with attitude.",
-    "size": "2",
-    "op2": "Attack",
-    "vislevel": "49",
-    "wanderrange": "3",
-    "maxrange": "5",
-    "hitpoints": "60",
-    "attack": "38",
-    "strength": "38",
-    "defence": "38",
-    "ranged": "35",
-    "drops": {
-      "roll_base": 128,
-      "roll_table": [
-        {"item":["bronze_pickaxe",1],"chance":"4"},
-        {"item":["adamant_pickaxe",1],"chance":"1"},
-        {"item":["rune_pickaxe",1],"chance":"1"},
-        {"item":["earthrune",5],"chance":"30"},
-        {"item":["earthrune",42],"chance":"4"},
-        {"item":["chaosrune",2],"chance":"4"},
-        {"item":["coal",1],"chance":"25"},
-        {"item":["mithril_ore",1],"chance":"10"},
-        {"item":["bronze_bar",1],"chance":"7"},
-        {"item":["iron_ore",1],"chance":"4"},
-        {"item":["iron_bar",1],"chance":"3"},
-        {"item":["tin_ore",1],"chance":"3"},
-        {"item":["copper_ore",1],"chance":"3"},
-        {"item":["adamantite_ore",1],"chance":"3"},
-        {"item":["runite_ore",1],"chance":"1"},
-        {"item":["dwarven_stout",1],"chance":"13"},
-        {"item":["hammer",1],"chance":"10"},
-        {"item":["~randomjewel",1],"chance":"2"}
-      ]
-    }
-  },
-  "macro_rockgolem4": {
-    "id": 416,
-    "name": "Rock Golem",
-    "desc": "Rock with attitude.",
-    "size": "2",
-    "op2": "Attack",
-    "vislevel": "79",
-    "wanderrange": "3",
-    "maxrange": "5",
-    "hitpoints": "85",
-    "attack": "65",
-    "strength": "65",
-    "defence": "65",
-    "ranged": "70",
-    "drops": {
-      "roll_base": 128,
-      "roll_table": [
-        {"item":["bronze_pickaxe",1],"chance":"4"},
-        {"item":["adamant_pickaxe",1],"chance":"1"},
-        {"item":["rune_pickaxe",1],"chance":"1"},
-        {"item":["earthrune",5],"chance":"30"},
-        {"item":["earthrune",42],"chance":"4"},
-        {"item":["chaosrune",2],"chance":"4"},
-        {"item":["coal",1],"chance":"25"},
-        {"item":["mithril_ore",1],"chance":"10"},
-        {"item":["bronze_bar",1],"chance":"7"},
-        {"item":["iron_ore",1],"chance":"4"},
-        {"item":["iron_bar",1],"chance":"3"},
-        {"item":["tin_ore",1],"chance":"3"},
-        {"item":["copper_ore",1],"chance":"3"},
-        {"item":["adamantite_ore",1],"chance":"3"},
-        {"item":["runite_ore",1],"chance":"1"},
-        {"item":["dwarven_stout",1],"chance":"13"},
-        {"item":["hammer",1],"chance":"10"},
-        {"item":["~randomjewel",1],"chance":"2"}
-      ]
-    }
-  },
-  "macro_rockgolem5": {
-    "id": 417,
-    "name": "Rock Golem",
-    "desc": "Rock with attitude.",
-    "size": "2",
-    "op2": "Attack",
-    "vislevel": "120",
-    "wanderrange": "3",
-    "maxrange": "5",
-    "hitpoints": "120",
-    "attack": "100",
-    "strength": "100",
-    "defence": "100",
-    "ranged": "75",
-    "drops": {
-      "roll_base": 128,
-      "roll_table": [
-        {"item":["bronze_pickaxe",1],"chance":"4"},
-        {"item":["adamant_pickaxe",1],"chance":"1"},
-        {"item":["rune_pickaxe",1],"chance":"1"},
-        {"item":["earthrune",5],"chance":"30"},
-        {"item":["earthrune",42],"chance":"4"},
-        {"item":["chaosrune",2],"chance":"4"},
-        {"item":["coal",1],"chance":"25"},
-        {"item":["mithril_ore",1],"chance":"10"},
-        {"item":["bronze_bar",1],"chance":"7"},
-        {"item":["iron_ore",1],"chance":"4"},
-        {"item":["iron_bar",1],"chance":"3"},
-        {"item":["tin_ore",1],"chance":"3"},
-        {"item":["copper_ore",1],"chance":"3"},
-        {"item":["adamantite_ore",1],"chance":"3"},
-        {"item":["runite_ore",1],"chance":"1"},
-        {"item":["dwarven_stout",1],"chance":"13"},
-        {"item":["hammer",1],"chance":"10"},
-        {"item":["~randomjewel",1],"chance":"2"}
-      ]
-    }
-  },
-  "macro_rockgolem6": {
-    "id": 418,
-    "name": "Rock Golem",
-    "desc": "Rock with attitude.",
-    "size": "2",
-    "op2": "Attack",
-    "vislevel": "159",
-    "wanderrange": "3",
-    "maxrange": "5",
-    "hitpoints": "170",
-    "attack": "130",
-    "strength": "130",
-    "defence": "130",
-    "ranged": "80",
-    "drops": {
-      "roll_base": 128,
-      "roll_table": [
-        {"item":["bronze_pickaxe",1],"chance":"4"},
-        {"item":["adamant_pickaxe",1],"chance":"1"},
-        {"item":["rune_pickaxe",1],"chance":"1"},
-        {"item":["earthrune",5],"chance":"30"},
-        {"item":["earthrune",42],"chance":"4"},
-        {"item":["chaosrune",2],"chance":"4"},
-        {"item":["coal",1],"chance":"25"},
-        {"item":["mithril_ore",1],"chance":"10"},
-        {"item":["bronze_bar",1],"chance":"7"},
-        {"item":["iron_ore",1],"chance":"4"},
-        {"item":["iron_bar",1],"chance":"3"},
-        {"item":["tin_ore",1],"chance":"3"},
-        {"item":["copper_ore",1],"chance":"3"},
-        {"item":["adamantite_ore",1],"chance":"3"},
-        {"item":["runite_ore",1],"chance":"1"},
-        {"item":["dwarven_stout",1],"chance":"13"},
-        {"item":["hammer",1],"chance":"10"},
-        {"item":["~randomjewel",1],"chance":"2"}
+        {"item":["casket",1],"chance":"5"}
       ]
     }
   },
@@ -13342,7 +14480,14 @@
       {"damagetype":"^crush_style"},
       {"undead":"^true"},
       {"combat_xp_multiplier":"25"}
-    ]
+    ],
+    "drops": {
+      "roll_base": 128,
+      "roll_table": [
+        {"item":["blackrobetop",1],"chance":"32"},
+        {"item":["blackrobebottom",1],"chance":"32"}
+      ]
+    }
   },
   "macro_theatre_guthix": {
     "id": 1058,
@@ -14143,6 +15288,304 @@
     "op1": "Talk-to",
     "wanderrange": "3"
   },
+  "mmsnailpoint_blue": {
+    "id": 1235,
+    "name": "Bruise Blamish Snail",
+    "desc": "A bruise blue coloured blamish snail, these types are said to spit acid.",
+    "op2": "Attack",
+    "vislevel": "20",
+    "wanderrange": "35",
+    "maxrange": "37",
+    "attackrange": "3",
+    "respawnrate": "100",
+    "hitpoints": "15",
+    "attack": "0",
+    "strength": "0",
+    "defence": "27",
+    "ranged": "20",
+    "params": [
+      {"attackrate":"6"},
+      {"attackbonus":"10"},
+      {"strengthbonus":"10"},
+      {"stabdefence":"5"},
+      {"slashdefence":"5"},
+      {"crushdefence":"30"},
+      {"magicdefence":"5"},
+      {"rangedefence":"50"},
+      {"damagetype":"^stab_style"},
+      {"rangeattack_anim":"snail_attack"}
+    ],
+    "drops": {
+      "always": [
+        {"item":["shellpoint_blue",1]},
+        {"item":["snail_corpse3",1]}
+      ]
+    }
+  },
+  "mmsnailpoint_red+black": {
+    "id": 1233,
+    "name": "Blood Blamish Snail",
+    "desc": "A blood coloured blamish snail, these types are said to spit acid.",
+    "op2": "Attack",
+    "vislevel": "20",
+    "wanderrange": "40",
+    "maxrange": "42",
+    "attackrange": "3",
+    "respawnrate": "100",
+    "hitpoints": "10",
+    "attack": "0",
+    "strength": "0",
+    "defence": "30",
+    "ranged": "21",
+    "params": [
+      {"attackrate":"6"},
+      {"attackbonus":"10"},
+      {"strengthbonus":"10"},
+      {"stabdefence":"5"},
+      {"slashdefence":"5"},
+      {"crushdefence":"30"},
+      {"magicdefence":"5"},
+      {"rangedefence":"50"},
+      {"damagetype":"^stab_style"}
+    ],
+    "drops": {
+      "always": [
+        {"item":["shellpoint_red+black",1]},
+        {"item":["snail_corpse3",1]}
+      ]
+    }
+  },
+  "mmsnailpoint_swamp": {
+    "id": 1232,
+    "name": "Myre Blamish Snail",
+    "desc": "A marsh coloured blamish snail, these types are said to spit acid.",
+    "op2": "Attack",
+    "vislevel": "10",
+    "wanderrange": "10",
+    "maxrange": "12",
+    "attackrange": "3",
+    "respawnrate": "100",
+    "hitpoints": "13",
+    "attack": "0",
+    "strength": "0",
+    "defence": "12",
+    "ranged": "8",
+    "params": [
+      {"attackrate":"6"},
+      {"attackbonus":"10"},
+      {"strengthbonus":"10"},
+      {"stabdefence":"5"},
+      {"slashdefence":"5"},
+      {"crushdefence":"30"},
+      {"magicdefence":"5"},
+      {"rangedefence":"50"},
+      {"damagetype":"^stab_style"}
+    ],
+    "drops": {
+      "always": [
+        {"item":["shellpoint_swamp",1]},
+        {"item":["snail_corpse1",1]}
+      ]
+    }
+  },
+  "mmsnailpoint_yellow": {
+    "id": 1234,
+    "name": "Ochre Blamish Snail",
+    "desc": "A muddy coloured blamish snail, these types are said to spit acid.",
+    "op2": "Attack",
+    "vislevel": "15",
+    "wanderrange": "25",
+    "maxrange": "27",
+    "attackrange": "3",
+    "respawnrate": "100",
+    "hitpoints": "20",
+    "attack": "0",
+    "strength": "0",
+    "defence": "25",
+    "ranged": "8",
+    "params": [
+      {"attackrate":"6"},
+      {"attackbonus":"10"},
+      {"strengthbonus":"10"},
+      {"stabdefence":"5"},
+      {"slashdefence":"5"},
+      {"crushdefence":"30"},
+      {"magicdefence":"5"},
+      {"rangedefence":"50"},
+      {"damagetype":"^stab_style"}
+    ],
+    "drops": {
+      "always": [
+        {"item":["shellpoint_yellow",1]},
+        {"item":["snail_corpse1",1]}
+      ]
+    }
+  },
+  "mmsnailround_blue": {
+    "id": 1230,
+    "name": "Bruise Blamish Snail",
+    "desc": "A bruise blue coloured blamish snail, these types are said to spit acid.",
+    "op2": "Attack",
+    "vislevel": "20",
+    "wanderrange": "50",
+    "maxrange": "52",
+    "attackrange": "3",
+    "respawnrate": "100",
+    "hitpoints": "12",
+    "attack": "0",
+    "strength": "0",
+    "defence": "40",
+    "ranged": "15",
+    "params": [
+      {"attackrate":"6"},
+      {"attackbonus":"10"},
+      {"strengthbonus":"10"},
+      {"stabdefence":"5"},
+      {"slashdefence":"5"},
+      {"crushdefence":"30"},
+      {"magicdefence":"5"},
+      {"rangedefence":"50"},
+      {"damagetype":"^stab_style"}
+    ],
+    "drops": {
+      "always": [
+        {"item":["shellround_blue",1]},
+        {"item":["snail_corpse3",1]}
+      ]
+    }
+  },
+  "mmsnailround_orange": {
+    "id": 1231,
+    "name": "Bark Blamish Snail",
+    "desc": "A branch bark coloured blamish snail, these types are said to spit acid.",
+    "op2": "Attack",
+    "vislevel": "15",
+    "wanderrange": "30",
+    "maxrange": "32",
+    "attackrange": "3",
+    "respawnrate": "100",
+    "hitpoints": "22",
+    "attack": "0",
+    "strength": "0",
+    "defence": "20",
+    "ranged": "10",
+    "params": [
+      {"attackrate":"6"},
+      {"attackbonus":"10"},
+      {"strengthbonus":"10"},
+      {"stabdefence":"5"},
+      {"slashdefence":"5"},
+      {"crushdefence":"30"},
+      {"magicdefence":"5"},
+      {"rangedefence":"50"},
+      {"damagetype":"^stab_style"}
+    ],
+    "drops": {
+      "always": [
+        {"item":["shellround_orange",1]},
+        {"item":["snail_corpse2",1]}
+      ]
+    }
+  },
+  "mmsnailround_red+black": {
+    "id": 1228,
+    "name": "Blood Blamish Snail",
+    "desc": "A blood coloured blamish snail, these types are said to spit acid.",
+    "op2": "Attack",
+    "vislevel": "20",
+    "wanderrange": "60",
+    "maxrange": "62",
+    "attackrange": "3",
+    "respawnrate": "100",
+    "hitpoints": "13",
+    "attack": "0",
+    "strength": "0",
+    "defence": "45",
+    "ranged": "12",
+    "params": [
+      {"attackrate":"6"},
+      {"attackbonus":"10"},
+      {"strengthbonus":"10"},
+      {"stabdefence":"5"},
+      {"slashdefence":"5"},
+      {"crushdefence":"30"},
+      {"magicdefence":"5"},
+      {"rangedefence":"50"},
+      {"damagetype":"^stab_style"}
+    ],
+    "drops": {
+      "always": [
+        {"item":["shellround_red+black",1]},
+        {"item":["snail_corpse3",1]}
+      ]
+    }
+  },
+  "mmsnailround_swamp": {
+    "id": 1227,
+    "name": "Myre Blamish Snail",
+    "desc": "A marsh coloured blamish snail, these types are said to spit acid.",
+    "op2": "Attack",
+    "vislevel": "9",
+    "wanderrange": "20",
+    "maxrange": "22",
+    "attackrange": "3",
+    "respawnrate": "100",
+    "hitpoints": "8",
+    "attack": "0",
+    "strength": "0",
+    "defence": "22",
+    "ranged": "5",
+    "params": [
+      {"attackrate":"6"},
+      {"attackbonus":"10"},
+      {"strengthbonus":"10"},
+      {"stabdefence":"5"},
+      {"slashdefence":"5"},
+      {"crushdefence":"30"},
+      {"magicdefence":"5"},
+      {"rangedefence":"50"},
+      {"damagetype":"^stab_style"}
+    ],
+    "drops": {
+      "always": [
+        {"item":["shellround_swamp",1]},
+        {"item":["snail_corpse1",1]}
+      ]
+    }
+  },
+  "mmsnailround_yellow": {
+    "id": 1229,
+    "name": "Ochre Blamish Snail",
+    "desc": "A muddy coloured blamish snail, these types are said to spit acid.",
+    "op2": "Attack",
+    "vislevel": "10",
+    "wanderrange": "15",
+    "maxrange": "17",
+    "attackrange": "3",
+    "respawnrate": "100",
+    "hitpoints": "10",
+    "attack": "0",
+    "strength": "0",
+    "defence": "18",
+    "ranged": "7",
+    "params": [
+      {"attackrate":"6"},
+      {"attackbonus":"10"},
+      {"strengthbonus":"10"},
+      {"stabdefence":"5"},
+      {"slashdefence":"5"},
+      {"crushdefence":"30"},
+      {"magicdefence":"5"},
+      {"rangedefence":"50"},
+      {"damagetype":"^stab_style"}
+    ],
+    "drops": {
+      "always": [
+        {"item":["shellround_yellow",1]},
+        {"item":["snail_corpse1",1]}
+      ]
+    }
+  },
   "monk": {
     "id": 803,
     "name": "Monk",
@@ -14200,7 +15643,13 @@
     "defence": "2",
     "params": [
       {"damagetype":"^crush_style"}
-    ]
+    ],
+    "drops": {
+      "always": [
+        {"item":["tbwt_monkey_corpse",1]},
+        {"item":["mm_normal_monkey_bones",1]}
+      ]
+    }
   },
   "morgan": {
     "id": 755,
@@ -14226,6 +15675,273 @@
     "wanderrange": "0",
     "moverestrict": "nomove"
   },
+  "mort_afflicted_man": {
+    "id": 1257,
+    "name": "Afflicted",
+    "desc": "A local villager of Mort'ton.",
+    "op1": "Talk-to",
+    "op2": "Attack",
+    "vislevel": "37",
+    "wanderrange": "5",
+    "maxrange": "7",
+    "respawnrate": "25",
+    "hitpoints": "30",
+    "attack": "30",
+    "strength": "30",
+    "defence": "40",
+    "huntmode": "cowardly",
+    "huntrange": "1",
+    "params": [
+      {"damagetype":"^crush_style"},
+      {"next_npc_type":"mort_man"}
+    ],
+    "drops": {
+      "roll_base": 128,
+      "roll_table": [
+        {"item":["iron_dagger",1],"chance":"1"},
+        {"item":["bronze_med_helm",1],"chance":"2"},
+        {"item":["bolt","2-12"],"chance":"22"},
+        {"item":["bronze_arrow",7],"chance":"3"},
+        {"item":["earthrune",4],"chance":"2"},
+        {"item":["firerune",6],"chance":"2"},
+        {"item":["mindrune",9],"chance":"2"},
+        {"item":["chaosrune",2],"chance":"1"},
+        {"item":["~randomherb",1],"chance":"23"},
+        {"item":["coins",3],"chance":"38"},
+        {"item":["coins",5],"chance":"9"},
+        {"item":["coins",15],"chance":"4"},
+        {"item":["coins",25],"chance":"1"},
+        {"item":["fishing_bait",1],"chance":"5"},
+        {"item":["copper_ore",1],"chance":"2"},
+        {"item":["earth_talisman",1],"chance":"2"},
+        {"item":["cabbage",1],"chance":"1"}
+      ],
+      "always": [
+        {"item":["bones",1]}
+      ],
+      "tertiary": [
+        {"item":"~clue-easy","chance":"1/128"}
+      ]
+    }
+  },
+  "mort_afflicted_man2": {
+    "id": 1261,
+    "name": "Afflicted",
+    "desc": "A local villager of Mort'ton.",
+    "op1": "Talk-to",
+    "op2": "Attack",
+    "vislevel": "32",
+    "wanderrange": "5",
+    "maxrange": "7",
+    "respawnrate": "25",
+    "hitpoints": "26",
+    "attack": "26",
+    "strength": "26",
+    "defence": "36",
+    "huntmode": "cowardly",
+    "huntrange": "1",
+    "params": [
+      {"damagetype":"^crush_style"},
+      {"next_npc_type":"mort_man2"}
+    ],
+    "drops": {
+      "roll_base": 128,
+      "roll_table": [
+        {"item":["iron_dagger",1],"chance":"1"},
+        {"item":["bronze_med_helm",1],"chance":"2"},
+        {"item":["bolt","2-12"],"chance":"22"},
+        {"item":["bronze_arrow",7],"chance":"3"},
+        {"item":["earthrune",4],"chance":"2"},
+        {"item":["firerune",6],"chance":"2"},
+        {"item":["mindrune",9],"chance":"2"},
+        {"item":["chaosrune",2],"chance":"1"},
+        {"item":["~randomherb",1],"chance":"23"},
+        {"item":["coins",3],"chance":"38"},
+        {"item":["coins",5],"chance":"9"},
+        {"item":["coins",15],"chance":"4"},
+        {"item":["coins",25],"chance":"1"},
+        {"item":["fishing_bait",1],"chance":"5"},
+        {"item":["copper_ore",1],"chance":"2"},
+        {"item":["earth_talisman",1],"chance":"2"},
+        {"item":["cabbage",1],"chance":"1"}
+      ],
+      "always": [
+        {"item":["bones",1]}
+      ],
+      "tertiary": [
+        {"item":"~clue-easy","chance":"1/128"}
+      ]
+    }
+  },
+  "mort_afflicted_woman": {
+    "id": 1258,
+    "name": "Afflicted",
+    "desc": "A local villager of Mort'ton.",
+    "op1": "Talk-to",
+    "op2": "Attack",
+    "vislevel": "34",
+    "wanderrange": "5",
+    "maxrange": "7",
+    "respawnrate": "25",
+    "hitpoints": "28",
+    "attack": "28",
+    "strength": "28",
+    "defence": "38",
+    "huntmode": "cowardly",
+    "huntrange": "1",
+    "params": [
+      {"damagetype":"^crush_style"},
+      {"next_npc_type":"mort_woman"}
+    ],
+    "drops": {
+      "roll_base": 128,
+      "roll_table": [
+        {"item":["iron_dagger",1],"chance":"1"},
+        {"item":["bronze_med_helm",1],"chance":"2"},
+        {"item":["bolt","2-12"],"chance":"22"},
+        {"item":["bronze_arrow",7],"chance":"3"},
+        {"item":["earthrune",4],"chance":"2"},
+        {"item":["firerune",6],"chance":"2"},
+        {"item":["mindrune",9],"chance":"2"},
+        {"item":["chaosrune",2],"chance":"1"},
+        {"item":["~randomherb",1],"chance":"23"},
+        {"item":["coins",3],"chance":"38"},
+        {"item":["coins",5],"chance":"9"},
+        {"item":["coins",15],"chance":"4"},
+        {"item":["coins",25],"chance":"1"},
+        {"item":["fishing_bait",1],"chance":"5"},
+        {"item":["copper_ore",1],"chance":"2"},
+        {"item":["earth_talisman",1],"chance":"2"},
+        {"item":["cabbage",1],"chance":"1"}
+      ],
+      "always": [
+        {"item":["bones",1]}
+      ],
+      "tertiary": [
+        {"item":"~clue-easy","chance":"1/128"}
+      ]
+    }
+  },
+  "mort_afflicted_woman2": {
+    "id": 1262,
+    "name": "Afflicted",
+    "desc": "A local villager of Mort'ton.",
+    "op1": "Talk-to",
+    "op2": "Attack",
+    "vislevel": "30",
+    "wanderrange": "5",
+    "maxrange": "7",
+    "respawnrate": "25",
+    "hitpoints": "24",
+    "attack": "24",
+    "strength": "24",
+    "defence": "34",
+    "huntmode": "cowardly",
+    "huntrange": "1",
+    "params": [
+      {"damagetype":"^crush_style"},
+      {"next_npc_type":"mort_woman2"}
+    ],
+    "drops": {
+      "roll_base": 128,
+      "roll_table": [
+        {"item":["iron_dagger",1],"chance":"1"},
+        {"item":["bronze_med_helm",1],"chance":"2"},
+        {"item":["bolt","2-12"],"chance":"22"},
+        {"item":["bronze_arrow",7],"chance":"3"},
+        {"item":["earthrune",4],"chance":"2"},
+        {"item":["firerune",6],"chance":"2"},
+        {"item":["mindrune",9],"chance":"2"},
+        {"item":["chaosrune",2],"chance":"1"},
+        {"item":["~randomherb",1],"chance":"23"},
+        {"item":["coins",3],"chance":"38"},
+        {"item":["coins",5],"chance":"9"},
+        {"item":["coins",15],"chance":"4"},
+        {"item":["coins",25],"chance":"1"},
+        {"item":["fishing_bait",1],"chance":"5"},
+        {"item":["copper_ore",1],"chance":"2"},
+        {"item":["earth_talisman",1],"chance":"2"},
+        {"item":["cabbage",1],"chance":"1"}
+      ],
+      "always": [
+        {"item":["bones",1]}
+      ],
+      "tertiary": [
+        {"item":"~clue-easy","chance":"1/128"}
+      ]
+    }
+  },
+  "mort_man": {
+    "id": 1255,
+    "name": "Mort'ton Local",
+    "desc": "A local villager of Mort'ton.",
+    "op1": "Talk-to",
+    "vislevel": "37",
+    "drops": {
+      "roll_base": 128,
+      "roll_table": [
+        {"item":["iron_dagger",1],"chance":"1"},
+        {"item":["bronze_med_helm",1],"chance":"2"},
+        {"item":["bolt","2-12"],"chance":"22"},
+        {"item":["bronze_arrow",7],"chance":"3"},
+        {"item":["earthrune",4],"chance":"2"},
+        {"item":["firerune",6],"chance":"2"},
+        {"item":["mindrune",9],"chance":"2"},
+        {"item":["chaosrune",2],"chance":"1"},
+        {"item":["~randomherb",1],"chance":"23"},
+        {"item":["coins",3],"chance":"38"},
+        {"item":["coins",5],"chance":"9"},
+        {"item":["coins",15],"chance":"4"},
+        {"item":["coins",25],"chance":"1"},
+        {"item":["fishing_bait",1],"chance":"5"},
+        {"item":["copper_ore",1],"chance":"2"},
+        {"item":["earth_talisman",1],"chance":"2"},
+        {"item":["cabbage",1],"chance":"1"}
+      ],
+      "always": [
+        {"item":["bones",1]}
+      ],
+      "tertiary": [
+        {"item":"~clue-easy","chance":"1/128"}
+      ]
+    }
+  },
+  "mort_man2": {
+    "id": 1259,
+    "name": "Mort'ton local",
+    "desc": "A local villager of Mort'ton.",
+    "op1": "Talk-to",
+    "op2": "Attack",
+    "vislevel": "32",
+    "drops": {
+      "roll_base": 128,
+      "roll_table": [
+        {"item":["iron_dagger",1],"chance":"1"},
+        {"item":["bronze_med_helm",1],"chance":"2"},
+        {"item":["bolt","2-12"],"chance":"22"},
+        {"item":["bronze_arrow",7],"chance":"3"},
+        {"item":["earthrune",4],"chance":"2"},
+        {"item":["firerune",6],"chance":"2"},
+        {"item":["mindrune",9],"chance":"2"},
+        {"item":["chaosrune",2],"chance":"1"},
+        {"item":["~randomherb",1],"chance":"23"},
+        {"item":["coins",3],"chance":"38"},
+        {"item":["coins",5],"chance":"9"},
+        {"item":["coins",15],"chance":"4"},
+        {"item":["coins",25],"chance":"1"},
+        {"item":["fishing_bait",1],"chance":"5"},
+        {"item":["copper_ore",1],"chance":"2"},
+        {"item":["earth_talisman",1],"chance":"2"},
+        {"item":["cabbage",1],"chance":"1"}
+      ],
+      "always": [
+        {"item":["bones",1]}
+      ],
+      "tertiary": [
+        {"item":"~clue-easy","chance":"1/128"}
+      ]
+    }
+  },
   "mort_myre_gate_guard": {
     "id": 1054,
     "name": "Ulizius",
@@ -14234,21 +15950,90 @@
     "op1": "Talk-to",
     "wanderrange": "5"
   },
+  "mort_woman": {
+    "id": 1256,
+    "name": "Mort'ton Local",
+    "desc": "A local villager of Mort'ton.",
+    "op1": "Talk-to",
+    "vislevel": "34",
+    "drops": {
+      "roll_base": 128,
+      "roll_table": [
+        {"item":["iron_dagger",1],"chance":"1"},
+        {"item":["bronze_med_helm",1],"chance":"2"},
+        {"item":["bolt","2-12"],"chance":"22"},
+        {"item":["bronze_arrow",7],"chance":"3"},
+        {"item":["earthrune",4],"chance":"2"},
+        {"item":["firerune",6],"chance":"2"},
+        {"item":["mindrune",9],"chance":"2"},
+        {"item":["chaosrune",2],"chance":"1"},
+        {"item":["~randomherb",1],"chance":"23"},
+        {"item":["coins",3],"chance":"38"},
+        {"item":["coins",5],"chance":"9"},
+        {"item":["coins",15],"chance":"4"},
+        {"item":["coins",25],"chance":"1"},
+        {"item":["fishing_bait",1],"chance":"5"},
+        {"item":["copper_ore",1],"chance":"2"},
+        {"item":["earth_talisman",1],"chance":"2"},
+        {"item":["cabbage",1],"chance":"1"}
+      ],
+      "always": [
+        {"item":["bones",1]}
+      ],
+      "tertiary": [
+        {"item":"~clue-easy","chance":"1/128"}
+      ]
+    }
+  },
+  "mort_woman2": {
+    "id": 1260,
+    "name": "Mort'ton local",
+    "desc": "A local villager of Mort'ton.",
+    "op1": "Talk-to",
+    "op2": "Attack",
+    "vislevel": "30",
+    "drops": {
+      "roll_base": 128,
+      "roll_table": [
+        {"item":["iron_dagger",1],"chance":"1"},
+        {"item":["bronze_med_helm",1],"chance":"2"},
+        {"item":["bolt","2-12"],"chance":"22"},
+        {"item":["bronze_arrow",7],"chance":"3"},
+        {"item":["earthrune",4],"chance":"2"},
+        {"item":["firerune",6],"chance":"2"},
+        {"item":["mindrune",9],"chance":"2"},
+        {"item":["chaosrune",2],"chance":"1"},
+        {"item":["~randomherb",1],"chance":"23"},
+        {"item":["coins",3],"chance":"38"},
+        {"item":["coins",5],"chance":"9"},
+        {"item":["coins",15],"chance":"4"},
+        {"item":["coins",25],"chance":"1"},
+        {"item":["fishing_bait",1],"chance":"5"},
+        {"item":["copper_ore",1],"chance":"2"},
+        {"item":["earth_talisman",1],"chance":"2"},
+        {"item":["cabbage",1],"chance":"1"}
+      ],
+      "always": [
+        {"item":["bones",1]}
+      ],
+      "tertiary": [
+        {"item":"~clue-easy","chance":"1/128"}
+      ]
+    }
+  },
   "mosol_rei": {
     "id": 500,
     "name": "Mosol Rei",
     "vislevel": "hide",
     "desc": "Slightly under dressed.",
     "op1": "Talk-to",
-    "defaultmode": "patrol",
-    "patrol1": "0_45_46_0_5,1",
-    "patrol2": "0_45_46_0_10,1"
+    "defaultmode": "patrol"
   },
   "mossgiant": {
     "id": 112,
     "name": "Moss giant",
     "size": "2",
-    "desc": "His beard seems to have a life of it's own.",
+    "desc": "His beard seems to have a life of its own.",
     "op2": "Attack",
     "vislevel": "42",
     "wanderrange": "3",
@@ -14304,7 +16089,8 @@
     "id": 1094,
     "name": "Mountain Goat",
     "vislevel": "hide",
-    "desc": "This beast doesn't need climbing boots."
+    "desc": "This beast doesn't need climbing boots.",
+    "wanderrange": "2"
   },
   "mourner_armed": {
     "id": 357,
@@ -14318,6 +16104,7 @@
     "strength": "17",
     "defence": "17",
     "params": [
+      {"damagetype":"^crush_style"},
       {"attackbonus":"5"},
       {"strengthbonus":"5"},
       {"stabdefence":"5"},
@@ -14497,7 +16284,7 @@
     "id": 70,
     "name": "Mummy",
     "desc": "A tightly wrapped monster.",
-    "op2": "attack",
+    "op2": "Attack",
     "vislevel": "47",
     "huntmode": "cowardly",
     "huntrange": "1"
@@ -14530,9 +16317,7 @@
     "desc": "Salty old sea dog.",
     "op1": "Talk-to",
     "wanderrange": "7",
-    "defaultmode": "patrol",
-    "patrol1": "^trawler_flood_patrol1",
-    "patrol2": "^trawler_flood_patrol2"
+    "defaultmode": "patrol"
   },
   "murphy_normal": {
     "id": 464,
@@ -14541,9 +16326,7 @@
     "desc": "Salty old sea dog.",
     "op1": "Talk-to",
     "wanderrange": "7",
-    "defaultmode": "patrol",
-    "patrol1": "^trawler_start_patrol1",
-    "patrol2": "^trawler_start_patrol2"
+    "defaultmode": "patrol"
   },
   "murphy_sunk": {
     "id": 466,
@@ -14558,6 +16341,29 @@
     "name": "Tree",
     "vislevel": "hide",
     "desc": "It's bark is worse than its swipe.",
+    "wanderrange": "0",
+    "moverestrict": "nomove",
+    "blockwalk": "all",
+    "hitpoints": "250",
+    "attack": "20",
+    "strength": "20",
+    "defence": "40",
+    "huntmode": "aggressive_melee",
+    "huntrange": "1",
+    "params": [
+      {"stabdefence":"40"},
+      {"slashdefence":"10"},
+      {"crushdefence":"60"},
+      {"magicdefence":"10"},
+      {"damagetype":"^crush_style"}
+    ]
+  },
+  "nasty_tree_swamp": {
+    "id": 1226,
+    "name": "Tree",
+    "vislevel": "hide",
+    "desc": "It's bark is worse than its swipe.",
+    "defaultmode": "none",
     "wanderrange": "0",
     "moverestrict": "nomove",
     "blockwalk": "all",
@@ -14670,13 +16476,7 @@
     "vislevel": "hide",
     "desc": "Distinctly witchey.",
     "maxrange": "50",
-    "defaultmode": "patrol",
-    "patrol1": "0_45_54_50_7,0",
-    "patrol2": "0_45_54_41_7,0",
-    "patrol3": "0_45_54_32_7,0",
-    "patrol4": "0_45_54_24_7,0",
-    "patrol5": "0_45_54_32_7,0",
-    "patrol6": "0_45_54_41_7,0"
+    "defaultmode": "patrol"
   },
   "noterazzo": {
     "id": 597,
@@ -15553,6 +17353,22 @@
       {"damagetype":"^slash_style"}
     ]
   },
+  "pirate_irate_gardener": {
+    "id": 1217,
+    "name": "Gardener",
+    "desc": "An old gardener.",
+    "op2": "Attack",
+    "vislevel": "3",
+    "wanderrange": "5",
+    "maxrange": "7",
+    "respawnrate": "50",
+    "hitpoints": "7",
+    "attack": "2",
+    "defence": "5",
+    "params": [
+      {"damagetype":"^stab_style"}
+    ]
+  },
   "pirate1": {
     "id": 182,
     "name": "Pirate",
@@ -15787,6 +17603,14 @@
     "vislevel": "hide",
     "op1": "Talk-to",
     "wanderrange": "1"
+  },
+  "prif_city_guard": {
+    "id": 1185,
+    "name": "Elven city guard",
+    "vislevel": "hide",
+    "desc": "An elven city guard.",
+    "op1": "Talk-to",
+    "wanderrange": "5"
   },
   "prince_ali_disguised": {
     "id": 921,
@@ -16039,7 +17863,7 @@
       {"owned_shop":"ranging_guild_tribalshop"},
       {"shop_sell_multiplier":"1300"},
       {"shop_buy_multiplier":"500"},
-      {"shop_title":"Authentic Throwing Weapons."}
+      {"shop_title":"Authentic throwing weapons."}
     ]
   },
   "rantz": {
@@ -16092,6 +17916,32 @@
         {"item":["rats_tail",1]}
       ]
     }
+  },
+  "razmire_keelgan": {
+    "id": 1254,
+    "name": "Razmire Keelgan",
+    "desc": "A local villager of Mort'ton.",
+    "vislevel": "hide",
+    "op1": "Talk-to",
+    "op3": "Trade-General-Store",
+    "op4": "Trade-Builders-Store",
+    "wanderrange": "5",
+    "moverestrict": "indoors",
+    "params": [
+      {"damagetype":"^crush_style"}
+    ]
+  },
+  "razmire_keelgan_afflicted": {
+    "id": 1253,
+    "name": "Afflicted(Razmire)",
+    "desc": "A local villager of Mort'ton.",
+    "vislevel": "hide",
+    "op1": "Talk-to",
+    "wanderrange": "5",
+    "moverestrict": "indoors",
+    "params": [
+      {"damagetype":"^crush_style"}
+    ]
   },
   "recruiter": {
     "id": 720,
@@ -16164,6 +18014,540 @@
     "vislevel": "hide",
     "desc": "A pirate.",
     "op1": "Talk-to"
+  },
+  "regicide_arandar_gate_guard": {
+    "id": 1201,
+    "name": "Elf warrior",
+    "desc": "He looks pretty handy with that bow.",
+    "op1": "Talk-to",
+    "vislevel": "hide"
+  },
+  "regicide_bunny1": {
+    "id": 1193,
+    "name": "Rabbit",
+    "desc": "A cute bunny rabbit.",
+    "op2": "Attack",
+    "vislevel": "2",
+    "wanderrange": "5",
+    "maxrange": "7",
+    "respawnrate": "50",
+    "hitpoints": "5",
+    "params": [
+      {"attackbonus":"-47"},
+      {"strengthbonus":"-42"},
+      {"stabdefence":"-42"},
+      {"slashdefence":"-42"},
+      {"crushdefence":"-42"},
+      {"magicdefence":"-42"},
+      {"rangedefence":"-42"},
+      {"damagetype":"^crush_style"}
+    ],
+    "drops": {
+      "always": [
+        {"item":["bones",1]},
+        {"item":["raw_rabbit",1]}
+      ]
+    }
+  },
+  "regicide_bunny2": {
+    "id": 1194,
+    "name": "Rabbit",
+    "desc": "A cute bunny rabbit.",
+    "op2": "Attack",
+    "vislevel": "2",
+    "wanderrange": "5",
+    "maxrange": "7",
+    "respawnrate": "50",
+    "hitpoints": "5",
+    "params": [
+      {"attackbonus":"-47"},
+      {"strengthbonus":"-42"},
+      {"stabdefence":"-42"},
+      {"slashdefence":"-42"},
+      {"crushdefence":"-42"},
+      {"magicdefence":"-42"},
+      {"rangedefence":"-42"},
+      {"damagetype":"^crush_style"}
+    ],
+    "drops": {
+      "always": [
+        {"item":["bones",1]},
+        {"item":["raw_rabbit",1]}
+      ]
+    }
+  },
+  "regicide_darkbear": {
+    "id": 1195,
+    "name": "Grizzly bear",
+    "desc": "Eek! A big bear!",
+    "size": "2",
+    "op2": "Attack",
+    "vislevel": "24",
+    "wanderrange": "12",
+    "maxrange": "14",
+    "respawnrate": "100",
+    "hitpoints": "35",
+    "attack": "40",
+    "strength": "36",
+    "defence": "35",
+    "huntmode": "cowardly",
+    "params": [
+      {"damagetype":"^slash_style"}
+    ],
+    "drops": {
+      "always": [
+        {"item":["bones",1]},
+        {"item":["fur",1]},
+        {"item":["raw_bear_meat",1]}
+      ]
+    }
+  },
+  "regicide_darkbear_cub1": {
+    "id": 1196,
+    "name": "Grizzly bear cub",
+    "desc": "Eek! A bear cub!",
+    "size": "2",
+    "op2": "Attack",
+    "vislevel": "19",
+    "wanderrange": "12",
+    "maxrange": "14",
+    "respawnrate": "100",
+    "hitpoints": "35",
+    "attack": "30",
+    "strength": "26",
+    "defence": "25",
+    "huntmode": "cowardly",
+    "params": [
+      {"damagetype":"^slash_style"}
+    ],
+    "drops": {
+      "always": [
+        {"item":["bones",1]},
+        {"item":["fur",1]},
+        {"item":["raw_bear_meat",1]}
+      ]
+    }
+  },
+  "regicide_darkbear_cub2": {
+    "id": 1197,
+    "name": "Grizzly bear cub",
+    "desc": "Eek! A bear cub!",
+    "size": "2",
+    "op2": "Attack",
+    "vislevel": "19",
+    "wanderrange": "12",
+    "maxrange": "14",
+    "respawnrate": "100",
+    "hitpoints": "35",
+    "attack": "32",
+    "strength": "32",
+    "defence": "28",
+    "huntmode": "cowardly",
+    "params": [
+      {"damagetype":"^slash_style"}
+    ],
+    "drops": {
+      "always": [
+        {"item":["bones",1]},
+        {"item":["fur",1]},
+        {"item":["raw_bear_meat",1]}
+      ]
+    }
+  },
+  "regicide_darkelf": {
+    "id": 1183,
+    "name": "Elf warrior",
+    "desc": "He looks pretty handy with that bow.",
+    "op2": "Attack",
+    "vislevel": "90",
+    "wanderrange": "5",
+    "maxrange": "7",
+    "attackrange": "8",
+    "respawnrate": "60",
+    "hitpoints": "105",
+    "attack": "10",
+    "strength": "80",
+    "defence": "10",
+    "ranged": "80",
+    "params": [
+      {"rangebonus":"8"},
+      {"stabdefence":"50"},
+      {"slashdefence":"50"},
+      {"crushdefence":"50"},
+      {"magicdefence":"50"},
+      {"rangedefence":"70"},
+      {"damagetype":"^stab_style"}
+    ],
+    "drops": {
+      "roll_base": 128,
+      "roll_table": [
+        {"item":["dragonhide_body",1],"chance":"4"},
+        {"item":["dragonhide_chaps",1],"chance":"3"},
+        {"item":["mithril_spear",1],"chance":"2"},
+        {"item":["mithril_kiteshield",1],"chance":"1"},
+        {"item":["adamant_full_helm",1],"chance":"1"},
+        {"item":["rune_dagger",1],"chance":"1"},
+        {"item":["waterrune",70],"chance":"8"},
+        {"item":["naturerune",12],"chance":"5"},
+        {"item":["lawrune",2],"chance":"3"},
+        {"item":["firerune",37],"chance":"3"},
+        {"item":["~randomherb",1],"chance":"15"},
+        {"item":["coins",44],"chance":"29"},
+        {"item":["coins",180],"chance":"10"},
+        {"item":["coins",20],"chance":"5"},
+        {"item":["bass",1],"chance":"3"},
+        {"item":["shark",1],"chance":"3"},
+        {"item":["adamantite_ore",1],"chance":"1"},
+        {"item":["~randomjewel",1],"chance":"5"}
+      ],
+      "always": [
+        {"item":["bones",1]}
+      ],
+      "tertiary": [
+        {"item":"~clue-hard","chance":"1/128"}
+      ]
+    }
+  },
+  "regicide_darkelf2": {
+    "id": 1184,
+    "name": "Elf warrior",
+    "desc": "I don't wanna be at the wrong end of that pike.",
+    "op2": "Attack",
+    "vislevel": "108",
+    "wanderrange": "5",
+    "maxrange": "7",
+    "attackrange": "2",
+    "respawnrate": "60",
+    "hitpoints": "105",
+    "attack": "95",
+    "strength": "95",
+    "defence": "80",
+    "ranged": "0",
+    "params": [
+      {"stabdefence":"50"},
+      {"slashdefence":"70"},
+      {"crushdefence":"70"},
+      {"magicdefence":"60"},
+      {"rangedefence":"50"},
+      {"damagetype":"^stab_style"}
+    ],
+    "drops": {
+      "roll_base": 128,
+      "roll_table": [
+        {"item":["dragonhide_body",1],"chance":"4"},
+        {"item":["dragonhide_chaps",1],"chance":"3"},
+        {"item":["mithril_spear",1],"chance":"2"},
+        {"item":["mithril_kiteshield",1],"chance":"1"},
+        {"item":["adamant_full_helm",1],"chance":"1"},
+        {"item":["rune_dagger",1],"chance":"1"},
+        {"item":["waterrune",70],"chance":"8"},
+        {"item":["naturerune",12],"chance":"5"},
+        {"item":["lawrune",2],"chance":"3"},
+        {"item":["firerune",37],"chance":"3"},
+        {"item":["~randomherb",1],"chance":"15"},
+        {"item":["coins",44],"chance":"29"},
+        {"item":["coins",180],"chance":"10"},
+        {"item":["coins",20],"chance":"5"},
+        {"item":["bass",1],"chance":"3"},
+        {"item":["shark",1],"chance":"3"},
+        {"item":["adamantite_ore",1],"chance":"1"},
+        {"item":["~randomjewel",1],"chance":"5"}
+      ],
+      "always": [
+        {"item":["bones",1]}
+      ],
+      "tertiary": [
+        {"item":"~clue-hard","chance":"1/128"}
+      ]
+    }
+  },
+  "regicide_evil_elf1": {
+    "id": 1187,
+    "name": "Essyllt",
+    "vislevel": "hide",
+    "desc": "An elf war band leader.",
+    "op1": "Talk-to"
+  },
+  "regicide_evil_elf2": {
+    "id": 1188,
+    "name": "Morvran",
+    "vislevel": "hide",
+    "desc": "An elvan warrier.",
+    "op1": "Talk-to"
+  },
+  "regicide_general_hining": {
+    "id": 1207,
+    "name": "General Hining",
+    "desc": "Leader of King Tyras's men.",
+    "vislevel": "hide",
+    "op1": "Talk-to",
+    "wanderrange": "5"
+  },
+  "regicide_good_elf1": {
+    "id": 1186,
+    "name": "Idris",
+    "vislevel": "hide",
+    "desc": "An elf hunting party leader.",
+    "op1": "Talk-to",
+    "defaultmode": "none",
+    "hitpoints": "51"
+  },
+  "regicide_good_elf3": {
+    "id": 1202,
+    "name": "Arianwyn",
+    "vislevel": "hide",
+    "desc": "An odd looking person.",
+    "op1": "Talk-to",
+    "wanderrange": "0"
+  },
+  "regicide_kings_messenger": {
+    "id": 1210,
+    "name": "Kings messenger",
+    "vislevel": "hide",
+    "desc": "One of King Luthas's messengers.",
+    "op1": "Talk-to"
+  },
+  "regicide_old_camp_guard": {
+    "id": 1200,
+    "name": "Tyras guard",
+    "desc": "One of King Tyras's men.",
+    "op2": "Attack",
+    "vislevel": "110",
+    "defaultmode": "none",
+    "wanderrange": "5",
+    "maxrange": "7",
+    "hitpoints": "110",
+    "attack": "85",
+    "strength": "95",
+    "defence": "100",
+    "params": [
+      {"attackrate":"5"},
+      {"attackbonus":"20"},
+      {"strengthbonus":"30"},
+      {"stabdefence":"87"},
+      {"slashdefence":"84"},
+      {"crushdefence":"76"},
+      {"magicdefence":"-10"},
+      {"rangedefence":"79"},
+      {"damagetype":"^stab_style"}
+    ],
+    "drops": {
+      "roll_base": 128,
+      "roll_table": [
+        {"item":["steel_2h_sword",1],"chance":"4"},
+        {"item":["steel_axe",1],"chance":"3"},
+        {"item":["steel_battleaxe",1],"chance":"3"},
+        {"item":["mithril_kiteshield",1],"chance":"1"},
+        {"item":["adamant_platelegs",1],"chance":"1"},
+        {"item":["rune_full_helm",1],"chance":"1"},
+        {"item":["firerune",75],"chance":"8"},
+        {"item":["chaosrune",15],"chance":"5"},
+        {"item":["deathrune",5],"chance":"3"},
+        {"item":["firerune",37],"chance":"1"},
+        {"item":["coins",132],"chance":"40"},
+        {"item":["coins",44],"chance":"29"},
+        {"item":["coins",220],"chance":"10"},
+        {"item":["coins",11],"chance":"7"},
+        {"item":["coins",460],"chance":"1"},
+        {"item":["tuna",1],"chance":"3"},
+        {"item":["gold_bar",1],"chance":"2"},
+        {"item":["thread",10],"chance":"1"},
+        {"item":["~randomjewel",1],"chance":"5"}
+      ],
+      "always": [
+        {"item":["bones",1]}
+      ]
+    }
+  },
+  "regicide_old_camp_tracker": {
+    "id": 1199,
+    "name": "Elf Tracker",
+    "vislevel": "hide",
+    "desc": "An elf tracker.",
+    "op1": "Talk-to",
+    "defaultmode": "none",
+    "wanderrange": "0",
+    "moverestrict": "nomove"
+  },
+  "regicide_rabbit": {
+    "id": 1192,
+    "name": "Rabbit",
+    "desc": "A cute bunny rabbit.",
+    "op2": "Attack",
+    "vislevel": "2",
+    "wanderrange": "5",
+    "maxrange": "7",
+    "respawnrate": "50",
+    "hitpoints": "5",
+    "params": [
+      {"attackbonus":"-47"},
+      {"strengthbonus":"-42"},
+      {"stabdefence":"-42"},
+      {"slashdefence":"-42"},
+      {"crushdefence":"-42"},
+      {"magicdefence":"-42"},
+      {"rangedefence":"-42"},
+      {"damagetype":"^crush_style"}
+    ],
+    "drops": {
+      "always": [
+        {"item":["bones",1]},
+        {"item":["raw_rabbit",1]}
+      ]
+    }
+  },
+  "regicide_tyras_camp_guard": {
+    "id": 1203,
+    "name": "Tyras guard",
+    "desc": "One of King Tyras's men.",
+    "op1": "Talk-to",
+    "op2": "Attack",
+    "vislevel": "110",
+    "defaultmode": "none",
+    "wanderrange": "5",
+    "maxrange": "7",
+    "attackrange": "2",
+    "respawnrate": "100",
+    "hitpoints": "110",
+    "attack": "85",
+    "strength": "95",
+    "defence": "100",
+    "params": [
+      {"attackrate":"5"},
+      {"attackbonus":"20"},
+      {"strengthbonus":"30"},
+      {"stabdefence":"87"},
+      {"slashdefence":"84"},
+      {"crushdefence":"76"},
+      {"magicdefence":"-10"},
+      {"rangedefence":"79"},
+      {"damagetype":"^stab_style"}
+    ],
+    "drops": {
+      "roll_base": 128,
+      "roll_table": [
+        {"item":["steel_2h_sword",1],"chance":"4"},
+        {"item":["steel_axe",1],"chance":"3"},
+        {"item":["steel_battleaxe",1],"chance":"3"},
+        {"item":["mithril_kiteshield",1],"chance":"1"},
+        {"item":["adamant_platelegs",1],"chance":"1"},
+        {"item":["rune_full_helm",1],"chance":"1"},
+        {"item":["firerune",75],"chance":"8"},
+        {"item":["chaosrune",15],"chance":"5"},
+        {"item":["deathrune",5],"chance":"3"},
+        {"item":["firerune",37],"chance":"1"},
+        {"item":["coins",132],"chance":"40"},
+        {"item":["coins",44],"chance":"29"},
+        {"item":["coins",220],"chance":"10"},
+        {"item":["coins",11],"chance":"7"},
+        {"item":["coins",460],"chance":"1"},
+        {"item":["tuna",1],"chance":"3"},
+        {"item":["gold_bar",1],"chance":"2"},
+        {"item":["thread",10],"chance":"1"},
+        {"item":["~randomjewel",1],"chance":"5"}
+      ],
+      "always": [
+        {"item":["bones",1]}
+      ]
+    }
+  },
+  "regicide_tyras_camp_tent_guard": {
+    "id": 1206,
+    "name": "Tyras guard",
+    "desc": "One of King Tyras's men.",
+    "vislevel": "hide",
+    "op1": "Talk-to",
+    "defaultmode": "none",
+    "wanderrange": "0",
+    "moverestrict": "nomove"
+  },
+  "regicide_tyras_guard": {
+    "id": 1204,
+    "name": "Tyras guard",
+    "desc": "One of King Tyras's men.",
+    "op1": "Talk-to",
+    "op2": "Attack",
+    "vislevel": "110",
+    "wanderrange": "5",
+    "maxrange": "7",
+    "attackrange": "2",
+    "respawnrate": "100",
+    "hitpoints": "110",
+    "attack": "85",
+    "strength": "95",
+    "defence": "100",
+    "params": [
+      {"attackrate":"5"},
+      {"attackbonus":"20"},
+      {"strengthbonus":"30"},
+      {"stabdefence":"87"},
+      {"slashdefence":"84"},
+      {"crushdefence":"76"},
+      {"magicdefence":"-10"},
+      {"rangedefence":"79"}
+    ],
+    "drops": {
+      "roll_base": 128,
+      "roll_table": [
+        {"item":["steel_2h_sword",1],"chance":"4"},
+        {"item":["steel_axe",1],"chance":"3"},
+        {"item":["steel_battleaxe",1],"chance":"3"},
+        {"item":["mithril_kiteshield",1],"chance":"1"},
+        {"item":["adamant_platelegs",1],"chance":"1"},
+        {"item":["rune_full_helm",1],"chance":"1"},
+        {"item":["firerune",75],"chance":"8"},
+        {"item":["chaosrune",15],"chance":"5"},
+        {"item":["deathrune",5],"chance":"3"},
+        {"item":["firerune",37],"chance":"1"},
+        {"item":["coins",132],"chance":"40"},
+        {"item":["coins",44],"chance":"29"},
+        {"item":["coins",220],"chance":"10"},
+        {"item":["coins",11],"chance":"7"},
+        {"item":["coins",460],"chance":"1"},
+        {"item":["tuna",1],"chance":"3"},
+        {"item":["gold_bar",1],"chance":"2"},
+        {"item":["thread",10],"chance":"1"},
+        {"item":["~randomjewel",1],"chance":"5"}
+      ]
+    }
+  },
+  "regicide_tyras_lazy_guard": {
+    "id": 1205,
+    "name": "Tyras guard",
+    "desc": "One of King Tyras's men.",
+    "vislevel": "hide",
+    "op1": "Talk-to",
+    "wanderrange": "3"
+  },
+  "regicide_willothewisp1": {
+    "id": 1211,
+    "name": "regicide_willothewisp1",
+    "desc": "Mysterious swamp lights...",
+    "vislevel": "hide",
+    "wanderrange": "5"
+  },
+  "regicide_willothewisp2": {
+    "id": 1212,
+    "name": "Willow the wisp",
+    "desc": "Mysterious swamp lights...",
+    "vislevel": "hide",
+    "wanderrange": "5"
+  },
+  "regicidegeneralshopkeeper": {
+    "id": 1208,
+    "name": "Quartermaster",
+    "desc": "Responsible for the food and equipment of the troops.",
+    "vislevel": "hide",
+    "op1": "Talk-to",
+    "wanderrange": "1",
+    "moverestrict": "indoors",
+    "params": [
+      {"owned_shop":"regicide_general_shop"},
+      {"owned_shop":"regicide_general_shop_2"},
+      {"shop_sell_multiplier":"1300"},
+      {"shop_buy_multiplier":"400"},
+      {"shop_title":"Quatermaster's Stores"}
+    ]
   },
   "reldo": {
     "id": 647,
@@ -16300,7 +18684,18 @@
       {"rangedefence":"-42"},
       {"damagetype":"^stab_style"},
       {"retreat":"1"}
-    ]
+    ],
+    "drops": {
+      "roll_base": 128,
+      "roll_table": [
+        {"item":["feather",15],"chance":"32"},
+        {"item":["feather",5],"chance":"32"}
+      ],
+      "always": [
+        {"item":["bones",1]},
+        {"item":["raw_chicken",1]}
+      ]
+    }
   },
   "rowdymineguard": {
     "id": 842,
@@ -16450,13 +18845,6 @@
       {"damagetype":"^crush_style"}
     ]
   },
-  "savage_bird": {
-    "id": 412,
-    "name": "Bat",
-    "desc": "Annoying flappy thing.",
-    "op2": "Attack",
-    "vislevel": "27"
-  },
   "scared_skavid": {
     "id": 863,
     "name": "Scared skavid",
@@ -16595,6 +18983,273 @@
     "vislevel": "hide",
     "desc": "Slightly fishy smelling.",
     "op1": "Talk-to"
+  },
+  "shade_heaven": {
+    "id": 1242,
+    "name": "Shade Spirit",
+    "vislevel": "hide",
+    "defaultmode": "none",
+    "wanderrange": "0",
+    "moverestrict": "nomove"
+  },
+  "shade_level1": {
+    "id": 1241,
+    "name": "Loar Shade",
+    "desc": "The shadowy remains of a long departed soul.",
+    "op2": "Attack",
+    "vislevel": "40",
+    "wanderrange": "30",
+    "maxrange": "60",
+    "moverestrict": "blocked+normal",
+    "respawnrate": "35",
+    "hitpoints": "38",
+    "attack": "45",
+    "strength": "30",
+    "defence": "26",
+    "magic": "0",
+    "ranged": "0",
+    "params": [
+      {"damagetype":"^crush_style"},
+      {"undead":"^true"}
+    ],
+    "drops": {
+      "always": [
+        {"item":["shade_bones1",1]}
+      ]
+    }
+  },
+  "shade_level2": {
+    "id": 1244,
+    "name": "Phrin Shade",
+    "desc": "The shadowy remains of a long departed soul.",
+    "op2": "Attack",
+    "vislevel": "60",
+    "wanderrange": "5",
+    "maxrange": "11",
+    "hitpoints": "56",
+    "attack": "64",
+    "strength": "47",
+    "defence": "42",
+    "magic": "0",
+    "ranged": "0",
+    "huntmode": "cowardly",
+    "params": [
+      {"damagetype":"^crush_style"},
+      {"undead":"^true"}
+    ],
+    "drops": {
+      "always": [
+        {"item":["shade_bones2",1]}
+      ]
+    }
+  },
+  "shade_level3": {
+    "id": 1246,
+    "name": "Riyl Shade",
+    "desc": "The shadowy remains of a long departed soul.",
+    "op2": "Attack",
+    "vislevel": "80",
+    "wanderrange": "5",
+    "maxrange": "11",
+    "hitpoints": "76",
+    "attack": "88",
+    "strength": "55",
+    "defence": "60",
+    "magic": "0",
+    "ranged": "0",
+    "huntmode": "cowardly",
+    "params": [
+      {"damagetype":"^crush_style"},
+      {"undead":"^true"}
+    ],
+    "drops": {
+      "always": [
+        {"item":["shade_bones3",1]}
+      ]
+    }
+  },
+  "shade_level4": {
+    "id": 1248,
+    "name": "Asyn Shade",
+    "desc": "The shadowy remains of a long departed soul.",
+    "op2": "Attack",
+    "vislevel": "100",
+    "wanderrange": "7",
+    "maxrange": "11",
+    "hitpoints": "90",
+    "attack": "102",
+    "strength": "84",
+    "defence": "70",
+    "magic": "0",
+    "ranged": "0",
+    "huntmode": "cowardly",
+    "params": [
+      {"damagetype":"^crush_style"},
+      {"undead":"^true"}
+    ],
+    "drops": {
+      "always": [
+        {"item":["shade_bones4",1]}
+      ]
+    }
+  },
+  "shade_level5": {
+    "id": 1250,
+    "name": "Fiyr Shade",
+    "desc": "The shadowy remains of a long departed soul.",
+    "op2": "Attack",
+    "vislevel": "120",
+    "wanderrange": "7",
+    "maxrange": "11",
+    "hitpoints": "110",
+    "attack": "120",
+    "strength": "100",
+    "defence": "85",
+    "magic": "0",
+    "ranged": "0",
+    "huntmode": "cowardly",
+    "params": [
+      {"damagetype":"^crush_style"},
+      {"undead":"^true"}
+    ],
+    "drops": {
+      "always": [
+        {"item":["shade_bones5",1]}
+      ]
+    }
+  },
+  "shadeshadow_level1": {
+    "id": 1240,
+    "name": "Loar Shadow",
+    "desc": "A shadowy sort of entity, kind of creepy looking.",
+    "op2": "Attack",
+    "vislevel": "40",
+    "wanderrange": "30",
+    "maxrange": "60",
+    "moverestrict": "blocked+normal",
+    "respawnrate": "35",
+    "hitpoints": "38",
+    "attack": "45",
+    "strength": "30",
+    "defence": "26",
+    "magic": "0",
+    "ranged": "0",
+    "huntmode": "shades",
+    "huntrange": "3",
+    "params": [
+      {"damagetype":"^crush_style"},
+      {"undead":"^true"},
+      {"next_npc_type":"shade_level1"}
+    ],
+    "drops": {
+      "always": [
+        {"item":["shade_bones1",1]}
+      ]
+    }
+  },
+  "shadeshadow_level2": {
+    "id": 1243,
+    "name": "Phrin Shadow",
+    "desc": "A shadowy sort of entity, kind of creepy looking.",
+    "op2": "Attack",
+    "vislevel": "60",
+    "wanderrange": "5",
+    "maxrange": "11",
+    "hitpoints": "56",
+    "attack": "64",
+    "strength": "47",
+    "defence": "42",
+    "magic": "0",
+    "ranged": "0",
+    "huntmode": "shades",
+    "huntrange": "3",
+    "params": [
+      {"damagetype":"^crush_style"},
+      {"undead":"^true"}
+    ],
+    "drops": {
+      "always": [
+        {"item":["shade_bones2",1]}
+      ]
+    }
+  },
+  "shadeshadow_level3": {
+    "id": 1245,
+    "name": "Riyl Shadow",
+    "desc": "A shadowy sort of entity, kind of creepy looking.",
+    "op2": "Attack",
+    "vislevel": "80",
+    "wanderrange": "5",
+    "maxrange": "11",
+    "hitpoints": "76",
+    "attack": "88",
+    "strength": "55",
+    "defence": "60",
+    "magic": "0",
+    "ranged": "0",
+    "huntmode": "shades",
+    "huntrange": "3",
+    "params": [
+      {"damagetype":"^crush_style"},
+      {"undead":"^true"}
+    ],
+    "drops": {
+      "always": [
+        {"item":["shade_bones3",1]}
+      ]
+    }
+  },
+  "shadeshadow_level4": {
+    "id": 1247,
+    "name": "Asyn Shadow",
+    "desc": "A shadowy sort of entity, kind of creepy looking.",
+    "op2": "Attack",
+    "vislevel": "100",
+    "wanderrange": "7",
+    "maxrange": "11",
+    "hitpoints": "90",
+    "attack": "102",
+    "strength": "84",
+    "defence": "70",
+    "magic": "0",
+    "ranged": "0",
+    "huntmode": "shades",
+    "huntrange": "3",
+    "params": [
+      {"damagetype":"^crush_style"},
+      {"undead":"^true"}
+    ],
+    "drops": {
+      "always": [
+        {"item":["shade_bones4",1]}
+      ]
+    }
+  },
+  "shadeshadow_level5": {
+    "id": 1249,
+    "name": "Fiyr Shadow",
+    "desc": "A shadowy sort of entity, kind of creepy looking.",
+    "op2": "Attack",
+    "vislevel": "120",
+    "wanderrange": "7",
+    "maxrange": "11",
+    "hitpoints": "110",
+    "attack": "120",
+    "strength": "100",
+    "defence": "85",
+    "magic": "0",
+    "ranged": "0",
+    "huntmode": "shades",
+    "huntrange": "3",
+    "params": [
+      {"damagetype":"^crush_style"},
+      {"undead":"^true"}
+    ],
+    "drops": {
+      "always": [
+        {"item":["shade_bones5",1]}
+      ]
+    }
   },
   "shadow_spider": {
     "id": 58,
@@ -16828,6 +19483,7 @@
     "vislevel": "hide",
     "desc": "He can look after my money.",
     "op1": "Talk-to",
+    "op3": "Bank",
     "wanderrange": "0",
     "maxrange": "2",
     "moverestrict": "nomove"
@@ -16852,7 +19508,7 @@
       {"owned_shop":"shilofishingshop"},
       {"shop_sell_multiplier":"1000"},
       {"shop_buy_multiplier":"700"},
-      {"shop_title":"Fernahei's Fishing Hut."}
+      {"shop_title":"Fernahai's Fishing Hut."}
     ]
   },
   "shilofurnaceowner": {
@@ -17416,6 +20072,31 @@
       ]
     }
   },
+  "small_bat": {
+    "id": 412,
+    "name": "Bat",
+    "desc": "Annoying flappy thing.",
+    "op2": "Attack",
+    "vislevel": "6",
+    "wanderrange": "20",
+    "maxrange": "32",
+    "hitpoints": "8",
+    "attack": "5",
+    "strength": "5",
+    "defence": "5",
+    "params": [
+      {"stabdefence":"2"},
+      {"slashdefence":"2"},
+      {"crushdefence":"5"},
+      {"magicdefence":"2"},
+      {"damagetype":"^stab_style"}
+    ],
+    "drops": {
+      "always": [
+        {"item":["bat_bones",1]}
+      ]
+    }
+  },
   "smallscorpion": {
     "id": 109,
     "name": "Pit Scorpion",
@@ -17457,7 +20138,7 @@
   "souless": {
     "id": 140,
     "name": "Souless",
-    "desc": "A servent to Zamorak.",
+    "desc": "A servant to Iban.",
     "op2": "Attack",
     "vislevel": "18",
     "wanderrange": "3",
@@ -17568,6 +20249,14 @@
       {"rangedefence":"-53"},
       {"damagetype":"^stab_style"}
     ]
+  },
+  "spider_that_spawns_vampyres": {
+    "id": 1221,
+    "name": "Spider",
+    "desc": "Nasty little creature.",
+    "vislevel": "hide",
+    "wanderrange": "14",
+    "maxrange": "16"
   },
   "spirit_of_scorpius": {
     "id": 492,
@@ -17733,7 +20422,148 @@
     "vislevel": "hide",
     "desc": "Manufacturer of fine leathers.",
     "op1": "Talk-to",
+    "op3": "Trade",
     "moverestrict": "indoors"
+  },
+  "tbwt_beast": {
+    "id": 1172,
+    "name": "The Shaikahan",
+    "desc": "A huge beast, resembling in some ways a lion, but mostly a twisted nightmare.",
+    "size": "3",
+    "op2": "Attack",
+    "vislevel": "83",
+    "wanderrange": "12",
+    "maxrange": "64",
+    "respawnrate": "50",
+    "hitpoints": "100",
+    "attack": "80",
+    "defence": "80",
+    "strength": "25",
+    "huntmode": "aggressive_melee",
+    "huntrange": "8",
+    "params": [
+      {"magicdefence":"10000"},
+      {"rangedefence":"10000"},
+      {"damagetype":"^slash_style"}
+    ],
+    "drops": {
+      "always": [
+        {"item":["tbwt_beast_bones",1]}
+      ]
+    }
+  },
+  "tbwt_beast_cutscene": {
+    "id": 1173,
+    "name": "The Shaikahan",
+    "desc": "A huge beast, resembling in some ways a lion, but mostly a twisted nightmare.",
+    "size": "3",
+    "vislevel": "83",
+    "defaultmode": "none",
+    "wanderrange": "0",
+    "moverestrict": "nomove",
+    "hitpoints": "100",
+    "attack": "80",
+    "defence": "80",
+    "strength": "25",
+    "params": [
+      {"damagetype":"^slash_style"}
+    ]
+  },
+  "tbwt_lubufu": {
+    "id": 1171,
+    "name": "Lubufu",
+    "desc": "A crotchety old fisherman who doesn't like young whippersnappers.",
+    "op1": "Talk-to",
+    "vislevel": "hide",
+    "wanderrange": "5"
+  },
+  "tbwt_tamayu": {
+    "id": 1167,
+    "name": "Tamayu",
+    "desc": "A hunter who long ago succumbed to blood lust.",
+    "op1": "Talk-to",
+    "vislevel": "hide",
+    "wanderrange": "5"
+  },
+  "tbwt_tamayu_final": {
+    "id": 1168,
+    "name": "Tamayu",
+    "desc": "A hunter who long ago succumbed to blood lust.",
+    "op1": "Talk-to",
+    "op3": "Trade",
+    "vislevel": "hide",
+    "wanderrange": "5",
+    "params": [
+      {"owned_shop":"tbwt_tamayu_final_inventory"},
+      {"shop_sell_multiplier":"1000"},
+      {"shop_buy_multiplier":"750"},
+      {"shop_title":"Tamayu's Spear Stall"}
+    ]
+  },
+  "tbwt_tamayu_final_hunter": {
+    "id": 1170,
+    "name": "Tamayu",
+    "desc": "A hunter who long ago succumbed to blood lust.",
+    "vislevel": "hide",
+    "defaultmode": "none",
+    "wanderrange": "0",
+    "moverestrict": "nomove"
+  },
+  "tbwt_tamayu_hunter": {
+    "id": 1169,
+    "name": "Tamayu",
+    "desc": "A hunter who long ago succumbed to blood lust.",
+    "vislevel": "hide",
+    "defaultmode": "none",
+    "wanderrange": "0",
+    "moverestrict": "nomove"
+  },
+  "tbwt_tiadeche": {
+    "id": 1163,
+    "name": "Tiadeche",
+    "desc": "A rather depressed looking fisherman.",
+    "op1": "Talk-to",
+    "vislevel": "hide",
+    "wanderrange": "5"
+  },
+  "tbwt_tiadeche_final": {
+    "id": 1164,
+    "name": "Tiadeche",
+    "desc": "A rather depressed looking fisherman.",
+    "op1": "Talk-to",
+    "op3": "Trade",
+    "vislevel": "hide",
+    "wanderrange": "5",
+    "params": [
+      {"owned_shop":"tbwt_tiadeche_final_inventory"},
+      {"shop_sell_multiplier":"550"},
+      {"shop_buy_multiplier":"450"},
+      {"shop_title":"Tiadeche's Karambwan Stall"}
+    ]
+  },
+  "tbwt_timfraku": {
+    "id": 1162,
+    "name": "Timfraku",
+    "desc": "The imposing Chief of Tai Bwo Wannai.",
+    "op1": "Talk-to",
+    "vislevel": "hide",
+    "wanderrange": "5"
+  },
+  "tbwt_tinsay": {
+    "id": 1165,
+    "name": "Tinsay",
+    "desc": "A more than slightly eccentric looking priest.",
+    "op1": "Talk-to",
+    "vislevel": "hide",
+    "wanderrange": "5"
+  },
+  "tbwt_tinsay_final": {
+    "id": 1166,
+    "name": "Tinsay",
+    "desc": "A more than slightly eccentric looking priest.",
+    "op1": "Talk-to",
+    "vislevel": "hide",
+    "wanderrange": "5"
   },
   "tea_seller": {
     "id": 595,
@@ -18164,6 +20994,56 @@
       ]
     }
   },
+  "trail_hard2": {
+    "id": 1264,
+    "name": "Saradomin Wizard",
+    "desc": "A follower of Saradomin.",
+    "op2": "Attack",
+    "vislevel": "108",
+    "wanderrange": "3",
+    "maxrange": "5",
+    "attackrange": "5",
+    "hitpoints": "120",
+    "attack": "100",
+    "strength": "80",
+    "defence": "80",
+    "magic": "80",
+    "params": [
+      {"attackbonus":"40"},
+      {"strengthbonus":"40"},
+      {"magicdefence":"30"},
+      {"damagetype":"^stab_style"}
+    ],
+    "drops": {
+      "roll_base": 128,
+      "roll_table": [
+        {"item":["water_battlestaff",1],"chance":"10"},
+        {"item":["earth_battlestaff",1],"chance":"3"},
+        {"item":["air_battlestaff",1],"chance":"2"},
+        {"item":["fire_battlestaff",1],"chance":"1"},
+        {"item":["bloodrune",12],"chance":"12"},
+        {"item":["naturerune",7],"chance":"7"},
+        {"item":["deathrune",45],"chance":"6"},
+        {"item":["earthrune",86],"chance":"4"},
+        {"item":["airrune",60],"chance":"3"},
+        {"item":["waterrune",42],"chance":"3"},
+        {"item":["earthrune",79],"chance":"3"},
+        {"item":["firerune",51],"chance":"3"},
+        {"item":["airrune",189],"chance":"2"},
+        {"item":["waterrune",126],"chance":"2"},
+        {"item":["earthrune",107],"chance":"2"},
+        {"item":["firerune",180],"chance":"2"},
+        {"item":["cosmicrune",25],"chance":"1"},
+        {"item":["lawrune",9],"chance":"1"},
+        {"item":["coins",89],"chance":"25"},
+        {"item":["coins",77],"chance":"17"},
+        {"item":["coins",240],"chance":"3"}
+      ],
+      "always": [
+        {"item":["bones",1]}
+      ]
+    }
+  },
   "tramp": {
     "id": 11,
     "name": "Tramp",
@@ -18327,9 +21207,10 @@
     "op1": "Talk-to",
     "op2": "Attack",
     "vislevel": "101",
-    "maxrange": "25",
+    "wanderrange": "0",
+    "maxrange": "30",
     "respawnrate": "100",
-    "hitpoints": "90",
+    "hitpoints": "120",
     "attack": "60",
     "strength": "120",
     "defence": "50",
@@ -18337,9 +21218,9 @@
     "ranged": "0",
     "regenrate": "10",
     "params": [
+      {"attackrate":"8"},
       {"attackbonus":"40"},
       {"strengthbonus":"70"},
-      {"attackrate":"8"},
       {"stabdefence":"25"},
       {"slashdefence":"25"},
       {"crushdefence":"40"},
@@ -18358,28 +21239,32 @@
     "name": "Cook",
     "desc": "Human is his speciality.",
     "size": "2",
-    "vislevel": "hide"
+    "vislevel": "hide",
+    "wanderrange": "3"
   },
   "troll_cook2": {
     "id": 1136,
     "name": "Cook",
     "desc": "Human is his speciality.",
     "size": "2",
-    "vislevel": "hide"
+    "vislevel": "hide",
+    "wanderrange": "3"
   },
   "troll_cook3": {
     "id": 1137,
     "name": "Cook",
     "desc": "Human is his speciality.",
     "size": "2",
-    "vislevel": "hide"
+    "vislevel": "hide",
+    "wanderrange": "3"
   },
   "troll_eadgar": {
     "id": 1113,
     "name": "Eadgar",
     "desc": "A rather mad looking hermit.",
     "op1": "Talk-to",
-    "vislevel": "hide"
+    "vislevel": "hide",
+    "wanderrange": "5"
   },
   "troll_general": {
     "id": 1115,
@@ -18388,6 +21273,8 @@
     "size": "2",
     "op2": "Attack",
     "vislevel": "113",
+    "wanderrange": "3",
+    "maxrange": "10",
     "hitpoints": "140",
     "attack": "70",
     "strength": "140",
@@ -18445,6 +21332,8 @@
     "size": "2",
     "op2": "Attack",
     "vislevel": "113",
+    "wanderrange": "3",
+    "maxrange": "10",
     "hitpoints": "140",
     "attack": "70",
     "strength": "140",
@@ -18461,7 +21350,7 @@
       {"crushdefence":"35"},
       {"magicdefence":"200"},
       {"rangedefence":"200"},
-      {"damagetype":"^slash_style"}
+      {"damagetype":"^crush_style"}
     ],
     "drops": {
       "roll_base": 128,
@@ -18502,6 +21391,8 @@
     "size": "2",
     "op2": "Attack",
     "vislevel": "113",
+    "wanderrange": "3",
+    "maxrange": "10",
     "hitpoints": "140",
     "attack": "70",
     "strength": "140",
@@ -18518,7 +21409,7 @@
       {"crushdefence":"35"},
       {"magicdefence":"200"},
       {"rangedefence":"200"},
-      {"damagetype":"^slash_style"}
+      {"damagetype":"^crush_style"}
     ],
     "drops": {
       "roll_base": 128,
@@ -18557,7 +21448,8 @@
     "name": "Godric",
     "desc": "Dunstan's son.",
     "op1": "Talk-to",
-    "vislevel": "hide"
+    "vislevel": "hide",
+    "wanderrange": "2"
   },
   "troll_melee1": {
     "id": 1138,
@@ -18565,6 +21457,8 @@
     "desc": "Small for a troll but mean and ugly.",
     "op2": "Attack",
     "vislevel": "71",
+    "wanderrange": "5",
+    "maxrange": "7",
     "respawnrate": "100",
     "hitpoints": "90",
     "attack": "40",
@@ -18575,9 +21469,10 @@
     "huntmode": "cowardly",
     "huntrange": "1",
     "params": [
+      {"attackrate":"6"},
       {"attackbonus":"20"},
       {"strengthbonus":"20"},
-      {"attackrate":"6"},
+      {"crushdefence":"10"},
       {"magicdefence":"200"},
       {"rangedefence":"200"},
       {"damagetype":"^crush_style"}
@@ -18614,13 +21509,15 @@
     "id": 1140,
     "name": "Mountain Goat",
     "vislevel": "hide",
-    "desc": "This beast doesn't need climbing boots."
+    "desc": "This beast doesn't need climbing boots.",
+    "wanderrange": "2"
   },
   "troll_mountain_goat_smaller": {
     "id": 1141,
     "name": "Mountain Goat",
     "vislevel": "hide",
-    "desc": "This beast doesn't need climbing boots."
+    "desc": "This beast doesn't need climbing boots.",
+    "wanderrange": "2"
   },
   "troll_prison_guard1": {
     "id": 1128,
@@ -18631,6 +21528,7 @@
     "op3": "Pickpocket",
     "vislevel": "71",
     "wanderrange": "0",
+    "maxrange": "7",
     "respawnrate": "100",
     "hitpoints": "90",
     "attack": "40",
@@ -18639,9 +21537,10 @@
     "magic": "0",
     "ranged": "0",
     "params": [
+      {"attackrate":"6"},
       {"attackbonus":"20"},
       {"strengthbonus":"20"},
-      {"attackrate":"6"},
+      {"crushdefence":"10"},
       {"magicdefence":"200"},
       {"rangedefence":"200"},
       {"damagetype":"^crush_style"}
@@ -18684,6 +21583,7 @@
     "op3": "Pickpocket",
     "vislevel": "71",
     "wanderrange": "0",
+    "maxrange": "7",
     "respawnrate": "100",
     "hitpoints": "90",
     "attack": "40",
@@ -18692,9 +21592,10 @@
     "magic": "0",
     "ranged": "0",
     "params": [
+      {"attackrate":"6"},
       {"attackbonus":"20"},
       {"strengthbonus":"20"},
-      {"attackrate":"6"},
+      {"crushdefence":"10"},
       {"magicdefence":"200"},
       {"rangedefence":"200"},
       {"damagetype":"^crush_style"}
@@ -18732,49 +21633,65 @@
     "id": 1142,
     "name": "Guard",
     "desc": "He's guarding the storeroom.",
-    "vislevel": "hide"
+    "vislevel": "hide",
+    "defaultmode": "patrol",
+    "moverestrict": "passthru"
   },
   "troll_sguard2": {
     "id": 1143,
     "name": "Guard",
     "desc": "He's guarding the storeroom.",
-    "vislevel": "hide"
+    "vislevel": "hide",
+    "defaultmode": "patrol",
+    "moverestrict": "passthru"
   },
   "troll_sguard3": {
     "id": 1144,
     "name": "Guard",
     "desc": "He's guarding the storeroom.",
-    "vislevel": "hide"
+    "vislevel": "hide",
+    "defaultmode": "patrol",
+    "moverestrict": "passthru"
   },
   "troll_sguard4": {
     "id": 1145,
     "name": "Guard",
     "desc": "He's guarding the storeroom.",
-    "vislevel": "hide"
+    "vislevel": "hide",
+    "defaultmode": "patrol",
+    "moverestrict": "passthru"
   },
   "troll_sguard5": {
     "id": 1146,
     "name": "Guard",
     "desc": "He's guarding the storeroom.",
-    "vislevel": "hide"
+    "vislevel": "hide",
+    "defaultmode": "patrol",
+    "moverestrict": "passthru"
   },
   "troll_sguard6": {
     "id": 1147,
     "name": "Guard",
     "desc": "He's guarding the storeroom.",
-    "vislevel": "hide"
+    "vislevel": "hide",
+    "defaultmode": "patrol",
+    "moverestrict": "passthru"
   },
   "troll_sguard7": {
     "id": 1148,
     "name": "Guard",
     "desc": "He's guarding the storeroom.",
-    "vislevel": "hide"
+    "vislevel": "hide",
+    "defaultmode": "patrol",
+    "moverestrict": "passthru"
   },
   "troll_sguard8": {
     "id": 1149,
     "name": "Guard",
     "desc": "He's guarding the storeroom.",
-    "vislevel": "hide"
+    "vislevel": "hide",
+    "defaultmode": "patrol",
+    "moverestrict": "passthru"
   },
   "troll_spectator1": {
     "id": 1118,
@@ -18783,6 +21700,7 @@
     "op2": "Attack",
     "vislevel": "71",
     "wanderrange": "0",
+    "maxrange": "50",
     "respawnrate": "100",
     "hitpoints": "90",
     "attack": "40",
@@ -18791,9 +21709,10 @@
     "magic": "0",
     "ranged": "0",
     "params": [
+      {"attackrate":"6"},
       {"attackbonus":"20"},
       {"strengthbonus":"20"},
-      {"attackrate":"6"},
+      {"crushdefence":"10"},
       {"magicdefence":"200"},
       {"rangedefence":"200"},
       {"damagetype":"^crush_style"}
@@ -18811,6 +21730,7 @@
     "op2": "Attack",
     "vislevel": "71",
     "wanderrange": "0",
+    "maxrange": "50",
     "respawnrate": "100",
     "hitpoints": "90",
     "attack": "40",
@@ -18819,9 +21739,10 @@
     "magic": "0",
     "ranged": "0",
     "params": [
+      {"attackrate":"6"},
       {"attackbonus":"20"},
       {"strengthbonus":"20"},
-      {"attackrate":"6"},
+      {"crushdefence":"10"},
       {"magicdefence":"200"},
       {"rangedefence":"200"},
       {"damagetype":"^crush_style"}
@@ -18839,6 +21760,7 @@
     "op2": "Attack",
     "vislevel": "71",
     "wanderrange": "0",
+    "maxrange": "50",
     "respawnrate": "100",
     "hitpoints": "90",
     "attack": "40",
@@ -18847,9 +21769,10 @@
     "magic": "0",
     "ranged": "0",
     "params": [
+      {"attackrate":"6"},
       {"attackbonus":"20"},
       {"strengthbonus":"20"},
-      {"attackrate":"6"},
+      {"crushdefence":"10"},
       {"magicdefence":"200"},
       {"rangedefence":"200"},
       {"damagetype":"^crush_style"}
@@ -18867,6 +21790,7 @@
     "op2": "Attack",
     "vislevel": "71",
     "wanderrange": "0",
+    "maxrange": "50",
     "respawnrate": "100",
     "hitpoints": "90",
     "attack": "40",
@@ -18875,9 +21799,10 @@
     "magic": "0",
     "ranged": "0",
     "params": [
+      {"attackrate":"6"},
       {"attackbonus":"20"},
       {"strengthbonus":"20"},
-      {"attackrate":"6"},
+      {"crushdefence":"10"},
       {"magicdefence":"200"},
       {"rangedefence":"200"},
       {"damagetype":"^crush_style"}
@@ -18895,6 +21820,7 @@
     "op2": "Attack",
     "vislevel": "71",
     "wanderrange": "0",
+    "maxrange": "50",
     "respawnrate": "100",
     "hitpoints": "90",
     "attack": "40",
@@ -18903,9 +21829,10 @@
     "magic": "0",
     "ranged": "0",
     "params": [
+      {"attackrate":"6"},
       {"attackbonus":"20"},
       {"strengthbonus":"20"},
-      {"attackrate":"6"},
+      {"crushdefence":"10"},
       {"magicdefence":"200"},
       {"rangedefence":"200"},
       {"damagetype":"^crush_style"}
@@ -18923,6 +21850,7 @@
     "op2": "Attack",
     "vislevel": "71",
     "wanderrange": "0",
+    "maxrange": "50",
     "respawnrate": "100",
     "hitpoints": "90",
     "attack": "40",
@@ -18931,9 +21859,10 @@
     "magic": "0",
     "ranged": "0",
     "params": [
+      {"attackrate":"6"},
       {"attackbonus":"20"},
       {"strengthbonus":"20"},
-      {"attackrate":"6"},
+      {"crushdefence":"10"},
       {"magicdefence":"200"},
       {"rangedefence":"200"},
       {"damagetype":"^crush_style"}
@@ -18951,6 +21880,7 @@
     "op2": "Attack",
     "vislevel": "71",
     "wanderrange": "0",
+    "maxrange": "50",
     "respawnrate": "100",
     "hitpoints": "90",
     "attack": "40",
@@ -18959,9 +21889,10 @@
     "magic": "0",
     "ranged": "0",
     "params": [
+      {"attackrate":"6"},
       {"attackbonus":"20"},
       {"strengthbonus":"20"},
-      {"attackrate":"6"},
+      {"crushdefence":"10"},
       {"magicdefence":"200"},
       {"rangedefence":"200"},
       {"damagetype":"^crush_style"}
@@ -18989,13 +21920,14 @@
     "op2": "Attack",
     "vislevel": "68",
     "wanderrange": "0",
-    "attackrange": "8",
     "maxrange": "2",
+    "attackrange": "8",
     "respawnrate": "50",
     "hitpoints": "95",
     "attack": "30",
     "strength": "95",
     "defence": "15",
+    "magic": "0",
     "ranged": "60",
     "huntmode": "aggressive_ranged",
     "huntrange": "8",
@@ -19018,13 +21950,14 @@
     "op2": "Attack",
     "vislevel": "68",
     "wanderrange": "0",
-    "attackrange": "8",
     "maxrange": "2",
+    "attackrange": "8",
     "respawnrate": "50",
     "hitpoints": "95",
     "attack": "30",
     "strength": "95",
     "defence": "15",
+    "magic": "0",
     "ranged": "60",
     "huntmode": "aggressive_ranged",
     "huntrange": "8",
@@ -19047,13 +21980,14 @@
     "op2": "Attack",
     "vislevel": "68",
     "wanderrange": "0",
-    "attackrange": "8",
     "maxrange": "2",
+    "attackrange": "8",
     "respawnrate": "50",
     "hitpoints": "95",
     "attack": "30",
     "strength": "95",
     "defence": "15",
+    "magic": "0",
     "ranged": "60",
     "huntmode": "aggressive_ranged",
     "huntrange": "8",
@@ -19076,13 +22010,14 @@
     "op2": "Attack",
     "vislevel": "68",
     "wanderrange": "0",
-    "attackrange": "8",
     "maxrange": "2",
+    "attackrange": "8",
     "respawnrate": "50",
     "hitpoints": "95",
     "attack": "30",
     "strength": "95",
     "defence": "15",
+    "magic": "0",
     "ranged": "60",
     "huntmode": "aggressive_ranged",
     "huntrange": "8",
@@ -19105,13 +22040,14 @@
     "op2": "Attack",
     "vislevel": "68",
     "wanderrange": "0",
-    "attackrange": "8",
     "maxrange": "2",
+    "attackrange": "8",
     "respawnrate": "50",
     "hitpoints": "95",
     "attack": "30",
     "strength": "95",
     "defence": "15",
+    "magic": "0",
     "ranged": "60",
     "huntmode": "aggressive_ranged",
     "huntrange": "8",
@@ -19168,6 +22104,30 @@
         {"item":["raw_ugthanki_meat",1]}
       ]
     }
+  },
+  "ulsquire_shauncy": {
+    "id": 1252,
+    "name": "Ulsquire Shauncy",
+    "desc": "A local villager of Mort'ton.",
+    "vislevel": "hide",
+    "op1": "Talk-to",
+    "wanderrange": "5",
+    "moverestrict": "indoors",
+    "params": [
+      {"damagetype":"^crush_style"}
+    ]
+  },
+  "ulsquire_shauncy_afflicted": {
+    "id": 1251,
+    "name": "Afflicted(Ulsquire)",
+    "desc": "A local villager of Mort'ton.",
+    "vislevel": "hide",
+    "op1": "Talk-to",
+    "wanderrange": "5",
+    "moverestrict": "indoors",
+    "params": [
+      {"damagetype":"^crush_style"}
+    ]
   },
   "ungadulu_bad": {
     "id": 930,
@@ -19243,6 +22203,25 @@
         {"item":["unicorn_horn",1]}
       ]
     }
+  },
+  "unicorn_foal_1": {
+    "id": 1328,
+    "name": "Unicorn Foal",
+    "size": "2",
+    "desc": "Horned Horsey.",
+    "op2": "Attack",
+    "vislevel": "12",
+    "wanderrange": "17",
+    "maxrange": "19",
+    "respawnrate": "40",
+    "hitpoints": "15",
+    "attack": "10",
+    "strength": "10",
+    "defence": "10",
+    "params": [
+      {"damagetype":"^stab_style"},
+      {"retreat":"5"}
+    ]
   },
   "unicorn_upass": {
     "id": 987,
@@ -19470,6 +22449,86 @@
       {"shop_title":"Valaine's Shop of Champions."}
     ]
   },
+  "vampire_count": {
+    "id": 1225,
+    "name": "vampire_count",
+    "op2": "Attack",
+    "vislevel": "25",
+    "hitpoints": "100",
+    "params": [
+      {"damagetype":"^slash_style"}
+    ]
+  },
+  "vampire_flyer": {
+    "id": 1220,
+    "name": "Vampire",
+    "desc": "Where did that come from?",
+    "op2": "Attack",
+    "vislevel": "72",
+    "wanderrange": "5",
+    "maxrange": "7",
+    "hitpoints": "50",
+    "attack": "65",
+    "strength": "70",
+    "defence": "65",
+    "magic": "50",
+    "huntmode": "cowardly",
+    "params": [
+      {"damagetype":"^stab_style"}
+    ],
+    "drops": {
+      "always": [
+        {"item":["vampire_dust",1]}
+      ]
+    }
+  },
+  "vampire_juve": {
+    "id": 1223,
+    "name": "Vampire",
+    "desc": "It looks really hungry!",
+    "op2": "Attack",
+    "vislevel": "61",
+    "wanderrange": "15",
+    "maxrange": "30",
+    "hitpoints": "40",
+    "attack": "55",
+    "strength": "60",
+    "defence": "55",
+    "magic": "40",
+    "huntmode": "cowardly",
+    "params": [
+      {"damagetype":"^stab_style"}
+    ]
+  },
+  "vampire_juve_hound": {
+    "id": 1224,
+    "name": "vampire_juve_hound",
+    "size": "2",
+    "vislevel": "1"
+  },
+  "vampire_leech": {
+    "id": 1219,
+    "name": "Leech",
+    "desc": "Yuk! Its all slimey!",
+    "op2": "Attack",
+    "vislevel": "52",
+    "wanderrange": "10",
+    "maxrange": "10",
+    "hitpoints": "45",
+    "attack": "80",
+    "strength": "20",
+    "defence": "35",
+    "huntmode": "cowardly",
+    "params": [
+      {"damagetype":"^stab_style"}
+    ]
+  },
+  "vampire_misty": {
+    "id": 1222,
+    "name": "vampire_misty",
+    "size": "2",
+    "vislevel": "1"
+  },
   "velrak_the_explorer": {
     "id": 798,
     "name": "Velrak the explorer",
@@ -19484,6 +22543,1330 @@
     "desc": "She doesn't look too happy.",
     "op1": "Talk-to",
     "wanderrange": "2"
+  },
+  "viking_askelapen": {
+    "id": 1295,
+    "name": "Askeladden",
+    "vislevel": "hide",
+    "desc": "Looks like a wanna be Fremennik.",
+    "op1": "Talk-to",
+    "wanderrange": "1"
+  },
+  "viking_brundt": {
+    "id": 1294,
+    "name": "Brundt the Chieftain",
+    "vislevel": "hide",
+    "desc": "The Fremennik tribes' chieftain.",
+    "op1": "Talk-to",
+    "wanderrange": "3"
+  },
+  "viking_bunny_1": {
+    "id": 1320,
+    "name": "Bunny",
+    "desc": "Hoppity, hoppity.",
+    "vislevel": "hide",
+    "op2": "Attack",
+    "wanderrange": "5",
+    "maxrange": "7",
+    "respawnrate": "50",
+    "hitpoints": "5",
+    "params": [
+      {"attackbonus":"-47"},
+      {"strengthbonus":"-42"},
+      {"stabdefence":"-42"},
+      {"slashdefence":"-42"},
+      {"crushdefence":"-42"},
+      {"magicdefence":"-42"},
+      {"rangedefence":"-42"},
+      {"damagetype":"^crush_style"}
+    ],
+    "drops": {
+      "always": [
+        {"item":["bones",1]},
+        {"item":["raw_rabbit",1]}
+      ]
+    }
+  },
+  "viking_bunny_2": {
+    "id": 1321,
+    "name": "Bunny",
+    "desc": "Hoppity, hoppity.",
+    "vislevel": "hide",
+    "op2": "Attack",
+    "wanderrange": "5",
+    "maxrange": "7",
+    "respawnrate": "50",
+    "hitpoints": "5",
+    "params": [
+      {"attackbonus":"-47"},
+      {"strengthbonus":"-42"},
+      {"stabdefence":"-42"},
+      {"slashdefence":"-42"},
+      {"crushdefence":"-42"},
+      {"magicdefence":"-42"},
+      {"rangedefence":"-42"},
+      {"damagetype":"^crush_style"}
+    ],
+    "drops": {
+      "always": [
+        {"item":["bones",1]},
+        {"item":["raw_rabbit",1]}
+      ]
+    }
+  },
+  "viking_clothing_shopkeeper": {
+    "id": 1301,
+    "name": "Yrsa",
+    "vislevel": "hide",
+    "desc": "Pretty shabbily dressed for a clothes shop owner.",
+    "op1": "Talk-to",
+    "op3": "Trade",
+    "wanderrange": "5",
+    "moverestrict": "indoors",
+    "params": [
+      {"owned_shop":"viking_clothes_shop"},
+      {"shop_sell_multiplier":"1300"},
+      {"shop_buy_multiplier":"700"},
+      {"shop_title":"Yrsa's Accountrements"}
+    ]
+  },
+  "viking_draugen": {
+    "id": 1279,
+    "name": "The Draugen",
+    "desc": "A fearful spirit of the drowned.",
+    "op2": "Attack",
+    "vislevel": "69",
+    "wanderrange": "5",
+    "maxrange": "20",
+    "hitpoints": "60",
+    "attack": "60",
+    "strength": "60",
+    "defence": "60",
+    "params": [
+      {"stabdefence":"100"},
+      {"slashdefence":"100"},
+      {"crushdefence":"100"},
+      {"magicdefence":"500"},
+      {"rangedefence":"500"},
+      {"damagetype":"^crush_style"}
+    ]
+  },
+  "viking_draugen_safe": {
+    "id": 1280,
+    "name": "Butterfly",
+    "desc": "Flutter by oh butterfly.",
+    "vislevel": "hide",
+    "wanderrange": "20"
+  },
+  "viking_enemy1": {
+    "id": 1290,
+    "name": "Koschei the deathless",
+    "vislevel": "hide",
+    "desc": "Your challenge awaits!",
+    "op2": "Attack",
+    "wanderrange": "5",
+    "maxrange": "20",
+    "hitpoints": "30",
+    "attack": "20",
+    "strength": "20",
+    "defence": "20",
+    "params": [
+      {"stabdefence":"20"},
+      {"slashdefence":"20"},
+      {"crushdefence":"20"},
+      {"magicdefence":"20"},
+      {"rangedefence":"20"},
+      {"damagetype":"^slash_style"}
+    ]
+  },
+  "viking_enemy2": {
+    "id": 1291,
+    "name": "Koschei the deathless",
+    "vislevel": "hide",
+    "desc": "Your challenge awaits!",
+    "op2": "Attack",
+    "wanderrange": "5",
+    "maxrange": "20",
+    "hitpoints": "50",
+    "attack": "40",
+    "strength": "40",
+    "defence": "40",
+    "params": [
+      {"stabdefence":"40"},
+      {"slashdefence":"40"},
+      {"crushdefence":"40"},
+      {"magicdefence":"40"},
+      {"rangedefence":"40"},
+      {"damagetype":"^slash_style"}
+    ]
+  },
+  "viking_enemy3": {
+    "id": 1292,
+    "name": "Koschei the deathless",
+    "vislevel": "hide",
+    "desc": "Your challenge awaits!",
+    "op2": "Attack",
+    "wanderrange": "5",
+    "maxrange": "20",
+    "hitpoints": "70",
+    "attack": "60",
+    "strength": "60",
+    "defence": "60",
+    "params": [
+      {"stabdefence":"60"},
+      {"slashdefence":"60"},
+      {"crushdefence":"60"},
+      {"magicdefence":"60"},
+      {"rangedefence":"60"},
+      {"damagetype":"^slash_style"}
+    ]
+  },
+  "viking_enemy4": {
+    "id": 1293,
+    "name": "Koschei the deathless",
+    "vislevel": "hide",
+    "desc": "Your challenge awaits!",
+    "op2": "Attack",
+    "wanderrange": "5",
+    "maxrange": "20",
+    "hitpoints": "255",
+    "attack": "255",
+    "strength": "5",
+    "defence": "255",
+    "params": [
+      {"attackrate":"1"},
+      {"damagetype":"^slash_style"}
+    ]
+  },
+  "viking_fish_monger": {
+    "id": 1315,
+    "name": "Fish monger",
+    "vislevel": "hide",
+    "desc": "Fish-tastic!",
+    "op1": "Talk-to",
+    "op3": "Trade",
+    "wanderrange": "3",
+    "params": [
+      {"owned_shop":"viking_fishmonger"},
+      {"shop_sell_multiplier":"1300"},
+      {"shop_buy_multiplier":"700"},
+      {"shop_title":"Fremennik Fish Monger"}
+    ]
+  },
+  "viking_fisherman1": {
+    "id": 1302,
+    "name": "Fisherman",
+    "desc": "There's something fishy about this guy.",
+    "op1": "Talk-to",
+    "vislevel": "hide",
+    "defaultmode": "none",
+    "wanderrange": "0",
+    "moverestrict": "nomove"
+  },
+  "viking_fox": {
+    "id": 1319,
+    "name": "Fox",
+    "desc": "Foxy.",
+    "vislevel": "hide",
+    "wanderrange": "5",
+    "maxrange": "7",
+    "respawnrate": "20",
+    "hitpoints": "30",
+    "strength": "20",
+    "defence": "20",
+    "params": [
+      {"attackbonus":"30"},
+      {"strengthbonus":"30"},
+      {"stabdefence":"30"},
+      {"slashdefence":"30"},
+      {"crushdefence":"30"},
+      {"magicdefence":"30"},
+      {"rangedefence":"30"},
+      {"damagetype":"^crush_style"}
+    ]
+  },
+  "viking_fur_monger": {
+    "id": 1316,
+    "name": "Fur trader",
+    "vislevel": "hide",
+    "desc": "I wonder what he does with all that fur?",
+    "op1": "Talk-to",
+    "op3": "Trade",
+    "wanderrange": "3",
+    "params": [
+      {"owned_shop":"viking_furshop"},
+      {"shop_sell_multiplier":"1200"},
+      {"shop_buy_multiplier":"950"},
+      {"shop_title":"Fremennik Fur Trader"}
+    ]
+  },
+  "viking_golden_sheepsheered": {
+    "id": 1271,
+    "name": "Golden sheep",
+    "vislevel": "hide",
+    "desc": "Freshly shorn.",
+    "wanderrange": "5"
+  },
+  "viking_golden_sheepunsheered": {
+    "id": 1272,
+    "name": "Golden sheep",
+    "vislevel": "hide",
+    "desc": "Lovely thick wool.",
+    "wanderrange": "5"
+  },
+  "viking_guard": {
+    "id": 1317,
+    "name": "Market Guard",
+    "desc": "Keeps the stalls secure.",
+    "op2": "Attack",
+    "vislevel": "48",
+    "wanderrange": "12",
+    "maxrange": "14",
+    "moverestrict": "outdoors",
+    "respawnrate": "60",
+    "hitpoints": "50",
+    "attack": "40",
+    "strength": "40",
+    "defence": "40",
+    "params": [
+      {"attackrate":"3"},
+      {"attackbonus":"40"},
+      {"strengthbonus":"40"},
+      {"stabdefence":"50"},
+      {"slashdefence":"50"},
+      {"crushdefence":"50"},
+      {"magicdefence":"50"},
+      {"rangedefence":"50"},
+      {"damagetype":"^crush_style"}
+    ],
+    "drops": {
+      "roll_base": 128,
+      "roll_table": [
+        {"item":["iron_warhammer",1],"chance":"6"},
+        {"item":["bronze_warhammer",1],"chance":"3"},
+        {"item":["steel_warhammer",1],"chance":"1"},
+        {"item":["black_warhammer",1],"chance":"1"},
+        {"item":["viking_sword",1],"chance":"1"},
+        {"item":["viking_shield",1],"chance":"1"},
+        {"item":["viking_helmet",1],"chance":"1"},
+        {"item":["~randomherb",1],"chance":"2"},
+        {"item":["coins",15],"chance":"42"},
+        {"item":["coins",22],"chance":"9"},
+        {"item":["coins",17],"chance":"5"},
+        {"item":["coins",27],"chance":"3"},
+        {"item":["keg_of_beer",1],"chance":"4"},
+        {"item":["cake",1],"chance":"4"},
+        {"item":["iron_ore",2],"chance":"3"},
+        {"item":["copper_ore",5],"chance":"2"},
+        {"item":["bucket_water",1],"chance":"1"},
+        {"item":["fur",1],"chance":"1"},
+        {"item":["tin_ore",1],"chance":"1"},
+        {"item":["raw_sardine",1],"chance":"1"},
+        {"item":["beer",1],"chance":"1"},
+        {"item":["ring_mould",1],"chance":"1"},
+        {"item":["~randomjewel",1],"chance":"1"}
+      ],
+      "always": [
+        {"item":["bones",1]}
+      ],
+      "tertiary": [
+        {"item":"~clue-medium","chance":"1/128"}
+      ]
+    }
+  },
+  "viking_guard2": {
+    "id": 1318,
+    "name": "Warrior",
+    "desc": "A hardened Fremennik warrior.",
+    "op2": "Attack",
+    "vislevel": "48",
+    "wanderrange": "12",
+    "maxrange": "14",
+    "moverestrict": "outdoors",
+    "respawnrate": "60",
+    "hitpoints": "50",
+    "attack": "40",
+    "strength": "40",
+    "defence": "40",
+    "params": [
+      {"attackrate":"3"},
+      {"attackbonus":"40"},
+      {"strengthbonus":"40"},
+      {"stabdefence":"50"},
+      {"slashdefence":"50"},
+      {"crushdefence":"50"},
+      {"magicdefence":"50"},
+      {"rangedefence":"50"},
+      {"damagetype":"^crush_style"}
+    ],
+    "drops": {
+      "roll_base": 128,
+      "roll_table": [
+        {"item":["iron_warhammer",1],"chance":"6"},
+        {"item":["bronze_warhammer",1],"chance":"3"},
+        {"item":["steel_warhammer",1],"chance":"1"},
+        {"item":["black_warhammer",1],"chance":"1"},
+        {"item":["viking_sword",1],"chance":"1"},
+        {"item":["viking_shield",1],"chance":"1"},
+        {"item":["viking_helmet",1],"chance":"1"},
+        {"item":["~randomherb",1],"chance":"2"},
+        {"item":["coins",15],"chance":"42"},
+        {"item":["coins",22],"chance":"9"},
+        {"item":["coins",17],"chance":"5"},
+        {"item":["coins",27],"chance":"3"},
+        {"item":["keg_of_beer",1],"chance":"4"},
+        {"item":["cake",1],"chance":"4"},
+        {"item":["iron_ore",2],"chance":"3"},
+        {"item":["copper_ore",5],"chance":"2"},
+        {"item":["bucket_water",1],"chance":"1"},
+        {"item":["fur",1],"chance":"1"},
+        {"item":["tin_ore",1],"chance":"1"},
+        {"item":["raw_sardine",1],"chance":"1"},
+        {"item":["beer",1],"chance":"1"},
+        {"item":["ring_mould",1],"chance":"1"},
+        {"item":["~randomjewel",1],"chance":"1"}
+      ],
+      "always": [
+        {"item":["bones",1]}
+      ],
+      "tertiary": [
+        {"item":"~clue-medium","chance":"1/128"}
+      ]
+    }
+  },
+  "viking_hallifred": {
+    "id": 1283,
+    "name": "Swensen the Navigator",
+    "desc": "A Fremennik navigator.",
+    "vislevel": "hide",
+    "op1": "Talk-to",
+    "wanderrange": "1"
+  },
+  "viking_heckler": {
+    "id": 1274,
+    "name": "Ospak",
+    "vislevel": "hide",
+    "desc": "Looks like he's had a few drinks already.",
+    "op1": "Talk-to",
+    "defaultmode": "none",
+    "wanderrange": "0",
+    "moverestrict": "nomove"
+  },
+  "viking_heckler_2": {
+    "id": 1275,
+    "name": "Styrmir",
+    "vislevel": "hide",
+    "desc": "Doesn't look like the musical type.",
+    "op1": "Talk-to",
+    "defaultmode": "none",
+    "wanderrange": "0",
+    "moverestrict": "nomove"
+  },
+  "viking_heckler_3": {
+    "id": 1276,
+    "name": "Torbrund",
+    "vislevel": "hide",
+    "desc": "Waiting for the show.",
+    "op1": "Talk-to",
+    "defaultmode": "none",
+    "wanderrange": "0",
+    "moverestrict": "nomove"
+  },
+  "viking_heckler_4": {
+    "id": 1277,
+    "name": "Fridgeir",
+    "vislevel": "hide",
+    "desc": "A music lover?",
+    "op1": "Talk-to",
+    "defaultmode": "none",
+    "wanderrange": "0",
+    "moverestrict": "nomove"
+  },
+  "viking_lake_spirit": {
+    "id": 1273,
+    "name": "Fossegrimen",
+    "vislevel": "hide",
+    "desc": "A powerful spirit that lives in this lake.",
+    "op1": "Talk-to",
+    "defaultmode": "none",
+    "wanderrange": "0",
+    "moverestrict": "nomove"
+  },
+  "viking_lalli_troll": {
+    "id": 1270,
+    "name": "Lalli",
+    "vislevel": "hide",
+    "desc": "Distinctly troll shaped.",
+    "op1": "Talk-to",
+    "wanderrange": "3"
+  },
+  "viking_longhall_barkeep": {
+    "id": 1300,
+    "name": "Thora the Barkeep",
+    "vislevel": "hide",
+    "desc": "The Longhall barkeep",
+    "op1": "Talk to",
+    "op3": "Trade",
+    "params": [
+      {"owned_shop":"viking_bar"},
+      {"shop_sell_multiplier":"1300"},
+      {"shop_buy_multiplier":"700"},
+      {"shop_title":"Rellekka Longhall Bar"}
+    ]
+  },
+  "viking_longhall_bouncer": {
+    "id": 1278,
+    "name": "Longhall Bouncer",
+    "vislevel": "hide",
+    "desc": "He's fat, he's round, he bounces on the ground. That's how he got the job.",
+    "op1": "Talk-to",
+    "defaultmode": "none",
+    "wanderrange": "0",
+    "moverestrict": "nomove"
+  },
+  "viking_longhall_guard1": {
+    "id": 1296,
+    "name": "Guard",
+    "vislevel": "hide",
+    "desc": "Stands around and looks at stuff all day.",
+    "defaultmode": "none",
+    "wanderrange": "0",
+    "moverestrict": "nomove"
+  },
+  "viking_longhall_guard2": {
+    "id": 1297,
+    "name": "Guard",
+    "vislevel": "hide",
+    "desc": "Stands around and looks tough all day.",
+    "defaultmode": "none",
+    "wanderrange": "0",
+    "moverestrict": "nomove"
+  },
+  "viking_man": {
+    "id": 1305,
+    "name": "Agnar",
+    "desc": "One of Rellekka's many citizens.",
+    "op1": "Talk-to",
+    "op3": "Pickpocket",
+    "vislevel": "48",
+    "wanderrange": "12",
+    "maxrange": "14",
+    "respawnrate": "60",
+    "hitpoints": "50",
+    "attack": "40",
+    "strength": "40",
+    "defence": "40",
+    "params": [
+      {"strengthbonus":"20"},
+      {"damagetype":"^crush_style"}
+    ],
+    "drops": {
+      "roll_base": 512,
+      "roll_table": [
+        {"item":["bronze_warhammer",1],"chance":"100"},
+        {"item":["iron_warhammer",1],"chance":"70"},
+        {"item":["viking_sword",1],"chance":"1"},
+        {"item":["viking_shield",1],"chance":"1"},
+        {"item":["viking_helmet",1],"chance":"1"},
+        {"item":["~randomherb",1],"chance":"10"},
+        {"item":["copper_ore",5],"chance":"10"},
+        {"item":["tin_ore",5],"chance":"10"},
+        {"item":["iron_ore",5],"chance":"10"},
+        {"item":["coal",1],"chance":"10"},
+        {"item":["steel_bar",1],"chance":"10"},
+        {"item":["coins",6],"chance":"20"},
+        {"item":["coins",15],"chance":"15"},
+        {"item":["coins",16],"chance":"10"},
+        {"item":["coins",20],"chance":"20"},
+        {"item":["coins",38],"chance":"5"},
+        {"item":["tinderbox",1],"chance":"50"},
+        {"item":["vial_empty",1],"chance":"50"},
+        {"item":["vial_water",1],"chance":"50"},
+        {"item":["viking_strung_lyre",1],"chance":"30"},
+        {"item":["bucket_empty",1],"chance":"17"},
+        {"item":["eye_of_newt",1],"chance":"4"},
+        {"item":["beer",1],"chance":"2"},
+        {"item":["snape_grass",1],"chance":"2"},
+        {"item":["jangerberries",1],"chance":"2"},
+        {"item":["blamish_oil",1],"chance":"1"},
+        {"item":["~randomjewel",1],"chance":"1"}
+      ],
+      "always": [
+        {"item":["bones",1]}
+      ],
+      "tertiary": [
+        {"item":"~clue-easy","chance":"1/128"}
+      ]
+    }
+  },
+  "viking_man2": {
+    "id": 1306,
+    "name": "Freidir",
+    "desc": "One of Rellekka's many citizens.",
+    "op1": "Talk-to",
+    "op2": "Attack",
+    "op3": "Pickpocket",
+    "vislevel": "48",
+    "wanderrange": "12",
+    "maxrange": "14",
+    "moverestrict": "indoors",
+    "respawnrate": "60",
+    "hitpoints": "50",
+    "attack": "40",
+    "strength": "40",
+    "defence": "40",
+    "params": [
+      {"strengthbonus":"20"},
+      {"damagetype":"^crush_style"}
+    ],
+    "drops": {
+      "roll_base": 512,
+      "roll_table": [
+        {"item":["bronze_warhammer",1],"chance":"100"},
+        {"item":["iron_warhammer",1],"chance":"70"},
+        {"item":["viking_sword",1],"chance":"1"},
+        {"item":["viking_shield",1],"chance":"1"},
+        {"item":["viking_helmet",1],"chance":"1"},
+        {"item":["~randomherb",1],"chance":"10"},
+        {"item":["copper_ore",5],"chance":"10"},
+        {"item":["tin_ore",5],"chance":"10"},
+        {"item":["iron_ore",5],"chance":"10"},
+        {"item":["coal",1],"chance":"10"},
+        {"item":["steel_bar",1],"chance":"10"},
+        {"item":["coins",6],"chance":"20"},
+        {"item":["coins",15],"chance":"15"},
+        {"item":["coins",16],"chance":"10"},
+        {"item":["coins",20],"chance":"20"},
+        {"item":["coins",38],"chance":"5"},
+        {"item":["tinderbox",1],"chance":"50"},
+        {"item":["vial_empty",1],"chance":"50"},
+        {"item":["vial_water",1],"chance":"50"},
+        {"item":["viking_strung_lyre",1],"chance":"30"},
+        {"item":["bucket_empty",1],"chance":"17"},
+        {"item":["eye_of_newt",1],"chance":"4"},
+        {"item":["beer",1],"chance":"2"},
+        {"item":["snape_grass",1],"chance":"2"},
+        {"item":["jangerberries",1],"chance":"2"},
+        {"item":["blamish_oil",1],"chance":"1"},
+        {"item":["~randomjewel",1],"chance":"1"}
+      ],
+      "always": [
+        {"item":["bones",1]}
+      ],
+      "tertiary": [
+        {"item":"~clue-easy","chance":"1/128"}
+      ]
+    }
+  },
+  "viking_man3": {
+    "id": 1307,
+    "name": "Borrokar",
+    "desc": "One of Rellekka's many citizens.",
+    "op1": "Talk-to",
+    "op2": "Attack",
+    "op3": "Pickpocket",
+    "vislevel": "48",
+    "wanderrange": "12",
+    "maxrange": "14",
+    "moverestrict": "indoors",
+    "respawnrate": "60",
+    "hitpoints": "50",
+    "attack": "40",
+    "strength": "40",
+    "defence": "40",
+    "params": [
+      {"strengthbonus":"20"},
+      {"damagetype":"^crush_style"}
+    ],
+    "drops": {
+      "roll_base": 512,
+      "roll_table": [
+        {"item":["bronze_warhammer",1],"chance":"100"},
+        {"item":["iron_warhammer",1],"chance":"70"},
+        {"item":["viking_sword",1],"chance":"1"},
+        {"item":["viking_shield",1],"chance":"1"},
+        {"item":["viking_helmet",1],"chance":"1"},
+        {"item":["~randomherb",1],"chance":"10"},
+        {"item":["copper_ore",5],"chance":"10"},
+        {"item":["tin_ore",5],"chance":"10"},
+        {"item":["iron_ore",5],"chance":"10"},
+        {"item":["coal",1],"chance":"10"},
+        {"item":["steel_bar",1],"chance":"10"},
+        {"item":["coins",6],"chance":"20"},
+        {"item":["coins",15],"chance":"15"},
+        {"item":["coins",16],"chance":"10"},
+        {"item":["coins",20],"chance":"20"},
+        {"item":["coins",38],"chance":"5"},
+        {"item":["tinderbox",1],"chance":"50"},
+        {"item":["vial_empty",1],"chance":"50"},
+        {"item":["vial_water",1],"chance":"50"},
+        {"item":["viking_strung_lyre",1],"chance":"30"},
+        {"item":["bucket_empty",1],"chance":"17"},
+        {"item":["eye_of_newt",1],"chance":"4"},
+        {"item":["beer",1],"chance":"2"},
+        {"item":["snape_grass",1],"chance":"2"},
+        {"item":["jangerberries",1],"chance":"2"},
+        {"item":["blamish_oil",1],"chance":"1"},
+        {"item":["~randomjewel",1],"chance":"1"}
+      ],
+      "always": [
+        {"item":["bones",1]}
+      ],
+      "tertiary": [
+        {"item":"~clue-easy","chance":"1/128"}
+      ]
+    }
+  },
+  "viking_man4": {
+    "id": 1308,
+    "name": "Lanzig",
+    "desc": "One of Rellekka's many citizens.",
+    "op1": "Talk-to",
+    "op2": "Attack",
+    "op3": "Pickpocket",
+    "vislevel": "48",
+    "wanderrange": "12",
+    "maxrange": "14",
+    "moverestrict": "indoors",
+    "hitpoints": "50",
+    "attack": "40",
+    "strength": "40",
+    "defence": "40",
+    "params": [
+      {"strengthbonus":"20"},
+      {"damagetype":"^crush_style"}
+    ],
+    "drops": {
+      "roll_base": 512,
+      "roll_table": [
+        {"item":["bronze_warhammer",1],"chance":"100"},
+        {"item":["iron_warhammer",1],"chance":"70"},
+        {"item":["viking_sword",1],"chance":"1"},
+        {"item":["viking_shield",1],"chance":"1"},
+        {"item":["viking_helmet",1],"chance":"1"},
+        {"item":["~randomherb",1],"chance":"10"},
+        {"item":["copper_ore",5],"chance":"10"},
+        {"item":["tin_ore",5],"chance":"10"},
+        {"item":["iron_ore",5],"chance":"10"},
+        {"item":["coal",1],"chance":"10"},
+        {"item":["steel_bar",1],"chance":"10"},
+        {"item":["coins",6],"chance":"20"},
+        {"item":["coins",15],"chance":"15"},
+        {"item":["coins",16],"chance":"10"},
+        {"item":["coins",20],"chance":"20"},
+        {"item":["coins",38],"chance":"5"},
+        {"item":["tinderbox",1],"chance":"50"},
+        {"item":["vial_empty",1],"chance":"50"},
+        {"item":["vial_water",1],"chance":"50"},
+        {"item":["viking_strung_lyre",1],"chance":"30"},
+        {"item":["bucket_empty",1],"chance":"17"},
+        {"item":["eye_of_newt",1],"chance":"4"},
+        {"item":["beer",1],"chance":"2"},
+        {"item":["snape_grass",1],"chance":"2"},
+        {"item":["jangerberries",1],"chance":"2"},
+        {"item":["blamish_oil",1],"chance":"1"},
+        {"item":["~randomjewel",1],"chance":"1"}
+      ],
+      "always": [
+        {"item":["bones",1]}
+      ],
+      "tertiary": [
+        {"item":"~clue-easy","chance":"1/128"}
+      ]
+    }
+  },
+  "viking_man5": {
+    "id": 1309,
+    "name": "Pontak",
+    "desc": "One of Rellekka's many citizens.",
+    "op1": "Talk-to",
+    "op3": "Pickpocket",
+    "vislevel": "48",
+    "wanderrange": "12",
+    "maxrange": "14",
+    "moverestrict": "indoors",
+    "hitpoints": "50",
+    "attack": "40",
+    "strength": "40",
+    "defence": "40",
+    "params": [
+      {"strengthbonus":"20"},
+      {"damagetype":"^crush_style"}
+    ],
+    "drops": {
+      "roll_base": 512,
+      "roll_table": [
+        {"item":["bronze_warhammer",1],"chance":"100"},
+        {"item":["iron_warhammer",1],"chance":"70"},
+        {"item":["viking_sword",1],"chance":"1"},
+        {"item":["viking_shield",1],"chance":"1"},
+        {"item":["viking_helmet",1],"chance":"1"},
+        {"item":["~randomherb",1],"chance":"10"},
+        {"item":["copper_ore",5],"chance":"10"},
+        {"item":["tin_ore",5],"chance":"10"},
+        {"item":["iron_ore",5],"chance":"10"},
+        {"item":["coal",1],"chance":"10"},
+        {"item":["steel_bar",1],"chance":"10"},
+        {"item":["coins",6],"chance":"20"},
+        {"item":["coins",15],"chance":"15"},
+        {"item":["coins",16],"chance":"10"},
+        {"item":["coins",20],"chance":"20"},
+        {"item":["coins",38],"chance":"5"},
+        {"item":["tinderbox",1],"chance":"50"},
+        {"item":["vial_empty",1],"chance":"50"},
+        {"item":["vial_water",1],"chance":"50"},
+        {"item":["viking_strung_lyre",1],"chance":"30"},
+        {"item":["bucket_empty",1],"chance":"17"},
+        {"item":["eye_of_newt",1],"chance":"4"},
+        {"item":["beer",1],"chance":"2"},
+        {"item":["snape_grass",1],"chance":"2"},
+        {"item":["jangerberries",1],"chance":"2"},
+        {"item":["blamish_oil",1],"chance":"1"},
+        {"item":["~randomjewel",1],"chance":"1"}
+      ],
+      "always": [
+        {"item":["bones",1]}
+      ],
+      "tertiary": [
+        {"item":"~clue-easy","chance":"1/128"}
+      ]
+    }
+  },
+  "viking_olaf": {
+    "id": 1269,
+    "name": "Olaf the Bard",
+    "vislevel": "hide",
+    "desc": "A Fremennik bard.",
+    "op1": "Talk-to",
+    "wanderrange": "3"
+  },
+  "viking_peer": {
+    "id": 1288,
+    "name": "Peer the Seer",
+    "desc": "A Fremennik riddler.",
+    "vislevel": "hide",
+    "op1": "Talk-to",
+    "wanderrange": "2"
+  },
+  "viking_reveller": {
+    "id": 1284,
+    "name": "Bjorn",
+    "vislevel": "hide",
+    "desc": "Looks like he's having fun!",
+    "op1": "Talk-to",
+    "wanderrange": "3"
+  },
+  "viking_reveller_2": {
+    "id": 1285,
+    "name": "Eldgrim",
+    "vislevel": "hide",
+    "desc": "He's only as think as you drunk he is!",
+    "op1": "Talk-to",
+    "wanderrange": "5"
+  },
+  "viking_reveller_3": {
+    "id": 1286,
+    "name": "Manni the Reveller",
+    "vislevel": "hide",
+    "desc": "Every innkeepers best friend!",
+    "op1": "Talk-to",
+    "wanderrange": "5"
+  },
+  "viking_sailor": {
+    "id": 1304,
+    "name": "Sailor",
+    "desc": "He's strong to the finish, because he eats cabbage.",
+    "op1": "Talk-to",
+    "vislevel": "hide",
+    "defaultmode": "none",
+    "wanderrange": "0",
+    "moverestrict": "nomove",
+    "drops": {
+      "roll_base": 512,
+      "roll_table": [
+        {"item":["bronze_warhammer",1],"chance":"100"},
+        {"item":["iron_warhammer",1],"chance":"70"},
+        {"item":["viking_sword",1],"chance":"1"},
+        {"item":["viking_shield",1],"chance":"1"},
+        {"item":["viking_helmet",1],"chance":"1"},
+        {"item":["~randomherb",1],"chance":"10"},
+        {"item":["copper_ore",5],"chance":"10"},
+        {"item":["tin_ore",5],"chance":"10"},
+        {"item":["iron_ore",5],"chance":"10"},
+        {"item":["coal",1],"chance":"10"},
+        {"item":["steel_bar",1],"chance":"10"},
+        {"item":["coins",6],"chance":"20"},
+        {"item":["coins",15],"chance":"15"},
+        {"item":["coins",16],"chance":"10"},
+        {"item":["coins",20],"chance":"20"},
+        {"item":["coins",38],"chance":"5"},
+        {"item":["tinderbox",1],"chance":"50"},
+        {"item":["vial_empty",1],"chance":"50"},
+        {"item":["vial_water",1],"chance":"50"},
+        {"item":["viking_strung_lyre",1],"chance":"30"},
+        {"item":["bucket_empty",1],"chance":"17"},
+        {"item":["eye_of_newt",1],"chance":"4"},
+        {"item":["beer",1],"chance":"2"},
+        {"item":["snape_grass",1],"chance":"2"},
+        {"item":["jangerberries",1],"chance":"2"},
+        {"item":["blamish_oil",1],"chance":"1"},
+        {"item":["~randomjewel",1],"chance":"1"}
+      ],
+      "always": [
+        {"item":["bones",1]}
+      ],
+      "tertiary": [
+        {"item":"~clue-easy","chance":"1/128"}
+      ]
+    }
+  },
+  "viking_seagull": {
+    "id": 1322,
+    "name": "Gull",
+    "desc": "A sea bird.",
+    "vislevel": "hide",
+    "moverestrict": "blocked",
+    "hitpoints": "32",
+    "attack": "22",
+    "strength": "22",
+    "defence": "17",
+    "params": [
+      {"stabdefence":"12"},
+      {"slashdefence":"10"},
+      {"crushdefence":"16"},
+      {"magicdefence":"8"},
+      {"damagetype":"^stab_style"}
+    ]
+  },
+  "viking_seagull2": {
+    "id": 1323,
+    "name": "Gull",
+    "desc": "A sea bird.",
+    "vislevel": "hide",
+    "moverestrict": "blocked",
+    "hitpoints": "32",
+    "attack": "22",
+    "strength": "22",
+    "defence": "17",
+    "params": [
+      {"stabdefence":"12"},
+      {"slashdefence":"10"},
+      {"crushdefence":"16"},
+      {"magicdefence":"8"},
+      {"damagetype":"^stab_style"}
+    ]
+  },
+  "viking_seagull3": {
+    "id": 1324,
+    "name": "Gull",
+    "desc": "A sea bird.",
+    "vislevel": "hide",
+    "moverestrict": "blocked",
+    "hitpoints": "32",
+    "attack": "22",
+    "strength": "22",
+    "defence": "17",
+    "params": [
+      {"stabdefence":"12"},
+      {"slashdefence":"10"},
+      {"crushdefence":"16"},
+      {"magicdefence":"8"},
+      {"damagetype":"^stab_style"}
+    ]
+  },
+  "viking_seagull4": {
+    "id": 1325,
+    "name": "Gull",
+    "desc": "A sea bird.",
+    "vislevel": "hide",
+    "moverestrict": "blocked+normal",
+    "hitpoints": "32",
+    "attack": "22",
+    "strength": "22",
+    "defence": "17",
+    "params": [
+      {"stabdefence":"12"},
+      {"slashdefence":"10"},
+      {"crushdefence":"16"},
+      {"magicdefence":"8"},
+      {"damagetype":"^stab_style"}
+    ]
+  },
+  "viking_sigli": {
+    "id": 1281,
+    "name": "Sigli the Huntsman",
+    "desc": "A Fremennik hunter.",
+    "vislevel": "hide",
+    "op1": "Talk-to",
+    "wanderrange": "2"
+  },
+  "viking_sigmund": {
+    "id": 1282,
+    "name": "Sigmund The Merchant",
+    "desc": "A Fremennik merchant.",
+    "vislevel": "hide",
+    "op1": "Talk-to",
+    "op3": "Trade",
+    "wanderrange": "3",
+    "params": [
+      {"owned_shop":"viking_general_store"},
+      {"shop_sell_multiplier":"1300"},
+      {"shop_buy_multiplier":"500"},
+      {"shop_title":"Sigmund the Merchant"}
+    ]
+  },
+  "viking_thorvald": {
+    "id": 1289,
+    "name": "Thorvald the Warrior",
+    "vislevel": "hide",
+    "desc": "A Fremennik hero.",
+    "op1": "Talk-to",
+    "wanderrange": "5",
+    "moverestrict": "indoors"
+  },
+  "viking_town_entrance_guard1": {
+    "id": 1298,
+    "name": "Town Guard",
+    "vislevel": "hide",
+    "desc": "What a rubbish job he has.",
+    "defaultmode": "none",
+    "wanderrange": "0",
+    "moverestrict": "nomove"
+  },
+  "viking_town_entrance_guard2": {
+    "id": 1299,
+    "name": "Town Guard",
+    "vislevel": "hide",
+    "desc": "Who's going to steal a whole town anyway?",
+    "defaultmode": "none",
+    "wanderrange": "0",
+    "moverestrict": "nomove"
+  },
+  "viking_weapons_salesman": {
+    "id": 1303,
+    "name": "Skulgrimen",
+    "desc": "Sells and makes weapons and armour.",
+    "op1": "Talk-to",
+    "op3": "Trade",
+    "vislevel": "hide",
+    "wanderrange": "1",
+    "params": [
+      {"owned_shop":"viking_weapons_shop"},
+      {"shop_sell_multiplier":"1300"},
+      {"shop_buy_multiplier":"700"},
+      {"shop_title":"Skulgrimen's Battle Gear"}
+    ]
+  },
+  "viking_wolf": {
+    "id": 1330,
+    "name": "Wolf",
+    "desc": "Not mans' best friend.",
+    "size": "2",
+    "op2": "Attack",
+    "vislevel": "64",
+    "wanderrange": "6",
+    "maxrange": "8",
+    "respawnrate": "180",
+    "hitpoints": "69",
+    "attack": "50",
+    "strength": "55",
+    "defence": "52",
+    "huntmode": "cowardly",
+    "huntrange": "1",
+    "params": [
+      {"damagetype":"^stab_style"}
+    ],
+    "drops": {
+      "always": [
+        {"item":["wolf_bones",1]}
+      ]
+    }
+  },
+  "viking_woman": {
+    "id": 1310,
+    "name": "Freygerd",
+    "desc": "One of Rellekka's many citizens.",
+    "op1": "Talk-to",
+    "op2": "Attack",
+    "op3": "Pickpocket",
+    "vislevel": "48",
+    "wanderrange": "12",
+    "maxrange": "14",
+    "respawnrate": "60",
+    "hitpoints": "50",
+    "attack": "40",
+    "strength": "40",
+    "defence": "40",
+    "params": [
+      {"strengthbonus":"20"},
+      {"damagetype":"^crush_style"}
+    ],
+    "drops": {
+      "roll_base": 512,
+      "roll_table": [
+        {"item":["bronze_warhammer",1],"chance":"100"},
+        {"item":["iron_warhammer",1],"chance":"70"},
+        {"item":["viking_sword",1],"chance":"1"},
+        {"item":["viking_shield",1],"chance":"1"},
+        {"item":["viking_helmet",1],"chance":"1"},
+        {"item":["~randomherb",1],"chance":"10"},
+        {"item":["copper_ore",5],"chance":"10"},
+        {"item":["tin_ore",5],"chance":"10"},
+        {"item":["iron_ore",5],"chance":"10"},
+        {"item":["coal",1],"chance":"10"},
+        {"item":["steel_bar",1],"chance":"10"},
+        {"item":["coins",6],"chance":"20"},
+        {"item":["coins",15],"chance":"15"},
+        {"item":["coins",16],"chance":"10"},
+        {"item":["coins",20],"chance":"20"},
+        {"item":["coins",38],"chance":"5"},
+        {"item":["tinderbox",1],"chance":"50"},
+        {"item":["vial_empty",1],"chance":"50"},
+        {"item":["vial_water",1],"chance":"50"},
+        {"item":["viking_strung_lyre",1],"chance":"30"},
+        {"item":["bucket_empty",1],"chance":"17"},
+        {"item":["eye_of_newt",1],"chance":"4"},
+        {"item":["beer",1],"chance":"2"},
+        {"item":["snape_grass",1],"chance":"2"},
+        {"item":["jangerberries",1],"chance":"2"},
+        {"item":["blamish_oil",1],"chance":"1"},
+        {"item":["~randomjewel",1],"chance":"1"}
+      ],
+      "always": [
+        {"item":["bones",1]}
+      ],
+      "tertiary": [
+        {"item":"~clue-easy","chance":"1/128"}
+      ]
+    }
+  },
+  "viking_woman_indoors": {
+    "id": 1314,
+    "name": "Inga",
+    "desc": "One of Rellekka's many citizens.",
+    "op1": "Talk-to",
+    "op3": "Pickpocket",
+    "vislevel": "48",
+    "wanderrange": "12",
+    "maxrange": "14",
+    "hitpoints": "50",
+    "attack": "40",
+    "strength": "40",
+    "defence": "40",
+    "params": [
+      {"strengthbonus":"20"},
+      {"damagetype":"^crush_style"}
+    ],
+    "drops": {
+      "roll_base": 512,
+      "roll_table": [
+        {"item":["bronze_warhammer",1],"chance":"100"},
+        {"item":["iron_warhammer",1],"chance":"70"},
+        {"item":["viking_sword",1],"chance":"1"},
+        {"item":["viking_shield",1],"chance":"1"},
+        {"item":["viking_helmet",1],"chance":"1"},
+        {"item":["~randomherb",1],"chance":"10"},
+        {"item":["copper_ore",5],"chance":"10"},
+        {"item":["tin_ore",5],"chance":"10"},
+        {"item":["iron_ore",5],"chance":"10"},
+        {"item":["coal",1],"chance":"10"},
+        {"item":["steel_bar",1],"chance":"10"},
+        {"item":["coins",6],"chance":"20"},
+        {"item":["coins",15],"chance":"15"},
+        {"item":["coins",16],"chance":"10"},
+        {"item":["coins",20],"chance":"20"},
+        {"item":["coins",38],"chance":"5"},
+        {"item":["tinderbox",1],"chance":"50"},
+        {"item":["vial_empty",1],"chance":"50"},
+        {"item":["vial_water",1],"chance":"50"},
+        {"item":["viking_strung_lyre",1],"chance":"30"},
+        {"item":["bucket_empty",1],"chance":"17"},
+        {"item":["eye_of_newt",1],"chance":"4"},
+        {"item":["beer",1],"chance":"2"},
+        {"item":["snape_grass",1],"chance":"2"},
+        {"item":["jangerberries",1],"chance":"2"},
+        {"item":["blamish_oil",1],"chance":"1"},
+        {"item":["~randomjewel",1],"chance":"1"}
+      ],
+      "always": [
+        {"item":["bones",1]}
+      ],
+      "tertiary": [
+        {"item":"~clue-easy","chance":"1/128"}
+      ]
+    }
+  },
+  "viking_woman2": {
+    "id": 1311,
+    "name": "Lensa",
+    "desc": "One of Rellekka's many citizens.",
+    "op1": "Talk-to",
+    "op2": "Attack",
+    "op3": "Pickpocket",
+    "vislevel": "48",
+    "wanderrange": "12",
+    "maxrange": "14",
+    "respawnrate": "60",
+    "hitpoints": "50",
+    "attack": "40",
+    "strength": "40",
+    "defence": "40",
+    "params": [
+      {"strengthbonus":"20"},
+      {"damagetype":"^crush_style"}
+    ],
+    "drops": {
+      "roll_base": 512,
+      "roll_table": [
+        {"item":["bronze_warhammer",1],"chance":"100"},
+        {"item":["iron_warhammer",1],"chance":"70"},
+        {"item":["viking_sword",1],"chance":"1"},
+        {"item":["viking_shield",1],"chance":"1"},
+        {"item":["viking_helmet",1],"chance":"1"},
+        {"item":["~randomherb",1],"chance":"10"},
+        {"item":["copper_ore",5],"chance":"10"},
+        {"item":["tin_ore",5],"chance":"10"},
+        {"item":["iron_ore",5],"chance":"10"},
+        {"item":["coal",1],"chance":"10"},
+        {"item":["steel_bar",1],"chance":"10"},
+        {"item":["coins",6],"chance":"20"},
+        {"item":["coins",15],"chance":"15"},
+        {"item":["coins",16],"chance":"10"},
+        {"item":["coins",20],"chance":"20"},
+        {"item":["coins",38],"chance":"5"},
+        {"item":["tinderbox",1],"chance":"50"},
+        {"item":["vial_empty",1],"chance":"50"},
+        {"item":["vial_water",1],"chance":"50"},
+        {"item":["viking_strung_lyre",1],"chance":"30"},
+        {"item":["bucket_empty",1],"chance":"17"},
+        {"item":["eye_of_newt",1],"chance":"4"},
+        {"item":["beer",1],"chance":"2"},
+        {"item":["snape_grass",1],"chance":"2"},
+        {"item":["jangerberries",1],"chance":"2"},
+        {"item":["blamish_oil",1],"chance":"1"},
+        {"item":["~randomjewel",1],"chance":"1"}
+      ],
+      "always": [
+        {"item":["bones",1]}
+      ],
+      "tertiary": [
+        {"item":"~clue-easy","chance":"1/128"}
+      ]
+    }
+  },
+  "viking_woman3": {
+    "id": 1312,
+    "name": "Jennella",
+    "desc": "One of Rellekka's many citizens.",
+    "op1": "Talk-to",
+    "op2": "Attack",
+    "op3": "Pickpocket",
+    "vislevel": "48",
+    "wanderrange": "12",
+    "maxrange": "14",
+    "respawnrate": "60",
+    "hitpoints": "50",
+    "attack": "40",
+    "strength": "40",
+    "defence": "40",
+    "params": [
+      {"strengthbonus":"20"},
+      {"damagetype":"^crush_style"}
+    ],
+    "drops": {
+      "roll_base": 512,
+      "roll_table": [
+        {"item":["bronze_warhammer",1],"chance":"100"},
+        {"item":["iron_warhammer",1],"chance":"70"},
+        {"item":["viking_sword",1],"chance":"1"},
+        {"item":["viking_shield",1],"chance":"1"},
+        {"item":["viking_helmet",1],"chance":"1"},
+        {"item":["~randomherb",1],"chance":"10"},
+        {"item":["copper_ore",5],"chance":"10"},
+        {"item":["tin_ore",5],"chance":"10"},
+        {"item":["iron_ore",5],"chance":"10"},
+        {"item":["coal",1],"chance":"10"},
+        {"item":["steel_bar",1],"chance":"10"},
+        {"item":["coins",6],"chance":"20"},
+        {"item":["coins",15],"chance":"15"},
+        {"item":["coins",16],"chance":"10"},
+        {"item":["coins",20],"chance":"20"},
+        {"item":["coins",38],"chance":"5"},
+        {"item":["tinderbox",1],"chance":"50"},
+        {"item":["vial_empty",1],"chance":"50"},
+        {"item":["vial_water",1],"chance":"50"},
+        {"item":["viking_strung_lyre",1],"chance":"30"},
+        {"item":["bucket_empty",1],"chance":"17"},
+        {"item":["eye_of_newt",1],"chance":"4"},
+        {"item":["beer",1],"chance":"2"},
+        {"item":["snape_grass",1],"chance":"2"},
+        {"item":["jangerberries",1],"chance":"2"},
+        {"item":["blamish_oil",1],"chance":"1"},
+        {"item":["~randomjewel",1],"chance":"1"}
+      ],
+      "always": [
+        {"item":["bones",1]}
+      ],
+      "tertiary": [
+        {"item":"~clue-easy","chance":"1/128"}
+      ]
+    }
+  },
+  "viking_woman4": {
+    "id": 1313,
+    "name": "Sassilik",
+    "desc": "One of Rellekka's many citizens.",
+    "op1": "Talk-to",
+    "op3": "Pickpocket",
+    "vislevel": "48",
+    "wanderrange": "12",
+    "maxrange": "14",
+    "hitpoints": "50",
+    "attack": "40",
+    "strength": "40",
+    "defence": "40",
+    "params": [
+      {"strengthbonus":"20"},
+      {"damagetype":"^crush_style"}
+    ],
+    "drops": {
+      "roll_base": 512,
+      "roll_table": [
+        {"item":["bronze_warhammer",1],"chance":"100"},
+        {"item":["iron_warhammer",1],"chance":"70"},
+        {"item":["viking_sword",1],"chance":"1"},
+        {"item":["viking_shield",1],"chance":"1"},
+        {"item":["viking_helmet",1],"chance":"1"},
+        {"item":["~randomherb",1],"chance":"10"},
+        {"item":["copper_ore",5],"chance":"10"},
+        {"item":["tin_ore",5],"chance":"10"},
+        {"item":["iron_ore",5],"chance":"10"},
+        {"item":["coal",1],"chance":"10"},
+        {"item":["steel_bar",1],"chance":"10"},
+        {"item":["coins",6],"chance":"20"},
+        {"item":["coins",15],"chance":"15"},
+        {"item":["coins",16],"chance":"10"},
+        {"item":["coins",20],"chance":"20"},
+        {"item":["coins",38],"chance":"5"},
+        {"item":["tinderbox",1],"chance":"50"},
+        {"item":["vial_empty",1],"chance":"50"},
+        {"item":["vial_water",1],"chance":"50"},
+        {"item":["viking_strung_lyre",1],"chance":"30"},
+        {"item":["bucket_empty",1],"chance":"17"},
+        {"item":["eye_of_newt",1],"chance":"4"},
+        {"item":["beer",1],"chance":"2"},
+        {"item":["snape_grass",1],"chance":"2"},
+        {"item":["jangerberries",1],"chance":"2"},
+        {"item":["blamish_oil",1],"chance":"1"},
+        {"item":["~randomjewel",1],"chance":"1"}
+      ],
+      "always": [
+        {"item":["bones",1]}
+      ],
+      "tertiary": [
+        {"item":"~clue-easy","chance":"1/128"}
+      ]
+    }
   },
   "viyeldi": {
     "id": 935,
@@ -19505,6 +23888,14 @@
       {"strengthbonus":"3"},
       {"damagetype":"^crush_style"}
     ]
+  },
+  "vt_council_workmen": {
+    "id": 1287,
+    "name": "Council workman",
+    "vislevel": "hide",
+    "desc": "Supposedly fixes things around RuneScape.",
+    "op1": "Talk-to",
+    "wanderrange": "1"
   },
   "w_ardougnecitizen1": {
     "id": 726,
@@ -19711,6 +24102,7 @@
     "vislevel": "hide",
     "desc": "He can look after my money.",
     "op1": "Talk-to",
+    "op3": "Bank",
     "wanderrange": "0",
     "maxrange": "2",
     "moverestrict": "nomove"
@@ -20289,10 +24681,9 @@
   "wyson": {
     "id": 36,
     "name": "Wyson the gardener",
-    "desc": "An old gardener.",
+    "vislevel": "hide",
+    "desc": "The head gardener.",
     "op1": "Talk-to",
-    "op2": "Attack",
-    "vislevel": "3",
     "respawnrate": "50",
     "hitpoints": "7",
     "attack": "2",
