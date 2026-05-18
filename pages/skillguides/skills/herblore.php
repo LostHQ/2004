@@ -274,7 +274,7 @@ function getSkillContent($skill) { return <<<HTML
             </td>
             <td><canvas itemname="dragon_scale_dust" show-label="true"></canvas></td>
             <td><canvas itemname="weapon_poison" show-label="true"></canvas></td>
-            <td>127.5</td>
+            <td>137.5</td>
         </tr>
         <tr>
             <td>63</td>
@@ -319,6 +319,17 @@ function getSkillContent($skill) { return <<<HTML
             <td><canvas itemname="wine_of_zamorak" show-label="true"></canvas></td>
             <td><canvas itemname="3doserangerspotion" show-label="true"></canvas></td>
             <td>162.5</td>
+        </tr>
+        <tr>
+            <td>76</td>
+            <td>
+                <canvas itemname="lantadyme"></canvas>
+                <canvas itemname="lantadymevial"></canvas><br>
+                Lantadyme
+            </td>
+            <td><canvas itemname="cactus_potato" show-label="true"></canvas></td>
+            <td><canvas itemname="3dose1magic" show-label="true"></canvas></td>
+            <td>172.5</td>
         </tr>
         <tr>
             <td>78</td>
