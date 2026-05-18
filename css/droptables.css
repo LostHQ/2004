@@ -254,10 +254,6 @@ select:hover {
     transform: translateX(-50%);
 }
 
-.modal-body {
-    padding: 0;
-}
-
 .monster-name {
     font-size: 14px;
     margin-bottom: 2px;

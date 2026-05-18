@@ -8,7 +8,6 @@ function getPageContent() {
 
     return <<<HTML
 <h2>Clue Tables</h2>
-<p>Please note that the rates listed here are per casket opened, not per roll.</p>
 <div class="row">
     <div class="stone-box">
         <b>Select a Clue Tier</b>
@@ -23,56 +22,8 @@ function getPageContent() {
     </div>
 </div>
 <br>
-<div class="easyTable">
-    <br>
-    <table width="100%" class="table">
-        <thead>
-            <tr>
-                <th colspan="3">Easy Casket Rewards</th>
-            </tr>
-            <tr>
-                <th>Item</th>
-                <th>Quantity</th>
-                <th>Rate</th>
-            </tr>
-        </thead>
-        <tbody>
-        </tbody>
-    </table>
-</div>
-<div class="mediumTable">
-    <br>
-    <table width="100%" class="table">
-        <thead>
-            <tr>
-                <th colspan="3">Medium Casket Rewards</th>
-            </tr>
-            <tr>
-                <th>Item</th>
-                <th>Quantity</th>
-                <th>Rate</th>
-            </tr>
-        </thead>
-        <tbody>
-        </tbody>
-    </table>
-</div>
-<div class="hardTable">
-    <br>
-    <table width="100%" class="table">
-        <thead>
-            <tr>
-                <th colspan="3">Hard Casket Rewards</th>
-            </tr>
-            <tr>
-                <th>Item</th>
-                <th>Quantity</th>
-                <th>Rate</th>
-            </tr>
-        </thead>
-        <tbody>
-        </tbody>
-    </table>
-</div>
+<div class="easyTable"></div>
+<div class="mediumTable"></div>
+<div class="hardTable"></div>
 <script src="pages/cluetables/cluetables.js"></script>
 HTML;}
