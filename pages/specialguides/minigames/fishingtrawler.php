@@ -13,6 +13,7 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
 </table>
 <br>
 In this mini-game you can catch any sea water fish up to your level, and it is the only way for high-level fisherman to catch Sea Turtles and Manta Rays.
+<br><br>
 <h3>What You'll Need</h3>
 You should bring the following things when Trawler Fishing:
 <br><br>
@@ -23,6 +24,7 @@ One Bailing Bucket. This can be bought at the Port Khazard General Store. It is 
 6 to 10 Ropes. These can also be bought at the Port Khazard General Store, as well as a number of other places. These are used to fix the fishing net.
 <br><br>
 NOTE: Bring friends, alone it is almost impossible!
+<br><br>
 <h3>Trawler Fishing</h3>
 To start the mini-game, speak to Murphy at the Port Khazard docks and agree to help him. He will make sure a number of times, and then allow you to get onto the boat.
 <br><br>
