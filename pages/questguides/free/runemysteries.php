@@ -17,8 +17,8 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
     </ul>
     <h3>Recommended:</h3>
     <ul style="list-style-type: none;">
-    <li><div data-progress><canvas itemname="lawrune" icon-size="25" show-label="inline" name-replace="Runes for Teleport to Lumbridge"></canvas></div></li>
-    <li><div data-progress><canvas itemname="lawrune" icon-size="25" show-label="inline" name-replace="Runes for Teleport to Varrock"></canvas></div></li>
+    <li><div data-progress><canvas itemname="lawrune" show-label="inline" name-replace="Runes for Teleport to Lumbridge"></canvas></div></li>
+    <li><div data-progress><canvas itemname="lawrune" show-label="inline" name-replace="Runes for Teleport to Varrock"></canvas></div></li>
     </ul>
     <b>Starting Location:</b> <span data-floors="US">2nd floor</span> of Lumbridge Castle
     <br><br>

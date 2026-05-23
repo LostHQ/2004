@@ -13,9 +13,9 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
     <ul style="list-style-type: none;">
         <li>
             <div data-progress>
-                <canvas itemname="bucket_water" icon-size="25" show-label="inline" name-append=" (can be obtained during quest)"></canvas>
+                <canvas itemname="bucket_water" show-label="inline" name-append=" (can be obtained during quest)"></canvas>
                 or
-                <canvas itemname="ice_gloves" icon-size="25" show-label="inline"></canvas>
+                <canvas itemname="ice_gloves" show-label="inline"></canvas>
             </div>
         </li>
         <li><div data-progress>Some good armour to get past some level 48 ogres</div></li>

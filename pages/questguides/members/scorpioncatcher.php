@@ -13,7 +13,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
     <ul style="list-style-type: none;">
     <li><div data-progress>31 Prayer</div></li>
     <li><div data-progress>Completion of <a href="?p=questguides&quest=barcrawl">Alfred Grimhand's Barcrawl</a></div></li>
-    <li><div data-progress><canvas itemname="dusty_key" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="dusty_key" show-label="inline"></canvas></div></li>
     <li><div data-progress>The ability to go deep in to the Taverley Dungeon</div></li>
     </ul>
     <b>Starting Location:</b> Thormac the wizard in the Wizard Tower south of Seers Village

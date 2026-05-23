@@ -11,7 +11,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
     <br><br>
     <h3>Items & Skills Needed:</h3>
     <ul style="list-style-type: none;">
-    <li><div data-progress><canvas itemname="pot_empty" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="pot_empty" show-label="inline"></canvas></div></li>
     </ul>
     <b>Starting Location:</b> Talk to the guard at Lord Sinclair's Mansion
     <br><br>

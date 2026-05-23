@@ -10,15 +10,15 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
     <br><br>
     <h3>Items & Skills Needed:</h3>
     <ul style="list-style-type: none;">
-    <li><div data-progress><canvas itemname="coins_100" icon-size="25" show-label="inline" name-replace="208 coins"></canvas></div></li>
+    <li><div data-progress><canvas itemname="coins_100" show-label="inline" name-replace="208 coins"></canvas></div></li>
     <li><div data-progress>Food for players with low HP</div></li>
     </ul>
     <h3>Recommended:</h3>
     <ul style="list-style-type: none;">
-    <li><div data-progress><canvas itemname="lawrune" icon-size="25" show-label="inline" name-replace="Teleport to Camelot"></canvas></div></li>
-    <li><div data-progress><canvas itemname="lawrune" icon-size="25" show-label="inline" name-replace="Teleport to Falador"></canvas></div></li>
-    <li><div data-progress><canvas itemname="lawrune" icon-size="25" show-label="inline" name-replace="Teleport to Varrock"></canvas></div></li>
-    <li><div data-progress><canvas itemname="lawrune" icon-size="25" show-label="inline" name-replace="Teleport to Ardougne"></canvas></div></li>
+    <li><div data-progress><canvas itemname="lawrune" show-label="inline" name-replace="Teleport to Camelot"></canvas></div></li>
+    <li><div data-progress><canvas itemname="lawrune" show-label="inline" name-replace="Teleport to Falador"></canvas></div></li>
+    <li><div data-progress><canvas itemname="lawrune" show-label="inline" name-replace="Teleport to Varrock"></canvas></div></li>
+    <li><div data-progress><canvas itemname="lawrune" show-label="inline" name-replace="Teleport to Ardougne"></canvas></div></li>
     </ul>
     <b>Starting Location:</b> Barbarian Outpost agility course
     <br><br>

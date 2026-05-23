@@ -16,22 +16,22 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
     <h3>Items & Skills Needed:</h3>
     <ul style="list-style-type: none;">
         <li><div data-progress>31 Herblore</div><br></li>
-        <li><div data-progress><canvas itemname="death_climbingboots" icon-size="25" show-label="inline"></canvas></div></li>
-        <li><div data-progress><canvas itemname="grain" icon-size="25" show-label="inline" amount="10"></canvas></div></li>
-        <li><div data-progress><canvas itemname="raw_chicken" icon-size="25" show-label="inline" amount="5"></canvas></div></li>
-        <li><div data-progress><canvas itemname="pineapple_chunks" icon-size="25" show-label="inline"></canvas></div></li>
-        <li><div data-progress><canvas itemname="vodka" icon-size="25" show-label="inline" name-append=" (Gin, Brandy, Whiskey, etc. also works)"></canvas></div></li>
-        <li><div data-progress><canvas itemname="logs" icon-size="25" show-label="inline"></canvas></div></li>
-        <li><div data-progress><canvas itemname="vial_water" icon-size="25" show-label="inline"></canvas></div></li>
-        <li><div data-progress><canvas itemname="ranarr_weed" icon-size="25" show-label="inline"></canvas></div></li>
-        <li><div data-progress><canvas itemname="pestle_and_mortar" icon-size="25" show-label="inline"></canvas></div></li>
+        <li><div data-progress><canvas itemname="death_climbingboots" show-label="inline"></canvas></div></li>
+        <li><div data-progress><canvas itemname="grain" show-label="inline" amount="10"></canvas></div></li>
+        <li><div data-progress><canvas itemname="raw_chicken" show-label="inline" amount="5"></canvas></div></li>
+        <li><div data-progress><canvas itemname="pineapple_chunks" show-label="inline"></canvas></div></li>
+        <li><div data-progress><canvas itemname="vodka" show-label="inline" name-append=" (Gin, Brandy, Whiskey, etc. also works)"></canvas></div></li>
+        <li><div data-progress><canvas itemname="logs" show-label="inline"></canvas></div></li>
+        <li><div data-progress><canvas itemname="vial_water" show-label="inline"></canvas></div></li>
+        <li><div data-progress><canvas itemname="ranarr_weed" show-label="inline"></canvas></div></li>
+        <li><div data-progress><canvas itemname="pestle_and_mortar" show-label="inline"></canvas></div></li>
     </ul>
     <h3>Recommended:</h3>
     <ul style="list-style-type: none;">
-        <li><div data-progress><canvas itemname="tinderbox" icon-size="25" show-label="inline"></canvas></div></li>
-        <li><div data-progress><canvas itemname="lawrune" icon-size="25" show-label="inline" amount="10" name-replace="Teleport to Falador Runes"></canvas></div></li>
-        <li><div data-progress><canvas itemname="lawrune" icon-size="25" show-label="inline" amount="10" name-replace="Teleport to Ardougne Runes"></canvas></div></li>
-        <li><div data-progress><canvas itemname="logs" icon-size="25" show-label="inline" name-replace="Additional logs"></canvas></div></li>
+        <li><div data-progress><canvas itemname="tinderbox" show-label="inline"></canvas></div></li>
+        <li><div data-progress><canvas itemname="lawrune" show-label="inline" amount="10" name-replace="Teleport to Falador Runes"></canvas></div></li>
+        <li><div data-progress><canvas itemname="lawrune" show-label="inline" amount="10" name-replace="Teleport to Ardougne Runes"></canvas></div></li>
+        <li><div data-progress><canvas itemname="logs" show-label="inline" name-replace="Additional logs"></canvas></div></li>
     </ul>
     <b>Starting Location:</b> Speak to Sanfew in Taverly
     <br><br>

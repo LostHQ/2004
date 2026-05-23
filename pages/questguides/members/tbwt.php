@@ -16,15 +16,15 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
     <ul style="list-style-type: none;">
         <li><div data-progress>30 Cooking</div><br></li>
         <li><div data-progress>15 Agility</div><br></li>
-        <li><div data-progress><canvas itemname="4dose1agility" icon-size="25" show-label="inline" name-append=" (or 4 total doses)"></canvas></div></li>
-        <li><div data-progress><canvas itemname="pestle_and_mortar" icon-size="25" show-label="inline"></canvas></div></li>
-        <li><div data-progress><canvas itemname="iron_spear" icon-size="25" show-label="inline" name-replace="Iron Spear (or higher tier)"></canvas></div></li>
-        <li><div data-progress><canvas itemname="karamja_rum" icon-size="25" show-label="inline" name-append=" (purchase at any bar on Karamja)"></canvas></div></li>
-        <li><div data-progress><canvas itemname="banana" icon-size="25" show-label="inline"></canvas></div></li>
-        <li><div data-progress><canvas itemname="knife" icon-size="25" show-label="inline" name-append=" (or other sharp blade)"></canvas></div></li>
-        <li><div data-progress><canvas itemname="seaweed" icon-size="25" show-label="inline"></canvas></div></li>
-        <li><div data-progress><canvas itemname="net" icon-size="25" show-label="inline"></canvas></div></li>
-        <li><div data-progress><canvas itemname="tbwt_jogre_bones" icon-size="25" show-label="inline"></canvas></div></li>
+        <li><div data-progress><canvas itemname="4dose1agility" show-label="inline" name-append=" (or 4 total doses)"></canvas></div></li>
+        <li><div data-progress><canvas itemname="pestle_and_mortar" show-label="inline"></canvas></div></li>
+        <li><div data-progress><canvas itemname="iron_spear" show-label="inline" name-replace="Iron Spear (or higher tier)"></canvas></div></li>
+        <li><div data-progress><canvas itemname="karamja_rum" show-label="inline" name-append=" (purchase at any bar on Karamja)"></canvas></div></li>
+        <li><div data-progress><canvas itemname="banana" show-label="inline"></canvas></div></li>
+        <li><div data-progress><canvas itemname="knife" show-label="inline" name-append=" (or other sharp blade)"></canvas></div></li>
+        <li><div data-progress><canvas itemname="seaweed" show-label="inline"></canvas></div></li>
+        <li><div data-progress><canvas itemname="net" show-label="inline"></canvas></div></li>
+        <li><div data-progress><canvas itemname="tbwt_jogre_bones" show-label="inline"></canvas></div></li>
     </ul>
     <h3>Recommended:</h3>
     <ul style="list-style-type: none;">

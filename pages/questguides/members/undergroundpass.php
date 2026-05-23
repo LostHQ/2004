@@ -17,10 +17,10 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
     <h3>Items & Skills Needed:</h3>
     <ul style="list-style-type: none;">
     <li><div data-progress>25 Ranged</div></li>
-    <li><div data-progress><canvas itemname="rope" icon-size="25" show-label="inline" name-replace="2-6 ropes"></canvas></div></li>
-    <li><div data-progress><canvas itemname="shortbow" icon-size="25" show-label="inline" name-replace="Any bow"></canvas></div></li>
-    <li><div data-progress><canvas itemname="bronze_arrow" icon-size="25" show-label="inline" name-replace="1-10 arrows of any type"></canvas></div></li>
-    <li><div data-progress><canvas itemname="spade" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="rope" show-label="inline" name-replace="2-6 ropes"></canvas></div></li>
+    <li><div data-progress><canvas itemname="shortbow" show-label="inline" name-replace="Any bow"></canvas></div></li>
+    <li><div data-progress><canvas itemname="bronze_arrow" show-label="inline" name-replace="1-10 arrows of any type"></canvas></div></li>
+    <li><div data-progress><canvas itemname="spade" show-label="inline"></canvas></div></li>
     <li><div data-progress>The ability to defeat three level 91 demons (safespottable)</div></li>
     </ul>
     <h3>Recommended:</h3>
@@ -30,9 +30,9 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
     <li><div data-progress>50 Thieving to access a shortcut</div></li>
     <li><div data-progress>43 Prayer for Protect from Melee</div></li>
     <li><div data-progress>Decent magic armor & spells</div></li>
-    <li><div data-progress><canvas itemname="shark" icon-size="25" show-label="inline" name-replace="Lots of good food"></canvas></div></li>
-    <li><div data-progress><canvas itemname="lawrune" icon-size="25" show-label="inline" name-replace="Teleports to Ardougne"></canvas></div></li>
-    <li><div data-progress><canvas itemname="airrune" icon-size="25" show-label="inline" name-replace="Telekinetic grab runes"></canvas></div></li>
+    <li><div data-progress><canvas itemname="shark" show-label="inline" name-replace="Lots of good food"></canvas></div></li>
+    <li><div data-progress><canvas itemname="lawrune" show-label="inline" name-replace="Teleports to Ardougne"></canvas></div></li>
+    <li><div data-progress><canvas itemname="airrune" show-label="inline" name-replace="Telekinetic grab runes"></canvas></div></li>
     </ul>
     <b>Starting Location:</b> East Ardougne, speak to King Lathas
     <br><br>

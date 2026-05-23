@@ -10,7 +10,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
     <br><br>
     <h3>Items & Skills Needed:</h3>
     <ul style="list-style-type: none;">
-    <li><div data-progress><canvas itemname="cadavaberries" icon-size="25" show-label="inline" name-append=" (can be obtained during quest)"></canvas></div></li>
+    <li><div data-progress><canvas itemname="cadavaberries" show-label="inline" name-append=" (can be obtained during quest)"></canvas></div></li>
     </ul>
     <b>Starting Location:</b> Romeo who is south of Varrock's central fountain OR Juliet in her house just west of Varrock on the north side of the road<br>
     <br>

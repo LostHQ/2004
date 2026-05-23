@@ -14,23 +14,23 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
     <h3>Items & Skills Needed:</h3>
     <ul style="list-style-type: none;">
         <li><div data-progress>56 Agility (Higher level is an advantage)</div><br></li>
-        <li><div data-progress><canvas itemname="pot_empty" icon-size="25" show-label="inline"></canvas></div></li>
-        <li><div data-progress><canvas itemname="pestle_and_mortar" icon-size="25" show-label="inline"></canvas></div></li>
-        <li><div data-progress><canvas itemname="ball_of_wool" icon-size="25" show-label="inline" amount="4"></canvas></div></li>
-        <li><div data-progress><canvas itemname="rope" icon-size="25" show-label="inline" amount="3" name-replace="A few ropes"></canvas></div></li>
-        <li><div data-progress><canvas itemname="shortbow" icon-size="25" show-label="inline" name-replace="Any bow"></canvas></div></li>
-        <li><div data-progress><canvas itemname="iron_arrow" icon-size="25" show-label="inline" amount="10" name-replace="Any arrows"></canvas></div></li>
-        <li><div data-progress><canvas itemname="iron_pickaxe" icon-size="25" show-label="inline" name-replace="Any pickaxe"></canvas></div></li>
-        <li><div data-progress><canvas itemname="spade" icon-size="25" show-label="inline"></canvas></div></li>
+        <li><div data-progress><canvas itemname="pot_empty" show-label="inline"></canvas></div></li>
+        <li><div data-progress><canvas itemname="pestle_and_mortar" show-label="inline"></canvas></div></li>
+        <li><div data-progress><canvas itemname="ball_of_wool" show-label="inline" amount="4"></canvas></div></li>
+        <li><div data-progress><canvas itemname="rope" show-label="inline" amount="3" name-replace="A few ropes"></canvas></div></li>
+        <li><div data-progress><canvas itemname="shortbow" show-label="inline" name-replace="Any bow"></canvas></div></li>
+        <li><div data-progress><canvas itemname="iron_arrow" show-label="inline" amount="10" name-replace="Any arrows"></canvas></div></li>
+        <li><div data-progress><canvas itemname="iron_pickaxe" show-label="inline" name-replace="Any pickaxe"></canvas></div></li>
+        <li><div data-progress><canvas itemname="spade" show-label="inline"></canvas></div></li>
     </ul>
     <h3>Recommended:</h3>
     <ul style="list-style-type: none;">
         <li><div data-progress>Ability to defeat a level 110 guard</div></li>
-        <li><div data-progress><canvas itemname="iron_axe" icon-size="25" show-label="inline" name-append=" for cutting down trees to get logs (and below)"></canvas> </div></li>
-        <li><div data-progress><canvas itemname="tinderbox" icon-size="25" show-label="inline" name-append=" to make fires which can be used to cook rabbit and bear on the spot"></canvas></div></li>
-        <li><div data-progress><canvas itemname="4doseantipoison" icon-size="25" show-label="inline"></canvas></div></li>
-        <li><div data-progress><canvas itemname="4dose1agility" icon-size="25" show-label="inline" amount="3"></canvas></div></li>
-        <li><div data-progress><canvas itemname="lawrune" icon-size="25" show-label="inline" name-replace="Teleport to Ardougne Runes" amount="10"></canvas></div></li>
+        <li><div data-progress><canvas itemname="iron_axe" show-label="inline" name-append=" for cutting down trees to get logs (and below)"></canvas> </div></li>
+        <li><div data-progress><canvas itemname="tinderbox" show-label="inline" name-append=" to make fires which can be used to cook rabbit and bear on the spot"></canvas></div></li>
+        <li><div data-progress><canvas itemname="4doseantipoison" show-label="inline"></canvas></div></li>
+        <li><div data-progress><canvas itemname="4dose1agility" show-label="inline" amount="3"></canvas></div></li>
+        <li><div data-progress><canvas itemname="lawrune" show-label="inline" name-replace="Teleport to Ardougne Runes" amount="10"></canvas></div></li>
     </ul>
     <b>Starting Location:</b> Anywhere, Receive a message from the king's messenger (Random Event).
     <br><br>

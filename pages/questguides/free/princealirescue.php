@@ -10,26 +10,26 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
     <h3>Items & Skills Needed:</h3>
     (All items can be obtained during the quest)
     <ul style="list-style-type: none;">
-    <li><div data-progress><canvas itemname="softclay" icon-size="25" show-label="inline"></canvas></div></li>
-    <li><div data-progress><canvas itemname="ball_of_wool" icon-size="25" show-label="inline" name-replace="3 Balls of wool"></canvas></div></li>
-    <li><div data-progress><canvas itemname="yellowdye" icon-size="25" show-label="inline"></canvas></div></li>
-    <li><div data-progress><canvas itemname="ashes" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="softclay" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="ball_of_wool" show-label="inline" name-replace="3 Balls of wool"></canvas></div></li>
+    <li><div data-progress><canvas itemname="yellowdye" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="ashes" show-label="inline"></canvas></div></li>
     <li><div data-progress>
-        <canvas itemname="jug_water" icon-size="25" show-label="inline" name-append=" (obtainable during quest)"></canvas> or
-        <canvas itemname="bucket_water" icon-size="25" show-label="inline"></canvas>
+        <canvas itemname="jug_water" show-label="inline" name-append=" (obtainable during quest)"></canvas> or
+        <canvas itemname="bucket_water" show-label="inline"></canvas>
     </div></li>
-    <li><div data-progress><canvas itemname="pot_flour" icon-size="25" show-label="inline"></canvas></div></li>
-    <li><div data-progress><canvas itemname="redberries" icon-size="25" show-label="inline"></canvas></div></li>
-    <li><div data-progress><canvas itemname="bronze_bar" icon-size="25" show-label="inline"></canvas></div></li>
-    <li><div data-progress><canvas itemname="pink_skirt" icon-size="25" show-label="inline"></canvas></div></li>
-    <li><div data-progress><canvas itemname="beer" icon-size="25" show-label="inline" name-replace="3 beers"></canvas></div></li>
-    <li><div data-progress><canvas itemname="rope" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="pot_flour" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="redberries" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="bronze_bar" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="pink_skirt" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="beer" show-label="inline" name-replace="3 beers"></canvas></div></li>
+    <li><div data-progress><canvas itemname="rope" show-label="inline"></canvas></div></li>
     </ul>
     <h3>Recommended:</h3>
     <ul style="list-style-type: none;">
     <li><div data-progress>
-        <canvas itemname="coins_5" icon-size="25" show-label="inline" name-replace="20 coins"></canvas> or a
-        <canvas itemname="ring_of_dueling_8" icon-size="25" show-label="inline" name-replace="Ring of Dueling for the Al Kharid toll gate"></canvas>
+        <canvas itemname="coins_5" show-label="inline" name-replace="20 coins"></canvas> or a
+        <canvas itemname="ring_of_dueling_8" show-label="inline" name-replace="Ring of Dueling for the Al Kharid toll gate"></canvas>
     </div></li>
     </ul>
     <b>Starting Location:</b> Talk to Hassan in the Al Kharid palace

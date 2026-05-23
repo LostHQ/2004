@@ -13,8 +13,8 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
     <ul style="list-style-type: none;">
     <li><div data-progress>31 Crafting</div></li>
     <li><div data-progress>36 Woodcutting</div></li>
-    <li><div data-progress><canvas itemname="steel_axe" icon-size="25" show-label="inline" name-replace="Any hatchet"></canvas></div></li>
-    <li><div data-progress><canvas itemname="knife" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="steel_axe" show-label="inline" name-replace="Any hatchet"></canvas></div></li>
+    <li><div data-progress><canvas itemname="knife" show-label="inline"></canvas></div></li>
     <li><div data-progress>Ability to kill a level 101 Tree spirit with limited armour and weapons (can be safespotted)</div></li>
     </ul>
     <b>Starting Location:</b> Speak to Adventurers in the Lumbridge Swamp, south of Lumbridge/Draynor forest

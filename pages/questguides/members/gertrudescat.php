@@ -11,14 +11,14 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
     <br><br>
     <h3>Items & Skills Needed:</h3>
     <ul style="list-style-type: none;">
-        <li><div data-progress><canvas itemname="coins_100" icon-size="25" show-label="inline" name-replace="100 Coins"></canvas></div></li>
-        <li><div data-progress><canvas itemname="raw_sardine" icon-size="25" show-label="inline"></canvas></div></li>
-        <li><div data-progress><canvas itemname="bucket_milk" icon-size="25" show-label="inline"></canvas></div></li>
-        <li><div data-progress><canvas itemname="doogleleaves" icon-size="25" show-label="inline" name-append=" (can be obtained during quest)"></canvas></div></li>
+        <li><div data-progress><canvas itemname="coins_100" show-label="inline" name-replace="100 Coins"></canvas></div></li>
+        <li><div data-progress><canvas itemname="raw_sardine" show-label="inline"></canvas></div></li>
+        <li><div data-progress><canvas itemname="bucket_milk" show-label="inline"></canvas></div></li>
+        <li><div data-progress><canvas itemname="doogleleaves" show-label="inline" name-append=" (can be obtained during quest)"></canvas></div></li>
     </ul>
     <h3>Recommended:</h3>
     <ul style="list-style-type: none;">
-        <li><div data-progress><canvas itemname="lawrune" icon-size="25" show-label="inline" name-replace="Runes for Teleport to Varrock"></canvas></div></li>
+        <li><div data-progress><canvas itemname="lawrune" show-label="inline" name-replace="Runes for Teleport to Varrock"></canvas></div></li>
     </ul>
     <b>Starting Location:</b> Just across the road from Juliet's house, west of Varrock
     <br><br>

@@ -10,9 +10,9 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
     <br><br>
     <h3>Items & Skills Needed:</h3>
     <ul style="list-style-type: none;">
-    <li><div data-progress><canvas itemname="goblin_armour" icon-size="25" show-label="inline" name-replace="3 Goblin Mail"></canvas></div></li>
-    <li><div data-progress><canvas itemname="bluedye" icon-size="25" show-label="inline" name-append=" (or 2 woad leaves and 5 coins to obtain a blue dye from Aggie)"></canvas></div></li>
-    <li><div data-progress><canvas itemname="orangedye" icon-size="25" show-label="inline" name-append=" (or 3 redberries, 2 onions, and 10 coins to obtain a red and yellow dye from Aggie)"></canvas></div></li>
+    <li><div data-progress><canvas itemname="goblin_armour" show-label="inline" name-replace="3 Goblin Mail"></canvas></div></li>
+    <li><div data-progress><canvas itemname="bluedye" show-label="inline" name-append=" (or 2 woad leaves and 5 coins to obtain a blue dye from Aggie)"></canvas></div></li>
+    <li><div data-progress><canvas itemname="orangedye" show-label="inline" name-append=" (or 3 redberries, 2 onions, and 10 coins to obtain a red and yellow dye from Aggie)"></canvas></div></li>
     </ul>
     <b>Starting Location:</b> Port Sarim Pub
     <br><br>

@@ -14,13 +14,13 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
     <li><div data-progress>20 Mining</div></li>
     <li><div data-progress>20 Smithing</div></li>
     <li><div data-progress>20 Crafting</div></li>
-    <li><div data-progress><canvas itemname="steel_pickaxe" icon-size="25" show-label="inline" name-replace="Any pickaxe"></canvas></div></li>
-    <li><div data-progress><canvas itemname="coal" icon-size="25" show-label="inline" name-replace="4 coal"></canvas></div></li>
-    <li><div data-progress><canvas itemname="hammer" icon-size="25" show-label="inline"></canvas></div></li>
-    <li><div data-progress><canvas itemname="thread" icon-size="25" show-label="inline"></canvas></div></li>
-    <li><div data-progress><canvas itemname="needle" icon-size="25" show-label="inline" name-append=" (can be obtained during quest)"></canvas></div></li>
-    <li><div data-progress><canvas itemname="leather" icon-size="25" show-label="inline" name-append=" (can be obtained during quest)"></canvas></div></li>
-    <li><div data-progress><canvas itemname="knife" icon-size="25" show-label="inline" name-append=" (can be obtained during quest)"></canvas></div></li>
+    <li><div data-progress><canvas itemname="steel_pickaxe" show-label="inline" name-replace="Any pickaxe"></canvas></div></li>
+    <li><div data-progress><canvas itemname="coal" show-label="inline" name-replace="4 coal"></canvas></div></li>
+    <li><div data-progress><canvas itemname="hammer" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="thread" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="needle" show-label="inline" name-append=" (can be obtained during quest)"></canvas></div></li>
+    <li><div data-progress><canvas itemname="leather" show-label="inline" name-append=" (can be obtained during quest)"></canvas></div></li>
+    <li><div data-progress><canvas itemname="knife" show-label="inline" name-append=" (can be obtained during quest)"></canvas></div></li>
     <li><div data-progress>The ability to defeat a level 35 Earth Elemental</div></li>
     </ul>
     <b>Starting Location:</b> Search the bookcase on the east wall in the house southwest of the bank in Seers' Village

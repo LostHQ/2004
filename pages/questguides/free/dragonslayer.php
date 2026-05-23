@@ -11,31 +11,31 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
     <h3>Items & Skills Needed:</h3>
     <ul style="list-style-type: none;">
     <li><div data-progress>32 Quest points to enter the Champions' Guild</div><br></li>
-    <li><div data-progress><canvas itemname="bowl_unfired" icon-size="25" show-label="inline" name-append=" (requies 8 crafting to make)"></canvas></div></li>
-    <li><div data-progress><canvas itemname="wizards_mind_bomb" icon-size="25" show-label="inline"></canvas></div></li>
-    <li><div data-progress><canvas itemname="lobster_pot" icon-size="25" show-label="inline"></canvas></div></li>
-    <li><div data-progress><canvas itemname="silk" icon-size="25" show-label="inline" name-append=" (can be purchased for 2-30 coins or can be stolen with 20 Thieving)"></canvas></div></li>
-    <li><div data-progress><canvas itemname="hammer" icon-size="25" show-label="inline"></canvas></div></li>
-    <li><div data-progress><canvas itemname="antidragonbreathshield" icon-size="25" show-label="inline" name-append=" (obtained during quest)"></canvas></div></li>
-    <li><div data-progress><canvas itemname="nails" icon-size="25" show-label="inline" name-replace="12 nails"></canvas></div></li>
-    <li><div data-progress><canvas itemname="woodplank" icon-size="25" show-label="inline" name-replace="3 planks"></canvas></div></li>
-    <li><div data-progress><canvas itemname="coins_1000" icon-size="25" show-label="inline" name-replace="2,000 coins (and an extra 10,000 coins if you can't cast Telekinetic Grab)"></canvas></div></li>
+    <li><div data-progress><canvas itemname="bowl_unfired" show-label="inline" name-append=" (requies 8 crafting to make)"></canvas></div></li>
+    <li><div data-progress><canvas itemname="wizards_mind_bomb" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="lobster_pot" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="silk" show-label="inline" name-append=" (can be purchased for 2-30 coins or can be stolen with 20 Thieving)"></canvas></div></li>
+    <li><div data-progress><canvas itemname="hammer" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="antidragonbreathshield" show-label="inline" name-append=" (obtained during quest)"></canvas></div></li>
+    <li><div data-progress><canvas itemname="nails" show-label="inline" name-replace="12 nails"></canvas></div></li>
+    <li><div data-progress><canvas itemname="woodplank" show-label="inline" name-replace="3 planks"></canvas></div></li>
+    <li><div data-progress><canvas itemname="coins_1000" show-label="inline" name-replace="2,000 coins (and an extra 10,000 coins if you can't cast Telekinetic Grab)"></canvas></div></li>
     </ul>
     <b>Telekinetic Grab:</b>
     <br>
     <ul style="list-style-type: none;">
     <li><div data-progress>33 Magic</div></li>
-    <li><div data-progress><canvas itemname="lawrune" icon-size="25" show-label="inline"></canvas></div></li>
-    <li><div data-progress><canvas itemname="airrune" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="lawrune" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="airrune" show-label="inline"></canvas></div></li>
     </ul>
     <h3>Recommended:</h3>
     <ul style="list-style-type: none;">
     <li><div data-progress>45 Combat</div></li>
-    <li><div data-progress><canvas itemname="lobster" icon-size="25" show-label="inline" name-replace="Lobster or better food"></canvas></div></li>
-    <li><div data-progress><canvas itemname="adamant_platebody" icon-size="25" show-label="inline" name-replace="Adamant or better armor (if using melee)"></canvas></div></li>
-    <li><div data-progress><canvas itemname="lawrune" icon-size="25" show-label="inline" name-replace="Runes for Teleport to Lumbridge"></canvas></div></li>
-    <li><div data-progress><canvas itemname="ring_of_recoil" icon-size="25" show-label="inline"></canvas></div></li>
-    <li><div data-progress><canvas itemname="ring_of_dueling_8" icon-size="25" show-label="inline" name-replace="Ring of dueling (for an emergency teleport)"></canvas></div></li>
+    <li><div data-progress><canvas itemname="lobster" show-label="inline" name-replace="Lobster or better food"></canvas></div></li>
+    <li><div data-progress><canvas itemname="adamant_platebody" show-label="inline" name-replace="Adamant or better armor (if using melee)"></canvas></div></li>
+    <li><div data-progress><canvas itemname="lawrune" show-label="inline" name-replace="Runes for Teleport to Lumbridge"></canvas></div></li>
+    <li><div data-progress><canvas itemname="ring_of_recoil" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="ring_of_dueling_8" show-label="inline" name-replace="Ring of dueling (for an emergency teleport)"></canvas></div></li>
     <li><div data-progress>A friend to bring you more food</div></li>
     </ul>
     <b>Starting Location:</b> Guildmaster in the Champion's Guild

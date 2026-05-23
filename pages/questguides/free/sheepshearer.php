@@ -10,8 +10,8 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
     <br><br>
     <h3>Items & Skills Needed:</h3>
     <ul style="list-style-type: none;">
-    <li><div data-progress><canvas itemname="shears" icon-size="25" show-label="inline" name-append=" (obtainable during quest)"></canvas></div></li>
-    <li><div data-progress><canvas itemname="ball_of_wool" icon-size="25" show-label="inline" name-replace="20 Balls of wool (obtainable during quest)"></canvas></div></li>
+    <li><div data-progress><canvas itemname="shears" show-label="inline" name-append=" (obtainable during quest)"></canvas></div></li>
+    <li><div data-progress><canvas itemname="ball_of_wool" show-label="inline" name-replace="20 Balls of wool (obtainable during quest)"></canvas></div></li>
     </ul>
     <b>Starting Location:</b> The house just west of the sheep, northwest of Lumbridge
     <br><br>

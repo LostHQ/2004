@@ -11,18 +11,18 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
     <br><br>
     <h3>Items & Skills Needed:</h3>
     <ul style="list-style-type: none;">
-    <li><div data-progress><canvas itemname="bucket_water" icon-size="25" show-label="inline" name-replace="4 buckets of water"></canvas></div></li>
-    <li><div data-progress><canvas itemname="rope" icon-size="25" show-label="inline"></canvas></div></li>
-    <li><div data-progress><canvas itemname="spade" icon-size="25" show-label="inline"></canvas></div></li>
-    <li><div data-progress><canvas itemname="dwellberries" icon-size="25" show-label="inline"></canvas></div></li>
-    <li><div data-progress><canvas itemname="hangover_cure" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="bucket_water" show-label="inline" name-replace="4 buckets of water"></canvas></div></li>
+    <li><div data-progress><canvas itemname="rope" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="spade" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="dwellberries" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="hangover_cure" show-label="inline"></canvas></div></li>
     </ul>
     <i>Hangover Cure Ingredients:</i>
     <ul style="list-style-type: none;">
-    <li><div data-progress><canvas itemname="bucket_milk" icon-size="25" show-label="inline"></canvas></div></li>
-    <li><div data-progress><canvas itemname="chocolate_bar" icon-size="25" show-label="inline"></canvas></div></li>
-    <li><div data-progress><canvas itemname="pestle_and_mortar" icon-size="25" show-label="inline"></canvas></div></li>
-    <li><div data-progress><canvas itemname="snape_grass" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="bucket_milk" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="chocolate_bar" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="pestle_and_mortar" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="snape_grass" show-label="inline"></canvas></div></li>
     </ul>
     <b>Starting Location:</b> North of the Paladin Tower, in northwest Ardougne
     <br><br>

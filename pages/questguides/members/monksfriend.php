@@ -11,10 +11,10 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
     <br><br>
     <h3>Items & Skills Needed:</h3>
     <ul style="list-style-type: none;">
-    <li><div data-progress><canvas itemname="jug_water" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="jug_water" show-label="inline"></canvas></div></li>
     <li><div data-progress>
-        <canvas itemname="logs" icon-size="25" show-label="inline"></canvas> or
-        <canvas itemname="steel_axe" icon-size="25" show-label="inline" name-replace="Any hatchet"></canvas>
+        <canvas itemname="logs" show-label="inline"></canvas> or
+        <canvas itemname="steel_axe" show-label="inline" name-replace="Any hatchet"></canvas>
     </div></li>
     <li><div data-progress>Food or armor to run past some thieves (level 14 and 26)</div></li>
     </ul>

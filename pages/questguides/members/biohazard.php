@@ -15,9 +15,9 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
     </ul>
     <h3>Items & Skills Needed:</h3>
     <ul style="list-style-type: none;">
-    <li><div data-progress><canvas itemname="coins_5" icon-size="25" show-label="inline" name-replace="12 coins (if you do not have a priest gown top and bottom)"></canvas></div></li>
-    <li><div data-progress><canvas itemname="priest_gown" icon-size="25" show-label="inline"></canvas></div></li>
-    <li><div data-progress><canvas itemname="priest_robe" icon-size="25" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="coins_5" show-label="inline" name-replace="12 coins (if you do not have a priest gown top and bottom)"></canvas></div></li>
+    <li><div data-progress><canvas itemname="priest_gown" show-label="inline"></canvas></div></li>
+    <li><div data-progress><canvas itemname="priest_robe" show-label="inline"></canvas></div></li>
     </ul>
     <b>Starting Location:</b> Talk with Elena in Ardougne. She lives just across the street (east) of where her parents live
     <br><br>

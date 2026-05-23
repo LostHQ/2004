@@ -10,7 +10,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
     <br><br>
     <h3>Items & Skills Needed:</h3>
     <ul style="list-style-type: none;">
-    <li><div data-progress><canvas itemname="coins_5" icon-size="25" show-label="inline" name-replace="20 coins (Phoenix Gang)"></canvas></div></li>
+    <li><div data-progress><canvas itemname="coins_5" show-label="inline" name-replace="20 coins (Phoenix Gang)"></canvas></div></li>
     <li><div data-progress>Another player who has not done the quest</div></li>
     </ul>
     <h3>Recommended:</h3>
