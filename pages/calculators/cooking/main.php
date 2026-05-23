@@ -27,6 +27,7 @@ function getCalcContent() { return <<<HTML
         <button onclick="setMode('fish')">Fish</button>
         <button onclick="setMode('meat')">Meat</button>
         <button onclick="setMode('pies')">Pies/Pizza</button>
+        <button onclick="setMode('gnome')">Gnome</button>
         <button onclick="setMode('other')">Other</button>
     </div>
     <br>

@@ -5,15 +5,19 @@ function setMode(selectedMode) {
 }
 const cookingXp = {
     fish: {
+        tbwt_cooked_karambwanji: { xp: 10, level: 1 },
         shrimp: { xp: 30, level: 1 },
         anchovies: { xp: 30, level: 1 },
         sardine: { xp: 40, level: 1 },
+        tbwt_poorly_cooked_karambwan: { xp: 80, level: 1 },
+        tbwt_cooked_karambwan: { xp: 190, level: 1 },
         herring: { xp: 50, level: 5 },
         mackerel: { xp: 60, level: 10 },
         trout: { xp: 70, level: 15 },
         cod: { xp: 75, level: 18 },
         pike: { xp: 80, level: 20 },
         salmon: { xp: 90, level: 25 },
+        mort_slimey_eel_cooked: { xp: 95, level: 28 },
         tuna: { xp: 100, level: 30 },
         lobster: { xp: 120, level: 40 },
         bass: { xp: 130, level: 43 },
@@ -26,8 +30,13 @@ const cookingXp = {
     meat: {
         cooked_meat: { xp: 30, level: 1 },
         cooked_chicken: { xp: 30, level: 1 },
+        cooked_rabbit: { xp: 30, level: 1 },
         cooked_ugthanki_meat: { xp: 40, level: 1 },
+        snail_corpse_cooked1: { xp: 70, level: 12 },
+        snail_corpse_cooked2: { xp: 80, level: 17 },
+        snail_corpse_cooked3: { xp: 95, level: 22 },
         cooked_chompy: { xp: 100, level: 30 },
+        cooked_oomlie: { xp: 30, level: 50 },
     },
     pies: {
         redberry_pie: { xp: 78, level: 10 },
@@ -38,9 +47,18 @@ const cookingXp = {
         anchovie_pizza: { xp: 182, level: 55 },
         pineapple_pizza: { xp: 195, level: 65 },
     },
+    gnome: {
+        half_baked_bowl: { xp: 3, level: 1 },
+        half_baked_crunchy: { xp: 3, level: 1 },
+        half_baked_batta: { xp: 3, level: 1 },
+        drunk_dragon: { xp: 60, level: 1 },
+    },
     other: {
+        swamppaste: { xp: 2, level: 1 },
         bread: { xp: 40, level: 1 },
         stew: { xp: 117, level: 25 },
+        tbwt_jogre_bones_marinated_in_karambwanji: { xp: 100, level: 30 },
+        tbwt_burnt_jogre_bones_marinated_in_karambwanji: { xp: 100, level: 30 },
         jug_wine: { xp: 200, level: 35 },
         cake: { xp: 180, level: 40 },
         chocolate_cake: { xp: 210, level: 50 },
