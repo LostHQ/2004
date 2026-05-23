@@ -29,7 +29,7 @@ const questReqs = {
     hitpoints: [10, 10],
     mining: [15, 52],
     strength: [1, 50],
-    agility: [1, 50],
+    agility: [1, 56],
     smithing: [1, 50],
     defence: [1, 1],
     herblore: [1, 45],
@@ -41,7 +41,7 @@ const questReqs = {
     crafting: [1, 50],
     firemaking: [1, 30],
     magic: [1, 59],
-    fletching: [1, 10],
+    fletching: [1, 25],
     woodcutting: [1, 50],
     runecraft: [1, 1],
 };
