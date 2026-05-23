@@ -5,7 +5,7 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
 <br>
 <a href="#defence-crush">Crush Defence</a> | <a href="#defence-stab">Stab Defence</a> | <a href="#defence-slash">Slash Defence</a><br>
 <a href="#defence-ranged">Ranged Defence</a> | <a href="#defence-magic">Magic Defence</a><br>
-<a href="#offence-crush">Crush Offence</a> | <a href="#offence-stabslash">Stab/Slash Offence</a><br>
+<a href="#offence-crush">Crush Offence</a> | <a href="#offence-slashstab">Stab/Slash Offence</a><br>
 <a href="#offence-ranged">Ranged Offence</a> | <a href="#offence-magic">Magic Offence</a><br>
 <a href="#prayer">Prayer</a><br>
 <hr>
@@ -451,7 +451,7 @@ clearAllEquipment();
     </td>
 </table>
 <script>loadEquipInterfaceWithStats('equipment-interface-crushoffence', 'equipment-interface-crushoffence-stats', false,
-    'dragon_med_helm',
+    'viking_helmet_crush',
     'cape_of_legends',
     'amulet_of_glory',
     'dragon_mace',
@@ -470,13 +470,9 @@ clearAllEquipment();
         <th>Description</th>
     </tr>
     <tr>
-        <td rowspan="2">Head</td>
-        <td><canvas itemname="dragon_med_helm" show-label="inline"></canvas></td>
-        <td>More General Defence</td>
-    </tr>
-    <tr>
-        <td><canvas itemname="robinhoodhat" show-label="inline"></canvas></td>
-        <td>More Magic Defence</td>
+        <td>Head</td>
+        <td><canvas itemname="viking_helmet_crush" show-label="inline"></canvas></td>
+        <td>+3 Strength</td>
     </tr>
     <tr>
         <td rowspan="2">Cape</td>
@@ -539,7 +535,7 @@ clearAllEquipment();
     </tr>
 </table>
 <hr>
-<h3 id="offence-stabslash">Stab/Slash Offence</h3>
+<h3 id="offence-slashstab">Slash/Stab Offence</h3>
 <table>
     <td>
         <div id="equipment-interface-stabslashoffence"></div>
@@ -549,7 +545,7 @@ clearAllEquipment();
     </td>
 </table>
 <script>loadEquipInterfaceWithStats('equipment-interface-stabslashoffence', 'equipment-interface-stabslashoffence-stats', false,
-    'dragon_med_helm',
+    'viking_helmet_slash',
     'cape_of_legends',
     'amulet_of_glory',
     'dragon_longsword',
@@ -569,12 +565,12 @@ clearAllEquipment();
     </tr>
     <tr>
         <td rowspan="2">Head</td>
-        <td><canvas itemname="dragon_med_helm" show-label="inline"></canvas></td>
-        <td>More Melee Defence</td>
+        <td><canvas itemname="viking_helmet_slash" show-label="inline"></canvas></td>
+        <td>+5 Slash Attack<br>+2 Strength</td>
     </tr>
     <tr>
-        <td><canvas itemname="robinhoodhat" show-label="inline"></canvas></td>
-        <td>More Magic Defence</td>
+        <td><canvas itemname="viking_helmet_crush" show-label="inline"></canvas></td>
+        <td>+3 Strength</td>
     </tr>
     <tr>
         <td rowspan="2">Cape</td>
@@ -593,7 +589,7 @@ clearAllEquipment();
     <tr>
         <td>Weapon</td>
         <td><canvas itemname="dragon_longsword" show-label="inline"></canvas></td>
-        <td>+69 Slash Attack<br>+71 Strength Bonus</td>
+        <td>+69 Slash Attack<br>+58 Stab Attack<br>+71 Strength Bonus</td>
     </tr>
     <tr>
         <td rowspan="2">Chest</td>
@@ -730,14 +726,14 @@ clearAllEquipment();
     </td>
 </table>
 <script>loadEquipInterfaceWithStats('equipment-interface-magicoffence', 'equipment-interface-magicoffence-stats', false,
-    'gnome_hat_blue',
-    'zamorak_cape',
+    'viking_helmet_magic',
+    'saradomin_cape',
     'amulet_of_glory',
     'mystic_air_staff',
-    'wizards_robe',
+    'splitbark_body',
     'antidragonbreathshield',
-    'zamrobebottom',
-    'gauntlets_of_chaos',
+    'splitbark_legs',
+    'splitbark_gauntlets',
     'boots_wizard',
     null,
     null
@@ -750,8 +746,8 @@ clearAllEquipment();
     </tr>
     <tr>
         <td>Head</td>
-        <td><canvas itemname="gnome_hat_blue"></canvas><canvas itemname="gnome_hat_pink"></canvas><canvas itemname="gnome_hat_green"></canvas><canvas itemname="gnome_hat_cream"></canvas><canvas itemname="gnome_hat_turquoise"></canvas><br>Any Tree Gnome Hat</td>
-        <td>+3 Magic Attack</td>
+        <td><canvas itemname="viking_helmet_magic" show-label="inline"></canvas></td>
+        <td>+6 Magic Attack</td>
     </tr>
     <tr>
         <td>Cape</td>
@@ -770,8 +766,8 @@ clearAllEquipment();
     </tr>
     <tr>
         <td>Chest</td>
-        <td><canvas itemname="wizards_robe"></canvas><canvas itemname="black_robe"></canvas><br>Wizards or Black Robe</td>
-        <td>+3 Magic Attack</td>
+        <td><canvas itemname="splitbark_body" show-label="inline"></canvas></td>
+        <td>+8 Magic Attack</td>
     </tr>
     <tr>
         <td rowspan="2">Shield</td>
@@ -784,11 +780,15 @@ clearAllEquipment();
     </tr>
     <tr>
         <td>Legs</td>
-        <td><canvas itemname="zamrobebottom" show-label="inline"></canvas></td>
-        <td>+2 Magic Attack<br>+3 Prayer Bonus</td>
+        <td><canvas itemname="splitbark_legs" show-label="inline"></canvas></td>
+        <td>+7 Magic Attack</td>
     </tr>
     <tr>
-        <td>Gloves</td>
+        <td rowspan="2">Gloves</td>
+        <td><canvas itemname="splitbark_gauntlets" show-label="inline"></canvas></td>
+        <td>+1 Magic Attack</td>
+    </tr>
+    <tr>
         <td><canvas itemname="gauntlets_of_chaos" show-label="inline"></canvas></td>
         <td>+3 Max Hit to Bolt Spells</td>
     </tr>
@@ -815,7 +815,7 @@ clearAllEquipment();
     'blessedsnake',
     'dragon_mace',
     'monkrobetop',
-    null,
+    'zamorakbook_complete',
     'monkrobebottom',
     null,
     null,
@@ -830,7 +830,7 @@ clearAllEquipment();
     </tr>
     <tr>
         <td rowspan="2">Neck</td>
-        <td><div class="centered-content"><canvas itemname="blessedsnake" show-label="inline"></canvas>*</div></td>
+        <td><div class="centered-content"><canvas itemname="blessedsnake" show-label="inline"></canvas></td>
         <td>+8 Prayer Bonus<br>+2 to all Attack Bonuses</td>
     </tr>
     <tr>
@@ -847,12 +847,25 @@ clearAllEquipment();
         <td>+5 Prayer Bonus</td>
     </tr>
     <tr>
+        <td rowspan="3">Shield</td>
+        <td><canvas itemname="zamorakbook_complete" show-label="inline"></canvas></td>
+        <td>+5 Prayer<br>+8 to all Attack Bonuses</td>
+    </tr>
+    <tr>
+        <td><div class="centered-content"><canvas itemname="saradominbook_complete" show-label="inline"></canvas>*</div></td>
+        <td>+5 Prayer<br>+8 to all Defence Bonuses</td>
+    </tr>
+    <tr>
+        <td><div class="centered-content"><canvas itemname="guthixbook_complete" show-label="inline"></canvas>*</div></td>
+        <td>+5 Prayer<br>+4 to all Attack and Defence Bonuses</td>
+    </tr>
+    <tr>
         <td>Legs</td>
         <td><canvas itemname="monkrobebottom" show-label="inline"></canvas></td>
         <td>+6 Prayer Bonus</td>
     </tr>
 </table>
-*Use the Unholy Symbol instead of the Holy Symbol when overhead prayers are active, as the former provides better offensive stats.
+*Focus on offensive stats when using overhead prayers.
 <hr>
 This special report was written on LostHQ by Fallnight. Thanks to Geerin, Fran 2004, and Timondg for corrections.
 <br><br>
