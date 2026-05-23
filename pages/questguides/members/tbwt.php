@@ -16,6 +16,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
     <ul style="list-style-type: none;">
         <li><div data-progress>30 Cooking</div><br></li>
         <li><div data-progress>15 Agility</div><br></li>
+        <li><div data-progress>5 Fishing</div><br></li>
         <li><div data-progress><canvas itemname="4dose1agility" show-label="inline" name-append=" (or 4 total doses)"></canvas></div></li>
         <li><div data-progress><canvas itemname="pestle_and_mortar" show-label="inline"></canvas></div></li>
         <li><div data-progress><canvas itemname="iron_spear" show-label="inline" name-replace="Iron Spear (or higher tier)"></canvas></div></li>

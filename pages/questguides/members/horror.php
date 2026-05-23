@@ -6,7 +6,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
     <br><br>
     <b>Difficulty: <font color="yellow">Medium</font></b>
     <br><br>
-    <b>Length: <font color="yellow">Short/Medium</font></b>
+    <b>Length: <font color="green">Short</font></b>
     <br><br>
     <h3>Required Quests:</h3>
     <ul style="list-style-type: none;">
@@ -15,7 +15,6 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
     <h3>Items & Skills Needed:</h3>
     <ul style="list-style-type: none;">
         <li><div data-progress>35 Agility</div><br></li>
-        <li><div data-progress>15 Agility</div><br></li>
         <li><div data-progress><canvas itemname="molten_glass" show-label="inline"></canvas></div></li>
         <li><div data-progress><canvas itemname="tinderbox" show-label="inline"></canvas></div></li>
         <li><div data-progress><canvas itemname="airrune" show-label="inline"></canvas></div></li>
@@ -40,7 +39,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
     </ul>
     <b>Starting Location:</b> Lighthouse north of Barbarian Outpost
     <br><br>
-    <b>Reward:</b> 2 Quest Points, a Damaged prayer book of your choice; 4662 Range, Magic and Strength experience
+    <b>Reward:</b> 2 Quest Points, a Damaged prayer book of your choice; 4662 Range, Magic, and Strength experience
 </div>
 <h3>Part 1: Fix the Lighthouse</h3>
 <br>

@@ -2,6 +2,7 @@
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <div id="narrowscroll">
     <h2>$questName</h2>
+    <b>Description:</b>Continuing the Plague City series, the Regicide Quest takes you beyond the 'Well of Voyage' to a new realm. King Lathas will employ you once again, this time for the grim task of deposing his brother. Once you have travelled to the realm you will find yourself surrounded by new and strange plants, animals and even a new race. Once there, you will see that everything is not as serene as it first appears.
     <br><br>
     <b>Difficulty: <font color="red">Hard</font></b>
     <br><br>

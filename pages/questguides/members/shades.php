@@ -4,7 +4,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
     <h2>$questName</h2>
     <b>Description:</b> Mort Myre's south border has been breached, and a path towards a strange town called 'Mort'ton' has been found.<br>Strangers return from such visits with tales of the 'Afflicted' and shadowy creatures who jealously guard their tomb treasure.
     <br><br>
-    <b>Difficulty: <font color="green">Easy</font></b>
+    <b>Difficulty: <font color="yellow">Medium</font></b>
     <br><br>
     <b>Length: <font color="green">Short</font></b>
     <br><br>
@@ -34,7 +34,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
     </ul>
     <b>Starting Location:</b> The town of Mort'ton to the South east of Filliman Tarlock's camp (South of Mort Myre, cross bridge near Nature Spirit Quest Starting Location)
     <br><br>
-    <b>Reward:</b> 3 quest points, 2,000 Herblore XP and the ability to go down into temple north of the General Shop.<br>Taking the Diary to the Apothecary in Varrock earns one-time additional herblore xp. Some people also get Crafting XP.
+    <b>Reward:</b> 3 quest points, 2,000 Herblore XP, and the ability to go down into temple north of the General Shop.<br>Taking the Diary to the Apothecary in Varrock earns one-time additional herblore xp. Some people also get Crafting XP.
 </div>
 <h3>Instructions:</h3>
 <br>

@@ -6,7 +6,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
     <br><br>
     <b>Difficulty: <font color="green">Easy</font></b>
     <br><br>
-    <b>Length: <font color="red">Long</font></b>
+    <b>Length: <font color="yellow">Medium</font></b>
     <br><br>
     <h3>Required Quests:</h3>
     <ul style="list-style-type: none;">
@@ -35,7 +35,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
     </ul>
     <b>Starting Location:</b> Speak to Sanfew in Taverly
     <br><br>
-    <b>Reward:</b> 11k Herblore Experience, ability to Teleport to Trollheim (Lvl 61 to use and requires 2 Law and 2 Fire Runes) and 1 Quest Point.
+    <b>Reward:</b> 11k Herblore Experience, ability to Teleport to Trollheim (Lvl 61 to use and requires 2 Law and 2 Fire Runes), and 1 Quest Point.
 </div>
 <h3>Instructions:</h3>
 <br><br>

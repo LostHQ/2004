@@ -4,15 +4,15 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
     <h2>$questName</h2>
     <b>Description:</b> Council workmen have at last found the time to make repairs to the footbridge that connects Kandarin with the Barbarian town of Rellekka. Do you have what it takes to impress the barbarians who live there, and perhaps be welcomed as an honorary member of their clan? (Complete seven tasks to be granted admittance into the Fremennik clan.)
     <br><br>
-    <b>Difficulty: <font color="red">Hard</font></b>
+    <b>Difficulty: <font color="yellow">Medium</font></b>
     <br><br>
     <b>Length: <font color="red">Long</font></b>
     <br><br>
     <h3>Items & Skills Needed:</h3>
     <ul style="list-style-type: none;">
-        <li><div data-progress>40 Woodcutting</div><br></li>
         <li><div data-progress>40 Crafting</div><br></li>
-        <li><div data-progress>15 Agility</div><br></li>
+        <li><div data-progress>25 Fletching</div><br></li>
+        <li><div data-progress>40 Woodcutting</div><br></li>
         <li><div data-progress><canvas itemname="coins" show-label="inline" amount="5250"></canvas></div></li>
         <li><div data-progress><canvas itemname="tinderbox" show-label="inline"></canvas></div></li>
         <li><div data-progress><canvas itemname="knife" show-label="inline"></canvas></div></li>
@@ -29,7 +29,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
     </ul>
     <b>Starting Location:</b> Talk to Brundt in the Rellekka main hall.
     <br><br>
-    <b>Reward:</b> 3 Quest Points, 2813 experience in strength, attack, defence, hitpoints, crafting, agility, thieving, fletching, woodcutting, and fishing. Ability to speak and trade with Fremennik villagers and steal from stalls. You keep the lyre you make, which can be re-enchanted to teleport you to Rellekka (one teleport per enchantment).
+    <b>Reward:</b> 3 Quest Points, 2813 experience in Strength, Attack, Defence, Hitpoints, Crafting, Agility, Thieving, Fletching, Woodcutting, and Fishing. Ability to speak and trade with Fremennik villagers and steal from stalls. You keep the lyre you make, which can be re-enchanted to teleport you to Rellekka (one teleport per enchantment).
 </div>
 <h3>Instructions:</h3>
 <br>
