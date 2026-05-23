@@ -10367,12 +10367,11 @@
     },
     "equipable_item": {
       "wearpos": "weapon",
-      "stabattack": 10,
-      "slashattack": 5,
+      "stabattack": 5,
+      "slashattack": 3,
       "crushattack": -4,
       "magicattack": 1,
-      "magicdefence": 1,
-      "strengthbonus": 7
+      "magicdefence": 1
     }
   },
   {
@@ -56967,6 +56966,7 @@
     "cost": 1,
     "weight": 2,
     "members": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -56979,6 +56979,7 @@
     "cost": 1,
     "weight": 2,
     "members": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -56991,6 +56992,7 @@
     "cost": 1,
     "weight": 2,
     "members": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -57003,6 +57005,7 @@
     "cost": 1,
     "weight": 2,
     "members": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -57015,6 +57018,7 @@
     "cost": 1,
     "weight": 2,
     "members": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -57027,6 +57031,7 @@
     "cost": 1,
     "weight": 2,
     "members": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -57039,6 +57044,7 @@
     "cost": 1,
     "weight": 2,
     "members": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -57051,6 +57057,7 @@
     "cost": 1,
     "weight": 2,
     "members": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -57063,6 +57070,7 @@
     "cost": 1,
     "weight": 2,
     "members": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -57075,6 +57083,7 @@
     "cost": 1,
     "weight": 2,
     "members": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -57087,6 +57096,7 @@
     "cost": 1,
     "weight": 2,
     "members": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -57099,6 +57109,7 @@
     "cost": 1,
     "weight": 2,
     "members": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -57111,7 +57122,7 @@
     "cost": 1,
     "weight": 0,
     "members": true,
-    "tradeable": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -57124,7 +57135,7 @@
     "cost": 1,
     "weight": 0,
     "members": true,
-    "tradeable": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -57137,7 +57148,7 @@
     "cost": 1,
     "weight": 0,
     "members": true,
-    "tradeable": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -57150,7 +57161,7 @@
     "cost": 1,
     "weight": 0,
     "members": true,
-    "tradeable": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -57163,7 +57174,7 @@
     "cost": 1,
     "weight": 0,
     "members": true,
-    "tradeable": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -57176,7 +57187,7 @@
     "cost": 1,
     "weight": 0,
     "members": true,
-    "tradeable": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -57189,7 +57200,7 @@
     "cost": 1,
     "weight": 0,
     "members": true,
-    "tradeable": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -57202,7 +57213,7 @@
     "cost": 1,
     "weight": 0,
     "members": true,
-    "tradeable": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -57215,7 +57226,7 @@
     "cost": 1,
     "weight": 0,
     "members": true,
-    "tradeable": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -57228,7 +57239,7 @@
     "cost": 1,
     "weight": 0,
     "members": true,
-    "tradeable": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -57241,7 +57252,7 @@
     "cost": 1,
     "weight": 0,
     "members": true,
-    "tradeable": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
@@ -57254,7 +57265,7 @@
     "cost": 1,
     "weight": 0,
     "members": true,
-    "tradeable": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Drop"
     }
