@@ -68,8 +68,7 @@ They are activated by the player by clicking on the special attack bar under the
     </tr>
     <tr><th colspan="2">Official Description</th></tr>
     <tr>
-        <!-- Not sure if official description. Found this on salmoneus.net -->
-        <td colspan="2">An incredibly powerful slashing attack. On large-sized monsters, you can hit twice for added damage.</td>
+        <td colspan="2">A devastating slash through your opponent. For large monsters the halberd will automatically sweep back and forth to do extra damage.</td>
     </tr>
     <tr><th colspan="4">Effect when used</th></tr>
     <tr>
@@ -239,4 +238,34 @@ They are activated by the player by clicking on the special attack bar under the
         <td colspan="4">Adds +10 Ranged for the attack, hits up to 5 enemies within 3 game squares that are within line of sight.</td>
     </tr>
 </table>
+<!-- Extra descriptions left here incase archive.org decides to nuke more pages
+
+Rune Claws - Impale
+This attack is more powerful and more accurate, though it is slower than normal.
+
+Granite Maul - Quick Smash
+This is simply an extra attack taken instantly with no other effects.
+
+Abyssal Whip - Energy Drain
+This attack is more accurate and, if successful, will transfer 10% of your opponent's run energy to you.
+
+Dragon Scimitar - Sever
+This attack is more accurate and, if successful, will prevent your opponent from using protection prayers for 5 seconds
+
+Dragon Axe - Clobber
+This attack dazes your opponent, lowering their defence and magic stats.
+
+Seercull - Soulshot
+This attack reduces the opponents Magic level by the amount of the damage you inflict.
+
+Darklight - Weaken
+If this attack hits the opponent, their Attack, Strength and Defence will be lowered by 5%.
+On demons, the Attack, Strength and Defence are reduced by 10%.
+
+Dragon 2h Sword- Powerstab
+This weapon produces an area attack which does damage to nearby enemies.
+
+Rod of Ivandis - Retainer
+When you have weakened a Vampyre to 1/2 health, this special suspends them in the air so you can apply a dose of Guthix Balance potion to them.
+-->
 HTML; }
