@@ -55,6 +55,30 @@ They are activated by the player by clicking on the special attack bar under the
 <br><br>
 <table class="table" width="100%">
     <tr>
+        <th colspan="4"><canvas itemname="dragon_halberd" show-label="inline"></canvas></th>
+    </tr>
+    <tr>
+        <th width="25%">Special Attack required</th>
+        <td width="25%">30%</td>
+        <td colspan="2" rowspan="4"><img src="img/special_guides/specialattacks/dragonhalberd.gif"></td>
+    </tr>
+    <tr>
+        <th width="25%">Attack Name</th>
+        <td width="25%">Sweep</td>
+    </tr>
+    <tr><th colspan="2">Official Description</th></tr>
+    <tr>
+        <!-- Not sure if official description. Found this on salmoneus.net -->
+        <td colspan="2">An incredibly powerful slashing attack. On large-sized monsters, you can hit twice for added damage.</td>
+    </tr>
+    <tr><th colspan="4">Effect when used</th></tr>
+    <tr>
+        <td colspan="4">Strikes all foes adjacent to the target or deals damage twice on large monsters, adds +10% max hit.</td>
+    </tr>
+</table>
+<br><br>
+<table class="table" width="100%">
+    <tr>
         <th colspan="4"><canvas itemname="dragon_longsword" show-label="inline"></canvas></th>
     </tr>
     <tr>
