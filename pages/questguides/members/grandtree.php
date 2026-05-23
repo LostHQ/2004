@@ -30,11 +30,11 @@ Note: Before starting the quest, make sure to help Femi at the Tree Gnome Strong
 <br><br>
 <div data-progress>Talk to the King at the Grand Tree, which is in the northern area of the Gnome Stronghold; he will give you a translation book and a bark sample.</div>
 <br><br>
-<img src="img/questimages/grandtree1.png" width="475">
+<img src="img/questimages/grandtree/grandtree1.png" width="475">
 <br><br>
 <div data-progress>Take these to Hazelmere; he is south of Ardougne and east of Yanille, on a spit of land near the town with the Fight Arena and Magic Guild.</div>
 <br><br>
-<img src="img/questimages/grandtree2.png">
+<img src="img/questimages/grandtree/grandtree2.png">
 <br><br>
 <div data-progress>There are Jungle Spiders on this peninsula. The house is on top of a hill. Enter and go up the ladder.</div>
 <br><br>
@@ -49,7 +49,7 @@ and Daconia rocks will kill trees"<br>
 <br><br>
 <div data-progress>Leave the Grand Tree and head directly south until you see a ladder to the east. Climb the ladder, talk to Glough, and he says he will take care of it. Then return to the King.</div>
 <br><br>
-<img src="img/questimages/grandtree3.png">
+<img src="img/questimages/grandtree/grandtree3.png">
 <br><br>
 <div data-progress>The King tells you that they have already caught someone; you ask to see the prisoner. The King gives you permission and tells you that the prisoner is at the top of the tree.</div>
 <br><br>
@@ -70,7 +70,7 @@ ka<br>
 lu<br>
 min<br>
 <br>
-<img src="img/questimages/grandtree4.png">
+<img src="img/questimages/grandtree/grandtree4.png">
 <br><br>
 <div data-progress>Talk to the foreman; he will ask 3 questions to make sure you've come from Glough.</div><br>
 <div data-progress>1. How is Glough's wife? (She is no longer with us)</div><br>
@@ -82,7 +82,7 @@ min<br>
 <br><br>
 <div data-progress>You can't return by the glider, as it was broken when you landed. If you try to walk back the guards won't let you back in as they think you are a spy. To re-enter, either pay Femi 1,000 coins at the Stronghold gate (or enter for free if you've already helped her), or use the Spirit Tree system if you have access to it.</div>
 <br><br>
-<img src="img/questimages/grandtree5.png">
+<img src="img/questimages/grandtree/grandtree5.png">
 <br><br>
 <div data-progress>The King yet again refuses to believe your accusations against Glough. Go and talk to Charlie at the top of the tree again.</div>
 <br><br>
@@ -108,18 +108,18 @@ For the whole list of translations go to the bottom of this guide
 'Z' in center right<br>
 'O' in the far right</div>
 <br><br>
-<img src="img/questimages/grandtree7.png">
+<img src="img/questimages/grandtree/grandtree7.png">
 <br><br>
 <div data-progress>Once you have done this, open the stone stand, and climb down. After you drop down, a Black Demon (level 172) attacks you.</div>
 <br><br>
 Range Option:<br>
 <div data-progress>There are mithril rocks west of the ladder. Make sure you lure the demon out first, then run over to the rocks. If the demon can still attack you, go farther in.</div>
 <br><br>
-<img src="img/questimages/grandtree10.png"  width="475">
+<img src="img/questimages/grandtree/grandtree10.png"  width="475">
 <br><br>
 <div data-progress>You have a brief conversation with Glough, and then a Black Demon appears and attacks you (The map will zoom out and start to shake). Once you have killed it, follow the passageway until you see the King. Talk to him and he will express concern that you are hurt. At this point you once again accuse Glough.</div>
 <br><br>
-<img src="img/questimages/grandtree9.png">
+<img src="img/questimages/grandtree/grandtree9.png">
 <br><br>
 <div data-progress>He sends guards to check out your story. Once proven, he asks you to help one last time and find the final Daconia Stone. Search all the roots in the area until you find a small blue rock.</div>
 <br><br>

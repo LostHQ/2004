@@ -52,7 +52,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <div data-progress>Talk to Koftik again, who will give you a cloth he found. Use the cloth on an arrow you brought. You can do this multiple times in case you fail. Koftik can give you multiple cloths. Use these arrows on the fire nearby to set them alight.</div>
 <br><br>
-<img src="img/questimages/underground1.jpg"><br>
+<img src="img/questimages/underground/underground1.jpg"><br>
 <br>
 <div data-progress>Now, go around the cliff to the north, and you should be behind a fence. Try shooting at the guide ropes that hold the bridge up. When you hit it, you are automatically taken across it. Positioning is critical when shooting at the ropes; you should stand at the center of the fence's length.</div>
 <br><br>
@@ -72,13 +72,13 @@ Here is the 5x5 grid. It is basically a game of process of elimination and a mem
 <br><br>
 <div data-progress>Continue this process until you find a safe path across. If you fall, climb back up on protruding rocks or you will continue to receive hits.</div>
 <br><br>
-<img src="img/questimages/underground2.jpg" width="450">
+<img src="img/questimages/underground/underground2.jpg" width="450">
 <br><br>
 NOTE: If you plan to do the Regicide quest in the future, it's best to keep your character's path noted.
 <br><br>
 <div data-progress>Once across, pull the lever to the south, and the portcullis should open; you will automatically walk through.</div>
 <br><br>
-<img src="img/questimages/underground3.jpg" width="450">
+<img src="img/questimages/underground/underground3.jpg" width="450">
 <br><br>
 <div data-progress>Follow the path to where the zombies are and a furnace to the north.</div>
 <br><br>
@@ -86,7 +86,7 @@ Before entering the west alley, look on both sides of the walls until you see th
 <br><br>
 <div data-progress>When you have cleared all the wall traps, there should be a well and a skeleton you can search for an old journal in the middle of the room. Read to learn more about what we are doing next.</div>
 <br><br>
-<img src="img/questimages/underground4.jpg" width="450">
+<img src="img/questimages/underground/underground4.jpg" width="450">
 <br><br>
 <div data-progress>Go up the north road and notice there are flat rocks on the floor, use the plank on the flat rocks to cross until you get to the the orb of light. Pick it up, then return to the well.</div>
 <br><br>
@@ -98,7 +98,7 @@ Before entering the west alley, look on both sides of the walls until you see th
 <br><br>
 <div data-progress>Avoiding the wall traps again, make your way to the furnace to the east with the zombies. Use all the orbs with the furnace, destroying them.</div>
 <br><br>
-<img src="img/questimages/underground5.jpg" width="450">
+<img src="img/questimages/underground/underground5.jpg" width="450">
 <br><br>
 <div data-progress>Avoiding the wall traps, return to the well. Pray at the altar if you need to, then climb down the well to the next level.</div>
 <br><br>
@@ -108,13 +108,13 @@ Before entering the west alley, look on both sides of the walls until you see th
 <br><br>
 <div data-progress>Now run west to the cages. Pick the lock on the southeast cage, then use the spade on the mud to get through a tunnel.</div>
 <br><br>
-<img src="img/questimages/underground6.jpg" width="450">
+<img src="img/questimages/underground/underground6.jpg" width="450">
 <br><br>
 <div data-progress>Head west and cross the ledge past the giant rats to reach another difficult part. If you fail to cross this ledge, go north and east back to the cages. Repeat the previous step to get back to the ledge.</div>
 <br><br>
 <div data-progress>If you are a level 50+ Thieving, then run all the way south and picklock the two gates to get across. If you're not good at Thieving like me, follow the correct path to get to the east side of the map. There are 3 intersections you will find. First intersection go south, second go north, third go north. You should end up on the east side.</div>
 <br><br>
-<img src="img/questimages/underground7.jpg" width="450">
+<img src="img/questimages/underground/underground7.jpg" width="450">
 <br><br>
 <div data-progress>Follow the path south and go through the obstacle pipe.</div>
 <br><br>
@@ -164,7 +164,7 @@ You must now complete the ritual explained in the book again to defeat Iban. You
 <h4>Iban's Blood</h4>
 <div data-progress>Head to the northeast part of the map to where all the spiders are. Protect from Melee if you wish and Kill the huge spider to get Iban's blood. BEWARE, once you kill the big spider, all the smaller ones will become aggressive. Use the blood on the doll.</div>
 <br><br>
-<img src="img/questimages/underground8.jpg" width="450">
+<img src="img/questimages/underground/underground8.jpg" width="450">
 <br>
 <h4>Iban's Dove</h4>
 <div data-progress>Wear Klank's Gauntlets for the next part to avoid getting bitten by the soulless.</div>
