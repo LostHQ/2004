@@ -218,6 +218,29 @@ They are activated by the player by clicking on the special attack bar under the
 <br><br>
 <table class="table" width="100%">
     <tr>
+        <th colspan="4"><canvas itemname="rune_claws" show-label="inline"></canvas></th>
+    </tr>
+    <tr>
+        <th width="25%">Special Attack required</th>
+        <td width="25%">25%</td>
+        <td colspan="2" rowspan="4"><img src="img/special_guides/specialattacks/runeclaws.gif"></td>
+    </tr>
+    <tr>
+        <th width="25%">Attack Name</th>
+        <td width="25%">Impale</td>
+    </tr>
+    <tr><th colspan="2">Official Description</th></tr>
+    <tr>
+        <td colspan="2">This attack is more powerful and more accurate, though it is slower than normal.</td>
+    </tr>
+    <tr><th colspan="4">Effect when used</th></tr>
+    <tr>
+        <td colspan="4">Adds +10% max hit.</td>
+    </tr>
+</table>
+<br><br>
+<table class="table" width="100%">
+    <tr>
         <th colspan="4"><canvas itemname="rune_thrownaxe" show-label="inline"></canvas></th>
     </tr>
     <tr>
@@ -239,9 +262,6 @@ They are activated by the player by clicking on the special attack bar under the
     </tr>
 </table>
 <!-- Extra descriptions left here incase archive.org decides to nuke more pages
-
-Rune Claws - Impale
-This attack is more powerful and more accurate, though it is slower than normal.
 
 Granite Maul - Quick Smash
 This is simply an extra attack taken instantly with no other effects.
