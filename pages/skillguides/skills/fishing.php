@@ -34,6 +34,16 @@ function getSkillContent($skill) { return <<<HTML
             <td><u>Net</u> / Bait</td>
         </tr>
         <tr>
+            <td><canvas itemname="tbwt_raw_karambwanji" show-label="true" name-replace="Karambwanji"></canvas></td>
+            <td>5</td>
+            <td>5</td>
+            <td>
+                <canvas itemname="net"></canvas><br>
+                Small Net<br>Fishing
+            </td>
+            <td><u>Net</u></td>
+        </tr>
+        <tr>
             <td><canvas itemname="raw_sardine" show-label="true" name-replace="Sardine"></canvas></td>
             <td>5</td>
             <td>20</td>
@@ -108,6 +118,17 @@ function getSkillContent($skill) { return <<<HTML
             <td>Lure / <u>Bait</u></td>
         </tr>
         <tr>
+            <td><canvas itemname="mort_slimey_eel" show-label="true"></canvas></td>
+            <td>28</td>
+            <td>65</td>
+            <td>
+                <canvas itemname="fly_fishing_rod"></canvas>
+                <canvas itemname="feather" hide-amount="true"></canvas><br>
+                Fly<br>Fishing
+            </td>
+            <td><u>Bait</u></td>
+        </tr>
+        <tr>
             <td><canvas itemname="raw_salmon" show-label="true" name-replace="Salmon"></canvas></td>
             <td>30</td>
             <td>70</td>
@@ -159,6 +180,16 @@ function getSkillContent($skill) { return <<<HTML
             <td>Cage / <u>Harpoon</u></td>
         </tr>
         <tr>
+            <td><canvas itemname="tbwt_raw_karambwan" show-label="true" name-replace="Karambwan"></canvas></td>
+            <td>65</td>
+            <td>105</td>
+            <td>
+                <canvas itemname="tbwt_karambwan_vessel_loaded_with_karambwanji"></canvas><br>
+                Karambwan Vessel<br>Fishing
+            </td>
+            <td><u>Fish</u></td>
+        </tr>
+        <tr>
             <td><canvas itemname="raw_shark" show-label="true" name-replace="Shark"></canvas></td>
             <td>76</td>
             <td>110</td>
@@ -171,14 +202,12 @@ function getSkillContent($skill) { return <<<HTML
         <tr>
             <td><canvas itemname="raw_seaturtle" show-label="true" name-replace="Sea Turtle"></canvas></td>
             <td>79</td>
-            <td>57</td>
-            <td colspan=2>Trawler<br>Mini-Game</td>
+            <td colspan=3>Trawler<br>Mini-Game</td>
         </tr>
         <tr>
             <td><canvas itemname="raw_mantaray" show-label="true" name-replace="Manta Ray"></canvas></td>
             <td>81</td>
-            <td>69</td>
-            <td colspan=2>Trawler<br>Mini-Game</td>
+            <td colspan=3>Trawler<br>Mini-Game</td>
         </tr>
     </table>
     <br><br>
@@ -246,7 +275,6 @@ function getSkillContent($skill) { return <<<HTML
             <td><img src="img/skillguides/fishing/sharkfishing.gif" alt="[image]"></td>
         </tr>
     </table>
-    <!-- added in nov 2004
     <br>
     <b>Karambwan Vessel fishing</b>
     <table width="100%">
@@ -255,7 +283,6 @@ function getSkillContent($skill) { return <<<HTML
             <td><img src="img/skillguides/fishing/karamfishing.gif" alt="[image]"></td>
         </tr>
     </table>
-    -->
     <br><br>
     <h3>Fishing Guild</h3>
     When you have reached a fishing level of 68 or higher you will be able to enter the Fishing Guild, located to the north of Ardougne.
