@@ -61,6 +61,32 @@ function getSkillContent($skill) { return <<<HTML
 				<td><canvas itemname="raw_sardine"></canvas></td>
 				<td><canvas itemname="sardine"></canvas></td>
 			</tr>
+            <tr> 
+				<td><a href="#meats">Karambwanji</a></td>
+				<td>1</td>
+				<td colspan="2">Not edible</td>
+				<td>10</td>
+				<td><canvas itemname="tbwt_raw_karambwanji"></canvas></td>
+				<td><canvas itemname="tbwt_cooked_karambwanji"></canvas></td>
+			</tr>
+            <tr> 
+				<td><a href="#meats">Karambwan<br>(Poisonous)</a></td>
+				<td>1<br>(30 for quest)</td>
+                <td>-5<br>(poison damage)</td>
+				<td>1</td>
+				<td>80</td>
+				<td><canvas itemname="tbwt_raw_karambwan"></canvas></td>
+				<td><canvas itemname="tbwt_poorly_cooked_karambwan"></canvas></td>
+			</tr>
+            <tr> 
+				<td><a href="#meats">Karambwan</a></td>
+				<td>1<br>(30 for quest)</td>
+                <td>18</td>
+				<td>1</td>
+				<td>190</td>
+				<td><canvas itemname="tbwt_raw_karambwan"></canvas></td>
+				<td><canvas itemname="tbwt_cooked_karambwan"></canvas></td>
+			</tr>
 			<tr> 
 				<td><a href="#meats">Herring</a></td>
 				<td>5</td>
@@ -150,6 +176,15 @@ function getSkillContent($skill) { return <<<HTML
 				<td>117</td>
 				<td><canvas itemname="uncooked_stew"></canvas></td>
 				<td><canvas itemname="stew"></canvas></td>
+			</tr>
+            <tr> 
+				<td><a href="#stew">Slimey Eel</a></td>
+				<td>28</td>
+				<td>6-10</td>
+				<td>1</td>
+				<td>95</td>
+				<td><canvas itemname="mort_slimey_eel"></canvas></td>
+				<td><canvas itemname="mort_slimey_eel_cooked"></canvas></td>
 			</tr>
 			<tr> 
 				<td><a href="#meats">Chompy Bird</a></td>
