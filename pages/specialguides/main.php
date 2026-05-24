@@ -31,7 +31,7 @@ $minigameslist = array(
     "fishingtrawler" => "Fishing Trawler",
     // "gamesroom" => "Burthorpe Games Room",
     "gnomeball" => "Gnome Ball",
-    // "shadesofmort" => "Shades of Mort'ton"
+    "shadesofmort" => "Shades of Mort'ton"
 );
 
 function getExtraHeaderContent() { 

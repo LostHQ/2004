@@ -115,6 +115,20 @@ TIP: make sure there are several people repairing the temple and several attacki
     He will congratulate you on setting the shade to rest
 </div>
 $questComplete
+<p>
+    Note: For the permanent cure, you need 20% sanctity and then you must use serum 207 on the sacred flame then give it to the people as serum 207(p). It is recommended to use this on Razmire so that you have ready access to his Stores in the future.
+</p>
+<p>
+    Another tip: if the world you are on does not have enough people to build the temple, switch to World 2 (most populated member world). But buy your Olive oil before switching, as it is harder to purchase where many people are trying to buy it.
+</p>
+<br>
+<p>
+    The key generated when setting the shade to rest allows you to access the Mort'ton tombs (entrance located north of the store). Here you can kill higher level shades (Phrin, Riyl, Asyn, Fiyr) and use your keys to open chests and get loot such as armour, weapons, runes, and Fine cloth (which, along with Hollow bark and cash, can be made into Splitbark armour by the Wizard at the Wizard Tower). See the <a href="?p=specialguides&minigames=shadesofmort">Mort'ton Shade Burning Special Report</a> for complete details.
+</p>
+<p>
+    NOTE: Keys aren't generated 100% of the time when setting shades to rest so if you didn't get one during the quest, you can keep trying until you do.
+</p>
+<hr>
 This quest guide was written by corbear007,jalech99, darksole17, and leaderofdarkness. Thanks to Weezy, DRAVAN, andro_girl, Demonichell, havoc_cat, mastersiosk, and pokemama for corrections.
 <br><br>
 This quest guide was entered into the RuneHQ.com database on Mon, Oct 18, 2004, at 12:05:32 PM by Weezy and was last updated on Sun, Nov 13, 2005, at 09:02:06 PM by DRAVAN.
