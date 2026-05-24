@@ -23,30 +23,6 @@ function computeCombat(att, str, def, hp, rng, mag, pray) {
     return Math.floor(base + Math.max(melee, range, mage));
 }
 
-const questReqs = {
-    //skill: [freeReq, memsReq],
-    attack: [1, 20],
-    hitpoints: [10, 10],
-    mining: [15, 52],
-    strength: [1, 50],
-    agility: [1, 56],
-    smithing: [1, 50],
-    defence: [1, 1],
-    herblore: [1, 45],
-    fishing: [1, 53],
-    ranged: [1, 40],
-    thieving: [1, 50],
-    cooking: [1, 53],
-    prayer: [1, 42],
-    crafting: [1, 50],
-    firemaking: [1, 30],
-    magic: [1, 59],
-    fletching: [1, 25],
-    woodcutting: [1, 50],
-    runecraft: [1, 1],
-    quest_points: [32, 107],
-};
-
 const skillList = {
     //(for stats it's only top number, lower is automatically offset)
     //skill:  [x,  y, centered?],
@@ -76,11 +52,38 @@ const skillList = {
 };
 
 async function drawQuestReqsPanel(canvas) {
+    const questReqs = {
+        //skill: [freeReq, memsReq],
+        attack: [1, 20],
+        hitpoints: [10, 10],
+        mining: [15, 52],
+        strength: [1, 50],
+        agility: [1, 56],
+        smithing: [1, 50],
+        defence: [1, 1],
+        herblore: [1, 45],
+        fishing: [1, 53],
+        ranged: [1, 40],
+        thieving: [1, 50],
+        cooking: [1, 53],
+        prayer: [1, 42],
+        crafting: [1, 50],
+        firemaking: [1, 30],
+        magic: [1, 59],
+        fletching: [1, 25],
+        woodcutting: [1, 50],
+        runecraft: [1, 1],
+        quest_points: [32, 107],
+    };
+
     const stats = {};
+    const members = canvas.dataset.questreqs === "members" ? 1 : 0;
     for (const [skillName, requirements] of Object.entries(questReqs)) {
-        stats[skillName] = requirements[canvas.dataset.questreqs === "members" ? 1 : 0];
+        if (skillName != "quest_points") {
+            stats[skillName] = requirements[members];
+        }
     }
-    drawStatsPanel(canvas, stats, stats, stats["quest_points"]);
+    drawStatsPanel(canvas, stats, stats, questReqs["quest_points"][members]);
 }
 
 async function drawStatsPanel(canvas, upperStats, lowerStats, questPoints) {
