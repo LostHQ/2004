@@ -1,9 +1,15 @@
 <?php
 function getGuideContent($guide) { return <<<HTML
 <h2>Treasure Trails $guide Guide</h2>
-<p>When you get a co-ordinate clue, it will say something like "04 degrees, 13 minutes North, 12 degrees, 45 minutes East".
+<p>When you get a coordinate clue, it will say something like "04 degrees, 13 minutes North, 12 degrees, 45 minutes East".
 <br><br>
-<b>Note:</b> When you follow a clue with co-ordinates, you will need to have the sextant, watch, chart, and clue in your inventory to dig up the treasure.
+<h3>Note: When you follow a clue with coordinates, you will need to have the sextant, watch, chart, and clue in your inventory to dig up the treasure.</h3>
+<br>
+<div style="display:flex;justify-content: center;">
+    <canvas itemname="trail_watch" show-label="inline"></canvas>&nbsp;&nbsp;&nbsp;&nbsp;
+    <canvas itemname="trail_sextant" show-label="inline"></canvas>&nbsp;&nbsp;&nbsp;&nbsp;
+    <canvas itemname="trail_chart" show-label="inline"></canvas>
+</div>
 <br><br>
 In order to aquire a sextant, watch, and chart, you first must have a coordinate clue and have either started or completed the <a href="?p=questguides&quest=observatory">Observatory Quest</a>. Once you have met these requirements, the steps are as follows:
 <ol>

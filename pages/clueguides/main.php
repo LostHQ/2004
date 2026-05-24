@@ -48,7 +48,12 @@ This guides below obviously contains spoilers on how to solve the clues. Don't l
 if you want to figure this stuff out for yourself.  For the coordinate clues, 
 a spade is necessary for the solution. Simply use a spade where the solution 
 states.  Note that you are still required to carry your Sextant, Chart and Watch for 
-Coordinate clues with you or your treasure will not be revealed.<br>
+Coordinate clues with you or your treasure will not be revealed.<br><br>
+<div style="display:flex;justify-content: center;">
+    <canvas itemname="trail_watch" show-label="inline"></canvas>&nbsp;&nbsp;&nbsp;&nbsp;
+    <canvas itemname="trail_sextant" show-label="inline"></canvas>&nbsp;&nbsp;&nbsp;&nbsp;
+    <canvas itemname="trail_chart" show-label="inline"></canvas>
+</div>
 <br>
 <hr>
 <h3>Clue Guides</h3>
