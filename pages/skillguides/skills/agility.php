@@ -162,13 +162,13 @@ Congratulations on completing a whole lap! Heres how the xp works for this cours
     <tr>
         <td>1</td>
         <td>Completed Lap</td>
-        <td>139.5</td>
+        <td>42</td>
         <td><font color=orange>Yes</font></td>
     </tr>
     <tr>
         <td>1</td>
         <td>Course Total</td>
-        <td>222</td>
+        <td>114.5</td>
         <td><font color=orange>Yes</font></td>
     </tr>
 </table>
@@ -236,13 +236,13 @@ Congratulations on completing a whole lap! Heres how the xp works for this cours
     <tr>
         <td>52</td>
         <td>Completed Lap</td>
-        <td>571.5</td>
+        <td>498.9</td>
         <td><font color=orange>Yes</font></td>
     </tr>
     <tr>
         <td>52</td>
         <td>Course Total</td>
-        <td>659</td>
+        <td>586.4</td>
         <td><font color=orange>Yes</font></td>
     </tr>
 </table>
