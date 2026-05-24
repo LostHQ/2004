@@ -19,6 +19,13 @@ function getGuideContent($guide) { return <<<HTML
     <td><img src="img/clue_guides/maps/easy/falador_mine.png" style="width:200px;" alt="falador_mine"></td>
     <td>Falador Useless Rock Area Map<br><br>Fenced area north-east of Falador, south-west of Barbarian Village; full of useless rocks</td>
   </tr>
+    <td><img src="img/clue_guides/maps/easy/clue_brother_galahad.jpg" style="width:200px;" alt="clue_brother_galahad.jpg"></td>
+    <td>Brother Galahad's house across the river from Coal Trucks.</td>
+  </tr>
+  <tr>
+    <td><img src="img/clue_guides/maps/easy/wiztowermap.gif" style="width:200px;" alt="wiztowermap.gif"></td>
+    <td>Behind the Wizard's Tower</td>
+  </tr>
 </table>
 <hr>
 <table class="table" width="100%">
@@ -33,6 +40,26 @@ function getGuideContent($guide) { return <<<HTML
     <td><img src="img/clue_guides/maps/medium/observatory.png" style="width:200px;" alt="observatory"></td>
     <td>Observatory Map<br><br>West of Tree Gnome Village</td>
   </tr>
+  <tr>
+    <td><img src="img/clue_guides/maps/medium/clue_McGrubors_wood.png" style="width:200px;" alt="McGrubor's wood"></td>
+    <td>Inside McGrubor's wood, which is west of Seer's village.</td>
+  </tr>
+  <tr>
+    <td><img src="img/clue_guides/maps/medium/clue_hobgoblin_peninsula.png" style="width:200px;" alt="Hobgoblin peninsula"></td>
+    <td>It's on the Hobgoblin peninsula that sticks out west of the Crafting Guild (below the Make over Mage - found directly west after exiting Falador by the south entrance).</td>
+  </tr>
+  <tr> 
+    <td><img src="img/clue_guides/maps/medium/clue_necromancer.png" style="width:200px;" alt="clue_necromancer.png"></td>
+    <td>At the Necromancer peninsula south of East Ardougne. 2 squares west of the small tree as indicated on the clue map.</td>
+  </tr>
+  <tr>
+    <td><img src="img/clue_guides/maps/medium/clue_Rimmington_chemists.png" style="width:200px;" alt="Chemist's house"></td>
+    <td>West of the Chemist's house west of Rimmington (South of Falador below the Crafting Guild).</td>
+  </tr>
+  <tr>
+    <td><img src="img/clue_guides/maps/medium/clue_clock_tower.jpg" style="width:200px;" alt="clock tower"></td>
+    <td>Search a crate on the west side of the Clock Tower, which is south of Ardougne.</td>
+  </tr>
 </table>
 <hr>
 <table class="table" width="100%">
@@ -43,104 +70,72 @@ function getGuideContent($guide) { return <<<HTML
     <td><img src="img/clue_guides/maps/hard/varrock_lumber.png" style="width:200px;" alt="varrock_lumber.png"></td>
     <td>Varrock Lumberyard Map<br><br>Lumberyard, north-east of Varrock</td>
   </tr>
-  <!--<tr> 
-    <td><img src="img/clue_guides/clue_black_warriors_fortress_wildy.png" style="width:200px;" alt="clue_black_warriors_fortress_wildy.png"></td>
+  <tr> 
+    <td><img src="img/clue_guides/maps/hard/clue_black_warriors_fortress_wildy.png" style="width:200px;" alt="clue_black_warriors_fortress_wildy.png"></td>
     <td>Black warriors fortress in the Wilderness. Search the crate in the southwest corner of the area inside.</td>
   </tr>
- <tr> 
-    <td><img src="img/clue_guides/clue_brother_galahad.jpg" style="width:200px;" alt="clue_brother_galahad.jpg"></td>
-    <td>Brother Galahad's house across the river from Coal Trucks.</td>
-  </tr>
+  <tr>
   <tr> 
-    <td><img src="img/clue_guides/clue_goblins_near_observatory.jpg" style="width:200px;" alt="clue_goblins_near_observatory.jpg"></td>
-    <td>Search crate in the house with range at goblin area near Observatory</td>
-  </tr>
-  <tr> 
-    <td><img src="img/clue_guides/clue_necromancer.png" style="width:200px;" alt="clue_necromancer.png"></td>
-    <td>At the Necromancer peninsula south of East Ardougne. 2 squares west of the small tree as indicated on the clue map.</td>
-  </tr>
-  <tr> 
-    <td><img src="img/clue_guides/clue1.jpg" style="width:200px;" alt="clue1.jpg"></td>
+    <td><img src="img/clue_guides/maps/hard/clue1.jpg" style="width:200px;" alt="clue1.jpg"></td>
     <td>In Yanille, south east corner</td>
   </tr>
   <tr>
-    <td><img src="img/clue_guides/clue_Rimmington_chemists.png" style="width:200px;" alt="Chemist's house"></td>
-    <td>West of the Chemist's house west of Rimmington (South of Falador below the Crafting Guild).</td>
-  </tr>
-  <tr>
-    <td><img src="img/clue_guides/clue_hobgoblin_peninsula.png" style="width:200px;" alt="Hobgoblin peninsula"></td>
-    <td>It's on the Hobgoblin peninsula that sticks out west of the Crafting Guild (below the Make over Mage - found directly west after exiting Falador by the south entrance).</td>
-  </tr>
-  <tr>
-    <td><img src="img/clue_guides/clue_McGrubors_wood.png" style="width:200px;" alt="McGrubor's wood"></td>
-    <td>Inside McGrubor's wood, which is west of Seer's village.</td>
-  </tr>
-  <tr>
-    <td><img src="img/clue_guides/clue_clock_tower.jpg" style="width:200px;" alt="Pic missing, but coming soon!"></td>
-    <td>Search a crate on the west side of the Clock Tower, which is south of Ardougne.</td>
-  </tr>
-  <tr>
-    <td><img src="img/clue_guides/clue_west_ardougne.jpg" style="width:200px;" alt="clue_west_ardougne.jpg"></td>
+    <td><img src="img/clue_guides/maps/hard/clue_west_ardougne.png" style="width:200px;" alt="clue_west_ardougne.png"></td>
     <td>Northwest corner of West Ardougne</td>
   </tr>
-  <tr>
-    <td><img src="img/clue_guides/wiztowermap.gif" style="width:200px;" alt="wiztowermap.gif"></td>
-    <td>Behind the Wizard's Tower</td>
-  </tr>-->
+  <tr> 
+    <td><img src="img/clue_guides/maps/hard/clue_goblins_near_observatory.jpg" style="width:200px;" alt="clue_goblins_near_observatory.jpg"></td>
+    <td>Search crate in the house with range at goblin area near Observatory</td>
+  </tr>
 </table>
 <hr>
 <h3>Puzzles</h3>
 <table class="table" width="100%">
   <tr>
-    <th colspan=2>Castle Puzzle Box Solver</th>
+    <th>Castle Puzzle Box Solver</th>
   </tr>
   <tr> 
-    <td colspan=2>
-    <canvas id="puzzleCanvasCastle" width="220" height="220"></canvas><br><br>
-    <button id="castleSolveButton">Solve</button>
-    <button id="castleNextButton">Next Move</button>
-    <button id="castlePrevButton">Previous Move</button>
-    <button id="castleAutoButton">Auto Play</button><br>
-    <div id="movesCounterCastle">Moves to solve: 0</div>
+    <td>
+        <canvas id="puzzleCanvasCastle" width="220" height="220"></canvas><br><br>
+        <button id="castleSolveButton">Solve</button>
+        <button id="castleNextButton">Next Move</button>
+        <button id="castlePrevButton">Previous Move</button>
+        <button id="castleAutoButton">Auto Play</button><br>
+        <div id="movesCounterCastle">Moves to solve: 0</div>
     </td>
   </tr>
-  <!--<tr>
+  <tr>
     <th>Grand Tree Puzzle Box</th>
-    <th>Solution</th>
   </tr>
   <tr> 
     <td>
-      <canvas id="puzzleCanvasTree" width="220" height="220"></canvas>
+      <canvas id="puzzleCanvasTree" width="220" height="220"></canvas><br><br>
       <button id="treeSolveButton">Solve</button>
+      <button id="treeNextButton">Next Move</button>
+      <button id="treePrevButton">Previous Move</button>
+      <button id="treeAutoButton">Auto Play</button><br>
       <div id="movesCounterTree">Moves to solve: 0</div>
-    </td>
-    <td>
-      <img src="img/clue_guides/solvedtree.jpg" style="width:220px;" alt="Pic missing, but coming soon!">
     </td>
   </tr>
   <tr>
     <th>Troll Puzzle Box</th>
-    <th>Solution</th>
   </tr>
   <tr> 
     <td>
-      <canvas id="puzzleCanvasTroll" width="220" height="220"></canvas>
+      <canvas id="puzzleCanvasTroll" width="220" height="220"></canvas><br><br>
       <button id="trollSolveButton">Solve</button>
+      <button id="trollNextButton">Next Move</button>
+      <button id="trollPrevButton">Previous Move</button>
+      <button id="trollAutoButton">Auto Play</button><br>
       <div id="movesCounterTroll">Moves to solve: 0</div>
     </td>
-    <td>
-      <img src="img/clue_guides/trollpuzzlebox.gif" style="width:220px;" alt="trollpuzzlebox.gif">
-    </td>
-  </tr>-->
+  </tr>
 </table>
 </p>
 <script src="js/clue_puzzle/puzzle_solver.js"></script>
 <script>
-  const castleBox = new PuzzleBox('puzzleCanvasCastle', 'castleSolveButton', puzzleSetCastle, 
-    'movesCounterCastle', 'castleNextButton', 'castlePrevButton', 'castleAutoButton');
-  //const treeBox = new PuzzleBox('puzzleCanvasTree', 'treeSolveButton', puzzleSetTree, 
-  //  'movesCounterTree', 'trollNextButton', 'trollPrevButton', 'trollAutoButton');
-  //const trollBox = new PuzzleBox('puzzleCanvasTroll', 'trollSolveButton', puzzleSetTroll,
-  //  'movesCounterTroll', 'trollNextButton', 'trollPrevButton', 'trollAutoButton');
+  const castleBox = new PuzzleBox('puzzleCanvasCastle', 'castleSolveButton', puzzleSetCastle, 'movesCounterCastle', 'castleNextButton', 'castlePrevButton', 'castleAutoButton');
+  const treeBox = new PuzzleBox('puzzleCanvasTree', 'treeSolveButton', puzzleSetTree, 'movesCounterTree', 'treeNextButton', 'treePrevButton', 'treeAutoButton');
+  const trollBox = new PuzzleBox('puzzleCanvasTroll', 'trollSolveButton', puzzleSetTroll, 'movesCounterTroll', 'trollNextButton', 'trollPrevButton', 'trollAutoButton');
 </script>
 HTML; }
