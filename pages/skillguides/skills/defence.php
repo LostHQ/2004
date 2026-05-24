@@ -114,7 +114,7 @@ function getSkillContent($skill) { return <<<HTML
             </td>
         </tr>
         <tr>
-            <td>Magic armour is very useful for mages, as it offers a boost to magic attack and defence. However, it is very weak against melee and ranged attacks.</td>
+            <td>Magic armour is very useful for mages, as it offers a boost to magic attack. However, it is very weak against ranged attacks.</td>
         </tr>
     </table>
     <hr>
