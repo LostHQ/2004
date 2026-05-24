@@ -130,14 +130,12 @@ function getSkillContent($skill) { return <<<HTML
             <td>While worn players Magic attack is boosted by 10</td>
             <td>Permanent.<br>Works whenever it is equipped</td>
         </tr>
-        <!-- disabled until november 24, 2004
         <tr>
-            <td><canvas itemname="games_necklace" show-label="true"></canvas></td>
+        <td><canvas itemname="necklace_of_minigames_8" show-label="true" name-replace="Games necklace"></canvas></td>
             <td>7</td>
             <td>Allows the player to teleport to the Burthorpe Games Rooms</td>
             <td>Each necklace allows 8 teleports in total</td>
         </tr>
-        -->
         <tr>
             <td><canvas itemname="ring_of_dueling_8" show-label="true" name-replace="Ring of dueling"></canvas></td>
             <td>27</td>
