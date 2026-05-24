@@ -96,10 +96,25 @@ function getSkillContent($skill) { return <<<HTML
     <br>
     <table style="text-align: center;" align="center">
         <tr>
-            <td><canvas itemname="wizards_robe"></canvas><canvas itemname="black_robe"></canvas></td>
+            <td><canvas itemname="wizards_robe"></canvas><canvas itemname="black_robe"></canvas><canvas itemname="zamrobetop"></canvas></td>
         </tr>
         <tr>
             <td>Mage robes offer no extra defence against ranged or melee combat, but do give an advantage for spell casting and defending against magic.</td>
+        </tr>
+    </table>
+    <br><br>
+    <b>Magic Armor</b>
+    <br>
+    <table style="text-align: center;" align="center">
+        <tr>
+            <td>
+                <canvas itemname="splitbark_helm"></canvas><canvas itemname="splitbark_body"></canvas><canvas itemname="splitbark_legs"></canvas><canvas itemname="splitbark_greaves"></canvas><canvas itemname="splitbark_gauntlets"></canvas>
+                <br>
+                <canvas itemname="elemental_shield"></canvas><canvas itemname="viking_helmet_magic"></canvas></canvas><canvas itemname="viking_helmet_range"></canvas>
+            </td>
+        </tr>
+        <tr>
+            <td>Magic armour is very useful for mages, as it offers a boost to magic attack and defence. However, it is very weak against melee and ranged attacks.</td>
         </tr>
     </table>
     <hr>
