@@ -44,6 +44,7 @@ const questReqs = {
     fletching: [1, 25],
     woodcutting: [1, 50],
     runecraft: [1, 1],
+    quest_points: [32, 107],
 };
 
 const skillList = {
@@ -79,7 +80,7 @@ async function drawQuestReqsPanel(canvas) {
     for (const [skillName, requirements] of Object.entries(questReqs)) {
         stats[skillName] = requirements[canvas.dataset.questreqs === "members" ? 1 : 0];
     }
-    drawStatsPanel(canvas, stats, stats, "-");
+    drawStatsPanel(canvas, stats, stats, stats["quest_points"]);
 }
 
 async function drawStatsPanel(canvas, upperStats, lowerStats, questPoints) {
@@ -114,7 +115,7 @@ async function drawStatsPanel(canvas, upperStats, lowerStats, questPoints) {
                 break;
             case "quest_points":
                 const [questX, questY, questCentered] = skillList["quest_points"];
-                drawP12(ctx, questPoints, questX, questY, fontColor, questCentered);
+                drawP12(ctx, questPoints.toString(), questX, questY, fontColor, questCentered);
                 break;
             default:
                 const [x, y, statCentered] = skillList[skillName];
