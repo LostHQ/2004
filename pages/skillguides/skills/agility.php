@@ -247,13 +247,206 @@ Congratulations on completing a whole lap! Heres how the xp works for this cours
     </tr>
 </table>
 <hr>
-<h3>Other Obstacles</h3>
+<h3>Brimhaven Agility Arena</h3>
+<p>Cap'n Izzy No-Beard in the bamboo hut in the north east of Brimhaven (located on Karamja Island) has discovered ancient ruins underground where a cavern of platforms exist. Here you can have fun training your agility and gaining tickets by competing against the clock! The aim of the game is to make your way across the agility obstacles between the 20 platforms to the one with the flasing arrow to tag the pillar there to recieve a ticket. Each minute the flashing arrow changes to a different random platfom. A map of the arena is shown below and the obstacles between them labelled.</p>
+<img src="img/skillguides/agility/agility_arena.png">
+<ul>
+    <li><font color="white">White obstacles only require level 1 agility to cross.</font></li>
+    <li><font color="lightblue">Blue obstacles require lvl 20 agility to cross.</font></li>
+    <li><font color="red">Red obstacles require lvl 40 agility to cross.</font></li>
+</ul>
+<p>Each obstacle gives a different amount of xp. It is worth noting that when crossing the planks, only one will get you across. look carefully to find the non-crooked one. Also, when you fail darts you will lose 2 or 3 agility levels temporarily.</p>
+<table class="table">
+    <tr>
+        <th colspan="2">Brimhaven Agility Arena</th>
+    </tr>
+    <tr>
+        <th>Obstacle</th>
+        <th>Exp. gained</th>
+    </tr>
+    <tr>
+        <td>Ledge</td>
+        <td>16</td>
+    </tr>
+    <tr>
+        <td>Hand Holds</td>
+        <td>22</td>
+    </tr>
+    <tr>
+        <td>Blade</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>Spinning Blades</td>
+        <td>28</td>
+    </tr>
+    <tr>
+        <td>Darts</td>
+        <td>30</td>
+    </tr>
+    <tr>
+        <td>Rope Balance</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td>Ropeswing</td>
+        <td>20</td>
+    </tr>
+    <tr>
+        <td>Floor Spikes</td>
+        <td>24</td>
+    </tr>
+    <tr>
+        <td>Pressure Pads</td>
+        <td>26</td>
+    </tr>
+    <tr>
+        <td>Monkey Bars</td>
+        <td>14</td>
+    </tr>
+    <tr>
+        <td>Pillars</td>
+        <td>18</td>
+    </tr>
+    <tr>
+        <td>Low Wall</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>Log Balance</td>
+        <td>12</td>
+    </tr>
+    <tr>
+        <td>Planks</td>
+        <td>6</td>
+    </tr>
+</table>
+<p>
+    You will not recieve a ticket for the first pillar but for every one thereafter. If you miss a pillar then you will miss out on the next ticket so try to keep your rythm going. You can save up these tickets to trade them with Pirate Jack the Fruity for various rewards as detailed below. She is in the same hut that you entered the arena from. The best way to train here is to go as little weight as posible, that way your running engergy will last longer. Keep your hits below 20 that way you only get hit 2 instead of 4, so your can stay here longer.
+</p>
+<table class="table">
+    <tr>
+        <th colspan="3">Rewards you can trade your tickets for</th>
+    </tr>
+    <tr>
+        <th>Number of tickets</th>
+        <th>Reward</th>
+        <th>Total XP</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>240xp</td>
+        <td>240 xp</td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>248xp each</td>
+        <td>2,480 xp</td>
+    </tr>
+    <tr>
+        <td>25</td>
+        <td>260xp each</td>
+        <td>6,500 xp</td>
+    </tr>
+    <tr>
+        <td>100</td>
+        <td>280xp each</td>
+        <td>28,000 xp</td>
+    </tr>
+    <tr>
+        <td>1000</td>
+        <td>320xp each</td>
+        <td>320,000 xp</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td><canvas itemname="toadflax" show-label="inline"></canvas></td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td><canvas itemname="snapdragon" show-label="inline"></canvas></td>
+    </tr>
+    <tr>
+        <td>800</td>
+        <td><canvas itemname="piratehook" show-label="inline"></canvas></td>
+    </tr>
+</table>
+<hr>
+<!-- Uncomment at revision 291
+<h3>Werewolves' Course</h3>
+<p>
+    The entrance to this course is located in the haunted woods just west of Canafis, in Morytania. You will need level 60 agility to enter and be wearing the Ring of Charos. You can only get this ring after completing the Creature of Fenkenstrain quest. Once you enter this dungeon, the Werewolves' agility course is on the west side. When you start a lap, the wolf agility trainer will throw a stick for you to fetch on the other side of the pipe. During your lap, you need to pick it up. Hand over the stick to the wolf at the end of the coruse to get the bonus xp for a completed lap.
+</p>
+<img src="img/skillguides/agility/agility_werewolf.png">
+<p>
+    Move through the course in the order explained below:
+</p>
+<ul>
+    <li>Jump across the five stepping stones.</li>
+    <li>Jump over three hurdles.</li>
+    <li>Squeeze through one of the pipes.</li>
+    <li>Pick up the stick which will be around here.</li>
+    <li>Climb up the wall.</li>
+    <li>Take the Death Slide all the way down.</li>
+    <li>Hand over your stick to the wolf to finish</li>
+</ul>
+<p>
+    Congratulations on completing a whole lap! Be aware that you can fall off the death slide and be hit for damage to your health. It can hit upto 30 and will kill you if you don't have enough hits. The wolves warn you that the more wieght you are carrying, the more likely you will fall. Heres how the xp works for this course.
+</p>
+<table class="table">
+    <tr>
+        <th colspan="2">Werewolves' Agility Course</th>
+    </tr>
+    <tr>
+        <th>Obstacle</th>
+        <th>Xp Gained</th>
+    </tr>
+    <tr>
+        <td>Stepping stones</td>
+        <td>10 (x5)</td>
+    </tr>
+    <tr>
+        <td>Hurdle</td>
+        <td>20 (x3)</td>
+    </tr>
+    <tr>
+        <td>Pipe</td>
+        <td>15</td>
+    </tr>
+    <tr>
+        <td>Wall</td>
+        <td>25</td>
+    </tr>
+    <tr>
+        <td>Death Slide</td>
+        <td>200</td>
+    </tr>
+    <tr>
+        <th>Completed Lap</th>
+        <th>540</th>
+    </tr>
+</table>
+<br>
+<img src="img/skillguides/agility/agility_wolf_pics.jpg">
+<p>
+    You can play skullball on the East side of the dungeon. This game is for fun and isn't particularly useful for training. Simply put, you have to kick a skull through skeleton legs and go around the course in a clockwise direction. The faster you go around the course, the more agility xp you recieve at the end of the course. The maximum for one lap is 750 xp and it can be done quickly in around 2:30 mins.
+</p>
+<img src="img/skillguides/agility/skullball_pics.jpg">
+<hr>
+ -->
+<h3>Other Shortcuts</h3>
 <table class="table">
     <tr>
         <th>Level</th>
         <th>Obstacle</th>
-        <th>EXP</th>
+        <th>XP</th>
         <th>Info</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Ropeswing</td>
+        <td>3</td>
+        <td>This shortcut allows you to cross over from west Brimhaven to the moss giant island.</td>
     </tr>
     <tr>
         <td>5</td>
