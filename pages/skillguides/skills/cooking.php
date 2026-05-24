@@ -14,32 +14,32 @@ function getSkillContent($skill) { return <<<HTML
 	<br><br>
 	The table below will show you the foods you can cook, the level requirements to cook them, and how much each food heals. Clicking the item names in the table will take you to instructions for making that item, all of which are listed below the table.
 	<br><br>
-	<table cellpadding="1" cellspacing="0" class="table">
-		<tbody>
-			<tr> 
-			<th>Food</th>
-			<th>Cooking Level</th>
-			<th>Heals</th>
-			<th>Bites</th>
-			<th>Exp</th>
-			<th>Raw</th>
-			<th>Cooked</th>
-		</tr>
-		<tr> 
-			<td><a href="#meats">Cooked Meat</a></td>
-			<td>1</td>
-			<td>3</td>
-			<td>1</td>
-			<td>30</td>
-			<td><canvas itemname="raw_beef"></canvas></td>
-			<td><canvas itemname="cooked_meat"></canvas></td>
-		</tr>
-		<tr> 
-			<td><a href="#meats">Shrimp</a></td>
-			<td>1</td>
-			<td>3</td>
-			<td>1</td>
-			<td>30</td>
+    <table cellpadding="1" cellspacing="0" class="table">
+        <tbody>
+            <tr> 
+                <th>Food</th>
+                <th>Cooking Level</th>
+                <th>Heals</th>
+                <th>Bites</th>
+                <th>Exp</th>
+                <th>Raw</th>
+                <th>Cooked</th>
+            </tr>
+            <tr> 
+                <td><a href="#meats">Cooked Meat</a></td>
+                <td>1</td>
+                <td>3</td>
+                <td>1</td>
+                <td>30</td>
+                <td><canvas itemname="raw_beef"></canvas></td>
+                <td><canvas itemname="cooked_meat"></canvas></td>
+            </tr>
+            <tr> 
+                <td><a href="#meats">Shrimp</a></td>
+                <td>1</td>
+                <td>3</td>
+                <td>1</td>
+                <td>30</td>
 				<td><canvas itemname="raw_shrimp"></canvas></td>
 				<td><canvas itemname="shrimp"></canvas></td>
 			</tr>
@@ -129,7 +129,7 @@ function getSkillContent($skill) { return <<<HTML
 				<td>20</td>
 				<td>8</td>
 				<td>2</td>
-				<td>80</td>
+				<td>110</td>
 				<td><canvas itemname="uncooked_meat_pie"></canvas></td>
 				<td><canvas itemname="meat_pie"></canvas></td>
 			</tr>
@@ -174,7 +174,7 @@ function getSkillContent($skill) { return <<<HTML
 				<td>30</td>
 				<td>10</td>
 				<td>2</td>
-				<td>100</td>
+				<td>130</td>
 				<td><canvas itemname="uncooked_apple_pie"></canvas></td>
 				<td><canvas itemname="apple_pie"></canvas></td>
 			</tr>
@@ -291,7 +291,7 @@ function getSkillContent($skill) { return <<<HTML
 				<td>60</td>
 				<td>19</td>
 				<td>1</td>
-				<td>221</td>
+				<td>280</td>
 				<td><canvas itemname="uncooked_curry"></canvas></td>
 				<td><canvas itemname="curry"></canvas></td>
 			</tr>
