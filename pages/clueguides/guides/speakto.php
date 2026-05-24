@@ -24,10 +24,6 @@ function getGuideContent($guide) { return <<<HTML
     <td>Bandit's Camp in the Wilderness </td>
   </tr>
   <tr> 
-    <td>Citric Cellar</td>
-    <td>Heckel Funch in the Grand Tree, 2nd floor southeast path </td>
-  </tr>
-  <tr> 
     <td>Donovan </td>
     <td>Sinclair Mansion Second floor - North of Camelot and Seer's Village</td>
   </tr>
@@ -55,7 +51,7 @@ function getGuideContent($guide) { return <<<HTML
     <td>Hazelmere</td>
     <td> House on the green spiders island east of Yanille, second floor </td>
   </tr>
-<tr> 
+  <tr> 
     <td>Kangai Mau</td>
     <td>Inside the pub in Brimhaven</td>
   </tr>
@@ -107,7 +103,7 @@ function getGuideContent($guide) { return <<<HTML
     <td>Referee</td>
     <td>Gnome Stronghold in the Gnome-Ball course</td>
   </tr>
-<tr> 
+  <tr> 
     <td>Roavar</td>
     <td>In Canifis bar, Morytania</td>
   </tr>
@@ -119,7 +115,7 @@ function getGuideContent($guide) { return <<<HTML
     <td>Squire</td>
     <td>White Knights Castle in Falador</td>
   </tr>
-<tr> 
+  <tr> 
     <td>Staff in the Sinclair Mansion</td>
     <td>The mansion is north of Seers' Village and Camelot, speak to the Maid</td>
   </tr>
@@ -127,7 +123,7 @@ function getGuideContent($guide) { return <<<HTML
     <td>Tanner</td>
     <td>Tanner in Al Kharid, North of the furnace</td>
   </tr>
-<tr> 
+  <tr> 
     <td>Ulizius</td>
     <td>The monk at the gate of Mort Myre swamp</td>
   </tr>

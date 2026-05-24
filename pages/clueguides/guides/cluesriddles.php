@@ -84,7 +84,7 @@ function getGuideContent($guide) { return <<<HTML
   </tr>
   <tr>
     <td>Search the crates in the shed<br>just north of East Ardougne.</td>
-    <td>It's the building just north of the northern bank.</td>
+    <td>North of the NorthWest bank by the diseased sheep - Inside the building that the wood cutter used to be in.</td>
   </tr>
   <tr>
     <td>Search the drawers<br>above Varrock's shops.</td>
@@ -99,12 +99,100 @@ function getGuideContent($guide) { return <<<HTML
     <td>Go across the river. It's the first house there. (tavern?)</td>
   </tr>
   <tr>
-    <td>A crate found in the<br>tower of a church is<br>your next location.</td>
-    <td>Upstairs in the church of East Ardougne, check the crate in the corner.</td>
+    <td>The crate in the ground<br>floor of a church <br>is your next location</td>
+    <td>Ardougne church - Next to ladder</td>
   </tr>
   <tr>
     <td>Look in the ground floor<br>crates of houses in Falador.</td>
     <td>The house east of Falador east bank. First crate on right.</td>
+  </tr>
+  <tr>
+    <td>Search for a crate in Varrock Castle.</td>
+    <td>It's one of the crates in the kitchen.</td>
+  </tr>
+  <tr>
+    <td>Someone watching the fights in the Duel Arena is your next destination.</td>
+    <td>Talk to Jeed.</td>
+  </tr>
+  <tr>
+    <td>Dig near some giant mushrooms behind the Grand Tree.</td>
+    <td>Dig behind the large mushroom behind the Grand Tree in Gnome Stronghold. </td>
+  </tr>
+  <tr>
+    <td>Search for a crate in a building in Hemenster.</td>
+    <td>Simply search all crates in Hemenster (City between Fishing guild and Ranging guild.)</td>
+  </tr>
+  <tr>
+    <td>Search the crate near a cart in Port Khazard.</td>
+    <td>Search the crate south of where the Trawler starts.</td>
+  </tr>
+  <tr>
+    <td>Search the crates in Draynor Manor</td>
+    <td>Search all possible crates and boxes on the third floor in the room to the left of the professor and machine, north end of room, in Draynor Manor.</td>
+  </tr>
+  <tr>
+    <td>Search the boxes in one of the tents in Al Kharid.</td>
+    <td>Head east from the Silk trader into a tent.</td>
+  </tr>
+  <tr>
+    <td>Search the boxes in a shop in Taverley.</td>
+    <td>Two-handed sword shop.</td>
+  </tr>
+  <tr>
+    <td>One of the sailors in Port Sarim is your next destination.</td>
+    <td>Talk to Captain Tobias in Port Sarim.</td>
+  </tr>
+  <tr>
+    <td>Search through some drawers in the upstairs of a house in Rimmington.</td>
+    <td>Search drawers upstairs in the house just north of the one with a range in Rimmington.</td>
+  </tr>
+  <tr>
+    <td>Search the chests in the Dwarven Mine.</td>
+    <td>The small place across the hall from the General Store inside the mines.</td>
+  </tr>
+  <tr>
+    <td>Search the crates in a house in Yanille with a Piano.</td>
+    <td>As you enter Yanille, it should be the first building you come to that's adjacent to the north wall.</td>
+  </tr>
+  <tr>
+    <td>Search the drawers in a house in Draynor Village.</td>
+    <td>Crate, top floor of Draynor Manor, near Professor Oddenstein from the Ernest the Chicken quest.</td>
+  </tr>
+  <tr>
+    <td>Search the drawers on the first floor of a building overlooking the Ardougne market.</td>
+    <td>House north of Ardougne market; look upstairs (British 1st floor is upstairs; the bottom is the "ground floor").</td>
+  </tr>
+  <tr>
+    <td>Search the tents in the Imperial Guard camp in Burthorpe for some boxes.</td>
+    <td>South part of Burthorpe, the most Northwestern tent where the Imperial Guards are training. Search the boxes.</td>
+  </tr>
+  <tr>
+    <td>Search the drawers of houses in Burthorpe.</td>
+    <td>Drawers, house to the East of the blacksmith's house in Burthorpe.</td>
+  </tr>
+  <tr>
+    <td>Search the drawers in the ground floor of a house in Yanille.</td>
+    <td>Drawers, house to the East of the blacksmith's house in Burthorpe.</td>
+  </tr>
+  <tr>
+    <td>Search chests found in the upstairs of shops in Port Sarim.</td>
+    <td>Port Sarim Food Shop, upstairs.</td>
+  </tr>
+  <tr>
+    <td>Search the drawers in the upstairs of a house in Catherby.</td>
+    <td>House to the north west of the bank in Catherby.</td>
+  </tr>
+  <tr>
+    <td>Search upstairs in the houses of Seers' Village for some drawers.</td>
+    <td>Go to the small building north of the opening to the fence surrounding the church. Search the drawers on the second floor.</td>
+  </tr>
+  <tr>
+    <td>Search for a crate on the ground floor of a house in Seers' Village.</td>
+    <td>There's a house just south west of the house where you start the Elemental Workshop Quest. The crate is by the sink.</td>
+  </tr>
+  <tr>
+    <td>Search through some drawers found in Taverley's houses.</td>
+    <td>Eastern most circular house in the south west part of Taverley (just south of the Herblore Shop).</td>
   </tr>
 </table>
 <hr>
@@ -135,6 +223,30 @@ function getGuideContent($guide) { return <<<HTML
   <tr>
     <td>In a town where wizards are<br>known to gather, search<br>upstairs in a large<br>house to the north.</td>
     <td><span data-floors="US">2nd floor</span> of a house in Yanille - North of Magic Guild. You will need to kill a man to get a key for the chest.</td>
+  </tr>
+  <tr>
+    <td>Find a crate close to the monks that like to paaarty!</td>
+    <td>Search the crates in the building with monks south of Ardougne.</td>
+  </tr>
+  <tr>
+    <td>A town with a different sort of night-life is your destination.<br>Search for some crates in one of the houses.</td>
+    <td>In the clothes shop of Canifis, Morytania.</td>
+  </tr>
+  <tr>
+    <td>Go to the village being attacked by trolls, search the drawers in one of the houses.</td>
+    <td>Burthorpe, house with anvils up north. When you try to open the drawers it says "wait til I get my hands on Penda, he's nicked the key again." Go to pub in Burthorpe and kill Penda for key.</td>
+  </tr>
+  <tr>
+    <td>Search the upstairs drawers of a house in a village where pirates are known to have a good time.</td>
+    <td>Across the street from the bar in Brimhaven (2 houses south of Agility Arena, south of the house with a cooking pot symbol.) Go upstairs in that house and search the drawers. It will say "Shiver me timbers" and not allow you to open the chest. Kill the pirate near that house, he will drop a key. Use the key on the drawers.</td>
+  </tr>
+  <tr>
+    <td>In a village made of bamboo, look for some crates under one of the houses.</td>
+    <td>Karamja, in Tai Bwo Wannai, south of Brimhaven</td>
+  </tr>
+  <tr>
+    <td>Often examined by learners of what has past, find me where words of wisdom speak volumes.</td>
+    <td>Examiner at Digsite, always gives puzzle boxes</td>
   </tr>
 </table>
 <hr>
@@ -214,6 +326,46 @@ function getGuideContent($guide) { return <<<HTML
     <td>Generally speaking,<br>his nose was very bent.</td>
     <td>General Bentnoze in the Goblin Village- North of Falador</td>
   </tr>
+  <tr>
+    <td>There is no "worthier" lord.</td>
+    <td>Lord Eirworth in the Elf camp</td>
+  </tr>
+  <tr>
+    <td>Identify the back of this<br>over-acting brother.<br>(He's a long way from home.)</td>
+    <td>Hamid the monk by the Duel Arena altar</td>
+  </tr>
+  <tr>
+    <td>Mine was the strangest birth under the sun.<br>I left the crimson sack, yet life had not begun.<br>Entered the world, and yet was seen by none.</td>
+    <td>Lesser cave, Karamja volcano - pick up red spider eggs and dig.</td>
+  </tr>
+  <tr>
+    <td>When no weapons are at hand, then is the time to reflect. In Saradomin's name, redemption draws closer... </td>
+    <td>Entrana in a drawer in the house with a glass blowing pipe.</td>
+  </tr>
+  <tr>
+    <td>'Small shoe.' Often found with rod on mushroom.</td>
+    <td>Speak to the trainer in the Gnome Stronghold agility arena.</td>
+  </tr>
+  <tr>
+    <td>Must be full of railings.</td>
+    <td>Search the crate outside the house with the broken multicannon (near where you start the Dwarf Cannon quest.) It's the first crate to the west with the 'X' on it.</td>
+  </tr>
+  <tr>
+    <td>A great view - watch the rapidly drying hides get splashed. Check the box you are sitting on.</td>
+    <td>The house near Baxtorian Falls. Go upstairs and search the boxes.</td>
+  </tr>
+  <tr>
+    <td>Read 'How to breed scorpions.' by O.W.Thathurt.</td>
+    <td>Go to the <span data-floors="US">2nd floor</span> of the wizards tower south-southwest of the Seers' Village, search the bookcase on the northern wall. </td>
+  </tr>
+  <tr>
+    <td>This aviator is at the peak of his profession.</td>
+    <td>Speak to gnome pilot at the top of White Wolf Mountain.</td>
+  </tr>
+  <tr> 
+    <td>Citric Cellar</td>
+    <td>Speak to Heckel Funch in the Grand Tree, 2nd floor southeast path </td>
+  </tr>
 </table>
 <hr>
 <table class="table">
@@ -244,132 +396,10 @@ function getGuideContent($guide) { return <<<HTML
     <td>Stand by your man.</td>
     <td>Kill the level 2 Man downstairs to get a key.</td>
   </tr>
-  </table>
-</p>
-<!-- Unadded Clues/Riddles/Notes/Inscriptions
-  <tr>
-    <td>A great view - watch the rapidly drying hides get splashed. Check the box your say on.</td>
-    <td>The house near Baxtorian Falls. Go upstairs and search the boxes.</td>
-  </tr>
-  <tr>
-    <td>A town with a different sort of night life is your destination.<br>Search for some crates in one of the houses.</td>
-    <td>In the clothes shop of Canifis, Morytania.</td>
-  </tr>
   <tr>
     <td>City of thieves</td>
     <td>Ardougne</td>
   </tr>
-  <tr>
-    <td>Dig near some giant mushrooms behind the giant tree.</td>
-    <td>Dig behind the large mushroom behind the Grand Tree in Gnome Stronghold. </td>
-  </tr>
-  <tr>
-    <td>Find a crate close to the monk's that like to paaarty!</td>
-    <td>Search the crates in the building with monks south of Ardougne.</td>
-  </tr>
-  <tr>
-    <td>Go to a village being attacked by trolls, search the drawers in one of the houses.</td>
-    <td>Burthorpe, house with anvils up north. When you try to open the drawers it says "wait til I get my hands on Penda, he's nicked the key again." Go to pub in Burthorpe and kill Penda for key.</td>
-  </tr>
-  <tr>
-    <td>Identify the back of this<br>over-acting brother.<br>(He's a long way from home.)</td>
-    <td>Hamid the monk by the Duel Arena altar</td>
-  </tr>
-  <tr>
-    <td>In a village made of bamboo look for some crates under one of the houses.</td>
-    <td>Karamja, in Tai Bwo Wannai, south of Brimhaven</td>
-  </tr>
-  <tr>
-    <td>Must have lots of railings.<br>or<br>Must be full of railings.</td>
-    <td>Search the crate outside the house with the broken multicannon (near where you start the Dwarf Cannon quest.) It's the first crate to the west with the 'X' on it.</td>
-  </tr>
-  <tr>
-    <td>Mine was the strangest birth under the sun.<br>I left the crimson sack, yet life had not begun.<br>Entered the world yet seen by none.</td>
-    <td>Lesser cave, Karamja volcano - pick up red spider eggs and dig.</td>
-  </tr>
-  <tr>
-    <td>Often examined by learners of what has passed, find me where words of wisdom speak volumes.</td>
-    <td>Examiner at Digsite, always gives puzzle boxes</td>
-  </tr>
-  <tr>
-    <td>One of the sailors in Port Sarim is your next destination.</td>
-    <td>Talk to Captain Tobias in Port Sarim.</td>
-  </tr>
-  <tr>
-    <td>Read "How to breed scorpions" by O.W. Thathurt.</td>
-    <td>Go to the <span data-floors="US">2nd floor</span> of the wizards tower south-southwest of the Seer's Village, search the bookcase on the northern wall. </td>
-  </tr>
-  <tr>
-    <td>Search for a box in one of the tents in Al Kharid.</td>
-    <td>Head east from the Silk trader into a tent.</td>
-  </tr>
-  <tr>
-    <td>Search for a crate in Varrock Castle.</td>
-    <td>It's one of the crates in the kitchen.</td>
-  </tr>
-  <tr>
-    <td>Search for a crate in a building in Hemenster.</td>
-    <td>Simply search all crates in Hemenster (City between Fishing guild and Ranging guild.)</td>
-  </tr>
-  <tr>
-    <td>Search for some drawers in the upstairs of a house in Rimmington.</td>
-    <td>Search drawers upstairs in the house just north of the one with a range in Rimmington.</td>
-  </tr>
-  <tr>
-    <td>Search the boxes in a shop in Taverley.</td>
-    <td>Two-handed sword shop.</td>
-  </tr>
-  <tr>
-    <td>Search the chests in the dwarven mines.</td>
-    <td>The small place across the hall from the General Store inside the mines.</td>
-  </tr>
-  <tr>
-    <td>Search the crate near a cart in Port Khazard.</td>
-    <td>Search the crate south of where the Trawler starts.</td>
-  </tr>
-  <tr>
-    <td>Search the crates in Draynor Manor</td>
-    <td>Search all possible crates and boxes on the third floor in the room to the left of the professor and machine, north end of room, in Draynor Manor.</td>
-  </tr>
-  <tr>
-    <td>Search the crates in a house in Yanille with a Piano.</td>
-    <td>As you enter Yanille, it should be the first building you come to that's adjacent to the north wall.</td>
-  </tr>
-  <tr>
-    <td>Search the crates in the shed just north of east Ardougne.</td>
-    <td>North of the NorthWest bank by the diseased sheep - Inside the building that the wood cutter used to be in. </td>
-  </tr>
-  <tr>
-    <td>Search the drawers on the first floor of a building overlooking the Ardougne market.</td>
-    <td>House north of Ardougne market; look upstairs (British 1st floor is upstairs; the bottom is the "ground floor").</td>
-  </tr>
-  <tr>
-    <td>Search the drawers upstairs in a house in a village where the pirates have a good time.</td>
-    <td>Across the street from the bar in Brimhaven (2 houses south of Agility Arena, south of the house with a cooking pot symbol.) Go upstairs in that house and search the drawers. It will say "Shiver me timbers" and not allow you to open the chest. Kill the pirate near that house, he will drop a key. Use the key on the drawers.</td>
-  </tr>
-  <tr>
-    <td>"Small shoe" often found with rod on mushroom.</td>
-    <td>Speak to the trainer in the Gnome Stronghold agility arena.</td>
-  </tr>
-  <tr>
-    <td>Someone watching the fights in the Duel Arena is your next destination.</td>
-    <td>Talk to Jeed.</td>
-  </tr>
-  <tr>
-    <td>The crate in the ground<br>floor of a church <br>is your next location</td>
-    <td>Ardougne church - Next to ladder</td>
-  </tr>
-  <tr>
-    <td>There is no "worthier" lord.</td>
-    <td>Lord Eirworth in the Elf camp</td>
-  </tr>
-  <tr>
-    <td>This aviator is at the peak of his profession.</td>
-    <td>Speak to gnome pilot at the top of White Wolf Mountain.</td>
-  </tr>
-  <tr>
-    <td>When no weapons are at hand, now is the time to reflect in Saradomins name! redemption draws closer. </td>
-    <td>Entrana in a drawer in the house with a glass blowing pipe.</td>
-  </tr>
--->
+  </table>
+</p>
 HTML; }
