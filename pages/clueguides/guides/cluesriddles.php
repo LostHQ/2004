@@ -99,7 +99,7 @@ function getGuideContent($guide) { return <<<HTML
     <td>Go across the river. It's the first house there. (tavern?)</td>
   </tr>
   <tr>
-    <td>The crate in the ground<br>floor of a church <br>is your next location</td>
+    <td>A crate found in the ground<br>floor of a church is<br>your next location.</td>
     <td>Ardougne church - Next to ladder</td>
   </tr>
   <tr>
@@ -193,6 +193,14 @@ function getGuideContent($guide) { return <<<HTML
   <tr>
     <td>Search through some drawers found in Taverley's houses.</td>
     <td>Eastern most circular house in the south west part of Taverley (just south of the Herblore Shop).</td>
+  </tr>
+  <tr>
+    <td>Search through chests found in the upstairs of houses in eastern Falador.</td>
+    <td>Chest, upstairs in the house (the one with the range) North of the fountain in Eastern Falador.</td>
+  </tr>
+  <tr>
+    <td>Search the drawers upstairs of houses in the eastern part of Falador.</td>
+    <td>Drawers, upstairs in the first house East of the Mining Guild (the house South of the fountain) in Falador.</td>
   </tr>
 </table>
 <hr>
