@@ -6,15 +6,15 @@ function setMode(newMode) {
 const npcs = {
     "Man/Woman": { xp: 8, level: 1, npcname: "man" },
     "Digsite Workman": { xp: 10.4, level: 10, npcname: "digworkman1" },
-    "Farmer": { xp: 14.5, level: 10, npcname: "farmer1" },
+    Farmer: { xp: 14.5, level: 10, npcname: "farmer1" },
     "Warrior/Al Kharid warrior": { xp: 26, level: 25, npcname: "warrior_woman" },
-    "Rogue": { xp: 36.5, level: 32, npcname: "rogue" },
-    "Guard": { xp: 46.8, level: 40, npcname: "guard1" },
+    Rogue: { xp: 36.5, level: 32, npcname: "rogue" },
+    Guard: { xp: 46.8, level: 40, npcname: "guard1" },
     "Knight of Ardougne": { xp: 84.3, level: 55, npcname: "knight_of_ardougne" },
     "Yanille Watchman": { xp: 137.5, level: 65, npcname: "yanille_watchman" },
-    "Paladin": { xp: 151.8, level: 70, npcname: "paladin" },
-    "Gnome": { xp: 198.3, level: 75, npcname: "gnome" },
-    "Hero": { xp: 273.3, level: 80, npcname: "hero" },
+    Paladin: { xp: 151.8, level: 70, npcname: "paladin" },
+    Gnome: { xp: 198.3, level: 75, npcname: "gnome" },
+    Hero: { xp: 273.3, level: 80, npcname: "hero" },
 };
 
 const stalls = {
@@ -28,20 +28,20 @@ const stalls = {
 };
 
 const chests = {
-    "10 Coin Chest": { xp: 7.8, level: 1, itemname: ["coins",10] },
-    "Nature Rune Chest": { xp: 25, level: 28, itemname: ["naturerune",1] },
-    "50 Coin Chest": { xp: 125, level: 43, itemname: ["coins",50] },
-    "Steel Arrowtips Chest": { xp: 150, level: 47, itemname: ["steel_arrowheads",15] },
-    "Blood Rune Chest": { xp: 250, level: 59, itemname: ["bloodrune",1] },
-    "Ardougne Castle Chest": { xp: 500, level: 72, itemname: ["shark",1] },
+    "10 Coin Chest": { xp: 7.8, level: 1, itemname: ["coins", 10] },
+    "Nature Rune Chest": { xp: 25, level: 28, itemname: ["naturerune", 1] },
+    "50 Coin Chest": { xp: 125, level: 43, itemname: ["coins", 50] },
+    "Steel Arrowtips Chest": { xp: 150, level: 47, itemname: ["steel_arrowheads", 15] },
+    "Blood Rune Chest": { xp: 250, level: 59, itemname: ["bloodrune", 1] },
+    "Ardougne Castle Chest": { xp: 500, level: 72, itemname: ["shark", 1] },
 };
 
 const pickabledoors = {
     "Ross House Door": { xp: 15, level: 13 },
-    "Magic Axe Hut Door": { xp: 22.5, level: 23 },
+    "Magic Axe Hut Door": { xp: 22.5, level: 23, lockpick: true },
     "Ardougne Sewer Gate": { xp: 25, level: 31 },
     "Pirate Hideout Door": { xp: 35, level: 39, lockpick: true },
-    "Chaos Druid Tower Door": { xp: 37.5, level: 46, lockpick: true },
+    "Chaos Druid Tower Door": { xp: 37.5, level: 46 },
     "Ardougne Castle Door": { xp: 50, level: 61 },
     "Yanille Dungeon Door": { xp: 50, level: 82, lockpick: true },
 };
@@ -60,13 +60,17 @@ function runCalc() {
     switch (mode) {
         default:
         case "chests":
-            dataSet = chests; break;
+            dataSet = chests;
+            break;
         case "stalls":
-            dataSet = stalls; break;
+            dataSet = stalls;
+            break;
         case "npcs":
-            dataSet = npcs; break;
+            dataSet = npcs;
+            break;
         case "pickabledoors":
-            dataSet = pickabledoors; break;
+            dataSet = pickabledoors;
+            break;
     }
 
     for (const [source, data] of Object.entries(dataSet)) {
