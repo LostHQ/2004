@@ -25,7 +25,7 @@ $guildlist = array(
 );
 
 $minigameslist = array(
-    // "castlewars" => "Castle Wars",
+    //"castlewars" => "Castle Wars",
     "duelarena" => "Duel Arena",
     "fishingtrawler" => "Fishing Trawler",
     "gamesroom" => "Burthorpe Games Room",
