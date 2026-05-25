@@ -87,7 +87,7 @@ function runCalc() {
                     `<td>${data.level}</td>
                     <td>
                         <div class=centered-content>
-                            <canvas itemname="${item}" show-label="inline" name-append="x${data.qty}"></canvas>
+                            <canvas itemname="${item}" show-label="inline" name-append="&nbsp;x${data.qty}"></canvas>
                         </div>
                     </td>
                     <td>${data.xp}</td>

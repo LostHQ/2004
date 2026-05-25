@@ -123,7 +123,7 @@ function getPageContent() {
   <thead>
     <tr>
       <th onclick="sortTable()">Date ⬍</th>
-      <th>Description</th>
+      <th width="100%">Description</th>
     </tr>
   </thead>
   <tbody>
