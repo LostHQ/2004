@@ -644,7 +644,7 @@ clearAllEquipment();
 </table>
 <script>loadEquipInterfaceWithStats('equipment-interface-rangeoffence', 'equipment-interface-rangeoffence-stats', false,
     'robinhoodhat',
-    'zamorak_cape',
+    'cape_of_legends',
     'amulet_of_glory',
     'magic_shortbow',
     'black_dragonhide_body',
