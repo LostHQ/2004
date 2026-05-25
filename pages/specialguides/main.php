@@ -25,11 +25,10 @@ $guildlist = array(
 );
 
 $minigameslist = array(
-    // "agilityarena" => "Brimhaven Agility Arena",
     // "castlewars" => "Castle Wars",
-    //+ "duelarena" => "Duel Arena",
+    "duelarena" => "Duel Arena",
     "fishingtrawler" => "Fishing Trawler",
-    // "gamesroom" => "Burthorpe Games Room",
+    "gamesroom" => "Burthorpe Games Room",
     "gnomeball" => "Gnome Ball",
     "shadesofmort" => "Shades of Mort'ton"
 );
