@@ -29,7 +29,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <div data-progress>Go into the Carnillean Mansion, take the ladder at the back of the mansion down into the basement, and use your poison on the stove.</div>
 <br><br>
-<img src="img/questimages/hazeelcult1.jpg" width="200">
+<img src="img/questimages/hazeel/hazeelcult1.jpg" width="200">
 <br><br>
 <div data-progress>Climb back up, take the stairway, and talk to Philipe to find that you have <a href="https://www.youtube.com/watch?v=JpwTx4G2EAM" target="_blank">killed their dog</a>.</div>
 <br><br>
@@ -39,7 +39,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <div data-progress>Return to the cave and take the raft near Clivet. Follow the path to Alamone. Talk to him and he will tell you to find a magical scroll in the Carnillean mansion. Then, leave via the raft and climb out of the cave.</div>
 <br><br>
-<img src="img/questimages/hazeelcult2.jpg" width="200">
+<img src="img/questimages/hazeel/hazeelcult2.jpg" width="200">
 <br><br>
 <div data-progress>Return to the Carnillean mansion with your symbol still equipped. Talk to the butler on the <span data-floors="US">1st floor</span>.</div>
 <br><br>
@@ -49,7 +49,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <div data-progress>Go back into the cave and DO NOT TAMPER WITH THE SEWER VALVES. Take the raft back to Alamone with the scroll, and talk to him. He will start a ritual and summon Hazeel (level 296) back from the dead. Hazeel will thank you and reward you. Quest Complete.</div>
 <br><br>
-<img src="img/questimages/hazeelcult3.jpg" width="200">
+<img src="img/questimages/hazeel/hazeelcult3.jpg" width="200">
 <br><br>
 <b>Join Ceril</b><br>
 <div data-progress>Talk to Clivet but do not agree to anything he says.</div>
@@ -68,23 +68,23 @@ $questComplete
 <b>Valve Locations</b><br>
 1st Valve: South wall of Carnillean Mansion — turn right
 <br><br>
-<img src="img/questimages/hazeelcult4.jpg" width="350">
+<img src="img/questimages/hazeel/hazeelcult4.jpg" width="350">
 <br><br>
 2nd Valve: Directly south of the bridge — turn right
 <br><br>
-<img src="img/questimages/hazeelcult5.png" width="350">
+<img src="img/questimages/hazeel/hazeelcult5.png" width="350">
 <br><br>
 3rd Valve: Directly north of the cave entrance by fence — turn right
 <br><br>
-<img src="img/questimages/hazeelcult6.png" width="350">
+<img src="img/questimages/hazeel/hazeelcult6.png" width="350">
 <br><br>
 4th Valve: South of Ardougne Zoo — turn left
 <br><br>
-<img src="img/questimages/hazeelcult7.png" width="350">
+<img src="img/questimages/hazeel/hazeelcult7.png" width="350">
 <br><br>
 5th Valve: Follow the Zoo fence path south until iron rocks — turn right
 <br><br>
-<img src="img/questimages/hazeelcult8.png" width="350">
+<img src="img/questimages/hazeel/hazeelcult8.png" width="350">
 <hr>
 <span id="zombiemusiq"></span>
 <iframe width="450" height="253" src="https://www.youtube.com/embed/cIp8RSt7Mqc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

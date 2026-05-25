@@ -48,7 +48,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <div data-progress>Go to the house between the fence and the cliff, at the northwest corner of Edgeville, and talk to Oziach.</div>
 <br><br>
-<img src="img/questimages/dragonslayer4.png" width="450">
+<img src="img/questimages/dragonslayer/dragonslayer4.png" width="450">
 <br><br>
 <div data-progress>Ask him about Rune platebody, the Dragonfire Shield, and the map pieces. Be sure to exhaust every dialogue option. He should give you a key to Melzar's Maze.</div>
 <br><br>
@@ -66,7 +66,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <div data-progress>Head to Port Sarim, south of Falador. Enter the jail south of the food shop and find a goblin named Wormbrain.</div>
 <br><br>
-<img src="img/questimages/dragonslayer5.png">
+<img src="img/questimages/dragonslayer/dragonslayer5.png">
 <br><br>
 <div data-progress>If using Telegrab, kill him through the bars and telegrab the map piece that he drops. If you don't have at least 33 Magic after boosts, you will have to talk to him and pay him 10,000 coins.</div>
 <br><br>
@@ -82,7 +82,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <div data-progress>Head to Melzar's Maze, which is between the Crafting Guild and Rimmington, and use your key on the door.</div>
 <br><br>
-<img src="img/questimages/dragonslayer6.png" width="450">
+<img src="img/questimages/dragonslayer/dragonslayer6.png" width="450">
 <br><br>
 Inside, you will see multiple colored doors leading to ladders. You must go through the right sequence of doors to get to the end of the maze. Getting through the door is based on the monsters in the room.
 <br><br>
@@ -92,7 +92,7 @@ NOTE: Only one specific monster in the room will always give you a key, while th
 <br><br>
 <div data-progress>Kill ghosts until one drops an orange key. There are four doors on the Eastern side. In the picture below, the 3 north-eastern doors are visible. Go in the middle one, to the right of the bookshelf.</div>
 <br><br>
-<img src="img/questimages/dragonslayer7.png" width="450">
+<img src="img/questimages/dragonslayer/dragonslayer7.png" width="450">
 <br><br>
 <div data-progress>Kill skeletons until you get a yellow key. Use it on the most southwestern door. Follow the corridor and go down the 3 ladders to the basement until you reach zombies.</div>
 <br><br>
@@ -102,7 +102,7 @@ NOTE: Only one specific monster in the room will always give you a key, while th
 <br><br>
 <div data-progress>You will now face a lesser demon to obtain your final key. The lesser demon can be safespotted standing near the magenta door you just came through. Kill the Lesser Demon to get the green key. Use the key on the door.</div>
 <br><br>
-<img src="img/questimages/dragonslayer3.png" width="450">
+<img src="img/questimages/dragonslayer/dragonslayer3.png" width="450">
 <br><br>
 <div data-progress>Open and search the chest to get the last map piece. You must "click here to continue" before it can go into inventory. Use all map pieces on each other to form the full map.</div>
 <br><br>
@@ -123,13 +123,13 @@ NOTE: Only one specific monster in the room will always give you a key, while th
 <br><br>
 <div data-progress>After arriving, the ship will be damaged. Disembark and climb the hill. Follow the map below to reach the center of Crandor, avoiding the King Scorpions and Lesser Demons. Once you reach the top, enter the dungeon.</div>
 <br><br>
-<img src="img/questimages/dragonslayer2.png">
+<img src="img/questimages/dragonslayer/dragonslayer2.png">
 <br><br>
 <div data-progress>Inside, dodge the skeletons and walk deeper into the cave. Head south toward the Lesser Demons and look for a "secret" wall with an "Open" command. Your character will memorize this location for future access.</div>
 <br><br>
 Here is a picture of the wall:
 <br>
-<img src="img/questimages/dragonslayer1.png" width="450">
+<img src="img/questimages/dragonslayer/dragonslayer1.png" width="450">
 <br><br>
 NOTE: If you die during your fight with Elvarg and have unlocked this secret door, you do not need to repair Lady Lumbridge again. Take a boat to Musa Point and go to the Volcano. There is a rope into the Volcano, then the secret door is just north of the spiders. You can now try to defeat Elvarg again.
 <br><br>

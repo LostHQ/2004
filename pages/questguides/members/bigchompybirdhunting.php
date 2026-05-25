@@ -32,22 +32,22 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br>
 <div data-progress>Talk to Rantz who is southeast of Yanille.</div>
 <br><br>
-<img src="img/questimages/bigchomp1.png" height="300" width="200">
+<img src="img/questimages/bigchomp/bigchomp1.png">
 <br>
-<img src="img/questimages/bigchomp2.png" height="200" width="200">
+<img src="img/questimages/bigchomp/bigchomp2.png">
 <br><br>
 He will tell you to make some ogre arrows, 'stabbers'<br>
 which are arrows using an Achey Tree for shafts and Wolves bones for tips. You need normal feathers.
 <br><br>
 <div data-progress>First you will need your axe to cut down the Achey Trees. You will need about 10 logs to do the quest. Then take your knife and cut the logs like normal arrows.</div>
 <br><br>
-<img src="img/questimages/bigchomp3.png" height="250" width="200">
+<img src="img/questimages/bigchomp/bigchomp3.png">
 <br><br>
 <div data-progress>Then, add your feathers to the arrow shafts you made from the Achey logs.</div>
 <br><br>
 <div data-progress>Now for the tips, you have to kill a level 64 Wolf, they are just west of where you find Rantz, kill the wolf and pick up wolf bones.</div>
 <br><br>
-<img src="img/questimages/bigchomp4.png" height="200" width="250">
+<img src="img/questimages/bigchomp/bigchomp4.png">
 <br><br>
 <div data-progress>You will need 3-6 wolves to make enough arrows. You need at least 12-15 tips.</div>
 <br><br>
@@ -59,9 +59,9 @@ which are arrows using an Achey Tree for shafts and Wolves bones for tips. You n
 <br><br>
 <div data-progress>Now you will need to bait the Chompy Bird, go to the cave that is a bit north of Rantz, go in and talk to the 2 ogres in there, they are his sons.</div>
 <br><br>
-<img src="img/questimages/bigchomp5.png" height="250" width="250">
+<img src="img/questimages/bigchomp/bigchomp5.png">
 <br>
-<img src="img/questimages/bigchomp6.jpg" height="100" width="175">
+<img src="img/questimages/bigchomp/bigchomp6.jpg">
 <br><br>
 <div data-progress>When you finish talking to them, go search the Chest in the north west of the cave.</div>
 <br><br>
@@ -77,19 +77,19 @@ Note: If you lose your bow, you can buy another one from Rantz for 500 coins.
 <br><br>
 <div data-progress>Now if you didn't make extra arrows above, you will need more arrows so do the steps above again to make at least 5 arrows.</div>
 <br><br>
-<img src="img/questimages/bigchomp7.jpg" height="80" width="250">
+<img src="img/questimages/bigchomp/bigchomp7.jpg">
 <br><br>
 (here is a picture of the Bow and Arrows that you will need)
 <br><br>
 <div data-progress>Now get 3 more Toads as per above and drop them the same place as Rantz told you before. Walk away a few feet to allow the birds to get at the toads. The Chompy will fly down near the toads you placed there, shoot it. When it dies go pluck it.</div>
 <br><br>
-<img src="img/questimages/bigchomp8.png" height="250" width="200">
+<img src="img/questimages/bigchomp/bigchomp8.png">
 <br><br>
 <div data-progress>When you have plucked the Chompy, there will be raw Chompy Bird on the ground with some bones and some feathers, grab the feathers if you wish to make more arrows, and then take the raw Chompy Bird to Rantz.</div>
 <br><br>
 <div data-progress>Rantz will tell you that you have to cook the bird for him. He will also tell you how he wants it cooked, or what he wants on the cooked Chompy Bird and tells you to go ask his sons, too, for their food orders. Note the food items you need. The sons are still in the cave north of Rantz. The items needed varies each time between these food items: cabbage, tomato, potato, onion, equa leaves, or doogle leaves.</div>
 <br><br>
-<img src="img/questimages/bigchomp9.png" height="225" width="250">
+<img src="img/questimages/bigchomp/bigchomp9.png">
 <br><br>
 The food items can be found around the Ogre city area and around the area where Rantz is:
 <br>

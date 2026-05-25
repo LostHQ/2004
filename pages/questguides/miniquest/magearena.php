@@ -34,11 +34,11 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <div data-progress>Go north, cut the web and go west towards the arena. Enter the building north of the arena, cut the two webs and pull the lever.</div>
 <br><br>
-<img src="img/questimages/magearena1.jpg">
+<img src="img/questimages/magearena/magearena1.jpg">
 <br><br>
 It's a safe house down there and other players may not attack you. Down there is a Bank and a Rune Shop. The guy who sells runes is named Lundail, and the banker's name is Gundai.
 <br><br>
-<img src="img/questimages/magearena2.jpg">
+<img src="img/questimages/magearena/magearena2.jpg">
 <br>
 The 3 "x" points show where the 3 guys are.
 <br><br>
@@ -50,13 +50,13 @@ Remember that you can use Protection from Magic, but your Attack and Stregth go 
 <br><br>
 Here some of the monster images for Kolodion.
 <br><br>
-<img src="img/questimages/kolodion1.gif">
+<img src="img/questimages/magearena/kolodion1.gif">
 <br><br>
-<img src="img/questimages/kolodion2.gif">
+<img src="img/questimages/magearena/kolodion2.gif">
 <br><br>
-<img src="img/questimages/kolodion3.gif">
+<img src="img/questimages/magearena/kolodion3.gif">
 <br><br>
-<img src="img/questimages/kolodion4.gif">
+<img src="img/questimages/magearena/kolodion4.gif">
 <br><br>
 <div data-progress>Talk to Kolodion again and step into the pool. Talk to the Staff Seller and now choose the staff you want to use - do not buy it. You need to pray at a God statue - through the tunnel.</div>
 <br><br>
@@ -68,9 +68,9 @@ Here some of the monster images for Kolodion.
     </thead>
     <tbody>
         <tr>
-            <td><img src="img/questimages/magearena4.jpg"></td>
-            <td><img src="img/questimages/guthix.png"></td>
-            <td><img src="img/questimages/magearena3.jpg"></td>
+            <td><img src="img/questimages/magearena/magearena4.jpg"></td>
+            <td><img src="img/questimages/magearena/guthix.png"></td>
+            <td><img src="img/questimages/magearena/magearena3.jpg"></td>
         </tr>
     </tbody>
 </table>
@@ -93,7 +93,7 @@ Guthix Staff: Hits good and reduces Defence.
 <br>
 Saradomin Staff: Hits good and reduces Prayer.
 <br><br>
-<img src="img/questimages/magearena6.jpg">
+<img src="img/questimages/magearena/magearena6.jpg">
 <br>
 The 3 God Staffs each cost 80k at the shop
 <br><br>

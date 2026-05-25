@@ -46,17 +46,17 @@ The things you should bring on this (1st) trip:
 <br><br>
 <div data-progress>Wearing the pendant, go into the Temple of Ikov (located directly southeast of the Ranging Guild).</div>
 <br><br>
-<img src="img/questimages/ikov1.gif" height="200" width="375">
+<img src="img/questimages/ikov/ikov1.gif" height="200" width="375">
 <br><br>
 <div data-progress>Go down the ladder and head west through the temple and then down the stairs. Go to the back of this room, cut through the spider web, and pick up the Boots of Lightness*. Put them on, drop your knife and return up the stairs.</div>
 <br><br>
-<img src="img/questimages/ikov2.gif" height="200" width="300">
+<img src="img/questimages/ikov/ikov2.gif" height="200" width="300">
 <br><br>
 <div data-progress>Go north into the room with the skeletons in it, and head to the west side of this room (you will see a broken bridge). Before going over the bridge, MAKE SURE YOUR WEIGHT IS BELOW ZERO!!! If it's above zero you will fall in the lava, causing you 20 HP of damage. Once across the bridge, go into the room and grab the lever piece on the ground. Leave the temple and go back to the bank.</div>
 <br><br>
 (Note: If you are above 0 kg weight and fall into the lava, you can still grab the lever piece because you'll land on the opposite side of the lava bank. Climb up the ladder and you will be in hemenster. You will have to walk back to the temple again if this happens)
 <br><br>
-<img src="img/questimages/ikov3.gif" height="200" width="375">
+<img src="img/questimages/ikov/ikov3.gif" height="200" width="375">
 <hr>
 The things you should bring on this (2nd) trip:
 <br>
@@ -69,11 +69,11 @@ The things you should bring on this (2nd) trip:
 <br><br>
 <div data-progress>In the first area of the temple when you first climb down the ladder, there is a lever bracket on the wall. Use your lever piece on this, then pull the lever. That will unlock the south gate.</div>
 <br><br>
-<img src="img/questimages/ikov4.gif" height="200" width="300">
+<img src="img/questimages/ikov/ikov4.gif" height="200" width="300">
 <br><br>
 <div data-progress>Follow the path until you reach some chests, check every chest, eventually one will have some ice arrows in them. Keep checking the different chests until you have around 50. Remember, the arrows are always in random chests. Check every one of them—even the chest you just found the arrows in. The chests are in narrow offshoots of the main cavern. It is a long walk to get to the chests from the gate, so don't feel like you are lost. And don't expect the chests to be sitting out in the open, look on the minimap for the narrow offshoots from the main cavern.</div>
 <br><br>
-<img src="img/questimages/ikov5.gif" height="200" width="375">
+<img src="img/questimages/ikov/ikov5.gif" height="200" width="375">
 <br><br>
 <div data-progress>Leave the snowy area and go back to the bank.</div>
 <hr>
@@ -93,7 +93,7 @@ For your armor, I would suggest Dragon Hide, because it gives 30+ magic defence,
 <br><br>
 NOTE: If you do not kill him fast enough, he will stop the battle and tell you to come back when you have a better weapon. You can try again by simply trying to open the door again. Perhaps train your ranged skill some more or purchase a ranging pot. If you know a high level herbalist they will probably trade one for Dwarf Weed. This happened to my friend, and for her 2nd attempt, she merely un-equipped her rune armor and then killed him pretty easily.
 <br><br>
-<img src="img/questimages/ikov6.gif" height="200" width="300">
+<img src="img/questimages/ikov/ikov6.gif" height="200" width="300">
 <hr>
 The things you should bring on this (4th) trip:
 <br>
@@ -105,15 +105,15 @@ The things you should bring on this (4th) trip:
 <br><br>
 <div data-progress>Go down the ladder and back to where you killed Lesarkus the Fire Warrior. Go through the door he wouldn't let you through (you do not have to kill him again). You will see a witch named Winelda, talk to her—she will offer to teleport you across the lava in exchange for your limpwurt roots.</div>
 <br><br>
-<img src="img/questimages/ikov7.gif" height="200" width="350">
+<img src="img/questimages/ikov/ikov7.gif" height="200" width="350">
 <br><br>
 <div data-progress>Agree. Once over the lava, follow this path all the way to the end, past the room and the ladder, and you will see a shiny key on the ground.</div>
 <br><br>
-<img src="img/questimages/ikov8.gif" height="200" width="350">
+<img src="img/questimages/ikov/ikov8.gif" height="200" width="350">
 <br><br>
 <div data-progress>Pick it up, and return to the room with the guardians in it. The Staff is in the northwest corner, but first, you have to make a decision.</div>
 <br><br>
-<img src="img/questimages/ikov9.gif" height="200" width="300">
+<img src="img/questimages/ikov/ikov9.gif" height="200" width="300">
 <hr>
 <b>Side with the Guardians</b>
 <br><br>
@@ -121,7 +121,7 @@ The things you should bring on this (4th) trip:
 <br><br>
 <div data-progress>You will find yourself in a room just north of McGrubbor's Wood. Use your shiny key on the door and you should go through. Go to Varrock, and exit via the northeast exit, follow the wall surrounding the castle, west then south, and you will see a house with Lucien in it.</div>
 <br><br>
-<img src="img/questimages/ikov10.gif" height="200" width="350"><br>
+<img src="img/questimages/ikov/ikov10.gif" height="200" width="350"><br>
 <br>
 <div data-progress>Wearing your pendant attack him (he's only level 14). You will be rewarded once you kill him.</div>
 <hr>
