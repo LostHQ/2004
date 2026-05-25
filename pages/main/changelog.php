@@ -127,9 +127,9 @@ function getPageContent() {
     </tr>
   </thead>
   <tbody>
-    <tr><td>30/05/2026</td><td>Added Shades of Mort'ton mini-game to special guides</td></tr>
-    <tr><td>30/05/2026</td><td>Added <span class="tooltip">five new quests<span class="tooltip-text">Eadgar's Ruse, Fremmy Trials, Horror from the Deep, Regicide, Shades of Mort'ton, and Tai Bwo Wannai Trio</span></span> to Quests</td></tr> 
-    <tr><td>30/05/2026</td><td>Updated information across the site for <span class="tooltip">cache 274<span class="tooltip-text">5 new quests, faster agility, cooking and agility exp tweaks,<br>splitbark armor, more clue scrolls, games necklace, and more</span></span></td></tr>
+    <tr><td>24/05/2026</td><td>Added Shades of Mort'ton, Duel Arena, and Burthorpe Games Room mini-games to special guides</td></tr>
+    <tr><td>24/05/2026</td><td>Added <span class="tooltip">five new quests<span class="tooltip-text">Eadgar's Ruse, Fremmy Trials, Horror from the Deep, Regicide, Shades of Mort'ton, and Tai Bwo Wannai Trio</span></span> to Quests</td></tr> 
+    <tr><td>24/05/2026</td><td>Updated information across the site for <span class="tooltip">cache 274<span class="tooltip-text">5 new quests, faster agility, cooking and agility exp tweaks,<br>splitbark armor, more clue scrolls, games necklace, and more</span></span></td></tr>
     <tr><td>25/01/2026</td><td>Updated website to use a wider layout</td></tr>
     <tr><td>10/01/2026</td><td>Massive overhaul to the NPC database</td></tr>
     <tr><td>05/01/2026</td><td>Prettified quest guides with a shiny new scroll</td></tr>
