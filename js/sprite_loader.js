@@ -1,6 +1,6 @@
 const itemSpriteSize = 32;
 const itemSpritesPerRow = 64;
-const itemSpritesheetSrc = "/img/item_spritesheet.png";
+const itemSpritesheetSrc = `/img/item_spritesheet.png?v=${currentGameVer}`;
 let itemBitmap = null;
 let itemBitmapWidth = 0;
 let itemBitmapHeight = 0;
@@ -10,7 +10,7 @@ let itemData = {};
 
 const npcSpriteSize = 256;
 const npcSpritesPerRow = 32;
-const npcSpritesheetSrc = "/img/npc_spritesheet.png";
+const npcSpritesheetSrc = `/img/npc_spritesheet.png?v=${currentGameVer}`;
 let npcBitmap = null;
 let npcBitmapWidth = 0;
 let npcBitmapHeight = 0;

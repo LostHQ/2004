@@ -1,6 +1,6 @@
 let currentStyle = getCookie("style") || "default";
 let currentUsuk = getCookie("usuk") || "US";
-let currentGameVer = getCookie("gamever") || "254";
+let currentGameVer = getCookie("gamever") || "274";
 
 window.addEventListener("DOMContentLoaded", () => {
     const toggleBtn = document.getElementById("site-options-toggle");
@@ -45,6 +45,8 @@ window.addEventListener("DOMContentLoaded", () => {
     closeBtn.addEventListener("click", closeOptions);
 
     document.addEventListener("keydown", (e) => {
-        if (e.key === "Escape") { closeOptions(); }
+        if (e.key === "Escape") {
+            closeOptions();
+        }
     });
 });

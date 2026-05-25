@@ -27,7 +27,7 @@
                     <br><br>
                     <label>Game Version:<br>
                         <select id="gamever-select">
-                        <option value="254">2004 (rev. 254 latest)</option>
+                        <option value="274">2004 (rev. 274 latest)</option>
                         <option disabled>2005 (tbd)</option>
                         <option disabled>2006 (tbd)</option>
                         <option disabled>2007 (tbd)</option>
