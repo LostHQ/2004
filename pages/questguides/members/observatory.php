@@ -43,7 +43,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <div data-progress>Look through the telescope to see a constellation. Your prize depends on what you see and is RANDOM—which is very unfortunate if you get something like three cooked tunas... ahem, like I did. See the complete list of rewards below. You will automatically talk to the professor and finish the quest.</div>
 <br><br>
-<font color="red">NOTE:</font> If you want a different reward, click somewhere else while viewing the constellation. Then look through the telescope again until you get a constellation you want.</div>
+<font color="red">NOTE:</font> If you want a different reward, click somewhere else while viewing the constellation. Then look through the telescope again until you get a constellation you want.
 <br><br>
 <div data-progress>Once you find your way out, grab some wine from the assistant for fun. Then visit the Zamorak worship site to the northeast. As a special bonus for those who have completed the quest, you can get an unholy Zamorak symbol mould from the Spirit of Scorpius. (Congratulations—I now officially declare you done!)</div>
 <br><br>
