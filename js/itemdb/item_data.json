@@ -51474,6 +51474,16 @@
     "iops": {
       "iop2": "Wear",
       "iop5": "Drop"
+    },
+    "equipable_item": {
+      "wearpos": "legs",
+      "magicattack": -21,
+      "rangeattack": -7,
+      "stabdefence": 21,
+      "slashdefence": 20,
+      "crushdefence": 19,
+      "magicdefence": -4,
+      "rangedefence": 20
     }
   },
   {
@@ -51488,6 +51498,16 @@
     "iops": {
       "iop2": "Wear",
       "iop5": "Drop"
+    },
+    "equipable_item": {
+      "wearpos": "legs",
+      "magicattack": -21,
+      "rangeattack": -7,
+      "stabdefence": 21,
+      "slashdefence": 20,
+      "crushdefence": 19,
+      "magicdefence": -4,
+      "rangedefence": 20
     }
   },
   {
@@ -51502,6 +51522,16 @@
     "iops": {
       "iop2": "Wear",
       "iop5": "Drop"
+    },
+    "equipable_item": {
+      "wearpos": "legs",
+      "magicattack": -21,
+      "rangeattack": -7,
+      "stabdefence": 33,
+      "slashdefence": 31,
+      "crushdefence": 29,
+      "magicdefence": -4,
+      "rangedefence": 31
     }
   },
   {
@@ -51516,6 +51546,16 @@
     "iops": {
       "iop2": "Wear",
       "iop5": "Drop"
+    },
+    "equipable_item": {
+      "wearpos": "legs",
+      "magicattack": -21,
+      "rangeattack": -7,
+      "stabdefence": 33,
+      "slashdefence": 31,
+      "crushdefence": 29,
+      "magicdefence": -4,
+      "rangedefence": 31
     }
   },
   {
@@ -51530,6 +51570,16 @@
     "iops": {
       "iop2": "Wear",
       "iop5": "Drop"
+    },
+    "equipable_item": {
+      "wearpos": "legs",
+      "magicattack": -21,
+      "rangeattack": -7,
+      "stabdefence": 51,
+      "slashdefence": 49,
+      "crushdefence": 47,
+      "magicdefence": -4,
+      "rangedefence": 49
     }
   },
   {
@@ -51544,6 +51594,16 @@
     "iops": {
       "iop2": "Wear",
       "iop5": "Drop"
+    },
+    "equipable_item": {
+      "wearpos": "legs",
+      "magicattack": -21,
+      "rangeattack": -7,
+      "stabdefence": 51,
+      "slashdefence": 49,
+      "crushdefence": 47,
+      "magicdefence": -4,
+      "rangedefence": 49
     }
   },
   {
@@ -51558,6 +51618,16 @@
     "iops": {
       "iop2": "Wear",
       "iop5": "Drop"
+    },
+    "equipable_item": {
+      "wearpos": "legs",
+      "magicattack": -21,
+      "rangeattack": -7,
+      "stabdefence": 51,
+      "slashdefence": 49,
+      "crushdefence": 47,
+      "magicdefence": -4,
+      "rangedefence": 49
     }
   },
   {
@@ -51572,6 +51642,16 @@
     "iops": {
       "iop2": "Wear",
       "iop5": "Drop"
+    },
+    "equipable_item": {
+      "wearpos": "legs",
+      "magicattack": -21,
+      "rangeattack": -7,
+      "stabdefence": 51,
+      "slashdefence": 49,
+      "crushdefence": 47,
+      "magicdefence": -4,
+      "rangedefence": 49
     }
   },
   {
@@ -51586,6 +51666,16 @@
     "iops": {
       "iop2": "Wear",
       "iop5": "Drop"
+    },
+    "equipable_item": {
+      "wearpos": "legs",
+      "magicattack": -21,
+      "rangeattack": -7,
+      "stabdefence": 51,
+      "slashdefence": 49,
+      "crushdefence": 47,
+      "magicdefence": -4,
+      "rangedefence": 49
     }
   },
   {
@@ -51600,6 +51690,16 @@
     "iops": {
       "iop2": "Wear",
       "iop5": "Drop"
+    },
+    "equipable_item": {
+      "wearpos": "body",
+      "magicattack": -30,
+      "rangeattack": -10,
+      "stabdefence": 82,
+      "slashdefence": 80,
+      "crushdefence": 72,
+      "magicdefence": -6,
+      "rangedefence": 80
     }
   },
   {
@@ -51628,6 +51728,16 @@
     "iops": {
       "iop2": "Wear",
       "iop5": "Drop"
+    },
+    "equipable_item": {
+      "wearpos": "legs",
+      "magicattack": -21,
+      "rangeattack": -7,
+      "stabdefence": 51,
+      "slashdefence": 49,
+      "crushdefence": 47,
+      "magicdefence": -4,
+      "rangedefence": 49
     }
   },
   {
@@ -51656,6 +51766,16 @@
     "iops": {
       "iop2": "Wear",
       "iop5": "Drop"
+    },
+    "equipable_item": {
+      "wearpos": "legs",
+      "magicattack": -21,
+      "rangeattack": -7,
+      "stabdefence": 51,
+      "slashdefence": 49,
+      "crushdefence": 47,
+      "magicdefence": -4,
+      "rangedefence": 49
     }
   },
   {
@@ -51670,6 +51790,9 @@
     "iops": {
       "iop2": "Wear",
       "iop5": "Drop"
+    },
+    "equipable_item": {
+      "wearpos": "head"
     }
   },
   {
@@ -51698,6 +51821,9 @@
     "iops": {
       "iop2": "Wear",
       "iop5": "Drop"
+    },
+    "equipable_item": {
+      "wearpos": "shield"
     }
   },
   {
@@ -53397,7 +53523,7 @@
     "cost": 1,
     "weight": 0,
     "members": true,
-    "tradeable": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Move"
     }
@@ -53410,7 +53536,7 @@
     "cost": 1,
     "weight": 0,
     "members": true,
-    "tradeable": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Move"
     }
@@ -53423,7 +53549,7 @@
     "cost": 1,
     "weight": 0,
     "members": true,
-    "tradeable": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Move"
     }
@@ -53436,7 +53562,7 @@
     "cost": 1,
     "weight": 0,
     "members": true,
-    "tradeable": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Move"
     }
@@ -53449,7 +53575,7 @@
     "cost": 1,
     "weight": 0,
     "members": true,
-    "tradeable": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Move"
     }
@@ -53462,7 +53588,7 @@
     "cost": 1,
     "weight": 0,
     "members": true,
-    "tradeable": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Move"
     }
@@ -53475,7 +53601,7 @@
     "cost": 1,
     "weight": 0,
     "members": true,
-    "tradeable": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Move"
     }
@@ -53488,7 +53614,7 @@
     "cost": 1,
     "weight": 0,
     "members": true,
-    "tradeable": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Move"
     }
@@ -53501,7 +53627,7 @@
     "cost": 1,
     "weight": 0,
     "members": true,
-    "tradeable": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Move"
     }
@@ -53514,7 +53640,7 @@
     "cost": 1,
     "weight": 0,
     "members": true,
-    "tradeable": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Move"
     }
@@ -53527,7 +53653,7 @@
     "cost": 1,
     "weight": 0,
     "members": true,
-    "tradeable": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Move"
     }
@@ -53540,7 +53666,7 @@
     "cost": 1,
     "weight": 0,
     "members": true,
-    "tradeable": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Move"
     }
@@ -53553,7 +53679,7 @@
     "cost": 1,
     "weight": 0,
     "members": true,
-    "tradeable": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Move"
     }
@@ -53566,7 +53692,7 @@
     "cost": 1,
     "weight": 0,
     "members": true,
-    "tradeable": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Move"
     }
@@ -53579,7 +53705,7 @@
     "cost": 1,
     "weight": 0,
     "members": true,
-    "tradeable": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Move"
     }
@@ -53592,7 +53718,7 @@
     "cost": 1,
     "weight": 0,
     "members": true,
-    "tradeable": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Move"
     }
@@ -53605,7 +53731,7 @@
     "cost": 1,
     "weight": 0,
     "members": true,
-    "tradeable": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Move"
     }
@@ -53618,7 +53744,7 @@
     "cost": 1,
     "weight": 0,
     "members": true,
-    "tradeable": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Move"
     }
@@ -53631,7 +53757,7 @@
     "cost": 1,
     "weight": 0,
     "members": true,
-    "tradeable": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Move"
     }
@@ -53644,7 +53770,7 @@
     "cost": 1,
     "weight": 0,
     "members": true,
-    "tradeable": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Move"
     }
@@ -53657,7 +53783,7 @@
     "cost": 1,
     "weight": 0,
     "members": true,
-    "tradeable": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Move"
     }
@@ -53670,7 +53796,7 @@
     "cost": 1,
     "weight": 0,
     "members": true,
-    "tradeable": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Move"
     }
@@ -53683,7 +53809,7 @@
     "cost": 1,
     "weight": 0,
     "members": true,
-    "tradeable": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Move"
     }
@@ -53696,7 +53822,7 @@
     "cost": 1,
     "weight": 0,
     "members": true,
-    "tradeable": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Move"
     }
@@ -53709,7 +53835,7 @@
     "cost": 1,
     "weight": 0,
     "members": true,
-    "tradeable": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Move"
     }
@@ -53722,7 +53848,7 @@
     "cost": 1,
     "weight": 0,
     "members": true,
-    "tradeable": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Move"
     }
@@ -53735,7 +53861,7 @@
     "cost": 1,
     "weight": 0,
     "members": true,
-    "tradeable": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Move"
     }
@@ -53748,7 +53874,7 @@
     "cost": 1,
     "weight": 0,
     "members": true,
-    "tradeable": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Move"
     }
@@ -53761,7 +53887,7 @@
     "cost": 1,
     "weight": 0,
     "members": true,
-    "tradeable": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Move"
     }
@@ -53774,7 +53900,7 @@
     "cost": 1,
     "weight": 0,
     "members": true,
-    "tradeable": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Move"
     }
@@ -53787,7 +53913,7 @@
     "cost": 1,
     "weight": 0,
     "members": true,
-    "tradeable": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Move"
     }
@@ -53800,7 +53926,7 @@
     "cost": 1,
     "weight": 0,
     "members": true,
-    "tradeable": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Move"
     }
@@ -53813,7 +53939,7 @@
     "cost": 1,
     "weight": 0,
     "members": true,
-    "tradeable": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Move"
     }
@@ -53826,7 +53952,7 @@
     "cost": 1,
     "weight": 0,
     "members": true,
-    "tradeable": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Move"
     }
@@ -53839,7 +53965,7 @@
     "cost": 1,
     "weight": 0,
     "members": true,
-    "tradeable": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Move"
     }
@@ -53852,7 +53978,7 @@
     "cost": 1,
     "weight": 0,
     "members": true,
-    "tradeable": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Move"
     }
@@ -53865,7 +53991,7 @@
     "cost": 1,
     "weight": 0,
     "members": true,
-    "tradeable": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Move"
     }
@@ -53878,7 +54004,7 @@
     "cost": 1,
     "weight": 0,
     "members": true,
-    "tradeable": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Move"
     }
@@ -53891,7 +54017,7 @@
     "cost": 1,
     "weight": 0,
     "members": true,
-    "tradeable": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Move"
     }
@@ -53904,7 +54030,7 @@
     "cost": 1,
     "weight": 0,
     "members": true,
-    "tradeable": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Move"
     }
@@ -53917,7 +54043,7 @@
     "cost": 1,
     "weight": 0,
     "members": true,
-    "tradeable": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Move"
     }
@@ -53930,7 +54056,7 @@
     "cost": 1,
     "weight": 0,
     "members": true,
-    "tradeable": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Move"
     }
@@ -53943,7 +54069,7 @@
     "cost": 1,
     "weight": 0,
     "members": true,
-    "tradeable": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Move"
     }
@@ -53956,7 +54082,7 @@
     "cost": 1,
     "weight": 0,
     "members": true,
-    "tradeable": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Move"
     }
@@ -53969,7 +54095,7 @@
     "cost": 1,
     "weight": 0,
     "members": true,
-    "tradeable": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Move"
     }
@@ -53982,7 +54108,7 @@
     "cost": 1,
     "weight": 0,
     "members": true,
-    "tradeable": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Move"
     }
@@ -53995,7 +54121,7 @@
     "cost": 1,
     "weight": 0,
     "members": true,
-    "tradeable": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Move"
     }
@@ -54008,7 +54134,7 @@
     "cost": 1,
     "weight": 0,
     "members": true,
-    "tradeable": true,
+    "dummyitem": true,
     "iops": {
       "iop5": "Move"
     }
