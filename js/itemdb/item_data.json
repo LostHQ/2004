@@ -51792,7 +51792,14 @@
       "iop5": "Drop"
     },
     "equipable_item": {
-      "wearpos": "head"
+      "wearpos": "head",
+      "magicattack": -6,
+      "rangeattack": -2,
+      "stabdefence": 30,
+      "slashdefence": 32,
+      "crushdefence": 27,
+      "magicdefence": -1,
+      "rangedefence": 30
     }
   },
   {
@@ -51823,7 +51830,14 @@
       "iop5": "Drop"
     },
     "equipable_item": {
-      "wearpos": "shield"
+      "wearpos": "shield",
+      "magicattack": -8,
+      "rangeattack": -2,
+      "stabdefence": 44,
+      "slashdefence": 48,
+      "crushdefence": 46,
+      "magicdefence": -1,
+      "rangedefence": 46
     }
   },
   {
