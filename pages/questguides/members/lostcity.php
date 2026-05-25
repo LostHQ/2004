@@ -25,11 +25,11 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br>
 <div data-progress>Head to the forest south of Draynor untill you find several characters gathered around a campfire. Several of them won't talk to you, however the Warrior will. Trick him into revealing why they are camping here and what they are looking for. He tell you to find the tree a leprechaun is hiding in.</div>
 <br><br>
-<img src="img/questimages/lostcity1.png" height="300" width="350">
+<img src="img/questimages/lostcity/lostcity1.png" height="300" width="350">
 <br><br>
 <div data-progress>Directly west of the camp are a bunch of trees. Look for a tree that has the option "chop tree" instead of "chop down tree". When you attempt to chop it a leprechaun called Shamus will flee out of it. Run after him and ask him how you can find Zanaris. He'll tell you that you need a Dramen staff to enter the city.</div>
 <br><br>
-<img src="img/questimages/lostcity2.png" height="300" width="350">
+<img src="img/questimages/lostcity/lostcity2.png" height="300" width="350">
 <br><br>
 <div data-progress>Prepare yourself at Draynor bank for the fight with a level 101 spirit without armor or a weapon. Bring good food and runes or jewellery to teleport; otherwise you will have to teleport to level 32 wilderness.</div>
 <br><br>
@@ -45,13 +45,13 @@ Armor and items allowed on Entrana includes: jewellery, capes, robes, hats, poti
 <br><br>
 <div data-progress>Once on the Island go northeast to the bridge. Cross it and head west to the ladder. A Cave monk will warn you that once you go down the ladder, you can't go back up. The only exit will bring you to level 32 of the wilderness just north of the Boneyard.</div>
 <br><br>
-<img src="img/questimages/lostcity3.png" height="300" width="350">
+<img src="img/questimages/lostcity/lostcity3.png" height="300" width="350">
 <br><br>
 <div data-progress>Go down the ladder and kill zombies (level 25) until you get a Bronze axe.</div>
 <br><br>
 <div data-progress>Run past the Greater demons (level 92) into the room south of them. If you have a high combat level and plan on using melee on the spirit, you could kill Greater demons (level 92) to get better weapons and armor. When you attempt to cut down the Dramen tree a Tree spirit (level 101) will pop up, which you have to kill in order to cut branches from the tree.</div>
 <br><br>
-<img src="img/questimages/lostcity4.png" height="300" width="350">
+<img src="img/questimages/lostcity/lostcity4.png" height="300" width="350">
 <br><br>
 Strategy:
 <br><br>
@@ -59,15 +59,15 @@ Melee: Wield the bronze axe, drink a Prayer potion if needed, and turn on "Prote
 <br><br>
 Ranged and Magic: There is one safe spot in the room.
 <br><br>
-<img src="img/questimages/lostcity5.png" height="300" width="350">
+<img src="img/questimages/lostcity/lostcity5.png" height="300" width="350">
 <br><br>
 <div data-progress>Once you have killed the Tree spirit, chop the Dramon tree to get a Dramen branch. Use a knife on the branch to make the "Dramen staff".</div>
 <br><br>
-<img src="img/questimages/lostcity8.gif" height="100" width="100">
+<img src="img/questimages/lostcity/lostcity8.gif" height="100" width="100">
 <br><br>
 <div data-progress>Teleport out or head into the room with the Greater demons to use the Magic door that brings you to level 32 of the wilderness just north of the Boneyard.</div>
 <br><br>
-<img src="img/questimages/lostcity6.png" height="300" width="350">
+<img src="img/questimages/lostcity/lostcity6.png" height="300" width="350">
 $questComplete
 <span id="zombiemusiq"></span>
 <iframe width="450" height="253" src="https://www.youtube.com/embed/9tmB1Gz4y3M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

@@ -30,11 +30,11 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h3>Instructions:</h3>
 <div data-progress>Go to the house southwest of the bank in Seers' Village.</div>
 <br><br>
-<img src="img/questimages/elemental1.png">
+<img src="img/questimages/elemental/elemental1.png">
 <br><br>
 <div data-progress>Search the bookcase on the east wall.</div>
 <br><br>
-<img src="img/questimages/elemental2.png" width="450">
+<img src="img/questimages/elemental/elemental2.png">
 <br><br>
 <div data-progress>If you do not already have a knife, go to the house nearby and pick up a knife.</div>
 <br><br>
@@ -42,41 +42,41 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <div data-progress>Go to the building north, which has an anvil in it, and use the key on the Odd Looking Wall. Then go down the stairs.</div>
 <br><br>
-<img src="img/questimages/elemental4.png">
+<img src="img/questimages/elemental/elemental4.png">
 <br><br>
 A map of the places for some of the next steps:
 <br><br>
-<img src="img/questimages/elemental5.png">
+<img src="img/questimages/elemental/elemental5.png">
 <br><br>
 <div data-progress>When you're in, go down the west path and try to mine a rock. You will be attacked by a level 35 Earth Elemental. Kill the Earth Elemental, and it will drop an Elemental Ore — pick it up.</div>
 <br><br>
-<img src="img/questimages/elemental6.png">
+<img src="img/questimages/elemental/elemental6.png">
 <br><br>
 <div data-progress>Now go to the north passage from where you came in. Turn the east valve then the west valve to make the waterwheel move. Then pull the lever.</div>
 <br><br>
-<img src="img/questimages/elemental7.png">
+<img src="img/questimages/elemental/elemental7.png">
 <br><br>
 <div data-progress>After that, search all the crates (you only need to search each crate once) for a Stone Bowl; as well as Leather and Needle, if you do not have them already. The location is different for each player. When you find all the items needed, go down the south passage.</div>
 <br><br>
 <div data-progress>After that, go to the east passage and fix the bellows. This is where the Leather, Thread, and Needle come in.</div>
 <br><br>
-<img src="img/questimages/elemental8.png">
+<img src="img/questimages/elemental/elemental8.png">
 <br><br>
-<img src="img/questimages/elemental13.png">
+<img src="img/questimages/elemental/elemental13.png">
 <br><br>
 <div data-progress>Use the bowl on the lava, and you will get a Stone Bowl filled with lava. Then use the bowl with lava in it on the furnace.</div>
 <br><br>
-<img src="img/questimages/elemental9.png">
+<img src="img/questimages/elemental/elemental9.png">
 <br><br>
 <div data-progress>Go back to the bellows and pull the switch.</div>
 <br><br>
 <div data-progress>Go back to the furnace and use your Elemental Ore and 4 Coal on the furnace.</div>
 <br><br>
-<img src="img/questimages/elemental10.gif">
+<img src="img/questimages/elemental/elemental10.gif">
 <br><br>
 <div data-progress>Then go back to the center and use your Elemental Metal on the workbench. You will need to have the Battered Book in your inventory to make the shield, or it will tell you that you need instructions.</div>
 <br><br>
-<img src="img/questimages/elemental11.png">
+<img src="img/questimages/elemental/elemental11.png">
 <br><br>
 <div data-progress>When you've made the Elemental Shield, you've completed the quest.</div>
 <br><br>

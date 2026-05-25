@@ -55,9 +55,9 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 </div>
 <br><br>
 This is what it says:<br>
-<img src="/img/questimages/death_plateau_1.png"><br><br>
+<img src="/img/questimages/death_plateau/death_plateau_1.png"><br><br>
 This is the solution:<br>
-<img src="/img/questimages/death_plateau_2.png"><br><br>
+<img src="/img/questimages/death_plateau/death_plateau_2.png"><br><br>
 <br><br>
 <div data-progress>
     Go back and speak to Denulth so you know what you need to do for the rest of the quest.<br>

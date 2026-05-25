@@ -79,11 +79,11 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <div data-progress>Head to any Kharazi Jungle Entrance south of Shilo Village and talk to any Forester outside the jungle wall. He says that if you show him something impressive, he will give you a "special item."</div>
 <br><br>
-<img src="img/questimages/legends1.jpg" height="325" width="450">
+<img src="img/questimages/legends/legends1.jpg" height="325" width="450">
 <br><br>
 <div data-progress>Cut your way into the impressive jungle wall using a Machete and a hatchet. Do not forget the Radimus Notes.</div>
 <br><br>
-<img src="img/questimages/legends2.gif" height="450" width="450">
+<img src="img/questimages/legends/legends2.gif" height="450" width="450">
 <br><br>
 Random enemies you may encounter include the Jungle Savage (Lvl 90), Jungle Wolf (Lvl 64), and the chicken-like Oomlie Bird (Lvl 46).
 <br><br>
@@ -97,7 +97,7 @@ Random enemies you may encounter include the Jungle Savage (Lvl 90), Jungle Wolf
 <br><br>
 This is the first level of the dungeon.
 <br>
-<img src="img/questimages/legends3.jpg" height="450" width="450">
+<img src="img/questimages/legends/legends3.jpg" height="450" width="450">
 <br><br>
 <div data-progress>You will see a guy trapped in an octagonal fire wall. Investigate the flames and talk to Ungadulu; he will tell you that only Holy Water will douse the flames. Return to the surface and call Gujuo.</div>
 <br><br>
@@ -113,7 +113,7 @@ This is the first level of the dungeon.
 <br><br>
 <div data-progress>Head back into the cavern and douse the flame; search the desk and find the Shaman's Tome. Read it, but it does not help much. Now talk to Ungadulu. There's something wrong with him. He will throw you out of the octagon and reduce your Prayer stat.</div>
 <br><br>
-<img src="img/questimages/legends4.jpg" height="450" width="450">
+<img src="img/questimages/legends/legends4.jpg" height="450" width="450">
 <br><br>
 <div data-progress>Search the northeast bookcase and enter.</div>
 <br><br>
@@ -159,7 +159,7 @@ This is the first level of the dungeon.
 <br><br>
 This is the second level of the dungeon.
 <br>
-<img src="img/questimages/legends5.jpg" height="450" width="450">
+<img src="img/questimages/legends/legends5.jpg" height="450" width="450">
 <br><br>
 <div data-progress>Take the strange looking blue hat on the ground. A Ghost named Viyeldi will appear. Talk to him.</div>
 <br><br>

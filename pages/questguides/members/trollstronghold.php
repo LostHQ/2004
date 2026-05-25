@@ -58,9 +58,9 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
     Once you go so far, you will see a group of thrower trolls, turn protect from missiles on and run by.
 </div>
 <br><br>
-<img src="/img/questimages/trollstronghold_1.png" width="400">
+<img src="/img/questimages/trollstronghold/trollstronghold_1.png" width="400">
 <br><br>
-<img src="/img/questimages/trollstronghold_2.png" width="400">
+<img src="/img/questimages/trollstronghold/trollstronghold_2.png" width="400">
 <br><br>
 <div data-progress>
     Enter the next area, it looks like a troll market place.<br>
@@ -71,7 +71,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
     Go all the way South and once you see a wooden door walk inside and prepare for a major fight... kill one of the troll generals.
 </div>
 <br><br>
-<img src="/img/questimages/trollstronghold_3.png" width="400">
+<img src="/img/questimages/trollstronghold/trollstronghold_3.png" width="400">
 <br><br>
 <div data-progress>
     Before you go in, turn on protect from melee, then charge in, if you don't turn protect from melee on, you will be hit.... hard....it hit me with a 44,<br>
@@ -79,7 +79,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
     Outside of the area each general is in, there is a safe spot to range or mage, just stay out of the inner part (its out of their wander zone)<br>
 </div>
 <br><br>
-<img src="/img/questimages/trollstronghold_4.png" width="400">
+<img src="/img/questimages/trollstronghold/trollstronghold_4.png" width="400">
 <br><br>
 <div data-progress>
     Once you have killed it quickly grab a key that he drops, (hurry one second spawn rate)
@@ -91,7 +91,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
     Follow Godric and Mad Eadgar outside.
 </div>
 <br><br>
-<img src="/img/questimages/trollstronghold_5.png" width="400">
+<img src="/img/questimages/trollstronghold/trollstronghold_5.png" width="400">
 <br><br>
 <div data-progress>
     You will appear at a secret entrance, which you can re-enter for reasons of your own.<br>

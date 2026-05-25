@@ -28,7 +28,7 @@ Almera's house is on top.<br>
 Hadley's house is in the bottom left corner.<br>
 The grave is the grey circle place with a walk way to the circle.<br>
 <br>
-<img src="img/questimages/waterfall1.png">
+<img src="img/questimages/waterfall/waterfall1.png">
 <br><br>
 <div data-progress>Talk to Almera in her house and she will tell you her son is looking for treasure at the waterfall. There is a raft behind the house. Get on it, and it will take you downstream.</div>
 <br><br>
@@ -44,7 +44,7 @@ Note: Climbing the dead tree at the top of the waterfall deals 8 damage, and ope
 <br><br>
 <div data-progress>Go to Gnome Village, not Gnome Stronghold. Go through the maze and reach the cave. (Use the maze map below.)</div>
 <br><br>
-<img src="img/questimages/waterfall2.png">
+<img src="img/questimages/waterfall/waterfall2.png">
 <br><br>
 Note: If you haven't already started or completed Tree Gnome Village, consider going inside to and talking to King Bolren start the quest. This allows you to use Elkoy's shortcut for future use.
 <br><br>

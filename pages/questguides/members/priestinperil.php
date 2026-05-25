@@ -26,19 +26,19 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br>
 <div data-progress>Start by talking to King Roald in Varrock Palace. He tells you that contact has been lost with the temple and wants you to go and check it out for him.</div>
 <br><br>
-<img src="img/questimages/priest1.png" width="450">
+<img src="img/questimages/priest/priest1.png" width="450">
 <br><br>
 <div data-progress>The temple is located East of the Palace. Open the Gate and follow the trail to the temple. Knock on the door by right clicking on the door and clicking knock on. He will ask you if you will to help him by killing the dog. Tell him you will.</div>
 <br><br>
-<img src="img/questimages/priest2.png" width="450">
+<img src="img/questimages/priest/priest2.png" width="450">
 <br><br>
 <div data-progress>Go down the dungeon entrance that is shown on the map to the north. Kill the Temple guardian Dog in the room.</div>
 <br><br>
-<img src="img/questimages/priest3.png" width="450">
+<img src="img/questimages/priest/priest3.png" width="450">
 <br><br>
 Here is a picture of the Dungeon:
 <br><br>
-<img src="img/questimages/priest4.png">
+<img src="img/questimages/priest/priest4.png">
 <br><br>
 <div data-progress>Go back and knock on the door again. He will act very strange. He suggests you talk to King Roald.</div>
 <br><br>
@@ -48,7 +48,7 @@ Here is a picture of the Dungeon:
 <br><br>
 <div data-progress>Go to the 3rd floor and talk to Drezel through cell door. Ask him to tell you about the Holy River. He will tell you how Sardomin made the river unpassable to all who were evil. He says that the river may not protect them again and asks you to help make it protect the lands again. He will tell you to get him out of the cell, incapacitate the vampire, and help fix the holy river.</div>
 <br><br>
-<img src="img/questimages/priest5.png" width="450">
+<img src="img/questimages/priest/priest5.png" width="450">
 <br><br>
 <div data-progress>Go back to the dungeon and go through the gate. Study the monuments. When you find a monument with an iron key in it, trade the golden key for it.</div>
 <br><br>
@@ -64,7 +64,7 @@ Here is a picture of the Dungeon:
 <br><br>
 Note: You MUST bring unnoted essence or he will not accept it.
 <br><br>
-<img src="img/questimages/priest6.png" width="450">
+<img src="img/questimages/priest/priest6.png" width="450">
 <br><br>
 <div data-progress>You have now completed the quest, talk to the priest again and he will tell you about the underworld beyond the rift which will take you to a new land.</div>
 $questComplete

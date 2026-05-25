@@ -19,11 +19,11 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 </div>
 <h3>Instructions:</h3>
 <br>
-<img src="img/questimages/mystery1.jpg" height="150" width="150">
+<img src="img/questimages/mystery/mystery1.jpg" height="150" width="150">
 <br><br>
 <div data-progress>Talk to the guard near the gate of Sinclair Mansion, north of Seers' Village, and tell him you'll help them find the culprit.</div>
 <br><br>
-<img src="img/questimages/mystery2.jpg" height="200" width="300">
+<img src="img/questimages/mystery/mystery2.jpg" height="200" width="300">
 <br><br>
 <div data-progress>Go to the room with all the evidence, including the Criminal's Dagger, and pick up the Pungent Pot. While you're there, you can also investigate the smashed window for the Criminal's Thread and pick up the Criminal's Dagger, though you won't need them just yet.</div>
 <br><br>
@@ -31,7 +31,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <div data-progress>Talk to one of the gossips and find out everything they know. They should mention the Sinclairs buying poison.</div>
 <br><br>
-<img src="img/questimages/mystery3.jpg" height="150" width="150">
+<img src="img/questimages/mystery/mystery3.jpg" height="150" width="150">
 <br><br>
 <div data-progress>Go south, just slightly east of the Seers' Village bank, and talk to the Poison Salesman. Ask him about the sale that he made with the entire Sinclair family. Show the Poison Salesman the Pungent Pot, and he'll recognize the smell as his Multi-Purpose Poison.</div>
 <br><br>
@@ -39,17 +39,17 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <div data-progress>Investigate each of the areas they said they cleaned. One of them will not show any signs of poison use. This is where the quest gets interesting—there are six possible outcomes.</div>
 <br><br>
-<img src="img/questimages/mystery5.jpg" height="200" width="300">
+<img src="img/questimages/mystery/mystery5.jpg" height="200" width="300">
 <br><br>
 <div data-progress>The person who didn't use their poison is the culprit, but you'll need more evidence. Go to the room with the evidence and pick up the dagger. Then, investigate the window to find a thread. This thread is the same color as the trousers of your culprit.</div>
 <br><br>
-<img src="img/questimages/mystery4.jpg" height="200" width="300">
+<img src="img/questimages/mystery/mystery4.jpg" height="200" width="300">
 <br><br>
 <div data-progress>Now search for the barrel belonging to the suspect whose pants match the color of the thread. Some of them are upstairs, but two of them are downstairs. You should find an item that belongs to that person in their barrel, which you'll use to collect their fingerprints.</div>
 <br><br>
 <div data-progress>Go to the room just west of the cook's room, where you should see two sacks. Search them to find flypaper—you'll need two sheets.</div>
 <br><br>
-<img src="img/questimages/mystery6.jpg" height="200" width="300">
+<img src="img/questimages/mystery/mystery6.jpg" height="200" width="300">
 <br><br>
 <div data-progress>Fill your pot with flour from the Barrel of Flour in the cook's room (or from another source if preferred). Pour the flour on the Criminal's Dagger, then use the dagger on the flypaper. You'll obtain an unidentified fingerprint.</div>
 <br><br>

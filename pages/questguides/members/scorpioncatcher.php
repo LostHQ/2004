@@ -22,7 +22,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
     </div>
 <h3>Instructions:</h3>
 <br>
-<img src="img/questimages/scorp1.png" height="200" width="200">
+<img src="img/questimages/scorp/scorp1.png">
 <br><br>
 <div data-progress>Speak to Thormac. He tells you that he has lost his scorpions and wants you to get them back. He will give you a cage and tell you that the Seer in Seers Village could help you in locating them. You don't have to go back to the Seer every time in RS2, but I recommend it so you get the full experience of the quest.</div>
 <hr>
@@ -32,9 +32,9 @@ First Scorpion
 <br><br>
 <div data-progress>Go to the bank and get out armor, a weapon, the Dragonfire Shield, an antipoison potion, the scorpion cage, a Dusty Key if you already have it, and food. Head to Taverley and go South. If you are a low combat level you might want to save your energy so you can run past higher-level creatures in the dungeon.</div>
 <br><br>
-<img src="img/questimages/scorp2.png" height="200" width="200">
+<img src="img/questimages/scorp/scorp2.png">
 <br>
-<img src="img/questimages/scorp3.png" height="200" width="200">
+<img src="img/questimages/scorp/scorp3.png">
 <br><br>
 <div data-progress>Proceed to the part of the dungeon with the Poison Scorpions. If you need the Dusty Key, instead of going across the bridge to the Chaos Dwarf island continue down the little path to the area with a lot of Black Knights.</div>
 <br><br>
@@ -42,25 +42,25 @@ First Scorpion
 <br><br>
 <div data-progress>Run past the Blue Dragons if you need to and then continue until you get to Black Demo ns. Run past them and go into an area with Poison Spiders. Look for a wall you can push and come to a room with the scorpion. Use the cage with the scorpion and you've got the first scorpion.</div>
 <br><br>
-<img src="img/questimages/scorp4.png" height="200" width="200">
+<img src="img/questimages/scorp/scorp4.png">
 <hr>
 Second Scorpion
 <br><br>
 <div data-progress>Run out of the dungeon and go to the bank and withdraw about 268 gp. The next scorpion is in the Barbarian Outpost. Go west and then north to get to the waterfall. Head north of here and you will find the Outpost. Try to open the gate and a barbarian will tell you only barbarians are allowed in. Tell him you are a barbarian and he will tell you to do the barcrawl.</div>
 <br><br>
-<img src="img/questimages/scorp5.png" height="200" width="200">
+<img src="img/questimages/scorp/scorp5.png">
 <br><br>
 <div data-progress>If you haven't already, complete the <a href="?p=questguides&quest=barcrawl">barcrawl</a>.</div>
 <br><br>
 <div data-progress>The barbarian will let you in and in the building just infront of the gate, the scorpion is wandering around.</div>
 <br><br>
-<img src="img/questimages/scorp8.png" height="200" width="200">
+<img src="img/questimages/scorp/scorp8.png">
 <hr>
 Third Scorpion
 <br><br>
 <div data-progress>The last scorpion is in the Monastery north of Falador. If you have the 31 Prayer, then go right away, go up the ladder and capture the scorpion. If not then train prayer and then go and get him.</div>
 <br><br>
-<img src="img/questimages/scorp9.png" height="200" width="200">
+<img src="img/questimages/scorp/scorp9.png">
 <br><br>
 <div data-progress>When you have all of the Scorpions, head back to the Wizard and he will give you your reward.</div>
 $questComplete

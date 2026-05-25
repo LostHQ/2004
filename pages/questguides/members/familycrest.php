@@ -50,13 +50,13 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h3>Starting Out:</h3>
 <div data-progress>Go to the little house southeast of the East bank in Varrock. You should find a man named Dimintheis.</div>
 <br>
-<img src="img/questimages/famcrest1.jpg"><img src="img/questimages/famcrest2.jpg"><br>
+<img src="img/questimages/famcrest/famcrest1.jpg"><img src="img/questimages/famcrest/famcrest2.jpg"><br>
 <br>
 <div data-progress>Talk to him about the family crest. You will need to talk to his sons who have the pieces of the crest. Do them in the order below.</div>
 <br>
 <hr>
 <h3>First Son:</h3>
-<img src="img/questimages/famcrest3.jpg"><img src="img/questimages/famcrest4.jpg">
+<img src="img/questimages/famcrest/famcrest3.jpg"><img src="img/questimages/famcrest/famcrest4.jpg">
 <br><br>
 <div data-progress>Talk to the Chef, who is located in a house just northeast of the Catherby bank. Talk to him, and he'll give you his piece of the crest if you provide the following cooked fish. Note: If you don't have a high enough Cooking or Fishing level, you can buy the fish instead.</div>
 <br>
@@ -74,11 +74,11 @@ Swordfish<br>
 <br>
 <div data-progress>Talk to this Nobleman and he will tell you that if you want his part of the crest you will need to give him a ruby ring and a ruby necklace made from the finest gold. He will tell you that a dwarf named Boot knows where to find the finest gold.</div>
 <br>
-<img src="img/questimages/famcrest5.jpg"><img src="img/questimages/famcrest6.jpg">
+<img src="img/questimages/famcrest/famcrest5.jpg"><img src="img/questimages/famcrest/famcrest6.jpg">
 <br><br>
 <div data-progress>Go talk to Boot who is in the Dwarven Mine. See the world map if you can't find Dwarven Mine. (Hint: it's north of Falador, down the ladder in a house on the Ice Mountain.) Boot can be found by going southwest. He will tell you where the finest gold is found. Bring a pickaxe, good armor, a good weapon, and probably some food as you will need to tank (or defeat, if you wish) two level 122 Hellhounds.</div>
 <br>
-<img src="img/questimages/famcrest7.jpg"><img src="img/questimages/famcrest9.jpg">
+<img src="img/questimages/famcrest/famcrest7.jpg"><img src="img/questimages/famcrest/famcrest9.jpg">
 <br><br>
 <div data-progress>The finest gold is found in a dungeon east of Ardougne. To make this easy, go to East Ardougne and head southeast. You will find a ladder surrounded by archways. Go down the ladder where you will meet some level 42 hobgoblins (you do not need to kill them). You can't access the finest gold directly; you'll need to pull several levers to activate the door. Go to where the door where the Hellhound is. Do the following steps to unlock the door where the gold is:
 </div>
@@ -94,7 +94,7 @@ Swordfish<br>
     <div data-progress>VII) Open the cage and mine 2 "perfect" ores. (Note: you may or may not have to kill them. Often times there is already someone killing them for range practice.)</div>
 </div>
 <br>
-<img src="img/questimages/famcrest10.jpg">
+<img src="img/questimages/famcrest/famcrest10.jpg">
 <br><br>
 <div data-progress>Use these gold nuggets on a furnace, and now you will have two gold bars. Get your two rubies, a ring mould, a necklace mould, and your two gold bars made from the finest gold. Use a bar on the furnace to make a ruby ring and a ruby necklace.</div>
 <br>
@@ -107,11 +107,11 @@ Swordfish<br>
 <br>
 <div data-progress>Once you have all of those items go to the Jolly Boar Inn. This is located northeast of Varrock. Check the world map if you can't find it (it's the large bar). Go inside and go to the southern end. On the <span data-floors="US">2nd floor</span> you will find, in a room, a wizard.</div>
 <br>
-<img src="img/questimages/famcrest11.jpg"><img src="img/questimages/famcrest12.jpg"><br>
+<img src="img/questimages/famcrest/famcrest11.jpg"><img src="img/questimages/famcrest/famcrest12.jpg"><br>
 <br>
 <div data-progress>He is the third son. Talk to him—he has been poisoned. Give him your cure poison potion and he will be cured. He will tell you all about the poison spiders, and about Chronozon (121) having his piece of the crest. He will tell you that in order to kill Chronozon you will need to cast all of the blast spells on him.</div>
 <br><br>
-<img src="img/questimages/edgedung.png">
+<img src="img/questimages/famcrest/edgedung.png">
 <br><br>
 <div data-progress>Now get all of the items mentioned in step 1 and go to Edgeville. Enter the dungeon, and deep inside you'll find a gate that can only be accessed on members' servers. (Examine the gates and eventually you will find one that says, "You can pass through this on members servers.") This gate is protected by a couple of aggressive skeletons. The members only area is known as the 'Wilderness Dungeon'.</div>
 <br><br>
@@ -121,7 +121,7 @@ Swordfish<br>
 <br><br>
 <div data-progress>Now you should be in a room with the Earth Obelisk and Chronozon (level 139). If he hasn't attacked you yet, initiate the fight. While you are killing him, you must successfully cast all of the Blast spells, just once. If you don't, he will regenerate. You can use prayers. Once you have killed him pick up the crest piece and get out! (Suggested method: Hide behind the pillar at the back of the cage, eliminate any Poison Spiders that attack you, cure your poison, and begin casting the Blast spells on Chronozon. He will not attack you from this position.)</div>
 <br><br>
-<img src="img/questimages/famcrest13.jpg">
+<img src="img/questimages/famcrest/famcrest13.jpg">
 <br><br>
 <hr>
 <h3>Finishing Up:</h3>
@@ -129,7 +129,7 @@ Swordfish<br>
 <br><br>
 Enhancing the Gauntlets: Go to any son and talk to him. He will enhance the gauntlets for you if you want.
 <br>
-<img src="img/questimages/famcrest11.png" width="450">
+<img src="img/questimages/famcrest/famcrest11.png" width="450">
 $questComplete
 This quest guide was written by Firkløver and gigakiller. Thanks to L3tHaL_LeAdA, Keystone, thehellkeeper, Your Homey 1, gypped, and DRAVAN for corrections.
 <br><br>
