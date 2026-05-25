@@ -1,12 +1,12 @@
 <?php
 function getSpecialGuide($currSpecialGuide) { return <<<HTML
 <h2>$currSpecialGuide</h2>
-In RuneScape, it's possible to change the color or effect of your text. Whether you're trying to buy a new weapon, or asking for help on a quest, the best way to make your message stand out is with colored text.
-<h3>Colors</h3>
-Note: All the color names must be typed in lower case or they will not work.
+In RuneScape, it's possible to change the colour or effect of your text. Whether you're trying to buy a new weapon, or asking for help on a quest, the best way to make your message stand out is with colored text.
+<h3>Colours</h3>
+Note: All the colour names must be typed in lower case or they will not work.
 <table class="table" width="100%">
     <tr>
-        <th colspan="4">Color Codes</th>
+        <th colspan="4">Colour Codes</th>
     </tr>
     <tr>
         <td><b>Code</b></td>
@@ -76,7 +76,7 @@ Note: All the effect names must be typed in lower case or they will not work.
     </tr> -->
 </table>
 <h3>Combinations</h3>
-You can have combinations of colors and text effects in your messages too. Colored text (cyan, green, purple, red, and white) can scroll, shake, slide, or wave. Flashing and glowing text effects may also have a scroll or wave effect added to them. When combining colors and effects, always have the color before the effect and do not put a space between the color colon and the first letter of the effect.
+You can have combinations of colours and text effects in your messages too. Coloured text (cyan, green, purple, red, and white) can scroll, shake, slide, or wave. Flashing and glowing text effects may also have a scroll or wave effect added to them. When combining colors and effects, always have the color before the effect and do not put a space between the color colon and the first letter of the effect.
 <table class="table" width="100%">
     <tr>
         <th colspan="4">Combination Codes</th>
