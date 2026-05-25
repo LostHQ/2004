@@ -3,11 +3,11 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
 <h2>$currSpecialGuide</h2>
 <b>Quick Links</b>
 <br>
-<a href="#defence-crush">Crush Defence</a> | <a href="#defence-stab">Stab Defence</a> | <a href="#defence-slash">Slash Defence</a><br>
-<a href="#defence-ranged">Ranged Defence</a> | <a href="#defence-magic">Magic Defence</a><br>
-<a href="#offence-crush">Crush Offence</a> | <a href="#offence-slashstab">Stab/Slash Offence</a><br>
-<a href="#offence-ranged">Ranged Offence</a> | <a href="#offence-magic">Magic Offence</a><br>
-<a href="#prayer">Prayer</a><br>
+<a href="#defence-crush">Crush Defence</a> | <a href="#defence-stab">Stab Defence</a> | <a href="#defence-slash">Slash Defence</a> | <a href="#defence-ranged">Ranged Defence</a> | <a href="#defence-magic">Magic Defence</a></td>
+<br>
+<a href="#offence-crush">Crush Offence</a> | <a href="#offence-stab">Stab Offence</a> | <a href="#offence-slash">Slash Offence</a> | <a href="#offence-ranged">Ranged Offence</a> | <a href="#offence-magic">Magic Offence</a></td>
+<br>
+<a href="#prayer">Prayer</a></td>
 <hr>
 <h3>Equipment Builder</h3>
 <p>Use this interactive equipment interface to experiment with different gear combinations. Click on any equipment slot to search for and equip different items!</p>
@@ -455,7 +455,7 @@ clearAllEquipment();
     'cape_of_legends',
     'amulet_of_glory',
     'dragon_mace',
-    'rune_platebody',
+    'dragon_chainbody',
     'dragon_sq_shield',
     'rune_platelegs',
     'steel_gauntlets',
@@ -495,7 +495,7 @@ clearAllEquipment();
     </tr>
     <tr>
         <td rowspan="2">Chest</td>
-        <td><canvas itemname="rune_platebody" show-label="inline"></canvas></td>
+        <td><canvas itemname="dragon_chainbody" show-label="inline"></canvas></td>
         <td>More General Defence</td>
     </tr>
     <tr>
@@ -535,21 +535,21 @@ clearAllEquipment();
     </tr>
 </table>
 <hr>
-<h3 id="offence-slashstab">Slash/Stab Offence</h3>
+<h3 id="offence-stab">Stab Offence</h3>
 <table>
     <td>
-        <div id="equipment-interface-stabslashoffence"></div>
+        <div id="equipment-interface-staboffence"></div>
     </td>
     <td>
-        <div id="equipment-interface-stabslashoffence-stats"></div>
+        <div id="equipment-interface-staboffence-stats"></div>
     </td>
 </table>
-<script>loadEquipInterfaceWithStats('equipment-interface-stabslashoffence', 'equipment-interface-stabslashoffence-stats', false,
-    'viking_helmet_slash',
+<script>loadEquipInterfaceWithStats('equipment-interface-staboffence', 'equipment-interface-staboffence-stats', false,
+    'viking_helmet_crush',
     'cape_of_legends',
     'amulet_of_glory',
     'dragon_longsword',
-    'rune_platebody',
+    'dragon_chainbody',
     'dragon_sq_shield',
     'rune_platelegs',
     'steel_gauntlets',
@@ -564,11 +564,7 @@ clearAllEquipment();
         <th>Description</th>
     </tr>
     <tr>
-        <td rowspan="2">Head</td>
-        <td><canvas itemname="viking_helmet_slash" show-label="inline"></canvas></td>
-        <td>+5 Slash Attack<br>+2 Strength</td>
-    </tr>
-    <tr>
+        <td>Head</td>
         <td><canvas itemname="viking_helmet_crush" show-label="inline"></canvas></td>
         <td>+3 Strength</td>
     </tr>
@@ -584,16 +580,16 @@ clearAllEquipment();
     <tr>
         <td>Neck</td>
         <td><canvas itemname="amulet_of_glory" show-label="inline"></canvas></td>
-        <td>+10 Stab/Slash Attack<br>+6 Strength Bonus<br>+3 Prayer Bonus</td>
+        <td>+10 Stab Attack<br>+6 Strength Bonus<br>+3 Prayer Bonus</td>
     </tr>
     <tr>
         <td>Weapon</td>
         <td><canvas itemname="dragon_longsword" show-label="inline"></canvas></td>
-        <td>+69 Slash Attack<br>+58 Stab Attack<br>+71 Strength Bonus</td>
+        <td>+58 Stab Attack<br>+71 Strength Bonus</td>
     </tr>
     <tr>
         <td rowspan="2">Chest</td>
-        <td><canvas itemname="rune_platebody" show-label="inline"></canvas></td>
+        <td><canvas itemname="dragon_chainbody" show-label="inline"></canvas></td>
         <td>More General Defence</td>
     </tr>
     <tr>
@@ -621,7 +617,101 @@ clearAllEquipment();
     <tr>
         <td rowspan="2">Gloves</td>
         <td><canvas itemname="steel_gauntlets"></canvas><canvas itemname="gauntlets_of_chaos"></canvas><canvas itemname="gauntlets_of_cooking"></canvas><canvas itemname="gauntlets_of_goldsmithing"></canvas><br>Any Family Crest Gauntlets</td>
-        <td rowspan="2">+2 Stab/Slash Attack<br>+2 Strength Bonus</td>
+        <td rowspan="2">+2 Stab Attack<br>+2 Strength Bonus</td>
+    </tr>
+    <tr>
+        <td><canvas itemname="klanks_gauntlets" show-label="inline"></canvas></td>
+    </tr>
+    <tr>
+        <td>Boots</td>
+        <td><canvas itemname="death_climbingboots" show-label="inline"></canvas></td>
+        <td>+2 Strength</td>
+    </tr>
+</table>
+<hr>
+<h3 id="offence-slash">Slash Offence</h3>
+<table>
+    <td>
+        <div id="equipment-interface-slashoffence"></div>
+    </td>
+    <td>
+        <div id="equipment-interface-slashoffence-stats"></div>
+    </td>
+</table>
+<script>loadEquipInterfaceWithStats('equipment-interface-slashoffence', 'equipment-interface-slashoffence-stats', false,
+    'viking_helmet_slash',
+    'cape_of_legends',
+    'amulet_of_glory',
+    'dragon_longsword',
+    'dragon_chainbody',
+    'dragon_sq_shield',
+    'rune_platelegs',
+    'steel_gauntlets',
+    'death_climbingboots',
+    null,
+    null
+);</script>
+<table class="table">
+    <tr>
+        <th>Slot</th>
+        <th>Item</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>Head</td>
+        <td><canvas itemname="viking_helmet_slash" show-label="inline"></canvas></td>
+        <td>+5 Slash Attack<br>+2 Strength</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Cape</td>
+        <td><canvas itemname="cape_of_legends" show-label="inline"></canvas></td>
+        <td>More General Defence</td>
+    </tr>
+    <tr>
+        <td><canvas itemname="zamorak_cape"></canvas><canvas itemname="guthix_cape"></canvas><canvas itemname="saradomin_cape"></canvas><br>God cape</td>
+        <td>More Magic Defence</td>
+    </tr>
+    <tr>
+        <td>Neck</td>
+        <td><canvas itemname="amulet_of_glory" show-label="inline"></canvas></td>
+        <td>+10 Slash Attack<br>+6 Strength Bonus<br>+3 Prayer Bonus</td>
+    </tr>
+    <tr>
+        <td>Weapon</td>
+        <td><canvas itemname="dragon_longsword" show-label="inline"></canvas></td>
+        <td>+69 Slash Attack<br>+71 Strength Bonus</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Chest</td>
+        <td><canvas itemname="dragon_chainbody" show-label="inline"></canvas></td>
+        <td>More General Defence</td>
+    </tr>
+    <tr>
+        <td><canvas itemname="black_dragonhide_body" show-label="inline"></canvas></td>
+        <td>More Magic Defence</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Shield</td>
+        <td><canvas itemname="dragon_sq_shield" show-label="inline"></canvas></td>
+        <td>More General Defence</td>
+    </tr>
+    <tr>
+        <td><canvas itemname="elemental_shield" show-label="inline"></canvas></td>
+        <td>More Magic Defence</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Legs</td>
+        <td><canvas itemname="rune_platelegs" show-label="inline"></canvas></td>
+        <td>More General Defence</td>
+    </tr>
+    <tr>
+        <td><canvas itemname="black_dragonhide_chaps" show-label="inline"></canvas></td>
+        <td>More Magic Defence</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Gloves</td>
+        <td><canvas itemname="steel_gauntlets"></canvas><canvas itemname="gauntlets_of_chaos"></canvas><canvas itemname="gauntlets_of_cooking"></canvas><canvas itemname="gauntlets_of_goldsmithing"></canvas><br>Any Family Crest Gauntlets</td>
+        <td rowspan="2">+2 Slash Attack<br>+2 Strength Bonus</td>
     </tr>
     <tr>
         <td><canvas itemname="klanks_gauntlets" show-label="inline"></canvas></td>
@@ -869,5 +959,5 @@ clearAllEquipment();
 <hr>
 This special report was written on LostHQ by Fallnight. Thanks to Geerin, Fran 2004, and Timondg for corrections.
 <br><br>
-This special report was entered into the database on Wed, Jul 30, 2025, at 11:51:20 PM by Halogod35 and was last updated on Sat, Sept 6, 2025, at 11:25:02 AM by Halogod35.
+This special report was entered into the database on Wed, Jul 30, 2025, at 11:51:20 PM by Halogod35 and was last updated on Sun, May 24, 2026, at 11:43:12 PM by Halogod35.
 HTML; }
