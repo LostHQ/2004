@@ -354,15 +354,15 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
 </p>
 <table class="table">
     <tr>
-        <th colspan="2">Splitbark:</th>
-        <th>Greaves</th>
-        <th>Gauntlets</th>
-        <th>Legs</th>
-        <th>Body</th>
-        <th>Helm</th>
+        <td></td>
+        <th><canvas itemname="splitbark_helm" show-label="true"></canvas></th>
+        <th><canvas itemname="splitbark_body" show-label="true"></canvas></th>
+        <th><canvas itemname="splitbark_legs" show-label="true"></canvas></th>
+        <th><canvas itemname="splitbark_greaves" show-label="true"></canvas></th>
+        <th><canvas itemname="splitbark_gauntlets" show-label="true"></canvas></th>
     </tr>
     <tr>
-        <td colspan="2">Money needed to make:</td>
+        <td>Coins needed to make:</td>
         <td>1,000</td>
         <td>1,000</td>
         <td>32,000</td>
@@ -370,7 +370,7 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
         <td>6,000</td>
     </tr>
     <tr>
-        <td colspan="2">Fine cloth/bark needed:</td>
+        <td>Fine cloth & bark needed:</td>
         <td>1</td>
         <td>1</td>
         <td>3</td>
@@ -378,7 +378,9 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
         <td>2</td>
     </tr>
     <tr>
-        <td>Attack bonus:</td>
+        <th colspan="6">Attack Bonuses</th>
+    </tr>
+    <tr>
         <td>Stab</td>
         <td>0</td>
         <td>0</td>
@@ -404,55 +406,73 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
     </tr>
     <tr>
         <td>Magic</td>
-        <td>+1</td>
-        <td>+1</td>
-        <td>+6</td>
-        <td>+8</td>
-        <td>+2</td>
+        <td><font style="color:green;">+2</font></td>
+        <td><font style="color:green;">+8</font></td>
+        <td><font style="color:green;">+7</font></td>
+        <td><font style="color:green;">+1</font></td>
+        <td><font style="color:green;">+1</font></td>
     </tr>
     <tr>
         <td>Range</td>
-        <td>-1</td>
-        <td>-1</td>
-        <td>-7</td>
-        <td>-10</td>
-        <td>-2</td>
+        <td><font style="color:red;">-2</font></td>
+        <td><font style="color:red;">-10</font></td>
+        <td><font style="color:red;">-6</font></td>
+        <td><font style="color:red;">-1</font></td>
+        <td><font style="color:red;">-1</font></td>
     </tr>
     <tr>
-        <td>Defence bonus:</td>
+        <td>Strength</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <th colspan="6">Defence Bonuses</th>
+    </tr>
+    <tr>
         <td>Stab</td>
-        <td>+3</td>
-        <td>+3</td>
-        <td>+22</td>
-        <td>+35</td>
-        <td>+10</td>
+        <td><font style="color:green;">+10</font></td>
+        <td><font style="color:green;">+36</font></td>
+        <td><font style="color:green;">+22</font></td>
+        <td><font style="color:green;">+3</font></td>
+        <td><font style="color:green;">+3</font></td>
     </tr>
     <tr>
         <td>Slash</td>
-        <td>+2</td>
-        <td>+2</td>
-        <td>+20</td>
-        <td>+25</td>
-        <td>+9</td>
+        <td><font style="color:green;">+9</font></td>
+        <td><font style="color:green;">+26</font></td>
+        <td><font style="color:green;">+20</font></td>
+        <td><font style="color:green;">+2</font></td>
+        <td><font style="color:green;">+2</font></td>
     </tr>
     <tr>
         <td>Crush</td>
-        <td>+4</td>
-        <td>+4</td>
-        <td>+24</td>
-        <td>+42</td>
-        <td>+11</td>
+        <td><font style="color:green;">+11</font></td>
+        <td><font style="color:green;">+42</font></td>
+        <td><font style="color:green;">+25</font></td>
+        <td><font style="color:green;">+4</font></td>
+        <td><font style="color:green;">+4</font></td>
     </tr>
     <tr>
         <td>Magic</td>
-        <td>+2</td>
-        <td>+2</td>
-        <td>+10</td>
-        <td>+15</td>
-        <td>+3</td>
+        <td><font style="color:green;">+3</font></td>
+        <td><font style="color:green;">+15</font></td>
+        <td><font style="color:green;">+10</font></td>
+        <td><font style="color:green;">+2</font></td>
+        <td><font style="color:green;">+2</font></td>
     </tr>
     <tr>
         <td>Range</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>Prayer</td>
         <td>0</td>
         <td>0</td>
         <td>0</td>
