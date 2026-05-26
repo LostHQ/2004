@@ -8,7 +8,8 @@ $speciallist = array(
     "music" => "Music Locations",
     "randomevents" => "Random Events",
     "specialattacks" => "Special Attacks",
-    "statboosting" => "Stat Boosting"
+    "statboosting" => "Stat Boosting",
+    "transportation" => "Transportation Guide"
 );
 
 $guildlist = array(

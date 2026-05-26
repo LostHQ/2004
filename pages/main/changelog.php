@@ -127,6 +127,7 @@ function getPageContent() {
     </tr>
   </thead>
   <tbody>
+    <tr><td>26/05/2026</td><td>Added Transportation Guide to special guides</td></tr>
     <tr><td>24/05/2026</td><td>Added Shades of Mort'ton, Duel Arena, and Burthorpe Games Room mini-games to special guides</td></tr>
     <tr><td>24/05/2026</td><td>Added <span class="tooltip">five new quests<span class="tooltip-text">Eadgar's Ruse, Fremmy Trials, Horror from the Deep, Regicide, Shades of Mort'ton, and Tai Bwo Wannai Trio</span></span> to Quests</td></tr> 
     <tr><td>24/05/2026</td><td>Updated information across the site for <span class="tooltip">cache 274<span class="tooltip-text">5 new quests, faster agility, cooking and agility exp tweaks,<br>splitbark armor, more clue scrolls, games necklace, and more</span></span></td></tr>
