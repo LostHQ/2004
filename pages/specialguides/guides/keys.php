@@ -19,6 +19,12 @@ If you are having troubles identifying a key, hover the cursor over the icon to 
         <td>❌</td>
     </tr>
     <tr>
+        <td><canvas itemname="golrie_key_waterfall_quest" show-label="true"></canvas></td>
+        <td>Opens a cage to get Glarial's Pebble. (Waterfall Quest)</td>
+        <td>Search a crate in the dungeon under Tree Gnome Village.</td>
+        <td>❌</td>
+    </tr>
+    <tr>
         <td><canvas itemname="elenakey" show-label="true"></canvas></td>
         <td>Freeing Elena from a basement in West Ardougne.</td>
         <td>Searching in a crate upstairs of a boarded up building in West Ardogune.</td>
@@ -29,12 +35,6 @@ If you are having troubles identifying a key, hover the cursor over the icon to 
         <td>Opens the false wall in Seers Village. Allows access to the Elemental Workshop.</td>
         <td>Using a knife on a battered book.</td>
         <td>➖</td>
-    </tr>
-    <tr>
-        <td><canvas itemname="golrie_key_waterfall_quest" show-label="true"></canvas></td>
-        <td>Opens a cage to get Glarial's Pebble. (Waterfall Quest)</td>
-        <td>Search a crate in the dungeon under Tree Gnome Village.</td>
-        <td>❌</td>
     </tr>
     <tr>
         <td><canvas itemname="thbedobinkey" show-label="true"></canvas></td>
@@ -148,14 +148,12 @@ If you are having troubles identifying a key, hover the cursor over the icon to 
         <td>Buy in the Legends guild or from a man in the jail in Taverly Dungeon.</td>
         <td>✔️</td>
     </tr>
-    <!-- Frozen key for The Fremennik Trials [be sure to check debug name]
     <tr>
-        <td><canvas itemname="frozen_key" show-label="true"></canvas></td>
+        <td><canvas itemname="viking_key_in_ice" show-label="true"></canvas></td>
         <td>Use with a range to defrost.</td>
         <td>In Rellekka, in the Seer's house.</td>
         <td>❌</td>
     </tr>
-    -->
     <tr>
         <td><canvas itemname="grandtree_gloughskey" show-label="true"></canvas></td>
         <td>Opens Glough's chest in his tree house.</td>
@@ -254,14 +252,12 @@ If you are having troubles identifying a key, hover the cursor over the icon to 
         <td>From a Khazard Guard during the Fight Arena Quest.</td>
         <td>❌</td>
     </tr>
-    <!-- Lighthouse key for Horror in the Deep [be sure to check debug name]
     <tr>
-        <td><canvas itemname="lighthouse_key" show-label="true"></canvas></td>
+        <td><canvas itemname="horror_key" show-label="true"></canvas></td>
         <td>Opens the Lighthouse.</td>
         <td>From a Barbarian in the Barbarian Outpost.</td>
         <td>❌</td>
     </tr>
-    -->
     <tr>
         <td><canvas itemname="melzarkey" show-label="true"></canvas></td>
         <td>To gain access to Melzar's Maze.</td>
@@ -280,14 +276,18 @@ If you are having troubles identifying a key, hover the cursor over the icon to 
         <td>Random drop from Chaos Dwarves.</td>
         <td>✔️</td>
     </tr>
-    <!-- Seers' key for The Fremennik Trials [be sure to check debug name]
     <tr>
-        <td><canvas itemname="seers_key" show-label="true"></canvas></td>
+        <td><canvas itemname="troll_key_prison" show-label="true"></canvas></td>
+        <td>Used in the Troll Stronghold Quest to gain access to the troll prison.</td>
+        <td>Obtained by killing level 113 Troll generals in Troll Stronghold.</td>
+        <td>❌</td>
+    </tr>
+    <tr>
+        <td><canvas itemname="viking_key" show-label="true"></canvas></td>
         <td>To leave the Seers' house in Rellekka.</td>
         <td>Defrost the frozen key.</td>
         <td>❌</td>
     </tr>
-    -->
     <!-- Shed key for Creature of Fenkenstrain [be sure to check debug name]
     <tr>
         <td><canvas itemname="shed_key" show-label="true"></canvas></td>
@@ -296,6 +296,12 @@ If you are having troubles identifying a key, hover the cursor over the icon to 
         <td>❌</td>
     </tr>
     -->
+    <tr>
+        <td><canvas itemname="shadekey_bronze_bloodred" show-label="true" name-replace="Shade keys"></canvas></td>
+        <td>Opens chests which have a random prize inside. They come in different Metal and Color conbinations. The higher the type of metal the better the prize.</td>
+        <td>Get the remains of special Shades found in Mort'ton. With the remains, you burn them using special Pyre Logs and in return you get money or a shade key.</td>
+        <td>✔️</td>
+    </tr>
     <tr>
         <td><canvas itemname="ikov_shinykey" show-label="true"></canvas></td>
         <td>Allows access to the Ikov dungeon shortcut in McGrubor's Wood.</td>
@@ -308,26 +314,10 @@ If you are having troubles identifying a key, hover the cursor over the icon to 
         <td>Kill Salarin the Twisted in the Yanille Agility Dungeon.</td>
         <td>✔️</td>
     </tr>
-    <!-- Shade keys for Shades of Mort'ton [be sure to check debug name]
     <tr>
-        <td><canvas itemname="shade_keys" show-label="true"></canvas></td>
-        <td>Opens chests which have a random prize inside. They come in different Metal and Color conbinations. The higher the type of metal the better the prize.</td>
-        <td>Get the remains of special Shades found in Mort'ton. With the remains, you burn them using special Pyre Logs and in return you get money or a shade key.</td>
-        <td>❌</td>
-    </tr>
-    -->
-    <!-- Storeroom key for Eadgar's Ruse [be sure to check debug name]
-    <tr>
-        <td><canvas itemname="storeroom_key" show-label="true"></canvas></td>
+        <td><canvas itemname="eadgar_troll_storeroom_key" show-label="true"></canvas></td>
         <td>To enter the troll Storeroom to obtain the goutweed.</td>
         <td>Get it from a drawer in the troll kitchen.</td>
-        <td>❌</td>
-    </tr>
-    -->
-    <tr>
-        <td><canvas itemname="troll_key_prison" show-label="true"></canvas></td>
-        <td>Used in the Troll Stronghold Quest to gain access to the troll prison.</td>
-        <td>Obtained by killing level 113 Troll generals in Troll Stronghold.</td>
         <td>❌</td>
     </tr>
     <tr>
