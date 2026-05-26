@@ -8,7 +8,7 @@ All forms of transportation that are based with an NPC or through an object in t
 Teleports are the easiest way to get around for most people with decent magic levels. The following is a list of regular magic teleports.
 <br><br>
 <img src="img/special_guides/transportation/teleportspellspic.png">
-<!-- April 18, 2005
+<!-- March 14, 2005
 There are also Teleother spells that, upon the target's approval, teleport someone else to a location.
 
 Lvl 74 - Teleother Lumbridge - 1 Law, 1 Soul, 1 Earth
@@ -16,8 +16,8 @@ Lvl 82 - Teleother Falador - 1 Law, 1 Soul, 1 Water
 Lvl 90 - Teleother Camelot - 2 Soul, 1 Law
 
 Teleother spells pic
-
-
+-->
+<!-- April 18, 2005
 Ancient Magick
 
 Ancient Magick is very expensive to use. Some of these teleports don't have much use as of yet. The following is a list of Ancient Magick teleports.
@@ -75,13 +75,13 @@ At Entrana, talk to the Monks of Entrana on the dock to go back to Port Sarim.
 <h4>Miscellania</h4>
 <table style="border:1px; border-color:white;">
     <tr>
-        <td>To get to Miscellania, talk to the Sailor on the dock north of the market in Rellekka. If you have done the Fremennik Trials Quest, he will take you to Miscellania for free, otherwise you cannot reach Miscellania.<br><br>On Miscellania, talk to the Sailor to get back.</td>
+        <td>To get to Miscellania, talk to the Sailor on the dock north of the market in Rellekka. If you have done the <a href="?p=questguides&quest=fremtrials">Fremennik Trials Quest</a>, he will take you to Miscellania for free, otherwise you cannot reach Miscellania.<br><br>On Miscellania, talk to the Sailor to get back.</td>
         <td><img src="img/special_guides/transportation/rellekkadock.png" height="200px"></td>
     </tr>
 </table>
-<!-- January 10, 2005
+<!-- January 10, 2005 !!!(Check the href link)!!!
 <h3>Mort Myre Swamps</h3>
-The In Search of the Myreque Quest is required to use this route.
+The <a href="?p=questguides&quest=myrequesearch">In Search of the Myreque Quest</a> is required to use this route.
 <table>
     <tr>
         <td rowspan="4"><img src="img/special_guides/transportation/morttonroute.png"></td>
@@ -99,7 +99,7 @@ The In Search of the Myreque Quest is required to use this route.
 -->
 <br><br><br>
 <h3>Spirit Trees</h3>
-The Tree Gnome Village Quest is required to use these routes. There are four different Spirit Tree locations:
+The <a href="?p=questguides&quest=treegnomevillage">Tree Gnome Village Quest</a> is required to use these routes. There are four different Spirit Tree locations:
 <table>
     <tr>
         <td><img src="img/special_guides/transportation/varrockspirittree.png" height="200px"></td>
@@ -123,13 +123,13 @@ The Varrock and Khazard Spirit Trees can only take you to the Tree Gnome Village
 <br><br><br>
 <h3>Gliders</h3>
 <h4>Gnome Gliders</h4>
-The Grand Tree Quest is required to use the gnome gliders. To use a glider, talk to the Gnome pilot near the glider and he will display a map for you. When traveling from anywhere but the Grand Tree, you must first fly to Ta Quir Priw (Grand Tree). From the Grand Tree you can then fly anywhere. NOTE: Sometime you can crash and land short of where you are headed.
+The <a href="?p=questguides&quest=grandtree">Grand Tree Quest</a> is required to use the gnome gliders. To use a glider, talk to the Gnome pilot near the glider and he will display a map for you. When traveling from anywhere but the Grand Tree, you must first fly to Ta Quir Priw (Grand Tree). From the Grand Tree you can then fly anywhere. NOTE: Sometime you can crash and land short of where you are headed.
 <br>
 <img src="img/special_guides/transportation/gnome_air.png">
-<!-- December 6 2004
+<!-- December 6, 2004 !!!(Check the href link)!!!
 Military gliders
 
-During and after the Monkey Madness Quest, you can talk to the gnome Daero at Blurberry's Bar in the Grand Tree to be taken to the secret military glider hangar. From there, speak to Waydar to get a flight to Crash Island (East of Ape Atoll). Upon landing, talk to the gnome Lumdo for a quick boat ride to Ape Atoll. Do this in reverse to get back.
+During and after the <a href="?p=questguides&quest=monkeymadness">Monkey Madness Quest</a>, you can talk to the gnome Daero at Blurberry's Bar in the Grand Tree to be taken to the secret military glider hangar. From there, speak to Waydar to get a flight to Crash Island (East of Ape Atoll). Upon landing, talk to the gnome Lumdo for a quick boat ride to Ape Atoll. Do this in reverse to get back.
 -->
 <!-- April 18, 2005
 <br><br><br>
@@ -148,10 +148,10 @@ Sophanem -> South of Pollnivneach
 -->
 <br><br><br>
 <h3>Carts</h3>
-<!--
+<!-- May 31, 2005 !!!(Check the href link)!!!
 <h4>Mine Carts</h4>
 
-The Giant Dwarf Quest is required to use the dwarven mine cart system. Speak to a nearby Cart conductor to buy a Minecart ticket to your destination. The system hub is in southeastern Keldagrim. From there you may travel to the dwarven tunnel under White Wolf Mountain (must have completed Fishing Contest Quest) or to a point near the General Store in the Dwarven Mines under Ice Mountain.
+The <a href="?p=questguides&quest=giantdwarf">Giant Dwarf Quest</a> is required to use the dwarven mine cart system. Speak to a nearby Cart conductor to buy a Minecart ticket to your destination. The system hub is in southeastern Keldagrim. From there you may travel to the dwarven tunnel under White Wolf Mountain (must have completed <a href="?p=questguides&quest=fishingcontest">Fishing Contest Quest</a>) or to a point near the General Store in the Dwarven Mines under Ice Mountain.
 
 The prices for tickets are as follows:
 Keldagrim -> White Wolf Mountain = 100 gp
@@ -165,7 +165,7 @@ Ice Mountain -> Keldagrim = 150 gp
 Minecart ride!
 -->
 <h4>Shilo Village Carts</h4>
-The Shilo Village Quest is required to use the Shilo cart system. Just south of the Brimhaven dock to Ardougne, there is a Cart and a man named Hajedy. Talk to him and he will charge you anywhere from 2 gp to 200 gp depending on how much money you are carrying. If he asks just a tad too much for you to pay, try to buy a ticket again as his prices vary somewhat. You can also right click the cart and hit ride to buy a ticket.
+The <a href="?p=questguides&quest=shilovillage">Shilo Village Quest</a> is required to use the Shilo cart system. Just south of the Brimhaven dock to Ardougne, there is a Cart and a man named Hajedy. Talk to him and he will charge you anywhere from 2 gp to 200 gp depending on how much money you are carrying. If he asks just a tad too much for you to pay, try to buy a ticket again as his prices vary somewhat. You can also right click the cart and hit ride to buy a ticket.
 <br>
 <img src="img/special_guides/transportation/hajedycart.png">
 <br><br>
@@ -179,7 +179,7 @@ In Shilo Village, east of the general store and west of the Bank, there is anoth
 <br>
 <img src="img/special_guides/transportation/glorytelelist.png">
 <br><br>
-It can hold up to 4 charges at a time. To charge a glory ammy, you must go to the Fountain of Heros at the end of the Hero's Guild basement and use your ammy with it.
+It can hold up to 4 charges at a time. To charge a glory ammy, you must go to the Fountain of Heros at the end of the <a href="?p=specialguides&guilds=herosguild">Hero's Guild</a> basement and use your ammy with it.
 <br>
 <img src="img/special_guides/transportation/fountainofheros.png">
 <br>
@@ -191,7 +191,7 @@ The Amulet of glory can be recharged an unlimited amount of times and doesn't di
 <h4>Ring of Life</h4>
 <canvas itemname="ring_of_life"></canvas> A Ring of life can cost anywhere from 1k to 10k. A Ring of life is an enchanted Diamond ring. It has only one charge and it disintegrates when you use it. It cannot be rubbed and may be a lifesaver in combat. When it is equipped and you get down to below 10% of your HP, you will automatically be teleported to Lumbridge. This may seem like dying... only you keep your stuff. The drawback of the Ring of life is if you are fighting something that can wipe out more than 10% of your HP, it may kill you with one blow before the Ring can kick in to save you!
 <h4>Games Necklace</h4>
-<canvas itemname="necklace_of_minigames_8"></canvas> These don't really sell much since almost everyone can craft and enchant them. It's an enchanted Sapphire necklace. It starts with 8 charges and cannot be recharged. After the 8 uses, the necklace disintegrates and disappears. You can teleport to the Burthorpe Games room with it by unequipping it, right clicking it, and selecting rub. This is a good thing to use to get to the Hero's Guild quickly to charge your Amulet of Glory.
+<canvas itemname="necklace_of_minigames_8"></canvas> These don't really sell much since almost everyone can craft and enchant them. It's an enchanted Sapphire necklace. It starts with 8 charges and cannot be recharged. After the 8 uses, the necklace disintegrates and disappears. You can teleport to the <a href="?p=specialguides&minigames=gamesroom">Burthorpe Games room</a> with it by unequipping it, right clicking it, and selecting rub. This is a good thing to use to get to the Hero's Guild quickly to charge your Amulet of Glory.
 <!-- January 31, 2005
 <h4>Ring of Charos</h4>
 1. Mine Carts
@@ -214,16 +214,16 @@ a. Flying carpet
 <h3>Quest Items</h3>
 <h4>Enchanted Lyre</h4>
 <canvas itemname="viking_enchanted_strung_lyre"></canvas>
-The Fremennik Trials Quest is required to be able to enchant a Lyre. You can re-enchant any Lyre by offering the Fossegrimen a Raw shark like you did in the quest. Play the Enchanted Lyre and it will teleport you to Rellekka. You have to re-enchant it with a Raw shark after every use though.
-<!-- February 15, 2005
+The <a href="?p=questguides&quest=fremtrials">Fremennik Trials Quest</a> is required to be able to enchant a Lyre. You can re-enchant any Lyre by offering the Fossegrimen a Raw shark like you did in the quest. Play the Enchanted Lyre and it will teleport you to Rellekka. You have to re-enchant it with a Raw shark after every use though.
+<!-- February 15, 2005 !!!(Check the href link)!!!
 <h4>Ectophial</h4>
 <canvas itemname="ectophial"></canvas>
-The Ghosts Ahoy Quest awards successful questers with the Ectophial. To use it simply click empty Ectophial and you will instantly be teleported to the Ectofunctus. To recharge it again (it doesn't turn to dust) just use it with the Ectofuntus where you just landed. This is a great way to get to the Slayer Tower, Canifis, and Skullball. Its also a great thing for intense combat since unlike teleport runes, it takes up one spot and unlike rings or ammys, it doesn't have interruptible menus.
+The <a href="?p=questguides&quest=ghostsahoy">Ghosts Ahoy Quest</a> awards successful questers with the Ectophial. To use it simply click empty Ectophial and you will instantly be teleported to the Ectofunctus. To recharge it again (it doesn't turn to dust) just use it with the Ectofuntus where you just landed. This is a great way to get to the Slayer Tower, Canifis, and Skullball. Its also a great thing for intense combat since unlike teleport runes, it takes up one spot and unlike rings or ammys, it doesn't have interruptible menus.
 -->
-<!-- July 19, 2005 (Crystal teleport seed)
+<!-- July 19, 2005 (Crystal teleport seed) !!!(Check the href link)!!!
 <h4>Elf Teleport Crystal</h4>
 <canvas itemname="elf_teleport_crystal"></canvas>
-First obtained when starting Mourning's End, Part 1 quest. It teleports you to the elf village of Letya. It is limited upto 3 uses normally before it must be recharged by the roving elf Ilfeen for a price. Additional teleport crystals can be obtained as drops from the elves around Letya. Useful since, as with harp and ectophile, it's a one click teleport. It places you near a bank, prayer altar and three Magic Trees.
+First obtained when starting <a href="?p=questguides&quest=mourningsendpt1">Mourning's End, Part 1 Quest</a>. It teleports you to the elf village of Letya. It is limited upto 3 uses normally before it must be recharged by the roving elf Ilfeen for a price. Additional teleport crystals can be obtained as drops from the elves around Letya. Useful since, as with harp and ectophile, it's a one click teleport. It places you near a bank, prayer altar and three Magic Trees.
 -->
 <br><br><br>
 <h3>Wilderness</h3>
@@ -239,7 +239,7 @@ Ardounge lever
 <br>
 Wilderness lever
 <h4>Mage Arena (Safe Zone) Lever</h4>
-This place is just west of the Deserted Keep (see above) and it is the only safe spot in the wilderness where you can't be attacked, and is the only place where you can teleport above level 20 wilderness. This level 55 wilderness place is used for banking (only bank in the wilderness!), buying runes (they sell cheep laws and nats), doing the Mage Arena miniquest, and buying/changing god capes and staffs. To get to the lever you must have a sharp object (as in a weapon or knife). You need that sharp object to cut through two webs to get to the lever. Just pull the lever and you are safe! Pull the lever in the Mage Arena ready room to get back out to the wilderness (but remember, you can teleport here!) If the webs aren't cut when you get back into the wilderness, you'll have to recut them.
+This place is just west of the Deserted Keep (see above) and it is the only safe spot in the wilderness where you can't be attacked, and is the only place where you can teleport above level 20 wilderness. This level 55 wilderness place is used for banking (only bank in the wilderness!), buying runes (they sell cheep laws and nats), doing the <a href="?p=questguides&quest=magearena">Mage Arena miniquest</a>, and buying/changing god capes and staffs. To get to the lever you must have a sharp object (as in a weapon or knife). You need that sharp object to cut through two webs to get to the lever. Just pull the lever and you are safe! Pull the lever in the Mage Arena ready room to get back out to the wilderness (but remember, you can teleport here!) If the webs aren't cut when you get back into the wilderness, you'll have to recut them.
 <br>
 Note: The actual mage arena where you fight mages is in the wilderness and you can be pk'd or killed.
 <br><br>
@@ -275,7 +275,7 @@ Soul - Not useable at this time
 <br><br><br>
 <h3>Miscellaneous</h3>
 <h4>Elven Gate</h4>
-After doing the Regicide quest, you can use the Huge Gate south of the Tree Gnome Stronghold, west of Ardougne, and in the northeast corner of Arandar. It's the red square in the map below. This gate allows you to get Isafdar and the Elven lands there without going through the dreaded Underground Pass.
+After doing the <a href="?p=questguides&quest=regicide">Regicide Quest</a>, you can use the Huge Gate south of the Tree Gnome Stronghold, west of Ardougne, and in the northeast corner of Arandar. It's the red square in the map below. This gate allows you to get Isafdar and the Elven lands there without going through the dreaded Underground Pass.
 <br>
 <img src="img/special_guides/transportation/gatemap.png">
 <br><br>
@@ -298,7 +298,7 @@ The Huge Gate
 <br>
 So, if you use a Amulet of glory to teleport to Al Kharid or use a Dueling ring, you can use this method to get to Port Sarim, Entrana, and Karamja.
 <h4>White Wolf Mountain Tunnel</h4>
-After doing the Fishing Contest, you can take a tunnel under White Wolf Mountain so you dont have to walk over it.<!-- This is also where one of the mine carts from Keldagrim goes to.-->
+After doing the <a href="?p=questguides&quest=fishingcontest">Fishing Contest</a>, you can take a tunnel under White Wolf Mountain so you dont have to walk over it.<!-- This is also where one of the mine carts from Keldagrim goes to.-->
 <br>
 <img src="img/special_guides/transportation/whitewolfmountaintunnel.png">
 <br>
@@ -310,7 +310,7 @@ Taverly entrance
 <br>
 Catherby entrance
 <h4>Magic Guild Portals</h4>
-On the top floor of the Magic Guild in Yanville (lvl 66 magic required) there are three portals in three different sides of the room.
+On the top floor of the <a href="?p=specialguides&guilds=magicguild">Magic Guild</a> in Yanville (lvl 66 magic required) there are three portals in three different sides of the room.
 <br>
 East - Wizards Tower southeast of Draynor
 <br>
@@ -334,7 +334,7 @@ Port Sarim shore
 <h4>Death</h4>
 A commonly overlooked and infrequently used way of getting to the Lumbridge area is to simply die! While this is NOT recommended if you have more than 3 items or have a skull over your head, it works quite well if you are a low level player. Just run over to a higher lvl monster, turn off auto-retaliate, and get killed! Oh dear, you're dead and in Lumbridge!
 NOTE: You lose all but your three most valueable items when you die. If you have a wilderness skull over your head you do not keep any items.
-<br>
+<br><br>
 <img src="img/special_guides/transportation/death.png">
 <br>
 <img src="img/special_guides/transportation/lumbridge.png">
