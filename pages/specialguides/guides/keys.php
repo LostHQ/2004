@@ -333,7 +333,7 @@ If you are having troubles identifying a key, hover the cursor over the icon to 
         <td>Pickpocket the Zealot.</td>
         <td>❌</td>
     </tr>
-    -->
+    --> 
 </table>
 <hr>
 This special report was written by Hampster_Hat. Thanks to Im4eversmart, Obi-Wan, TheFrugle, Fireball0236, Beepem, and Overloser for corrections.
