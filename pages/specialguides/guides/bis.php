@@ -56,7 +56,7 @@ clearAllEquipment();
     'dragon_sq_shield',
     'rune_platelegs',
     'steel_gauntlets',
-    'boots_ranger',
+    'splitbark_greaves',
     null,
     null
 );</script>
@@ -110,9 +110,12 @@ clearAllEquipment();
         <td><canvas itemname="klanks_gauntlets" show-label="inline"></canvas></td>
     </tr>
     <tr>
-        <td>Boots</td>
+        <td rowspan="2">Boots</td>
+        <td><canvas itemname="splitbark_greaves" show-label="inline"></canvas></td>
+        <td rowspan="2">+4 Crush Defence</td>
+    </tr>
+    <tr>
         <td><canvas itemname="boots_ranger" show-label="inline"></canvas></td>
-        <td>+4 Crush Defence</td>
     </tr>
 </table>
 <hr>
@@ -134,7 +137,7 @@ clearAllEquipment();
     'dragon_sq_shield',
     'rune_platelegs',
     'steel_gauntlets',
-    'boots_ranger',
+    'splitbark_greaves',
     null,
     null
 );</script>
@@ -189,8 +192,8 @@ clearAllEquipment();
     </tr>
     <tr>
         <td>Boots</td>
-        <td><canvas itemname="boots_ranger" show-label="inline"></canvas></td>
-        <td>+2 Stab Defence</td>
+        <td><canvas itemname="splitbark_greaves" show-label="inline"></canvas></td>
+        <td>+3 Stab Defence</td>
     </tr>
 </table>
 <hr>
@@ -292,7 +295,7 @@ clearAllEquipment();
     'amulet_of_defence',
     'dragon_mace',
     'dragon_chainbody',
-    'dragon_sq_shield',
+    'granite_shield',
     'rune_platelegs',
     'ice_gloves',
     'leather_boots',
@@ -332,8 +335,8 @@ clearAllEquipment();
     </tr>
     <tr>
         <td>Shield</td>
-        <td><canvas itemname="dragon_sq_shield" show-label="inline"></canvas></td>
-        <td>+50 Ranged Defence</td>
+        <td><canvas itemname="granite_shield" show-label="inline"></canvas></td>
+        <td>+65 Ranged Defence</td>
     </tr>
     <tr>
         <td>Legs</td>
@@ -959,5 +962,5 @@ clearAllEquipment();
 <hr>
 This special report was written on LostHQ by Fallnight. Thanks to Geerin, Fran 2004, and Timondg for corrections.
 <br><br>
-This special report was entered into the database on Wed, Jul 30, 2025, at 11:51:20 PM by Halogod35 and was last updated on Sun, May 24, 2026, at 11:43:12 PM by Halogod35.
+This special report was entered into the database on Wed, Jul 30, 2025, at 11:51:20 PM by Halogod35 and was last updated on Thu, May 28, 2026, at 3:46:23 PM by Halogod35.
 HTML; }
