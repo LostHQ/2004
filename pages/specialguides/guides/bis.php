@@ -370,7 +370,7 @@ clearAllEquipment();
     'amulet_of_defence',
     'crossbow',
     'black_dragonhide_body',
-    'elemental_shield',
+    'saradominbook_complete',
     'black_dragonhide_chaps',
     'black_dragon_vambraces',
     'boots_wizard',
@@ -418,8 +418,8 @@ clearAllEquipment();
     </tr>
     <tr>
         <td>Shield</td>
-        <td><canvas itemname="elemental_shield" show-label="inline"></canvas></td>
-        <td>+6 Magic Defence</td>
+        <td><canvas itemname="saradominbook_complete" show-label="inline"></canvas></td>
+        <td>+8 Magic Defence<br>+5 Prayer</td>
     </tr>
     <tr>
         <td>Legs</td>
@@ -459,7 +459,7 @@ clearAllEquipment();
     'amulet_of_glory',
     'dragon_mace',
     'dragon_chainbody',
-    'dragon_sq_shield',
+    'zamorakbook_complete',
     'rune_platelegs',
     'steel_gauntlets',
     'death_climbingboots',
@@ -506,13 +506,9 @@ clearAllEquipment();
         <td>More Magic Defence</td>
     </tr>
     <tr>
-        <td rowspan="2">Shield</td>
-        <td><canvas itemname="dragon_sq_shield" show-label="inline"></canvas></td>
-        <td>More General Defence</td>
-    </tr>
-    <tr>
-        <td><canvas itemname="elemental_shield" show-label="inline"></canvas></td>
-        <td>More Magic Defence</td>
+        <td>Shield</td>
+        <td><canvas itemname="zamorakbook_complete" show-label="inline"></canvas></td>
+        <td>+8 Crush Attack<br>+5 Prayer</td>
     </tr>
     <tr>
         <td rowspan="2">Legs</td>
@@ -553,7 +549,7 @@ clearAllEquipment();
     'amulet_of_glory',
     'dragon_longsword',
     'dragon_chainbody',
-    'dragon_sq_shield',
+    'zamorakbook_complete',
     'rune_platelegs',
     'steel_gauntlets',
     'death_climbingboots',
@@ -600,13 +596,9 @@ clearAllEquipment();
         <td>More Magic Defence</td>
     </tr>
     <tr>
-        <td rowspan="2">Shield</td>
-        <td><canvas itemname="dragon_sq_shield" show-label="inline"></canvas></td>
-        <td>More General Defence</td>
-    </tr>
-    <tr>
-        <td><canvas itemname="elemental_shield" show-label="inline"></canvas></td>
-        <td>More Magic Defence</td>
+        <td>Shield</td>
+        <td><canvas itemname="zamorakbook_complete" show-label="inline"></canvas></td>
+        <td>+8 Stab Attack<br>+5 Prayer</td>
     </tr>
     <tr>
         <td rowspan="2">Legs</td>
@@ -647,7 +639,7 @@ clearAllEquipment();
     'amulet_of_glory',
     'dragon_longsword',
     'dragon_chainbody',
-    'dragon_sq_shield',
+    'zamorakbook_complete',
     'rune_platelegs',
     'steel_gauntlets',
     'death_climbingboots',
@@ -694,13 +686,9 @@ clearAllEquipment();
         <td>More Magic Defence</td>
     </tr>
     <tr>
-        <td rowspan="2">Shield</td>
-        <td><canvas itemname="dragon_sq_shield" show-label="inline"></canvas></td>
-        <td>More General Defence</td>
-    </tr>
-    <tr>
-        <td><canvas itemname="elemental_shield" show-label="inline"></canvas></td>
-        <td>More Magic Defence</td>
+        <td>Shield</td>
+        <td><canvas itemname="zamorakbook_complete" show-label="inline"></canvas></td>
+        <td>+8 Slash Attack<br>+5 Prayer</td>
     </tr>
     <tr>
         <td rowspan="2">Legs</td>
@@ -824,7 +812,7 @@ clearAllEquipment();
     'amulet_of_glory',
     'mystic_air_staff',
     'splitbark_body',
-    'antidragonbreathshield',
+    'zamorakbook_complete',
     'splitbark_legs',
     'splitbark_gauntlets',
     'boots_wizard',
@@ -863,13 +851,9 @@ clearAllEquipment();
         <td>+8 Magic Attack</td>
     </tr>
     <tr>
-        <td rowspan="2">Shield</td>
-        <td><canvas itemname="antidragonbreathshield" show-label="inline"></canvas></td>
-        <td>More General Defence</td>
-    </tr>
-    <tr>
-        <td><canvas itemname="elemental_shield" show-label="inline"></canvas></td>
-        <td>More Magic Defence</td>
+        <td>Shield</td>
+        <td><canvas itemname="zamorakbook_complete" show-label="inline"></canvas></td>
+        <td>+8 Magic Attack<br>+5 Prayer</td>
     </tr>
     <tr>
         <td>Legs</td>
@@ -962,5 +946,5 @@ clearAllEquipment();
 <hr>
 This special report was written on LostHQ by Fallnight. Thanks to Geerin, Fran 2004, and Timondg for corrections.
 <br><br>
-This special report was entered into the database on Wed, Jul 30, 2025, at 11:51:20 PM by Halogod35 and was last updated on Thu, May 28, 2026, at 3:46:23 PM by Halogod35.
+This special report was entered into the database on Wed, Jul 30, 2025, at 11:51:20 PM by Halogod35 and was last updated on Thu, May 28, 2026, at 4:02:56 PM by Halogod35.
 HTML; }
