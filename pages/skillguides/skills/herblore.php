@@ -156,6 +156,17 @@ function getSkillContent($skill) { return <<<HTML
             <td>50</td>
         </tr>
         <tr>
+            <td>15</td>
+            <td>
+                <canvas itemname="tarromin"></canvas>
+                <canvas itemname="tarrominvial"></canvas><br>
+                Tarromin
+            </td>
+            <td><canvas itemname="ashes" show-label="true"></canvas></td>
+            <td><canvas itemname="mort_serum3" show-label="true" name-append="*"></canvas></td>
+            <td>50</td>
+        </tr>
+        <tr>
             <td>22</td>
             <td>
                 <canvas itemname="harralander"></canvas>
@@ -343,6 +354,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>175</td>
         </tr>
     </table>
+    <p>* Serum 207 requires <a class="a" href="?p=questguides&quest=shades">Shades of Mort'ton</a> quest completion.</p>
     <br>
     <h3>Ground Ingredients</h3>
     The unicorn and dragon scale need to be ground before they can be used in the potions. To grind them use the pestle and mortar bought from the herblore shop.
