@@ -20,201 +20,127 @@ function runCalc() {
                 level: 3,
                 xp: 25,
                 herb: "guam_leaf",
-                herb_pretty: "Guam Leaf",
                 secondary: "eye_of_newt",
-                secondary_pretty: "Eye of Newt",
-                result: "Attack potion(3)",
-                result_pretty: "Attack potion(3)",
             },
             "3doseantipoison": {
                 level: 5,
                 xp: 37.5,
                 herb: "marentill",
-                herb_pretty: "Marrentill",
                 secondary: "unicorn_horn_dust",
-                secondary_pretty: "Unicorn Horn Dust",
-                result: "Antipoison(3)",
-                result_pretty: "Antipoison(3)",
             },
             "3dose1strength": {
                 level: 12,
                 xp: 50,
                 herb: "tarromin",
-                herb_pretty: "Tarromin",
                 secondary: "limpwurt_root",
-                secondary_pretty: "Limpwurt Root",
-                result: "Strength potion(3)",
-                result_pretty: "Strength potion(3)",
+            },
+            mort_serum3: {
+                level: 15,
+                xp: 50,
+                herb: "tarromin",
+                secondary: "ashes",
             },
             "3dosestatrestore": {
                 level: 22,
                 xp: 62.5,
                 herb: "harralander",
-                herb_pretty: "Harralander",
                 secondary: "red_spiders_eggs",
-                secondary_pretty: "Red Spiders' Eggs",
-                result: "Stat restore(3)",
-                result_pretty: "Stat restore(3)",
             },
             "3dose1energy": {
                 level: 26,
                 xp: 67.5,
                 herb: "harralander",
-                herb_pretty: "Harralander",
                 secondary: "chocolate_dust",
-                secondary_pretty: "Chocolate dust",
-                result: "Energy potion(3)",
-                result_pretty: "Energy potion(3)",
             },
             "3dose1defense": {
                 level: 30,
                 xp: 75,
                 herb: "ranarr_weed",
-                herb_pretty: "Ranarr Weed",
                 secondary: "white_berries",
-                secondary_pretty: "White Berries",
-                result: "Defense potion(3)",
-                result_pretty: "Defense potion(3)",
             },
             "3dose1agility": {
                 level: 34,
                 xp: 80,
                 herb: "toadflax",
-                herb_pretty: "Toadflax",
                 secondary: "toads_legs",
-                secondary_pretty: "Toad Legs",
-                result: "Agility potion(3)",
-                result_pretty: "Agility potion(3)",
             },
             "3doseprayerrestore": {
                 level: 38,
                 xp: 87.5,
                 herb: "ranarr_weed",
-                herb_pretty: "Ranarr Weed",
                 secondary: "snape_grass",
-                secondary_pretty: "Snape Grass",
-                result: "Prayer potion(3)",
-                result_pretty: "Prayer potion(3)",
             },
             "3dose2attack": {
                 level: 45,
                 xp: 100,
                 herb: "irit_leaf",
-                herb_pretty: "Irit Leaf",
                 secondary: "eye_of_newt",
-                secondary_pretty: "Eye of Newt",
-                result: "Super attack(3)",
-                result_pretty: "Super attack(3)",
             },
             "3dose2antipoison": {
                 level: 48,
                 xp: 106.3,
                 herb: "irit_leaf",
-                herb_pretty: "Irit Leaf",
                 secondary: "unicorn_horn_dust",
-                secondary_pretty: "Unicorn Horn Dust",
-                result: "Superantipoison(3)",
-                result_pretty: "Superantipoison(3)",
             },
             "3dosefisherspotion": {
                 level: 50,
                 xp: 112.5,
                 herb: "avantoe",
-                herb_pretty: "Avantoe",
                 secondary: "snape_grass",
-                secondary_pretty: "Snape Grass",
-                result: "Fishing potion(3)",
-                result_pretty: "Fishing potion(3)",
             },
             "3dose2energy": {
                 level: 52,
                 xp: 117.5,
                 herb: "avantoe",
-                herb_pretty: "Avantoe",
                 secondary: "mortmyremushroom",
-                secondary_pretty: "Mort myre fungi",
-                result: "Super energy(3)",
-                result_pretty: "Super energy(3)",
             },
             "3dose2strength": {
                 level: 55,
                 xp: 125,
                 herb: "kwuarm",
-                herb_pretty: "Kwuarm",
                 secondary: "limpwurt_root",
-                secondary_pretty: "Limpwurt Root",
-                result: "Super strength(3)",
-                result_pretty: "Super strength(3)",
             },
             weapon_poison: {
                 level: 60,
                 xp: 137.5,
                 herb: "kwuarm",
-                herb_pretty: "Kwuarm",
                 secondary: "dragon_scale_dust",
-                secondary_pretty: "Dragon Scale Dust",
-                result: "Weapon poison",
-                result_pretty: "Weapon poison",
             },
             "3dose2restore": {
                 level: 63,
                 xp: 142.5,
                 herb: "snapdragon",
-                herb_pretty: "Snapdragon",
                 secondary: "red_spiders_eggs",
-                secondary_pretty: "Red spiders' eggs",
-                result: "Super restore(3)",
-                result_pretty: "Super restore(3)",
             },
             "3dose2defense": {
                 level: 66,
                 xp: 150,
                 herb: "cadantine",
-                herb_pretty: "Cadantine",
                 secondary: "white_berries",
-                secondary_pretty: "White Berries",
-                result: "Super defence(3)",
-                result_pretty: "Super defence(3)",
             },
             "3dose1antidragon": {
                 level: 69,
                 xp: 157.5,
                 herb: "lantadyme",
-                herb_pretty: "Lantadyme",
                 secondary: "dragon_scale_dust",
-                secondary_pretty: "Dragon Scale Dust",
-                result: "Antifire potion(3)",
-                result_pretty: "Antifire potion(3)",
             },
             "3doserangerspotion": {
                 level: 72,
                 xp: 162.5,
                 herb: "dwarf_weed",
-                herb_pretty: "Dwarf Weed",
                 secondary: "wine_of_zamorak",
-                secondary_pretty: "Wine of Zamorak",
-                result: "Ranging potion(3)",
-                result_pretty: "Ranging potion(3)",
             },
             "3dose1magic": {
                 level: 76,
                 xp: 172.5,
                 herb: "lantadyme",
-                herb_pretty: "Lantadyme",
                 secondary: "cactus_potato",
-                secondary_pretty: "Potato cactus",
-                result: "Magic potion(3)",
-                result_pretty: "Magic potion(3)",
             },
             "3dosepotionofzamorak": {
                 level: 78,
                 xp: 175,
                 herb: "torstol",
-                herb_pretty: "Torstol",
                 secondary: "jangerberries",
-                secondary_pretty: "Jangerberries",
-                result: "Zamorak potion(3)",
-                result_pretty: "Zamorak potion(3)",
             },
         },
         identifying_herbs: {
@@ -222,99 +148,71 @@ function runCalc() {
                 level: 3,
                 xp: 2.5,
                 unid: "unidentified_guam",
-                unid_pretty: "Unidentified Guam",
-                pretty: "Guam Leaf",
             },
             marentill: {
                 level: 5,
                 xp: 3.8,
                 unid: "unidentified_marentill",
-                unid_pretty: "Unidentified Marrentill",
-                pretty: "Marrentill",
             },
             tarromin: {
                 level: 11,
                 xp: 5,
                 unid: "unidentified_tarromin",
-                unid_pretty: "Unidentified Tarromin",
-                pretty: "Tarromin",
             },
             harralander: {
                 level: 20,
                 xp: 6.3,
                 unid: "unidentified_harralander",
-                unid_pretty: "Unidentified Harralander",
-                pretty: "Harralander",
             },
             ranarr_weed: {
                 level: 25,
                 xp: 7.5,
                 unid: "unidentified_ranarr",
-                unid_pretty: "Unidentified Ranarr",
-                pretty: "Ranarr Weed",
             },
             toadflax: {
                 level: 30,
                 xp: 8,
                 unid: "unidentified_toadflax",
-                unid_pretty: "Unidentified Toadflax",
-                pretty: "Toadflax",
             },
             irit_leaf: {
                 level: 40,
                 xp: 8.8,
                 unid: "unidentified_irit",
-                unid_pretty: "Unidentified Irit",
-                pretty: "Irit Leaf",
             },
             avantoe: {
                 level: 48,
                 xp: 10,
                 unid: "unidentified_avantoe",
-                unid_pretty: "Unidentified Avantoe",
-                pretty: "Avantoe",
             },
             kwuarm: {
                 level: 54,
                 xp: 11.3,
                 unid: "unidentified_kwuarm",
-                unid_pretty: "Unidentified Kwuarm",
-                pretty: "Kwuarm",
             },
             snapdragon: {
                 level: 59,
                 xp: 11.8,
                 unid: "unidentified_snapdragon",
-                unid_pretty: "Unidentified Snapdragon",
-                pretty: "Snapdragon",
             },
             cadantine: {
                 level: 65,
                 xp: 12.5,
                 unid: "unidentified_cadantine",
-                unid_pretty: "Unidentified Cadantine",
-                pretty: "Cadantine",
             },
             lantadyme: {
                 level: 67,
                 xp: 13.1,
                 unid: "unidentified_lantadyme",
-                unid_pretty: "Unidentified Lantadyme",
-                pretty: "Lantadyme",
             },
             dwarf_weed: {
                 level: 70,
                 xp: 13.8,
                 unid: "unidentified_dwarf_weed",
-                unid_pretty: "Unidentified Dwarf Weed",
-                pretty: "Dwarf Weed",
             },
             torstol: {
                 level: 75,
                 xp: 15,
                 unid: "unidentified_torstol",
-                unid_pretty: "Unidentified Torstol",
-                pretty: "Torstol",
             },
         },
     };
@@ -363,8 +261,7 @@ function runCalc() {
                 potionsUsing.forEach((potionKey) => {
                     const opt = document.createElement("option");
                     opt.value = potionKey;
-                    const displayName = herbloreData.potions[potionKey].result_pretty || potionKey.replace(/_/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
-                    opt.textContent = displayName;
+                    opt.textContent = window.itemData[debugname].name(potionKey);
                     select.appendChild(opt);
                 });
 
@@ -457,7 +354,7 @@ function runCalc() {
                 } else if (potionsUsing.length === 1) {
                     selectedPotion = potionsUsing[0];
                 }
-                const prettyHerbName = herbloreData.identifying_herbs[herb].pretty || herb.replace(/_/g, " ");
+                const prettyHerbName = window.itemData[debugname].name(herb);
                 let identifyingXPAdded = false;
                 if (!herbsCleaned && amount > 0) {
                     const identifyingXP = herbloreData.identifying_herbs[herb].xp;
@@ -485,15 +382,14 @@ function runCalc() {
                     }
                     if (allowedAmount === 0) return;
                     const xpPer = recipe.xp;
-                    const prettyPotionName = recipe.result_pretty || selectedPotion.replace(/_/g, " ");
+                    const prettyPotionName = window.itemData[debugname].name(selectedPotion);
                     const total = allowedAmount * xpPer;
                     totalXP += total;
                     xpAfter += total;
                     const secondary = recipe.secondary;
-                    const secondaryPretty = recipe.secondary_pretty || secondary.replace(/_/g, " ");
                     if (secondary) {
-                        if (!secondaryCounts[secondaryPretty]) secondaryCounts[secondaryPretty] = 0;
-                        secondaryCounts[secondaryPretty] += allowedAmount;
+                        if (!secondaryCounts[secondary]) secondaryCounts[secondary] = 0;
+                        secondaryCounts[secondary] += allowedAmount;
                     }
                     vialsOfWaterCount += allowedAmount;
                     const tr = document.createElement("tr");
@@ -516,15 +412,14 @@ function runCalc() {
                         }
                         if (allowedAmount === 0) return;
                         const xpPer = recipe.xp;
-                        const prettyPotionName = recipe.result_pretty || potionKey.replace(/_/g, " ");
+                        const prettyPotionName = window.itemData[debugname].name(potionKey);
                         const total = allowedAmount * xpPer;
                         totalXP += total;
                         xpAfter += total;
                         const secondary = recipe.secondary;
-                        const secondaryPretty = recipe.secondary_pretty || secondary.replace(/_/g, " ");
                         if (secondary) {
-                            if (!secondaryCounts[secondaryPretty]) secondaryCounts[secondaryPretty] = 0;
-                            secondaryCounts[secondaryPretty] += allowedAmount;
+                            if (!secondaryCounts[secondary]) secondaryCounts[secondary] = 0;
+                            secondaryCounts[secondary] += allowedAmount;
                         }
                         vialsOfWaterCount += allowedAmount;
                         const tr = document.createElement("tr");
@@ -534,7 +429,7 @@ function runCalc() {
                 }
             });
             if (vialsOfWaterCount > 0) {
-                secondaryCounts["Vial of Water"] = vialsOfWaterCount;
+                secondaryCounts["vial_water"] = (secondaryCounts["vial_water"] || 0) + vialsOfWaterCount;
             }
             let secondaryListArr = Object.entries(secondaryCounts);
             const finalLevel = getLevelForXP(xpAfter);
@@ -559,7 +454,7 @@ function runCalc() {
                 summaryTbody.appendChild(trSecHeader);
                 secondaryListArr.forEach(([sec, count]) => {
                     const trSec = document.createElement("tr");
-                    trSec.innerHTML = `<td>${sec}</td><td>${count}</td>`;
+                    trSec.innerHTML = `<td>${window.itemData[debugname].name(sec)}</td><td>${count}</td>`;
                     summaryTbody.appendChild(trSec);
                 });
             }
