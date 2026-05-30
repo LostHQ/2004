@@ -91,6 +91,10 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <img src="img/questimages/eadgar/eadgar7.png">
 <br><br>
 <div data-progress>
+    Go back to Mad Eadgar and speak with him. You can hand in the grain, log, and raw chickens to him now if you have them with you.
+</div>
+<br><br>
+<div data-progress>
     Head to Taverly and speak to the Druid washing the robes, ask him for some dirty one's and when he says he won't give them to you, tell him Sanfew would be ashamed or threaten to cut down some trees.
 </div>
 <br><br>
