@@ -72,7 +72,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 </ul>
 <br><br>
 <div data-progress>
-    Go to the southwest corner of the forest, past the leaves (jump over them). *NOTE* The trick to jumping the leaves is to click "Jump Leaves" on the side that is facing you, otherwise you will fail more often*. Keep continuing Southwest and there is a Stick trap, just keep clicking "pass sticks" till you pass it safely. Take the north path all the way to Iorwerth's camp (jump over the other leaves) and cross the log. He will tell you to seek out his tracker.
+    Head southwest past the leaves (jump over them). *NOTE* The trick to jumping the leaves is to click "Jump Leaves" on the side that is facing you, otherwise you will fail more often*. Keep continuing Southwest and there is a Stick trap, just keep clicking "pass sticks" till you pass it safely. Take the north path all the way to Iorwerth's camp (jump over the other leaves) and cross the log. He will tell you to seek out his tracker.
 </div>
 <br><br>
 <div data-progress>
