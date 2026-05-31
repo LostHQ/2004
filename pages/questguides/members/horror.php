@@ -25,8 +25,8 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
         <li><div data-progress><canvas itemname="woodplank" show-label="inline" amount="2" name-append=" (obtainable during quest)"></canvas></div></li>
         <li><div data-progress><canvas itemname="swamp_tar" show-label="inline" name-append=" (not paste!)"></canvas></div></li>
         <li><div data-progress><canvas itemname="hammer" show-label="inline"></canvas></div></li>
-        <li><div data-progress><canvas itemname="iron_arrow" show-label="inline" name-append=" (any single arrow except Ogre)"></canvas></div></li>
-        <li><div data-progress><canvas itemname="iron_sword" show-label="inline" name-append=" (any kind but you won't get it back)"></canvas></div></li>
+        <li><div data-progress><canvas itemname="iron_arrow" show-label="inline" name-replace="Any arrow except Ogre (you won't get it back!)"></canvas></div></li>
+        <li><div data-progress><canvas itemname="iron_sword" show-label="inline" name-replace="Any sword (you won't get it back!)"></canvas></div></li>
     </ul>
     <h3>Recommended:</h3>
     <ul style="list-style-type: none;">

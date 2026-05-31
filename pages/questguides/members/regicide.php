@@ -15,7 +15,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
     <h3>Items & Skills Needed:</h3>
     <ul style="list-style-type: none;">
         <li><div data-progress>56 Agility (Higher level is an advantage)</div><br></li>
-        <li><div data-progress><canvas itemname="pot_empty" show-label="inline" name-append=" (obtianable during quest)"></canvas></div></li>
+        <li><div data-progress><canvas itemname="pot_empty" show-label="inline" name-append=" (obtainable during quest)"></canvas></div></li>
         <li><div data-progress><canvas itemname="pestle_and_mortar" show-label="inline"></canvas></div></li>
         <li><div data-progress><canvas itemname="ball_of_wool" show-label="inline" amount="4"></canvas></div></li>
         <li><div data-progress><canvas itemname="rope" show-label="inline" amount="3" name-replace="A few ropes (for Underground Pass)"></canvas></div></li>
