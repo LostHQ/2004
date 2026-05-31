@@ -33,7 +33,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
         <li><div data-progress><canvas itemname="lawrune" show-label="inline" amount="10" name-replace="Teleport to Ardougne Runes"></canvas></div></li>
         <li><div data-progress><canvas itemname="logs" show-label="inline" name-replace="Additional logs"></canvas></div></li>
     </ul>
-    <b>Starting Location:</b> Speak to Sanfew in Taverle
+    <b>Starting Location:</b> Speak to Sanfew in Taverley
     <br><br>
     <b>Reward:</b> 11k Herblore Experience, ability to Teleport to Trollheim (Lvl 61 to use and requires 2 Law and 2 Fire Runes), and 1 Quest Point.
 </div>
