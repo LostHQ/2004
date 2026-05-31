@@ -1,15 +1,7 @@
 (async function () {
     await checkSpriteLoaderReady();
     const npcData = window.npcData;
-
-    Promise.all([
-        fetch(`/js/npcdb/shared_drops.json?v=${currentGameVer}`).then((res) => res.json())
-    ]).then(([sharedDropTablesData]) => {
-        sharedDropTables = sharedDropTablesData;
-        loadNPCFromURL();
-    });
-
-    let sharedDropTables = {};
+    const sharedDropTables = window.sharedDropTablesData;
 
     const SHARED_TABLE_ICONS = {
         randomherb: "unidentified_guam",
@@ -21,11 +13,13 @@
         "clue-hard": "trail_clue_hard_sextant001",
     };
 
+    loadNPCFromURL();
+
     function getNPCName(debugname) {
         const npc = npcData[debugname];
         if (npc && npc.name) {
             const vis = npc.vislevel;
-            if (vis == 'hide') return npc.name;
+            if (vis == "hide") return npc.name;
             return `${npc.name} (level-${vis})`;
         }
 
@@ -74,23 +68,28 @@
         let colsUsed = 0;
 
         const HUNT_MODE_LABELS = {
-            cowardly: 'Cowardly',
-            ranged: 'Ranged',
-            aggressive_melee: 'Aggressive (melee)',
-            aggressive_ranged: 'Aggressive (ranged)',
+            cowardly: "Cowardly",
+            ranged: "Ranged",
+            aggressive_melee: "Aggressive (melee)",
+            aggressive_ranged: "Aggressive (ranged)",
         };
-        
+
         if (npc) {
             colsUsed = 0;
             row = table.insertRow();
             for (const [k, v] of Object.entries(npc)) {
-                const skip = ['id', 'op1', 'op2', 'op3', 'op4', 'op5', 'name', 'desc', 'vislevel', 'params', 'drops'];
+                const skip = ["id", "op1", "op2", "op3", "op4", "op5", "name", "desc", "vislevel", "params", "drops"];
                 if (skip.includes(k)) continue;
                 let displayValue = v;
-                if (k === 'huntmode' && HUNT_MODE_LABELS[v]) {
+                if (k === "huntmode" && HUNT_MODE_LABELS[v]) {
                     displayValue = HUNT_MODE_LABELS[v];
                 }
-                addCombined(row, k.replace(/_/g, ' ').replace(/\b\w/g, (m) => m.toUpperCase()), displayValue, 1);
+                addCombined(
+                    row,
+                    k.replace(/_/g, " ").replace(/\b\w/g, (m) => m.toUpperCase()),
+                    displayValue,
+                    1,
+                );
                 colsUsed++;
                 if (colsUsed >= 3) {
                     row = table.insertRow();
@@ -103,8 +102,13 @@
             for (const params of npc.params) {
                 if (!params) continue;
                 for (const [k, v] of Object.entries(params)) {
-                    if (k === 'damagetype') continue;
-                    addCombined(row, k.replace(/_/g, ' ').replace(/\b\w/g, (m) => m.toUpperCase()), v, 1);
+                    if (k === "damagetype") continue;
+                    addCombined(
+                        row,
+                        k.replace(/_/g, " ").replace(/\b\w/g, (m) => m.toUpperCase()),
+                        v,
+                        1,
+                    );
                     colsUsed++;
                     if (colsUsed >= 3) {
                         row = table.insertRow();
@@ -127,16 +131,16 @@
         headerRow.appendChild(ohead);
 
         const ops = [];
-        ['op1','op2','op3'].forEach(k => {
+        ["op1", "op2", "op3"].forEach((k) => {
             if (npc[k]) ops.push(npc[k]);
         });
-        ops.push('Examine');
-        ['op4','op5'].forEach(k => {
+        ops.push("Examine");
+        ["op4", "op5"].forEach((k) => {
             if (npc[k]) ops.push(npc[k]);
         });
 
         let npcName;
-        if (npc.vislevel == 'hide') npcName = `<span style="color:yellow">${npc.name}</span>`;
+        if (npc.vislevel == "hide") npcName = `<span style="color:yellow">${npc.name}</span>`;
         else npcName = `<span style="color:yellow">${npc.name}</span> <span style="color:orange;">(level-${npc.vislevel})</span>`;
 
         const op0row = opsTable.insertRow();
@@ -166,7 +170,7 @@
         scroll.setAttribute("id", "narrowscroll");
         const npcSprite = document.createElement("canvas");
         npcSprite.setAttribute("npcname", debugname);
-        scroll.appendChild(npcSprite);       
+        scroll.appendChild(npcSprite);
 
         const header = document.createElement("h2");
         header.textContent = getNPCName(debugname);
@@ -177,6 +181,25 @@
         scroll.appendChild(npcStatsContainer);
 
         npcContainer.appendChild(scroll);
+
+        const allShops = window.shopData || {};
+        const matchingShops = Object.entries(allShops).filter(([, shop]) => {
+            if (!shop || !Array.isArray(shop.npc)) return false;
+            return shop.npc.includes(debugname);
+        });
+
+        if (matchingShops.length > 0) {
+            const shopsContainer = document.createElement("div");
+            shopsContainer.className = "npc-shops";
+
+            matchingShops.forEach(([shopKey, shop]) => {
+                const shopCanvas = document.createElement("canvas");
+                shopCanvas.setAttribute("shopname", shopKey);
+                shopsContainer.appendChild(shopCanvas);
+            });
+
+            npcContainer.appendChild(shopsContainer);
+        }
 
         const dropsContainer = document.createElement("div");
         const { drops } = npc;
@@ -190,7 +213,7 @@
                     const [itemName, amount] = item.item;
                     const note = item.note;
                     const noteHtml = note ? `<span class="note-indicator" title="${note}">[?]</span>` : "";
-                    const quantityRow = (typeof amount === "string") ? `<td>${amount.toLocaleString()}</td><td colspan="2">` : `<td colspan="3">`;
+                    const quantityRow = typeof amount === "string" ? `<td>${amount.toLocaleString()}</td><td colspan="2">` : `<td colspan="3">`;
                     guaranteedRows.push({
                         html: `<tr>
                         ${quantityRow}
@@ -227,7 +250,7 @@
                                 }
 
                                 const chanceCell = i === 0 ? `<td rowspan="${itemCount}">${calculateChance(roll.chance, rollBase)}</td>` : "";
-                                const quantityRow = (typeof amount === "string") ? `<td>${amount.toLocaleString()}</td><td>` : `<td colspan="2">`;
+                                const quantityRow = typeof amount === "string" ? `<td>${amount.toLocaleString()}</td><td>` : `<td colspan="2">`;
                                 rollableRows.push({
                                     html: `<tr>
                                             ${quantityRow}
@@ -237,7 +260,7 @@
                                             </td>
                                             <td>${amount.toLocaleString()}</td>
                                             ${chanceCell}
-                                        </tr>`
+                                        </tr>`,
                                 });
                             }
                         }
@@ -253,7 +276,7 @@
                             const iconItem = SHARED_TABLE_ICONS[sharedTableName];
                             const iconHtml = iconItem ? `<canvas itemname="${iconItem}" amount="${amount}"></canvas>` : "";
                             const noteHtml = roll.note ? `<span class="note-indicator" title="${roll.note}">[?]</span>` : "";
-                            const quantityRow = (typeof amount === "string") ? `<td>${amount.toLocaleString()}</td><td>` : `<td colspan="2">`;
+                            const quantityRow = typeof amount === "string" ? `<td>${amount.toLocaleString()}</td><td>` : `<td colspan="2">`;
                             rollableRows.push({
                                 html: `<tr>
                                 ${quantityRow}
@@ -266,11 +289,11 @@
                                     </div>
                                 </td>
                                 <td>${calculateChance(roll.chance, rollBase)}</td>
-                                </tr>`
+                                </tr>`,
                             });
                         }
                     } else {
-                        const quantityRow = (typeof amount === "string") ? `<td>${amount.toLocaleString()}</td><td>` : `<td colspan="2">`;
+                        const quantityRow = typeof amount === "string" ? `<td>${amount.toLocaleString()}</td><td>` : `<td colspan="2">`;
                         const noteHtml = roll.note ? `<span class="note-indicator" title="${roll.note}">[?]</span>` : "";
                         rollableRows.push({
                             html: `<tr>
@@ -280,7 +303,7 @@
                                         </div>
                                     </td>
                                     <td>${calculateChance(roll.chance, rollBase)}</td>
-                                </tr>`
+                                </tr>`,
                         });
                     }
                 }
@@ -291,7 +314,7 @@
                         html: `<tr style="color: #888;">
                             <td style="font-style: italic; text-align: center;" colspan="2">Nothing</td>
                             <td>${calculateChance(nothingSlots, rollBase)}</td>
-                            </tr>`
+                            </tr>`,
                     });
                 }
             }
@@ -323,7 +346,7 @@
                                         </div>
                                     </td>
                                     <td>${chance}</td>
-                                </tr>`
+                                </tr>`,
                             });
                         }
                     } else {
@@ -335,7 +358,7 @@
                                     </div>
                                 </td>
                                 <td>${chance}</td>
-                            </tr>`
+                            </tr>`,
                         });
                     }
                 });
@@ -586,8 +609,8 @@
                 <div style="display: flex; align-items: center; justify-content: center; gap: 5px;">
                                 ${iconHtml}
                         <span class="nested-shared-table" onclick="openSharedTableModal('${nestedTableName}', '${nestedParentChance || "null"}', '${newChainPath}')">${
-                        nestedTable.name || nestedTableName
-                    }</span>${noteHtml}
+                            nestedTable.name || nestedTableName
+                        }</span>${noteHtml}
                 </div>
             </td>
             <td>${calculateChance(subRoll.chance, rollBase)}</td>
@@ -691,20 +714,19 @@
     window.openSharedTableModal = openSharedTableModal;
     window.closeSharedTableModal = closeSharedTableModal;
 
-
     function buildNpcIndex() {
         const arr = [];
-        const droppableOnlyCheckbox = typeof document !== 'undefined' ? document.getElementById('droppableOnlyCheckbox') : null;
+        const droppableOnlyCheckbox = typeof document !== "undefined" ? document.getElementById("droppableOnlyCheckbox") : null;
         const droppableOnly = droppableOnlyCheckbox && droppableOnlyCheckbox.checked;
         for (const key of Object.keys(npcData)) {
             const npc = npcData[key];
             if (droppableOnly) {
                 const drops = npc && npc.drops;
-                const hasDrops = !!drops && (
-                    (Array.isArray(drops.always) && drops.always.length > 0) ||
-                    (Array.isArray(drops.roll_table) && drops.roll_table.length > 0) ||
-                    (drops.tertiary && (Array.isArray(drops.tertiary) ? drops.tertiary.length > 0 : true))
-                );
+                const hasDrops =
+                    !!drops &&
+                    ((Array.isArray(drops.always) && drops.always.length > 0) ||
+                        (Array.isArray(drops.roll_table) && drops.roll_table.length > 0) ||
+                        (drops.tertiary && (Array.isArray(drops.tertiary) ? drops.tertiary.length > 0 : true)));
                 if (!hasDrops) continue;
             }
 
@@ -716,19 +738,19 @@
     }
 
     function attachSuggestionBox(input, onType) {
-        const wrapper = document.createElement('div');
-        wrapper.className = 'search-wrapper';
+        const wrapper = document.createElement("div");
+        wrapper.className = "search-wrapper";
         input.parentNode.insertBefore(wrapper, input);
         wrapper.appendChild(input);
 
-        const sugg = document.createElement('ul');
-        sugg.className = 'suggestions floating-suggestions';
-        sugg.style.position = 'fixed';
-        sugg.style.display = 'block';
-        sugg.style.left = '0px';
-        sugg.style.top = '0px';
-        sugg.style.minWidth = '120px';
-        sugg.style.zIndex = '2147483647';
+        const sugg = document.createElement("ul");
+        sugg.className = "suggestions floating-suggestions";
+        sugg.style.position = "fixed";
+        sugg.style.display = "block";
+        sugg.style.left = "0px";
+        sugg.style.top = "0px";
+        sugg.style.minWidth = "120px";
+        sugg.style.zIndex = "2147483647";
         document.body.appendChild(sugg);
 
         input.suggBox = sugg;
@@ -737,45 +759,53 @@
             if (!sugg || !input) return;
             const rect = input.getBoundingClientRect();
             const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
-            sugg.style.left = rect.left + 'px';
-            sugg.style.top = rect.bottom + 'px';
-            sugg.style.width = 'auto';
-            sugg.style.minWidth = rect.width + 'px';
-            sugg.style.maxWidth = Math.max(320, Math.min(vw - 20, 700)) + 'px';
+            sugg.style.left = rect.left + "px";
+            sugg.style.top = rect.bottom + "px";
+            sugg.style.width = "auto";
+            sugg.style.minWidth = rect.width + "px";
+            sugg.style.maxWidth = Math.max(320, Math.min(vw - 20, 700)) + "px";
             const contentW = Math.min(sugg.scrollWidth + 8, parseInt(sugg.style.maxWidth, 10));
             const finalW = Math.max(rect.width, contentW);
-            sugg.style.width = finalW + 'px';
+            sugg.style.width = finalW + "px";
             const rightEdge = rect.left + finalW;
             if (rightEdge > vw - 10) {
                 const shift = rightEdge - (vw - 10);
-                sugg.style.left = Math.max(10, rect.left - shift) + 'px';
+                sugg.style.left = Math.max(10, rect.left - shift) + "px";
             }
             const maxH = window.innerHeight - rect.bottom - 10;
-            sugg.style.maxHeight = (maxH > 40 ? maxH : 40) + 'px';
+            sugg.style.maxHeight = (maxH > 40 ? maxH : 40) + "px";
         }
 
         input.updateSuggPos = updatePos;
 
-        input.addEventListener('input', onType);
-        input.addEventListener('blur', () => setTimeout(() => (input.suggBox.innerHTML = ''), 150));
+        input.addEventListener("input", onType);
+        input.addEventListener("blur", () => setTimeout(() => (input.suggBox.innerHTML = ""), 150));
 
-        window.addEventListener('resize', () => { if (input.suggBox && input.suggBox.children.length) updatePos(); });
-        window.addEventListener('scroll', () => { if (input.suggBox && input.suggBox.children.length) updatePos(); }, true);
+        window.addEventListener("resize", () => {
+            if (input.suggBox && input.suggBox.children.length) updatePos();
+        });
+        window.addEventListener(
+            "scroll",
+            () => {
+                if (input.suggBox && input.suggBox.children.length) updatePos();
+            },
+            true,
+        );
     }
 
     function onNPCType(e) {
         const val = e.target.value.toLowerCase().trim();
         const box = e.target.suggBox;
-        box.innerHTML = '';
+        box.innerHTML = "";
         if (!val) return;
         const idx = buildNpcIndex();
-        const matches = idx.filter(n => n.tags.includes(val)).slice(0,15);
-        matches.forEach(n => {
-            const li = document.createElement('li');
+        const matches = idx.filter((n) => n.tags.includes(val)).slice(0, 15);
+        matches.forEach((n) => {
+            const li = document.createElement("li");
             li.textContent = n.display;
-            li.addEventListener('mousedown', () => {
+            li.addEventListener("mousedown", () => {
                 e.target.value = n.display;
-                e.target.suggBox.innerHTML = '';
+                e.target.suggBox.innerHTML = "";
                 if (npcData[n.key]) {
                     renderNPCInfo(n.key);
                     updateURL(n.key);
@@ -786,7 +816,7 @@
         e.target.updateSuggPos();
     }
 
-    attachSuggestionBox(document.getElementById('npcSearch'), onNPCType);
+    attachSuggestionBox(document.getElementById("npcSearch"), onNPCType);
 
     window.addEventListener("popstate", function () {
         loadNPCFromURL();
@@ -796,16 +826,16 @@
         const ringOfWealthCheckbox = document.getElementById("ringOfWealthCheckbox");
         if (ringOfWealthCheckbox) {
             ringOfWealthCheckbox.addEventListener("change", function () {
-                const currentNPC = getURLParameter('npc');
+                const currentNPC = getURLParameter("npc");
                 if (currentNPC && npcData[currentNPC]) renderNPCInfo(currentNPC);
             });
         }
-        const droppableOnlyCheckbox = document.getElementById('droppableOnlyCheckbox');
+        const droppableOnlyCheckbox = document.getElementById("droppableOnlyCheckbox");
         if (droppableOnlyCheckbox) {
-            droppableOnlyCheckbox.addEventListener('change', function () {
-                const npcSearch = document.getElementById('npcSearch');
+            droppableOnlyCheckbox.addEventListener("change", function () {
+                const npcSearch = document.getElementById("npcSearch");
                 if (npcSearch && npcSearch.suggBox) {
-                    npcSearch.suggBox.innerHTML = '';
+                    npcSearch.suggBox.innerHTML = "";
                     if (npcSearch.value && npcSearch.value.trim()) {
                         onNPCType({ target: npcSearch });
                     }
@@ -813,5 +843,4 @@
             });
         }
     });
-
 })();

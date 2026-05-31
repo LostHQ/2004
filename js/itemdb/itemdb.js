@@ -167,7 +167,7 @@
 
         // cost/alch trio
         row = table.insertRow();
-        addCombined(row, "Shop Cost", item.cost.toLocaleString());
+        addCombined(row, "Item Value", item.cost.toLocaleString());
         addCombined(row, "Low Alch", Math.floor(item.cost * 0.4).toLocaleString());
         addCombined(row, "High Alch", Math.floor(item.cost * 0.6).toLocaleString());
 
@@ -273,6 +273,80 @@
             cell.appendChild(bonusTable);
         }
 
+        // shops that stock this item
+        const shopsStockingItem = [];
+        for (const shopDebugName in window.shopData) {
+            const shop = window.shopData[shopDebugName];
+            if (shop.stock && shop.stock[item.debugname] !== undefined) {
+                shopsStockingItem.push(shopDebugName);
+            }
+        }
+
+        if (shopsStockingItem.length > 0) {
+            row = table.insertRow();
+            const shopCell = row.insertCell();
+            shopCell.colSpan = 6;
+            const shopTable = document.createElement("table");
+            shopTable.className = "itemdatabase";
+            let shopRow = shopTable.insertRow();
+            const shopHead = document.createElement("th");
+            shopHead.textContent = "Available in Shop";
+            const shopHead2 = document.createElement("th");
+            shopHead2.textContent = "Shop Keeper(s)";
+            shopRow.appendChild(shopHead);
+            shopRow.appendChild(shopHead2);
+            shopsStockingItem.forEach((shopDebugName) => {
+                const shop = window.shopData[shopDebugName];
+                if (!shop) return;
+                if (shop.npc.length > 1) {
+                    const validNpcKeys = shop.npc.filter((npcKey) => npcData[npcKey]);
+                    if (validNpcKeys.length === 0) return;
+                    validNpcKeys.forEach((npcKey, index) => {
+                        const npc = npcData[npcKey];
+                        const row = shopTable.insertRow();
+                        if (index === 0) {
+                            const cell1 = row.insertCell();
+                            cell1.textContent = shop.name;
+                            cell1.rowSpan = validNpcKeys.length;
+                        }
+                        const npcHtml = `<a class="a" href="?p=npcdb&npc=${encodeURIComponent(npcKey)}">${npc.name}</a>`;
+                        const cell2 = row.insertCell();
+                        cell2.innerHTML = npcHtml;
+                    });
+                } else {
+                    const npcKey = shop.npc[0];
+                    const npc = npcData[npcKey];
+                    if (!npc) return;
+                    const npcHtml = `<a class="a" href="?p=npcdb&npc=${encodeURIComponent(npcKey)}">${npc.name}</a>`;
+                    const row = shopTable.insertRow();
+                    const cell1 = row.insertCell();
+                    cell1.textContent = shop.name;
+                    const cell2 = row.insertCell();
+                    cell2.innerHTML = npcHtml;
+                }
+            });
+            shopCell.appendChild(shopTable);
+        }
+
+        // ground spawns
+        if (item.spawn_locations) {
+            row = table.insertRow();
+            const spawnCell = row.insertCell();
+            spawnCell.colSpan = 6;
+            const spawnTable = document.createElement("table");
+            spawnTable.className = "itemdatabase";
+            let spawnRow = spawnTable.insertRow();
+            const spawnHead = document.createElement("th");
+            spawnHead.textContent = "Ground Spawn Location(s)";
+            spawnRow.appendChild(spawnHead);
+            Object.keys(item.spawn_locations).forEach((coord) => {
+                const row = spawnTable.insertRow();
+                const cell = row.insertCell();
+                cell.innerHTML = `${item.spawn_locations[coord]}`;
+            });
+            spawnCell.appendChild(spawnTable);
+        }
+
         // npc drops subtable
         const droppers = findDroppers(item.debugname);
         if (droppers.length > 0) {
@@ -280,8 +354,7 @@
             const drCell = row.insertCell();
             drCell.colSpan = 6;
             const drTable = document.createElement("table");
-            drTable.className = "table";
-
+            drTable.className = "itemdatabase";
             let drRow = drTable.insertRow();
             const drHeadNpc = document.createElement("th");
             drHeadNpc.textContent = "Dropped By";
@@ -292,20 +365,14 @@
 
             droppers.forEach(({ npcKey, routes }) => {
                 const npc = npcData[npcKey];
-                const npcName = npc
-                    ? npc.vislevel === "hide"
-                        ? npc.name
-                        : `${npc.name} (level-${npc.vislevel})`
-                    : npcKey;
-                const npcHtml = `<a href="?p=npcdb&npc=${encodeURIComponent(npcKey)}">${npcName}</a>`;
+                const npcName = npc ? (npc.vislevel === "hide" ? npc.name : `${npc.name} (level-${npc.vislevel})`) : npcKey;
+                const npcHtml = `<a class="a" href="?p=npcdb&npc=${encodeURIComponent(npcKey)}">${npcName}</a>`;
                 routes.forEach(({ path, chanceStr }) => {
                     drRow = drTable.insertRow();
                     const tdNpc = drRow.insertCell();
                     tdNpc.innerHTML = npcHtml;
                     const tdChance = drRow.insertCell();
-                    const tooltipHtml = path.length > 0
-                        ? ` <span class="note-indicator" title="${path.join(" \u2192 ")}">[?]</span>`
-                        : "";
+                    const tooltipHtml = path.length > 0 ? ` <span class="note-indicator" title="${path.join(" \u2192 ")}">[?]</span>` : "";
                     tdChance.innerHTML = `${chanceStr}${tooltipHtml}`;
                 });
             });
@@ -321,7 +388,8 @@
 
         function itemStrMatchesTarget(itemStr) {
             if (!itemStr) return false;
-            if (itemStr.includes("|")) {//above and below ground drops (nature/cosmic talis)
+            if (itemStr.includes("|")) {
+                //above and below ground drops (nature/cosmic talis)
                 return itemStr.split("|").some((part) => {
                     const val = part.includes("=") ? part.split("=")[1].trim() : part.trim();
                     return val === debugname;
@@ -363,7 +431,8 @@
         }
 
         function combineFrac(n1, d1, n2, d2) {
-            const rn = n1 * n2, rd = d1 * d2;
+            const rn = n1 * n2,
+                rd = d1 * d2;
             const g = gcd(Math.abs(rn), Math.abs(rd));
             return { n: rn / g, d: rd / g };
         }
@@ -371,7 +440,8 @@
         function formatChance(n, d) {
             if (n >= d) return "Always";
             const g = gcd(Math.abs(n), Math.abs(d));
-            const sn = n / g, sd = d / g;
+            const sn = n / g;
+            const sd = d / g;
             return sn === 1 ? `1/${sd.toLocaleString()}` : `${sn.toLocaleString()}/${sd.toLocaleString()}`;
         }
 
@@ -430,13 +500,14 @@
             if (drops.tertiary) {
                 const tertiaryData = Array.isArray(drops.tertiary) ? drops.tertiary : [drops.tertiary];
                 for (const entry of tertiaryData) {
-                    const itemStr = typeof entry.item === "string" ? entry.item : (Array.isArray(entry.item) ? entry.item[0] : null);
+                    const itemStr = typeof entry.item === "string" ? entry.item : Array.isArray(entry.item) ? entry.item[0] : null;
                     if (!itemStr) continue;
                     if (!itemStr.startsWith("~") && itemStrMatchesTarget(itemStr)) {
                         routes.push({ path: ["Tertiary"], chanceStr: String(entry.chance) });
                     } else if (itemStr.startsWith("~") && sharedTablesWithItem.has(itemStr.slice(1))) {
                         const chanceStr = String(entry.chance);
-                        let tertiaryN = 1, tertiaryD = 1;
+                        let tertiaryN = 1;
+                        let tertiaryD = 1;
                         if (chanceStr.includes("/")) {
                             //chance in tertiary is just a fraction for now until other tertiary rolls are added aside from clue scrolls
                             // todo: change whenever other tertiary drops are added

@@ -18,6 +18,10 @@ let npcBitmapLoading = null;
 let npcBitmapFailed = false;
 let npcData = {};
 
+const shopBackgroundSrc = `/img/shop_bg.png`;
+let shopBackgroundImage = null;
+let shopBackgroundLoading = null;
+
 async function checkSpriteLoaderReady() {
     while (true) {
         if (window.itemData && window.npcData) return true;
@@ -28,10 +32,11 @@ async function checkSpriteLoaderReady() {
     try {
         await loadFonts();
 
-        const [itemJson, npcJson, sharedDropTablesData] = await Promise.all([
+        const [itemJson, npcJson, sharedDropTablesData, shopData] = await Promise.all([
             fetch(`/js/itemdb/item_data.json?v=${currentGameVer}`).then((res) => res.json()),
             fetch(`/js/npcdb/npc_data.json?v=${currentGameVer}`).then((res) => res.json()),
             fetch(`/js/npcdb/shared_drops.json?v=${currentGameVer}`).then((res) => res.json()),
+            fetch(`/js/npcdb/shop_data.json?v=${currentGameVer}`).then((res) => res.json()),
         ]);
 
         function toMapByDebugname(data) {
@@ -51,6 +56,7 @@ async function checkSpriteLoaderReady() {
         window.itemData = itemData;
         window.npcData = npcData;
         window.sharedDropTablesData = sharedDropTablesData;
+        window.shopData = shopData;
         window.spriteLoaderReady = true;
     } catch (err) {
         console.error("Error loading resources:", err);
@@ -149,6 +155,27 @@ async function drawNPCImage(ctx, x, y, npcId, iconSize) {
             } catch (e) {}
         })
         .catch(() => {});
+}
+
+function loadShopBackground() {
+    if (shopBackgroundImage) return Promise.resolve(shopBackgroundImage);
+    if (shopBackgroundLoading) return shopBackgroundLoading;
+
+    shopBackgroundLoading = new Promise((resolve, reject) => {
+        const img = new Image();
+        img.onload = function () {
+            shopBackgroundImage = img;
+            shopBackgroundLoading = null;
+            resolve(img);
+        };
+        img.onerror = function (err) {
+            shopBackgroundLoading = null;
+            reject(err);
+        };
+        img.src = shopBackgroundSrc;
+    });
+
+    return shopBackgroundLoading;
 }
 
 const stackableSpriteOverrides = {
@@ -426,6 +453,181 @@ function renderNPCSpriteToCanvas(canvas) {
     ctx.clearRect(0, 0, iconSize, iconSize);
     drawNPCImage(ctx, 0, 0, id, iconSize);
 }
+
+function renderShopSpriteToCanvas(canvas) {
+    if (canvas.getAttribute("done")) return;
+    canvas.setAttribute("done", "true");
+
+    const shopName = canvas.getAttribute("shopname");
+    const allShops = window.shopData || {};
+    const shop = allShops[shopName];
+    if (!shop || !shop.stock) return;
+
+    const itemsPerRow = 8;
+    const layoutTuning = {
+        baseSlotPitchX: 48,
+        baseSlotPitchY: 48,
+        quantityOffsetX: 2,
+        quantityOffsetY: 2,
+    };
+    const slotPitchX = layoutTuning.baseSlotPitchX;
+    const slotPitchY = layoutTuning.baseSlotPitchY;
+    const outerPaddingX = 12;
+    const outerPaddingY = 10;
+    const titleTopY = 9;
+    const titleBandHeight = 16;
+    const titleGapBelow = 4;
+    const maxCanvasWidth = 487;
+    const maxCanvasHeight = 300;
+    const stockEntries = Object.entries(shop.stock);
+    const rows = Math.max(1, Math.ceil(stockEntries.length / itemsPerRow));
+
+    const ctx = canvas.getContext("2d");
+
+    const stockAreaWidth = itemsPerRow * slotPitchX;
+
+    const getCanvasSize = function () {
+        return {
+            width: maxCanvasWidth,
+            height: maxCanvasHeight,
+        };
+    };
+
+    const applyCanvasSize = function () {
+        const size = getCanvasSize();
+        if (canvas.width !== size.width) canvas.width = size.width;
+        if (canvas.height !== size.height) canvas.height = size.height;
+        return size;
+    };
+
+    applyCanvasSize();
+    canvas.style.display = "block";
+    canvas.style.margin = "8px auto 16px auto";
+    canvas.style.width = `${canvas.width}px`;
+    canvas.style.height = `${canvas.height}px`;
+    canvas.style.maxWidth = "none";
+
+    const drawTitle = function (canvasWidth) {
+        const shopTitle = shop.name || shopName;
+        if (typeof drawB12 === "function") {
+            drawB12(ctx, shopTitle, Math.floor(canvasWidth / 2), titleTopY, "#FF981F", true);
+            return;
+        }
+        ctx.fillStyle = "#FF981F";
+        ctx.textAlign = "center";
+        ctx.textBaseline = "top";
+        ctx.fillText(shopTitle, Math.floor(canvasWidth / 2), titleTopY);
+    };
+
+    const ensureShopItemLayer = function (canvasWidth, canvasHeight) {
+        const layerId = `shop-item-layer-${shopName}`;
+        let layer = document.getElementById(layerId);
+        if (!layer) {
+            layer = document.createElement("div");
+            layer.id = layerId;
+            layer.className = "shop-item-layer";
+            layer.style.position = "absolute";
+            layer.style.left = "0";
+            layer.style.top = "0";
+            layer.style.pointerEvents = "none";
+            layer.style.zIndex = "2";
+
+            if (!canvas.parentElement || !canvas.parentElement.classList.contains("shop-canvas-wrapper")) {
+                const wrapper = document.createElement("div");
+                wrapper.className = "shop-canvas-wrapper";
+                wrapper.style.position = "relative";
+                wrapper.style.width = `${canvasWidth}px`;
+                wrapper.style.height = `${canvasHeight}px`;
+                wrapper.style.margin = canvas.style.margin || "8px auto 16px auto";
+                wrapper.style.display = "block";
+                canvas.parentNode.insertBefore(wrapper, canvas);
+                wrapper.appendChild(canvas);
+            }
+            canvas.parentElement.appendChild(layer);
+        }
+
+        const wrapper = canvas.parentElement;
+        wrapper.style.width = `${canvasWidth}px`;
+        wrapper.style.height = `${canvasHeight}px`;
+        wrapper.style.margin = canvas.style.margin || "8px auto 16px auto";
+
+        layer.style.width = `${canvasWidth}px`;
+        layer.style.height = `${canvasHeight}px`;
+        return layer;
+    };
+
+    const buildItemCanvases = function (canvasWidth, canvasHeight) {
+        const layer = ensureShopItemLayer(canvasWidth, canvasHeight);
+        layer.innerHTML = "";
+
+        const stockStartX = Math.floor((canvasWidth - stockAreaWidth) / 2);
+        const stockStartY = titleTopY + titleBandHeight + titleGapBelow + outerPaddingY;
+
+        for (let i = 0; i < stockEntries.length; i++) {
+            const [itemDebugName, amount] = stockEntries[i];
+            const item = itemData[itemDebugName];
+            if (!item) continue;
+
+            const col = i % itemsPerRow;
+            const row = Math.floor(i / itemsPerRow);
+            const slotX = stockStartX + col * slotPitchX;
+            const slotY = stockStartY + row * slotPitchY;
+
+            const iconX = slotX + Math.floor((slotPitchX - itemSpriteSize) / 2);
+            const iconY = slotY + Math.floor((slotPitchY - itemSpriteSize) / 2);
+
+            const itemCanvas = document.createElement("canvas");
+            itemCanvas.setAttribute("itemname", itemDebugName);
+            itemCanvas.setAttribute("amount", String(amount));
+            itemCanvas.setAttribute("icon-size", String(itemSpriteSize));
+            itemCanvas.style.position = "absolute";
+            itemCanvas.style.left = `${iconX}px`;
+            itemCanvas.style.top = `${iconY}px`;
+            itemCanvas.style.pointerEvents = "auto";
+            itemCanvas.style.zIndex = "3";
+
+            layer.appendChild(itemCanvas);
+            renderItemSpriteToCanvas(itemCanvas);
+        }
+    };
+
+    const drawBackground = function (canvasWidth, canvasHeight) {
+        if (shopBackgroundImage) {
+            ctx.drawImage(shopBackgroundImage, 0, 0, canvasWidth, canvasHeight);
+        } else {
+            ctx.fillStyle = "#2a2018";
+            ctx.fillRect(0, 0, canvasWidth, canvasHeight);
+        }
+    };
+
+    const drawShop = function () {
+        const size = applyCanvasSize();
+        canvas.style.width = `${size.width}px`;
+        canvas.style.height = `${size.height}px`;
+
+        ctx.clearRect(0, 0, size.width, size.height);
+        drawBackground(size.width, size.height);
+        drawTitle(size.width);
+
+        if (!canvas.getAttribute("shop-items-built")) {
+            buildItemCanvases(size.width, size.height);
+            canvas.setAttribute("shop-items-built", "true");
+        }
+    };
+
+    drawShop();
+
+    if (!shopBackgroundImage) {
+        loadShopBackground()
+            .then(() => {
+                drawShop();
+            })
+            .catch(() => {
+                drawShop();
+            });
+    }
+}
+
 function renderItemSpriteToCanvas(canvas) {
     if (canvas.getAttribute("done")) return;
     canvas.setAttribute("done", "true");
@@ -565,11 +767,13 @@ function renderItemSpriteToCanvas(canvas) {
 }
 
 renderAllSprites = function () {
-    document.querySelectorAll("canvas[itemname], canvas[npcname]").forEach((canvas) => {
+    document.querySelectorAll("canvas[itemname], canvas[npcname], canvas[shopname]").forEach((canvas) => {
         if (canvas.getAttribute("itemname")) {
             renderItemSpriteToCanvas(canvas);
         } else if (canvas.getAttribute("npcname")) {
             renderNPCSpriteToCanvas(canvas);
+        } else if (canvas.getAttribute("shopname")) {
+            renderShopSpriteToCanvas(canvas);
         }
     });
 };
