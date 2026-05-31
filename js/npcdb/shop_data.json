@@ -3,158 +3,391 @@
     "name": "Gaius' Two Handed Shop.",
     "npc": [
       "gaius"
-    ]
+    ],
+    "stock": {
+      "bronze_2h_sword": 4,
+      "iron_2h_sword": 3,
+      "steel_2h_sword": 2,
+      "black_2h_sword": 1,
+      "mithril_2h_sword": 1,
+      "adamant_2h_sword": 1
+    }
   },
   "adventurershop": {
     "name": "Aemad's Adventuring Supplies.",
     "npc": [
       "aemad",
       "kortan"
-    ]
+    ],
+    "stock": {
+      "vial_water": 500,
+      "bronze_pickaxe": 2,
+      "iron_axe": 2,
+      "cooked_meat": 2,
+      "tinderbox": 2,
+      "ball_of_wool": 30,
+      "bronze_arrow": 500,
+      "rope": 20,
+      "papyrus": 50
+    }
   },
   "amuletshop": {
     "name": "Davon's Amulet Store.",
     "npc": [
       "davon"
-    ]
+    ],
+    "stock": {
+      "blessedstar": 0,
+      "amulet_of_magic": 0,
+      "amulet_of_defence": 0,
+      "amulet_of_strength": 0,
+      "amulet_of_power": 0
+    }
   },
   "aprilfoolshorseshop": {
     "name": "Diango's Toy Store",
     "npc": [
       "aprilfoolshorsesalesman"
-    ]
+    ],
+    "stock": {
+      "horsey_brown": 5,
+      "horsey_white": 5,
+      "horsey_black": 5,
+      "horsey_grey": 5
+    }
   },
   "archeryshop": {
     "name": "Lowe's Archery Emporium",
     "npc": [
       "lowe"
-    ]
+    ],
+    "stock": {
+      "bronze_arrow": 2000,
+      "iron_arrow": 1500,
+      "steel_arrow": 1000,
+      "bolt": 1500,
+      "shortbow": 4,
+      "longbow": 4,
+      "oak_shortbow": 2,
+      "oak_longbow": 2,
+      "crossbow": 2
+    }
   },
   "archeryshop2": {
     "name": "Hicktons Archery Emporium.",
     "npc": [
       "hickton"
-    ]
+    ],
+    "stock": {
+      "bolt": 200,
+      "bronze_arrow": 1000,
+      "iron_arrow": 800,
+      "steel_arrow": 0,
+      "mithril_arrow": 0,
+      "adamant_arrow": 0,
+      "rune_arrow": 0,
+      "bronze_arrowheads": 1000,
+      "iron_arrowheads": 800,
+      "steel_arrowheads": 600,
+      "mithril_arrowheads": 400,
+      "adamant_arrowheads": 200,
+      "rune_arrowheads": 100,
+      "shortbow": 4,
+      "longbow": 2,
+      "crossbow": 2,
+      "oak_shortbow": 4,
+      "oak_longbow": 4,
+      "studded_body": 2,
+      "studded_chaps": 2
+    }
   },
   "ardougnegemstall": {
     "name": "Ardougne Gem Stall.",
     "npc": [
       "gem_merchant"
-    ]
+    ],
+    "stock": {
+      "sapphire": 2,
+      "emerald": 1,
+      "ruby": 1,
+      "diamond": 0
+    }
   },
   "arheinstore": {
     "name": "Arhein Store",
     "npc": [
       "arhein"
-    ]
+    ],
+    "stock": {
+      "bucket_empty": 10,
+      "bronze_pickaxe": 2,
+      "bowl_empty": 2,
+      "cake_tin": 2,
+      "tinderbox": 2,
+      "chisel": 2,
+      "hammer": 5,
+      "rope": 2,
+      "pot_empty": 2
+    }
   },
   "armourshop": {
     "name": "Horvik's Armour Shop.",
     "npc": [
       "horvik_the_armourer"
-    ]
+    ],
+    "stock": {
+      "bronze_chainbody": 5,
+      "iron_chainbody": 3,
+      "steel_chainbody": 3,
+      "mithril_chainbody": 1,
+      "bronze_platebody": 3,
+      "iron_platebody": 1,
+      "steel_platebody": 1,
+      "mithril_platebody": 1,
+      "black_platebody": 1,
+      "iron_platelegs": 1,
+      "studded_body": 1,
+      "studded_chaps": 1
+    }
   },
   "axeshop": {
     "name": "Bob's Brilliant Axes.",
     "npc": [
       "bob"
-    ]
+    ],
+    "stock": {
+      "bronze_pickaxe": 5,
+      "bronze_axe": 10,
+      "iron_axe": 5,
+      "steel_axe": 3,
+      "iron_battleaxe": 5,
+      "steel_battleaxe": 2,
+      "mithril_battleaxe": 1
+    }
   },
   "bakery": {
     "name": "Ardougne Baker's Stall.",
     "npc": [
       "baker_merchant"
-    ]
+    ],
+    "stock": {
+      "bread": 10,
+      "cake": 3,
+      "chocolate_slice": 8
+    }
   },
   "battleaxeshop": {
     "name": "Brian's Battleaxe Bazaar.",
     "npc": [
       "brian"
-    ]
+    ],
+    "stock": {
+      "bronze_battleaxe": 4,
+      "iron_battleaxe": 3,
+      "steel_battleaxe": 2,
+      "black_battleaxe": 1,
+      "mithril_battleaxe": 1,
+      "adamant_battleaxe": 1
+    }
   },
   "bedabincampshop": {
     "name": "Bedabin Village Bartering",
     "npc": [
       "bedabin"
-    ]
+    ],
+    "stock": {
+      "water_skin4": 5,
+      "water_skin0": 5,
+      "jug_water": 5,
+      "bowl_water": 5,
+      "bucket_water": 5,
+      "knife": 5
+    }
   },
   "blurberrybar": {
     "name": "Blurberry Bar",
     "npc": [
       "blurberrybarmen"
-    ]
+    ],
+    "stock": {
+      "premade_blurberry_special": 10,
+      "premade_choc_saturday": 10,
+      "premade_drunk_dragon": 10,
+      "premade_fruit_blast": 10,
+      "premade_pineapple_punch": 10,
+      "premade_sgg": 10,
+      "premade_wizard_blizzard": 10
+    }
   },
   "boozeshop": {
     "name": "Karamja Wines, Spirits, and Beers.",
     "npc": [
       "zambo"
-    ]
+    ],
+    "stock": {
+      "beer": 3,
+      "karamja_rum": 3,
+      "jug_wine": 1
+    }
   },
   "candleshop": {
     "name": "Candle Shop",
     "npc": [
       "candle_maker"
-    ]
+    ],
+    "stock": {
+      "unlit_candle": 10
+    }
   },
   "chainmailshop": {
     "name": "Wayne's Chains! - Chainmail specialist.",
     "npc": [
       "wayne"
-    ]
+    ],
+    "stock": {
+      "bronze_chainbody": 3,
+      "iron_chainbody": 2,
+      "steel_chainbody": 1,
+      "black_chainbody": 1,
+      "mithril_chainbody": 1,
+      "adamant_chainbody": 1
+    }
   },
   "championshop": {
     "name": "Valaine's Shop of Champions.",
     "npc": [
       "valaine"
-    ]
+    ],
+    "stock": {
+      "blue_cape": 2,
+      "black_full_helm": 1,
+      "black_platelegs": 1,
+      "adamant_platebody": 1
+    }
   },
   "cheapringshop": {
     "name": "irksol",
     "npc": [
       "irksol"
-    ]
+    ],
+    "stock": {
+      "ruby_ring": 5
+    }
   },
   "clotheshop": {
     "name": "Thessalia Fine Clothes.",
     "npc": [
       "thessalia"
-    ]
+    ],
+    "stock": {
+      "white_apron": 3,
+      "leather_armour": 12,
+      "leather_gloves": 10,
+      "leather_boots": 10,
+      "brown_apron": 1,
+      "pink_skirt": 5,
+      "black_skirt": 3,
+      "blue_skirt": 2,
+      "red_cape": 4,
+      "silk": 5,
+      "priest_robe": 3,
+      "priest_gown": 3
+    }
   },
   "cookeryshop": {
     "name": "Frenita's Cookery Shop.",
     "npc": [
       "frenita"
-    ]
+    ],
+    "stock": {
+      "piedish": 5,
+      "cooking_apple": 2,
+      "cake_tin": 2,
+      "bowl_empty": 2,
+      "potato": 5,
+      "tinderbox": 4,
+      "jug_empty": 1,
+      "pot_empty": 8,
+      "chocolate_bar": 2,
+      "pot_flour": 8
+    }
   },
   "craftingshop": {
     "name": "Rommiks Crafty Supplies.",
     "npc": [
       "rommik"
-    ]
+    ],
+    "stock": {
+      "chisel": 2,
+      "ring_mould": 4,
+      "necklace_mould": 2,
+      "amulet_mould": 2,
+      "needle": 3,
+      "thread": 100,
+      "holy_symbol_mould": 3,
+      "sickle_mould": 6
+    }
   },
   "craftingshop2": {
     "name": "Dommiks Crafting Store.",
     "npc": [
       "dommik"
-    ]
+    ],
+    "stock": {
+      "chisel": 2,
+      "ring_mould": 4,
+      "necklace_mould": 2,
+      "amulet_mould": 2,
+      "needle": 3,
+      "thread": 100,
+      "holy_symbol_mould": 3,
+      "sickle_mould": 6
+    }
   },
   "craftingshop2_free": {
     "name": "Dommiks Crafting Store.",
     "npc": [
       "dommik"
-    ]
+    ],
+    "stock": {
+      "chisel": 2,
+      "ring_mould": 4,
+      "necklace_mould": 2,
+      "amulet_mould": 2,
+      "needle": 3,
+      "thread": 100,
+      "holy_symbol_mould": 3
+    }
   },
   "craftingshop_free": {
     "name": "Rommiks Crafty Supplies.",
     "npc": [
       "rommik"
-    ]
+    ],
+    "stock": {
+      "chisel": 2,
+      "ring_mould": 4,
+      "necklace_mould": 2,
+      "amulet_mould": 2,
+      "needle": 3,
+      "thread": 100,
+      "holy_symbol_mould": 3
+    }
   },
   "death_generalshop": {
     "name": "Burthorpe Supplies",
     "npc": [
       "death_shopkeeper"
-    ]
+    ],
+    "stock": {
+      "pot_empty": 3,
+      "jug_empty": 2,
+      "shears": 2,
+      "bucket_empty": 2,
+      "tinderbox": 2,
+      "chisel": 2,
+      "hammer": 5
+    }
   },
   "death_pub": {
     "name": "The Toad and Chicken",
@@ -162,525 +395,1532 @@
       "boardgames_barmaid",
       "boardgames_barmaid2",
       "death_barman"
-    ]
+    ],
+    "stock": {
+      "asgarnian_ale": 12,
+      "wizards_mind_bomb": 12,
+      "dwarven_stout": 12
+    }
   },
   "dragonaxeshop": {
     "name": "Happy Heroes' Hemporium.",
     "npc": [
       "helemos"
-    ]
+    ],
+    "stock": {
+      "dragon_battleaxe": 2,
+      "dragon_mace": 2
+    }
   },
   "dragonswordshop": {
     "name": "jakut",
     "npc": [
       "jakut"
-    ]
+    ],
+    "stock": {
+      "dragon_longsword": 2,
+      "dragon_dagger": 2
+    }
   },
   "duel_rottenfruitshop": {
     "name": "Shop of Distaste",
     "npc": [
       "duel_fadli"
-    ]
+    ],
+    "stock": {
+      "rotten_tomato": 2000
+    }
   },
   "fancyclothesstore": {
     "name": "Fancy Clothes Store",
     "npc": [
       "tailorp"
-    ]
+    ],
+    "stock": {
+      "chefs_hat": 0,
+      "bluewizhat": 3,
+      "yellow_cape": 1,
+      "grey_wolf_fur": 3,
+      "fur": 3,
+      "needle": 3,
+      "thread": 100,
+      "leather_gloves": 10,
+      "leather_boots": 10,
+      "priest_robe": 3,
+      "priest_gown": 3,
+      "brown_apron": 1,
+      "pink_skirt": 5,
+      "black_skirt": 3,
+      "blue_skirt": 2,
+      "red_cape": 4,
+      "eye_patch": 3
+    }
   },
   "fishingguild": {
     "name": "Fishing Guild Shop.",
     "npc": [
       "fishguildshop"
-    ]
+    ],
+    "stock": {
+      "fishing_bait": 2000,
+      "feather": 1500,
+      "raw_cod": 0,
+      "raw_mackerel": 0,
+      "raw_bass": 0,
+      "raw_tuna": 0,
+      "raw_lobster": 0,
+      "raw_swordfish": 0,
+      "cod": 0,
+      "mackerel": 0,
+      "bass": 0,
+      "tuna": 0,
+      "lobster": 0,
+      "swordfish": 0
+    }
   },
   "fishingshop": {
     "name": "Gerrant's Fishy Business.",
     "npc": [
       "gerrant"
-    ]
+    ],
+    "stock": {
+      "net": 5,
+      "fishing_rod": 5,
+      "fly_fishing_rod": 5,
+      "harpoon": 2,
+      "lobster_pot": 2,
+      "fishing_bait": 1500,
+      "feather": 1000,
+      "raw_shrimp": 0,
+      "raw_sardine": 200,
+      "raw_herring": 0,
+      "raw_anchovies": 0,
+      "raw_trout": 0,
+      "raw_pike": 0,
+      "raw_salmon": 0,
+      "raw_tuna": 0,
+      "raw_lobster": 0,
+      "raw_swordfish": 0
+    }
   },
   "fishingshop2": {
     "name": "Harrys Fishing Shop.",
     "npc": [
       "harry"
-    ]
+    ],
+    "stock": {
+      "net": 5,
+      "fishing_rod": 5,
+      "harpoon": 2,
+      "lobster_pot": 2,
+      "fishing_bait": 1200,
+      "big_net": 5,
+      "raw_shrimp": 0,
+      "raw_sardine": 0,
+      "raw_herring": 0,
+      "raw_mackerel": 0,
+      "raw_cod": 0,
+      "raw_anchovies": 0,
+      "raw_tuna": 0,
+      "raw_lobster": 0,
+      "raw_bass": 0,
+      "raw_swordfish": 0,
+      "raw_shark": 0
+    }
   },
   "furshop": {
     "name": "Ardougne Fur Stall.",
     "npc": [
       "fur_merchant"
-    ]
+    ],
+    "stock": {
+      "fur": 3,
+      "grey_wolf_fur": 3
+    }
   },
   "gemshop": {
     "name": "Herquin's Gems.",
     "npc": [
       "herquin"
-    ]
+    ],
+    "stock": {
+      "uncut_sapphire": 1,
+      "uncut_emerald": 0,
+      "uncut_ruby": 0,
+      "uncut_diamond": 0,
+      "sapphire": 1,
+      "emerald": 0,
+      "ruby": 0,
+      "diamond": 0
+    }
   },
   "gemshop2": {
     "name": "Gem Trader.",
     "npc": [
       "gem_trader"
-    ]
+    ],
+    "stock": {
+      "uncut_sapphire": 1,
+      "uncut_emerald": 1,
+      "uncut_ruby": 0,
+      "uncut_diamond": 0,
+      "sapphire": 1,
+      "emerald": 1,
+      "ruby": 0,
+      "diamond": 0
+    }
   },
   "generaldwarf": {
     "name": "Dwarven shopping store",
     "npc": [
       "dwarven_shopkeeper"
-    ]
+    ],
+    "stock": {
+      "pot_empty": 3,
+      "jug_empty": 2,
+      "shears": 2,
+      "bucket_empty": 2,
+      "tinderbox": 2,
+      "chisel": 2,
+      "hammer": 5
+    }
   },
   "generallegends": {
     "name": "Legends Guild General Store.",
     "npc": [
       "fionella"
-    ]
+    ],
+    "stock": {
+      "swordfish": 20,
+      "apple_pie": 5,
+      "3dose1attack": 3,
+      "steel_arrow": 500
+    }
   },
   "generalshop1": {
     "name": "Lumbridge General Store",
     "npc": [
       "generalassistant1",
       "generalshopkeeper1"
-    ]
+    ],
+    "stock": {
+      "pot_empty": 3,
+      "jug_empty": 2,
+      "shears": 2,
+      "bucket_empty": 2,
+      "tinderbox": 2,
+      "chisel": 2,
+      "hammer": 5,
+      "newcomer_map": 5
+    }
   },
   "generalshop2": {
     "name": "Varrock General Store",
     "npc": [
       "generalassistant2",
       "generalshopkeeper2"
-    ]
+    ],
+    "stock": {
+      "pot_empty": 3,
+      "jug_empty": 2,
+      "shears": 2,
+      "bucket_empty": 2,
+      "tinderbox": 2,
+      "chisel": 2,
+      "hammer": 5
+    }
   },
   "generalshop3": {
     "name": "Al-Kharid General Store",
     "npc": [
       "generalassistant3",
       "generalshopkeeper3"
-    ]
+    ],
+    "stock": {
+      "pot_empty": 3,
+      "jug_empty": 2,
+      "shears": 2,
+      "bucket_empty": 2,
+      "tinderbox": 2,
+      "chisel": 2,
+      "hammer": 5
+    }
   },
   "generalshop4": {
     "name": "Falador General Store",
     "npc": [
       "generalassistant4",
       "generalshopkeeper4"
-    ]
+    ],
+    "stock": {
+      "pot_empty": 3,
+      "jug_empty": 2,
+      "shears": 2,
+      "bucket_empty": 2,
+      "tinderbox": 2,
+      "chisel": 2,
+      "hammer": 5
+    }
   },
   "generalshop5": {
     "name": "Edgeville General Store",
     "npc": [
       "generalassistant5",
       "generalshopkeeper5"
-    ]
+    ],
+    "stock": {
+      "pot_empty": 3,
+      "jug_empty": 2,
+      "shears": 2,
+      "bucket_empty": 2,
+      "tinderbox": 2,
+      "chisel": 2,
+      "hammer": 5
+    }
   },
   "generalshop6": {
     "name": "Rimmington General Store",
     "npc": [
       "generalassistant6",
       "generalshopkeeper6"
-    ]
+    ],
+    "stock": {
+      "pot_empty": 3,
+      "jug_empty": 2,
+      "shears": 2,
+      "bucket_empty": 2,
+      "tinderbox": 2,
+      "chisel": 2,
+      "hammer": 5
+    }
   },
   "generalshop7": {
     "name": "Karamja General Store",
     "npc": [
       "generalassistant7",
       "generalshopkeeper7"
-    ]
+    ],
+    "stock": {
+      "pot_empty": 3,
+      "jug_empty": 2,
+      "shears": 2,
+      "bucket_empty": 2,
+      "tinderbox": 2,
+      "chisel": 2,
+      "hammer": 5
+    }
   },
   "generalshop8": {
     "name": "Zanaris General Store",
     "npc": [
       "generalassistant8",
       "generalshopkeeper8"
-    ]
+    ],
+    "stock": {
+      "pot_empty": 3,
+      "jug_empty": 2,
+      "shears": 2,
+      "bucket_empty": 2,
+      "tinderbox": 2,
+      "chisel": 2,
+      "hammer": 5
+    }
   },
   "generalshopogre": {
     "name": "Dal's General Ogre Supplies",
     "npc": [
       "ogre_trader1"
-    ]
+    ],
+    "stock": {
+      "pot_empty": 3,
+      "jug_empty": 2,
+      "knife": 2,
+      "bucket_empty": 2,
+      "tinderbox": 2,
+      "chisel": 2,
+      "hammer": 5
+    }
   },
   "giannerestaurant": {
     "name": "Gianne's Restaurant",
     "npc": [
       "gnome_waiter"
-    ]
+    ],
+    "stock": {
+      "premade_vegetable_batta": 3,
+      "premade_worm_batta": 3,
+      "premade_toad_batta": 3,
+      "premade_fruit_batta": 3,
+      "premade_cheese+tom_batta": 3,
+      "premade_worm_hole": 3,
+      "premade_tangled_toads_legs": 3,
+      "premade_veg_ball": 3,
+      "premade_chocolate_bomb": 3,
+      "premade_worm_crunchies": 3,
+      "premade_toad_crunchies": 3,
+      "premade_chocchip_crunchies": 3,
+      "premade_spicy_crunchies": 3
+    }
   },
   "gnomeshop": {
     "name": "Bolkoy's Village Shop",
     "npc": [
       "treevillage_shopkeeper1"
-    ]
+    ],
+    "stock": {
+      "pot_empty": 3,
+      "bronze_pickaxe": 5,
+      "jug_empty": 2,
+      "shears": 2,
+      "bucket_empty": 2,
+      "tinderbox": 2,
+      "chisel": 2,
+      "hammer": 5,
+      "bronze_arrow": 30,
+      "cooked_meat": 2
+    }
   },
   "gnomeshop_gulluck": {
     "name": "Gulluck and Sons",
     "npc": [
       "gnome_gulluck"
-    ]
+    ],
+    "stock": {
+      "bronze_arrow": 200,
+      "bolt": 150,
+      "pearl_bolt": 1,
+      "shortbow": 4,
+      "longbow": 2,
+      "crossbow": 2,
+      "bronze_arrowheads": 200,
+      "iron_arrowheads": 180,
+      "steel_arrowheads": 160,
+      "mithril_arrowheads": 140,
+      "iron_axe": 5,
+      "steel_axe": 3,
+      "iron_battleaxe": 5,
+      "steel_battleaxe": 2,
+      "mithril_battleaxe": 1,
+      "bronze_2h_sword": 4,
+      "iron_2h_sword": 3,
+      "steel_2h_sword": 2,
+      "black_2h_sword": 1,
+      "mithril_2h_sword": 1,
+      "adamant_2h_sword": 1
+    }
   },
   "gnomeshop_heck": {
     "name": "Funch's Fine Groceries",
     "npc": [
       "gnome_heckelfunch"
-    ]
+    ],
+    "stock": {
+      "brandy": 5,
+      "gin": 5,
+      "vodka": 5,
+      "whisky": 5,
+      "pineapple": 5,
+      "equa_leaves": 3,
+      "orange": 5,
+      "lemon": 5,
+      "lime": 5,
+      "dwellberries": 3,
+      "cocktail_shaker": 5,
+      "chocolate_bar": 5,
+      "chocolate_dust": 5,
+      "pot_of_cream": 5,
+      "bucket_milk": 5,
+      "knife": 5,
+      "cocktail_guide": 5
+    }
   },
   "gnomeshop_hudo": {
     "name": "Grand Tree Groceries",
     "npc": [
       "gnome_hudo"
-    ]
+    ],
+    "stock": {
+      "gianne_dough": 8,
+      "equa_leaves": 5,
+      "pot_flour": 5,
+      "gnome_spice": 5,
+      "onion": 5,
+      "potato": 3,
+      "cabbage": 3,
+      "tomato": 5,
+      "cheese": 5,
+      "lime": 5,
+      "orange": 5,
+      "lemon": 5,
+      "pineapple": 5,
+      "dwellberries": 3,
+      "cocktail_shaker": 5,
+      "chocolate_bar": 8,
+      "chocolate_dust": 5,
+      "pot_of_cream": 5,
+      "bucket_milk": 5,
+      "knife": 5,
+      "giannes_cook_book": 5
+    }
   },
   "gnomeshop_rometti": {
     "name": "Fine Fashions",
     "npc": [
       "gnome_rometti"
-    ]
+    ],
+    "stock": {
+      "gnome_robebottoms_pink": 5,
+      "gnome_robebottoms_green": 5,
+      "gnome_robebottoms_blue": 5,
+      "gnome_robebottoms_cream": 5,
+      "gnome_robebottoms_turquoise": 5,
+      "gnome_hat_pink": 5,
+      "gnome_hat_green": 5,
+      "gnome_hat_blue": 5,
+      "gnome_hat_cream": 5,
+      "gnome_hat_turquoise": 5,
+      "gnome_robetop_pink": 5,
+      "gnome_robetop_green": 5,
+      "gnome_robetop_blue": 5,
+      "gnome_robetop_cream": 5,
+      "gnome_robetop_turquoise": 5,
+      "gnome_boots_pink": 5,
+      "gnome_boots_green": 5,
+      "gnome_boots_blue": 5,
+      "gnome_boots_cream": 5,
+      "gnome_boots_turquoise": 5
+    }
   },
   "goldshop": {
     "name": "Grum's Gold Exchange.",
     "npc": [
       "grum"
-    ]
+    ],
+    "stock": {
+      "gold_ring": 0,
+      "sapphire_ring": 0,
+      "emerald_ring": 0,
+      "ruby_ring": 0,
+      "diamond_ring": 0,
+      "gold_necklace": 0,
+      "sapphire_necklace": 0,
+      "emerald_necklace": 0,
+      "ruby_necklace": 0,
+      "diamond_necklace": 0,
+      "strung_gold_amulet": 0,
+      "strung_sapphire_amulet": 0,
+      "strung_emerald_amulet": 0,
+      "strung_ruby_amulet": 0,
+      "strung_diamond_amulet": 0
+    }
   },
   "helmetshop": {
     "name": "Helmet Shop.",
     "npc": [
       "peksa"
-    ]
+    ],
+    "stock": {
+      "bronze_med_helm": 5,
+      "iron_med_helm": 3,
+      "steel_med_helm": 3,
+      "mithril_med_helm": 1,
+      "adamant_med_helm": 1,
+      "bronze_full_helm": 4,
+      "iron_full_helm": 3,
+      "steel_full_helm": 2,
+      "mithril_full_helm": 1,
+      "adamant_full_helm": 1
+    }
   },
   "herbloreshop": {
     "name": "Jatix's Herblore Shop.",
     "npc": [
       "jatix"
-    ]
+    ],
+    "stock": {
+      "vial_empty": 800,
+      "pestle_and_mortar": 3,
+      "eye_of_newt": 800
+    }
   },
   "herbloreshop2": {
     "name": "Frincos Fabulous Herb Store.",
     "npc": [
       "frincos"
-    ]
+    ],
+    "stock": {
+      "vial_empty": 50,
+      "pestle_and_mortar": 3,
+      "eye_of_newt": 50
+    }
   },
   "herbloreshopogre": {
     "name": "Grud's Herblore Stall.",
     "npc": [
       "ogre_merchant"
-    ]
+    ],
+    "stock": {
+      "vial_empty": 50,
+      "pestle_and_mortar": 3,
+      "eye_of_newt": 50
+    }
   },
   "junglestore": {
     "name": "Jiminua's Jungle Store.",
     "npc": [
       "jiminua"
-    ]
+    ],
+    "stock": {
+      "tinderbox": 2,
+      "unlit_candle": 10,
+      "torch_unlit": 10,
+      "pot_empty": 3,
+      "rope": 10,
+      "leather_armour": 12,
+      "leather_gloves": 10,
+      "leather_boots": 10,
+      "cooked_meat": 2,
+      "bread": 10,
+      "vial_empty": 10,
+      "vial_water": 50,
+      "pestle_and_mortar": 3,
+      "3doseantipoison": 10,
+      "papyrus": 50,
+      "charcoal": 50,
+      "knife": 2,
+      "hammer": 10,
+      "machette": 50,
+      "chisel": 10,
+      "spade": 10,
+      "bronze_axe": 2,
+      "bronze_pickaxe": 2,
+      "iron_axe": 5,
+      "bronze_bar": 10
+    }
   },
   "karamja_fishrestaurant": {
     "name": "The Shrimp and Parrot",
     "npc": [
       "alfonse_the_waiter"
-    ]
+    ],
+    "stock": {
+      "herring": 5,
+      "cod": 5,
+      "tuna": 5,
+      "lobster": 3,
+      "swordfish": 2,
+      "tbwt_cooked_karambwan": 3
+    }
   },
   "khazardshop": {
     "name": "Khazard General Store",
     "npc": [
       "khazard_shopkeeper"
-    ]
+    ],
+    "stock": {
+      "bronze_pickaxe": 5,
+      "pot_empty": 3,
+      "jug_empty": 2,
+      "shears": 2,
+      "bucket_empty": 2,
+      "tinderbox": 2,
+      "chisel": 2,
+      "hammer": 5,
+      "rope": 30,
+      "pot_flour": 30,
+      "bucket_bailing": 30,
+      "swamppaste": 500
+    }
   },
   "lathastrainingstore": {
     "name": "Armoury",
     "npc": [
       "lathas_shopkeeper"
-    ]
+    ],
+    "stock": {
+      "bronze_arrow": 200,
+      "bolt": 200,
+      "shortbow": 4,
+      "longbow": 2,
+      "crossbow": 2,
+      "bronze_arrowheads": 800,
+      "iron_arrowheads": 800,
+      "steel_arrowheads": 800,
+      "mithril_arrowheads": 800,
+      "iron_axe": 5,
+      "steel_axe": 3,
+      "iron_battleaxe": 5,
+      "steel_battleaxe": 2,
+      "mithril_battleaxe": 1,
+      "bronze_2h_sword": 4,
+      "iron_2h_sword": 3,
+      "steel_2h_sword": 2,
+      "black_2h_sword": 1,
+      "mithril_2h_sword": 1,
+      "adamant_2h_sword": 1
+    }
   },
   "legendsguildshop": {
     "name": "Legends Guild Shop of Useful Items.",
     "npc": [
       "siegfried_erkle"
-    ]
+    ],
+    "stock": {
+      "mithril_seed": 6,
+      "dusty_key": 5,
+      "silverlight": 4,
+      "melzarkey": 3,
+      "dragonshield_b": 1,
+      "cape_of_legends": 3
+    }
   },
   "legsshop": {
     "name": "Louies' Armoured Legs Bazaar.",
     "npc": [
       "louie_legs"
-    ]
+    ],
+    "stock": {
+      "bronze_platelegs": 5,
+      "iron_platelegs": 3,
+      "steel_platelegs": 2,
+      "black_platelegs": 1,
+      "mithril_platelegs": 1,
+      "adamant_platelegs": 1
+    }
   },
   "lighthouseshop": {
     "name": "The Lighthouse Store",
     "npc": [
       "horror_lighthousekeeeper_well"
-    ]
+    ],
+    "stock": {
+      "rope": 10,
+      "hammer": 10,
+      "chisel": 10,
+      "knife": 10,
+      "spade": 10,
+      "tinderbox": 5,
+      "unlit_candle": 10,
+      "poison": 10,
+      "pestle_and_mortar": 10,
+      "pot_empty": 10,
+      "bucket_empty": 5,
+      "bucket_water": 5,
+      "jug_empty": 5,
+      "jug_water": 5,
+      "vial_empty": 100,
+      "vial_water": 100,
+      "gin": 5,
+      "brandy": 5,
+      "vodka": 5,
+      "grog": 5,
+      "whisky": 5,
+      "greenmans_ale": 5,
+      "dwarven_stout": 5,
+      "wizards_mind_bomb": 5
+    }
   },
   "maceshop": {
     "name": "Flynn's Mace Market.",
     "npc": [
       "flynn"
-    ]
+    ],
+    "stock": {
+      "bronze_mace": 5,
+      "iron_mace": 4,
+      "steel_mace": 4,
+      "mithril_mace": 3,
+      "adamant_mace": 2
+    }
   },
   "magearena_runeshop": {
     "name": "Lundail's Arena-side Rune Shop.",
     "npc": [
       "magearena_runeshop"
-    ]
+    ],
+    "stock": {
+      "firerune": 200,
+      "waterrune": 200,
+      "airrune": 200,
+      "earthrune": 200,
+      "mindrune": 140,
+      "bodyrune": 140,
+      "naturerune": 250,
+      "chaosrune": 250,
+      "lawrune": 250,
+      "cosmicrune": 20,
+      "deathrune": 250
+    }
   },
   "magearena_staffshop": {
     "name": "Mage Arena Staffs.",
     "npc": [
       "magearena_guardian"
-    ]
+    ],
+    "stock": {
+      "saradomin_staff": 5,
+      "guthix_staff": 5,
+      "zamorak_staff": 5
+    }
   },
   "magicguildshop": {
     "name": "Magic Guild Store",
     "npc": [
       "magic_store_owner"
-    ]
+    ],
+    "stock": {
+      "firerune": 3000,
+      "waterrune": 3000,
+      "airrune": 3000,
+      "earthrune": 3000,
+      "mindrune": 3000,
+      "bodyrune": 3000,
+      "soulrune": 50,
+      "battlestaff": 5,
+      "staff_of_air": 2,
+      "staff_of_water": 2,
+      "staff_of_earth": 2,
+      "staff_of_fire": 2,
+      "naturerune": 1000,
+      "chaosrune": 1000,
+      "bloodrune": 1000,
+      "lawrune": 1000,
+      "deathrune": 1000
+    }
   },
   "magicshop": {
     "name": "Betty's Magic Emporium.",
     "npc": [
       "betty"
-    ]
+    ],
+    "stock": {
+      "firerune": 1000,
+      "waterrune": 1000,
+      "airrune": 1000,
+      "earthrune": 1000,
+      "mindrune": 1000,
+      "bodyrune": 1000,
+      "chaosrune": 1000,
+      "deathrune": 1000,
+      "eye_of_newt": 300,
+      "bluewizhat": 1,
+      "blackwizhat": 1
+    }
   },
   "mcannonshop": {
     "name": "Multi cannon parts for sale:",
     "npc": [
       "nulodion"
-    ]
+    ],
+    "stock": {
+      "twpart1": 5,
+      "twpart2": 5,
+      "twpart3": 5,
+      "twpart4": 5,
+      "mcannonbook": 5,
+      "ammo_mould": 5
+    }
   },
   "memberstaffshop": {
     "name": "Zaff's Superior Staffs!",
     "npc": [
       "zaff"
-    ]
+    ],
+    "stock": {
+      "battlestaff": 5,
+      "plainstaff": 5,
+      "magic_staff": 5,
+      "staff_of_air": 2,
+      "staff_of_water": 2,
+      "staff_of_earth": 2,
+      "staff_of_fire": 2
+    }
   },
   "miningstore": {
     "name": "Drogo's Mining Emporium.",
     "npc": [
       "drogo"
-    ]
+    ],
+    "stock": {
+      "hammer": 4,
+      "bronze_pickaxe": 4,
+      "copper_ore": 0,
+      "tin_ore": 0,
+      "iron_ore": 0,
+      "coal": 0,
+      "bronze_bar": 0,
+      "iron_bar": 0,
+      "gold_bar": 0
+    }
   },
   "pickaxeshop": {
     "name": "Nurmof's Pickaxe Shop.",
     "npc": [
       "nurmof"
-    ]
+    ],
+    "stock": {
+      "bronze_pickaxe": 6,
+      "iron_pickaxe": 5,
+      "steel_pickaxe": 4,
+      "mithril_pickaxe": 3,
+      "adamant_pickaxe": 2,
+      "rune_pickaxe": 1
+    }
   },
   "pizzabaseshop": {
     "name": "Tony's Pizza Bases",
     "npc": [
       "fat_tony"
-    ]
+    ],
+    "stock": {
+      "pizza_base": 30
+    }
   },
   "ranging_guild_armourshop": {
     "name": "Aaron's Archery Appendages.",
     "npc": [
       "ranging_guild_armour_salesman"
-    ]
+    ],
+    "stock": {
+      "leather_armour": 10,
+      "hardleather_body": 10,
+      "studded_body": 10,
+      "leather_chaps": 20,
+      "studded_chaps": 15,
+      "coif": 10,
+      "leather_cowl": 10,
+      "leather_vambraces": 10
+    }
   },
   "ranging_guild_bowshop": {
     "name": "Dargaud's Bow and Arrows.",
     "npc": [
       "ranging_guild_bow_salesman"
-    ]
+    ],
+    "stock": {
+      "arrow_shaft": 1000,
+      "bronze_arrowheads": 500,
+      "iron_arrowheads": 400,
+      "steel_arrowheads": 300,
+      "mithril_arrowheads": 200,
+      "adamant_arrowheads": 200,
+      "rune_arrowheads": 150,
+      "bronze_arrow": 1000,
+      "iron_arrow": 500,
+      "steel_arrow": 500,
+      "mithril_arrow": 500,
+      "adamant_arrow": 450,
+      "rune_arrow": 400,
+      "shortbow": 20,
+      "oak_shortbow": 20,
+      "willow_shortbow": 20,
+      "longbow": 20,
+      "oak_longbow": 20,
+      "willow_longbow": 20
+    }
   },
   "ranging_guild_tribalshop": {
     "name": "Authentic throwing weapons.",
     "npc": [
       "ranging_guild_tribal_salesman"
-    ]
+    ],
+    "stock": {
+      "bronze_javelin": 900,
+      "iron_javelin": 800,
+      "steel_javelin": 700,
+      "mithril_javelin": 600,
+      "adamant_javelin": 500,
+      "rune_javelin": 400,
+      "bronze_thrownaxe": 900,
+      "iron_thrownaxe": 800,
+      "steel_thrownaxe": 700,
+      "mithril_thrownaxe": 600,
+      "adamnt_thrownaxe": 500,
+      "rune_thrownaxe": 400
+    }
   },
   "razmirebuildingstore": {
     "name": "Razmire Builders Merchants.",
     "npc": [
       "razmire_keelgan"
-    ]
+    ],
+    "stock": {
+      "woodplank": 1000,
+      "limestonebrick": 1000,
+      "swamppaste": 1000
+    }
   },
   "razmiregeneralstore": {
     "name": "Razmire General Store.",
     "npc": [
       "razmire_keelgan"
-    ]
+    ],
+    "stock": {
+      "pot_empty": 3,
+      "jug_empty": 2,
+      "shears": 2,
+      "bucket_empty": 2,
+      "tinderbox": 2,
+      "chisel": 2,
+      "hammer": 5,
+      "oliveoil3": 150,
+      "vial_water": 100,
+      "pot_flour": 100,
+      "flamtaer_hammer": 3
+    }
   },
   "regicide_general_shop": {
     "name": "Quatermaster's Stores",
     "npc": [
       "regicidegeneralshopkeeper"
-    ]
+    ],
+    "stock": {
+      "pot_empty": 5,
+      "jug_empty": 2,
+      "shears": 3,
+      "tinderbox": 3,
+      "bread": 10,
+      "bronze_halberd": 10,
+      "iron_halberd": 10,
+      "steel_halberd": 10,
+      "black_halberd": 10,
+      "mithril_halberd": 7,
+      "adamant_halberd": 7,
+      "rune_halberd": 7
+    }
   },
   "regicide_general_shop_2": {
     "name": "Quatermaster's Stores",
     "npc": [
       "regicidegeneralshopkeeper"
-    ]
+    ],
+    "stock": {
+      "pot_empty": 5,
+      "jug_empty": 2,
+      "shears": 3,
+      "tinderbox": 3,
+      "bread": 10,
+      "bronze_halberd": 10,
+      "iron_halberd": 10,
+      "steel_halberd": 10,
+      "black_halberd": 10,
+      "mithril_halberd": 7,
+      "adamant_halberd": 7,
+      "rune_halberd": 7,
+      "dragon_halberd": 5
+    }
   },
   "runeplateshop": {
     "name": "oziach",
     "npc": [
       "oziach"
-    ]
+    ],
+    "stock": {
+      "rune_platebody": 2,
+      "dragonhide_body": 2
+    }
   },
   "runeshop": {
     "name": "Aubury's Rune Shop.",
     "npc": [
       "aubury"
-    ]
+    ],
+    "stock": {
+      "firerune": 2000,
+      "waterrune": 2000,
+      "airrune": 2000,
+      "earthrune": 2000,
+      "mindrune": 1000,
+      "bodyrune": 1000,
+      "chaosrune": 1000,
+      "deathrune": 1000
+    }
   },
   "runiteshop": {
     "name": "Scavvo's Rune Store.",
     "npc": [
       "scavvo"
-    ]
+    ],
+    "stock": {
+      "rune_plateskirt": 1,
+      "rune_platelegs": 1,
+      "rune_mace": 1,
+      "rune_chainbody": 1,
+      "rune_longsword": 1,
+      "rune_sword": 1,
+      "dragonhide_chaps": 1,
+      "dragon_vambraces": 1,
+      "coif": 2
+    }
   },
   "scimitarshop": {
     "name": "Zeke's Superior Scimitars.",
     "npc": [
       "zeke"
-    ]
+    ],
+    "stock": {
+      "bronze_scimitar": 5,
+      "iron_scimitar": 3,
+      "steel_scimitar": 2,
+      "mithril_scimitar": 1
+    }
   },
   "shantayshop": {
     "name": "Shantay Pass Shop",
     "npc": [
       "shantay"
-    ]
+    ],
+    "stock": {
+      "water_skin4": 100,
+      "water_skin0": 100,
+      "jug_water": 10,
+      "bowl_water": 10,
+      "bucket_water": 10,
+      "knife": 10,
+      "desert_shirt": 10,
+      "desert_robe": 10,
+      "desert_boots": 10,
+      "bronze_bar": 10,
+      "feather": 500,
+      "hammer": 10,
+      "bucket_empty": 0,
+      "bowl_empty": 0,
+      "jug_empty": 0,
+      "shantay_pass": 500
+    }
   },
   "shieldshop": {
     "name": "Cassies' Shield Shop.",
     "npc": [
       "cassie"
-    ]
+    ],
+    "stock": {
+      "wooden_shield": 5,
+      "bronze_sq_shield": 3,
+      "bronze_kiteshield": 3,
+      "iron_sq_shield": 2,
+      "iron_kiteshield": 0,
+      "steel_sq_shield": 0,
+      "steel_kiteshield": 0,
+      "mithril_sq_shield": 0
+    }
   },
   "shilofishingshop": {
     "name": "Fernahai's Fishing Hut.",
     "npc": [
       "shilofishowner"
-    ]
+    ],
+    "stock": {
+      "fishing_rod": 5,
+      "fly_fishing_rod": 5,
+      "fishing_bait": 200,
+      "feather": 800,
+      "raw_trout": 0,
+      "raw_pike": 0,
+      "raw_salmon": 0
+    }
   },
   "shilojunglestore": {
     "name": "Obli's General Store.",
     "npc": [
       "shilogeneralstore"
-    ]
+    ],
+    "stock": {
+      "tinderbox": 2,
+      "vial_empty": 10,
+      "pestle_and_mortar": 3,
+      "pot_empty": 3,
+      "bronze_axe": 3,
+      "bronze_pickaxe": 2,
+      "iron_axe": 5,
+      "leather_armour": 12,
+      "leather_gloves": 10,
+      "leather_boots": 10,
+      "cooked_meat": 2,
+      "bread": 10,
+      "bronze_bar": 10,
+      "spade": 10,
+      "unlit_candle": 10,
+      "torch_unlit": 10,
+      "chisel": 10,
+      "hammer": 10,
+      "papyrus": 50,
+      "charcoal": 50,
+      "vial_water": 50,
+      "machette": 50,
+      "rope": 10
+    }
   },
   "silverstall": {
     "name": "Ardougne Silver Stall.",
     "npc": [
       "silver_merchant"
-    ]
+    ],
+    "stock": {
+      "nostringstar": 2,
+      "silver_ore": 1,
+      "silver_bar": 1
+    }
   },
   "skirtshop": {
     "name": "Ranael's Super Skirt Store.",
     "npc": [
       "ranael"
-    ]
+    ],
+    "stock": {
+      "bronze_plateskirt": 5,
+      "iron_plateskirt": 3,
+      "steel_plateskirt": 2,
+      "black_plateskirt": 1,
+      "mithril_plateskirt": 1,
+      "adamant_plateskirt": 1
+    }
   },
   "spicestall": {
     "name": "Ardougne Spice Stall.",
     "npc": [
       "spice_merchant"
-    ]
+    ],
+    "stock": {
+      "spicespot": 1
+    }
   },
   "staffshop": {
     "name": "Zaff's Superior Staffs!",
     "npc": [
       "zaff"
-    ]
+    ],
+    "stock": {
+      "plainstaff": 5,
+      "magic_staff": 5,
+      "staff_of_air": 2,
+      "staff_of_water": 2,
+      "staff_of_earth": 2,
+      "staff_of_fire": 2
+    }
   },
   "swordshop": {
     "name": "Varrock Swordshop.",
     "npc": [
       "swordshop1",
       "swordshop2"
-    ]
+    ],
+    "stock": {
+      "bronze_sword": 5,
+      "iron_sword": 4,
+      "steel_sword": 4,
+      "black_sword": 3,
+      "mithril_sword": 3,
+      "adamant_sword": 2,
+      "bronze_longsword": 4,
+      "iron_longsword": 3,
+      "steel_longsword": 3,
+      "black_longsword": 2,
+      "mithril_longsword": 2,
+      "adamant_longsword": 1,
+      "bronze_dagger": 10,
+      "iron_dagger": 6,
+      "steel_dagger": 5,
+      "black_dagger": 4,
+      "mithril_dagger": 3,
+      "adamant_dagger": 2
+    }
   },
   "taxfree": {
     "name": "Bandit Duty Free",
     "npc": [
       "noterazzo"
-    ]
+    ],
+    "stock": {
+      "pot_empty": 3,
+      "jug_empty": 2,
+      "tinderbox": 2,
+      "chisel": 2,
+      "hammer": 5,
+      "bronze_pickaxe": 5,
+      "bronze_axe": 10
+    }
   },
   "tbwt_tamayu_final_inventory": {
     "name": "Tamayu's Spear Stall",
     "npc": [
       "tbwt_tamayu_final"
-    ]
+    ],
+    "stock": {
+      "tbwt_bronze_spear_kp": 10,
+      "tbwt_iron_spear_kp": 10,
+      "tbwt_steel_spear_kp": 5,
+      "tbwt_mithril_spear_kp": 2,
+      "tbwt_adamant_spear_kp": 0,
+      "tbwt_rune_spear_kp": 0,
+      "tbwt_cleaning_cloth": 10
+    }
   },
   "tbwt_tiadeche_final_inventory": {
     "name": "Tiadeche's Karambwan Stall",
     "npc": [
       "tbwt_tiadeche_final"
-    ]
+    ],
+    "stock": {
+      "tbwt_raw_karambwan": 10,
+      "tbwt_karambwan_vessel": 2
+    }
   },
   "teashop": {
     "name": "Ye Olde Tea Shoppe",
     "npc": [
       "tea_seller"
-    ]
+    ],
+    "stock": {
+      "cup_of_tea": 20
+    }
   },
   "topshop": {
     "name": "Zenesha's Plate Mail Body Shop.",
     "npc": [
       "zenesha"
-    ]
+    ],
+    "stock": {
+      "bronze_platebody": 3,
+      "iron_platebody": 1,
+      "steel_platebody": 1,
+      "black_platebody": 1,
+      "mithril_platebody": 1
+    }
   },
   "upassgeneralshop": {
     "name": "West Ardougne General Store",
     "npc": [
       "chadwell"
-    ]
+    ],
+    "stock": {
+      "pot_empty": 3,
+      "rope": 3,
+      "bronze_pickaxe": 2,
+      "bucket_empty": 2,
+      "tinderbox": 2,
+      "hammer": 3,
+      "leather_boots": 2,
+      "longbow": 2,
+      "bronze_arrow": 20,
+      "salmon": 10,
+      "meat_pie": 10,
+      "bread": 5,
+      "cooked_meat": 10
+    }
   },
   "viking_bar": {
     "name": "Rellekka Longhall Bar",
     "npc": [
       "viking_longhall_barkeep"
-    ]
+    ],
+    "stock": {
+      "beer": 50,
+      "viking_tankard_full": 50,
+      "keg_of_beer": 20
+    }
   },
   "viking_clothes_shop": {
     "name": "Yrsa's Accountrements",
     "npc": [
       "viking_clothing_shopkeeper"
-    ]
+    ],
+    "stock": {
+      "viking_top_blue": 5,
+      "viking_top_red": 5,
+      "viking_top_darkbrown": 5,
+      "viking_top_green": 5,
+      "viking_top_beige": 5,
+      "vikingrobetop": 5,
+      "vikingrobebottom": 5,
+      "vikinghat": 5,
+      "vikingboots": 5,
+      "vikinggloves": 5,
+      "viking_cloak_brown": 5,
+      "viking_cloak_lightbrown": 5,
+      "viking_cloak_darkbrown": 5,
+      "viking_cloak_green": 5,
+      "viking_cloak_red": 5,
+      "viking_cloak_grey": 5,
+      "viking_cloak_tangerine": 5,
+      "viking_cloak_ocean": 5,
+      "viking_cloak_purple": 5,
+      "viking_cloak_pink": 5,
+      "viking_cloak_black": 5
+    }
   },
   "viking_fishmonger": {
     "name": "Fremennik Fish Monger",
     "npc": [
       "viking_fish_monger"
-    ]
+    ],
+    "stock": {
+      "net": 5,
+      "fishing_rod": 5,
+      "fly_fishing_rod": 5,
+      "harpoon": 2,
+      "lobster_pot": 2,
+      "fishing_bait": 1500,
+      "feather": 1000,
+      "big_net": 5,
+      "raw_shrimp": 0,
+      "raw_sardine": 200,
+      "raw_herring": 0,
+      "raw_mackerel": 0,
+      "raw_cod": 0,
+      "raw_anchovies": 0,
+      "raw_trout": 0,
+      "raw_pike": 0,
+      "raw_salmon": 0,
+      "raw_tuna": 0,
+      "raw_lobster": 0,
+      "raw_bass": 0,
+      "raw_swordfish": 0,
+      "raw_shark": 0
+    }
   },
   "viking_furshop": {
     "name": "Fremennik Fur Trader",
     "npc": [
       "viking_fur_monger"
-    ]
+    ],
+    "stock": {
+      "fur": 3,
+      "grey_wolf_fur": 3
+    }
   },
   "viking_general_store": {
     "name": "Sigmund the Merchant",
     "npc": [
       "viking_sigmund"
-    ]
+    ],
+    "stock": {
+      "tinderbox": 2,
+      "rope": 10,
+      "pestle_and_mortar": 3,
+      "pot_empty": 3,
+      "cooked_meat": 2,
+      "bread": 10,
+      "spade": 10,
+      "unlit_candle": 10,
+      "chisel": 10,
+      "hammer": 10,
+      "vial_empty": 10,
+      "vial_water": 10,
+      "bucket_empty": 10,
+      "bucket_water": 10,
+      "egg": 10,
+      "potato": 10,
+      "cabbage": 10
+    }
   },
   "viking_weapons_shop": {
     "name": "Skulgrimen's Battle Gear",
     "npc": [
       "viking_weapons_salesman"
-    ]
+    ],
+    "stock": {
+      "bronze_warhammer": 5,
+      "iron_warhammer": 4,
+      "steel_warhammer": 3,
+      "black_warhammer": 3,
+      "mithril_warhammer": 2,
+      "adamnt_warhammer": 1,
+      "rune_warhammer": 0,
+      "viking_helmet_range": 5,
+      "viking_helmet_crush": 5,
+      "viking_helmet_slash": 5,
+      "viking_helmet_magic": 5
+    }
   },
   "werewolfgeneralstore": {
     "name": "General Store",
     "npc": [
       "werewolfshopkeeper3"
-    ]
+    ],
+    "stock": {
+      "needle": 2,
+      "thread": 50,
+      "pot_empty": 3,
+      "bucket_empty": 2,
+      "jug_empty": 2,
+      "tinderbox": 2,
+      "chisel": 2,
+      "hammer": 5,
+      "empty_dye_bottle": 10
+    }
   },
   "werewolfstore1": {
     "name": "Rufus' Meat Emporium",
     "npc": [
       "werewolfshopkeeper1"
-    ]
+    ],
+    "stock": {
+      "raw_beef": 10,
+      "raw_chicken": 10,
+      "raw_rat_meat": 10,
+      "raw_bear_meat": 10,
+      "raw_trout": 5,
+      "raw_pike": 5,
+      "raw_salmon": 5,
+      "raw_shark": 1
+    }
   },
   "werewolfstore2": {
     "name": "Barkers' Habidashery",
     "npc": [
       "werewolfshopkeeper2"
-    ]
+    ],
+    "stock": {
+      "wolfenboots_grey": 5,
+      "wolfenrobetop_grey": 5,
+      "wolfenrobebottom_grey": 5,
+      "wolfenhat_grey": 5,
+      "wolfengloves_grey": 5,
+      "wolfenboots_crimson": 5,
+      "wolfenrobetop_crimson": 5,
+      "wolfenrobebottom_crimson": 5,
+      "wolfenhat_crimson": 5,
+      "wolfengloves_crimson": 5,
+      "wolfenboots_tangerine": 5,
+      "wolfenrobetop_tangerine": 5,
+      "wolfenrobebottom_tangerine": 5,
+      "wolfenhat_tangerine": 5,
+      "wolfengloves_tangerine": 5,
+      "wolfenboots_ocean": 5,
+      "wolfenrobetop_ocean": 5,
+      "wolfenrobebottom_ocean": 5,
+      "wolfenhat_ocean": 5,
+      "wolfengloves_ocean": 5,
+      "wolfenboots_purple": 5,
+      "wolfenrobetop_purple": 5,
+      "wolfenrobebottom_purple": 5,
+      "wolfenhat_purple": 5,
+      "wolfengloves_purple": 5,
+      "red_cape": 5,
+      "black_cape": 5,
+      "blue_cape": 5,
+      "yellow_cape": 5,
+      "green_cape": 5
+    }
   },
   "wydinstore": {
     "name": "Food Store",
     "npc": [
       "wydin"
-    ]
+    ],
+    "stock": {
+      "pot_flour": 3,
+      "raw_beef": 1,
+      "raw_chicken": 1,
+      "cabbage": 3,
+      "banana": 3,
+      "redberries": 1,
+      "bread": 0,
+      "chocolate_bar": 1,
+      "cheese": 3,
+      "tomato": 3,
+      "potato": 1
+    }
   }
 }

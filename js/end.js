@@ -17,8 +17,8 @@ function progressCheckboxes() {
         if (!div.id) {
             div.id = `${pageKey}-progress-div-${index}`;
         }
-        if (div.getAttribute('done')) return;
-        div.setAttribute('done', 'true');
+        if (div.getAttribute("done")) return;
+        div.setAttribute("done", "true");
 
         const checkbox = document.createElement("input");
         checkbox.type = "checkbox";

@@ -455,6 +455,11 @@ A.pink:hover {
             display: block;
         }
 
+        .a {
+            color: #90c040;
+            cursor: pointer;
+        }
+
         body {
             text-align: center;
             background-color: black;
