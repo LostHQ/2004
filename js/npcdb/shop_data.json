@@ -1,0 +1,686 @@
+{
+  "2handedshop": {
+    "name": "Gaius' Two Handed Shop.",
+    "npc": [
+      "gaius"
+    ]
+  },
+  "adventurershop": {
+    "name": "Aemad's Adventuring Supplies.",
+    "npc": [
+      "aemad",
+      "kortan"
+    ]
+  },
+  "amuletshop": {
+    "name": "Davon's Amulet Store.",
+    "npc": [
+      "davon"
+    ]
+  },
+  "aprilfoolshorseshop": {
+    "name": "Diango's Toy Store",
+    "npc": [
+      "aprilfoolshorsesalesman"
+    ]
+  },
+  "archeryshop": {
+    "name": "Lowe's Archery Emporium",
+    "npc": [
+      "lowe"
+    ]
+  },
+  "archeryshop2": {
+    "name": "Hicktons Archery Emporium.",
+    "npc": [
+      "hickton"
+    ]
+  },
+  "ardougnegemstall": {
+    "name": "Ardougne Gem Stall.",
+    "npc": [
+      "gem_merchant"
+    ]
+  },
+  "arheinstore": {
+    "name": "Arhein Store",
+    "npc": [
+      "arhein"
+    ]
+  },
+  "armourshop": {
+    "name": "Horvik's Armour Shop.",
+    "npc": [
+      "horvik_the_armourer"
+    ]
+  },
+  "axeshop": {
+    "name": "Bob's Brilliant Axes.",
+    "npc": [
+      "bob"
+    ]
+  },
+  "bakery": {
+    "name": "Ardougne Baker's Stall.",
+    "npc": [
+      "baker_merchant"
+    ]
+  },
+  "battleaxeshop": {
+    "name": "Brian's Battleaxe Bazaar.",
+    "npc": [
+      "brian"
+    ]
+  },
+  "bedabincampshop": {
+    "name": "Bedabin Village Bartering",
+    "npc": [
+      "bedabin"
+    ]
+  },
+  "blurberrybar": {
+    "name": "Blurberry Bar",
+    "npc": [
+      "blurberrybarmen"
+    ]
+  },
+  "boozeshop": {
+    "name": "Karamja Wines, Spirits, and Beers.",
+    "npc": [
+      "zambo"
+    ]
+  },
+  "candleshop": {
+    "name": "Candle Shop",
+    "npc": [
+      "candle_maker"
+    ]
+  },
+  "chainmailshop": {
+    "name": "Wayne's Chains! - Chainmail specialist.",
+    "npc": [
+      "wayne"
+    ]
+  },
+  "championshop": {
+    "name": "Valaine's Shop of Champions.",
+    "npc": [
+      "valaine"
+    ]
+  },
+  "cheapringshop": {
+    "name": "irksol",
+    "npc": [
+      "irksol"
+    ]
+  },
+  "clotheshop": {
+    "name": "Thessalia Fine Clothes.",
+    "npc": [
+      "thessalia"
+    ]
+  },
+  "cookeryshop": {
+    "name": "Frenita's Cookery Shop.",
+    "npc": [
+      "frenita"
+    ]
+  },
+  "craftingshop": {
+    "name": "Rommiks Crafty Supplies.",
+    "npc": [
+      "rommik"
+    ]
+  },
+  "craftingshop2": {
+    "name": "Dommiks Crafting Store.",
+    "npc": [
+      "dommik"
+    ]
+  },
+  "craftingshop2_free": {
+    "name": "Dommiks Crafting Store.",
+    "npc": [
+      "dommik"
+    ]
+  },
+  "craftingshop_free": {
+    "name": "Rommiks Crafty Supplies.",
+    "npc": [
+      "rommik"
+    ]
+  },
+  "death_generalshop": {
+    "name": "Burthorpe Supplies",
+    "npc": [
+      "death_shopkeeper"
+    ]
+  },
+  "death_pub": {
+    "name": "The Toad and Chicken",
+    "npc": [
+      "boardgames_barmaid",
+      "boardgames_barmaid2",
+      "death_barman"
+    ]
+  },
+  "dragonaxeshop": {
+    "name": "Happy Heroes' Hemporium.",
+    "npc": [
+      "helemos"
+    ]
+  },
+  "dragonswordshop": {
+    "name": "jakut",
+    "npc": [
+      "jakut"
+    ]
+  },
+  "duel_rottenfruitshop": {
+    "name": "Shop of Distaste",
+    "npc": [
+      "duel_fadli"
+    ]
+  },
+  "fancyclothesstore": {
+    "name": "Fancy Clothes Store",
+    "npc": [
+      "tailorp"
+    ]
+  },
+  "fishingguild": {
+    "name": "Fishing Guild Shop.",
+    "npc": [
+      "fishguildshop"
+    ]
+  },
+  "fishingshop": {
+    "name": "Gerrant's Fishy Business.",
+    "npc": [
+      "gerrant"
+    ]
+  },
+  "fishingshop2": {
+    "name": "Harrys Fishing Shop.",
+    "npc": [
+      "harry"
+    ]
+  },
+  "furshop": {
+    "name": "Ardougne Fur Stall.",
+    "npc": [
+      "fur_merchant"
+    ]
+  },
+  "gemshop": {
+    "name": "Herquin's Gems.",
+    "npc": [
+      "herquin"
+    ]
+  },
+  "gemshop2": {
+    "name": "Gem Trader.",
+    "npc": [
+      "gem_trader"
+    ]
+  },
+  "generaldwarf": {
+    "name": "Dwarven shopping store",
+    "npc": [
+      "dwarven_shopkeeper"
+    ]
+  },
+  "generallegends": {
+    "name": "Legends Guild General Store.",
+    "npc": [
+      "fionella"
+    ]
+  },
+  "generalshop1": {
+    "name": "Lumbridge General Store",
+    "npc": [
+      "generalassistant1",
+      "generalshopkeeper1"
+    ]
+  },
+  "generalshop2": {
+    "name": "Varrock General Store",
+    "npc": [
+      "generalassistant2",
+      "generalshopkeeper2"
+    ]
+  },
+  "generalshop3": {
+    "name": "Al-Kharid General Store",
+    "npc": [
+      "generalassistant3",
+      "generalshopkeeper3"
+    ]
+  },
+  "generalshop4": {
+    "name": "Falador General Store",
+    "npc": [
+      "generalassistant4",
+      "generalshopkeeper4"
+    ]
+  },
+  "generalshop5": {
+    "name": "Edgeville General Store",
+    "npc": [
+      "generalassistant5",
+      "generalshopkeeper5"
+    ]
+  },
+  "generalshop6": {
+    "name": "Rimmington General Store",
+    "npc": [
+      "generalassistant6",
+      "generalshopkeeper6"
+    ]
+  },
+  "generalshop7": {
+    "name": "Karamja General Store",
+    "npc": [
+      "generalassistant7",
+      "generalshopkeeper7"
+    ]
+  },
+  "generalshop8": {
+    "name": "Zanaris General Store",
+    "npc": [
+      "generalassistant8",
+      "generalshopkeeper8"
+    ]
+  },
+  "generalshopogre": {
+    "name": "Dal's General Ogre Supplies",
+    "npc": [
+      "ogre_trader1"
+    ]
+  },
+  "giannerestaurant": {
+    "name": "Gianne's Restaurant",
+    "npc": [
+      "gnome_waiter"
+    ]
+  },
+  "gnomeshop": {
+    "name": "Bolkoy's Village Shop",
+    "npc": [
+      "treevillage_shopkeeper1"
+    ]
+  },
+  "gnomeshop_gulluck": {
+    "name": "Gulluck and Sons",
+    "npc": [
+      "gnome_gulluck"
+    ]
+  },
+  "gnomeshop_heck": {
+    "name": "Funch's Fine Groceries",
+    "npc": [
+      "gnome_heckelfunch"
+    ]
+  },
+  "gnomeshop_hudo": {
+    "name": "Grand Tree Groceries",
+    "npc": [
+      "gnome_hudo"
+    ]
+  },
+  "gnomeshop_rometti": {
+    "name": "Fine Fashions",
+    "npc": [
+      "gnome_rometti"
+    ]
+  },
+  "goldshop": {
+    "name": "Grum's Gold Exchange.",
+    "npc": [
+      "grum"
+    ]
+  },
+  "helmetshop": {
+    "name": "Helmet Shop.",
+    "npc": [
+      "peksa"
+    ]
+  },
+  "herbloreshop": {
+    "name": "Jatix's Herblore Shop.",
+    "npc": [
+      "jatix"
+    ]
+  },
+  "herbloreshop2": {
+    "name": "Frincos Fabulous Herb Store.",
+    "npc": [
+      "frincos"
+    ]
+  },
+  "herbloreshopogre": {
+    "name": "Grud's Herblore Stall.",
+    "npc": [
+      "ogre_merchant"
+    ]
+  },
+  "junglestore": {
+    "name": "Jiminua's Jungle Store.",
+    "npc": [
+      "jiminua"
+    ]
+  },
+  "karamja_fishrestaurant": {
+    "name": "The Shrimp and Parrot",
+    "npc": [
+      "alfonse_the_waiter"
+    ]
+  },
+  "khazardshop": {
+    "name": "Khazard General Store",
+    "npc": [
+      "khazard_shopkeeper"
+    ]
+  },
+  "lathastrainingstore": {
+    "name": "Armoury",
+    "npc": [
+      "lathas_shopkeeper"
+    ]
+  },
+  "legendsguildshop": {
+    "name": "Legends Guild Shop of Useful Items.",
+    "npc": [
+      "siegfried_erkle"
+    ]
+  },
+  "legsshop": {
+    "name": "Louies' Armoured Legs Bazaar.",
+    "npc": [
+      "louie_legs"
+    ]
+  },
+  "lighthouseshop": {
+    "name": "The Lighthouse Store",
+    "npc": [
+      "horror_lighthousekeeeper_well"
+    ]
+  },
+  "maceshop": {
+    "name": "Flynn's Mace Market.",
+    "npc": [
+      "flynn"
+    ]
+  },
+  "magearena_runeshop": {
+    "name": "Lundail's Arena-side Rune Shop.",
+    "npc": [
+      "magearena_runeshop"
+    ]
+  },
+  "magearena_staffshop": {
+    "name": "Mage Arena Staffs.",
+    "npc": [
+      "magearena_guardian"
+    ]
+  },
+  "magicguildshop": {
+    "name": "Magic Guild Store",
+    "npc": [
+      "magic_store_owner"
+    ]
+  },
+  "magicshop": {
+    "name": "Betty's Magic Emporium.",
+    "npc": [
+      "betty"
+    ]
+  },
+  "mcannonshop": {
+    "name": "Multi cannon parts for sale:",
+    "npc": [
+      "nulodion"
+    ]
+  },
+  "memberstaffshop": {
+    "name": "Zaff's Superior Staffs!",
+    "npc": [
+      "zaff"
+    ]
+  },
+  "miningstore": {
+    "name": "Drogo's Mining Emporium.",
+    "npc": [
+      "drogo"
+    ]
+  },
+  "pickaxeshop": {
+    "name": "Nurmof's Pickaxe Shop.",
+    "npc": [
+      "nurmof"
+    ]
+  },
+  "pizzabaseshop": {
+    "name": "Tony's Pizza Bases",
+    "npc": [
+      "fat_tony"
+    ]
+  },
+  "ranging_guild_armourshop": {
+    "name": "Aaron's Archery Appendages.",
+    "npc": [
+      "ranging_guild_armour_salesman"
+    ]
+  },
+  "ranging_guild_bowshop": {
+    "name": "Dargaud's Bow and Arrows.",
+    "npc": [
+      "ranging_guild_bow_salesman"
+    ]
+  },
+  "ranging_guild_tribalshop": {
+    "name": "Authentic throwing weapons.",
+    "npc": [
+      "ranging_guild_tribal_salesman"
+    ]
+  },
+  "razmirebuildingstore": {
+    "name": "Razmire Builders Merchants.",
+    "npc": [
+      "razmire_keelgan"
+    ]
+  },
+  "razmiregeneralstore": {
+    "name": "Razmire General Store.",
+    "npc": [
+      "razmire_keelgan"
+    ]
+  },
+  "regicide_general_shop": {
+    "name": "Quatermaster's Stores",
+    "npc": [
+      "regicidegeneralshopkeeper"
+    ]
+  },
+  "regicide_general_shop_2": {
+    "name": "Quatermaster's Stores",
+    "npc": [
+      "regicidegeneralshopkeeper"
+    ]
+  },
+  "runeplateshop": {
+    "name": "oziach",
+    "npc": [
+      "oziach"
+    ]
+  },
+  "runeshop": {
+    "name": "Aubury's Rune Shop.",
+    "npc": [
+      "aubury"
+    ]
+  },
+  "runiteshop": {
+    "name": "Scavvo's Rune Store.",
+    "npc": [
+      "scavvo"
+    ]
+  },
+  "scimitarshop": {
+    "name": "Zeke's Superior Scimitars.",
+    "npc": [
+      "zeke"
+    ]
+  },
+  "shantayshop": {
+    "name": "Shantay Pass Shop",
+    "npc": [
+      "shantay"
+    ]
+  },
+  "shieldshop": {
+    "name": "Cassies' Shield Shop.",
+    "npc": [
+      "cassie"
+    ]
+  },
+  "shilofishingshop": {
+    "name": "Fernahai's Fishing Hut.",
+    "npc": [
+      "shilofishowner"
+    ]
+  },
+  "shilojunglestore": {
+    "name": "Obli's General Store.",
+    "npc": [
+      "shilogeneralstore"
+    ]
+  },
+  "silverstall": {
+    "name": "Ardougne Silver Stall.",
+    "npc": [
+      "silver_merchant"
+    ]
+  },
+  "skirtshop": {
+    "name": "Ranael's Super Skirt Store.",
+    "npc": [
+      "ranael"
+    ]
+  },
+  "spicestall": {
+    "name": "Ardougne Spice Stall.",
+    "npc": [
+      "spice_merchant"
+    ]
+  },
+  "staffshop": {
+    "name": "Zaff's Superior Staffs!",
+    "npc": [
+      "zaff"
+    ]
+  },
+  "swordshop": {
+    "name": "Varrock Swordshop.",
+    "npc": [
+      "swordshop1",
+      "swordshop2"
+    ]
+  },
+  "taxfree": {
+    "name": "Bandit Duty Free",
+    "npc": [
+      "noterazzo"
+    ]
+  },
+  "tbwt_tamayu_final_inventory": {
+    "name": "Tamayu's Spear Stall",
+    "npc": [
+      "tbwt_tamayu_final"
+    ]
+  },
+  "tbwt_tiadeche_final_inventory": {
+    "name": "Tiadeche's Karambwan Stall",
+    "npc": [
+      "tbwt_tiadeche_final"
+    ]
+  },
+  "teashop": {
+    "name": "Ye Olde Tea Shoppe",
+    "npc": [
+      "tea_seller"
+    ]
+  },
+  "topshop": {
+    "name": "Zenesha's Plate Mail Body Shop.",
+    "npc": [
+      "zenesha"
+    ]
+  },
+  "upassgeneralshop": {
+    "name": "West Ardougne General Store",
+    "npc": [
+      "chadwell"
+    ]
+  },
+  "viking_bar": {
+    "name": "Rellekka Longhall Bar",
+    "npc": [
+      "viking_longhall_barkeep"
+    ]
+  },
+  "viking_clothes_shop": {
+    "name": "Yrsa's Accountrements",
+    "npc": [
+      "viking_clothing_shopkeeper"
+    ]
+  },
+  "viking_fishmonger": {
+    "name": "Fremennik Fish Monger",
+    "npc": [
+      "viking_fish_monger"
+    ]
+  },
+  "viking_furshop": {
+    "name": "Fremennik Fur Trader",
+    "npc": [
+      "viking_fur_monger"
+    ]
+  },
+  "viking_general_store": {
+    "name": "Sigmund the Merchant",
+    "npc": [
+      "viking_sigmund"
+    ]
+  },
+  "viking_weapons_shop": {
+    "name": "Skulgrimen's Battle Gear",
+    "npc": [
+      "viking_weapons_salesman"
+    ]
+  },
+  "werewolfgeneralstore": {
+    "name": "General Store",
+    "npc": [
+      "werewolfshopkeeper3"
+    ]
+  },
+  "werewolfstore1": {
+    "name": "Rufus' Meat Emporium",
+    "npc": [
+      "werewolfshopkeeper1"
+    ]
+  },
+  "werewolfstore2": {
+    "name": "Barkers' Habidashery",
+    "npc": [
+      "werewolfshopkeeper2"
+    ]
+  },
+  "wydinstore": {
+    "name": "Food Store",
+    "npc": [
+      "wydin"
+    ]
+  }
+}

@@ -9,7 +9,10 @@
     "members": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "2_40_53_7_52"
+    ]
   },
   {
     "debugname": "mcannontoolkit",
@@ -60,7 +63,10 @@
     "members": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "mcannonshop"
+    ]
   },
   {
     "debugname": "mcannonbook",
@@ -73,7 +79,10 @@
     "iops": {
       "iop1": "Read",
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "mcannonshop"
+    ]
   },
   {
     "debugname": "twpart1",
@@ -87,7 +96,10 @@
     "iops": {
       "iop1": "Set-up",
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "mcannonshop"
+    ]
   },
   {
     "debugname": "cert_twpart1",
@@ -114,7 +126,10 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "mcannonshop"
+    ]
   },
   {
     "debugname": "cert_twpart2",
@@ -141,7 +156,10 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "mcannonshop"
+    ]
   },
   {
     "debugname": "cert_twpart3",
@@ -168,7 +186,10 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "mcannonshop"
+    ]
   },
   {
     "debugname": "cert_twpart4",
@@ -219,7 +240,16 @@
     "iops": {
       "iop1": "Blow",
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_41_73_2_50",
+      "0_41_73_3_56",
+      "0_41_73_13_20",
+      "0_43_73_3_56",
+      "0_43_73_9_17",
+      "0_43_73_54_38",
+      "1_43_73_10_5"
+    ]
   },
   {
     "debugname": "grail_bell",
@@ -257,7 +287,10 @@
     "members": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "2_41_73_25_12"
+    ]
   },
   {
     "debugname": "whitecog",
@@ -269,7 +302,10 @@
     "members": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_40_150_17_55"
+    ]
   },
   {
     "debugname": "blackcog",
@@ -281,7 +317,10 @@
     "members": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_40_150_53_39"
+    ]
   },
   {
     "debugname": "bluecog",
@@ -293,7 +332,10 @@
     "members": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_40_150_14_33"
+    ]
   },
   {
     "debugname": "redcog",
@@ -305,7 +347,10 @@
     "members": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_40_150_23_13"
+    ]
   },
   {
     "debugname": "rat_poison",
@@ -317,7 +362,10 @@
     "members": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_40_150_4_62"
+    ]
   },
   {
     "debugname": "red_vine_worm",
@@ -367,7 +415,10 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_43_53_55_58"
+    ]
   },
   {
     "debugname": "cert_insect_repellent",
@@ -433,7 +484,12 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_39_48_51_42",
+      "0_40_50_38_11",
+      "1_50_53_8_3"
+    ]
   },
   {
     "debugname": "cert_lit_candle",
@@ -484,7 +540,14 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "candleshop",
+      "junglestore",
+      "lighthouseshop",
+      "shilojunglestore",
+      "viking_general_store"
+    ]
   },
   {
     "debugname": "cert_unlit_candle",
@@ -524,7 +587,16 @@
     "stackable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_41_53_48_41"
+    ],
+    "shops": [
+      "archeryshop2",
+      "gnomeshop_gulluck",
+      "lathastrainingstore",
+      "ranging_guild_bowshop"
+    ]
   },
   {
     "debugname": "iron_arrowheads",
@@ -538,7 +610,13 @@
     "stackable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "archeryshop2",
+      "gnomeshop_gulluck",
+      "lathastrainingstore",
+      "ranging_guild_bowshop"
+    ]
   },
   {
     "debugname": "steel_arrowheads",
@@ -552,7 +630,16 @@
     "stackable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_48_156_53_13"
+    ],
+    "shops": [
+      "archeryshop2",
+      "gnomeshop_gulluck",
+      "lathastrainingstore",
+      "ranging_guild_bowshop"
+    ]
   },
   {
     "debugname": "mithril_arrowheads",
@@ -566,7 +653,13 @@
     "stackable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "archeryshop2",
+      "gnomeshop_gulluck",
+      "lathastrainingstore",
+      "ranging_guild_bowshop"
+    ]
   },
   {
     "debugname": "adamant_arrowheads",
@@ -580,7 +673,11 @@
     "stackable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "archeryshop2",
+      "ranging_guild_bowshop"
+    ]
   },
   {
     "debugname": "rune_arrowheads",
@@ -594,7 +691,11 @@
     "stackable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "archeryshop2",
+      "ranging_guild_bowshop"
+    ]
   },
   {
     "debugname": "opal_bolttips",
@@ -704,7 +805,10 @@
     "stackable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "ranging_guild_bowshop"
+    ]
   },
   {
     "debugname": "headless_arrow",
@@ -718,7 +822,12 @@
     "stackable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_50_61_35_46",
+      "0_50_61_37_45",
+      "0_50_61_40_36"
+    ]
   },
   {
     "debugname": "unstrung_oak_shortbow",
@@ -1136,7 +1245,10 @@
     "members": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_41_153_13_27"
+    ]
   },
   {
     "debugname": "ikov_staffofarmardyl",
@@ -1148,7 +1260,10 @@
     "members": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_41_154_14_50"
+    ]
   },
   {
     "debugname": "ikov_shinykey",
@@ -1160,7 +1275,10 @@
     "members": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_41_154_4_3"
+    ]
   },
   {
     "debugname": "ikov_pendantoflucien",
@@ -1211,7 +1329,10 @@
       "stabdefence": 1,
       "slashdefence": 1,
       "crushdefence": 1
-    }
+    },
+    "spawn_locations": [
+      "0_41_152_30_39"
+    ]
   },
   {
     "debugname": "ikov_bootsoflightnessworn",
@@ -1242,7 +1363,10 @@
     "members": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_40_150_10_4"
+    ]
   },
   {
     "debugname": "guamvial",
@@ -1681,7 +1805,10 @@
       "iop1": "Drink",
       "iop4": "Empty",
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "generallegends"
+    ]
   },
   {
     "debugname": "cert_3dose1attack",
@@ -1739,7 +1866,10 @@
       "iop1": "Drink",
       "iop4": "Empty",
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_47_161_18_21"
+    ]
   },
   {
     "debugname": "cert_1dose1attack",
@@ -2464,7 +2594,10 @@
       "iop1": "Drink",
       "iop4": "Empty",
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "junglestore"
+    ]
   },
   {
     "debugname": "cert_3doseantipoison",
@@ -2522,7 +2655,11 @@
       "iop1": "Drink",
       "iop4": "Empty",
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_38_49_5_28",
+      "0_38_49_35_41"
+    ]
   },
   {
     "debugname": "cert_1doseantipoison",
@@ -2807,7 +2944,10 @@
     "iops": {
       "iop1": "Identify",
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_47_161_36_9"
+    ]
   },
   {
     "debugname": "cert_unidentified_guam",
@@ -3114,7 +3254,13 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "herbloreshop",
+      "herbloreshop2",
+      "herbloreshopogre",
+      "magicshop"
+    ]
   },
   {
     "debugname": "cert_eye_of_newt",
@@ -3141,7 +3287,24 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_36_51_32_52",
+      "0_36_51_34_49",
+      "0_36_51_35_45",
+      "0_36_51_36_48",
+      "0_36_51_39_49",
+      "0_36_51_42_46",
+      "0_44_149_16_50",
+      "0_48_155_45_31",
+      "0_48_155_46_28",
+      "0_48_155_47_29",
+      "0_48_155_54_38",
+      "0_48_155_56_36",
+      "0_48_155_57_34",
+      "0_49_154_41_24",
+      "0_49_154_43_25"
+    ]
   },
   {
     "debugname": "cert_red_spiders_eggs",
@@ -3196,7 +3359,15 @@
     "iops": {
       "iop4": "Empty",
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "adventurershop",
+      "junglestore",
+      "lighthouseshop",
+      "razmiregeneralstore",
+      "shilojunglestore",
+      "viking_general_store"
+    ]
   },
   {
     "debugname": "cert_vial_water",
@@ -3223,7 +3394,26 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_43_52_56_15",
+      "0_43_52_57_14",
+      "0_49_59_52_63",
+      "0_49_60_60_9",
+      "0_54_51_25_14",
+      "0_54_51_25_15",
+      "2_40_48_27_18",
+      "2_40_48_28_18"
+    ],
+    "shops": [
+      "herbloreshop",
+      "herbloreshop2",
+      "herbloreshopogre",
+      "junglestore",
+      "lighthouseshop",
+      "shilojunglestore",
+      "viking_general_store"
+    ]
   },
   {
     "debugname": "cert_vial_empty",
@@ -3250,7 +3440,12 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_45_51_26_33",
+      "0_45_51_27_31",
+      "0_45_51_37_10"
+    ]
   },
   {
     "debugname": "cert_snape_grass",
@@ -3277,7 +3472,16 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "herbloreshop",
+      "herbloreshop2",
+      "herbloreshopogre",
+      "junglestore",
+      "lighthouseshop",
+      "shilojunglestore",
+      "viking_general_store"
+    ]
   },
   {
     "debugname": "cert_pestle_and_mortar",
@@ -3358,7 +3562,12 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_35_49_22_32",
+      "0_50_59_14_33",
+      "0_50_59_18_38"
+    ]
   },
   {
     "debugname": "cert_white_berries",
@@ -3412,7 +3621,14 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_45_153_22_14",
+      "0_45_153_25_9",
+      "0_45_153_26_4",
+      "0_45_153_28_13",
+      "0_45_153_30_17"
+    ]
   },
   {
     "debugname": "cert_blue_dragon_scale",
@@ -3439,7 +3655,10 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_45_54_50_59"
+    ]
   },
   {
     "debugname": "cert_wine_of_zamorak",
@@ -3467,7 +3686,13 @@
     "iops": {
       "iop1": "Eat",
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_39_48_14_18",
+      "0_39_48_16_8",
+      "0_39_48_20_14",
+      "0_39_48_21_10"
+    ]
   },
   {
     "debugname": "cert_jangerberries",
@@ -3803,7 +4028,10 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "1_48_52_36_28"
+    ]
   },
   {
     "debugname": "poison",
@@ -3816,7 +4044,13 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_48_52_25_38"
+    ],
+    "shops": [
+      "lighthouseshop"
+    ]
   },
   {
     "debugname": "poisoned_fish_food",
@@ -3852,7 +4086,10 @@
     "members": false,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_48_52_39_39"
+    ]
   },
   {
     "debugname": "oil_can",
@@ -3864,7 +4101,10 @@
     "members": false,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_48_152_20_27"
+    ]
   },
   {
     "debugname": "cattleprod",
@@ -3886,7 +4126,10 @@
       "magicattack": 1,
       "magicdefence": 1,
       "strengthbonus": 3
-    }
+    },
+    "spawn_locations": [
+      "0_40_52_44_29"
+    ]
   },
   {
     "debugname": "poisoned_feed",
@@ -4142,7 +4385,10 @@
     "members": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_40_154_9_41"
+    ]
   },
   {
     "debugname": "mithril_seed",
@@ -4157,7 +4403,10 @@
     "iops": {
       "iop1": "Plant",
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "legendsguildshop"
+    ]
   },
   {
     "debugname": "rats_tail",
@@ -4182,7 +4431,15 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_40_53_48_5"
+    ],
+    "shops": [
+      "fishingshop",
+      "fishingshop2",
+      "viking_fishmonger"
+    ]
   },
   {
     "debugname": "cert_lobster_pot",
@@ -4209,7 +4466,15 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_46_57_55_53"
+    ],
+    "shops": [
+      "fishingshop",
+      "fishingshop2",
+      "viking_fishmonger"
+    ]
   },
   {
     "debugname": "cert_net",
@@ -4236,7 +4501,14 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_40_53_45_3"
+    ],
+    "shops": [
+      "fishingshop2",
+      "viking_fishmonger"
+    ]
   },
   {
     "debugname": "cert_big_net",
@@ -4263,7 +4535,16 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_44_52_44_7"
+    ],
+    "shops": [
+      "fishingshop",
+      "fishingshop2",
+      "shilofishingshop",
+      "viking_fishmonger"
+    ]
   },
   {
     "debugname": "cert_fishing_rod",
@@ -4290,7 +4571,12 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "fishingshop",
+      "shilofishingshop",
+      "viking_fishmonger"
+    ]
   },
   {
     "debugname": "cert_fly_fishing_rod",
@@ -4317,7 +4603,15 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_40_53_45_4"
+    ],
+    "shops": [
+      "fishingshop",
+      "fishingshop2",
+      "viking_fishmonger"
+    ]
   },
   {
     "debugname": "cert_harpoon",
@@ -4345,7 +4639,18 @@
     "stackable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_46_57_44_35",
+      "0_46_57_54_57"
+    ],
+    "shops": [
+      "fishingguild",
+      "fishingshop",
+      "fishingshop2",
+      "shilofishingshop",
+      "viking_fishmonger"
+    ]
   },
   {
     "debugname": "feather",
@@ -4359,7 +4664,14 @@
     "stackable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "fishingguild",
+      "fishingshop",
+      "shantayshop",
+      "shilofishingshop",
+      "viking_fishmonger"
+    ]
   },
   {
     "debugname": "shrimp",
@@ -4400,7 +4712,12 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "fishingshop",
+      "fishingshop2",
+      "viking_fishmonger"
+    ]
   },
   {
     "debugname": "cert_raw_shrimp",
@@ -4455,7 +4772,12 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "fishingshop",
+      "fishingshop2",
+      "viking_fishmonger"
+    ]
   },
   {
     "debugname": "cert_raw_anchovies",
@@ -4537,7 +4859,12 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "fishingshop",
+      "fishingshop2",
+      "viking_fishmonger"
+    ]
   },
   {
     "debugname": "cert_raw_sardine",
@@ -4565,7 +4892,10 @@
     "iops": {
       "iop1": "Eat",
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "upassgeneralshop"
+    ]
   },
   {
     "debugname": "cert_salmon",
@@ -4592,7 +4922,13 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "fishingshop",
+      "shilofishingshop",
+      "viking_fishmonger",
+      "werewolfstore1"
+    ]
   },
   {
     "debugname": "cert_raw_salmon",
@@ -4647,7 +4983,13 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "fishingshop",
+      "shilofishingshop",
+      "viking_fishmonger",
+      "werewolfstore1"
+    ]
   },
   {
     "debugname": "cert_raw_trout",
@@ -4700,7 +5042,11 @@
     "iops": {
       "iop1": "Eat",
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "fishingguild",
+      "karamja_fishrestaurant"
+    ]
   },
   {
     "debugname": "cert_cod",
@@ -4727,7 +5073,12 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "fishingguild",
+      "fishingshop2",
+      "viking_fishmonger"
+    ]
   },
   {
     "debugname": "cert_raw_cod",
@@ -4781,7 +5132,12 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "fishingshop",
+      "fishingshop2",
+      "viking_fishmonger"
+    ]
   },
   {
     "debugname": "cert_raw_herring",
@@ -4809,7 +5165,13 @@
     "iops": {
       "iop1": "Eat",
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_40_148_3_39"
+    ],
+    "shops": [
+      "karamja_fishrestaurant"
+    ]
   },
   {
     "debugname": "cert_herring",
@@ -4836,7 +5198,13 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "fishingshop",
+      "shilofishingshop",
+      "viking_fishmonger",
+      "werewolfstore1"
+    ]
   },
   {
     "debugname": "cert_raw_pike",
@@ -4891,7 +5259,12 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "fishingguild",
+      "fishingshop2",
+      "viking_fishmonger"
+    ]
   },
   {
     "debugname": "cert_raw_mackerel",
@@ -4919,7 +5292,10 @@
     "iops": {
       "iop1": "Eat",
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "fishingguild"
+    ]
   },
   {
     "debugname": "cert_mackerel",
@@ -4946,7 +5322,10 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_44_53_4_61"
+    ]
   },
   {
     "debugname": "cert_burntfish3",
@@ -4973,7 +5352,13 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "fishingguild",
+      "fishingshop",
+      "fishingshop2",
+      "viking_fishmonger"
+    ]
   },
   {
     "debugname": "cert_raw_tuna",
@@ -5001,7 +5386,11 @@
     "iops": {
       "iop1": "Eat",
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "fishingguild",
+      "karamja_fishrestaurant"
+    ]
   },
   {
     "debugname": "cert_tuna",
@@ -5028,7 +5417,12 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "fishingguild",
+      "fishingshop2",
+      "viking_fishmonger"
+    ]
   },
   {
     "debugname": "cert_raw_bass",
@@ -5056,7 +5450,10 @@
     "iops": {
       "iop1": "Eat",
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "fishingguild"
+    ]
   },
   {
     "debugname": "cert_bass",
@@ -5137,7 +5534,13 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "fishingguild",
+      "fishingshop",
+      "fishingshop2",
+      "viking_fishmonger"
+    ]
   },
   {
     "debugname": "cert_raw_swordfish",
@@ -5165,7 +5568,12 @@
     "iops": {
       "iop1": "Eat",
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "fishingguild",
+      "generallegends",
+      "karamja_fishrestaurant"
+    ]
   },
   {
     "debugname": "cert_swordfish",
@@ -5219,7 +5627,13 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "fishingguild",
+      "fishingshop",
+      "fishingshop2",
+      "viking_fishmonger"
+    ]
   },
   {
     "debugname": "cert_raw_lobster",
@@ -5247,7 +5661,11 @@
     "iops": {
       "iop1": "Eat",
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "fishingguild",
+      "karamja_fishrestaurant"
+    ]
   },
   {
     "debugname": "cert_lobster",
@@ -5301,7 +5719,12 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "fishingshop2",
+      "viking_fishmonger",
+      "werewolfstore1"
+    ]
   },
   {
     "debugname": "cert_raw_shark",
@@ -5547,7 +5970,62 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_39_71_16_47",
+      "0_39_71_33_39",
+      "0_39_71_46_38",
+      "0_39_71_59_1",
+      "0_39_71_60_30",
+      "0_42_58_5_15",
+      "0_42_58_11_17",
+      "0_42_58_13_19",
+      "0_42_58_20_16",
+      "0_42_58_24_20",
+      "0_42_58_26_21",
+      "0_42_58_31_21",
+      "0_42_58_33_19",
+      "0_42_58_37_19",
+      "0_43_48_1_47",
+      "0_43_46_3_8",
+      "0_43_47_3_9",
+      "0_43_47_3_41",
+      "0_43_47_3_63",
+      "0_43_47_4_0",
+      "0_43_48_4_3",
+      "0_43_48_4_53",
+      "0_43_46_5_3",
+      "0_43_48_5_37",
+      "0_43_46_10_57",
+      "0_43_46_19_51",
+      "0_43_46_30_43",
+      "0_43_46_34_16",
+      "0_43_52_51_54",
+      "0_43_52_52_52",
+      "0_43_52_52_57",
+      "0_43_52_53_53",
+      "0_43_52_53_56",
+      "0_43_48_55_57",
+      "0_43_52_55_56",
+      "0_43_52_55_58",
+      "0_43_52_57_57",
+      "0_43_52_57_60",
+      "0_43_52_58_59",
+      "0_44_46_37_33",
+      "0_44_46_38_33",
+      "0_44_49_48_59",
+      "0_44_46_50_32",
+      "0_45_48_16_47",
+      "0_45_48_33_39",
+      "0_45_48_46_38",
+      "0_45_48_59_1",
+      "0_45_48_60_30",
+      "0_46_47_3_59",
+      "0_46_46_8_7",
+      "0_46_47_11_2",
+      "0_46_46_16_15",
+      "0_46_47_31_5"
+    ]
   },
   {
     "debugname": "cert_seaweed",
@@ -5851,7 +6329,12 @@
     "iops": {
       "iop1": "Open",
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_40_51_58_59",
+      "0_40_51_58_60",
+      "0_40_51_58_61"
+    ]
   },
   {
     "debugname": "pigeoncage",
@@ -5881,7 +6364,11 @@
     "equipable_item": {
       "wearpos": "body",
       "prayerbonus": 3
-    }
+    },
+    "shops": [
+      "clotheshop",
+      "fancyclothesstore"
+    ]
   },
   {
     "debugname": "cert_priest_gown",
@@ -5913,7 +6400,11 @@
     "equipable_item": {
       "wearpos": "legs",
       "prayerbonus": 3
-    }
+    },
+    "shops": [
+      "clotheshop",
+      "fancyclothesstore"
+    ]
   },
   {
     "debugname": "cert_priest_robe",
@@ -5955,7 +6446,10 @@
     "members": false,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "boozeshop"
+    ]
   },
   {
     "debugname": "chest_key",
@@ -6020,7 +6514,10 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "miningstore"
+    ]
   },
   {
     "debugname": "cert_copper_ore",
@@ -6047,7 +6544,10 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "miningstore"
+    ]
   },
   {
     "debugname": "cert_tin_ore",
@@ -6074,7 +6574,10 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "miningstore"
+    ]
   },
   {
     "debugname": "cert_iron_ore",
@@ -6101,7 +6604,10 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "silverstall"
+    ]
   },
   {
     "debugname": "cert_silver_ore",
@@ -6128,7 +6634,17 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_42_50_44_24",
+      "0_49_58_29_27",
+      "0_49_153_59_29",
+      "0_51_61_25_22",
+      "0_51_61_26_24",
+      "0_51_61_28_29",
+      "1_51_61_23_28",
+      "3_51_61_19_32"
+    ]
   },
   {
     "debugname": "cert_gold_ore",
@@ -6248,7 +6764,10 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "miningstore"
+    ]
   },
   {
     "debugname": "cert_coal",
@@ -7277,7 +7796,291 @@
     "iops": {
       "iop1": "Bury",
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_37_147_3_53",
+      "0_37_147_4_1",
+      "0_37_147_4_3",
+      "0_37_147_5_52",
+      "0_37_147_6_2",
+      "0_37_147_7_1",
+      "0_37_147_22_13",
+      "0_37_147_22_15",
+      "0_37_147_22_48",
+      "0_37_147_23_13",
+      "0_37_147_23_45",
+      "0_37_147_23_61",
+      "0_37_147_25_55",
+      "0_37_147_27_31",
+      "0_37_147_33_49",
+      "0_37_147_35_52",
+      "0_37_147_44_15",
+      "0_37_147_45_17",
+      "0_37_147_46_16",
+      "0_37_147_55_41",
+      "0_37_147_58_60",
+      "0_37_147_59_11",
+      "0_37_147_61_7",
+      "0_37_147_61_10",
+      "0_38_50_21_30",
+      "0_38_50_23_20",
+      "0_38_50_24_30",
+      "0_38_50_24_34",
+      "0_38_50_25_24",
+      "0_38_50_27_22",
+      "0_38_50_29_30",
+      "0_38_49_34_43",
+      "0_38_50_34_26",
+      "0_38_50_38_17",
+      "0_38_50_38_23",
+      "0_38_50_44_24",
+      "0_38_50_48_19",
+      "0_38_50_52_21",
+      "0_39_46_0_21",
+      "0_39_46_3_14",
+      "0_39_147_5_19",
+      "0_39_48_7_46",
+      "0_39_147_7_17",
+      "0_39_147_8_19",
+      "0_39_48_9_42",
+      "0_39_147_9_39",
+      "0_39_46_10_8",
+      "0_39_147_10_40",
+      "0_39_48_11_44",
+      "0_39_147_11_39",
+      "0_39_46_12_38",
+      "0_39_48_12_14",
+      "0_39_147_12_39",
+      "0_39_147_12_41",
+      "0_39_48_13_12",
+      "0_39_48_14_8",
+      "0_39_48_14_16",
+      "0_39_48_15_42",
+      "0_39_46_16_38",
+      "0_39_47_16_13",
+      "0_39_47_16_15",
+      "0_39_147_16_40",
+      "0_39_47_17_12",
+      "0_39_47_17_13",
+      "0_39_48_17_13",
+      "0_39_47_18_12",
+      "0_39_47_19_12",
+      "0_39_48_20_12",
+      "0_39_46_26_39",
+      "0_39_147_35_53",
+      "0_39_147_36_56",
+      "0_39_147_37_54",
+      "0_39_147_39_56",
+      "0_39_47_45_20",
+      "0_39_46_46_39",
+      "0_39_47_46_19",
+      "0_39_47_49_23",
+      "0_39_47_52_36",
+      "0_39_47_53_35",
+      "0_39_47_55_34",
+      "0_39_46_56_40",
+      "0_39_46_56_42",
+      "0_40_47_11_22",
+      "0_40_47_11_28",
+      "0_40_47_14_27",
+      "0_40_47_17_21",
+      "0_40_152_20_4",
+      "0_40_152_20_13",
+      "0_40_152_24_4",
+      "0_40_152_24_15",
+      "0_40_152_26_4",
+      "0_40_152_29_3",
+      "0_40_152_30_3",
+      "0_40_152_30_8",
+      "0_40_152_32_12",
+      "0_40_46_41_15",
+      "0_40_46_43_20",
+      "0_40_46_43_24",
+      "0_40_46_47_20",
+      "0_40_147_53_33",
+      "0_40_147_54_9",
+      "0_40_147_55_7",
+      "0_40_147_55_30",
+      "0_40_147_55_34",
+      "0_40_147_56_35",
+      "0_40_147_57_8",
+      "0_40_147_57_32",
+      "0_40_147_57_38",
+      "0_40_147_58_8",
+      "0_40_147_58_9",
+      "0_40_147_58_12",
+      "0_40_147_59_10",
+      "0_40_147_60_10",
+      "0_41_153_46_29",
+      "0_41_153_47_39",
+      "0_41_153_48_31",
+      "0_41_153_49_30",
+      "0_41_153_49_37",
+      "0_41_58_51_7",
+      "0_41_58_58_17",
+      "0_44_149_13_28",
+      "0_44_152_13_36",
+      "0_44_149_14_29",
+      "0_44_152_15_38",
+      "0_44_152_41_18",
+      "0_44_152_41_23",
+      "0_44_152_43_18",
+      "0_45_153_24_34",
+      "0_45_153_26_31",
+      "0_45_153_26_33",
+      "0_45_153_27_32",
+      "0_45_153_28_2",
+      "0_45_153_30_5",
+      "0_45_153_30_33",
+      "0_45_153_34_4",
+      "0_45_153_37_4",
+      "0_45_153_44_9",
+      "0_45_153_44_12",
+      "0_45_153_46_9",
+      "0_45_153_47_13",
+      "0_45_153_49_15",
+      "0_45_153_50_2",
+      "0_45_153_52_0",
+      "0_45_153_55_7",
+      "0_45_153_58_0",
+      "0_45_153_58_4",
+      "0_46_57_18_49",
+      "0_46_152_22_44",
+      "0_46_152_24_43",
+      "0_46_57_25_41",
+      "0_46_58_34_51",
+      "0_46_58_36_52",
+      "0_46_61_48_16",
+      "0_46_61_50_20",
+      "0_46_61_51_18",
+      "0_46_57_55_54",
+      "0_46_161_55_36",
+      "0_46_61_58_18",
+      "0_46_161_58_39",
+      "0_46_161_59_36",
+      "0_46_61_60_19",
+      "0_46_161_61_39",
+      "0_48_154_21_23",
+      "0_48_154_21_28",
+      "0_48_154_22_50",
+      "0_48_154_25_45",
+      "0_48_154_26_30",
+      "0_48_57_28_49",
+      "0_48_153_29_33",
+      "0_48_57_31_40",
+      "0_48_155_31_33",
+      "0_48_155_32_30",
+      "0_48_153_35_31",
+      "0_48_153_37_31",
+      "0_48_153_38_33",
+      "0_48_155_38_32",
+      "0_48_155_38_38",
+      "0_48_155_39_39",
+      "0_48_57_40_38",
+      "0_48_57_40_47",
+      "0_48_155_40_36",
+      "0_48_154_44_35",
+      "0_48_155_44_30",
+      "0_48_57_45_48",
+      "0_48_154_47_38",
+      "0_48_154_48_38",
+      "0_48_154_50_35",
+      "0_48_155_55_37",
+      "0_49_154_2_24",
+      "0_49_154_5_23",
+      "0_49_154_6_24",
+      "0_49_154_7_22",
+      "0_49_58_46_10",
+      "0_49_58_48_16",
+      "0_50_58_9_28",
+      "0_50_58_16_29",
+      "0_50_58_16_36",
+      "0_50_58_18_27",
+      "0_50_58_20_26",
+      "0_50_58_20_29",
+      "0_50_58_22_32",
+      "0_50_58_24_34",
+      "0_50_58_25_28",
+      "0_50_58_27_30",
+      "0_50_58_29_35",
+      "0_50_56_32_21",
+      "0_50_61_32_44",
+      "0_50_56_33_21",
+      "0_50_56_34_24",
+      "0_50_56_35_19",
+      "0_50_56_35_21",
+      "0_50_56_35_23",
+      "0_50_56_36_20",
+      "0_50_58_36_37",
+      "0_50_56_37_19",
+      "0_50_56_37_20",
+      "0_50_56_37_27",
+      "0_50_61_37_34",
+      "0_50_56_38_19",
+      "0_50_56_39_20",
+      "0_50_56_39_22",
+      "0_50_58_42_29",
+      "0_50_56_44_27",
+      "0_50_56_46_31",
+      "0_50_58_47_28",
+      "0_50_58_47_31",
+      "0_50_58_49_32",
+      "0_50_61_50_49",
+      "0_50_58_51_24",
+      "0_50_58_51_37",
+      "0_50_58_52_26",
+      "0_50_58_57_31",
+      "0_50_58_59_23",
+      "0_51_58_0_16",
+      "0_51_58_1_20",
+      "0_51_57_4_12",
+      "0_51_58_4_18",
+      "0_51_58_4_24",
+      "0_51_58_5_16",
+      "0_51_58_6_12",
+      "0_51_57_7_10",
+      "0_51_58_8_18",
+      "0_51_57_9_12",
+      "0_51_57_9_16",
+      "0_51_58_11_15",
+      "0_51_58_11_17",
+      "0_51_58_12_14",
+      "0_51_57_14_9",
+      "0_51_58_14_13",
+      "0_51_57_15_11",
+      "0_51_57_16_9",
+      "0_51_57_16_10",
+      "0_51_58_16_12",
+      "0_51_58_16_14",
+      "0_51_57_17_10",
+      "0_52_53_26_34",
+      "0_52_53_29_36",
+      "0_52_53_33_19",
+      "0_52_152_37_22",
+      "0_52_153_37_22",
+      "0_52_152_39_21",
+      "0_52_153_39_21",
+      "0_52_53_40_19",
+      "0_52_152_40_23",
+      "0_52_153_40_23",
+      "0_52_53_41_20",
+      "0_52_152_41_25",
+      "0_52_153_41_25",
+      "0_52_152_44_25",
+      "0_52_153_44_25",
+      "0_52_152_48_30",
+      "0_52_153_48_30",
+      "0_52_152_56_25",
+      "0_52_152_56_28",
+      "0_52_153_56_25",
+      "0_52_153_56_28",
+      "0_52_152_57_21",
+      "0_52_152_57_26",
+      "0_52_153_57_21",
+      "0_52_153_57_26",
+      "0_52_152_58_20",
+      "0_52_153_58_20"
+    ]
   },
   {
     "debugname": "cert_bones",
@@ -7305,7 +8108,27 @@
     "iops": {
       "iop1": "Bury",
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_49_60_42_12",
+      "0_49_60_43_10",
+      "0_49_60_43_13",
+      "0_49_60_48_16",
+      "0_49_60_49_10",
+      "0_49_60_51_16",
+      "0_50_59_13_45",
+      "0_50_59_14_44",
+      "0_50_59_18_42",
+      "0_50_59_19_40",
+      "0_51_60_23_47",
+      "0_51_60_24_51",
+      "0_51_60_26_50",
+      "0_51_60_27_48",
+      "0_51_60_28_47",
+      "0_51_60_49_50",
+      "0_51_60_52_48",
+      "0_51_60_57_52"
+    ]
   },
   {
     "debugname": "cert_bones_burnt",
@@ -7361,7 +8184,15 @@
     "iops": {
       "iop1": "Bury",
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_50_58_14_21",
+      "0_50_58_20_34",
+      "0_50_58_26_33",
+      "0_50_58_43_30",
+      "0_50_58_53_24",
+      "0_50_58_63_23"
+    ]
   },
   {
     "debugname": "cert_big_bones",
@@ -7513,7 +8344,10 @@
     "equipable_item": {
       "wearpos": "legs",
       "prayerbonus": 5
-    }
+    },
+    "spawn_locations": [
+      "1_47_54_51_32"
+    ]
   },
   {
     "debugname": "cert_monkrobebottom",
@@ -7545,7 +8379,10 @@
     "equipable_item": {
       "wearpos": "body",
       "prayerbonus": 6
-    }
+    },
+    "spawn_locations": [
+      "1_47_54_51_31"
+    ]
   },
   {
     "debugname": "cert_monkrobetop",
@@ -7637,7 +8474,10 @@
     "iops": {
       "iop1": "Read",
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "generalshop1"
+    ]
   },
   {
     "debugname": "cert_newcomer_map",
@@ -7679,7 +8519,10 @@
     "members": false,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_48_149_48_31"
+    ]
   },
   {
     "debugname": "firerune",
@@ -7693,7 +8536,23 @@
     "stackable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_44_149_17_25",
+      "0_44_149_20_30",
+      "0_44_149_22_16",
+      "0_44_149_26_16",
+      "0_44_149_27_24",
+      "0_47_56_18_53",
+      "0_51_51_40_47",
+      "1_43_54_16_44"
+    ],
+    "shops": [
+      "magearena_runeshop",
+      "magicguildshop",
+      "magicshop",
+      "runeshop"
+    ]
   },
   {
     "debugname": "waterrune",
@@ -7707,7 +8566,18 @@
     "stackable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_46_60_16_59",
+      "0_47_56_20_53",
+      "0_51_51_34_52"
+    ],
+    "shops": [
+      "magearena_runeshop",
+      "magicguildshop",
+      "magicshop",
+      "runeshop"
+    ]
   },
   {
     "debugname": "airrune",
@@ -7721,7 +8591,18 @@
     "stackable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_45_49_58_22",
+      "0_47_56_22_53",
+      "0_49_50_14_47"
+    ],
+    "shops": [
+      "magearena_runeshop",
+      "magicguildshop",
+      "magicshop",
+      "runeshop"
+    ]
   },
   {
     "debugname": "earthrune",
@@ -7735,7 +8616,18 @@
     "stackable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_47_56_24_53",
+      "0_49_154_49_32",
+      "0_49_54_59_59"
+    ],
+    "shops": [
+      "magearena_runeshop",
+      "magicguildshop",
+      "magicshop",
+      "runeshop"
+    ]
   },
   {
     "debugname": "mindrune",
@@ -7749,7 +8641,19 @@
     "stackable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_47_56_15_56",
+      "0_50_50_6_8",
+      "0_50_154_24_54",
+      "0_51_58_19_16"
+    ],
+    "shops": [
+      "magearena_runeshop",
+      "magicguildshop",
+      "magicshop",
+      "runeshop"
+    ]
   },
   {
     "debugname": "bodyrune",
@@ -7763,7 +8667,23 @@
     "stackable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_47_56_13_53",
+      "0_48_60_19_25",
+      "0_49_54_58_39",
+      "0_50_55_23_63",
+      "0_50_154_26_54",
+      "0_50_55_29_46",
+      "0_50_55_32_54",
+      "1_51_49_26_55"
+    ],
+    "shops": [
+      "magearena_runeshop",
+      "magicguildshop",
+      "magicshop",
+      "runeshop"
+    ]
   },
   {
     "debugname": "deathrune",
@@ -7777,7 +8697,16 @@
     "stackable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_39_46_4_23"
+    ],
+    "shops": [
+      "magearena_runeshop",
+      "magicguildshop",
+      "magicshop",
+      "runeshop"
+    ]
   },
   {
     "debugname": "naturerune",
@@ -7791,7 +8720,17 @@
     "stackable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_41_58_47_25",
+      "0_41_58_48_26",
+      "0_51_60_43_19",
+      "0_51_60_47_13"
+    ],
+    "shops": [
+      "magearena_runeshop",
+      "magicguildshop"
+    ]
   },
   {
     "debugname": "chaosrune",
@@ -7805,7 +8744,22 @@
     "stackable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_47_56_13_56",
+      "0_49_59_1_57",
+      "0_49_59_3_38",
+      "0_49_59_8_50",
+      "0_49_59_9_38",
+      "0_49_59_13_47",
+      "0_49_59_15_55"
+    ],
+    "shops": [
+      "magearena_runeshop",
+      "magicguildshop",
+      "magicshop",
+      "runeshop"
+    ]
   },
   {
     "debugname": "lawrune",
@@ -7819,7 +8773,11 @@
     "stackable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "magearena_runeshop",
+      "magicguildshop"
+    ]
   },
   {
     "debugname": "cosmicrune",
@@ -7833,7 +8791,13 @@
     "stackable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_46_60_3_58"
+    ],
+    "shops": [
+      "magearena_runeshop"
+    ]
   },
   {
     "debugname": "bloodrune",
@@ -7847,7 +8811,16 @@
     "stackable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_51_59_19_43",
+      "0_51_59_26_30",
+      "0_51_60_33_50",
+      "0_51_59_41_40"
+    ],
+    "shops": [
+      "magicguildshop"
+    ]
   },
   {
     "debugname": "soulrune",
@@ -7861,7 +8834,10 @@
     "stackable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "magicguildshop"
+    ]
   },
   {
     "debugname": "stafforb",
@@ -8048,7 +9024,11 @@
       "wearpos": "head",
       "magicattack": 2,
       "magicdefence": 2
-    }
+    },
+    "shops": [
+      "fancyclothesstore",
+      "magicshop"
+    ]
   },
   {
     "debugname": "cert_bluewizhat",
@@ -8109,7 +9089,10 @@
     "iops": {
       "iop1": "Bail-with",
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "khazardshop"
+    ]
   },
   {
     "debugname": "cert_bucket_bailing",
@@ -8207,7 +9190,38 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "2_48_52_40_41"
+    ],
+    "shops": [
+      "adventurershop",
+      "arheinstore",
+      "cookeryshop",
+      "death_generalshop",
+      "generaldwarf",
+      "generalshop1",
+      "generalshop2",
+      "generalshop3",
+      "generalshop4",
+      "generalshop5",
+      "generalshop6",
+      "generalshop7",
+      "generalshop8",
+      "generalshopogre",
+      "gnomeshop",
+      "junglestore",
+      "khazardshop",
+      "lighthouseshop",
+      "razmiregeneralstore",
+      "regicide_general_shop",
+      "regicide_general_shop_2",
+      "shilojunglestore",
+      "taxfree",
+      "upassgeneralshop",
+      "viking_general_store",
+      "werewolfgeneralstore"
+    ]
   },
   {
     "debugname": "cert_tinderbox",
@@ -8288,7 +9302,11 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "junglestore",
+      "shilojunglestore"
+    ]
   },
   {
     "debugname": "cert_torch_unlit",
@@ -8345,7 +9363,10 @@
     "iops": {
       "iop1": "Read",
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_38_49_11_51"
+    ]
   },
   {
     "debugname": "keep_key",
@@ -8571,7 +9592,10 @@
     "members": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_45_148_35_31"
+    ]
   },
   {
     "debugname": "zqbonebeads",
@@ -8693,7 +9717,10 @@
       "wearpos": "feet",
       "slashdefence": 1,
       "crushdefence": 1
-    }
+    },
+    "shops": [
+      "gnomeshop_rometti"
+    ]
   },
   {
     "debugname": "cert_gnome_boots_pink",
@@ -8726,7 +9753,10 @@
       "wearpos": "feet",
       "slashdefence": 1,
       "crushdefence": 1
-    }
+    },
+    "shops": [
+      "gnomeshop_rometti"
+    ]
   },
   {
     "debugname": "cert_gnome_boots_green",
@@ -8759,7 +9789,10 @@
       "wearpos": "feet",
       "slashdefence": 1,
       "crushdefence": 1
-    }
+    },
+    "shops": [
+      "gnomeshop_rometti"
+    ]
   },
   {
     "debugname": "cert_gnome_boots_blue",
@@ -8792,7 +9825,10 @@
       "wearpos": "feet",
       "slashdefence": 1,
       "crushdefence": 1
-    }
+    },
+    "shops": [
+      "gnomeshop_rometti"
+    ]
   },
   {
     "debugname": "cert_gnome_boots_cream",
@@ -8825,7 +9861,10 @@
       "wearpos": "feet",
       "slashdefence": 1,
       "crushdefence": 1
-    }
+    },
+    "shops": [
+      "gnomeshop_rometti"
+    ]
   },
   {
     "debugname": "cert_gnome_boots_turquoise",
@@ -8858,7 +9897,10 @@
       "wearpos": "body",
       "slashdefence": 2,
       "crushdefence": 2
-    }
+    },
+    "shops": [
+      "gnomeshop_rometti"
+    ]
   },
   {
     "debugname": "cert_gnome_robetop_pink",
@@ -8891,7 +9933,10 @@
       "wearpos": "body",
       "slashdefence": 2,
       "crushdefence": 2
-    }
+    },
+    "shops": [
+      "gnomeshop_rometti"
+    ]
   },
   {
     "debugname": "cert_gnome_robetop_green",
@@ -8924,7 +9969,10 @@
       "wearpos": "body",
       "slashdefence": 2,
       "crushdefence": 2
-    }
+    },
+    "shops": [
+      "gnomeshop_rometti"
+    ]
   },
   {
     "debugname": "cert_gnome_robetop_blue",
@@ -8957,7 +10005,10 @@
       "wearpos": "body",
       "slashdefence": 2,
       "crushdefence": 2
-    }
+    },
+    "shops": [
+      "gnomeshop_rometti"
+    ]
   },
   {
     "debugname": "cert_gnome_robetop_cream",
@@ -8990,7 +10041,10 @@
       "wearpos": "body",
       "slashdefence": 2,
       "crushdefence": 2
-    }
+    },
+    "shops": [
+      "gnomeshop_rometti"
+    ]
   },
   {
     "debugname": "cert_gnome_robetop_turquoise",
@@ -9023,7 +10077,10 @@
       "wearpos": "legs",
       "slashdefence": 2,
       "crushdefence": 2
-    }
+    },
+    "shops": [
+      "gnomeshop_rometti"
+    ]
   },
   {
     "debugname": "cert_gnome_robebottoms_pink",
@@ -9056,7 +10113,10 @@
       "wearpos": "legs",
       "slashdefence": 2,
       "crushdefence": 2
-    }
+    },
+    "shops": [
+      "gnomeshop_rometti"
+    ]
   },
   {
     "debugname": "cert_gnome_robebottoms_green",
@@ -9089,7 +10149,10 @@
       "wearpos": "legs",
       "slashdefence": 2,
       "crushdefence": 2
-    }
+    },
+    "shops": [
+      "gnomeshop_rometti"
+    ]
   },
   {
     "debugname": "cert_gnome_robebottoms_blue",
@@ -9122,7 +10185,10 @@
       "wearpos": "legs",
       "slashdefence": 2,
       "crushdefence": 2
-    }
+    },
+    "shops": [
+      "gnomeshop_rometti"
+    ]
   },
   {
     "debugname": "cert_gnome_robebottoms_cream",
@@ -9155,7 +10221,10 @@
       "wearpos": "legs",
       "slashdefence": 2,
       "crushdefence": 2
-    }
+    },
+    "shops": [
+      "gnomeshop_rometti"
+    ]
   },
   {
     "debugname": "cert_gnome_robebottoms_turquoise",
@@ -9188,7 +10257,10 @@
       "wearpos": "head",
       "magicattack": 3,
       "magicdefence": 3
-    }
+    },
+    "shops": [
+      "gnomeshop_rometti"
+    ]
   },
   {
     "debugname": "cert_gnome_hat_pink",
@@ -9221,7 +10293,10 @@
       "wearpos": "head",
       "magicattack": 3,
       "magicdefence": 3
-    }
+    },
+    "shops": [
+      "gnomeshop_rometti"
+    ]
   },
   {
     "debugname": "cert_gnome_hat_green",
@@ -9254,7 +10329,10 @@
       "wearpos": "head",
       "magicattack": 3,
       "magicdefence": 3
-    }
+    },
+    "shops": [
+      "gnomeshop_rometti"
+    ]
   },
   {
     "debugname": "cert_gnome_hat_blue",
@@ -9287,7 +10365,10 @@
       "wearpos": "head",
       "magicattack": 3,
       "magicdefence": 3
-    }
+    },
+    "shops": [
+      "gnomeshop_rometti"
+    ]
   },
   {
     "debugname": "cert_gnome_hat_cream",
@@ -9320,7 +10401,10 @@
       "wearpos": "head",
       "magicattack": 3,
       "magicdefence": 3
-    }
+    },
+    "shops": [
+      "gnomeshop_rometti"
+    ]
   },
   {
     "debugname": "cert_gnome_hat_turquoise",
@@ -9490,7 +10574,10 @@
     "iops": {
       "iop2": "Search",
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_52_52_41_50"
+    ]
   },
   {
     "debugname": "tray_gold",
@@ -9613,7 +10700,27 @@
     "members": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_40_47_13_48",
+      "0_40_47_16_43",
+      "0_41_153_19_61",
+      "0_41_153_20_59",
+      "0_41_153_25_62",
+      "0_41_53_33_32",
+      "0_41_53_41_32",
+      "0_41_53_44_27",
+      "0_41_53_46_32",
+      "0_41_53_46_45",
+      "0_41_53_48_29",
+      "0_41_53_49_36",
+      "0_41_53_52_39",
+      "0_41_53_53_30",
+      "0_41_53_53_33",
+      "2_41_53_43_33",
+      "2_41_53_43_35",
+      "2_41_53_45_39"
+    ]
   },
   {
     "debugname": "digsitebuttons",
@@ -9734,7 +10841,10 @@
     "members": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_41_53_55_33"
+    ]
   },
   {
     "debugname": "digsitearmour2",
@@ -9759,7 +10869,11 @@
     "iops": {
       "iop2": "Read",
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_52_152_46_19",
+      "0_52_153_46_19"
+    ]
   },
   {
     "debugname": "unidentified_powder",
@@ -9867,7 +10981,17 @@
     "members": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_52_152_20_27",
+      "0_52_153_20_27",
+      "0_52_152_23_32",
+      "0_52_153_23_32",
+      "0_52_152_37_37",
+      "0_52_153_37_37",
+      "0_52_152_41_43",
+      "0_52_153_41_43"
+    ]
   },
   {
     "debugname": "digchestkey",
@@ -9917,7 +11041,10 @@
     "iops": {
       "iop1": "Drink",
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_51_53_7_21"
+    ]
   },
   {
     "debugname": "obj_713",
@@ -10194,7 +11321,12 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_54_51_25_13",
+      "0_54_51_26_12",
+      "0_54_51_26_15"
+    ]
   },
   {
     "debugname": "cert_smashed_glass",
@@ -10289,7 +11421,10 @@
       "wearpos": "head",
       "magicattack": 3,
       "magicdefence": 3
-    }
+    },
+    "spawn_locations": [
+      "0_37_73_11_40"
+    ]
   },
   {
     "debugname": "heartcrystal_sectiona",
@@ -10474,7 +11609,12 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_51_52_2_33",
+      "0_51_52_9_47",
+      "0_51_52_13_42"
+    ]
   },
   {
     "debugname": "cert_cadavaberries",
@@ -10664,7 +11804,11 @@
       "wearpos": "weapon",
       "rangeattack": 6,
       "attackrate": 6
-    }
+    },
+    "spawn_locations": [
+      "1_50_52_43_55",
+      "1_50_52_45_57"
+    ]
   },
   {
     "debugname": "cert_phoenix_crossbow",
@@ -11150,7 +12294,10 @@
       "rangeattack": 4,
       "rangebonus": 5,
       "attackrate": 5
-    }
+    },
+    "shops": [
+      "ranging_guild_tribalshop"
+    ]
   },
   {
     "debugname": "iron_thrownaxe",
@@ -11171,7 +12318,10 @@
       "rangeattack": 5,
       "rangebonus": 7,
       "attackrate": 5
-    }
+    },
+    "shops": [
+      "ranging_guild_tribalshop"
+    ]
   },
   {
     "debugname": "steel_thrownaxe",
@@ -11192,7 +12342,10 @@
       "rangeattack": 8,
       "rangebonus": 11,
       "attackrate": 5
-    }
+    },
+    "shops": [
+      "ranging_guild_tribalshop"
+    ]
   },
   {
     "debugname": "mithril_thrownaxe",
@@ -11213,7 +12366,10 @@
       "rangeattack": 12,
       "rangebonus": 16,
       "attackrate": 5
-    }
+    },
+    "shops": [
+      "ranging_guild_tribalshop"
+    ]
   },
   {
     "debugname": "adamnt_thrownaxe",
@@ -11234,7 +12390,10 @@
       "rangeattack": 17,
       "rangebonus": 23,
       "attackrate": 5
-    }
+    },
+    "shops": [
+      "ranging_guild_tribalshop"
+    ]
   },
   {
     "debugname": "rune_thrownaxe",
@@ -11255,7 +12414,10 @@
       "rangeattack": 26,
       "rangebonus": 36,
       "attackrate": 5
-    }
+    },
+    "shops": [
+      "ranging_guild_tribalshop"
+    ]
   },
   {
     "debugname": "bronze_dart",
@@ -11630,7 +12792,10 @@
       "rangeattack": 5,
       "rangebonus": 6,
       "attackrate": 6
-    }
+    },
+    "shops": [
+      "ranging_guild_tribalshop"
+    ]
   },
   {
     "debugname": "iron_javelin",
@@ -11651,7 +12816,10 @@
       "rangeattack": 8,
       "rangebonus": 10,
       "attackrate": 6
-    }
+    },
+    "shops": [
+      "ranging_guild_tribalshop"
+    ]
   },
   {
     "debugname": "steel_javelin",
@@ -11672,7 +12840,10 @@
       "rangeattack": 12,
       "rangebonus": 12,
       "attackrate": 6
-    }
+    },
+    "shops": [
+      "ranging_guild_tribalshop"
+    ]
   },
   {
     "debugname": "mithril_javelin",
@@ -11693,7 +12864,10 @@
       "rangeattack": 17,
       "rangebonus": 18,
       "attackrate": 6
-    }
+    },
+    "shops": [
+      "ranging_guild_tribalshop"
+    ]
   },
   {
     "debugname": "adamant_javelin",
@@ -11714,7 +12888,10 @@
       "rangeattack": 24,
       "rangebonus": 28,
       "attackrate": 6
-    }
+    },
+    "shops": [
+      "ranging_guild_tribalshop"
+    ]
   },
   {
     "debugname": "rune_javelin",
@@ -11735,7 +12912,10 @@
       "rangeattack": 38,
       "rangebonus": 42,
       "attackrate": 6
-    }
+    },
+    "shops": [
+      "ranging_guild_tribalshop"
+    ]
   },
   {
     "debugname": "bronze_javelin_p",
@@ -11880,7 +13060,17 @@
       "wearpos": "weapon",
       "rangeattack": 6,
       "attackrate": 6
-    }
+    },
+    "spawn_locations": [
+      "0_49_57_38_15",
+      "0_51_58_20_7"
+    ],
+    "shops": [
+      "archeryshop",
+      "archeryshop2",
+      "gnomeshop_gulluck",
+      "lathastrainingstore"
+    ]
   },
   {
     "debugname": "cert_crossbow",
@@ -11913,7 +13103,18 @@
       "wearpos": "weapon",
       "rangeattack": 8,
       "attackrate": 6
-    }
+    },
+    "spawn_locations": [
+      "0_41_53_54_35"
+    ],
+    "shops": [
+      "archeryshop",
+      "archeryshop2",
+      "gnomeshop_gulluck",
+      "lathastrainingstore",
+      "ranging_guild_bowshop",
+      "upassgeneralshop"
+    ]
   },
   {
     "debugname": "cert_longbow",
@@ -11945,7 +13146,17 @@
     "equipable_item": {
       "wearpos": "weapon",
       "rangeattack": 8
-    }
+    },
+    "spawn_locations": [
+      "1_45_53_34_47"
+    ],
+    "shops": [
+      "archeryshop",
+      "archeryshop2",
+      "gnomeshop_gulluck",
+      "lathastrainingstore",
+      "ranging_guild_bowshop"
+    ]
   },
   {
     "debugname": "cert_shortbow",
@@ -11977,7 +13188,12 @@
     "equipable_item": {
       "wearpos": "weapon",
       "rangeattack": 14
-    }
+    },
+    "shops": [
+      "archeryshop",
+      "archeryshop2",
+      "ranging_guild_bowshop"
+    ]
   },
   {
     "debugname": "cert_oak_shortbow",
@@ -12010,7 +13226,12 @@
       "wearpos": "weapon",
       "rangeattack": 14,
       "attackrate": 6
-    }
+    },
+    "shops": [
+      "archeryshop",
+      "archeryshop2",
+      "ranging_guild_bowshop"
+    ]
   },
   {
     "debugname": "cert_oak_longbow",
@@ -12043,7 +13264,10 @@
       "wearpos": "weapon",
       "rangeattack": 20,
       "attackrate": 6
-    }
+    },
+    "shops": [
+      "ranging_guild_bowshop"
+    ]
   },
   {
     "debugname": "cert_willow_longbow",
@@ -12075,7 +13299,10 @@
     "equipable_item": {
       "wearpos": "weapon",
       "rangeattack": 20
-    }
+    },
+    "shops": [
+      "ranging_guild_bowshop"
+    ]
   },
   {
     "debugname": "cert_willow_shortbow",
@@ -12597,7 +13824,28 @@
     "equipable_item": {
       "wearpos": "ammunition",
       "rangebonus": 10
-    }
+    },
+    "spawn_locations": [
+      "0_48_57_25_47",
+      "0_48_57_27_36",
+      "0_48_57_27_40",
+      "0_48_57_29_54",
+      "0_48_57_33_31",
+      "0_48_57_33_46",
+      "0_48_57_37_43",
+      "0_48_57_37_49",
+      "0_48_57_40_34",
+      "0_48_57_42_42",
+      "0_48_57_44_53",
+      "1_47_50_8_44",
+      "1_47_50_20_59"
+    ],
+    "shops": [
+      "archeryshop",
+      "archeryshop2",
+      "gnomeshop_gulluck",
+      "lathastrainingstore"
+    ]
   },
   {
     "debugname": "poison_bolt",
@@ -12654,7 +13902,10 @@
     "equipable_item": {
       "wearpos": "ammunition",
       "rangebonus": 19
-    }
+    },
+    "shops": [
+      "gnomeshop_gulluck"
+    ]
   },
   {
     "debugname": "barbed_bolt",
@@ -12692,7 +13943,35 @@
     "equipable_item": {
       "wearpos": "ammunition",
       "rangebonus": 7
-    }
+    },
+    "spawn_locations": [
+      "0_41_53_54_34",
+      "0_41_53_56_32",
+      "0_46_52_0_4",
+      "0_46_50_15_5",
+      "0_48_56_26_12",
+      "0_48_56_26_16",
+      "0_48_56_29_8",
+      "0_48_56_29_22",
+      "0_48_56_31_12",
+      "0_48_56_31_16",
+      "0_48_56_33_23",
+      "0_48_56_37_20",
+      "0_48_56_38_27",
+      "0_48_154_58_47",
+      "0_48_154_63_60",
+      "0_50_50_5_27"
+    ],
+    "shops": [
+      "adventurershop",
+      "archeryshop",
+      "archeryshop2",
+      "gnomeshop",
+      "gnomeshop_gulluck",
+      "lathastrainingstore",
+      "ranging_guild_bowshop",
+      "upassgeneralshop"
+    ]
   },
   {
     "debugname": "bronze_arrow_p",
@@ -12730,7 +14009,12 @@
     "equipable_item": {
       "wearpos": "ammunition",
       "rangebonus": 10
-    }
+    },
+    "shops": [
+      "archeryshop",
+      "archeryshop2",
+      "ranging_guild_bowshop"
+    ]
   },
   {
     "debugname": "iron_arrow_p",
@@ -12768,7 +14052,13 @@
     "equipable_item": {
       "wearpos": "ammunition",
       "rangebonus": 16
-    }
+    },
+    "shops": [
+      "archeryshop",
+      "archeryshop2",
+      "generallegends",
+      "ranging_guild_bowshop"
+    ]
   },
   {
     "debugname": "steel_arrow_p",
@@ -12806,7 +14096,14 @@
     "equipable_item": {
       "wearpos": "ammunition",
       "rangebonus": 22
-    }
+    },
+    "spawn_locations": [
+      "0_41_53_57_34"
+    ],
+    "shops": [
+      "archeryshop2",
+      "ranging_guild_bowshop"
+    ]
   },
   {
     "debugname": "mithril_arrow_p",
@@ -12844,7 +14141,11 @@
     "equipable_item": {
       "wearpos": "ammunition",
       "rangebonus": 31
-    }
+    },
+    "shops": [
+      "archeryshop2",
+      "ranging_guild_bowshop"
+    ]
   },
   {
     "debugname": "adamant_arrow_p",
@@ -12882,7 +14183,11 @@
     "equipable_item": {
       "wearpos": "ammunition",
       "rangebonus": 49
-    }
+    },
+    "shops": [
+      "archeryshop2",
+      "ranging_guild_bowshop"
+    ]
   },
   {
     "debugname": "rune_arrow_p",
@@ -13648,7 +14953,31 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_39_47_33_22",
+      "0_39_51_47_24",
+      "0_40_151_4_5",
+      "0_40_148_7_54",
+      "0_41_152_29_39",
+      "0_41_58_57_5",
+      "0_42_53_12_15",
+      "0_42_54_16_19",
+      "0_44_53_4_58",
+      "0_45_49_23_12",
+      "0_50_150_15_25",
+      "0_50_50_24_2",
+      "1_50_53_18_26"
+    ],
+    "shops": [
+      "bedabincampshop",
+      "generalshopogre",
+      "gnomeshop_heck",
+      "gnomeshop_hudo",
+      "junglestore",
+      "lighthouseshop",
+      "shantayshop"
+    ]
   },
   {
     "debugname": "cert_knife",
@@ -13675,7 +15004,12 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "fancyclothesstore",
+      "furshop",
+      "viking_furshop"
+    ]
   },
   {
     "debugname": "cert_fur",
@@ -13702,7 +15036,10 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "clotheshop"
+    ]
   },
   {
     "debugname": "cert_silk",
@@ -13730,7 +15067,19 @@
     "iops": {
       "iop1": "Dig",
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_40_52_14_3",
+      "0_46_52_37_41",
+      "0_48_52_48_31",
+      "1_50_53_18_20"
+    ],
+    "shops": [
+      "junglestore",
+      "lighthouseshop",
+      "shilojunglestore",
+      "viking_general_store"
+    ]
   },
   {
     "debugname": "cert_spade",
@@ -13757,7 +15106,25 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_37_150_35_60",
+      "0_40_47_11_18",
+      "0_43_51_33_15",
+      "0_43_51_34_22",
+      "0_43_51_34_23",
+      "0_45_49_24_16"
+    ],
+    "shops": [
+      "adventurershop",
+      "arheinstore",
+      "junglestore",
+      "khazardshop",
+      "lighthouseshop",
+      "shilojunglestore",
+      "upassgeneralshop",
+      "viking_general_store"
+    ]
   },
   {
     "debugname": "cert_rope",
@@ -13811,7 +15178,12 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "fancyclothesstore",
+      "furshop",
+      "viking_furshop"
+    ]
   },
   {
     "debugname": "cert_grey_wolf_fur",
@@ -13838,7 +15210,29 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_38_151_3_62",
+      "0_39_55_56_54",
+      "0_39_55_57_55",
+      "0_39_55_58_54",
+      "0_39_55_60_53",
+      "0_44_50_31_32",
+      "0_44_50_31_38",
+      "0_44_50_35_39",
+      "0_44_50_40_31",
+      "0_44_50_40_36",
+      "0_49_57_12_23",
+      "0_49_57_18_11",
+      "0_49_57_18_22",
+      "0_49_57_35_32",
+      "0_49_57_46_21",
+      "0_51_57_11_16",
+      "0_51_57_27_4"
+    ],
+    "shops": [
+      "razmirebuildingstore"
+    ]
   },
   {
     "debugname": "cert_woodplank",
@@ -13892,7 +15286,14 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_46_55_33_9",
+      "0_46_55_34_11",
+      "0_50_58_17_33",
+      "0_50_58_33_28",
+      "0_50_58_56_32"
+    ]
   },
   {
     "debugname": "cert_skull",
@@ -13919,7 +15320,28 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_46_57_11_52",
+      "0_46_57_12_54",
+      "0_46_57_13_49",
+      "0_46_57_15_49",
+      "0_46_57_19_58",
+      "0_46_57_32_34",
+      "0_46_57_34_56",
+      "0_46_57_39_49",
+      "0_46_57_43_36",
+      "0_46_57_49_43",
+      "0_46_57_58_50",
+      "0_49_57_13_26",
+      "0_49_57_29_12",
+      "0_49_57_38_40",
+      "0_49_57_48_24",
+      "0_51_57_7_8",
+      "0_51_57_14_16",
+      "0_51_57_17_15",
+      "0_51_57_25_3"
+    ]
   },
   {
     "debugname": "cert_rooftile",
@@ -13973,7 +15395,16 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_42_52_36_39",
+      "1_51_47_26_25"
+    ],
+    "shops": [
+      "adventurershop",
+      "junglestore",
+      "shilojunglestore"
+    ]
   },
   {
     "debugname": "cert_papyrus",
@@ -14012,7 +15443,11 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "junglestore",
+      "shilojunglestore"
+    ]
   },
   {
     "debugname": "cert_charcoal",
@@ -14047,7 +15482,11 @@
       "crushattack": -2,
       "strengthbonus": 5,
       "attackrate": 5
-    }
+    },
+    "shops": [
+      "junglestore",
+      "shilojunglestore"
+    ]
   },
   {
     "debugname": "cert_machette",
@@ -14155,7 +15594,10 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_48_154_59_6"
+    ]
   },
   {
     "debugname": "cert_edgevilledungeonkey",
@@ -14318,7 +15760,76 @@
     "stackable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_39_147_2_26",
+      "0_39_147_3_24",
+      "0_39_147_4_19",
+      "0_42_153_27_27",
+      "0_42_153_28_24",
+      "0_42_153_29_29",
+      "0_42_153_30_30",
+      "0_42_153_32_23",
+      "0_42_153_33_26",
+      "0_42_153_33_27",
+      "0_42_153_33_29",
+      "0_42_153_34_24",
+      "0_43_49_13_62",
+      "0_43_49_15_61",
+      "0_43_49_15_63",
+      "0_43_49_16_62",
+      "0_43_49_20_61",
+      "0_44_150_40_45",
+      "0_44_150_44_43",
+      "0_44_150_45_28",
+      "0_44_150_47_29",
+      "0_44_150_47_32",
+      "0_45_153_27_15",
+      "0_45_153_29_8",
+      "0_45_153_30_11",
+      "0_45_153_32_9",
+      "0_45_153_33_14",
+      "0_45_153_34_57",
+      "0_45_153_37_58",
+      "0_45_153_42_27",
+      "0_45_153_54_42",
+      "0_46_57_35_27",
+      "0_46_57_41_27",
+      "0_46_149_43_47",
+      "0_46_149_44_46",
+      "0_46_149_44_48",
+      "0_46_57_46_27",
+      "0_46_153_57_6",
+      "0_46_153_59_9",
+      "0_48_60_4_5",
+      "0_48_154_16_42",
+      "0_48_154_16_43",
+      "0_48_154_19_43",
+      "0_48_55_25_58",
+      "0_48_55_26_44",
+      "0_48_55_27_37",
+      "0_48_55_27_52",
+      "0_48_55_31_28",
+      "0_48_55_36_14",
+      "0_48_60_36_19",
+      "0_49_154_31_41",
+      "0_49_154_33_24",
+      "0_49_154_37_25",
+      "0_49_154_37_41",
+      "0_49_153_52_27",
+      "0_49_153_52_28",
+      "0_49_153_53_27",
+      "0_49_153_54_27",
+      "0_49_153_55_29",
+      "0_49_153_59_28",
+      "0_49_153_59_42",
+      "0_50_59_20_50",
+      "0_50_59_21_53",
+      "0_50_54_28_48",
+      "0_50_54_32_44",
+      "0_50_55_34_36",
+      "0_51_154_10_14"
+    ]
   },
   {
     "debugname": "coins_2",
@@ -14461,7 +15972,13 @@
     },
     "equipable_item": {
       "wearpos": "body"
-    }
+    },
+    "spawn_locations": [
+      "0_47_50_2_8"
+    ],
+    "shops": [
+      "clotheshop"
+    ]
   },
   {
     "debugname": "cert_white_apron",
@@ -14495,7 +16012,12 @@
       "slashdefence": 1,
       "crushdefence": 1,
       "rangedefence": 2
-    }
+    },
+    "shops": [
+      "clotheshop",
+      "fancyclothesstore",
+      "werewolfstore2"
+    ]
   },
   {
     "debugname": "cert_red_cape",
@@ -14526,7 +16048,11 @@
     },
     "equipable_item": {
       "wearpos": "neck"
-    }
+    },
+    "spawn_locations": [
+      "0_48_154_50_25",
+      "0_49_153_55_28"
+    ]
   },
   {
     "debugname": "cert_brass_necklace",
@@ -14557,7 +16083,11 @@
     },
     "equipable_item": {
       "wearpos": "legs"
-    }
+    },
+    "shops": [
+      "clotheshop",
+      "fancyclothesstore"
+    ]
   },
   {
     "debugname": "cert_blue_skirt",
@@ -14588,7 +16118,11 @@
     },
     "equipable_item": {
       "wearpos": "legs"
-    }
+    },
+    "shops": [
+      "clotheshop",
+      "fancyclothesstore"
+    ]
   },
   {
     "debugname": "cert_pink_skirt",
@@ -14619,7 +16153,11 @@
     },
     "equipable_item": {
       "wearpos": "legs"
-    }
+    },
+    "shops": [
+      "clotheshop",
+      "fancyclothesstore"
+    ]
   },
   {
     "debugname": "cert_black_skirt",
@@ -14652,7 +16190,10 @@
       "wearpos": "head",
       "magicattack": 2,
       "magicdefence": 2
-    }
+    },
+    "shops": [
+      "magicshop"
+    ]
   },
   {
     "debugname": "cert_blackwizhat",
@@ -14686,7 +16227,10 @@
       "slashdefence": 1,
       "crushdefence": 1,
       "rangedefence": 2
-    }
+    },
+    "shops": [
+      "werewolfstore2"
+    ]
   },
   {
     "debugname": "cert_black_cape",
@@ -14720,7 +16264,11 @@
       "slashdefence": 1,
       "crushdefence": 1,
       "rangedefence": 2
-    }
+    },
+    "shops": [
+      "championshop",
+      "werewolfstore2"
+    ]
   },
   {
     "debugname": "cert_blue_cape",
@@ -14754,7 +16302,11 @@
       "slashdefence": 1,
       "crushdefence": 1,
       "rangedefence": 2
-    }
+    },
+    "shops": [
+      "fancyclothesstore",
+      "werewolfstore2"
+    ]
   },
   {
     "debugname": "cert_yellow_cape",
@@ -14785,7 +16337,10 @@
     },
     "equipable_item": {
       "wearpos": "head"
-    }
+    },
+    "shops": [
+      "fancyclothesstore"
+    ]
   },
   {
     "debugname": "cert_eye_patch",
@@ -14819,7 +16374,10 @@
       "slashdefence": 1,
       "crushdefence": 1,
       "rangedefence": 2
-    }
+    },
+    "shops": [
+      "werewolfstore2"
+    ]
   },
   {
     "debugname": "cert_green_cape",
@@ -15223,7 +16781,10 @@
       "crushdefence": 7,
       "magicdefence": 7,
       "rangedefence": 7
-    }
+    },
+    "shops": [
+      "legendsguildshop"
+    ]
   },
   {
     "debugname": "halloweenmask_green",
@@ -15335,7 +16896,18 @@
       "wearpos": "hands",
       "slashdefence": 1,
       "crushdefence": 2
-    }
+    },
+    "spawn_locations": [
+      "0_48_54_25_30",
+      "0_50_49_34_15",
+      "1_50_52_42_57"
+    ],
+    "shops": [
+      "clotheshop",
+      "fancyclothesstore",
+      "junglestore",
+      "shilojunglestore"
+    ]
   },
   {
     "debugname": "cert_leather_gloves",
@@ -15368,7 +16940,22 @@
       "wearpos": "feet",
       "slashdefence": 1,
       "crushdefence": 1
-    }
+    },
+    "spawn_locations": [
+      "0_48_49_39_23",
+      "0_50_150_8_20",
+      "0_50_150_10_15",
+      "0_51_49_38_54",
+      "1_48_49_40_19",
+      "1_50_52_44_58"
+    ],
+    "shops": [
+      "clotheshop",
+      "fancyclothesstore",
+      "junglestore",
+      "shilojunglestore",
+      "upassgeneralshop"
+    ]
   },
   {
     "debugname": "cert_leather_boots",
@@ -15403,7 +16990,10 @@
       "stabdefence": 2,
       "slashdefence": 2,
       "crushdefence": 1
-    }
+    },
+    "shops": [
+      "ranging_guild_armourshop"
+    ]
   },
   {
     "debugname": "cert_leather_vambraces",
@@ -15440,7 +17030,10 @@
       "slashdefence": 2,
       "crushdefence": 4,
       "magicdefence": 2
-    }
+    },
+    "shops": [
+      "runiteshop"
+    ]
   },
   {
     "debugname": "cert_dragon_vambraces",
@@ -15478,7 +17071,14 @@
       "crushdefence": 10,
       "magicdefence": -4,
       "rangedefence": 10
-    }
+    },
+    "spawn_locations": [
+      "0_50_53_54_60"
+    ],
+    "shops": [
+      "armourshop",
+      "legsshop"
+    ]
   },
   {
     "debugname": "cert_iron_platelegs",
@@ -15516,7 +17116,13 @@
       "crushdefence": 15,
       "magicdefence": -4,
       "rangedefence": 16
-    }
+    },
+    "spawn_locations": [
+      "0_49_58_48_21"
+    ],
+    "shops": [
+      "legsshop"
+    ]
   },
   {
     "debugname": "cert_steel_platelegs",
@@ -15554,7 +17160,10 @@
       "crushdefence": 20,
       "magicdefence": -4,
       "rangedefence": 22
-    }
+    },
+    "shops": [
+      "legsshop"
+    ]
   },
   {
     "debugname": "cert_mithril_platelegs",
@@ -15592,7 +17201,10 @@
       "crushdefence": 29,
       "magicdefence": -4,
       "rangedefence": 31
-    }
+    },
+    "shops": [
+      "legsshop"
+    ]
   },
   {
     "debugname": "cert_adamant_platelegs",
@@ -15630,7 +17242,10 @@
       "crushdefence": 6,
       "magicdefence": -4,
       "rangedefence": 7
-    }
+    },
+    "shops": [
+      "legsshop"
+    ]
   },
   {
     "debugname": "cert_bronze_platelegs",
@@ -15668,7 +17283,11 @@
       "crushdefence": 19,
       "magicdefence": -4,
       "rangedefence": 20
-    }
+    },
+    "shops": [
+      "championshop",
+      "legsshop"
+    ]
   },
   {
     "debugname": "cert_black_platelegs",
@@ -15706,7 +17325,10 @@
       "crushdefence": 47,
       "magicdefence": -4,
       "rangedefence": 49
-    }
+    },
+    "shops": [
+      "runiteshop"
+    ]
   },
   {
     "debugname": "cert_rune_platelegs",
@@ -15744,7 +17366,10 @@
       "crushdefence": 10,
       "magicdefence": -4,
       "rangedefence": 10
-    }
+    },
+    "shops": [
+      "skirtshop"
+    ]
   },
   {
     "debugname": "cert_iron_plateskirt",
@@ -15782,7 +17407,10 @@
       "crushdefence": 15,
       "magicdefence": -4,
       "rangedefence": 16
-    }
+    },
+    "shops": [
+      "skirtshop"
+    ]
   },
   {
     "debugname": "cert_steel_plateskirt",
@@ -15820,7 +17448,10 @@
       "crushdefence": 20,
       "magicdefence": -4,
       "rangedefence": 22
-    }
+    },
+    "shops": [
+      "skirtshop"
+    ]
   },
   {
     "debugname": "cert_mithril_plateskirt",
@@ -15858,7 +17489,10 @@
       "crushdefence": 6,
       "magicdefence": -4,
       "rangedefence": 7
-    }
+    },
+    "shops": [
+      "skirtshop"
+    ]
   },
   {
     "debugname": "cert_bronze_plateskirt",
@@ -15896,7 +17530,10 @@
       "crushdefence": 19,
       "magicdefence": -4,
       "rangedefence": 20
-    }
+    },
+    "shops": [
+      "skirtshop"
+    ]
   },
   {
     "debugname": "cert_black_plateskirt",
@@ -15934,7 +17571,10 @@
       "crushdefence": 29,
       "magicdefence": -4,
       "rangedefence": 31
-    }
+    },
+    "shops": [
+      "skirtshop"
+    ]
   },
   {
     "debugname": "cert_adamant_plateskirt",
@@ -15972,7 +17612,10 @@
       "crushdefence": 47,
       "magicdefence": -4,
       "rangedefence": 49
-    }
+    },
+    "shops": [
+      "runiteshop"
+    ]
   },
   {
     "debugname": "cert_rune_plateskirt",
@@ -16007,7 +17650,10 @@
       "stabdefence": 2,
       "slashdefence": 2,
       "crushdefence": 1
-    }
+    },
+    "shops": [
+      "ranging_guild_armourshop"
+    ]
   },
   {
     "debugname": "cert_leather_chaps",
@@ -16045,7 +17691,12 @@
       "crushdefence": 17,
       "magicdefence": 6,
       "rangedefence": 16
-    }
+    },
+    "shops": [
+      "archeryshop2",
+      "armourshop",
+      "ranging_guild_armourshop"
+    ]
   },
   {
     "debugname": "cert_studded_chaps",
@@ -16083,7 +17734,10 @@
       "crushdefence": 24,
       "magicdefence": 8,
       "rangedefence": 22
-    }
+    },
+    "shops": [
+      "runiteshop"
+    ]
   },
   {
     "debugname": "cert_dragonhide_chaps",
@@ -16120,7 +17774,11 @@
       "crushdefence": 19,
       "magicdefence": -3,
       "rangedefence": 12
-    }
+    },
+    "shops": [
+      "armourshop",
+      "chainmailshop"
+    ]
   },
   {
     "debugname": "cert_iron_chainbody",
@@ -16157,7 +17815,14 @@
       "crushdefence": 13,
       "magicdefence": -3,
       "rangedefence": 9
-    }
+    },
+    "spawn_locations": [
+      "0_46_153_41_25"
+    ],
+    "shops": [
+      "armourshop",
+      "chainmailshop"
+    ]
   },
   {
     "debugname": "cert_bronze_chainbody",
@@ -16194,7 +17859,11 @@
       "crushdefence": 30,
       "magicdefence": -3,
       "rangedefence": 19
-    }
+    },
+    "shops": [
+      "armourshop",
+      "chainmailshop"
+    ]
   },
   {
     "debugname": "cert_steel_chainbody",
@@ -16231,7 +17900,10 @@
       "crushdefence": 39,
       "magicdefence": -3,
       "rangedefence": 24
-    }
+    },
+    "shops": [
+      "chainmailshop"
+    ]
   },
   {
     "debugname": "cert_black_chainbody",
@@ -16268,7 +17940,11 @@
       "crushdefence": 42,
       "magicdefence": -3,
       "rangedefence": 27
-    }
+    },
+    "shops": [
+      "armourshop",
+      "chainmailshop"
+    ]
   },
   {
     "debugname": "cert_mithril_chainbody",
@@ -16305,7 +17981,10 @@
       "crushdefence": 61,
       "magicdefence": -3,
       "rangedefence": 38
-    }
+    },
+    "shops": [
+      "chainmailshop"
+    ]
   },
   {
     "debugname": "cert_adamant_chainbody",
@@ -16342,7 +18021,10 @@
       "crushdefence": 78,
       "magicdefence": -3,
       "rangedefence": 65
-    }
+    },
+    "shops": [
+      "runiteshop"
+    ]
   },
   {
     "debugname": "cert_rune_chainbody",
@@ -16380,7 +18062,14 @@
       "crushdefence": 12,
       "magicdefence": -6,
       "rangedefence": 20
-    }
+    },
+    "spawn_locations": [
+      "0_50_53_54_61"
+    ],
+    "shops": [
+      "armourshop",
+      "topshop"
+    ]
   },
   {
     "debugname": "cert_iron_platebody",
@@ -16418,7 +18107,11 @@
       "crushdefence": 9,
       "magicdefence": -6,
       "rangedefence": 14
-    }
+    },
+    "shops": [
+      "armourshop",
+      "topshop"
+    ]
   },
   {
     "debugname": "cert_bronze_platebody",
@@ -16456,7 +18149,14 @@
       "crushdefence": 24,
       "magicdefence": -6,
       "rangedefence": 31
-    }
+    },
+    "spawn_locations": [
+      "0_48_60_13_19"
+    ],
+    "shops": [
+      "armourshop",
+      "topshop"
+    ]
   },
   {
     "debugname": "cert_steel_platebody",
@@ -16494,7 +18194,11 @@
       "crushdefence": 38,
       "magicdefence": -6,
       "rangedefence": 44
-    }
+    },
+    "shops": [
+      "armourshop",
+      "topshop"
+    ]
   },
   {
     "debugname": "cert_mithril_platebody",
@@ -16532,7 +18236,10 @@
       "crushdefence": 55,
       "magicdefence": -6,
       "rangedefence": 63
-    }
+    },
+    "shops": [
+      "championshop"
+    ]
   },
   {
     "debugname": "cert_adamant_platebody",
@@ -16570,7 +18277,11 @@
       "crushdefence": 30,
       "magicdefence": -6,
       "rangedefence": 40
-    }
+    },
+    "shops": [
+      "armourshop",
+      "topshop"
+    ]
   },
   {
     "debugname": "cert_black_platebody",
@@ -16608,7 +18319,10 @@
       "crushdefence": 72,
       "magicdefence": -6,
       "rangedefence": 80
-    }
+    },
+    "shops": [
+      "runeplateshop"
+    ]
   },
   {
     "debugname": "cert_rune_platebody",
@@ -16646,7 +18360,16 @@
       "crushdefence": 10,
       "magicdefence": 4,
       "rangedefence": 9
-    }
+    },
+    "spawn_locations": [
+      "0_50_53_44_6"
+    ],
+    "shops": [
+      "clotheshop",
+      "junglestore",
+      "ranging_guild_armourshop",
+      "shilojunglestore"
+    ]
   },
   {
     "debugname": "cert_leather_armour",
@@ -16684,7 +18407,10 @@
       "crushdefence": 18,
       "magicdefence": 6,
       "rangedefence": 15
-    }
+    },
+    "shops": [
+      "ranging_guild_armourshop"
+    ]
   },
   {
     "debugname": "cert_hardleather_body",
@@ -16722,7 +18448,12 @@
       "crushdefence": 22,
       "magicdefence": 8,
       "rangedefence": 25
-    }
+    },
+    "shops": [
+      "archeryshop2",
+      "armourshop",
+      "ranging_guild_armourshop"
+    ]
   },
   {
     "debugname": "cert_studded_body",
@@ -16760,7 +18491,10 @@
       "crushdefence": 45,
       "magicdefence": 20,
       "rangedefence": 40
-    }
+    },
+    "shops": [
+      "runeplateshop"
+    ]
   },
   {
     "debugname": "cert_dragonhide_body",
@@ -16798,7 +18532,14 @@
       "crushdefence": 3,
       "magicdefence": -1,
       "rangedefence": 4
-    }
+    },
+    "spawn_locations": [
+      "0_39_50_44_49",
+      "0_49_57_42_36"
+    ],
+    "shops": [
+      "helmetshop"
+    ]
   },
   {
     "debugname": "cert_iron_med_helm",
@@ -16836,7 +18577,14 @@
       "crushdefence": 2,
       "magicdefence": -1,
       "rangedefence": 4
-    }
+    },
+    "spawn_locations": [
+      "0_48_152_4_49",
+      "0_48_52_50_32"
+    ],
+    "shops": [
+      "helmetshop"
+    ]
   },
   {
     "debugname": "cert_bronze_med_helm",
@@ -16874,7 +18622,10 @@
       "crushdefence": 6,
       "magicdefence": -1,
       "rangedefence": 7
-    }
+    },
+    "shops": [
+      "helmetshop"
+    ]
   },
   {
     "debugname": "cert_steel_med_helm",
@@ -16912,7 +18663,10 @@
       "crushdefence": 9,
       "magicdefence": -1,
       "rangedefence": 10
-    }
+    },
+    "shops": [
+      "helmetshop"
+    ]
   },
   {
     "debugname": "cert_mithril_med_helm",
@@ -16950,7 +18704,10 @@
       "crushdefence": 13,
       "magicdefence": -1,
       "rangedefence": 14
-    }
+    },
+    "shops": [
+      "helmetshop"
+    ]
   },
   {
     "debugname": "cert_adamant_med_helm",
@@ -17102,7 +18859,13 @@
       "crushdefence": 5,
       "magicdefence": -1,
       "rangedefence": 6
-    }
+    },
+    "spawn_locations": [
+      "0_47_59_61_55"
+    ],
+    "shops": [
+      "helmetshop"
+    ]
   },
   {
     "debugname": "cert_iron_full_helm",
@@ -17140,7 +18903,10 @@
       "crushdefence": 3,
       "magicdefence": -1,
       "rangedefence": 4
-    }
+    },
+    "shops": [
+      "helmetshop"
+    ]
   },
   {
     "debugname": "cert_bronze_full_helm",
@@ -17178,7 +18944,10 @@
       "crushdefence": 7,
       "magicdefence": -1,
       "rangedefence": 9
-    }
+    },
+    "shops": [
+      "helmetshop"
+    ]
   },
   {
     "debugname": "cert_steel_full_helm",
@@ -17216,7 +18985,10 @@
       "crushdefence": 11,
       "magicdefence": -1,
       "rangedefence": 13
-    }
+    },
+    "shops": [
+      "helmetshop"
+    ]
   },
   {
     "debugname": "cert_mithril_full_helm",
@@ -17254,7 +19026,10 @@
       "crushdefence": 16,
       "magicdefence": -1,
       "rangedefence": 19
-    }
+    },
+    "shops": [
+      "helmetshop"
+    ]
   },
   {
     "debugname": "cert_adamant_full_helm",
@@ -17330,7 +19105,10 @@
       "crushdefence": 10,
       "magicdefence": -1,
       "rangedefence": 12
-    }
+    },
+    "shops": [
+      "championshop"
+    ]
   },
   {
     "debugname": "cert_black_full_helm",
@@ -17367,7 +19145,10 @@
       "crushdefence": 4,
       "magicdefence": 2,
       "rangedefence": 3
-    }
+    },
+    "shops": [
+      "ranging_guild_armourshop"
+    ]
   },
   {
     "debugname": "cert_leather_cowl",
@@ -17405,7 +19186,11 @@
       "crushdefence": 8,
       "magicdefence": 4,
       "rangedefence": 4
-    }
+    },
+    "shops": [
+      "ranging_guild_armourshop",
+      "runiteshop"
+    ]
   },
   {
     "debugname": "cert_coif",
@@ -17441,7 +19226,13 @@
       "crushdefence": 3,
       "magicdefence": 1,
       "rangedefence": 4
-    }
+    },
+    "spawn_locations": [
+      "0_50_54_4_59"
+    ],
+    "shops": [
+      "shieldshop"
+    ]
   },
   {
     "debugname": "cert_wooden_shield",
@@ -17478,7 +19269,13 @@
       "slashdefence": 6,
       "crushdefence": 4,
       "rangedefence": 5
-    }
+    },
+    "spawn_locations": [
+      "1_51_61_30_31"
+    ],
+    "shops": [
+      "shieldshop"
+    ]
   },
   {
     "debugname": "cert_bronze_sq_shield",
@@ -17515,7 +19312,10 @@
       "slashdefence": 9,
       "crushdefence": 7,
       "rangedefence": 8
-    }
+    },
+    "shops": [
+      "shieldshop"
+    ]
   },
   {
     "debugname": "cert_iron_sq_shield",
@@ -17552,7 +19352,10 @@
       "slashdefence": 13,
       "crushdefence": 11,
       "rangedefence": 12
-    }
+    },
+    "shops": [
+      "shieldshop"
+    ]
   },
   {
     "debugname": "cert_steel_sq_shield",
@@ -17626,7 +19429,10 @@
       "slashdefence": 19,
       "crushdefence": 15,
       "rangedefence": 17
-    }
+    },
+    "shops": [
+      "shieldshop"
+    ]
   },
   {
     "debugname": "cert_mithril_sq_shield",
@@ -17775,7 +19581,10 @@
       "crushdefence": 6,
       "magicdefence": -1,
       "rangedefence": 6
-    }
+    },
+    "shops": [
+      "shieldshop"
+    ]
   },
   {
     "debugname": "cert_bronze_kiteshield",
@@ -17813,7 +19622,13 @@
       "crushdefence": 9,
       "magicdefence": -1,
       "rangedefence": 9
-    }
+    },
+    "spawn_locations": [
+      "0_50_59_47_19"
+    ],
+    "shops": [
+      "shieldshop"
+    ]
   },
   {
     "debugname": "cert_iron_kiteshield",
@@ -17851,7 +19666,10 @@
       "crushdefence": 14,
       "magicdefence": -1,
       "rangedefence": 14
-    }
+    },
+    "shops": [
+      "shieldshop"
+    ]
   },
   {
     "debugname": "cert_steel_kiteshield",
@@ -18040,7 +19858,16 @@
       "magicattack": 1,
       "magicdefence": 1,
       "strengthbonus": 4
-    }
+    },
+    "spawn_locations": [
+      "0_49_57_20_35",
+      "0_50_50_48_45",
+      "1_50_52_42_55",
+      "3_51_61_15_34"
+    ],
+    "shops": [
+      "swordshop"
+    ]
   },
   {
     "debugname": "cert_iron_dagger",
@@ -18077,7 +19904,13 @@
       "magicattack": 1,
       "magicdefence": 1,
       "strengthbonus": 3
-    }
+    },
+    "spawn_locations": [
+      "1_50_50_13_16"
+    ],
+    "shops": [
+      "swordshop"
+    ]
   },
   {
     "debugname": "cert_bronze_dagger",
@@ -18114,7 +19947,15 @@
       "magicattack": 1,
       "magicdefence": 1,
       "strengthbonus": 7
-    }
+    },
+    "spawn_locations": [
+      "0_49_57_22_24",
+      "0_51_58_28_50",
+      "0_51_58_48_57"
+    ],
+    "shops": [
+      "swordshop"
+    ]
   },
   {
     "debugname": "cert_steel_dagger",
@@ -18151,7 +19992,10 @@
       "magicattack": 1,
       "magicdefence": 1,
       "strengthbonus": 10
-    }
+    },
+    "shops": [
+      "swordshop"
+    ]
   },
   {
     "debugname": "cert_mithril_dagger",
@@ -18188,7 +20032,10 @@
       "magicattack": 1,
       "magicdefence": 1,
       "strengthbonus": 14
-    }
+    },
+    "shops": [
+      "swordshop"
+    ]
   },
   {
     "debugname": "cert_adamant_dagger",
@@ -18262,7 +20109,10 @@
       "magicattack": 1,
       "magicdefence": 1,
       "strengthbonus": 40
-    }
+    },
+    "shops": [
+      "dragonswordshop"
+    ]
   },
   {
     "debugname": "cert_dragon_dagger",
@@ -18299,7 +20149,13 @@
       "magicattack": 1,
       "magicdefence": 1,
       "strengthbonus": 7
-    }
+    },
+    "spawn_locations": [
+      "0_49_59_44_48"
+    ],
+    "shops": [
+      "swordshop"
+    ]
   },
   {
     "debugname": "cert_black_dagger",
@@ -19213,7 +21069,29 @@
       "slashdefence": 1,
       "strengthbonus": 5,
       "attackrate": 5
-    }
+    },
+    "spawn_locations": [
+      "0_46_50_19_16",
+      "0_47_52_1_14",
+      "0_48_53_9_37",
+      "0_51_147_24_23",
+      "0_51_147_24_34",
+      "2_50_50_29_15",
+      "2_50_50_29_23"
+    ],
+    "shops": [
+      "adventurershop",
+      "arheinstore",
+      "axeshop",
+      "gnomeshop",
+      "junglestore",
+      "khazardshop",
+      "miningstore",
+      "pickaxeshop",
+      "shilojunglestore",
+      "taxfree",
+      "upassgeneralshop"
+    ]
   },
   {
     "debugname": "cert_bronze_pickaxe",
@@ -19250,7 +21128,19 @@
       "slashdefence": 1,
       "strengthbonus": 7,
       "attackrate": 5
-    }
+    },
+    "spawn_locations": [
+      "0_41_58_48_16",
+      "0_52_152_20_26",
+      "0_52_153_20_26",
+      "0_52_152_21_25",
+      "0_52_153_21_25",
+      "0_52_153_22_24",
+      "0_52_152_23_24"
+    ],
+    "shops": [
+      "pickaxeshop"
+    ]
   },
   {
     "debugname": "cert_iron_pickaxe",
@@ -19287,7 +21177,10 @@
       "slashdefence": 1,
       "strengthbonus": 9,
       "attackrate": 5
-    }
+    },
+    "shops": [
+      "pickaxeshop"
+    ]
   },
   {
     "debugname": "cert_steel_pickaxe",
@@ -19324,7 +21217,10 @@
       "slashdefence": 1,
       "strengthbonus": 19,
       "attackrate": 5
-    }
+    },
+    "shops": [
+      "pickaxeshop"
+    ]
   },
   {
     "debugname": "cert_adamant_pickaxe",
@@ -19361,7 +21257,10 @@
       "slashdefence": 1,
       "strengthbonus": 13,
       "attackrate": 5
-    }
+    },
+    "shops": [
+      "pickaxeshop"
+    ]
   },
   {
     "debugname": "cert_mithril_pickaxe",
@@ -19398,7 +21297,10 @@
       "slashdefence": 1,
       "strengthbonus": 29,
       "attackrate": 5
-    }
+    },
+    "shops": [
+      "pickaxeshop"
+    ]
   },
   {
     "debugname": "cert_rune_pickaxe",
@@ -19435,7 +21337,10 @@
       "slashdefence": 2,
       "crushdefence": 1,
       "strengthbonus": 5
-    }
+    },
+    "shops": [
+      "swordshop"
+    ]
   },
   {
     "debugname": "cert_bronze_sword",
@@ -19472,7 +21377,13 @@
       "slashdefence": 2,
       "crushdefence": 1,
       "strengthbonus": 7
-    }
+    },
+    "spawn_locations": [
+      "0_50_53_54_59"
+    ],
+    "shops": [
+      "swordshop"
+    ]
   },
   {
     "debugname": "cert_iron_sword",
@@ -19509,7 +21420,13 @@
       "slashdefence": 2,
       "crushdefence": 1,
       "strengthbonus": 12
-    }
+    },
+    "spawn_locations": [
+      "0_51_57_19_10"
+    ],
+    "shops": [
+      "swordshop"
+    ]
   },
   {
     "debugname": "cert_steel_sword",
@@ -19546,7 +21463,10 @@
       "slashdefence": 2,
       "crushdefence": 1,
       "strengthbonus": 12
-    }
+    },
+    "shops": [
+      "swordshop"
+    ]
   },
   {
     "debugname": "cert_black_sword",
@@ -19583,7 +21503,10 @@
       "slashdefence": 2,
       "crushdefence": 1,
       "strengthbonus": 17
-    }
+    },
+    "shops": [
+      "swordshop"
+    ]
   },
   {
     "debugname": "cert_mithril_sword",
@@ -19620,7 +21543,10 @@
       "slashdefence": 2,
       "crushdefence": 1,
       "strengthbonus": 24
-    }
+    },
+    "shops": [
+      "swordshop"
+    ]
   },
   {
     "debugname": "cert_adamant_sword",
@@ -19657,7 +21583,10 @@
       "slashdefence": 2,
       "crushdefence": 1,
       "strengthbonus": 39
-    }
+    },
+    "shops": [
+      "runiteshop"
+    ]
   },
   {
     "debugname": "cert_rune_sword",
@@ -19695,7 +21624,10 @@
       "crushdefence": 2,
       "strengthbonus": 7,
       "attackrate": 5
-    }
+    },
+    "shops": [
+      "swordshop"
+    ]
   },
   {
     "debugname": "cert_bronze_longsword",
@@ -19733,7 +21665,10 @@
       "crushdefence": 2,
       "strengthbonus": 10,
       "attackrate": 5
-    }
+    },
+    "shops": [
+      "swordshop"
+    ]
   },
   {
     "debugname": "cert_iron_longsword",
@@ -19771,7 +21706,10 @@
       "crushdefence": 2,
       "strengthbonus": 16,
       "attackrate": 5
-    }
+    },
+    "shops": [
+      "swordshop"
+    ]
   },
   {
     "debugname": "cert_steel_longsword",
@@ -19809,7 +21747,10 @@
       "crushdefence": 2,
       "strengthbonus": 16,
       "attackrate": 5
-    }
+    },
+    "shops": [
+      "swordshop"
+    ]
   },
   {
     "debugname": "cert_black_longsword",
@@ -19847,7 +21788,10 @@
       "crushdefence": 2,
       "strengthbonus": 22,
       "attackrate": 5
-    }
+    },
+    "shops": [
+      "swordshop"
+    ]
   },
   {
     "debugname": "cert_mithril_longsword",
@@ -19885,7 +21829,10 @@
       "crushdefence": 2,
       "strengthbonus": 31,
       "attackrate": 5
-    }
+    },
+    "shops": [
+      "swordshop"
+    ]
   },
   {
     "debugname": "cert_adamant_longsword",
@@ -19923,7 +21870,10 @@
       "crushdefence": 2,
       "strengthbonus": 49,
       "attackrate": 5
-    }
+    },
+    "shops": [
+      "runiteshop"
+    ]
   },
   {
     "debugname": "cert_rune_longsword",
@@ -19961,7 +21911,10 @@
       "crushdefence": 2,
       "strengthbonus": 71,
       "attackrate": 5
-    }
+    },
+    "shops": [
+      "dragonswordshop"
+    ]
   },
   {
     "debugname": "cert_dragon_longsword",
@@ -19999,7 +21952,12 @@
       "rangedefence": -1,
       "strengthbonus": 10,
       "attackrate": 7
-    }
+    },
+    "shops": [
+      "2handedshop",
+      "gnomeshop_gulluck",
+      "lathastrainingstore"
+    ]
   },
   {
     "debugname": "cert_bronze_2h_sword",
@@ -20037,7 +21995,12 @@
       "rangedefence": -1,
       "strengthbonus": 14,
       "attackrate": 7
-    }
+    },
+    "shops": [
+      "2handedshop",
+      "gnomeshop_gulluck",
+      "lathastrainingstore"
+    ]
   },
   {
     "debugname": "cert_iron_2h_sword",
@@ -20075,7 +22038,12 @@
       "rangedefence": -1,
       "strengthbonus": 22,
       "attackrate": 7
-    }
+    },
+    "shops": [
+      "2handedshop",
+      "gnomeshop_gulluck",
+      "lathastrainingstore"
+    ]
   },
   {
     "debugname": "cert_steel_2h_sword",
@@ -20113,7 +22081,12 @@
       "rangedefence": -1,
       "strengthbonus": 26,
       "attackrate": 7
-    }
+    },
+    "shops": [
+      "2handedshop",
+      "gnomeshop_gulluck",
+      "lathastrainingstore"
+    ]
   },
   {
     "debugname": "cert_black_2h_sword",
@@ -20151,7 +22124,12 @@
       "rangedefence": -1,
       "strengthbonus": 31,
       "attackrate": 7
-    }
+    },
+    "shops": [
+      "2handedshop",
+      "gnomeshop_gulluck",
+      "lathastrainingstore"
+    ]
   },
   {
     "debugname": "cert_mithril_2h_sword",
@@ -20189,7 +22167,12 @@
       "rangedefence": -1,
       "strengthbonus": 44,
       "attackrate": 7
-    }
+    },
+    "shops": [
+      "2handedshop",
+      "gnomeshop_gulluck",
+      "lathastrainingstore"
+    ]
   },
   {
     "debugname": "cert_adamant_2h_sword",
@@ -20263,7 +22246,13 @@
       "crushattack": -2,
       "slashdefence": 1,
       "strengthbonus": 6
-    }
+    },
+    "spawn_locations": [
+      "1_46_50_19_12"
+    ],
+    "shops": [
+      "scimitarshop"
+    ]
   },
   {
     "debugname": "cert_bronze_scimitar",
@@ -20299,7 +22288,13 @@
       "crushattack": -2,
       "slashdefence": 1,
       "strengthbonus": 9
-    }
+    },
+    "spawn_locations": [
+      "0_50_58_14_18"
+    ],
+    "shops": [
+      "scimitarshop"
+    ]
   },
   {
     "debugname": "cert_iron_scimitar",
@@ -20335,7 +22330,10 @@
       "crushattack": -2,
       "slashdefence": 1,
       "strengthbonus": 14
-    }
+    },
+    "shops": [
+      "scimitarshop"
+    ]
   },
   {
     "debugname": "cert_steel_scimitar",
@@ -20371,7 +22369,10 @@
       "crushattack": -2,
       "slashdefence": 1,
       "strengthbonus": 14
-    }
+    },
+    "spawn_locations": [
+      "1_40_51_12_20"
+    ]
   },
   {
     "debugname": "cert_black_scimitar",
@@ -20407,7 +22408,10 @@
       "crushattack": -2,
       "slashdefence": 1,
       "strengthbonus": 20
-    }
+    },
+    "shops": [
+      "scimitarshop"
+    ]
   },
   {
     "debugname": "cert_mithril_scimitar",
@@ -20516,7 +22520,10 @@
       "magicattack": -4,
       "strengthbonus": 9,
       "attackrate": 6
-    }
+    },
+    "shops": [
+      "viking_weapons_shop"
+    ]
   },
   {
     "debugname": "cert_iron_warhammer",
@@ -20553,7 +22560,10 @@
       "magicattack": -4,
       "strengthbonus": 8,
       "attackrate": 6
-    }
+    },
+    "shops": [
+      "viking_weapons_shop"
+    ]
   },
   {
     "debugname": "cert_bronze_warhammer",
@@ -20590,7 +22600,10 @@
       "magicattack": -4,
       "strengthbonus": 16,
       "attackrate": 6
-    }
+    },
+    "shops": [
+      "viking_weapons_shop"
+    ]
   },
   {
     "debugname": "cert_steel_warhammer",
@@ -20627,7 +22640,10 @@
       "magicattack": -4,
       "strengthbonus": 19,
       "attackrate": 6
-    }
+    },
+    "shops": [
+      "viking_weapons_shop"
+    ]
   },
   {
     "debugname": "cert_black_warhammer",
@@ -20664,7 +22680,10 @@
       "magicattack": -4,
       "strengthbonus": 20,
       "attackrate": 6
-    }
+    },
+    "shops": [
+      "viking_weapons_shop"
+    ]
   },
   {
     "debugname": "cert_mithril_warhammer",
@@ -20701,7 +22720,10 @@
       "magicattack": -4,
       "strengthbonus": 31,
       "attackrate": 6
-    }
+    },
+    "shops": [
+      "viking_weapons_shop"
+    ]
   },
   {
     "debugname": "cert_adamnt_warhammer",
@@ -20738,7 +22760,10 @@
       "magicattack": -4,
       "strengthbonus": 48,
       "attackrate": 6
-    }
+    },
+    "shops": [
+      "viking_weapons_shop"
+    ]
   },
   {
     "debugname": "cert_rune_warhammer",
@@ -20775,7 +22800,18 @@
       "slashdefence": 1,
       "strengthbonus": 7,
       "attackrate": 5
-    }
+    },
+    "spawn_locations": [
+      "0_49_154_26_32"
+    ],
+    "shops": [
+      "adventurershop",
+      "axeshop",
+      "gnomeshop_gulluck",
+      "junglestore",
+      "lathastrainingstore",
+      "shilojunglestore"
+    ]
   },
   {
     "debugname": "cert_iron_axe",
@@ -20812,7 +22848,18 @@
       "slashdefence": 1,
       "strengthbonus": 5,
       "attackrate": 5
-    }
+    },
+    "spawn_locations": [
+      "0_41_58_54_19",
+      "0_43_49_43_25",
+      "1_46_52_26_48"
+    ],
+    "shops": [
+      "axeshop",
+      "junglestore",
+      "shilojunglestore",
+      "taxfree"
+    ]
   },
   {
     "debugname": "cert_bronze_axe",
@@ -20849,7 +22896,12 @@
       "slashdefence": 1,
       "strengthbonus": 9,
       "attackrate": 5
-    }
+    },
+    "shops": [
+      "axeshop",
+      "gnomeshop_gulluck",
+      "lathastrainingstore"
+    ]
   },
   {
     "debugname": "cert_steel_axe",
@@ -21034,7 +23086,13 @@
       "rangedefence": -1,
       "strengthbonus": 13,
       "attackrate": 6
-    }
+    },
+    "shops": [
+      "axeshop",
+      "battleaxeshop",
+      "gnomeshop_gulluck",
+      "lathastrainingstore"
+    ]
   },
   {
     "debugname": "cert_iron_battleaxe",
@@ -21071,7 +23129,13 @@
       "rangedefence": -1,
       "strengthbonus": 20,
       "attackrate": 6
-    }
+    },
+    "shops": [
+      "axeshop",
+      "battleaxeshop",
+      "gnomeshop_gulluck",
+      "lathastrainingstore"
+    ]
   },
   {
     "debugname": "cert_steel_battleaxe",
@@ -21108,7 +23172,10 @@
       "rangedefence": -1,
       "strengthbonus": 24,
       "attackrate": 6
-    }
+    },
+    "shops": [
+      "battleaxeshop"
+    ]
   },
   {
     "debugname": "cert_black_battleaxe",
@@ -21145,7 +23212,13 @@
       "rangedefence": -1,
       "strengthbonus": 29,
       "attackrate": 6
-    }
+    },
+    "shops": [
+      "axeshop",
+      "battleaxeshop",
+      "gnomeshop_gulluck",
+      "lathastrainingstore"
+    ]
   },
   {
     "debugname": "cert_mithril_battleaxe",
@@ -21182,7 +23255,10 @@
       "rangedefence": -1,
       "strengthbonus": 41,
       "attackrate": 6
-    }
+    },
+    "shops": [
+      "battleaxeshop"
+    ]
   },
   {
     "debugname": "cert_adamant_battleaxe",
@@ -21256,7 +23332,10 @@
       "rangedefence": -1,
       "strengthbonus": 9,
       "attackrate": 6
-    }
+    },
+    "shops": [
+      "battleaxeshop"
+    ]
   },
   {
     "debugname": "cert_bronze_battleaxe",
@@ -21293,7 +23372,10 @@
       "rangedefence": -1,
       "strengthbonus": 85,
       "attackrate": 6
-    }
+    },
+    "shops": [
+      "dragonaxeshop"
+    ]
   },
   {
     "debugname": "cert_dragon_battleaxe",
@@ -21333,7 +23415,11 @@
       "magicdefence": 4,
       "strengthbonus": 3,
       "attackrate": 5
-    }
+    },
+    "shops": [
+      "memberstaffshop",
+      "staffshop"
+    ]
   },
   {
     "debugname": "cert_plainstaff",
@@ -21373,7 +23459,12 @@
       "magicdefence": 10,
       "strengthbonus": 3,
       "attackrate": 5
-    }
+    },
+    "shops": [
+      "magicguildshop",
+      "memberstaffshop",
+      "staffshop"
+    ]
   },
   {
     "debugname": "cert_staff_of_air",
@@ -21413,7 +23504,12 @@
       "magicdefence": 10,
       "strengthbonus": 3,
       "attackrate": 5
-    }
+    },
+    "shops": [
+      "magicguildshop",
+      "memberstaffshop",
+      "staffshop"
+    ]
   },
   {
     "debugname": "cert_staff_of_water",
@@ -21454,7 +23550,15 @@
       "magicdefence": 10,
       "strengthbonus": 5,
       "attackrate": 5
-    }
+    },
+    "spawn_locations": [
+      "0_48_60_28_22"
+    ],
+    "shops": [
+      "magicguildshop",
+      "memberstaffshop",
+      "staffshop"
+    ]
   },
   {
     "debugname": "cert_staff_of_earth",
@@ -21495,7 +23599,12 @@
       "magicdefence": 10,
       "strengthbonus": 6,
       "attackrate": 5
-    }
+    },
+    "shops": [
+      "magicguildshop",
+      "memberstaffshop",
+      "staffshop"
+    ]
   },
   {
     "debugname": "cert_staff_of_fire",
@@ -21536,7 +23645,11 @@
       "magicdefence": 10,
       "strengthbonus": 7,
       "attackrate": 5
-    }
+    },
+    "shops": [
+      "memberstaffshop",
+      "staffshop"
+    ]
   },
   {
     "debugname": "cert_magic_staff",
@@ -21577,7 +23690,11 @@
       "magicdefence": 10,
       "strengthbonus": 32,
       "attackrate": 5
-    }
+    },
+    "shops": [
+      "magicguildshop",
+      "memberstaffshop"
+    ]
   },
   {
     "debugname": "cert_battlestaff",
@@ -22111,7 +24228,14 @@
       "strengthbonus": 7,
       "prayerbonus": 1,
       "attackrate": 5
-    }
+    },
+    "spawn_locations": [
+      "0_41_51_51_35",
+      "0_48_54_39_61"
+    ],
+    "shops": [
+      "maceshop"
+    ]
   },
   {
     "debugname": "cert_iron_mace",
@@ -22148,7 +24272,13 @@
       "strengthbonus": 5,
       "prayerbonus": 1,
       "attackrate": 5
-    }
+    },
+    "spawn_locations": [
+      "0_51_49_56_1"
+    ],
+    "shops": [
+      "maceshop"
+    ]
   },
   {
     "debugname": "cert_bronze_mace",
@@ -22185,7 +24315,10 @@
       "strengthbonus": 11,
       "prayerbonus": 2,
       "attackrate": 5
-    }
+    },
+    "shops": [
+      "maceshop"
+    ]
   },
   {
     "debugname": "cert_steel_mace",
@@ -22259,7 +24392,10 @@
       "strengthbonus": 16,
       "prayerbonus": 3,
       "attackrate": 5
-    }
+    },
+    "shops": [
+      "maceshop"
+    ]
   },
   {
     "debugname": "cert_mithril_mace",
@@ -22296,7 +24432,10 @@
       "strengthbonus": 23,
       "prayerbonus": 3,
       "attackrate": 5
-    }
+    },
+    "shops": [
+      "maceshop"
+    ]
   },
   {
     "debugname": "cert_adamant_mace",
@@ -22333,7 +24472,10 @@
       "strengthbonus": 36,
       "prayerbonus": 4,
       "attackrate": 5
-    }
+    },
+    "shops": [
+      "runiteshop"
+    ]
   },
   {
     "debugname": "cert_rune_mace",
@@ -22370,7 +24512,10 @@
       "strengthbonus": 55,
       "prayerbonus": 5,
       "attackrate": 5
-    }
+    },
+    "shops": [
+      "dragonaxeshop"
+    ]
   },
   {
     "debugname": "cert_dragon_mace",
@@ -22823,7 +24968,10 @@
     "members": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_43_51_32_25"
+    ]
   },
   {
     "debugname": "dry_sticks",
@@ -22848,7 +24996,11 @@
     "members": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_43_51_13_14",
+      "0_43_51_13_25"
+    ]
   },
   {
     "debugname": "red_bead",
@@ -23004,7 +25156,11 @@
     "members": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_38_150_11_53",
+      "0_38_150_16_39"
+    ]
   },
   {
     "debugname": "caveorb1",
@@ -23028,7 +25184,10 @@
     "members": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_37_151_18_13"
+    ]
   },
   {
     "debugname": "caveorb3",
@@ -23040,7 +25199,10 @@
     "members": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_37_151_17_21"
+    ]
   },
   {
     "debugname": "caveorb4",
@@ -23052,7 +25214,10 @@
     "members": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_37_151_48_34"
+    ]
   },
   {
     "debugname": "damp_cloth",
@@ -23162,7 +25327,10 @@
     "iops": {
       "iop1": "Read",
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_37_151_49_9"
+    ]
   },
   {
     "debugname": "old_journal",
@@ -23384,7 +25552,10 @@
     "members": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_40_52_16_6"
+    ]
   },
   {
     "debugname": "logs",
@@ -23397,7 +25568,34 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_38_49_26_55",
+      "0_38_49_30_51",
+      "0_38_49_32_55",
+      "0_46_50_11_2",
+      "0_46_50_12_3",
+      "0_48_51_17_1",
+      "0_48_51_17_2",
+      "0_48_49_33_23",
+      "0_48_49_34_23",
+      "0_48_49_34_24",
+      "0_50_53_43_3",
+      "0_50_53_43_5",
+      "0_51_54_35_55",
+      "0_51_54_36_52",
+      "0_51_54_37_51",
+      "0_51_54_38_51",
+      "0_51_54_38_54",
+      "0_51_54_39_46",
+      "0_51_54_39_47",
+      "0_51_54_46_48",
+      "0_51_54_47_47",
+      "2_50_50_5_24",
+      "2_50_50_5_26",
+      "2_50_50_8_25",
+      "2_50_50_9_24"
+    ]
   },
   {
     "debugname": "cert_logs",
@@ -23559,7 +25757,10 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_40_149_55_35"
+    ]
   },
   {
     "debugname": "cert_lockpick",
@@ -23812,7 +26013,10 @@
     "members": false,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "legendsguildshop"
+    ]
   },
   {
     "debugname": "redkey",
@@ -24191,7 +26395,31 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_40_46_0_27",
+      "0_40_46_2_29",
+      "0_40_46_3_27",
+      "0_40_46_5_28",
+      "0_42_56_46_54",
+      "0_42_56_47_52",
+      "0_42_56_48_56",
+      "0_42_56_48_58",
+      "0_42_56_49_53",
+      "0_42_56_50_58",
+      "0_42_56_51_59",
+      "0_42_56_53_55",
+      "0_42_56_54_52",
+      "0_42_56_54_54",
+      "0_42_56_54_57",
+      "0_42_56_54_59",
+      "0_42_56_56_54",
+      "0_49_53_15_7",
+      "0_49_53_16_7",
+      "0_49_53_16_9",
+      "0_49_53_20_9",
+      "0_49_53_21_8"
+    ]
   },
   {
     "debugname": "cert_doogleleaves",
@@ -24418,7 +26646,13 @@
     "members": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_45_152_20_38"
+    ],
+    "shops": [
+      "legendsguildshop"
+    ]
   },
   {
     "debugname": "jail_key",
@@ -24443,7 +26677,13 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "craftingshop",
+      "craftingshop2",
+      "craftingshop2_free",
+      "craftingshop_free"
+    ]
   },
   {
     "debugname": "cert_ring_mould",
@@ -24482,7 +26722,16 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_45_51_48_26"
+    ],
+    "shops": [
+      "craftingshop",
+      "craftingshop2",
+      "craftingshop2_free",
+      "craftingshop_free"
+    ]
   },
   {
     "debugname": "cert_amulet_mould",
@@ -24509,7 +26758,16 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "1_45_51_52_23"
+    ],
+    "shops": [
+      "craftingshop",
+      "craftingshop2",
+      "craftingshop2_free",
+      "craftingshop_free"
+    ]
   },
   {
     "debugname": "cert_necklace_mould",
@@ -24536,7 +26794,16 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "1_45_51_51_23"
+    ],
+    "shops": [
+      "craftingshop",
+      "craftingshop2",
+      "craftingshop2_free",
+      "craftingshop_free"
+    ]
   },
   {
     "debugname": "cert_holy_symbol_mould",
@@ -24563,7 +26830,12 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "ardougnegemstall",
+      "gemshop",
+      "gemshop2"
+    ]
   },
   {
     "debugname": "cert_diamond",
@@ -24590,7 +26862,12 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "ardougnegemstall",
+      "gemshop",
+      "gemshop2"
+    ]
   },
   {
     "debugname": "cert_ruby",
@@ -24617,7 +26894,12 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "ardougnegemstall",
+      "gemshop",
+      "gemshop2"
+    ]
   },
   {
     "debugname": "cert_emerald",
@@ -24644,7 +26926,16 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_41_58_55_28",
+      "0_49_60_34_45"
+    ],
+    "shops": [
+      "ardougnegemstall",
+      "gemshop",
+      "gemshop2"
+    ]
   },
   {
     "debugname": "cert_sapphire",
@@ -24779,7 +27070,11 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "gemshop",
+      "gemshop2"
+    ]
   },
   {
     "debugname": "cert_uncut_diamond",
@@ -24806,7 +27101,11 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "gemshop",
+      "gemshop2"
+    ]
   },
   {
     "debugname": "cert_uncut_ruby",
@@ -24833,7 +27132,11 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "gemshop",
+      "gemshop2"
+    ]
   },
   {
     "debugname": "cert_uncut_emerald",
@@ -24860,7 +27163,14 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_42_153_30_24"
+    ],
+    "shops": [
+      "gemshop",
+      "gemshop2"
+    ]
   },
   {
     "debugname": "cert_uncut_sapphire",
@@ -25026,7 +27336,13 @@
     },
     "equipable_item": {
       "wearpos": "ring"
-    }
+    },
+    "spawn_locations": [
+      "0_42_153_27_28"
+    ],
+    "shops": [
+      "goldshop"
+    ]
   },
   {
     "debugname": "cert_gold_ring",
@@ -25057,7 +27373,10 @@
     },
     "equipable_item": {
       "wearpos": "ring"
-    }
+    },
+    "shops": [
+      "goldshop"
+    ]
   },
   {
     "debugname": "cert_sapphire_ring",
@@ -25088,7 +27407,10 @@
     },
     "equipable_item": {
       "wearpos": "ring"
-    }
+    },
+    "shops": [
+      "goldshop"
+    ]
   },
   {
     "debugname": "cert_emerald_ring",
@@ -25119,7 +27441,14 @@
     },
     "equipable_item": {
       "wearpos": "ring"
-    }
+    },
+    "spawn_locations": [
+      "0_49_153_60_30"
+    ],
+    "shops": [
+      "cheapringshop",
+      "goldshop"
+    ]
   },
   {
     "debugname": "cert_ruby_ring",
@@ -25150,7 +27479,10 @@
     },
     "equipable_item": {
       "wearpos": "ring"
-    }
+    },
+    "shops": [
+      "goldshop"
+    ]
   },
   {
     "debugname": "cert_diamond_ring",
@@ -25303,7 +27635,14 @@
     },
     "equipable_item": {
       "wearpos": "neck"
-    }
+    },
+    "spawn_locations": [
+      "0_47_60_57_24",
+      "0_49_153_56_29"
+    ],
+    "shops": [
+      "goldshop"
+    ]
   },
   {
     "debugname": "cert_gold_necklace",
@@ -25334,7 +27673,10 @@
     },
     "equipable_item": {
       "wearpos": "neck"
-    }
+    },
+    "shops": [
+      "goldshop"
+    ]
   },
   {
     "debugname": "cert_sapphire_necklace",
@@ -25365,7 +27707,10 @@
     },
     "equipable_item": {
       "wearpos": "neck"
-    }
+    },
+    "shops": [
+      "goldshop"
+    ]
   },
   {
     "debugname": "cert_emerald_necklace",
@@ -25396,7 +27741,10 @@
     },
     "equipable_item": {
       "wearpos": "neck"
-    }
+    },
+    "shops": [
+      "goldshop"
+    ]
   },
   {
     "debugname": "cert_ruby_necklace",
@@ -25427,7 +27775,10 @@
     },
     "equipable_item": {
       "wearpos": "neck"
-    }
+    },
+    "shops": [
+      "goldshop"
+    ]
   },
   {
     "debugname": "cert_diamond_necklace",
@@ -25833,7 +28184,10 @@
     },
     "equipable_item": {
       "wearpos": "neck"
-    }
+    },
+    "shops": [
+      "goldshop"
+    ]
   },
   {
     "debugname": "cert_strung_gold_amulet",
@@ -25864,7 +28218,10 @@
     },
     "equipable_item": {
       "wearpos": "neck"
-    }
+    },
+    "shops": [
+      "goldshop"
+    ]
   },
   {
     "debugname": "cert_strung_sapphire_amulet",
@@ -25895,7 +28252,10 @@
     },
     "equipable_item": {
       "wearpos": "neck"
-    }
+    },
+    "shops": [
+      "goldshop"
+    ]
   },
   {
     "debugname": "cert_strung_emerald_amulet",
@@ -25926,7 +28286,10 @@
     },
     "equipable_item": {
       "wearpos": "neck"
-    }
+    },
+    "shops": [
+      "goldshop"
+    ]
   },
   {
     "debugname": "cert_strung_ruby_amulet",
@@ -25957,7 +28320,10 @@
     },
     "equipable_item": {
       "wearpos": "neck"
-    }
+    },
+    "shops": [
+      "goldshop"
+    ]
   },
   {
     "debugname": "cert_strung_diamond_amulet",
@@ -26235,7 +28601,10 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "silverstall"
+    ]
   },
   {
     "debugname": "cert_nostringstar",
@@ -26303,7 +28672,10 @@
       "magicdefence": 2,
       "rangedefence": 2,
       "prayerbonus": 8
-    }
+    },
+    "shops": [
+      "amuletshop"
+    ]
   },
   {
     "debugname": "cert_blessedstar",
@@ -26415,7 +28787,10 @@
     "equipable_item": {
       "wearpos": "neck",
       "strengthbonus": 10
-    }
+    },
+    "shops": [
+      "amuletshop"
+    ]
   },
   {
     "debugname": "cert_amulet_of_strength",
@@ -26447,7 +28822,10 @@
     "equipable_item": {
       "wearpos": "neck",
       "magicattack": 10
-    }
+    },
+    "shops": [
+      "amuletshop"
+    ]
   },
   {
     "debugname": "cert_amulet_of_magic",
@@ -26483,7 +28861,10 @@
       "crushdefence": 7,
       "magicdefence": 7,
       "rangedefence": 7
-    }
+    },
+    "shops": [
+      "amuletshop"
+    ]
   },
   {
     "debugname": "cert_amulet_of_defence",
@@ -26526,7 +28907,10 @@
       "rangedefence": 6,
       "strengthbonus": 6,
       "prayerbonus": 1
-    }
+    },
+    "shops": [
+      "amuletshop"
+    ]
   },
   {
     "debugname": "cert_amulet_of_power",
@@ -26554,7 +28938,15 @@
     "stackable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "craftingshop",
+      "craftingshop2",
+      "craftingshop2_free",
+      "craftingshop_free",
+      "fancyclothesstore",
+      "werewolfgeneralstore"
+    ]
   },
   {
     "debugname": "thread",
@@ -26568,7 +28960,18 @@
     "stackable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_51_54_22_35"
+    ],
+    "shops": [
+      "craftingshop",
+      "craftingshop2",
+      "craftingshop2_free",
+      "craftingshop_free",
+      "fancyclothesstore",
+      "werewolfgeneralstore"
+    ]
   },
   {
     "debugname": "shears",
@@ -26581,7 +28984,29 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_48_52_54_28",
+      "0_49_51_16_42",
+      "1_45_51_50_21"
+    ],
+    "shops": [
+      "death_generalshop",
+      "generaldwarf",
+      "generalshop1",
+      "generalshop2",
+      "generalshop3",
+      "generalshop4",
+      "generalshop5",
+      "generalshop6",
+      "generalshop7",
+      "generalshop8",
+      "gnomeshop",
+      "khazardshop",
+      "razmiregeneralstore",
+      "regicide_general_shop",
+      "regicide_general_shop_2"
+    ]
   },
   {
     "debugname": "cert_shears",
@@ -26851,7 +29276,39 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_39_51_47_23",
+      "0_41_51_59_54",
+      "0_45_51_55_22"
+    ],
+    "shops": [
+      "arheinstore",
+      "craftingshop",
+      "craftingshop2",
+      "craftingshop2_free",
+      "craftingshop_free",
+      "death_generalshop",
+      "generaldwarf",
+      "generalshop1",
+      "generalshop2",
+      "generalshop3",
+      "generalshop4",
+      "generalshop5",
+      "generalshop6",
+      "generalshop7",
+      "generalshop8",
+      "generalshopogre",
+      "gnomeshop",
+      "junglestore",
+      "khazardshop",
+      "lighthouseshop",
+      "razmiregeneralstore",
+      "shilojunglestore",
+      "taxfree",
+      "viking_general_store",
+      "werewolfgeneralstore"
+    ]
   },
   {
     "debugname": "cert_chisel",
@@ -26882,7 +29339,11 @@
     },
     "equipable_item": {
       "wearpos": "body"
-    }
+    },
+    "shops": [
+      "clotheshop",
+      "fancyclothesstore"
+    ]
   },
   {
     "debugname": "cert_brown_apron",
@@ -26909,7 +29370,10 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "adventurershop"
+    ]
   },
   {
     "debugname": "cert_ball_of_wool",
@@ -27098,7 +29562,10 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_40_50_3_61"
+    ]
   },
   {
     "debugname": "cert_purpledye",
@@ -27233,7 +29700,10 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_38_49_29_42"
+    ]
   },
   {
     "debugname": "cert_bucket_sand",
@@ -27260,7 +29730,11 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_41_53_28_62",
+      "0_44_52_6_27"
+    ]
   },
   {
     "debugname": "cert_glassblowingpipe",
@@ -27608,7 +30082,10 @@
     "members": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_42_55_59_59"
+    ]
   },
   {
     "debugname": "murderweapon",
@@ -27620,7 +30097,10 @@
     "members": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_42_55_58_58"
+    ]
   },
   {
     "debugname": "murderweapondust",
@@ -27741,7 +30221,11 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "bedabincampshop",
+      "shantayshop"
+    ]
   },
   {
     "debugname": "cert_water_skin4",
@@ -27849,7 +30333,11 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "bedabincampshop",
+      "shantayshop"
+    ]
   },
   {
     "debugname": "cert_water_skin0",
@@ -27880,7 +30368,10 @@
     },
     "equipable_item": {
       "wearpos": "body"
-    }
+    },
+    "shops": [
+      "shantayshop"
+    ]
   },
   {
     "debugname": "cert_desert_shirt",
@@ -27911,7 +30402,10 @@
     },
     "equipable_item": {
       "wearpos": "legs"
-    }
+    },
+    "shops": [
+      "shantayshop"
+    ]
   },
   {
     "debugname": "cert_desert_robe",
@@ -27942,7 +30436,10 @@
     },
     "equipable_item": {
       "wearpos": "feet"
-    }
+    },
+    "shops": [
+      "shantayshop"
+    ]
   },
   {
     "debugname": "cert_desert_boots",
@@ -28168,7 +30665,10 @@
     "stackable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "shantayshop"
+    ]
   },
   {
     "debugname": "thpunishrock",
@@ -28193,7 +30693,10 @@
     "iops": {
       "iop1": "Read",
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_41_51_14_28"
+    ]
   },
   {
     "debugname": "tribal_totem",
@@ -28611,7 +31114,15 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_46_57_43_38",
+      "1_49_53_5_60"
+    ],
+    "shops": [
+      "arheinstore",
+      "cookeryshop"
+    ]
   },
   {
     "debugname": "cert_cake_tin",
@@ -28666,7 +31177,10 @@
     "iops": {
       "iop1": "Eat",
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "bakery"
+    ]
   },
   {
     "debugname": "cert_cake",
@@ -28722,7 +31236,11 @@
     "iops": {
       "iop1": "Eat",
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_42_50_3_3",
+      "0_42_50_3_18"
+    ]
   },
   {
     "debugname": "cert_cake_slice",
@@ -28806,7 +31324,10 @@
     "iops": {
       "iop1": "Eat",
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "bakery"
+    ]
   },
   {
     "debugname": "cert_chocolate_slice",
@@ -28861,7 +31382,13 @@
     "iops": {
       "iop1": "Drink",
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_45_55_26_18"
+    ],
+    "shops": [
+      "death_pub"
+    ]
   },
   {
     "debugname": "cert_asgarnian_ale",
@@ -28889,7 +31416,11 @@
     "iops": {
       "iop1": "Drink",
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "death_pub",
+      "lighthouseshop"
+    ]
   },
   {
     "debugname": "cert_wizards_mind_bomb",
@@ -28917,7 +31448,10 @@
     "iops": {
       "iop1": "Drink",
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "lighthouseshop"
+    ]
   },
   {
     "debugname": "cert_greenmans_ale",
@@ -28973,7 +31507,16 @@
     "iops": {
       "iop1": "Drink",
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_44_154_45_22",
+      "0_44_154_47_19",
+      "0_44_154_54_22"
+    ],
+    "shops": [
+      "death_pub",
+      "lighthouseshop"
+    ]
   },
   {
     "debugname": "cert_dwarven_stout",
@@ -29001,7 +31544,10 @@
     "iops": {
       "iop1": "Drink",
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "lighthouseshop"
+    ]
   },
   {
     "debugname": "cert_grog",
@@ -29029,7 +31575,22 @@
     "iops": {
       "iop1": "Drink",
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_39_52_21_50",
+      "0_39_52_25_51",
+      "0_39_52_29_37",
+      "0_43_49_44_29",
+      "0_43_49_47_20",
+      "0_48_53_5_47",
+      "0_48_53_5_51",
+      "0_48_53_8_49",
+      "1_51_47_22_25"
+    ],
+    "shops": [
+      "boozeshop",
+      "viking_bar"
+    ]
   },
   {
     "debugname": "cert_beer",
@@ -29056,7 +31617,17 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_43_49_42_29",
+      "0_43_49_43_24",
+      "0_43_49_43_29",
+      "0_43_49_46_20",
+      "0_43_49_46_24",
+      "0_43_49_46_25",
+      "0_43_49_47_19",
+      "0_45_55_27_18"
+    ]
   },
   {
     "debugname": "cert_beer_glass",
@@ -29083,7 +31654,14 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_51_47_27_26"
+    ],
+    "shops": [
+      "bedabincampshop",
+      "shantayshop"
+    ]
   },
   {
     "debugname": "cert_bowl_water",
@@ -29110,7 +31688,17 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_41_52_43_59",
+      "1_44_52_0_23",
+      "1_49_53_4_60"
+    ],
+    "shops": [
+      "arheinstore",
+      "cookeryshop",
+      "shantayshop"
+    ]
   },
   {
     "debugname": "cert_bowl_empty",
@@ -29137,7 +31725,53 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_36_153_5_9",
+      "0_40_50_56_55",
+      "0_41_154_9_52",
+      "0_43_53_14_49",
+      "0_44_56_42_2",
+      "0_44_56_48_1",
+      "0_46_54_14_54",
+      "0_47_51_12_27",
+      "0_47_51_18_25",
+      "0_48_52_49_31",
+      "0_49_149_29_45",
+      "0_50_150_16_25",
+      "0_50_51_25_30",
+      "0_51_49_43_59",
+      "0_52_152_27_32",
+      "0_52_153_27_32",
+      "0_52_152_28_27",
+      "0_52_153_28_27",
+      "0_52_152_30_29",
+      "0_52_153_30_29",
+      "1_50_54_21_41",
+      "1_50_54_22_35"
+    ],
+    "shops": [
+      "arheinstore",
+      "death_generalshop",
+      "generaldwarf",
+      "generalshop1",
+      "generalshop2",
+      "generalshop3",
+      "generalshop4",
+      "generalshop5",
+      "generalshop6",
+      "generalshop7",
+      "generalshop8",
+      "generalshopogre",
+      "gnomeshop",
+      "khazardshop",
+      "lighthouseshop",
+      "razmiregeneralstore",
+      "shantayshop",
+      "upassgeneralshop",
+      "viking_general_store",
+      "werewolfgeneralstore"
+    ]
   },
   {
     "debugname": "cert_bucket_empty",
@@ -29164,7 +31798,14 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_41_57_61_35"
+    ],
+    "shops": [
+      "gnomeshop_heck",
+      "gnomeshop_hudo"
+    ]
   },
   {
     "debugname": "cert_bucket_milk",
@@ -29191,7 +31832,18 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_43_49_38_63",
+      "0_44_53_4_60",
+      "0_44_53_7_57"
+    ],
+    "shops": [
+      "bedabincampshop",
+      "lighthouseshop",
+      "shantayshop",
+      "viking_general_store"
+    ]
   },
   {
     "debugname": "cert_bucket_water",
@@ -29218,7 +31870,42 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_34_50_23_57",
+      "0_48_53_2_39",
+      "0_49_50_12_11",
+      "0_50_50_10_12",
+      "0_50_53_32_7",
+      "2_49_53_8_57"
+    ],
+    "shops": [
+      "arheinstore",
+      "cookeryshop",
+      "death_generalshop",
+      "generaldwarf",
+      "generalshop1",
+      "generalshop2",
+      "generalshop3",
+      "generalshop4",
+      "generalshop5",
+      "generalshop6",
+      "generalshop7",
+      "generalshop8",
+      "generalshopogre",
+      "gnomeshop",
+      "junglestore",
+      "khazardshop",
+      "lighthouseshop",
+      "razmiregeneralstore",
+      "regicide_general_shop",
+      "regicide_general_shop_2",
+      "shilojunglestore",
+      "taxfree",
+      "upassgeneralshop",
+      "viking_general_store",
+      "werewolfgeneralstore"
+    ]
   },
   {
     "debugname": "cert_pot_empty",
@@ -29245,7 +31932,14 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "cookeryshop",
+      "gnomeshop_hudo",
+      "khazardshop",
+      "razmiregeneralstore",
+      "wydinstore"
+    ]
   },
   {
     "debugname": "cert_pot_flour",
@@ -29272,7 +31966,40 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_44_53_4_57",
+      "0_45_49_25_10",
+      "0_45_51_48_25",
+      "0_45_51_56_28",
+      "0_50_150_11_25",
+      "0_50_50_12_12",
+      "0_51_53_8_17",
+      "2_49_53_5_55"
+    ],
+    "shops": [
+      "cookeryshop",
+      "death_generalshop",
+      "generaldwarf",
+      "generalshop1",
+      "generalshop2",
+      "generalshop3",
+      "generalshop4",
+      "generalshop5",
+      "generalshop6",
+      "generalshop7",
+      "generalshop8",
+      "generalshopogre",
+      "gnomeshop",
+      "khazardshop",
+      "lighthouseshop",
+      "razmiregeneralstore",
+      "regicide_general_shop",
+      "regicide_general_shop_2",
+      "shantayshop",
+      "taxfree",
+      "werewolfgeneralstore"
+    ]
   },
   {
     "debugname": "cert_jug_empty",
@@ -29299,7 +32026,16 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_40_48_8_30",
+      "0_51_49_38_34"
+    ],
+    "shops": [
+      "bedabincampshop",
+      "lighthouseshop",
+      "shantayshop"
+    ]
   },
   {
     "debugname": "cert_jug_water",
@@ -29327,7 +32063,85 @@
     "stackable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_49_49_28_33",
+      "0_49_49_28_44",
+      "0_49_49_28_51",
+      "0_49_49_34_31",
+      "0_49_49_35_41",
+      "0_49_49_35_55",
+      "0_49_49_37_30",
+      "0_49_49_37_42",
+      "0_49_49_43_54",
+      "0_49_49_45_57",
+      "0_49_49_46_29",
+      "0_49_49_47_44",
+      "0_49_49_49_25",
+      "0_49_49_53_27",
+      "0_49_49_55_26",
+      "0_49_49_57_45",
+      "0_49_49_58_32",
+      "0_53_52_17_35",
+      "0_53_52_20_38",
+      "0_53_51_32_23",
+      "0_53_51_36_28",
+      "0_53_51_36_58",
+      "0_53_53_36_44",
+      "0_53_53_40_9",
+      "0_53_51_42_13",
+      "0_53_53_42_40",
+      "0_53_51_43_47",
+      "0_53_53_43_10",
+      "0_53_53_43_34",
+      "0_53_51_44_34",
+      "0_53_52_47_49",
+      "0_53_52_48_47",
+      "0_53_53_49_21",
+      "0_53_53_49_46",
+      "0_53_51_50_25",
+      "0_53_53_50_20",
+      "0_53_53_53_12",
+      "0_53_53_53_43",
+      "0_53_51_54_15",
+      "0_53_51_55_4",
+      "0_53_53_56_38",
+      "0_53_53_57_42",
+      "0_53_52_58_30",
+      "0_53_53_58_24",
+      "0_53_51_59_56",
+      "0_53_52_59_30",
+      "0_53_53_59_10",
+      "0_53_52_60_49",
+      "0_53_52_60_50",
+      "0_53_52_60_60",
+      "0_53_52_60_61",
+      "0_53_53_61_49",
+      "0_54_52_2_39",
+      "0_54_52_3_46",
+      "0_54_53_3_27",
+      "0_54_52_4_26",
+      "0_54_53_4_13",
+      "0_54_53_5_21",
+      "0_54_52_6_22",
+      "0_54_53_9_40",
+      "0_54_53_10_24",
+      "0_54_52_11_48",
+      "0_54_52_13_33",
+      "0_54_53_13_41",
+      "0_54_53_14_37",
+      "0_54_52_15_15",
+      "0_54_53_15_27",
+      "0_54_53_16_11",
+      "0_54_53_16_54",
+      "0_54_53_17_43",
+      "0_54_53_18_22",
+      "0_54_52_20_36",
+      "0_54_53_21_50",
+      "0_54_53_22_46",
+      "0_54_53_24_27",
+      "0_54_53_27_34"
+    ]
   },
   {
     "debugname": "rawswamppaste",
@@ -29355,7 +32169,11 @@
     "stackable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "khazardshop",
+      "razmirebuildingstore"
+    ]
   },
   {
     "debugname": "potato",
@@ -29368,7 +32186,13 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "cookeryshop",
+      "gnomeshop_hudo",
+      "viking_general_store",
+      "wydinstore"
+    ]
   },
   {
     "debugname": "cert_potato",
@@ -29395,7 +32219,20 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_44_52_35_44",
+      "0_44_52_36_41",
+      "0_44_52_37_42",
+      "0_47_51_8_31",
+      "0_47_51_9_31",
+      "0_50_149_21_60",
+      "0_50_51_26_37",
+      "0_50_51_29_35"
+    ],
+    "shops": [
+      "viking_general_store"
+    ]
   },
   {
     "debugname": "cert_egg",
@@ -29465,7 +32302,10 @@
     },
     "equipable_item": {
       "wearpos": "head"
-    }
+    },
+    "shops": [
+      "fancyclothesstore"
+    ]
   },
   {
     "debugname": "cert_chefs_hat",
@@ -29492,7 +32332,15 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_51_52_3_43",
+      "0_51_52_7_38",
+      "0_51_52_14_46"
+    ],
+    "shops": [
+      "wydinstore"
+    ]
   },
   {
     "debugname": "cert_redberries",
@@ -29546,7 +32394,16 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_41_52_24_35",
+      "1_49_53_4_55",
+      "1_49_53_5_55",
+      "2_49_53_4_55"
+    ],
+    "shops": [
+      "cookeryshop"
+    ]
   },
   {
     "debugname": "cert_cooking_apple",
@@ -29573,7 +32430,10 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "gnomeshop_hudo"
+    ]
   },
   {
     "debugname": "cert_onion",
@@ -29657,7 +32517,13 @@
     "iops": {
       "iop1": "Eat",
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_45_49_27_10"
+    ],
+    "shops": [
+      "wydinstore"
+    ]
   },
   {
     "debugname": "cert_banana",
@@ -29685,7 +32551,16 @@
     "iops": {
       "iop1": "Eat",
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_50_150_17_22",
+      "0_51_49_21_39"
+    ],
+    "shops": [
+      "gnomeshop_hudo",
+      "viking_general_store",
+      "wydinstore"
+    ]
   },
   {
     "debugname": "cert_cabbage",
@@ -29713,7 +32588,16 @@
     "iops": {
       "iop1": "Eat",
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_48_52_12_35",
+      "0_48_52_13_35",
+      "0_48_52_13_36",
+      "0_48_52_13_37",
+      "0_48_52_14_35",
+      "0_48_52_14_36",
+      "0_48_52_14_37"
+    ]
   },
   {
     "debugname": "cert_magic_cabbage",
@@ -29769,7 +32653,10 @@
     "iops": {
       "iop1": "Eat",
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_44_52_27_41"
+    ]
   },
   {
     "debugname": "cert_kebab",
@@ -29797,7 +32684,17 @@
     "iops": {
       "iop1": "Eat",
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_49_53_7_60",
+      "0_49_149_16_24"
+    ],
+    "shops": [
+      "cookeryshop",
+      "gnomeshop_heck",
+      "gnomeshop_hudo",
+      "wydinstore"
+    ]
   },
   {
     "debugname": "cert_chocolate_bar",
@@ -29824,7 +32721,11 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "gnomeshop_heck",
+      "gnomeshop_hudo"
+    ]
   },
   {
     "debugname": "cert_chocolate_dust",
@@ -29865,7 +32766,14 @@
     "iops": {
       "iop1": "Drink",
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_45_53_6_20",
+      "0_45_53_23_49"
+    ],
+    "shops": [
+      "teashop"
+    ]
   },
   {
     "debugname": "cert_cup_of_tea",
@@ -29920,7 +32828,16 @@
     "iops": {
       "iop1": "Eat",
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_40_46_24_22",
+      "0_47_57_31_58",
+      "0_48_50_15_61"
+    ],
+    "shops": [
+      "gnomeshop_hudo",
+      "wydinstore"
+    ]
   },
   {
     "debugname": "cert_tomato",
@@ -29947,7 +32864,10 @@
     "iops": {
       "iop1": "Eat",
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_39_52_39_5"
+    ]
   },
   {
     "debugname": "cheese",
@@ -29961,7 +32881,15 @@
     "iops": {
       "iop1": "Eat",
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_47_57_31_59",
+      "0_48_50_12_61"
+    ],
+    "shops": [
+      "gnomeshop_hudo",
+      "wydinstore"
+    ]
   },
   {
     "debugname": "cert_cheese",
@@ -29988,7 +32916,11 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_50_152_37_33",
+      "2_49_53_8_58"
+    ]
   },
   {
     "debugname": "cert_grapes",
@@ -30072,7 +33004,14 @@
     "iops": {
       "iop1": "Drink",
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "1_43_53_54_57",
+      "1_51_47_27_25"
+    ],
+    "shops": [
+      "boozeshop"
+    ]
   },
   {
     "debugname": "cert_jug_wine",
@@ -30263,7 +33202,10 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "spicestall"
+    ]
   },
   {
     "debugname": "cert_spicespot",
@@ -30374,7 +33316,11 @@
     "iops": {
       "iop1": "Drink",
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "gnomeshop_heck",
+      "lighthouseshop"
+    ]
   },
   {
     "debugname": "cert_vodka",
@@ -30402,7 +33348,11 @@
     "iops": {
       "iop1": "Drink",
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "gnomeshop_heck",
+      "lighthouseshop"
+    ]
   },
   {
     "debugname": "cert_whisky",
@@ -30430,7 +33380,11 @@
     "iops": {
       "iop1": "Drink",
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "gnomeshop_heck",
+      "lighthouseshop"
+    ]
   },
   {
     "debugname": "cert_gin",
@@ -30458,7 +33412,11 @@
     "iops": {
       "iop1": "Drink",
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "gnomeshop_heck",
+      "lighthouseshop"
+    ]
   },
   {
     "debugname": "cert_brandy",
@@ -30486,7 +33444,10 @@
     "iops": {
       "iop1": "Read",
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "gnomeshop_heck"
+    ]
   },
   {
     "debugname": "cert_cocktail_guide",
@@ -30513,7 +33474,11 @@
     "iops": {
       "iop1": "Inspect",
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "gnomeshop_heck",
+      "gnomeshop_hudo"
+    ]
   },
   {
     "debugname": "cocktail_glass_empty",
@@ -30526,7 +33491,11 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "1_38_54_51_26",
+      "1_38_54_57_33"
+    ]
   },
   {
     "debugname": "cert_cocktail_glass_empty",
@@ -30554,7 +33523,13 @@
     "iops": {
       "iop1": "Drink",
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_46_46_28_28"
+    ],
+    "shops": [
+      "blurberrybar"
+    ]
   },
   {
     "debugname": "cert_premade_blurberry_special",
@@ -30582,7 +33557,13 @@
     "iops": {
       "iop1": "Drink",
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_37_153_19_18"
+    ],
+    "shops": [
+      "blurberrybar"
+    ]
   },
   {
     "debugname": "cert_premade_choc_saturday",
@@ -30610,7 +33591,10 @@
     "iops": {
       "iop1": "Drink",
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "blurberrybar"
+    ]
   },
   {
     "debugname": "cert_premade_drunk_dragon",
@@ -30638,7 +33622,10 @@
     "iops": {
       "iop1": "Drink",
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "blurberrybar"
+    ]
   },
   {
     "debugname": "cert_premade_fruit_blast",
@@ -30666,7 +33653,10 @@
     "iops": {
       "iop1": "Drink",
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "blurberrybar"
+    ]
   },
   {
     "debugname": "cert_premade_pineapple_punch",
@@ -30694,7 +33684,10 @@
     "iops": {
       "iop1": "Drink",
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "blurberrybar"
+    ]
   },
   {
     "debugname": "cert_premade_sgg",
@@ -30722,7 +33715,10 @@
     "iops": {
       "iop1": "Drink",
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "blurberrybar"
+    ]
   },
   {
     "debugname": "cert_premade_wizard_blizzard",
@@ -31594,7 +34590,11 @@
     "iops": {
       "iop1": "Eat",
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "gnomeshop_heck",
+      "gnomeshop_hudo"
+    ]
   },
   {
     "debugname": "cert_lemon",
@@ -31678,7 +34678,11 @@
     "iops": {
       "iop1": "Eat",
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "gnomeshop_heck",
+      "gnomeshop_hudo"
+    ]
   },
   {
     "debugname": "cert_orange",
@@ -31762,7 +34766,11 @@
     "iops": {
       "iop1": "Eat",
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "gnomeshop_heck",
+      "gnomeshop_hudo"
+    ]
   },
   {
     "debugname": "cert_pineapple",
@@ -31846,7 +34854,11 @@
     "iops": {
       "iop1": "Eat",
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "gnomeshop_heck",
+      "gnomeshop_hudo"
+    ]
   },
   {
     "debugname": "cert_lime",
@@ -31930,7 +34942,18 @@
     "iops": {
       "iop1": "Eat",
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_41_54_9_40",
+      "0_41_54_14_23",
+      "0_41_54_21_42",
+      "0_41_54_40_20",
+      "0_41_54_43_38"
+    ],
+    "shops": [
+      "gnomeshop_heck",
+      "gnomeshop_hudo"
+    ]
   },
   {
     "debugname": "cert_dwellberries",
@@ -31958,7 +34981,16 @@
     "iops": {
       "iop1": "Eat",
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_41_46_15_8",
+      "0_41_46_24_19",
+      "0_41_46_25_12"
+    ],
+    "shops": [
+      "gnomeshop_heck",
+      "gnomeshop_hudo"
+    ]
   },
   {
     "debugname": "cert_equa_leaves",
@@ -31986,7 +35018,11 @@
     "iops": {
       "iop1": "Eat",
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "gnomeshop_heck",
+      "gnomeshop_hudo"
+    ]
   },
   {
     "debugname": "cert_pot_of_cream",
@@ -32013,7 +35049,11 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "werewolfstore1",
+      "wydinstore"
+    ]
   },
   {
     "debugname": "cert_raw_beef",
@@ -32040,7 +35080,10 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "werewolfstore1"
+    ]
   },
   {
     "debugname": "cert_raw_rat_meat",
@@ -32067,7 +35110,10 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "werewolfstore1"
+    ]
   },
   {
     "debugname": "cert_raw_bear_meat",
@@ -32094,7 +35140,11 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "werewolfstore1",
+      "wydinstore"
+    ]
   },
   {
     "debugname": "cert_raw_chicken",
@@ -32122,7 +35172,10 @@
     "iops": {
       "iop1": "Eat",
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "1_46_52_31_53"
+    ]
   },
   {
     "debugname": "cert_cooked_chicken",
@@ -32150,7 +35203,19 @@
     "iops": {
       "iop1": "Eat",
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_48_53_5_49",
+      "0_48_53_8_51"
+    ],
+    "shops": [
+      "adventurershop",
+      "gnomeshop",
+      "junglestore",
+      "shilojunglestore",
+      "upassgeneralshop",
+      "viking_general_store"
+    ]
   },
   {
     "debugname": "cert_cooked_meat",
@@ -32257,7 +35322,37 @@
     "iops": {
       "iop1": "Remove-legs",
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_37_53_13_22",
+      "0_37_53_14_20",
+      "0_37_53_20_18",
+      "0_37_53_31_14",
+      "0_37_53_33_12",
+      "0_37_53_38_13",
+      "0_37_54_39_60",
+      "0_37_53_40_16",
+      "0_37_54_41_58",
+      "0_37_54_43_56",
+      "0_37_54_44_63",
+      "0_37_54_45_55",
+      "0_37_54_47_62",
+      "0_37_54_48_56",
+      "0_37_54_49_52",
+      "0_37_54_49_56",
+      "0_37_54_49_59",
+      "0_37_54_49_60",
+      "0_37_54_50_55",
+      "0_37_54_50_61",
+      "0_37_54_53_53",
+      "0_37_54_53_63",
+      "0_37_54_56_58",
+      "0_37_54_56_61",
+      "0_37_54_60_54",
+      "0_45_53_23_8",
+      "0_45_53_27_2",
+      "0_45_53_28_18"
+    ]
   },
   {
     "debugname": "cert_swamp_toad",
@@ -32425,7 +35520,19 @@
     "iops": {
       "iop1": "Eat",
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_37_54_40_59",
+      "0_37_54_40_62",
+      "0_37_54_46_54",
+      "0_37_54_46_62",
+      "0_37_54_47_55",
+      "0_37_54_47_61",
+      "0_37_54_51_55",
+      "0_37_54_57_59",
+      "0_37_54_58_51",
+      "0_37_54_59_52"
+    ]
   },
   {
     "debugname": "cert_king_worm",
@@ -32489,7 +35596,10 @@
     "iops": {
       "iop1": "Read",
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "gnomeshop_hudo"
+    ]
   },
   {
     "debugname": "cert_giannes_cook_book",
@@ -32516,7 +35626,10 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "gnomeshop_hudo"
+    ]
   },
   {
     "debugname": "cert_gnome_spice",
@@ -32543,7 +35656,10 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "gnomeshop_hudo"
+    ]
   },
   {
     "debugname": "cert_gianne_dough",
@@ -33207,7 +36323,10 @@
     "iops": {
       "iop1": "Eat",
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "giannerestaurant"
+    ]
   },
   {
     "debugname": "cert_premade_worm_batta",
@@ -33235,7 +36354,10 @@
     "iops": {
       "iop1": "Eat",
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "giannerestaurant"
+    ]
   },
   {
     "debugname": "cert_premade_toad_batta",
@@ -33263,7 +36385,10 @@
     "iops": {
       "iop1": "Eat",
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "giannerestaurant"
+    ]
   },
   {
     "debugname": "cert_premade_cheese+tom_batta",
@@ -33291,7 +36416,10 @@
     "iops": {
       "iop1": "Eat",
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "giannerestaurant"
+    ]
   },
   {
     "debugname": "cert_premade_fruit_batta",
@@ -33319,7 +36447,10 @@
     "iops": {
       "iop1": "Eat",
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "giannerestaurant"
+    ]
   },
   {
     "debugname": "cert_premade_vegetable_batta",
@@ -33347,7 +36478,10 @@
     "iops": {
       "iop1": "Eat",
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "giannerestaurant"
+    ]
   },
   {
     "debugname": "cert_premade_chocolate_bomb",
@@ -33375,7 +36509,10 @@
     "iops": {
       "iop1": "Eat",
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "giannerestaurant"
+    ]
   },
   {
     "debugname": "cert_premade_tangled_toads_legs",
@@ -33403,7 +36540,10 @@
     "iops": {
       "iop1": "Eat",
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "giannerestaurant"
+    ]
   },
   {
     "debugname": "cert_premade_worm_hole",
@@ -33431,7 +36571,10 @@
     "iops": {
       "iop1": "Eat",
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "giannerestaurant"
+    ]
   },
   {
     "debugname": "cert_premade_veg_ball",
@@ -33459,7 +36602,10 @@
     "iops": {
       "iop1": "Eat",
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "giannerestaurant"
+    ]
   },
   {
     "debugname": "cert_premade_worm_crunchies",
@@ -33487,7 +36633,10 @@
     "iops": {
       "iop1": "Eat",
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "giannerestaurant"
+    ]
   },
   {
     "debugname": "cert_premade_chocchip_crunchies",
@@ -33515,7 +36664,10 @@
     "iops": {
       "iop1": "Eat",
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "giannerestaurant"
+    ]
   },
   {
     "debugname": "cert_premade_spicy_crunchies",
@@ -33543,7 +36695,10 @@
     "iops": {
       "iop1": "Eat",
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "giannerestaurant"
+    ]
   },
   {
     "debugname": "cert_premade_toad_crunchies",
@@ -34098,7 +37253,10 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "pizzabaseshop"
+    ]
   },
   {
     "debugname": "cert_pizza_base",
@@ -34458,7 +37616,20 @@
     "iops": {
       "iop1": "Eat",
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_40_151_4_6"
+    ],
+    "shops": [
+      "bakery",
+      "junglestore",
+      "regicide_general_shop",
+      "regicide_general_shop_2",
+      "shilojunglestore",
+      "upassgeneralshop",
+      "viking_general_store",
+      "wydinstore"
+    ]
   },
   {
     "debugname": "cert_bread",
@@ -34512,7 +37683,17 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_44_53_4_63",
+      "0_46_153_49_55",
+      "0_50_54_22_38",
+      "1_43_53_61_57",
+      "1_49_53_6_55"
+    ],
+    "shops": [
+      "cookeryshop"
+    ]
   },
   {
     "debugname": "cert_piedish",
@@ -34648,7 +37829,10 @@
     "iops": {
       "iop1": "Eat",
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "generallegends"
+    ]
   },
   {
     "debugname": "cert_apple_pie",
@@ -34704,7 +37888,10 @@
     "iops": {
       "iop1": "Eat",
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "upassgeneralshop"
+    ]
   },
   {
     "debugname": "cert_meat_pie",
@@ -34788,7 +37975,10 @@
     "iops": {
       "iop1": "Eat",
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_47_61_34_48"
+    ]
   },
   {
     "debugname": "cert_half_a_redberry_pie",
@@ -34979,7 +38169,43 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_37_147_47_39",
+      "0_41_51_60_54",
+      "0_45_51_54_22",
+      "0_46_47_10_52",
+      "0_46_47_19_50",
+      "0_46_47_42_40",
+      "0_46_47_45_53",
+      "1_46_52_31_40"
+    ],
+    "shops": [
+      "arheinstore",
+      "death_generalshop",
+      "generaldwarf",
+      "generalshop1",
+      "generalshop2",
+      "generalshop3",
+      "generalshop4",
+      "generalshop5",
+      "generalshop6",
+      "generalshop7",
+      "generalshop8",
+      "generalshopogre",
+      "gnomeshop",
+      "junglestore",
+      "khazardshop",
+      "lighthouseshop",
+      "miningstore",
+      "razmiregeneralstore",
+      "shantayshop",
+      "shilojunglestore",
+      "taxfree",
+      "upassgeneralshop",
+      "viking_general_store",
+      "werewolfgeneralstore"
+    ]
   },
   {
     "debugname": "cert_hammer",
@@ -35006,7 +38232,13 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "junglestore",
+      "miningstore",
+      "shantayshop",
+      "shilojunglestore"
+    ]
   },
   {
     "debugname": "cert_bronze_bar",
@@ -35033,7 +38265,13 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_48_57_39_9"
+    ],
+    "shops": [
+      "miningstore"
+    ]
   },
   {
     "debugname": "cert_iron_bar",
@@ -35087,7 +38325,10 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "silverstall"
+    ]
   },
   {
     "debugname": "cert_silver_bar",
@@ -35114,7 +38355,13 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_49_153_56_30"
+    ],
+    "shops": [
+      "miningstore"
+    ]
   },
   {
     "debugname": "cert_gold_bar",
@@ -35261,7 +38508,10 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "legendsguildshop"
+    ]
   },
   {
     "debugname": "cert_dragonshield_b",
@@ -35459,7 +38709,11 @@
     "members": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_39_147_9_33",
+      "0_39_147_21_45"
+    ]
   },
   {
     "debugname": "watchtowerrobe",
@@ -35620,7 +38874,10 @@
     "iops": {
       "iop1": "Search",
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_40_147_57_29"
+    ]
   },
   {
     "debugname": "nightshade",
@@ -35633,7 +38890,11 @@
     "iops": {
       "iop2": "Eat",
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_39_147_32_7",
+      "0_39_147_34_54"
+    ]
   },
   {
     "debugname": "silverlight_key_1",
@@ -35693,7 +38954,10 @@
       "magicdefence": 1,
       "strengthbonus": 12,
       "attackrate": 5
-    }
+    },
+    "shops": [
+      "legendsguildshop"
+    ]
   },
   {
     "debugname": "hazeel_scroll",
@@ -35764,7 +39028,10 @@
     "members": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_45_54_55_4"
+    ]
   },
   {
     "debugname": "witches_diary",
@@ -35777,7 +39044,10 @@
     "iops": {
       "iop1": "Read",
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "1_45_54_20_17"
+    ]
   },
   {
     "debugname": "witches_doorkey",
@@ -35789,7 +39059,10 @@
     "members": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "1_45_54_21_12"
+    ]
   },
   {
     "debugname": "magnet",
@@ -35902,7 +39175,10 @@
       "magicdefence": 6,
       "strengthbonus": 2,
       "attackrate": 5
-    }
+    },
+    "shops": [
+      "magearena_staffshop"
+    ]
   },
   {
     "debugname": "guthix_staff",
@@ -35928,7 +39204,10 @@
       "magicdefence": 6,
       "strengthbonus": 2,
       "attackrate": 5
-    }
+    },
+    "shops": [
+      "magearena_staffshop"
+    ]
   },
   {
     "debugname": "zamorak_staff",
@@ -35954,7 +39233,10 @@
       "magicdefence": 6,
       "strengthbonus": 2,
       "attackrate": 5
-    }
+    },
+    "shops": [
+      "magearena_staffshop"
+    ]
   },
   {
     "debugname": "princeskey",
@@ -37502,7 +40784,10 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "duel_rottenfruitshop"
+    ]
   },
   {
     "debugname": "cert_rotten_tomato",
@@ -37530,7 +40815,10 @@
     "iops": {
       "iop1": "Play-with",
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "aprilfoolshorseshop"
+    ]
   },
   {
     "debugname": "cert_horsey_brown",
@@ -37558,7 +40846,10 @@
     "iops": {
       "iop1": "Play-with",
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "aprilfoolshorseshop"
+    ]
   },
   {
     "debugname": "cert_horsey_white",
@@ -37586,7 +40877,10 @@
     "iops": {
       "iop1": "Play-with",
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "aprilfoolshorseshop"
+    ]
   },
   {
     "debugname": "cert_horsey_black",
@@ -37614,7 +40908,10 @@
     "iops": {
       "iop1": "Play-with",
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "aprilfoolshorseshop"
+    ]
   },
   {
     "debugname": "cert_horsey_grey",
@@ -37653,7 +40950,10 @@
     "members": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_37_151_14_4"
+    ]
   },
   {
     "debugname": "newbiebones",
@@ -43079,7 +46379,10 @@
       "wearpos": "feet",
       "slashdefence": 1,
       "crushdefence": 1
-    }
+    },
+    "shops": [
+      "werewolfstore2"
+    ]
   },
   {
     "debugname": "cert_wolfenboots_grey",
@@ -43112,7 +46415,10 @@
       "wearpos": "body",
       "slashdefence": 2,
       "crushdefence": 2
-    }
+    },
+    "shops": [
+      "werewolfstore2"
+    ]
   },
   {
     "debugname": "cert_wolfenrobetop_grey",
@@ -43145,7 +46451,10 @@
       "wearpos": "legs",
       "slashdefence": 2,
       "crushdefence": 2
-    }
+    },
+    "shops": [
+      "werewolfstore2"
+    ]
   },
   {
     "debugname": "cert_wolfenrobebottom_grey",
@@ -43178,7 +46487,10 @@
       "wearpos": "head",
       "magicattack": 3,
       "magicdefence": 3
-    }
+    },
+    "shops": [
+      "werewolfstore2"
+    ]
   },
   {
     "debugname": "cert_wolfenhat_grey",
@@ -43211,7 +46523,10 @@
       "wearpos": "hands",
       "slashdefence": 1,
       "crushdefence": 2
-    }
+    },
+    "shops": [
+      "werewolfstore2"
+    ]
   },
   {
     "debugname": "cert_wolfengloves_grey",
@@ -43244,7 +46559,10 @@
       "wearpos": "feet",
       "slashdefence": 1,
       "crushdefence": 1
-    }
+    },
+    "shops": [
+      "werewolfstore2"
+    ]
   },
   {
     "debugname": "cert_wolfenboots_crimson",
@@ -43277,7 +46595,10 @@
       "wearpos": "body",
       "slashdefence": 2,
       "crushdefence": 2
-    }
+    },
+    "shops": [
+      "werewolfstore2"
+    ]
   },
   {
     "debugname": "cert_wolfenrobetop_crimson",
@@ -43310,7 +46631,10 @@
       "wearpos": "legs",
       "slashdefence": 2,
       "crushdefence": 2
-    }
+    },
+    "shops": [
+      "werewolfstore2"
+    ]
   },
   {
     "debugname": "cert_wolfenrobebottom_crimson",
@@ -43343,7 +46667,10 @@
       "wearpos": "head",
       "magicattack": 3,
       "magicdefence": 3
-    }
+    },
+    "shops": [
+      "werewolfstore2"
+    ]
   },
   {
     "debugname": "cert_wolfenhat_crimson",
@@ -43376,7 +46703,10 @@
       "wearpos": "hands",
       "slashdefence": 1,
       "crushdefence": 2
-    }
+    },
+    "shops": [
+      "werewolfstore2"
+    ]
   },
   {
     "debugname": "cert_wolfengloves_crimson",
@@ -43409,7 +46739,10 @@
       "wearpos": "feet",
       "slashdefence": 1,
       "crushdefence": 1
-    }
+    },
+    "shops": [
+      "werewolfstore2"
+    ]
   },
   {
     "debugname": "cert_wolfenboots_tangerine",
@@ -43442,7 +46775,10 @@
       "wearpos": "body",
       "slashdefence": 2,
       "crushdefence": 2
-    }
+    },
+    "shops": [
+      "werewolfstore2"
+    ]
   },
   {
     "debugname": "cert_wolfenrobetop_tangerine",
@@ -43475,7 +46811,10 @@
       "wearpos": "legs",
       "slashdefence": 2,
       "crushdefence": 2
-    }
+    },
+    "shops": [
+      "werewolfstore2"
+    ]
   },
   {
     "debugname": "cert_wolfenrobebottom_tangerine",
@@ -43508,7 +46847,10 @@
       "wearpos": "head",
       "magicattack": 3,
       "magicdefence": 3
-    }
+    },
+    "shops": [
+      "werewolfstore2"
+    ]
   },
   {
     "debugname": "cert_wolfenhat_tangerine",
@@ -43541,7 +46883,10 @@
       "wearpos": "hands",
       "slashdefence": 1,
       "crushdefence": 2
-    }
+    },
+    "shops": [
+      "werewolfstore2"
+    ]
   },
   {
     "debugname": "cert_wolfengloves_tangerine",
@@ -43574,7 +46919,10 @@
       "wearpos": "feet",
       "slashdefence": 1,
       "crushdefence": 1
-    }
+    },
+    "shops": [
+      "werewolfstore2"
+    ]
   },
   {
     "debugname": "cert_wolfenboots_ocean",
@@ -43607,7 +46955,10 @@
       "wearpos": "body",
       "slashdefence": 2,
       "crushdefence": 2
-    }
+    },
+    "shops": [
+      "werewolfstore2"
+    ]
   },
   {
     "debugname": "cert_wolfenrobetop_ocean",
@@ -43640,7 +46991,10 @@
       "wearpos": "legs",
       "slashdefence": 2,
       "crushdefence": 2
-    }
+    },
+    "shops": [
+      "werewolfstore2"
+    ]
   },
   {
     "debugname": "cert_wolfenrobebottom_ocean",
@@ -43673,7 +47027,10 @@
       "wearpos": "head",
       "magicattack": 3,
       "magicdefence": 3
-    }
+    },
+    "shops": [
+      "werewolfstore2"
+    ]
   },
   {
     "debugname": "cert_wolfenhat_ocean",
@@ -43706,7 +47063,10 @@
       "wearpos": "hands",
       "slashdefence": 1,
       "crushdefence": 2
-    }
+    },
+    "shops": [
+      "werewolfstore2"
+    ]
   },
   {
     "debugname": "cert_wolfengloves_ocean",
@@ -43739,7 +47099,10 @@
       "wearpos": "feet",
       "slashdefence": 1,
       "crushdefence": 1
-    }
+    },
+    "shops": [
+      "werewolfstore2"
+    ]
   },
   {
     "debugname": "cert_wolfenboots_purple",
@@ -43772,7 +47135,10 @@
       "wearpos": "body",
       "slashdefence": 2,
       "crushdefence": 2
-    }
+    },
+    "shops": [
+      "werewolfstore2"
+    ]
   },
   {
     "debugname": "cert_wolfenrobetop_purple",
@@ -43805,7 +47171,10 @@
       "wearpos": "legs",
       "slashdefence": 2,
       "crushdefence": 2
-    }
+    },
+    "shops": [
+      "werewolfstore2"
+    ]
   },
   {
     "debugname": "cert_wolfenrobebottom_purple",
@@ -43838,7 +47207,10 @@
       "wearpos": "head",
       "magicattack": 3,
       "magicdefence": 3
-    }
+    },
+    "shops": [
+      "werewolfstore2"
+    ]
   },
   {
     "debugname": "cert_wolfenhat_purple",
@@ -43871,7 +47243,10 @@
       "wearpos": "hands",
       "slashdefence": 1,
       "crushdefence": 2
-    }
+    },
+    "shops": [
+      "werewolfstore2"
+    ]
   },
   {
     "debugname": "cert_wolfengloves_purple",
@@ -44069,7 +47444,11 @@
     "iops": {
       "iop1": "Fill",
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_53_152_51_13",
+      "1_53_152_51_13"
+    ]
   },
   {
     "debugname": "druid_pouch",
@@ -44184,7 +47563,10 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_53_52_45_9"
+    ]
   },
   {
     "debugname": "cert_bowl_empty_filliman",
@@ -44342,7 +47724,11 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "craftingshop",
+      "craftingshop2"
+    ]
   },
   {
     "debugname": "cert_sickle_mould",
@@ -46378,7 +49764,10 @@
     "members": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_45_55_13_45"
+    ]
   },
   {
     "debugname": "death_cannonball_blue",
@@ -46390,7 +49779,10 @@
     "members": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_45_55_13_44"
+    ]
   },
   {
     "debugname": "death_cannonball_yellow",
@@ -46402,7 +49794,10 @@
     "members": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_45_55_13_41"
+    ]
   },
   {
     "debugname": "death_cannonball_purple",
@@ -46414,7 +49809,10 @@
     "members": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_45_55_13_43"
+    ]
   },
   {
     "debugname": "death_cannonball_green",
@@ -46426,7 +49824,10 @@
     "members": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_45_55_13_42"
+    ]
   },
   {
     "debugname": "death_entrancecert",
@@ -46626,7 +50027,6 @@
     "cost": 1,
     "weight": 800,
     "members": true,
-    "tradeable": true,
     "iops": {
       "iop1": "Bury",
       "iop5": "Drop"
@@ -46640,7 +50040,6 @@
     "cost": 1,
     "weight": 800,
     "members": true,
-    "tradeable": true,
     "iops": {
       "iop1": "Bury",
       "iop5": "Drop"
@@ -46654,7 +50053,6 @@
     "cost": 1,
     "weight": 800,
     "members": true,
-    "tradeable": true,
     "iops": {
       "iop1": "Bury",
       "iop5": "Drop"
@@ -46668,7 +50066,6 @@
     "cost": 1,
     "weight": 800,
     "members": true,
-    "tradeable": true,
     "iops": {
       "iop1": "Bury",
       "iop5": "Drop"
@@ -46682,7 +50079,6 @@
     "cost": 1,
     "weight": 800,
     "members": true,
-    "tradeable": true,
     "iops": {
       "iop1": "Bury",
       "iop5": "Drop"
@@ -46696,7 +50092,6 @@
     "cost": 1,
     "weight": 800,
     "members": true,
-    "tradeable": true,
     "iops": {
       "iop1": "Bury",
       "iop5": "Drop"
@@ -46710,7 +50105,6 @@
     "cost": 1,
     "weight": 800,
     "members": true,
-    "tradeable": true,
     "iops": {
       "iop1": "Bury",
       "iop5": "Drop"
@@ -46777,7 +50171,17 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_54_148_10_20",
+      "0_54_148_13_30",
+      "0_54_148_17_38",
+      "0_54_148_23_10",
+      "0_54_148_29_46",
+      "2_54_148_4_8",
+      "2_54_148_4_12",
+      "2_54_148_9_3"
+    ]
   },
   {
     "debugname": "cert_cactus_potato",
@@ -46841,7 +50245,10 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "tbwt_tiadeche_final_inventory"
+    ]
   },
   {
     "debugname": "cert_tbwt_raw_karambwan",
@@ -46869,7 +50276,10 @@
     "iops": {
       "iop1": "Eat",
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "karamja_fishrestaurant"
+    ]
   },
   {
     "debugname": "cert_tbwt_cooked_karambwan",
@@ -47036,7 +50446,10 @@
     },
     "equipable_item": {
       "wearpos": "weapon"
-    }
+    },
+    "shops": [
+      "tbwt_tiadeche_final_inventory"
+    ]
   },
   {
     "debugname": "cert_tbwt_karambwan_vessel",
@@ -47213,7 +50626,10 @@
       "slashdefence": 1,
       "strengthbonus": 6,
       "attackrate": 6
-    }
+    },
+    "shops": [
+      "tbwt_tamayu_final_inventory"
+    ]
   },
   {
     "debugname": "tbwt_iron_spear_kp",
@@ -47236,7 +50652,10 @@
       "slashdefence": 1,
       "strengthbonus": 10,
       "attackrate": 6
-    }
+    },
+    "shops": [
+      "tbwt_tamayu_final_inventory"
+    ]
   },
   {
     "debugname": "tbwt_steel_spear_kp",
@@ -47259,7 +50678,10 @@
       "slashdefence": 1,
       "strengthbonus": 12,
       "attackrate": 6
-    }
+    },
+    "shops": [
+      "tbwt_tamayu_final_inventory"
+    ]
   },
   {
     "debugname": "tbwt_mithril_spear_kp",
@@ -47282,7 +50704,10 @@
       "slashdefence": 1,
       "strengthbonus": 18,
       "attackrate": 6
-    }
+    },
+    "shops": [
+      "tbwt_tamayu_final_inventory"
+    ]
   },
   {
     "debugname": "tbwt_adamant_spear_kp",
@@ -47305,7 +50730,10 @@
       "slashdefence": 1,
       "strengthbonus": 28,
       "attackrate": 6
-    }
+    },
+    "shops": [
+      "tbwt_tamayu_final_inventory"
+    ]
   },
   {
     "debugname": "tbwt_rune_spear_kp",
@@ -47328,7 +50756,10 @@
       "slashdefence": 1,
       "strengthbonus": 42,
       "attackrate": 6
-    }
+    },
+    "shops": [
+      "tbwt_tamayu_final_inventory"
+    ]
   },
   {
     "debugname": "tbwt_dragon_spear_kp",
@@ -47515,7 +50946,10 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "tbwt_tamayu_final_inventory"
+    ]
   },
   {
     "debugname": "cert_tbwt_cleaning_cloth",
@@ -47554,7 +50988,11 @@
       "crushdefence": 2,
       "strengthbonus": 8,
       "attackrate": 7
-    }
+    },
+    "shops": [
+      "regicide_general_shop",
+      "regicide_general_shop_2"
+    ]
   },
   {
     "debugname": "cert_bronze_halberd",
@@ -47593,7 +51031,11 @@
       "crushdefence": 2,
       "strengthbonus": 12,
       "attackrate": 7
-    }
+    },
+    "shops": [
+      "regicide_general_shop",
+      "regicide_general_shop_2"
+    ]
   },
   {
     "debugname": "cert_iron_halberd",
@@ -47632,7 +51074,11 @@
       "crushdefence": 2,
       "strengthbonus": 20,
       "attackrate": 7
-    }
+    },
+    "shops": [
+      "regicide_general_shop",
+      "regicide_general_shop_2"
+    ]
   },
   {
     "debugname": "cert_steel_halberd",
@@ -47671,7 +51117,11 @@
       "crushdefence": 3,
       "strengthbonus": 20,
       "attackrate": 7
-    }
+    },
+    "shops": [
+      "regicide_general_shop",
+      "regicide_general_shop_2"
+    ]
   },
   {
     "debugname": "cert_black_halberd",
@@ -47710,7 +51160,11 @@
       "crushdefence": 4,
       "strengthbonus": 29,
       "attackrate": 7
-    }
+    },
+    "shops": [
+      "regicide_general_shop",
+      "regicide_general_shop_2"
+    ]
   },
   {
     "debugname": "cert_mithril_halberd",
@@ -47749,7 +51203,11 @@
       "crushdefence": 4,
       "strengthbonus": 42,
       "attackrate": 7
-    }
+    },
+    "shops": [
+      "regicide_general_shop",
+      "regicide_general_shop_2"
+    ]
   },
   {
     "debugname": "cert_adamant_halberd",
@@ -47788,7 +51246,11 @@
       "crushdefence": 5,
       "strengthbonus": 68,
       "attackrate": 7
-    }
+    },
+    "shops": [
+      "regicide_general_shop",
+      "regicide_general_shop_2"
+    ]
   },
   {
     "debugname": "cert_rune_halberd",
@@ -47827,7 +51289,10 @@
       "crushdefence": 5,
       "strengthbonus": 89,
       "attackrate": 7
-    }
+    },
+    "shops": [
+      "regicide_general_shop_2"
+    ]
   },
   {
     "debugname": "cert_dragon_halberd",
@@ -47983,7 +51448,14 @@
     "members": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_34_49_8_3",
+      "0_34_49_13_4",
+      "0_34_49_14_8",
+      "0_34_50_29_57",
+      "0_34_50_32_59"
+    ]
   },
   {
     "debugname": "cert_regicide_barrel_empty",
@@ -50176,7 +53648,10 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "werewolfgeneralstore"
+    ]
   },
   {
     "debugname": "cert_empty_dye_bottle",
@@ -50801,7 +54276,10 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "razmirebuildingstore"
+    ]
   },
   {
     "debugname": "cert_limestonebrick",
@@ -50855,7 +54333,10 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "razmiregeneralstore"
+    ]
   },
   {
     "debugname": "cert_oliveoil3",
@@ -54317,7 +57798,10 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "razmiregeneralstore"
+    ]
   },
   {
     "debugname": "cert_flamtaer_hammer",
@@ -54736,7 +58220,10 @@
     "members": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_41_57_36_28"
+    ]
   },
   {
     "debugname": "viking_low_alcahol_beerkeg",
@@ -55222,7 +58709,10 @@
       "crushdefence": 10,
       "magicdefence": 6,
       "rangedefence": 6
-    }
+    },
+    "shops": [
+      "viking_weapons_shop"
+    ]
   },
   {
     "debugname": "cert_viking_helmet_range",
@@ -55260,7 +58750,10 @@
       "crushdefence": 33,
       "rangedefence": 30,
       "strengthbonus": 3
-    }
+    },
+    "shops": [
+      "viking_weapons_shop"
+    ]
   },
   {
     "debugname": "cert_viking_helmet_crush",
@@ -55298,7 +58791,10 @@
       "slashdefence": 33,
       "crushdefence": 29,
       "rangedefence": 30
-    }
+    },
+    "shops": [
+      "viking_weapons_shop"
+    ]
   },
   {
     "debugname": "cert_viking_helmet_slash",
@@ -55338,7 +58834,10 @@
       "slashdefence": 10,
       "crushdefence": 12,
       "magicdefence": 6
-    }
+    },
+    "shops": [
+      "viking_weapons_shop"
+    ]
   },
   {
     "debugname": "cert_viking_helmet_magic",
@@ -55416,7 +58915,10 @@
       "slashdefence": 1,
       "crushdefence": 1,
       "rangedefence": 2
-    }
+    },
+    "shops": [
+      "viking_clothes_shop"
+    ]
   },
   {
     "debugname": "cert_viking_cloak_green",
@@ -55450,7 +58952,10 @@
       "slashdefence": 1,
       "crushdefence": 1,
       "rangedefence": 2
-    }
+    },
+    "shops": [
+      "viking_clothes_shop"
+    ]
   },
   {
     "debugname": "cert_viking_cloak_darkbrown",
@@ -55484,7 +58989,10 @@
       "slashdefence": 1,
       "crushdefence": 1,
       "rangedefence": 2
-    }
+    },
+    "shops": [
+      "viking_clothes_shop"
+    ]
   },
   {
     "debugname": "cert_viking_cloak_lightbrown",
@@ -55518,7 +59026,10 @@
       "slashdefence": 1,
       "crushdefence": 1,
       "rangedefence": 2
-    }
+    },
+    "shops": [
+      "viking_clothes_shop"
+    ]
   },
   {
     "debugname": "cert_viking_cloak_brown",
@@ -55551,7 +59062,10 @@
       "wearpos": "body",
       "slashdefence": 2,
       "crushdefence": 2
-    }
+    },
+    "shops": [
+      "viking_clothes_shop"
+    ]
   },
   {
     "debugname": "cert_viking_top_darkbrown",
@@ -55584,7 +59098,10 @@
       "wearpos": "body",
       "slashdefence": 2,
       "crushdefence": 2
-    }
+    },
+    "shops": [
+      "viking_clothes_shop"
+    ]
   },
   {
     "debugname": "cert_viking_top_green",
@@ -55617,7 +59134,10 @@
       "wearpos": "body",
       "slashdefence": 2,
       "crushdefence": 2
-    }
+    },
+    "shops": [
+      "viking_clothes_shop"
+    ]
   },
   {
     "debugname": "cert_viking_top_beige",
@@ -55650,7 +59170,10 @@
       "wearpos": "body",
       "slashdefence": 2,
       "crushdefence": 2
-    }
+    },
+    "shops": [
+      "viking_clothes_shop"
+    ]
   },
   {
     "debugname": "cert_viking_top_red",
@@ -55683,7 +59206,10 @@
       "wearpos": "body",
       "slashdefence": 2,
       "crushdefence": 2
-    }
+    },
+    "shops": [
+      "viking_clothes_shop"
+    ]
   },
   {
     "debugname": "cert_viking_top_blue",
@@ -55717,7 +59243,10 @@
       "slashdefence": 1,
       "crushdefence": 1,
       "rangedefence": 2
-    }
+    },
+    "shops": [
+      "viking_clothes_shop"
+    ]
   },
   {
     "debugname": "cert_viking_cloak_red",
@@ -55751,7 +59280,10 @@
       "slashdefence": 1,
       "crushdefence": 1,
       "rangedefence": 2
-    }
+    },
+    "shops": [
+      "viking_clothes_shop"
+    ]
   },
   {
     "debugname": "cert_viking_cloak_grey",
@@ -55785,7 +59317,10 @@
       "slashdefence": 1,
       "crushdefence": 1,
       "rangedefence": 2
-    }
+    },
+    "shops": [
+      "viking_clothes_shop"
+    ]
   },
   {
     "debugname": "cert_viking_cloak_tangerine",
@@ -55819,7 +59354,10 @@
       "slashdefence": 1,
       "crushdefence": 1,
       "rangedefence": 2
-    }
+    },
+    "shops": [
+      "viking_clothes_shop"
+    ]
   },
   {
     "debugname": "cert_viking_cloak_ocean",
@@ -55853,7 +59391,10 @@
       "slashdefence": 1,
       "crushdefence": 1,
       "rangedefence": 2
-    }
+    },
+    "shops": [
+      "viking_clothes_shop"
+    ]
   },
   {
     "debugname": "cert_viking_cloak_purple",
@@ -55887,7 +59428,10 @@
       "slashdefence": 1,
       "crushdefence": 1,
       "rangedefence": 2
-    }
+    },
+    "shops": [
+      "viking_clothes_shop"
+    ]
   },
   {
     "debugname": "cert_viking_cloak_pink",
@@ -55921,7 +59465,10 @@
       "slashdefence": 1,
       "crushdefence": 1,
       "rangedefence": 2
-    }
+    },
+    "shops": [
+      "viking_clothes_shop"
+    ]
   },
   {
     "debugname": "cert_viking_cloak_black",
@@ -55954,7 +59501,10 @@
       "wearpos": "feet",
       "slashdefence": 1,
       "crushdefence": 1
-    }
+    },
+    "shops": [
+      "viking_clothes_shop"
+    ]
   },
   {
     "debugname": "cert_vikingboots",
@@ -55987,7 +59537,10 @@
       "wearpos": "body",
       "slashdefence": 2,
       "crushdefence": 2
-    }
+    },
+    "shops": [
+      "viking_clothes_shop"
+    ]
   },
   {
     "debugname": "cert_vikingrobetop",
@@ -56020,7 +59573,10 @@
       "wearpos": "legs",
       "slashdefence": 2,
       "crushdefence": 2
-    }
+    },
+    "shops": [
+      "viking_clothes_shop"
+    ]
   },
   {
     "debugname": "cert_vikingrobebottom",
@@ -56053,7 +59609,10 @@
       "wearpos": "head",
       "magicattack": 3,
       "magicdefence": 3
-    }
+    },
+    "shops": [
+      "viking_clothes_shop"
+    ]
   },
   {
     "debugname": "cert_vikinghat",
@@ -56086,7 +59645,10 @@
       "wearpos": "hands",
       "slashdefence": 1,
       "crushdefence": 2
-    }
+    },
+    "shops": [
+      "viking_clothes_shop"
+    ]
   },
   {
     "debugname": "cert_vikinggloves",
@@ -56114,7 +59676,10 @@
     "iops": {
       "iop1": "Drink",
       "iop5": "Drop"
-    }
+    },
+    "shops": [
+      "viking_bar"
+    ]
   },
   {
     "debugname": "cert_keg_of_beer",
@@ -56142,7 +59707,13 @@
     "iops": {
       "iop1": "Drink",
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_41_57_34_28"
+    ],
+    "shops": [
+      "viking_bar"
+    ]
   },
   {
     "debugname": "cert_viking_tankard_full",
@@ -56169,7 +59740,10 @@
     "tradeable": true,
     "iops": {
       "iop5": "Drop"
-    }
+    },
+    "spawn_locations": [
+      "0_41_57_35_28"
+    ]
   },
   {
     "debugname": "cert_viking_tankard_empty",
