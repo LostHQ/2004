@@ -126,7 +126,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 </div>
 <br><br>
 <div data-progress>
-    Head east-southeast of the village and east to a hill with a tree icon.
+    Head south out of the village and follow the path east to a hill with a tree icon.
 </div>
 <br><br>
 <div data-progress>

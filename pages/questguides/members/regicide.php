@@ -15,14 +15,14 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
     <h3>Items & Skills Needed:</h3>
     <ul style="list-style-type: none;">
         <li><div data-progress>56 Agility (Higher level is an advantage)</div><br></li>
-        <li><div data-progress><canvas itemname="pot_empty" show-label="inline"></canvas></div></li>
+        <li><div data-progress><canvas itemname="pot_empty" show-label="inline" name-append=" (obtianable during quest)"></canvas></div></li>
         <li><div data-progress><canvas itemname="pestle_and_mortar" show-label="inline"></canvas></div></li>
         <li><div data-progress><canvas itemname="ball_of_wool" show-label="inline" amount="4"></canvas></div></li>
-        <li><div data-progress><canvas itemname="rope" show-label="inline" amount="3" name-replace="A few ropes"></canvas></div></li>
-        <li><div data-progress><canvas itemname="shortbow" show-label="inline" name-replace="Any bow"></canvas></div></li>
-        <li><div data-progress><canvas itemname="iron_arrow" show-label="inline" amount="10" name-replace="Any arrows"></canvas></div></li>
+        <li><div data-progress><canvas itemname="rope" show-label="inline" amount="3" name-replace="A few ropes (for Underground Pass)"></canvas></div></li>
+        <li><div data-progress><canvas itemname="shortbow" show-label="inline" name-replace="Any bow (for Underground Pass)"></canvas></div></li>
+        <li><div data-progress><canvas itemname="iron_arrow" show-label="inline" amount="2" name-replace="Any arrows (for Underground Pass)"></canvas></div></li>
         <li><div data-progress><canvas itemname="iron_pickaxe" show-label="inline" name-replace="Any pickaxe"></canvas></div></li>
-        <li><div data-progress><canvas itemname="spade" show-label="inline"></canvas></div></li>
+        <li><div data-progress><canvas itemname="spade" show-label="inline" name-append=" (for Underground Pass)"></canvas></div></li>
     </ul>
     <h3>Recommended:</h3>
     <ul style="list-style-type: none;">
@@ -95,7 +95,7 @@ Bronze is 104 gp, Iron is 364 gp, Steel is 1300 gp, Black is 2496, Mithril is 33
 <br>*Note* you can only buy the Dragon Halberd after you have finished the quest, before then you can only see it but it is NEVER in stock.
 <br><br>
 <div data-progress>
-    Go back to the tracker then to Lord Iorwerth. He gives you a book about explosives called The Big Book of Bangs. There are several items that you need to make the explosive.
+    Go back to the tracker then to Lord Iorwerth. He gives you a book about explosives called The Big Book of Bangs. There are several items that you need to make the explosive. Pickup the pot in the camp now if you didn't bring one.
 </div>
 <hr>
 <div data-progress>
@@ -115,7 +115,7 @@ Bronze is 104 gp, Iron is 364 gp, Steel is 1300 gp, Black is 2496, Mithril is 33
 </div>
 <br><br>
 <div data-progress>
-    <b>Naphtha</b> - get a Barrel from the Tyras camp then use it on the swamp south of the tracker to get coal tar, then teleport to Falador and put the barrel and some Coal in your inventory (10-20 pieces depending on how well you can distill). Go to the Rimmington Chemist that was in the Biohazard quest. Distill the coal tar by putting the Coal tar in the distiller then adding Coal (see instructions below). You want your heat in the red/green areas and pressure in the green area. Once you have filled the green 'distilled' bar then exit it then you will have naphtha.
+    <b>Naphtha</b> - get a Barrel from the Tyras camp then use it on the swamp south of the tracker to get coal tar, then teleport to Falador and put the barrel, the Big Book of Bangs, and some Coal in your inventory (10-20 pieces depending on how well you can distill). Go to the Rimmington Chemist that was in the Biohazard quest. Distill the coal tar by putting the Coal tar in the distiller then adding Coal (see instructions below). You want your heat in the red/green areas and pressure in the green area. Once you have filled the green 'distilled' bar then exit it then you will have naphtha.
 </div>
 <br><br>
 <b>How to Distill</b>: Use the tar-filled barrel with the distiller. Put Coal in the distiller and watch the heat go up. When the heat gets into the green zone turn the tar valve (right one) on. If the pressure goes past the green zone, vent the pressure by turning the left valve on. Dont let the pressure go too low so you close the valve when it goes below green. Keep repeating this untill you have distilled all of the coal-tar. It takes a while to get used to it. Each valve can be manipulated as follow: Click on left side of the valve to turn the valve down. Click on right side of the valve to turn the valve up.

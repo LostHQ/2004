@@ -25,7 +25,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
         <li><div data-progress><canvas itemname="knife" show-label="inline" name-append=" (or other sharp blade)"></canvas></div></li>
         <li><div data-progress><canvas itemname="seaweed" show-label="inline"></canvas></div></li>
         <li><div data-progress><canvas itemname="net" show-label="inline"></canvas></div></li>
-        <li><div data-progress><canvas itemname="tbwt_jogre_bones" show-label="inline"></canvas></div></li>
+        <li><div data-progress><canvas itemname="tbwt_jogre_bones" show-label="inline" name-append=" (obtainable during quest)"></canvas></div></li>
     </ul>
     <h3>Recommended:</h3>
     <ul style="list-style-type: none;">
