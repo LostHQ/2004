@@ -151,7 +151,7 @@ Here is a list of commonly farmed NPCs and their locations.
   </tr>
   <tr>
     <td>Hard</td>
-    <td>Hellhounds - Taverly dungeon</td>
+    <td>Hellhounds - Taverley dungeon</td>
     <td>A Dwarf Multicannon can be used here to greatly speed up farming.</td>
   </tr>
 </table>

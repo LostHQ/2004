@@ -33,7 +33,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
         <li><div data-progress><canvas itemname="lawrune" show-label="inline" amount="10" name-replace="Teleport to Ardougne Runes"></canvas></div></li>
         <li><div data-progress><canvas itemname="logs" show-label="inline" name-replace="Additional logs"></canvas></div></li>
     </ul>
-    <b>Starting Location:</b> Speak to Sanfew in Taverly
+    <b>Starting Location:</b> Speak to Sanfew in Taverle
     <br><br>
     <b>Reward:</b> 11k Herblore Experience, ability to Teleport to Trollheim (Lvl 61 to use and requires 2 Law and 2 Fire Runes), and 1 Quest Point.
 </div>
@@ -95,7 +95,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 </div>
 <br><br>
 <div data-progress>
-    Head to Taverly and speak to the Druid washing the robes, ask him for some dirty one's and when he says he won't give them to you, tell him Sanfew would be ashamed or threaten to cut down some trees.
+    Head to Taverley and speak to the Druid washing the robes, ask him for some dirty one's and when he says he won't give them to you, tell him Sanfew would be ashamed or threaten to cut down some trees.
 </div>
 <br><br>
 <img src="img/questimages/eadgar/eadgar8.png">

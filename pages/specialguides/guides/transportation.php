@@ -304,7 +304,7 @@ After doing the <a href="?p=questguides&quest=fishingcontest">Fishing Contest</a
 <br>
 <img src="img/special_guides/transportation/taverlyentrance.png">
 <br>
-Taverly entrance
+Taverley entrance
 <br>
 <img src="img/special_guides/transportation/catherbyentrance.png">
 <br>

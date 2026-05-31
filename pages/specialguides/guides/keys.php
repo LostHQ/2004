@@ -116,7 +116,7 @@ If you are having troubles identifying a key, hover the cursor over the icon to 
     </tr>
     <tr>
         <td><canvas itemname="crystal_key" show-label="true"></canvas></td>
-        <td>Opens a chest in Taverly. Loot is uncut dragon stone and another random item(s).</td>
+        <td>Opens a chest in Taverley. Loot is uncut dragon stone and another random item(s).</td>
         <td>Connect the two halves of a key together.</td>
         <td>✔️</td>
     </tr>
@@ -139,13 +139,13 @@ If you are having troubles identifying a key, hover the cursor over the icon to 
     <tr>
         <td><canvas itemname="witches_doorkey" show-label="true"></canvas></td>
         <td>Opens the door in the Witch's House Quest.</td>
-        <td>Found under a flower pot in Taverly, out side the witches house.</td>
+        <td>Found under a flower pot in Taverley, out side the witches house.</td>
         <td>❌</td>
     </tr>
     <tr>
         <td><canvas itemname="dusty_key" show-label="true"></canvas></td>
-        <td>Opens the gate in Taverly Dungeon.</td>
-        <td>Buy in the Legends guild or from a man in the jail in Taverly Dungeon.</td>
+        <td>Opens the gate in Taverley Dungeon.</td>
+        <td>Buy in the Legends guild or from a man in the jail in Taverley Dungeon.</td>
         <td>✔️</td>
     </tr>
     <tr>
@@ -192,8 +192,8 @@ If you are having troubles identifying a key, hover the cursor over the icon to 
     </tr>
     <tr>
         <td><canvas itemname="jail_key" show-label="true"></canvas></td>
-        <td>Opens a jail in Taverly dungeon to a man that has the dusty key.</td>
-        <td>Kill the Jailer in Taverly Dungeon.</td>
+        <td>Opens a jail in Taverley dungeon to a man that has the dusty key.</td>
+        <td>Kill the Jailer in Taverley Dungeon.</td>
         <td>❌</td>
     </tr>
     <tr>

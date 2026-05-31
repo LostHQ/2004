@@ -44,9 +44,9 @@ Quick Links<br>
     <tr><td>Arabian</td><td>By the Al Kharid toll gate</td></tr>
     <tr><td>Arabian2</td><td>By the Al Kharid mining canyon</td></tr>
     <tr><td>Arabian3</td><td>North Middle part of the Shantay Pass Desert</td></tr>
-    <tr><td>Arabique</td><td>At the start of Taverly Dungeon</td></tr>
+    <tr><td>Arabique</td><td>At the start of Taverley Dungeon</td></tr>
     <tr><td>Army Of Darkness</td><td>Skeleton Coal Mine and Wilderness Castle area and in the Chaos Altar Temple</td></tr>
-    <tr><td>Arrival</td><td>Area south of Taverly between lake and member fence</td></tr>
+    <tr><td>Arrival</td><td>Area south of Taverley between lake and member fence</td></tr>
     <!-- <tr><td>Artistry</td><td>Mime Random Event</td></tr> -->
     <tr><td>Attack1</td><td>Around the Khazard Battlefield</td></tr>
     <tr><td>Attack2</td><td>In Karamja/Crandor Dungeon</td></tr>
@@ -84,7 +84,7 @@ Quick Links<br>
     <!-- <tr><td>Competition</td><td>Burthorpe Game Room</td></tr> -->
     <!-- <tr><td>Complication</td><td>Chaos Rune Altar</td></tr> -->
     <tr><td>Contest</td><td>Death Plateau</td></tr>
-    <!-- <tr><td>Courage</td><td>Start of Taverly Dungeon</td></tr> -->
+    <!-- <tr><td>Courage</td><td>Start of Taverley Dungeon</td></tr> -->
     <!-- <tr><td>Crystal Castle</td><td>Near Prifddinas Gate</td></tr> -->
     <tr><td>Crystal Cave</td><td>Water Rune Altar</td></tr>
     <tr><td>Crystal Sword</td><td>Low Level Wilderness North of Varrock and also in the East Ardougne Dungeon</td></tr>
@@ -103,7 +103,7 @@ Quick Links<br>
     <!-- <tr><td>Down to Earth</td><td>In the Earth Rune Altar</td></tr> -->
     <tr><td>Dream1</td><td>Between Lumbridge and Draynor</td></tr>
     <tr><td>Duel Arena</td><td>Duel Arena</td></tr>
-    <tr><td>Dunjun</td><td>Taverly Dungeon right after the Magic Axe room</td></tr>
+    <tr><td>Dunjun</td><td>Taverley Dungeon right after the Magic Axe room</td></tr>
     <tr>
         <th colspan="2"><span id="e"></span>E</th>
     </tr>
@@ -156,7 +156,7 @@ Quick Links<br>
     <!-- <tr><td>Have a Blast</td><td>Blast Furnace</td></tr> -->
     <tr><td>Heart and Mind</td><td>In the Body Rune Altar</td></tr>
     <tr><td>High Seas</td><td>At Brimhaven</td></tr>
-    <tr><td>Horizon</td><td>At Taverly</td></tr>
+    <tr><td>Horizon</td><td>At Taverley</td></tr>
     <tr>
         <th colspan="2"><span id="i"></span>I</th>
     </tr>
@@ -256,7 +256,7 @@ Quick Links<br>
     <!-- <tr><td>Relleka</td><td>In the Viking town of Relleka</td></tr> -->
     <tr><td>Righteousness</td><td>In the Law Rune Altar</td></tr>
     <tr><td>Riverside</td><td>Mining area east of Ardougne</td></tr>
-    <tr><td>Royale</td><td>Black Knight Hideout in Taverly Dungeon</td></tr>
+    <tr><td>Royale</td><td>Black Knight Hideout in Taverley Dungeon</td></tr>
     <tr><td>Rune Essence</td><td>At the Rune Essence</td></tr>
     <tr>
         <th colspan="2"><span id="s"></span>S</th>
@@ -279,7 +279,7 @@ Quick Links<br>
     <tr><td>Sojourn</td><td>TrollHeim Maze</td></tr>
     <tr><td>Soundscape</td><td>South of Ogre City</td></tr>
     <tr><td>Spirit</td><td>West Varrock</td></tr>
-    <tr><td>Splendour</td><td>North of Taverly</td></tr>
+    <tr><td>Splendour</td><td>North of Taverley</td></tr>
     <tr><td>Spooky2</td><td>Around Draynor Manor</td></tr>
     <tr><td>Spooky Jungle</td><td>NorthEast Karamja Jungle</td></tr>
     <tr><td>Stagnant</td><td>North East of the Nature island in Mort Myre swamp</td></tr>
@@ -321,7 +321,7 @@ Quick Links<br>
         <th colspan="2"><span id="u"></span>U</th>
     </tr>
     <tr><td>Undercurrent</td><td>Battle plains at level 23 wilderness</td></tr>
-    <tr><td>Underground</td><td>By the Chaos Altar at level 11 wilderness and at the Black Demons in Taverly Dungeon and Entrana Dungeon</td></tr>
+    <tr><td>Underground</td><td>By the Chaos Altar at level 11 wilderness and at the Black Demons in Taverley Dungeon and Entrana Dungeon</td></tr>
     <tr><td>Understanding</td><td>Nature Rune Altar</td></tr>
     <tr><td>Unknown Land</td><td>Around the Prince Ali jail and South Draynor</td></tr>
     <tr><td>Underground Pass</td><td>Underground Pass area from the grill section and on for a ways</td></tr>

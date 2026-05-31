@@ -107,7 +107,7 @@ Cooked Lava Eel
 <br><br>
 <div data-progress>Once you have those three things use the Harralander herb with the vial of water, then use the unfinished potion with the Blamish Snail Slime. Use the oil with a REGULAR fishing rod. NOT A FLY FISHING ROD. Now you have an oily rod. YOU MUST BRING 1 BAIT PER LAVA EEL THAT YOU WANT TO COOK!!</div>
 <br><br>
-<div data-progress>To find the Eel, you need to go to the Taverly Dungeon (south of Taverley). For this part you will need your oily rod, an anti-dragon breath shield, a antipoison potion (look in the Herblore guide), and really good armor and a weapon, and lots of food; don't forget some bait for fishing the lava eel.</div>
+<div data-progress>To find the Eel, you need to go to the Taverley Dungeon (south of Taverley). For this part you will need your oily rod, an anti-dragon breath shield, a antipoison potion (look in the Herblore guide), and really good armor and a weapon, and lots of food; don't forget some bait for fishing the lava eel.</div>
 <br><br>
 <div data-progress>Keep walking deeper and deeper, you will pass level 18 skeletons, level 22 skeletons, level 19 ghosts, some level 31 black knights, level 42 animated axes, and level 20 poison scorpions. At this point, you should be at some lava with a bridge over it. Continue southwest to a large room, now go south and you will enter a large fortress with carpets, long tables, and a few level 31 black knights.</div>
 <br><br>

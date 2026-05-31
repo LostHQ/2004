@@ -9,7 +9,7 @@ for lunch. Is there no other way to decide? Now, you can decide in this games ro
 	
 <hr>
 <h3>How to get there</h3>
-<p>The Games room is located in the basement of Burthorpe Castle. Burthorpe is located north of Taverly and the Hero's guild. How do you get there you ask? Good question. There are two primary ways to get to the castle.</p>
+<p>The Games room is located in the basement of Burthorpe Castle. Burthorpe is located north of Taverley and the Hero's guild. How do you get there you ask? Good question. There are two primary ways to get to the castle.</p>
 
 <img src="/img/special_guides/gamesroom/castle.gif"> 
 

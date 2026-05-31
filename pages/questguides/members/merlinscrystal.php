@@ -41,7 +41,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <div data-progress>Head back to the candle maker with your full bucket of wax and he will give you a black candle, use your tinderbox on the candle to light it.</div>
 <br><br>
-<div data-progress>Head to the Lady of the Lake at the nearby lake, south of Taverly and tell her you seek the Excalibur, she'll tell you she has to set a test for you and to wait for her at the jewlery shop in Port Sarim.</div>
+<div data-progress>Head to the Lady of the Lake at the nearby lake, south of Taverley and tell her you seek the Excalibur, she'll tell you she has to set a test for you and to wait for her at the jewlery shop in Port Sarim.</div>
 <br><br>
 <div data-progress>Head to the jewlery shop in Port Sarim, when you try to open the door a beggar will appear and ask for a loaf of bread to feed his family, give him the loaf of bread then he will turn into the Lady of the Lake and she will give you the Excalibur.</div>
 <br><br>

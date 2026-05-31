@@ -452,7 +452,7 @@ Congratulations on completing a whole lap! Heres how the xp works for this cours
         <td>5</td>
         <td>Crumbling Wall</td>
         <td>15</td>
-        <td>This shortcut allows you to cross over from Taverly to Falador (but not back). This is located just behind West Falador bank.</td>
+        <td>This shortcut allows you to cross over from Taverley to Falador (but not back). This is located just behind West Falador bank.</td>
     </tr>
     <tr>
         <td>15</td>
