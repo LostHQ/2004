@@ -22,7 +22,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
         <li><div data-progress><canvas itemname="firerune" show-label="inline"></canvas></div></li>
         <li><div data-progress><canvas itemname="earthrune" show-label="inline"></canvas></div></li>
         <li><div data-progress><canvas itemname="nails" show-label="inline" amount="8"></canvas></div></li>
-        <li><div data-progress><canvas itemname="woodplank" show-label="inline" amount="2"></canvas></div></li>
+        <li><div data-progress><canvas itemname="woodplank" show-label="inline" amount="2" name-append=" (obtainable during quest)"></canvas></div></li>
         <li><div data-progress><canvas itemname="swamp_tar" show-label="inline" name-append=" (not paste!)"></canvas></div></li>
         <li><div data-progress><canvas itemname="hammer" show-label="inline"></canvas></div></li>
         <li><div data-progress><canvas itemname="iron_arrow" show-label="inline" name-append=" (any single arrow except Ogre)"></canvas></div></li>
@@ -52,7 +52,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 </div>
 <br><br>
 <div data-progress>
-    Use the two Planks on the broken bridge east of Larissa (automatically uses your Hammer and Steel nails).
+    Make your way back to the lighthouse then a little ways east to the broken bridge. Use your planks on each side of the bridge (automatically uses your Hammer and nails).
 </div>
 <br><br>
 <div data-progress>
