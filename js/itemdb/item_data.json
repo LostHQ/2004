@@ -64,9 +64,9 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "mcannonshop"
-    ]
+    "shops": {
+      "mcannonshop": 5
+    }
   },
   {
     "debugname": "mcannonbook",
@@ -80,9 +80,9 @@
       "iop1": "Read",
       "iop5": "Drop"
     },
-    "shops": [
-      "mcannonshop"
-    ]
+    "shops": {
+      "mcannonshop": 5
+    }
   },
   {
     "debugname": "twpart1",
@@ -97,9 +97,9 @@
       "iop1": "Set-up",
       "iop5": "Drop"
     },
-    "shops": [
-      "mcannonshop"
-    ]
+    "shops": {
+      "mcannonshop": 5
+    }
   },
   {
     "debugname": "cert_twpart1",
@@ -127,9 +127,9 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "mcannonshop"
-    ]
+    "shops": {
+      "mcannonshop": 5
+    }
   },
   {
     "debugname": "cert_twpart2",
@@ -157,9 +157,9 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "mcannonshop"
-    ]
+    "shops": {
+      "mcannonshop": 5
+    }
   },
   {
     "debugname": "cert_twpart3",
@@ -187,9 +187,9 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "mcannonshop"
-    ]
+    "shops": {
+      "mcannonshop": 5
+    }
   },
   {
     "debugname": "cert_twpart4",
@@ -541,13 +541,13 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "candleshop",
-      "junglestore",
-      "lighthouseshop",
-      "shilojunglestore",
-      "viking_general_store"
-    ]
+    "shops": {
+      "candleshop": 10,
+      "junglestore": 10,
+      "lighthouseshop": 10,
+      "shilojunglestore": 10,
+      "viking_general_store": 10
+    }
   },
   {
     "debugname": "cert_unlit_candle",
@@ -591,12 +591,12 @@
     "spawn_locations": [
       "0_41_53_48_41"
     ],
-    "shops": [
-      "archeryshop2",
-      "gnomeshop_gulluck",
-      "lathastrainingstore",
-      "ranging_guild_bowshop"
-    ]
+    "shops": {
+      "archeryshop2": 1000,
+      "gnomeshop_gulluck": 200,
+      "lathastrainingstore": 800,
+      "ranging_guild_bowshop": 500
+    }
   },
   {
     "debugname": "iron_arrowheads",
@@ -611,12 +611,12 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "archeryshop2",
-      "gnomeshop_gulluck",
-      "lathastrainingstore",
-      "ranging_guild_bowshop"
-    ]
+    "shops": {
+      "archeryshop2": 800,
+      "gnomeshop_gulluck": 180,
+      "lathastrainingstore": 800,
+      "ranging_guild_bowshop": 400
+    }
   },
   {
     "debugname": "steel_arrowheads",
@@ -634,12 +634,12 @@
     "spawn_locations": [
       "0_48_156_53_13"
     ],
-    "shops": [
-      "archeryshop2",
-      "gnomeshop_gulluck",
-      "lathastrainingstore",
-      "ranging_guild_bowshop"
-    ]
+    "shops": {
+      "archeryshop2": 600,
+      "gnomeshop_gulluck": 160,
+      "lathastrainingstore": 800,
+      "ranging_guild_bowshop": 300
+    }
   },
   {
     "debugname": "mithril_arrowheads",
@@ -654,12 +654,12 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "archeryshop2",
-      "gnomeshop_gulluck",
-      "lathastrainingstore",
-      "ranging_guild_bowshop"
-    ]
+    "shops": {
+      "archeryshop2": 400,
+      "gnomeshop_gulluck": 140,
+      "lathastrainingstore": 800,
+      "ranging_guild_bowshop": 200
+    }
   },
   {
     "debugname": "adamant_arrowheads",
@@ -674,10 +674,10 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "archeryshop2",
-      "ranging_guild_bowshop"
-    ]
+    "shops": {
+      "archeryshop2": 200,
+      "ranging_guild_bowshop": 200
+    }
   },
   {
     "debugname": "rune_arrowheads",
@@ -692,10 +692,10 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "archeryshop2",
-      "ranging_guild_bowshop"
-    ]
+    "shops": {
+      "archeryshop2": 100,
+      "ranging_guild_bowshop": 150
+    }
   },
   {
     "debugname": "opal_bolttips",
@@ -806,9 +806,9 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "ranging_guild_bowshop"
-    ]
+    "shops": {
+      "ranging_guild_bowshop": 1000
+    }
   },
   {
     "debugname": "headless_arrow",
@@ -1806,9 +1806,9 @@
       "iop4": "Empty",
       "iop5": "Drop"
     },
-    "shops": [
-      "generallegends"
-    ]
+    "shops": {
+      "generallegends": 3
+    }
   },
   {
     "debugname": "cert_3dose1attack",
@@ -2595,9 +2595,9 @@
       "iop4": "Empty",
       "iop5": "Drop"
     },
-    "shops": [
-      "junglestore"
-    ]
+    "shops": {
+      "junglestore": 10
+    }
   },
   {
     "debugname": "cert_3doseantipoison",
@@ -3255,12 +3255,12 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "herbloreshop",
-      "herbloreshop2",
-      "herbloreshopogre",
-      "magicshop"
-    ]
+    "shops": {
+      "herbloreshop": 800,
+      "herbloreshop2": 50,
+      "herbloreshopogre": 50,
+      "magicshop": 300
+    }
   },
   {
     "debugname": "cert_eye_of_newt",
@@ -3360,14 +3360,14 @@
       "iop4": "Empty",
       "iop5": "Drop"
     },
-    "shops": [
-      "adventurershop",
-      "junglestore",
-      "lighthouseshop",
-      "razmiregeneralstore",
-      "shilojunglestore",
-      "viking_general_store"
-    ]
+    "shops": {
+      "adventurershop": 500,
+      "junglestore": 50,
+      "lighthouseshop": 100,
+      "razmiregeneralstore": 100,
+      "shilojunglestore": 50,
+      "viking_general_store": 10
+    }
   },
   {
     "debugname": "cert_vial_water",
@@ -3405,15 +3405,15 @@
       "2_40_48_27_18",
       "2_40_48_28_18"
     ],
-    "shops": [
-      "herbloreshop",
-      "herbloreshop2",
-      "herbloreshopogre",
-      "junglestore",
-      "lighthouseshop",
-      "shilojunglestore",
-      "viking_general_store"
-    ]
+    "shops": {
+      "herbloreshop": 800,
+      "herbloreshop2": 50,
+      "herbloreshopogre": 50,
+      "junglestore": 10,
+      "lighthouseshop": 100,
+      "shilojunglestore": 10,
+      "viking_general_store": 10
+    }
   },
   {
     "debugname": "cert_vial_empty",
@@ -3473,15 +3473,15 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "herbloreshop",
-      "herbloreshop2",
-      "herbloreshopogre",
-      "junglestore",
-      "lighthouseshop",
-      "shilojunglestore",
-      "viking_general_store"
-    ]
+    "shops": {
+      "herbloreshop": 3,
+      "herbloreshop2": 3,
+      "herbloreshopogre": 3,
+      "junglestore": 3,
+      "lighthouseshop": 10,
+      "shilojunglestore": 3,
+      "viking_general_store": 3
+    }
   },
   {
     "debugname": "cert_pestle_and_mortar",
@@ -4048,9 +4048,9 @@
     "spawn_locations": [
       "0_48_52_25_38"
     ],
-    "shops": [
-      "lighthouseshop"
-    ]
+    "shops": {
+      "lighthouseshop": 10
+    }
   },
   {
     "debugname": "poisoned_fish_food",
@@ -4404,9 +4404,9 @@
       "iop1": "Plant",
       "iop5": "Drop"
     },
-    "shops": [
-      "legendsguildshop"
-    ]
+    "shops": {
+      "legendsguildshop": 6
+    }
   },
   {
     "debugname": "rats_tail",
@@ -4435,11 +4435,11 @@
     "spawn_locations": [
       "0_40_53_48_5"
     ],
-    "shops": [
-      "fishingshop",
-      "fishingshop2",
-      "viking_fishmonger"
-    ]
+    "shops": {
+      "fishingshop": 2,
+      "fishingshop2": 2,
+      "viking_fishmonger": 2
+    }
   },
   {
     "debugname": "cert_lobster_pot",
@@ -4470,11 +4470,11 @@
     "spawn_locations": [
       "0_46_57_55_53"
     ],
-    "shops": [
-      "fishingshop",
-      "fishingshop2",
-      "viking_fishmonger"
-    ]
+    "shops": {
+      "fishingshop": 5,
+      "fishingshop2": 5,
+      "viking_fishmonger": 5
+    }
   },
   {
     "debugname": "cert_net",
@@ -4505,10 +4505,10 @@
     "spawn_locations": [
       "0_40_53_45_3"
     ],
-    "shops": [
-      "fishingshop2",
-      "viking_fishmonger"
-    ]
+    "shops": {
+      "fishingshop2": 5,
+      "viking_fishmonger": 5
+    }
   },
   {
     "debugname": "cert_big_net",
@@ -4539,12 +4539,12 @@
     "spawn_locations": [
       "0_44_52_44_7"
     ],
-    "shops": [
-      "fishingshop",
-      "fishingshop2",
-      "shilofishingshop",
-      "viking_fishmonger"
-    ]
+    "shops": {
+      "fishingshop": 5,
+      "fishingshop2": 5,
+      "shilofishingshop": 5,
+      "viking_fishmonger": 5
+    }
   },
   {
     "debugname": "cert_fishing_rod",
@@ -4572,11 +4572,11 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "fishingshop",
-      "shilofishingshop",
-      "viking_fishmonger"
-    ]
+    "shops": {
+      "fishingshop": 5,
+      "shilofishingshop": 5,
+      "viking_fishmonger": 5
+    }
   },
   {
     "debugname": "cert_fly_fishing_rod",
@@ -4607,11 +4607,11 @@
     "spawn_locations": [
       "0_40_53_45_4"
     ],
-    "shops": [
-      "fishingshop",
-      "fishingshop2",
-      "viking_fishmonger"
-    ]
+    "shops": {
+      "fishingshop": 2,
+      "fishingshop2": 2,
+      "viking_fishmonger": 2
+    }
   },
   {
     "debugname": "cert_harpoon",
@@ -4644,13 +4644,13 @@
       "0_46_57_44_35",
       "0_46_57_54_57"
     ],
-    "shops": [
-      "fishingguild",
-      "fishingshop",
-      "fishingshop2",
-      "shilofishingshop",
-      "viking_fishmonger"
-    ]
+    "shops": {
+      "fishingguild": 2000,
+      "fishingshop": 1500,
+      "fishingshop2": 1200,
+      "shilofishingshop": 200,
+      "viking_fishmonger": 1500
+    }
   },
   {
     "debugname": "feather",
@@ -4665,13 +4665,13 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "fishingguild",
-      "fishingshop",
-      "shantayshop",
-      "shilofishingshop",
-      "viking_fishmonger"
-    ]
+    "shops": {
+      "fishingguild": 1500,
+      "fishingshop": 1000,
+      "shantayshop": 500,
+      "shilofishingshop": 800,
+      "viking_fishmonger": 1000
+    }
   },
   {
     "debugname": "shrimp",
@@ -4713,11 +4713,11 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "fishingshop",
-      "fishingshop2",
-      "viking_fishmonger"
-    ]
+    "shops": {
+      "fishingshop": 0,
+      "fishingshop2": 0,
+      "viking_fishmonger": 0
+    }
   },
   {
     "debugname": "cert_raw_shrimp",
@@ -4773,11 +4773,11 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "fishingshop",
-      "fishingshop2",
-      "viking_fishmonger"
-    ]
+    "shops": {
+      "fishingshop": 0,
+      "fishingshop2": 0,
+      "viking_fishmonger": 0
+    }
   },
   {
     "debugname": "cert_raw_anchovies",
@@ -4860,11 +4860,11 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "fishingshop",
-      "fishingshop2",
-      "viking_fishmonger"
-    ]
+    "shops": {
+      "fishingshop": 200,
+      "fishingshop2": 0,
+      "viking_fishmonger": 200
+    }
   },
   {
     "debugname": "cert_raw_sardine",
@@ -4893,9 +4893,9 @@
       "iop1": "Eat",
       "iop5": "Drop"
     },
-    "shops": [
-      "upassgeneralshop"
-    ]
+    "shops": {
+      "upassgeneralshop": 10
+    }
   },
   {
     "debugname": "cert_salmon",
@@ -4923,12 +4923,12 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "fishingshop",
-      "shilofishingshop",
-      "viking_fishmonger",
-      "werewolfstore1"
-    ]
+    "shops": {
+      "fishingshop": 0,
+      "shilofishingshop": 0,
+      "viking_fishmonger": 0,
+      "werewolfstore1": 5
+    }
   },
   {
     "debugname": "cert_raw_salmon",
@@ -4984,12 +4984,12 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "fishingshop",
-      "shilofishingshop",
-      "viking_fishmonger",
-      "werewolfstore1"
-    ]
+    "shops": {
+      "fishingshop": 0,
+      "shilofishingshop": 0,
+      "viking_fishmonger": 0,
+      "werewolfstore1": 5
+    }
   },
   {
     "debugname": "cert_raw_trout",
@@ -5043,10 +5043,10 @@
       "iop1": "Eat",
       "iop5": "Drop"
     },
-    "shops": [
-      "fishingguild",
-      "karamja_fishrestaurant"
-    ]
+    "shops": {
+      "fishingguild": 0,
+      "karamja_fishrestaurant": 5
+    }
   },
   {
     "debugname": "cert_cod",
@@ -5074,11 +5074,11 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "fishingguild",
-      "fishingshop2",
-      "viking_fishmonger"
-    ]
+    "shops": {
+      "fishingguild": 0,
+      "fishingshop2": 0,
+      "viking_fishmonger": 0
+    }
   },
   {
     "debugname": "cert_raw_cod",
@@ -5133,11 +5133,11 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "fishingshop",
-      "fishingshop2",
-      "viking_fishmonger"
-    ]
+    "shops": {
+      "fishingshop": 0,
+      "fishingshop2": 0,
+      "viking_fishmonger": 0
+    }
   },
   {
     "debugname": "cert_raw_herring",
@@ -5169,9 +5169,9 @@
     "spawn_locations": [
       "0_40_148_3_39"
     ],
-    "shops": [
-      "karamja_fishrestaurant"
-    ]
+    "shops": {
+      "karamja_fishrestaurant": 5
+    }
   },
   {
     "debugname": "cert_herring",
@@ -5199,12 +5199,12 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "fishingshop",
-      "shilofishingshop",
-      "viking_fishmonger",
-      "werewolfstore1"
-    ]
+    "shops": {
+      "fishingshop": 0,
+      "shilofishingshop": 0,
+      "viking_fishmonger": 0,
+      "werewolfstore1": 5
+    }
   },
   {
     "debugname": "cert_raw_pike",
@@ -5260,11 +5260,11 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "fishingguild",
-      "fishingshop2",
-      "viking_fishmonger"
-    ]
+    "shops": {
+      "fishingguild": 0,
+      "fishingshop2": 0,
+      "viking_fishmonger": 0
+    }
   },
   {
     "debugname": "cert_raw_mackerel",
@@ -5293,9 +5293,9 @@
       "iop1": "Eat",
       "iop5": "Drop"
     },
-    "shops": [
-      "fishingguild"
-    ]
+    "shops": {
+      "fishingguild": 0
+    }
   },
   {
     "debugname": "cert_mackerel",
@@ -5353,12 +5353,12 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "fishingguild",
-      "fishingshop",
-      "fishingshop2",
-      "viking_fishmonger"
-    ]
+    "shops": {
+      "fishingguild": 0,
+      "fishingshop": 0,
+      "fishingshop2": 0,
+      "viking_fishmonger": 0
+    }
   },
   {
     "debugname": "cert_raw_tuna",
@@ -5387,10 +5387,10 @@
       "iop1": "Eat",
       "iop5": "Drop"
     },
-    "shops": [
-      "fishingguild",
-      "karamja_fishrestaurant"
-    ]
+    "shops": {
+      "fishingguild": 0,
+      "karamja_fishrestaurant": 5
+    }
   },
   {
     "debugname": "cert_tuna",
@@ -5418,11 +5418,11 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "fishingguild",
-      "fishingshop2",
-      "viking_fishmonger"
-    ]
+    "shops": {
+      "fishingguild": 0,
+      "fishingshop2": 0,
+      "viking_fishmonger": 0
+    }
   },
   {
     "debugname": "cert_raw_bass",
@@ -5451,9 +5451,9 @@
       "iop1": "Eat",
       "iop5": "Drop"
     },
-    "shops": [
-      "fishingguild"
-    ]
+    "shops": {
+      "fishingguild": 0
+    }
   },
   {
     "debugname": "cert_bass",
@@ -5535,12 +5535,12 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "fishingguild",
-      "fishingshop",
-      "fishingshop2",
-      "viking_fishmonger"
-    ]
+    "shops": {
+      "fishingguild": 0,
+      "fishingshop": 0,
+      "fishingshop2": 0,
+      "viking_fishmonger": 0
+    }
   },
   {
     "debugname": "cert_raw_swordfish",
@@ -5569,11 +5569,11 @@
       "iop1": "Eat",
       "iop5": "Drop"
     },
-    "shops": [
-      "fishingguild",
-      "generallegends",
-      "karamja_fishrestaurant"
-    ]
+    "shops": {
+      "fishingguild": 0,
+      "generallegends": 20,
+      "karamja_fishrestaurant": 2
+    }
   },
   {
     "debugname": "cert_swordfish",
@@ -5628,12 +5628,12 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "fishingguild",
-      "fishingshop",
-      "fishingshop2",
-      "viking_fishmonger"
-    ]
+    "shops": {
+      "fishingguild": 0,
+      "fishingshop": 0,
+      "fishingshop2": 0,
+      "viking_fishmonger": 0
+    }
   },
   {
     "debugname": "cert_raw_lobster",
@@ -5662,10 +5662,10 @@
       "iop1": "Eat",
       "iop5": "Drop"
     },
-    "shops": [
-      "fishingguild",
-      "karamja_fishrestaurant"
-    ]
+    "shops": {
+      "fishingguild": 0,
+      "karamja_fishrestaurant": 3
+    }
   },
   {
     "debugname": "cert_lobster",
@@ -5720,11 +5720,11 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "fishingshop2",
-      "viking_fishmonger",
-      "werewolfstore1"
-    ]
+    "shops": {
+      "fishingshop2": 0,
+      "viking_fishmonger": 0,
+      "werewolfstore1": 1
+    }
   },
   {
     "debugname": "cert_raw_shark",
@@ -6365,10 +6365,10 @@
       "wearpos": "body",
       "prayerbonus": 3
     },
-    "shops": [
-      "clotheshop",
-      "fancyclothesstore"
-    ]
+    "shops": {
+      "clotheshop": 3,
+      "fancyclothesstore": 3
+    }
   },
   {
     "debugname": "cert_priest_gown",
@@ -6401,10 +6401,10 @@
       "wearpos": "legs",
       "prayerbonus": 3
     },
-    "shops": [
-      "clotheshop",
-      "fancyclothesstore"
-    ]
+    "shops": {
+      "clotheshop": 3,
+      "fancyclothesstore": 3
+    }
   },
   {
     "debugname": "cert_priest_robe",
@@ -6447,9 +6447,9 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "boozeshop"
-    ]
+    "shops": {
+      "boozeshop": 3
+    }
   },
   {
     "debugname": "chest_key",
@@ -6515,9 +6515,9 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "miningstore"
-    ]
+    "shops": {
+      "miningstore": 0
+    }
   },
   {
     "debugname": "cert_copper_ore",
@@ -6545,9 +6545,9 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "miningstore"
-    ]
+    "shops": {
+      "miningstore": 0
+    }
   },
   {
     "debugname": "cert_tin_ore",
@@ -6575,9 +6575,9 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "miningstore"
-    ]
+    "shops": {
+      "miningstore": 0
+    }
   },
   {
     "debugname": "cert_iron_ore",
@@ -6605,9 +6605,9 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "silverstall"
-    ]
+    "shops": {
+      "silverstall": 1
+    }
   },
   {
     "debugname": "cert_silver_ore",
@@ -6765,9 +6765,9 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "miningstore"
-    ]
+    "shops": {
+      "miningstore": 0
+    }
   },
   {
     "debugname": "cert_coal",
@@ -8475,9 +8475,9 @@
       "iop1": "Read",
       "iop5": "Drop"
     },
-    "shops": [
-      "generalshop1"
-    ]
+    "shops": {
+      "generalshop1": 5
+    }
   },
   {
     "debugname": "cert_newcomer_map",
@@ -8547,12 +8547,12 @@
       "0_51_51_40_47",
       "1_43_54_16_44"
     ],
-    "shops": [
-      "magearena_runeshop",
-      "magicguildshop",
-      "magicshop",
-      "runeshop"
-    ]
+    "shops": {
+      "magearena_runeshop": 200,
+      "magicguildshop": 3000,
+      "magicshop": 1000,
+      "runeshop": 2000
+    }
   },
   {
     "debugname": "waterrune",
@@ -8572,12 +8572,12 @@
       "0_47_56_20_53",
       "0_51_51_34_52"
     ],
-    "shops": [
-      "magearena_runeshop",
-      "magicguildshop",
-      "magicshop",
-      "runeshop"
-    ]
+    "shops": {
+      "magearena_runeshop": 200,
+      "magicguildshop": 3000,
+      "magicshop": 1000,
+      "runeshop": 2000
+    }
   },
   {
     "debugname": "airrune",
@@ -8597,12 +8597,12 @@
       "0_47_56_22_53",
       "0_49_50_14_47"
     ],
-    "shops": [
-      "magearena_runeshop",
-      "magicguildshop",
-      "magicshop",
-      "runeshop"
-    ]
+    "shops": {
+      "magearena_runeshop": 200,
+      "magicguildshop": 3000,
+      "magicshop": 1000,
+      "runeshop": 2000
+    }
   },
   {
     "debugname": "earthrune",
@@ -8622,12 +8622,12 @@
       "0_49_154_49_32",
       "0_49_54_59_59"
     ],
-    "shops": [
-      "magearena_runeshop",
-      "magicguildshop",
-      "magicshop",
-      "runeshop"
-    ]
+    "shops": {
+      "magearena_runeshop": 200,
+      "magicguildshop": 3000,
+      "magicshop": 1000,
+      "runeshop": 2000
+    }
   },
   {
     "debugname": "mindrune",
@@ -8648,12 +8648,12 @@
       "0_50_154_24_54",
       "0_51_58_19_16"
     ],
-    "shops": [
-      "magearena_runeshop",
-      "magicguildshop",
-      "magicshop",
-      "runeshop"
-    ]
+    "shops": {
+      "magearena_runeshop": 140,
+      "magicguildshop": 3000,
+      "magicshop": 1000,
+      "runeshop": 1000
+    }
   },
   {
     "debugname": "bodyrune",
@@ -8678,12 +8678,12 @@
       "0_50_55_32_54",
       "1_51_49_26_55"
     ],
-    "shops": [
-      "magearena_runeshop",
-      "magicguildshop",
-      "magicshop",
-      "runeshop"
-    ]
+    "shops": {
+      "magearena_runeshop": 140,
+      "magicguildshop": 3000,
+      "magicshop": 1000,
+      "runeshop": 1000
+    }
   },
   {
     "debugname": "deathrune",
@@ -8701,12 +8701,12 @@
     "spawn_locations": [
       "0_39_46_4_23"
     ],
-    "shops": [
-      "magearena_runeshop",
-      "magicguildshop",
-      "magicshop",
-      "runeshop"
-    ]
+    "shops": {
+      "magearena_runeshop": 250,
+      "magicguildshop": 1000,
+      "magicshop": 1000,
+      "runeshop": 1000
+    }
   },
   {
     "debugname": "naturerune",
@@ -8727,10 +8727,10 @@
       "0_51_60_43_19",
       "0_51_60_47_13"
     ],
-    "shops": [
-      "magearena_runeshop",
-      "magicguildshop"
-    ]
+    "shops": {
+      "magearena_runeshop": 250,
+      "magicguildshop": 1000
+    }
   },
   {
     "debugname": "chaosrune",
@@ -8754,12 +8754,12 @@
       "0_49_59_13_47",
       "0_49_59_15_55"
     ],
-    "shops": [
-      "magearena_runeshop",
-      "magicguildshop",
-      "magicshop",
-      "runeshop"
-    ]
+    "shops": {
+      "magearena_runeshop": 250,
+      "magicguildshop": 1000,
+      "magicshop": 1000,
+      "runeshop": 1000
+    }
   },
   {
     "debugname": "lawrune",
@@ -8774,10 +8774,10 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "magearena_runeshop",
-      "magicguildshop"
-    ]
+    "shops": {
+      "magearena_runeshop": 250,
+      "magicguildshop": 1000
+    }
   },
   {
     "debugname": "cosmicrune",
@@ -8795,9 +8795,9 @@
     "spawn_locations": [
       "0_46_60_3_58"
     ],
-    "shops": [
-      "magearena_runeshop"
-    ]
+    "shops": {
+      "magearena_runeshop": 20
+    }
   },
   {
     "debugname": "bloodrune",
@@ -8818,9 +8818,9 @@
       "0_51_60_33_50",
       "0_51_59_41_40"
     ],
-    "shops": [
-      "magicguildshop"
-    ]
+    "shops": {
+      "magicguildshop": 1000
+    }
   },
   {
     "debugname": "soulrune",
@@ -8835,9 +8835,9 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "magicguildshop"
-    ]
+    "shops": {
+      "magicguildshop": 50
+    }
   },
   {
     "debugname": "stafforb",
@@ -9025,10 +9025,10 @@
       "magicattack": 2,
       "magicdefence": 2
     },
-    "shops": [
-      "fancyclothesstore",
-      "magicshop"
-    ]
+    "shops": {
+      "fancyclothesstore": 3,
+      "magicshop": 1
+    }
   },
   {
     "debugname": "cert_bluewizhat",
@@ -9090,9 +9090,9 @@
       "iop1": "Bail-with",
       "iop5": "Drop"
     },
-    "shops": [
-      "khazardshop"
-    ]
+    "shops": {
+      "khazardshop": 30
+    }
   },
   {
     "debugname": "cert_bucket_bailing",
@@ -9194,34 +9194,34 @@
     "spawn_locations": [
       "2_48_52_40_41"
     ],
-    "shops": [
-      "adventurershop",
-      "arheinstore",
-      "cookeryshop",
-      "death_generalshop",
-      "generaldwarf",
-      "generalshop1",
-      "generalshop2",
-      "generalshop3",
-      "generalshop4",
-      "generalshop5",
-      "generalshop6",
-      "generalshop7",
-      "generalshop8",
-      "generalshopogre",
-      "gnomeshop",
-      "junglestore",
-      "khazardshop",
-      "lighthouseshop",
-      "razmiregeneralstore",
-      "regicide_general_shop",
-      "regicide_general_shop_2",
-      "shilojunglestore",
-      "taxfree",
-      "upassgeneralshop",
-      "viking_general_store",
-      "werewolfgeneralstore"
-    ]
+    "shops": {
+      "adventurershop": 2,
+      "arheinstore": 2,
+      "cookeryshop": 4,
+      "death_generalshop": 2,
+      "generaldwarf": 2,
+      "generalshop1": 2,
+      "generalshop2": 2,
+      "generalshop3": 2,
+      "generalshop4": 2,
+      "generalshop5": 2,
+      "generalshop6": 2,
+      "generalshop7": 2,
+      "generalshop8": 2,
+      "generalshopogre": 2,
+      "gnomeshop": 2,
+      "junglestore": 2,
+      "khazardshop": 2,
+      "lighthouseshop": 5,
+      "razmiregeneralstore": 2,
+      "regicide_general_shop": 3,
+      "regicide_general_shop_2": 3,
+      "shilojunglestore": 2,
+      "taxfree": 2,
+      "upassgeneralshop": 2,
+      "viking_general_store": 2,
+      "werewolfgeneralstore": 2
+    }
   },
   {
     "debugname": "cert_tinderbox",
@@ -9303,10 +9303,10 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "junglestore",
-      "shilojunglestore"
-    ]
+    "shops": {
+      "junglestore": 10,
+      "shilojunglestore": 10
+    }
   },
   {
     "debugname": "cert_torch_unlit",
@@ -9718,9 +9718,9 @@
       "slashdefence": 1,
       "crushdefence": 1
     },
-    "shops": [
-      "gnomeshop_rometti"
-    ]
+    "shops": {
+      "gnomeshop_rometti": 5
+    }
   },
   {
     "debugname": "cert_gnome_boots_pink",
@@ -9754,9 +9754,9 @@
       "slashdefence": 1,
       "crushdefence": 1
     },
-    "shops": [
-      "gnomeshop_rometti"
-    ]
+    "shops": {
+      "gnomeshop_rometti": 5
+    }
   },
   {
     "debugname": "cert_gnome_boots_green",
@@ -9790,9 +9790,9 @@
       "slashdefence": 1,
       "crushdefence": 1
     },
-    "shops": [
-      "gnomeshop_rometti"
-    ]
+    "shops": {
+      "gnomeshop_rometti": 5
+    }
   },
   {
     "debugname": "cert_gnome_boots_blue",
@@ -9826,9 +9826,9 @@
       "slashdefence": 1,
       "crushdefence": 1
     },
-    "shops": [
-      "gnomeshop_rometti"
-    ]
+    "shops": {
+      "gnomeshop_rometti": 5
+    }
   },
   {
     "debugname": "cert_gnome_boots_cream",
@@ -9862,9 +9862,9 @@
       "slashdefence": 1,
       "crushdefence": 1
     },
-    "shops": [
-      "gnomeshop_rometti"
-    ]
+    "shops": {
+      "gnomeshop_rometti": 5
+    }
   },
   {
     "debugname": "cert_gnome_boots_turquoise",
@@ -9898,9 +9898,9 @@
       "slashdefence": 2,
       "crushdefence": 2
     },
-    "shops": [
-      "gnomeshop_rometti"
-    ]
+    "shops": {
+      "gnomeshop_rometti": 5
+    }
   },
   {
     "debugname": "cert_gnome_robetop_pink",
@@ -9934,9 +9934,9 @@
       "slashdefence": 2,
       "crushdefence": 2
     },
-    "shops": [
-      "gnomeshop_rometti"
-    ]
+    "shops": {
+      "gnomeshop_rometti": 5
+    }
   },
   {
     "debugname": "cert_gnome_robetop_green",
@@ -9970,9 +9970,9 @@
       "slashdefence": 2,
       "crushdefence": 2
     },
-    "shops": [
-      "gnomeshop_rometti"
-    ]
+    "shops": {
+      "gnomeshop_rometti": 5
+    }
   },
   {
     "debugname": "cert_gnome_robetop_blue",
@@ -10006,9 +10006,9 @@
       "slashdefence": 2,
       "crushdefence": 2
     },
-    "shops": [
-      "gnomeshop_rometti"
-    ]
+    "shops": {
+      "gnomeshop_rometti": 5
+    }
   },
   {
     "debugname": "cert_gnome_robetop_cream",
@@ -10042,9 +10042,9 @@
       "slashdefence": 2,
       "crushdefence": 2
     },
-    "shops": [
-      "gnomeshop_rometti"
-    ]
+    "shops": {
+      "gnomeshop_rometti": 5
+    }
   },
   {
     "debugname": "cert_gnome_robetop_turquoise",
@@ -10078,9 +10078,9 @@
       "slashdefence": 2,
       "crushdefence": 2
     },
-    "shops": [
-      "gnomeshop_rometti"
-    ]
+    "shops": {
+      "gnomeshop_rometti": 5
+    }
   },
   {
     "debugname": "cert_gnome_robebottoms_pink",
@@ -10114,9 +10114,9 @@
       "slashdefence": 2,
       "crushdefence": 2
     },
-    "shops": [
-      "gnomeshop_rometti"
-    ]
+    "shops": {
+      "gnomeshop_rometti": 5
+    }
   },
   {
     "debugname": "cert_gnome_robebottoms_green",
@@ -10150,9 +10150,9 @@
       "slashdefence": 2,
       "crushdefence": 2
     },
-    "shops": [
-      "gnomeshop_rometti"
-    ]
+    "shops": {
+      "gnomeshop_rometti": 5
+    }
   },
   {
     "debugname": "cert_gnome_robebottoms_blue",
@@ -10186,9 +10186,9 @@
       "slashdefence": 2,
       "crushdefence": 2
     },
-    "shops": [
-      "gnomeshop_rometti"
-    ]
+    "shops": {
+      "gnomeshop_rometti": 5
+    }
   },
   {
     "debugname": "cert_gnome_robebottoms_cream",
@@ -10222,9 +10222,9 @@
       "slashdefence": 2,
       "crushdefence": 2
     },
-    "shops": [
-      "gnomeshop_rometti"
-    ]
+    "shops": {
+      "gnomeshop_rometti": 5
+    }
   },
   {
     "debugname": "cert_gnome_robebottoms_turquoise",
@@ -10258,9 +10258,9 @@
       "magicattack": 3,
       "magicdefence": 3
     },
-    "shops": [
-      "gnomeshop_rometti"
-    ]
+    "shops": {
+      "gnomeshop_rometti": 5
+    }
   },
   {
     "debugname": "cert_gnome_hat_pink",
@@ -10294,9 +10294,9 @@
       "magicattack": 3,
       "magicdefence": 3
     },
-    "shops": [
-      "gnomeshop_rometti"
-    ]
+    "shops": {
+      "gnomeshop_rometti": 5
+    }
   },
   {
     "debugname": "cert_gnome_hat_green",
@@ -10330,9 +10330,9 @@
       "magicattack": 3,
       "magicdefence": 3
     },
-    "shops": [
-      "gnomeshop_rometti"
-    ]
+    "shops": {
+      "gnomeshop_rometti": 5
+    }
   },
   {
     "debugname": "cert_gnome_hat_blue",
@@ -10366,9 +10366,9 @@
       "magicattack": 3,
       "magicdefence": 3
     },
-    "shops": [
-      "gnomeshop_rometti"
-    ]
+    "shops": {
+      "gnomeshop_rometti": 5
+    }
   },
   {
     "debugname": "cert_gnome_hat_cream",
@@ -10402,9 +10402,9 @@
       "magicattack": 3,
       "magicdefence": 3
     },
-    "shops": [
-      "gnomeshop_rometti"
-    ]
+    "shops": {
+      "gnomeshop_rometti": 5
+    }
   },
   {
     "debugname": "cert_gnome_hat_turquoise",
@@ -12295,9 +12295,9 @@
       "rangebonus": 5,
       "attackrate": 5
     },
-    "shops": [
-      "ranging_guild_tribalshop"
-    ]
+    "shops": {
+      "ranging_guild_tribalshop": 900
+    }
   },
   {
     "debugname": "iron_thrownaxe",
@@ -12319,9 +12319,9 @@
       "rangebonus": 7,
       "attackrate": 5
     },
-    "shops": [
-      "ranging_guild_tribalshop"
-    ]
+    "shops": {
+      "ranging_guild_tribalshop": 800
+    }
   },
   {
     "debugname": "steel_thrownaxe",
@@ -12343,9 +12343,9 @@
       "rangebonus": 11,
       "attackrate": 5
     },
-    "shops": [
-      "ranging_guild_tribalshop"
-    ]
+    "shops": {
+      "ranging_guild_tribalshop": 700
+    }
   },
   {
     "debugname": "mithril_thrownaxe",
@@ -12367,9 +12367,9 @@
       "rangebonus": 16,
       "attackrate": 5
     },
-    "shops": [
-      "ranging_guild_tribalshop"
-    ]
+    "shops": {
+      "ranging_guild_tribalshop": 600
+    }
   },
   {
     "debugname": "adamnt_thrownaxe",
@@ -12391,9 +12391,9 @@
       "rangebonus": 23,
       "attackrate": 5
     },
-    "shops": [
-      "ranging_guild_tribalshop"
-    ]
+    "shops": {
+      "ranging_guild_tribalshop": 500
+    }
   },
   {
     "debugname": "rune_thrownaxe",
@@ -12415,9 +12415,9 @@
       "rangebonus": 36,
       "attackrate": 5
     },
-    "shops": [
-      "ranging_guild_tribalshop"
-    ]
+    "shops": {
+      "ranging_guild_tribalshop": 400
+    }
   },
   {
     "debugname": "bronze_dart",
@@ -12793,9 +12793,9 @@
       "rangebonus": 6,
       "attackrate": 6
     },
-    "shops": [
-      "ranging_guild_tribalshop"
-    ]
+    "shops": {
+      "ranging_guild_tribalshop": 900
+    }
   },
   {
     "debugname": "iron_javelin",
@@ -12817,9 +12817,9 @@
       "rangebonus": 10,
       "attackrate": 6
     },
-    "shops": [
-      "ranging_guild_tribalshop"
-    ]
+    "shops": {
+      "ranging_guild_tribalshop": 800
+    }
   },
   {
     "debugname": "steel_javelin",
@@ -12841,9 +12841,9 @@
       "rangebonus": 12,
       "attackrate": 6
     },
-    "shops": [
-      "ranging_guild_tribalshop"
-    ]
+    "shops": {
+      "ranging_guild_tribalshop": 700
+    }
   },
   {
     "debugname": "mithril_javelin",
@@ -12865,9 +12865,9 @@
       "rangebonus": 18,
       "attackrate": 6
     },
-    "shops": [
-      "ranging_guild_tribalshop"
-    ]
+    "shops": {
+      "ranging_guild_tribalshop": 600
+    }
   },
   {
     "debugname": "adamant_javelin",
@@ -12889,9 +12889,9 @@
       "rangebonus": 28,
       "attackrate": 6
     },
-    "shops": [
-      "ranging_guild_tribalshop"
-    ]
+    "shops": {
+      "ranging_guild_tribalshop": 500
+    }
   },
   {
     "debugname": "rune_javelin",
@@ -12913,9 +12913,9 @@
       "rangebonus": 42,
       "attackrate": 6
     },
-    "shops": [
-      "ranging_guild_tribalshop"
-    ]
+    "shops": {
+      "ranging_guild_tribalshop": 400
+    }
   },
   {
     "debugname": "bronze_javelin_p",
@@ -13065,12 +13065,12 @@
       "0_49_57_38_15",
       "0_51_58_20_7"
     ],
-    "shops": [
-      "archeryshop",
-      "archeryshop2",
-      "gnomeshop_gulluck",
-      "lathastrainingstore"
-    ]
+    "shops": {
+      "archeryshop": 2,
+      "archeryshop2": 2,
+      "gnomeshop_gulluck": 2,
+      "lathastrainingstore": 2
+    }
   },
   {
     "debugname": "cert_crossbow",
@@ -13107,14 +13107,14 @@
     "spawn_locations": [
       "0_41_53_54_35"
     ],
-    "shops": [
-      "archeryshop",
-      "archeryshop2",
-      "gnomeshop_gulluck",
-      "lathastrainingstore",
-      "ranging_guild_bowshop",
-      "upassgeneralshop"
-    ]
+    "shops": {
+      "archeryshop": 4,
+      "archeryshop2": 2,
+      "gnomeshop_gulluck": 2,
+      "lathastrainingstore": 2,
+      "ranging_guild_bowshop": 20,
+      "upassgeneralshop": 2
+    }
   },
   {
     "debugname": "cert_longbow",
@@ -13150,13 +13150,13 @@
     "spawn_locations": [
       "1_45_53_34_47"
     ],
-    "shops": [
-      "archeryshop",
-      "archeryshop2",
-      "gnomeshop_gulluck",
-      "lathastrainingstore",
-      "ranging_guild_bowshop"
-    ]
+    "shops": {
+      "archeryshop": 4,
+      "archeryshop2": 4,
+      "gnomeshop_gulluck": 4,
+      "lathastrainingstore": 4,
+      "ranging_guild_bowshop": 20
+    }
   },
   {
     "debugname": "cert_shortbow",
@@ -13189,11 +13189,11 @@
       "wearpos": "weapon",
       "rangeattack": 14
     },
-    "shops": [
-      "archeryshop",
-      "archeryshop2",
-      "ranging_guild_bowshop"
-    ]
+    "shops": {
+      "archeryshop": 2,
+      "archeryshop2": 4,
+      "ranging_guild_bowshop": 20
+    }
   },
   {
     "debugname": "cert_oak_shortbow",
@@ -13227,11 +13227,11 @@
       "rangeattack": 14,
       "attackrate": 6
     },
-    "shops": [
-      "archeryshop",
-      "archeryshop2",
-      "ranging_guild_bowshop"
-    ]
+    "shops": {
+      "archeryshop": 2,
+      "archeryshop2": 4,
+      "ranging_guild_bowshop": 20
+    }
   },
   {
     "debugname": "cert_oak_longbow",
@@ -13265,9 +13265,9 @@
       "rangeattack": 20,
       "attackrate": 6
     },
-    "shops": [
-      "ranging_guild_bowshop"
-    ]
+    "shops": {
+      "ranging_guild_bowshop": 20
+    }
   },
   {
     "debugname": "cert_willow_longbow",
@@ -13300,9 +13300,9 @@
       "wearpos": "weapon",
       "rangeattack": 20
     },
-    "shops": [
-      "ranging_guild_bowshop"
-    ]
+    "shops": {
+      "ranging_guild_bowshop": 20
+    }
   },
   {
     "debugname": "cert_willow_shortbow",
@@ -13840,12 +13840,12 @@
       "1_47_50_8_44",
       "1_47_50_20_59"
     ],
-    "shops": [
-      "archeryshop",
-      "archeryshop2",
-      "gnomeshop_gulluck",
-      "lathastrainingstore"
-    ]
+    "shops": {
+      "archeryshop": 1500,
+      "archeryshop2": 200,
+      "gnomeshop_gulluck": 150,
+      "lathastrainingstore": 200
+    }
   },
   {
     "debugname": "poison_bolt",
@@ -13903,9 +13903,9 @@
       "wearpos": "ammunition",
       "rangebonus": 19
     },
-    "shops": [
-      "gnomeshop_gulluck"
-    ]
+    "shops": {
+      "gnomeshop_gulluck": 1
+    }
   },
   {
     "debugname": "barbed_bolt",
@@ -13962,16 +13962,16 @@
       "0_48_154_63_60",
       "0_50_50_5_27"
     ],
-    "shops": [
-      "adventurershop",
-      "archeryshop",
-      "archeryshop2",
-      "gnomeshop",
-      "gnomeshop_gulluck",
-      "lathastrainingstore",
-      "ranging_guild_bowshop",
-      "upassgeneralshop"
-    ]
+    "shops": {
+      "adventurershop": 500,
+      "archeryshop": 2000,
+      "archeryshop2": 1000,
+      "gnomeshop": 30,
+      "gnomeshop_gulluck": 200,
+      "lathastrainingstore": 200,
+      "ranging_guild_bowshop": 1000,
+      "upassgeneralshop": 20
+    }
   },
   {
     "debugname": "bronze_arrow_p",
@@ -14010,11 +14010,11 @@
       "wearpos": "ammunition",
       "rangebonus": 10
     },
-    "shops": [
-      "archeryshop",
-      "archeryshop2",
-      "ranging_guild_bowshop"
-    ]
+    "shops": {
+      "archeryshop": 1500,
+      "archeryshop2": 800,
+      "ranging_guild_bowshop": 500
+    }
   },
   {
     "debugname": "iron_arrow_p",
@@ -14053,12 +14053,12 @@
       "wearpos": "ammunition",
       "rangebonus": 16
     },
-    "shops": [
-      "archeryshop",
-      "archeryshop2",
-      "generallegends",
-      "ranging_guild_bowshop"
-    ]
+    "shops": {
+      "archeryshop": 1000,
+      "archeryshop2": 0,
+      "generallegends": 500,
+      "ranging_guild_bowshop": 500
+    }
   },
   {
     "debugname": "steel_arrow_p",
@@ -14100,10 +14100,10 @@
     "spawn_locations": [
       "0_41_53_57_34"
     ],
-    "shops": [
-      "archeryshop2",
-      "ranging_guild_bowshop"
-    ]
+    "shops": {
+      "archeryshop2": 0,
+      "ranging_guild_bowshop": 500
+    }
   },
   {
     "debugname": "mithril_arrow_p",
@@ -14142,10 +14142,10 @@
       "wearpos": "ammunition",
       "rangebonus": 31
     },
-    "shops": [
-      "archeryshop2",
-      "ranging_guild_bowshop"
-    ]
+    "shops": {
+      "archeryshop2": 0,
+      "ranging_guild_bowshop": 450
+    }
   },
   {
     "debugname": "adamant_arrow_p",
@@ -14184,10 +14184,10 @@
       "wearpos": "ammunition",
       "rangebonus": 49
     },
-    "shops": [
-      "archeryshop2",
-      "ranging_guild_bowshop"
-    ]
+    "shops": {
+      "archeryshop2": 0,
+      "ranging_guild_bowshop": 400
+    }
   },
   {
     "debugname": "rune_arrow_p",
@@ -14969,15 +14969,15 @@
       "0_50_50_24_2",
       "1_50_53_18_26"
     ],
-    "shops": [
-      "bedabincampshop",
-      "generalshopogre",
-      "gnomeshop_heck",
-      "gnomeshop_hudo",
-      "junglestore",
-      "lighthouseshop",
-      "shantayshop"
-    ]
+    "shops": {
+      "bedabincampshop": 5,
+      "generalshopogre": 2,
+      "gnomeshop_heck": 5,
+      "gnomeshop_hudo": 5,
+      "junglestore": 2,
+      "lighthouseshop": 10,
+      "shantayshop": 10
+    }
   },
   {
     "debugname": "cert_knife",
@@ -15005,11 +15005,11 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "fancyclothesstore",
-      "furshop",
-      "viking_furshop"
-    ]
+    "shops": {
+      "fancyclothesstore": 3,
+      "furshop": 3,
+      "viking_furshop": 3
+    }
   },
   {
     "debugname": "cert_fur",
@@ -15037,9 +15037,9 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "clotheshop"
-    ]
+    "shops": {
+      "clotheshop": 5
+    }
   },
   {
     "debugname": "cert_silk",
@@ -15074,12 +15074,12 @@
       "0_48_52_48_31",
       "1_50_53_18_20"
     ],
-    "shops": [
-      "junglestore",
-      "lighthouseshop",
-      "shilojunglestore",
-      "viking_general_store"
-    ]
+    "shops": {
+      "junglestore": 10,
+      "lighthouseshop": 10,
+      "shilojunglestore": 10,
+      "viking_general_store": 10
+    }
   },
   {
     "debugname": "cert_spade",
@@ -15115,16 +15115,16 @@
       "0_43_51_34_23",
       "0_45_49_24_16"
     ],
-    "shops": [
-      "adventurershop",
-      "arheinstore",
-      "junglestore",
-      "khazardshop",
-      "lighthouseshop",
-      "shilojunglestore",
-      "upassgeneralshop",
-      "viking_general_store"
-    ]
+    "shops": {
+      "adventurershop": 20,
+      "arheinstore": 2,
+      "junglestore": 10,
+      "khazardshop": 30,
+      "lighthouseshop": 10,
+      "shilojunglestore": 10,
+      "upassgeneralshop": 3,
+      "viking_general_store": 10
+    }
   },
   {
     "debugname": "cert_rope",
@@ -15179,11 +15179,11 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "fancyclothesstore",
-      "furshop",
-      "viking_furshop"
-    ]
+    "shops": {
+      "fancyclothesstore": 3,
+      "furshop": 3,
+      "viking_furshop": 3
+    }
   },
   {
     "debugname": "cert_grey_wolf_fur",
@@ -15230,9 +15230,9 @@
       "0_51_57_11_16",
       "0_51_57_27_4"
     ],
-    "shops": [
-      "razmirebuildingstore"
-    ]
+    "shops": {
+      "razmirebuildingstore": 1000
+    }
   },
   {
     "debugname": "cert_woodplank",
@@ -15400,11 +15400,11 @@
       "0_42_52_36_39",
       "1_51_47_26_25"
     ],
-    "shops": [
-      "adventurershop",
-      "junglestore",
-      "shilojunglestore"
-    ]
+    "shops": {
+      "adventurershop": 50,
+      "junglestore": 50,
+      "shilojunglestore": 50
+    }
   },
   {
     "debugname": "cert_papyrus",
@@ -15444,10 +15444,10 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "junglestore",
-      "shilojunglestore"
-    ]
+    "shops": {
+      "junglestore": 50,
+      "shilojunglestore": 50
+    }
   },
   {
     "debugname": "cert_charcoal",
@@ -15483,10 +15483,10 @@
       "strengthbonus": 5,
       "attackrate": 5
     },
-    "shops": [
-      "junglestore",
-      "shilojunglestore"
-    ]
+    "shops": {
+      "junglestore": 50,
+      "shilojunglestore": 50
+    }
   },
   {
     "debugname": "cert_machette",
@@ -15976,9 +15976,9 @@
     "spawn_locations": [
       "0_47_50_2_8"
     ],
-    "shops": [
-      "clotheshop"
-    ]
+    "shops": {
+      "clotheshop": 3
+    }
   },
   {
     "debugname": "cert_white_apron",
@@ -16013,11 +16013,11 @@
       "crushdefence": 1,
       "rangedefence": 2
     },
-    "shops": [
-      "clotheshop",
-      "fancyclothesstore",
-      "werewolfstore2"
-    ]
+    "shops": {
+      "clotheshop": 4,
+      "fancyclothesstore": 4,
+      "werewolfstore2": 5
+    }
   },
   {
     "debugname": "cert_red_cape",
@@ -16084,10 +16084,10 @@
     "equipable_item": {
       "wearpos": "legs"
     },
-    "shops": [
-      "clotheshop",
-      "fancyclothesstore"
-    ]
+    "shops": {
+      "clotheshop": 2,
+      "fancyclothesstore": 2
+    }
   },
   {
     "debugname": "cert_blue_skirt",
@@ -16119,10 +16119,10 @@
     "equipable_item": {
       "wearpos": "legs"
     },
-    "shops": [
-      "clotheshop",
-      "fancyclothesstore"
-    ]
+    "shops": {
+      "clotheshop": 5,
+      "fancyclothesstore": 5
+    }
   },
   {
     "debugname": "cert_pink_skirt",
@@ -16154,10 +16154,10 @@
     "equipable_item": {
       "wearpos": "legs"
     },
-    "shops": [
-      "clotheshop",
-      "fancyclothesstore"
-    ]
+    "shops": {
+      "clotheshop": 3,
+      "fancyclothesstore": 3
+    }
   },
   {
     "debugname": "cert_black_skirt",
@@ -16191,9 +16191,9 @@
       "magicattack": 2,
       "magicdefence": 2
     },
-    "shops": [
-      "magicshop"
-    ]
+    "shops": {
+      "magicshop": 1
+    }
   },
   {
     "debugname": "cert_blackwizhat",
@@ -16228,9 +16228,9 @@
       "crushdefence": 1,
       "rangedefence": 2
     },
-    "shops": [
-      "werewolfstore2"
-    ]
+    "shops": {
+      "werewolfstore2": 5
+    }
   },
   {
     "debugname": "cert_black_cape",
@@ -16265,10 +16265,10 @@
       "crushdefence": 1,
       "rangedefence": 2
     },
-    "shops": [
-      "championshop",
-      "werewolfstore2"
-    ]
+    "shops": {
+      "championshop": 2,
+      "werewolfstore2": 5
+    }
   },
   {
     "debugname": "cert_blue_cape",
@@ -16303,10 +16303,10 @@
       "crushdefence": 1,
       "rangedefence": 2
     },
-    "shops": [
-      "fancyclothesstore",
-      "werewolfstore2"
-    ]
+    "shops": {
+      "fancyclothesstore": 1,
+      "werewolfstore2": 5
+    }
   },
   {
     "debugname": "cert_yellow_cape",
@@ -16338,9 +16338,9 @@
     "equipable_item": {
       "wearpos": "head"
     },
-    "shops": [
-      "fancyclothesstore"
-    ]
+    "shops": {
+      "fancyclothesstore": 3
+    }
   },
   {
     "debugname": "cert_eye_patch",
@@ -16375,9 +16375,9 @@
       "crushdefence": 1,
       "rangedefence": 2
     },
-    "shops": [
-      "werewolfstore2"
-    ]
+    "shops": {
+      "werewolfstore2": 5
+    }
   },
   {
     "debugname": "cert_green_cape",
@@ -16782,9 +16782,9 @@
       "magicdefence": 7,
       "rangedefence": 7
     },
-    "shops": [
-      "legendsguildshop"
-    ]
+    "shops": {
+      "legendsguildshop": 3
+    }
   },
   {
     "debugname": "halloweenmask_green",
@@ -16902,12 +16902,12 @@
       "0_50_49_34_15",
       "1_50_52_42_57"
     ],
-    "shops": [
-      "clotheshop",
-      "fancyclothesstore",
-      "junglestore",
-      "shilojunglestore"
-    ]
+    "shops": {
+      "clotheshop": 10,
+      "fancyclothesstore": 10,
+      "junglestore": 10,
+      "shilojunglestore": 10
+    }
   },
   {
     "debugname": "cert_leather_gloves",
@@ -16949,13 +16949,13 @@
       "1_48_49_40_19",
       "1_50_52_44_58"
     ],
-    "shops": [
-      "clotheshop",
-      "fancyclothesstore",
-      "junglestore",
-      "shilojunglestore",
-      "upassgeneralshop"
-    ]
+    "shops": {
+      "clotheshop": 10,
+      "fancyclothesstore": 10,
+      "junglestore": 10,
+      "shilojunglestore": 10,
+      "upassgeneralshop": 2
+    }
   },
   {
     "debugname": "cert_leather_boots",
@@ -16991,9 +16991,9 @@
       "slashdefence": 2,
       "crushdefence": 1
     },
-    "shops": [
-      "ranging_guild_armourshop"
-    ]
+    "shops": {
+      "ranging_guild_armourshop": 10
+    }
   },
   {
     "debugname": "cert_leather_vambraces",
@@ -17031,9 +17031,9 @@
       "crushdefence": 4,
       "magicdefence": 2
     },
-    "shops": [
-      "runiteshop"
-    ]
+    "shops": {
+      "runiteshop": 1
+    }
   },
   {
     "debugname": "cert_dragon_vambraces",
@@ -17075,10 +17075,10 @@
     "spawn_locations": [
       "0_50_53_54_60"
     ],
-    "shops": [
-      "armourshop",
-      "legsshop"
-    ]
+    "shops": {
+      "armourshop": 1,
+      "legsshop": 3
+    }
   },
   {
     "debugname": "cert_iron_platelegs",
@@ -17120,9 +17120,9 @@
     "spawn_locations": [
       "0_49_58_48_21"
     ],
-    "shops": [
-      "legsshop"
-    ]
+    "shops": {
+      "legsshop": 2
+    }
   },
   {
     "debugname": "cert_steel_platelegs",
@@ -17161,9 +17161,9 @@
       "magicdefence": -4,
       "rangedefence": 22
     },
-    "shops": [
-      "legsshop"
-    ]
+    "shops": {
+      "legsshop": 1
+    }
   },
   {
     "debugname": "cert_mithril_platelegs",
@@ -17202,9 +17202,9 @@
       "magicdefence": -4,
       "rangedefence": 31
     },
-    "shops": [
-      "legsshop"
-    ]
+    "shops": {
+      "legsshop": 1
+    }
   },
   {
     "debugname": "cert_adamant_platelegs",
@@ -17243,9 +17243,9 @@
       "magicdefence": -4,
       "rangedefence": 7
     },
-    "shops": [
-      "legsshop"
-    ]
+    "shops": {
+      "legsshop": 5
+    }
   },
   {
     "debugname": "cert_bronze_platelegs",
@@ -17284,10 +17284,10 @@
       "magicdefence": -4,
       "rangedefence": 20
     },
-    "shops": [
-      "championshop",
-      "legsshop"
-    ]
+    "shops": {
+      "championshop": 1,
+      "legsshop": 1
+    }
   },
   {
     "debugname": "cert_black_platelegs",
@@ -17326,9 +17326,9 @@
       "magicdefence": -4,
       "rangedefence": 49
     },
-    "shops": [
-      "runiteshop"
-    ]
+    "shops": {
+      "runiteshop": 1
+    }
   },
   {
     "debugname": "cert_rune_platelegs",
@@ -17367,9 +17367,9 @@
       "magicdefence": -4,
       "rangedefence": 10
     },
-    "shops": [
-      "skirtshop"
-    ]
+    "shops": {
+      "skirtshop": 3
+    }
   },
   {
     "debugname": "cert_iron_plateskirt",
@@ -17408,9 +17408,9 @@
       "magicdefence": -4,
       "rangedefence": 16
     },
-    "shops": [
-      "skirtshop"
-    ]
+    "shops": {
+      "skirtshop": 2
+    }
   },
   {
     "debugname": "cert_steel_plateskirt",
@@ -17449,9 +17449,9 @@
       "magicdefence": -4,
       "rangedefence": 22
     },
-    "shops": [
-      "skirtshop"
-    ]
+    "shops": {
+      "skirtshop": 1
+    }
   },
   {
     "debugname": "cert_mithril_plateskirt",
@@ -17490,9 +17490,9 @@
       "magicdefence": -4,
       "rangedefence": 7
     },
-    "shops": [
-      "skirtshop"
-    ]
+    "shops": {
+      "skirtshop": 5
+    }
   },
   {
     "debugname": "cert_bronze_plateskirt",
@@ -17531,9 +17531,9 @@
       "magicdefence": -4,
       "rangedefence": 20
     },
-    "shops": [
-      "skirtshop"
-    ]
+    "shops": {
+      "skirtshop": 1
+    }
   },
   {
     "debugname": "cert_black_plateskirt",
@@ -17572,9 +17572,9 @@
       "magicdefence": -4,
       "rangedefence": 31
     },
-    "shops": [
-      "skirtshop"
-    ]
+    "shops": {
+      "skirtshop": 1
+    }
   },
   {
     "debugname": "cert_adamant_plateskirt",
@@ -17613,9 +17613,9 @@
       "magicdefence": -4,
       "rangedefence": 49
     },
-    "shops": [
-      "runiteshop"
-    ]
+    "shops": {
+      "runiteshop": 1
+    }
   },
   {
     "debugname": "cert_rune_plateskirt",
@@ -17651,9 +17651,9 @@
       "slashdefence": 2,
       "crushdefence": 1
     },
-    "shops": [
-      "ranging_guild_armourshop"
-    ]
+    "shops": {
+      "ranging_guild_armourshop": 20
+    }
   },
   {
     "debugname": "cert_leather_chaps",
@@ -17692,11 +17692,11 @@
       "magicdefence": 6,
       "rangedefence": 16
     },
-    "shops": [
-      "archeryshop2",
-      "armourshop",
-      "ranging_guild_armourshop"
-    ]
+    "shops": {
+      "archeryshop2": 2,
+      "armourshop": 1,
+      "ranging_guild_armourshop": 15
+    }
   },
   {
     "debugname": "cert_studded_chaps",
@@ -17735,9 +17735,9 @@
       "magicdefence": 8,
       "rangedefence": 22
     },
-    "shops": [
-      "runiteshop"
-    ]
+    "shops": {
+      "runiteshop": 1
+    }
   },
   {
     "debugname": "cert_dragonhide_chaps",
@@ -17775,10 +17775,10 @@
       "magicdefence": -3,
       "rangedefence": 12
     },
-    "shops": [
-      "armourshop",
-      "chainmailshop"
-    ]
+    "shops": {
+      "armourshop": 3,
+      "chainmailshop": 2
+    }
   },
   {
     "debugname": "cert_iron_chainbody",
@@ -17819,10 +17819,10 @@
     "spawn_locations": [
       "0_46_153_41_25"
     ],
-    "shops": [
-      "armourshop",
-      "chainmailshop"
-    ]
+    "shops": {
+      "armourshop": 5,
+      "chainmailshop": 3
+    }
   },
   {
     "debugname": "cert_bronze_chainbody",
@@ -17860,10 +17860,10 @@
       "magicdefence": -3,
       "rangedefence": 19
     },
-    "shops": [
-      "armourshop",
-      "chainmailshop"
-    ]
+    "shops": {
+      "armourshop": 3,
+      "chainmailshop": 1
+    }
   },
   {
     "debugname": "cert_steel_chainbody",
@@ -17901,9 +17901,9 @@
       "magicdefence": -3,
       "rangedefence": 24
     },
-    "shops": [
-      "chainmailshop"
-    ]
+    "shops": {
+      "chainmailshop": 1
+    }
   },
   {
     "debugname": "cert_black_chainbody",
@@ -17941,10 +17941,10 @@
       "magicdefence": -3,
       "rangedefence": 27
     },
-    "shops": [
-      "armourshop",
-      "chainmailshop"
-    ]
+    "shops": {
+      "armourshop": 1,
+      "chainmailshop": 1
+    }
   },
   {
     "debugname": "cert_mithril_chainbody",
@@ -17982,9 +17982,9 @@
       "magicdefence": -3,
       "rangedefence": 38
     },
-    "shops": [
-      "chainmailshop"
-    ]
+    "shops": {
+      "chainmailshop": 1
+    }
   },
   {
     "debugname": "cert_adamant_chainbody",
@@ -18022,9 +18022,9 @@
       "magicdefence": -3,
       "rangedefence": 65
     },
-    "shops": [
-      "runiteshop"
-    ]
+    "shops": {
+      "runiteshop": 1
+    }
   },
   {
     "debugname": "cert_rune_chainbody",
@@ -18066,10 +18066,10 @@
     "spawn_locations": [
       "0_50_53_54_61"
     ],
-    "shops": [
-      "armourshop",
-      "topshop"
-    ]
+    "shops": {
+      "armourshop": 1,
+      "topshop": 1
+    }
   },
   {
     "debugname": "cert_iron_platebody",
@@ -18108,10 +18108,10 @@
       "magicdefence": -6,
       "rangedefence": 14
     },
-    "shops": [
-      "armourshop",
-      "topshop"
-    ]
+    "shops": {
+      "armourshop": 3,
+      "topshop": 3
+    }
   },
   {
     "debugname": "cert_bronze_platebody",
@@ -18153,10 +18153,10 @@
     "spawn_locations": [
       "0_48_60_13_19"
     ],
-    "shops": [
-      "armourshop",
-      "topshop"
-    ]
+    "shops": {
+      "armourshop": 1,
+      "topshop": 1
+    }
   },
   {
     "debugname": "cert_steel_platebody",
@@ -18195,10 +18195,10 @@
       "magicdefence": -6,
       "rangedefence": 44
     },
-    "shops": [
-      "armourshop",
-      "topshop"
-    ]
+    "shops": {
+      "armourshop": 1,
+      "topshop": 1
+    }
   },
   {
     "debugname": "cert_mithril_platebody",
@@ -18237,9 +18237,9 @@
       "magicdefence": -6,
       "rangedefence": 63
     },
-    "shops": [
-      "championshop"
-    ]
+    "shops": {
+      "championshop": 1
+    }
   },
   {
     "debugname": "cert_adamant_platebody",
@@ -18278,10 +18278,10 @@
       "magicdefence": -6,
       "rangedefence": 40
     },
-    "shops": [
-      "armourshop",
-      "topshop"
-    ]
+    "shops": {
+      "armourshop": 1,
+      "topshop": 1
+    }
   },
   {
     "debugname": "cert_black_platebody",
@@ -18320,9 +18320,9 @@
       "magicdefence": -6,
       "rangedefence": 80
     },
-    "shops": [
-      "runeplateshop"
-    ]
+    "shops": {
+      "runeplateshop": 2
+    }
   },
   {
     "debugname": "cert_rune_platebody",
@@ -18364,12 +18364,12 @@
     "spawn_locations": [
       "0_50_53_44_6"
     ],
-    "shops": [
-      "clotheshop",
-      "junglestore",
-      "ranging_guild_armourshop",
-      "shilojunglestore"
-    ]
+    "shops": {
+      "clotheshop": 12,
+      "junglestore": 12,
+      "ranging_guild_armourshop": 10,
+      "shilojunglestore": 12
+    }
   },
   {
     "debugname": "cert_leather_armour",
@@ -18408,9 +18408,9 @@
       "magicdefence": 6,
       "rangedefence": 15
     },
-    "shops": [
-      "ranging_guild_armourshop"
-    ]
+    "shops": {
+      "ranging_guild_armourshop": 10
+    }
   },
   {
     "debugname": "cert_hardleather_body",
@@ -18449,11 +18449,11 @@
       "magicdefence": 8,
       "rangedefence": 25
     },
-    "shops": [
-      "archeryshop2",
-      "armourshop",
-      "ranging_guild_armourshop"
-    ]
+    "shops": {
+      "archeryshop2": 2,
+      "armourshop": 1,
+      "ranging_guild_armourshop": 10
+    }
   },
   {
     "debugname": "cert_studded_body",
@@ -18492,9 +18492,9 @@
       "magicdefence": 20,
       "rangedefence": 40
     },
-    "shops": [
-      "runeplateshop"
-    ]
+    "shops": {
+      "runeplateshop": 2
+    }
   },
   {
     "debugname": "cert_dragonhide_body",
@@ -18537,9 +18537,9 @@
       "0_39_50_44_49",
       "0_49_57_42_36"
     ],
-    "shops": [
-      "helmetshop"
-    ]
+    "shops": {
+      "helmetshop": 3
+    }
   },
   {
     "debugname": "cert_iron_med_helm",
@@ -18582,9 +18582,9 @@
       "0_48_152_4_49",
       "0_48_52_50_32"
     ],
-    "shops": [
-      "helmetshop"
-    ]
+    "shops": {
+      "helmetshop": 5
+    }
   },
   {
     "debugname": "cert_bronze_med_helm",
@@ -18623,9 +18623,9 @@
       "magicdefence": -1,
       "rangedefence": 7
     },
-    "shops": [
-      "helmetshop"
-    ]
+    "shops": {
+      "helmetshop": 3
+    }
   },
   {
     "debugname": "cert_steel_med_helm",
@@ -18664,9 +18664,9 @@
       "magicdefence": -1,
       "rangedefence": 10
     },
-    "shops": [
-      "helmetshop"
-    ]
+    "shops": {
+      "helmetshop": 1
+    }
   },
   {
     "debugname": "cert_mithril_med_helm",
@@ -18705,9 +18705,9 @@
       "magicdefence": -1,
       "rangedefence": 14
     },
-    "shops": [
-      "helmetshop"
-    ]
+    "shops": {
+      "helmetshop": 1
+    }
   },
   {
     "debugname": "cert_adamant_med_helm",
@@ -18863,9 +18863,9 @@
     "spawn_locations": [
       "0_47_59_61_55"
     ],
-    "shops": [
-      "helmetshop"
-    ]
+    "shops": {
+      "helmetshop": 3
+    }
   },
   {
     "debugname": "cert_iron_full_helm",
@@ -18904,9 +18904,9 @@
       "magicdefence": -1,
       "rangedefence": 4
     },
-    "shops": [
-      "helmetshop"
-    ]
+    "shops": {
+      "helmetshop": 4
+    }
   },
   {
     "debugname": "cert_bronze_full_helm",
@@ -18945,9 +18945,9 @@
       "magicdefence": -1,
       "rangedefence": 9
     },
-    "shops": [
-      "helmetshop"
-    ]
+    "shops": {
+      "helmetshop": 2
+    }
   },
   {
     "debugname": "cert_steel_full_helm",
@@ -18986,9 +18986,9 @@
       "magicdefence": -1,
       "rangedefence": 13
     },
-    "shops": [
-      "helmetshop"
-    ]
+    "shops": {
+      "helmetshop": 1
+    }
   },
   {
     "debugname": "cert_mithril_full_helm",
@@ -19027,9 +19027,9 @@
       "magicdefence": -1,
       "rangedefence": 19
     },
-    "shops": [
-      "helmetshop"
-    ]
+    "shops": {
+      "helmetshop": 1
+    }
   },
   {
     "debugname": "cert_adamant_full_helm",
@@ -19106,9 +19106,9 @@
       "magicdefence": -1,
       "rangedefence": 12
     },
-    "shops": [
-      "championshop"
-    ]
+    "shops": {
+      "championshop": 1
+    }
   },
   {
     "debugname": "cert_black_full_helm",
@@ -19146,9 +19146,9 @@
       "magicdefence": 2,
       "rangedefence": 3
     },
-    "shops": [
-      "ranging_guild_armourshop"
-    ]
+    "shops": {
+      "ranging_guild_armourshop": 10
+    }
   },
   {
     "debugname": "cert_leather_cowl",
@@ -19187,10 +19187,10 @@
       "magicdefence": 4,
       "rangedefence": 4
     },
-    "shops": [
-      "ranging_guild_armourshop",
-      "runiteshop"
-    ]
+    "shops": {
+      "ranging_guild_armourshop": 10,
+      "runiteshop": 2
+    }
   },
   {
     "debugname": "cert_coif",
@@ -19230,9 +19230,9 @@
     "spawn_locations": [
       "0_50_54_4_59"
     ],
-    "shops": [
-      "shieldshop"
-    ]
+    "shops": {
+      "shieldshop": 5
+    }
   },
   {
     "debugname": "cert_wooden_shield",
@@ -19273,9 +19273,9 @@
     "spawn_locations": [
       "1_51_61_30_31"
     ],
-    "shops": [
-      "shieldshop"
-    ]
+    "shops": {
+      "shieldshop": 3
+    }
   },
   {
     "debugname": "cert_bronze_sq_shield",
@@ -19313,9 +19313,9 @@
       "crushdefence": 7,
       "rangedefence": 8
     },
-    "shops": [
-      "shieldshop"
-    ]
+    "shops": {
+      "shieldshop": 2
+    }
   },
   {
     "debugname": "cert_iron_sq_shield",
@@ -19353,9 +19353,9 @@
       "crushdefence": 11,
       "rangedefence": 12
     },
-    "shops": [
-      "shieldshop"
-    ]
+    "shops": {
+      "shieldshop": 0
+    }
   },
   {
     "debugname": "cert_steel_sq_shield",
@@ -19430,9 +19430,9 @@
       "crushdefence": 15,
       "rangedefence": 17
     },
-    "shops": [
-      "shieldshop"
-    ]
+    "shops": {
+      "shieldshop": 0
+    }
   },
   {
     "debugname": "cert_mithril_sq_shield",
@@ -19582,9 +19582,9 @@
       "magicdefence": -1,
       "rangedefence": 6
     },
-    "shops": [
-      "shieldshop"
-    ]
+    "shops": {
+      "shieldshop": 3
+    }
   },
   {
     "debugname": "cert_bronze_kiteshield",
@@ -19626,9 +19626,9 @@
     "spawn_locations": [
       "0_50_59_47_19"
     ],
-    "shops": [
-      "shieldshop"
-    ]
+    "shops": {
+      "shieldshop": 0
+    }
   },
   {
     "debugname": "cert_iron_kiteshield",
@@ -19667,9 +19667,9 @@
       "magicdefence": -1,
       "rangedefence": 14
     },
-    "shops": [
-      "shieldshop"
-    ]
+    "shops": {
+      "shieldshop": 0
+    }
   },
   {
     "debugname": "cert_steel_kiteshield",
@@ -19865,9 +19865,9 @@
       "1_50_52_42_55",
       "3_51_61_15_34"
     ],
-    "shops": [
-      "swordshop"
-    ]
+    "shops": {
+      "swordshop": 6
+    }
   },
   {
     "debugname": "cert_iron_dagger",
@@ -19908,9 +19908,9 @@
     "spawn_locations": [
       "1_50_50_13_16"
     ],
-    "shops": [
-      "swordshop"
-    ]
+    "shops": {
+      "swordshop": 10
+    }
   },
   {
     "debugname": "cert_bronze_dagger",
@@ -19953,9 +19953,9 @@
       "0_51_58_28_50",
       "0_51_58_48_57"
     ],
-    "shops": [
-      "swordshop"
-    ]
+    "shops": {
+      "swordshop": 5
+    }
   },
   {
     "debugname": "cert_steel_dagger",
@@ -19993,9 +19993,9 @@
       "magicdefence": 1,
       "strengthbonus": 10
     },
-    "shops": [
-      "swordshop"
-    ]
+    "shops": {
+      "swordshop": 3
+    }
   },
   {
     "debugname": "cert_mithril_dagger",
@@ -20033,9 +20033,9 @@
       "magicdefence": 1,
       "strengthbonus": 14
     },
-    "shops": [
-      "swordshop"
-    ]
+    "shops": {
+      "swordshop": 2
+    }
   },
   {
     "debugname": "cert_adamant_dagger",
@@ -20110,9 +20110,9 @@
       "magicdefence": 1,
       "strengthbonus": 40
     },
-    "shops": [
-      "dragonswordshop"
-    ]
+    "shops": {
+      "dragonswordshop": 2
+    }
   },
   {
     "debugname": "cert_dragon_dagger",
@@ -20153,9 +20153,9 @@
     "spawn_locations": [
       "0_49_59_44_48"
     ],
-    "shops": [
-      "swordshop"
-    ]
+    "shops": {
+      "swordshop": 4
+    }
   },
   {
     "debugname": "cert_black_dagger",
@@ -21079,19 +21079,19 @@
       "2_50_50_29_15",
       "2_50_50_29_23"
     ],
-    "shops": [
-      "adventurershop",
-      "arheinstore",
-      "axeshop",
-      "gnomeshop",
-      "junglestore",
-      "khazardshop",
-      "miningstore",
-      "pickaxeshop",
-      "shilojunglestore",
-      "taxfree",
-      "upassgeneralshop"
-    ]
+    "shops": {
+      "adventurershop": 2,
+      "arheinstore": 2,
+      "axeshop": 5,
+      "gnomeshop": 5,
+      "junglestore": 2,
+      "khazardshop": 5,
+      "miningstore": 4,
+      "pickaxeshop": 6,
+      "shilojunglestore": 2,
+      "taxfree": 5,
+      "upassgeneralshop": 2
+    }
   },
   {
     "debugname": "cert_bronze_pickaxe",
@@ -21138,9 +21138,9 @@
       "0_52_153_22_24",
       "0_52_152_23_24"
     ],
-    "shops": [
-      "pickaxeshop"
-    ]
+    "shops": {
+      "pickaxeshop": 5
+    }
   },
   {
     "debugname": "cert_iron_pickaxe",
@@ -21178,9 +21178,9 @@
       "strengthbonus": 9,
       "attackrate": 5
     },
-    "shops": [
-      "pickaxeshop"
-    ]
+    "shops": {
+      "pickaxeshop": 4
+    }
   },
   {
     "debugname": "cert_steel_pickaxe",
@@ -21218,9 +21218,9 @@
       "strengthbonus": 19,
       "attackrate": 5
     },
-    "shops": [
-      "pickaxeshop"
-    ]
+    "shops": {
+      "pickaxeshop": 2
+    }
   },
   {
     "debugname": "cert_adamant_pickaxe",
@@ -21258,9 +21258,9 @@
       "strengthbonus": 13,
       "attackrate": 5
     },
-    "shops": [
-      "pickaxeshop"
-    ]
+    "shops": {
+      "pickaxeshop": 3
+    }
   },
   {
     "debugname": "cert_mithril_pickaxe",
@@ -21298,9 +21298,9 @@
       "strengthbonus": 29,
       "attackrate": 5
     },
-    "shops": [
-      "pickaxeshop"
-    ]
+    "shops": {
+      "pickaxeshop": 1
+    }
   },
   {
     "debugname": "cert_rune_pickaxe",
@@ -21338,9 +21338,9 @@
       "crushdefence": 1,
       "strengthbonus": 5
     },
-    "shops": [
-      "swordshop"
-    ]
+    "shops": {
+      "swordshop": 5
+    }
   },
   {
     "debugname": "cert_bronze_sword",
@@ -21381,9 +21381,9 @@
     "spawn_locations": [
       "0_50_53_54_59"
     ],
-    "shops": [
-      "swordshop"
-    ]
+    "shops": {
+      "swordshop": 4
+    }
   },
   {
     "debugname": "cert_iron_sword",
@@ -21424,9 +21424,9 @@
     "spawn_locations": [
       "0_51_57_19_10"
     ],
-    "shops": [
-      "swordshop"
-    ]
+    "shops": {
+      "swordshop": 4
+    }
   },
   {
     "debugname": "cert_steel_sword",
@@ -21464,9 +21464,9 @@
       "crushdefence": 1,
       "strengthbonus": 12
     },
-    "shops": [
-      "swordshop"
-    ]
+    "shops": {
+      "swordshop": 3
+    }
   },
   {
     "debugname": "cert_black_sword",
@@ -21504,9 +21504,9 @@
       "crushdefence": 1,
       "strengthbonus": 17
     },
-    "shops": [
-      "swordshop"
-    ]
+    "shops": {
+      "swordshop": 3
+    }
   },
   {
     "debugname": "cert_mithril_sword",
@@ -21544,9 +21544,9 @@
       "crushdefence": 1,
       "strengthbonus": 24
     },
-    "shops": [
-      "swordshop"
-    ]
+    "shops": {
+      "swordshop": 2
+    }
   },
   {
     "debugname": "cert_adamant_sword",
@@ -21584,9 +21584,9 @@
       "crushdefence": 1,
       "strengthbonus": 39
     },
-    "shops": [
-      "runiteshop"
-    ]
+    "shops": {
+      "runiteshop": 1
+    }
   },
   {
     "debugname": "cert_rune_sword",
@@ -21625,9 +21625,9 @@
       "strengthbonus": 7,
       "attackrate": 5
     },
-    "shops": [
-      "swordshop"
-    ]
+    "shops": {
+      "swordshop": 4
+    }
   },
   {
     "debugname": "cert_bronze_longsword",
@@ -21666,9 +21666,9 @@
       "strengthbonus": 10,
       "attackrate": 5
     },
-    "shops": [
-      "swordshop"
-    ]
+    "shops": {
+      "swordshop": 3
+    }
   },
   {
     "debugname": "cert_iron_longsword",
@@ -21707,9 +21707,9 @@
       "strengthbonus": 16,
       "attackrate": 5
     },
-    "shops": [
-      "swordshop"
-    ]
+    "shops": {
+      "swordshop": 3
+    }
   },
   {
     "debugname": "cert_steel_longsword",
@@ -21748,9 +21748,9 @@
       "strengthbonus": 16,
       "attackrate": 5
     },
-    "shops": [
-      "swordshop"
-    ]
+    "shops": {
+      "swordshop": 2
+    }
   },
   {
     "debugname": "cert_black_longsword",
@@ -21789,9 +21789,9 @@
       "strengthbonus": 22,
       "attackrate": 5
     },
-    "shops": [
-      "swordshop"
-    ]
+    "shops": {
+      "swordshop": 2
+    }
   },
   {
     "debugname": "cert_mithril_longsword",
@@ -21830,9 +21830,9 @@
       "strengthbonus": 31,
       "attackrate": 5
     },
-    "shops": [
-      "swordshop"
-    ]
+    "shops": {
+      "swordshop": 1
+    }
   },
   {
     "debugname": "cert_adamant_longsword",
@@ -21871,9 +21871,9 @@
       "strengthbonus": 49,
       "attackrate": 5
     },
-    "shops": [
-      "runiteshop"
-    ]
+    "shops": {
+      "runiteshop": 1
+    }
   },
   {
     "debugname": "cert_rune_longsword",
@@ -21912,9 +21912,9 @@
       "strengthbonus": 71,
       "attackrate": 5
     },
-    "shops": [
-      "dragonswordshop"
-    ]
+    "shops": {
+      "dragonswordshop": 2
+    }
   },
   {
     "debugname": "cert_dragon_longsword",
@@ -21953,11 +21953,11 @@
       "strengthbonus": 10,
       "attackrate": 7
     },
-    "shops": [
-      "2handedshop",
-      "gnomeshop_gulluck",
-      "lathastrainingstore"
-    ]
+    "shops": {
+      "2handedshop": 4,
+      "gnomeshop_gulluck": 4,
+      "lathastrainingstore": 4
+    }
   },
   {
     "debugname": "cert_bronze_2h_sword",
@@ -21996,11 +21996,11 @@
       "strengthbonus": 14,
       "attackrate": 7
     },
-    "shops": [
-      "2handedshop",
-      "gnomeshop_gulluck",
-      "lathastrainingstore"
-    ]
+    "shops": {
+      "2handedshop": 3,
+      "gnomeshop_gulluck": 3,
+      "lathastrainingstore": 3
+    }
   },
   {
     "debugname": "cert_iron_2h_sword",
@@ -22039,11 +22039,11 @@
       "strengthbonus": 22,
       "attackrate": 7
     },
-    "shops": [
-      "2handedshop",
-      "gnomeshop_gulluck",
-      "lathastrainingstore"
-    ]
+    "shops": {
+      "2handedshop": 2,
+      "gnomeshop_gulluck": 2,
+      "lathastrainingstore": 2
+    }
   },
   {
     "debugname": "cert_steel_2h_sword",
@@ -22082,11 +22082,11 @@
       "strengthbonus": 26,
       "attackrate": 7
     },
-    "shops": [
-      "2handedshop",
-      "gnomeshop_gulluck",
-      "lathastrainingstore"
-    ]
+    "shops": {
+      "2handedshop": 1,
+      "gnomeshop_gulluck": 1,
+      "lathastrainingstore": 1
+    }
   },
   {
     "debugname": "cert_black_2h_sword",
@@ -22125,11 +22125,11 @@
       "strengthbonus": 31,
       "attackrate": 7
     },
-    "shops": [
-      "2handedshop",
-      "gnomeshop_gulluck",
-      "lathastrainingstore"
-    ]
+    "shops": {
+      "2handedshop": 1,
+      "gnomeshop_gulluck": 1,
+      "lathastrainingstore": 1
+    }
   },
   {
     "debugname": "cert_mithril_2h_sword",
@@ -22168,11 +22168,11 @@
       "strengthbonus": 44,
       "attackrate": 7
     },
-    "shops": [
-      "2handedshop",
-      "gnomeshop_gulluck",
-      "lathastrainingstore"
-    ]
+    "shops": {
+      "2handedshop": 1,
+      "gnomeshop_gulluck": 1,
+      "lathastrainingstore": 1
+    }
   },
   {
     "debugname": "cert_adamant_2h_sword",
@@ -22250,9 +22250,9 @@
     "spawn_locations": [
       "1_46_50_19_12"
     ],
-    "shops": [
-      "scimitarshop"
-    ]
+    "shops": {
+      "scimitarshop": 5
+    }
   },
   {
     "debugname": "cert_bronze_scimitar",
@@ -22292,9 +22292,9 @@
     "spawn_locations": [
       "0_50_58_14_18"
     ],
-    "shops": [
-      "scimitarshop"
-    ]
+    "shops": {
+      "scimitarshop": 3
+    }
   },
   {
     "debugname": "cert_iron_scimitar",
@@ -22331,9 +22331,9 @@
       "slashdefence": 1,
       "strengthbonus": 14
     },
-    "shops": [
-      "scimitarshop"
-    ]
+    "shops": {
+      "scimitarshop": 2
+    }
   },
   {
     "debugname": "cert_steel_scimitar",
@@ -22409,9 +22409,9 @@
       "slashdefence": 1,
       "strengthbonus": 20
     },
-    "shops": [
-      "scimitarshop"
-    ]
+    "shops": {
+      "scimitarshop": 1
+    }
   },
   {
     "debugname": "cert_mithril_scimitar",
@@ -22521,9 +22521,9 @@
       "strengthbonus": 9,
       "attackrate": 6
     },
-    "shops": [
-      "viking_weapons_shop"
-    ]
+    "shops": {
+      "viking_weapons_shop": 4
+    }
   },
   {
     "debugname": "cert_iron_warhammer",
@@ -22561,9 +22561,9 @@
       "strengthbonus": 8,
       "attackrate": 6
     },
-    "shops": [
-      "viking_weapons_shop"
-    ]
+    "shops": {
+      "viking_weapons_shop": 5
+    }
   },
   {
     "debugname": "cert_bronze_warhammer",
@@ -22601,9 +22601,9 @@
       "strengthbonus": 16,
       "attackrate": 6
     },
-    "shops": [
-      "viking_weapons_shop"
-    ]
+    "shops": {
+      "viking_weapons_shop": 3
+    }
   },
   {
     "debugname": "cert_steel_warhammer",
@@ -22641,9 +22641,9 @@
       "strengthbonus": 19,
       "attackrate": 6
     },
-    "shops": [
-      "viking_weapons_shop"
-    ]
+    "shops": {
+      "viking_weapons_shop": 3
+    }
   },
   {
     "debugname": "cert_black_warhammer",
@@ -22681,9 +22681,9 @@
       "strengthbonus": 20,
       "attackrate": 6
     },
-    "shops": [
-      "viking_weapons_shop"
-    ]
+    "shops": {
+      "viking_weapons_shop": 2
+    }
   },
   {
     "debugname": "cert_mithril_warhammer",
@@ -22721,9 +22721,9 @@
       "strengthbonus": 31,
       "attackrate": 6
     },
-    "shops": [
-      "viking_weapons_shop"
-    ]
+    "shops": {
+      "viking_weapons_shop": 1
+    }
   },
   {
     "debugname": "cert_adamnt_warhammer",
@@ -22761,9 +22761,9 @@
       "strengthbonus": 48,
       "attackrate": 6
     },
-    "shops": [
-      "viking_weapons_shop"
-    ]
+    "shops": {
+      "viking_weapons_shop": 0
+    }
   },
   {
     "debugname": "cert_rune_warhammer",
@@ -22804,14 +22804,14 @@
     "spawn_locations": [
       "0_49_154_26_32"
     ],
-    "shops": [
-      "adventurershop",
-      "axeshop",
-      "gnomeshop_gulluck",
-      "junglestore",
-      "lathastrainingstore",
-      "shilojunglestore"
-    ]
+    "shops": {
+      "adventurershop": 2,
+      "axeshop": 5,
+      "gnomeshop_gulluck": 5,
+      "junglestore": 5,
+      "lathastrainingstore": 5,
+      "shilojunglestore": 5
+    }
   },
   {
     "debugname": "cert_iron_axe",
@@ -22854,12 +22854,12 @@
       "0_43_49_43_25",
       "1_46_52_26_48"
     ],
-    "shops": [
-      "axeshop",
-      "junglestore",
-      "shilojunglestore",
-      "taxfree"
-    ]
+    "shops": {
+      "axeshop": 10,
+      "junglestore": 2,
+      "shilojunglestore": 3,
+      "taxfree": 10
+    }
   },
   {
     "debugname": "cert_bronze_axe",
@@ -22897,11 +22897,11 @@
       "strengthbonus": 9,
       "attackrate": 5
     },
-    "shops": [
-      "axeshop",
-      "gnomeshop_gulluck",
-      "lathastrainingstore"
-    ]
+    "shops": {
+      "axeshop": 3,
+      "gnomeshop_gulluck": 3,
+      "lathastrainingstore": 3
+    }
   },
   {
     "debugname": "cert_steel_axe",
@@ -23087,12 +23087,12 @@
       "strengthbonus": 13,
       "attackrate": 6
     },
-    "shops": [
-      "axeshop",
-      "battleaxeshop",
-      "gnomeshop_gulluck",
-      "lathastrainingstore"
-    ]
+    "shops": {
+      "axeshop": 5,
+      "battleaxeshop": 3,
+      "gnomeshop_gulluck": 5,
+      "lathastrainingstore": 5
+    }
   },
   {
     "debugname": "cert_iron_battleaxe",
@@ -23130,12 +23130,12 @@
       "strengthbonus": 20,
       "attackrate": 6
     },
-    "shops": [
-      "axeshop",
-      "battleaxeshop",
-      "gnomeshop_gulluck",
-      "lathastrainingstore"
-    ]
+    "shops": {
+      "axeshop": 2,
+      "battleaxeshop": 2,
+      "gnomeshop_gulluck": 2,
+      "lathastrainingstore": 2
+    }
   },
   {
     "debugname": "cert_steel_battleaxe",
@@ -23173,9 +23173,9 @@
       "strengthbonus": 24,
       "attackrate": 6
     },
-    "shops": [
-      "battleaxeshop"
-    ]
+    "shops": {
+      "battleaxeshop": 1
+    }
   },
   {
     "debugname": "cert_black_battleaxe",
@@ -23213,12 +23213,12 @@
       "strengthbonus": 29,
       "attackrate": 6
     },
-    "shops": [
-      "axeshop",
-      "battleaxeshop",
-      "gnomeshop_gulluck",
-      "lathastrainingstore"
-    ]
+    "shops": {
+      "axeshop": 1,
+      "battleaxeshop": 1,
+      "gnomeshop_gulluck": 1,
+      "lathastrainingstore": 1
+    }
   },
   {
     "debugname": "cert_mithril_battleaxe",
@@ -23256,9 +23256,9 @@
       "strengthbonus": 41,
       "attackrate": 6
     },
-    "shops": [
-      "battleaxeshop"
-    ]
+    "shops": {
+      "battleaxeshop": 1
+    }
   },
   {
     "debugname": "cert_adamant_battleaxe",
@@ -23333,9 +23333,9 @@
       "strengthbonus": 9,
       "attackrate": 6
     },
-    "shops": [
-      "battleaxeshop"
-    ]
+    "shops": {
+      "battleaxeshop": 4
+    }
   },
   {
     "debugname": "cert_bronze_battleaxe",
@@ -23373,9 +23373,9 @@
       "strengthbonus": 85,
       "attackrate": 6
     },
-    "shops": [
-      "dragonaxeshop"
-    ]
+    "shops": {
+      "dragonaxeshop": 2
+    }
   },
   {
     "debugname": "cert_dragon_battleaxe",
@@ -23416,10 +23416,10 @@
       "strengthbonus": 3,
       "attackrate": 5
     },
-    "shops": [
-      "memberstaffshop",
-      "staffshop"
-    ]
+    "shops": {
+      "memberstaffshop": 5,
+      "staffshop": 5
+    }
   },
   {
     "debugname": "cert_plainstaff",
@@ -23460,11 +23460,11 @@
       "strengthbonus": 3,
       "attackrate": 5
     },
-    "shops": [
-      "magicguildshop",
-      "memberstaffshop",
-      "staffshop"
-    ]
+    "shops": {
+      "magicguildshop": 2,
+      "memberstaffshop": 2,
+      "staffshop": 2
+    }
   },
   {
     "debugname": "cert_staff_of_air",
@@ -23505,11 +23505,11 @@
       "strengthbonus": 3,
       "attackrate": 5
     },
-    "shops": [
-      "magicguildshop",
-      "memberstaffshop",
-      "staffshop"
-    ]
+    "shops": {
+      "magicguildshop": 2,
+      "memberstaffshop": 2,
+      "staffshop": 2
+    }
   },
   {
     "debugname": "cert_staff_of_water",
@@ -23554,11 +23554,11 @@
     "spawn_locations": [
       "0_48_60_28_22"
     ],
-    "shops": [
-      "magicguildshop",
-      "memberstaffshop",
-      "staffshop"
-    ]
+    "shops": {
+      "magicguildshop": 2,
+      "memberstaffshop": 2,
+      "staffshop": 2
+    }
   },
   {
     "debugname": "cert_staff_of_earth",
@@ -23600,11 +23600,11 @@
       "strengthbonus": 6,
       "attackrate": 5
     },
-    "shops": [
-      "magicguildshop",
-      "memberstaffshop",
-      "staffshop"
-    ]
+    "shops": {
+      "magicguildshop": 2,
+      "memberstaffshop": 2,
+      "staffshop": 2
+    }
   },
   {
     "debugname": "cert_staff_of_fire",
@@ -23646,10 +23646,10 @@
       "strengthbonus": 7,
       "attackrate": 5
     },
-    "shops": [
-      "memberstaffshop",
-      "staffshop"
-    ]
+    "shops": {
+      "memberstaffshop": 5,
+      "staffshop": 5
+    }
   },
   {
     "debugname": "cert_magic_staff",
@@ -23691,10 +23691,10 @@
       "strengthbonus": 32,
       "attackrate": 5
     },
-    "shops": [
-      "magicguildshop",
-      "memberstaffshop"
-    ]
+    "shops": {
+      "magicguildshop": 5,
+      "memberstaffshop": 5
+    }
   },
   {
     "debugname": "cert_battlestaff",
@@ -24233,9 +24233,9 @@
       "0_41_51_51_35",
       "0_48_54_39_61"
     ],
-    "shops": [
-      "maceshop"
-    ]
+    "shops": {
+      "maceshop": 4
+    }
   },
   {
     "debugname": "cert_iron_mace",
@@ -24276,9 +24276,9 @@
     "spawn_locations": [
       "0_51_49_56_1"
     ],
-    "shops": [
-      "maceshop"
-    ]
+    "shops": {
+      "maceshop": 5
+    }
   },
   {
     "debugname": "cert_bronze_mace",
@@ -24316,9 +24316,9 @@
       "prayerbonus": 2,
       "attackrate": 5
     },
-    "shops": [
-      "maceshop"
-    ]
+    "shops": {
+      "maceshop": 4
+    }
   },
   {
     "debugname": "cert_steel_mace",
@@ -24393,9 +24393,9 @@
       "prayerbonus": 3,
       "attackrate": 5
     },
-    "shops": [
-      "maceshop"
-    ]
+    "shops": {
+      "maceshop": 3
+    }
   },
   {
     "debugname": "cert_mithril_mace",
@@ -24433,9 +24433,9 @@
       "prayerbonus": 3,
       "attackrate": 5
     },
-    "shops": [
-      "maceshop"
-    ]
+    "shops": {
+      "maceshop": 2
+    }
   },
   {
     "debugname": "cert_adamant_mace",
@@ -24473,9 +24473,9 @@
       "prayerbonus": 4,
       "attackrate": 5
     },
-    "shops": [
-      "runiteshop"
-    ]
+    "shops": {
+      "runiteshop": 1
+    }
   },
   {
     "debugname": "cert_rune_mace",
@@ -24513,9 +24513,9 @@
       "prayerbonus": 5,
       "attackrate": 5
     },
-    "shops": [
-      "dragonaxeshop"
-    ]
+    "shops": {
+      "dragonaxeshop": 2
+    }
   },
   {
     "debugname": "cert_dragon_mace",
@@ -26014,9 +26014,9 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "legendsguildshop"
-    ]
+    "shops": {
+      "legendsguildshop": 3
+    }
   },
   {
     "debugname": "redkey",
@@ -26650,9 +26650,9 @@
     "spawn_locations": [
       "0_45_152_20_38"
     ],
-    "shops": [
-      "legendsguildshop"
-    ]
+    "shops": {
+      "legendsguildshop": 5
+    }
   },
   {
     "debugname": "jail_key",
@@ -26678,12 +26678,12 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "craftingshop",
-      "craftingshop2",
-      "craftingshop2_free",
-      "craftingshop_free"
-    ]
+    "shops": {
+      "craftingshop": 4,
+      "craftingshop2": 4,
+      "craftingshop2_free": 4,
+      "craftingshop_free": 4
+    }
   },
   {
     "debugname": "cert_ring_mould",
@@ -26726,12 +26726,12 @@
     "spawn_locations": [
       "0_45_51_48_26"
     ],
-    "shops": [
-      "craftingshop",
-      "craftingshop2",
-      "craftingshop2_free",
-      "craftingshop_free"
-    ]
+    "shops": {
+      "craftingshop": 2,
+      "craftingshop2": 2,
+      "craftingshop2_free": 2,
+      "craftingshop_free": 2
+    }
   },
   {
     "debugname": "cert_amulet_mould",
@@ -26762,12 +26762,12 @@
     "spawn_locations": [
       "1_45_51_52_23"
     ],
-    "shops": [
-      "craftingshop",
-      "craftingshop2",
-      "craftingshop2_free",
-      "craftingshop_free"
-    ]
+    "shops": {
+      "craftingshop": 2,
+      "craftingshop2": 2,
+      "craftingshop2_free": 2,
+      "craftingshop_free": 2
+    }
   },
   {
     "debugname": "cert_necklace_mould",
@@ -26798,12 +26798,12 @@
     "spawn_locations": [
       "1_45_51_51_23"
     ],
-    "shops": [
-      "craftingshop",
-      "craftingshop2",
-      "craftingshop2_free",
-      "craftingshop_free"
-    ]
+    "shops": {
+      "craftingshop": 3,
+      "craftingshop2": 3,
+      "craftingshop2_free": 3,
+      "craftingshop_free": 3
+    }
   },
   {
     "debugname": "cert_holy_symbol_mould",
@@ -26831,11 +26831,11 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "ardougnegemstall",
-      "gemshop",
-      "gemshop2"
-    ]
+    "shops": {
+      "ardougnegemstall": 0,
+      "gemshop": 0,
+      "gemshop2": 0
+    }
   },
   {
     "debugname": "cert_diamond",
@@ -26863,11 +26863,11 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "ardougnegemstall",
-      "gemshop",
-      "gemshop2"
-    ]
+    "shops": {
+      "ardougnegemstall": 1,
+      "gemshop": 0,
+      "gemshop2": 0
+    }
   },
   {
     "debugname": "cert_ruby",
@@ -26895,11 +26895,11 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "ardougnegemstall",
-      "gemshop",
-      "gemshop2"
-    ]
+    "shops": {
+      "ardougnegemstall": 1,
+      "gemshop": 0,
+      "gemshop2": 1
+    }
   },
   {
     "debugname": "cert_emerald",
@@ -26931,11 +26931,11 @@
       "0_41_58_55_28",
       "0_49_60_34_45"
     ],
-    "shops": [
-      "ardougnegemstall",
-      "gemshop",
-      "gemshop2"
-    ]
+    "shops": {
+      "ardougnegemstall": 2,
+      "gemshop": 1,
+      "gemshop2": 1
+    }
   },
   {
     "debugname": "cert_sapphire",
@@ -27071,10 +27071,10 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "gemshop",
-      "gemshop2"
-    ]
+    "shops": {
+      "gemshop": 0,
+      "gemshop2": 0
+    }
   },
   {
     "debugname": "cert_uncut_diamond",
@@ -27102,10 +27102,10 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "gemshop",
-      "gemshop2"
-    ]
+    "shops": {
+      "gemshop": 0,
+      "gemshop2": 0
+    }
   },
   {
     "debugname": "cert_uncut_ruby",
@@ -27133,10 +27133,10 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "gemshop",
-      "gemshop2"
-    ]
+    "shops": {
+      "gemshop": 0,
+      "gemshop2": 1
+    }
   },
   {
     "debugname": "cert_uncut_emerald",
@@ -27167,10 +27167,10 @@
     "spawn_locations": [
       "0_42_153_30_24"
     ],
-    "shops": [
-      "gemshop",
-      "gemshop2"
-    ]
+    "shops": {
+      "gemshop": 1,
+      "gemshop2": 1
+    }
   },
   {
     "debugname": "cert_uncut_sapphire",
@@ -27340,9 +27340,9 @@
     "spawn_locations": [
       "0_42_153_27_28"
     ],
-    "shops": [
-      "goldshop"
-    ]
+    "shops": {
+      "goldshop": 0
+    }
   },
   {
     "debugname": "cert_gold_ring",
@@ -27374,9 +27374,9 @@
     "equipable_item": {
       "wearpos": "ring"
     },
-    "shops": [
-      "goldshop"
-    ]
+    "shops": {
+      "goldshop": 0
+    }
   },
   {
     "debugname": "cert_sapphire_ring",
@@ -27408,9 +27408,9 @@
     "equipable_item": {
       "wearpos": "ring"
     },
-    "shops": [
-      "goldshop"
-    ]
+    "shops": {
+      "goldshop": 0
+    }
   },
   {
     "debugname": "cert_emerald_ring",
@@ -27445,10 +27445,10 @@
     "spawn_locations": [
       "0_49_153_60_30"
     ],
-    "shops": [
-      "cheapringshop",
-      "goldshop"
-    ]
+    "shops": {
+      "cheapringshop": 5,
+      "goldshop": 0
+    }
   },
   {
     "debugname": "cert_ruby_ring",
@@ -27480,9 +27480,9 @@
     "equipable_item": {
       "wearpos": "ring"
     },
-    "shops": [
-      "goldshop"
-    ]
+    "shops": {
+      "goldshop": 0
+    }
   },
   {
     "debugname": "cert_diamond_ring",
@@ -27640,9 +27640,9 @@
       "0_47_60_57_24",
       "0_49_153_56_29"
     ],
-    "shops": [
-      "goldshop"
-    ]
+    "shops": {
+      "goldshop": 0
+    }
   },
   {
     "debugname": "cert_gold_necklace",
@@ -27674,9 +27674,9 @@
     "equipable_item": {
       "wearpos": "neck"
     },
-    "shops": [
-      "goldshop"
-    ]
+    "shops": {
+      "goldshop": 0
+    }
   },
   {
     "debugname": "cert_sapphire_necklace",
@@ -27708,9 +27708,9 @@
     "equipable_item": {
       "wearpos": "neck"
     },
-    "shops": [
-      "goldshop"
-    ]
+    "shops": {
+      "goldshop": 0
+    }
   },
   {
     "debugname": "cert_emerald_necklace",
@@ -27742,9 +27742,9 @@
     "equipable_item": {
       "wearpos": "neck"
     },
-    "shops": [
-      "goldshop"
-    ]
+    "shops": {
+      "goldshop": 0
+    }
   },
   {
     "debugname": "cert_ruby_necklace",
@@ -27776,9 +27776,9 @@
     "equipable_item": {
       "wearpos": "neck"
     },
-    "shops": [
-      "goldshop"
-    ]
+    "shops": {
+      "goldshop": 0
+    }
   },
   {
     "debugname": "cert_diamond_necklace",
@@ -28185,9 +28185,9 @@
     "equipable_item": {
       "wearpos": "neck"
     },
-    "shops": [
-      "goldshop"
-    ]
+    "shops": {
+      "goldshop": 0
+    }
   },
   {
     "debugname": "cert_strung_gold_amulet",
@@ -28219,9 +28219,9 @@
     "equipable_item": {
       "wearpos": "neck"
     },
-    "shops": [
-      "goldshop"
-    ]
+    "shops": {
+      "goldshop": 0
+    }
   },
   {
     "debugname": "cert_strung_sapphire_amulet",
@@ -28253,9 +28253,9 @@
     "equipable_item": {
       "wearpos": "neck"
     },
-    "shops": [
-      "goldshop"
-    ]
+    "shops": {
+      "goldshop": 0
+    }
   },
   {
     "debugname": "cert_strung_emerald_amulet",
@@ -28287,9 +28287,9 @@
     "equipable_item": {
       "wearpos": "neck"
     },
-    "shops": [
-      "goldshop"
-    ]
+    "shops": {
+      "goldshop": 0
+    }
   },
   {
     "debugname": "cert_strung_ruby_amulet",
@@ -28321,9 +28321,9 @@
     "equipable_item": {
       "wearpos": "neck"
     },
-    "shops": [
-      "goldshop"
-    ]
+    "shops": {
+      "goldshop": 0
+    }
   },
   {
     "debugname": "cert_strung_diamond_amulet",
@@ -28602,9 +28602,9 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "silverstall"
-    ]
+    "shops": {
+      "silverstall": 2
+    }
   },
   {
     "debugname": "cert_nostringstar",
@@ -28673,9 +28673,9 @@
       "rangedefence": 2,
       "prayerbonus": 8
     },
-    "shops": [
-      "amuletshop"
-    ]
+    "shops": {
+      "amuletshop": 0
+    }
   },
   {
     "debugname": "cert_blessedstar",
@@ -28788,9 +28788,9 @@
       "wearpos": "neck",
       "strengthbonus": 10
     },
-    "shops": [
-      "amuletshop"
-    ]
+    "shops": {
+      "amuletshop": 0
+    }
   },
   {
     "debugname": "cert_amulet_of_strength",
@@ -28823,9 +28823,9 @@
       "wearpos": "neck",
       "magicattack": 10
     },
-    "shops": [
-      "amuletshop"
-    ]
+    "shops": {
+      "amuletshop": 0
+    }
   },
   {
     "debugname": "cert_amulet_of_magic",
@@ -28862,9 +28862,9 @@
       "magicdefence": 7,
       "rangedefence": 7
     },
-    "shops": [
-      "amuletshop"
-    ]
+    "shops": {
+      "amuletshop": 0
+    }
   },
   {
     "debugname": "cert_amulet_of_defence",
@@ -28908,9 +28908,9 @@
       "strengthbonus": 6,
       "prayerbonus": 1
     },
-    "shops": [
-      "amuletshop"
-    ]
+    "shops": {
+      "amuletshop": 0
+    }
   },
   {
     "debugname": "cert_amulet_of_power",
@@ -28939,14 +28939,14 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "craftingshop",
-      "craftingshop2",
-      "craftingshop2_free",
-      "craftingshop_free",
-      "fancyclothesstore",
-      "werewolfgeneralstore"
-    ]
+    "shops": {
+      "craftingshop": 3,
+      "craftingshop2": 3,
+      "craftingshop2_free": 3,
+      "craftingshop_free": 3,
+      "fancyclothesstore": 3,
+      "werewolfgeneralstore": 2
+    }
   },
   {
     "debugname": "thread",
@@ -28964,14 +28964,14 @@
     "spawn_locations": [
       "0_51_54_22_35"
     ],
-    "shops": [
-      "craftingshop",
-      "craftingshop2",
-      "craftingshop2_free",
-      "craftingshop_free",
-      "fancyclothesstore",
-      "werewolfgeneralstore"
-    ]
+    "shops": {
+      "craftingshop": 100,
+      "craftingshop2": 100,
+      "craftingshop2_free": 100,
+      "craftingshop_free": 100,
+      "fancyclothesstore": 100,
+      "werewolfgeneralstore": 50
+    }
   },
   {
     "debugname": "shears",
@@ -28990,23 +28990,23 @@
       "0_49_51_16_42",
       "1_45_51_50_21"
     ],
-    "shops": [
-      "death_generalshop",
-      "generaldwarf",
-      "generalshop1",
-      "generalshop2",
-      "generalshop3",
-      "generalshop4",
-      "generalshop5",
-      "generalshop6",
-      "generalshop7",
-      "generalshop8",
-      "gnomeshop",
-      "khazardshop",
-      "razmiregeneralstore",
-      "regicide_general_shop",
-      "regicide_general_shop_2"
-    ]
+    "shops": {
+      "death_generalshop": 2,
+      "generaldwarf": 2,
+      "generalshop1": 2,
+      "generalshop2": 2,
+      "generalshop3": 2,
+      "generalshop4": 2,
+      "generalshop5": 2,
+      "generalshop6": 2,
+      "generalshop7": 2,
+      "generalshop8": 2,
+      "gnomeshop": 2,
+      "khazardshop": 2,
+      "razmiregeneralstore": 2,
+      "regicide_general_shop": 3,
+      "regicide_general_shop_2": 3
+    }
   },
   {
     "debugname": "cert_shears",
@@ -29282,33 +29282,33 @@
       "0_41_51_59_54",
       "0_45_51_55_22"
     ],
-    "shops": [
-      "arheinstore",
-      "craftingshop",
-      "craftingshop2",
-      "craftingshop2_free",
-      "craftingshop_free",
-      "death_generalshop",
-      "generaldwarf",
-      "generalshop1",
-      "generalshop2",
-      "generalshop3",
-      "generalshop4",
-      "generalshop5",
-      "generalshop6",
-      "generalshop7",
-      "generalshop8",
-      "generalshopogre",
-      "gnomeshop",
-      "junglestore",
-      "khazardshop",
-      "lighthouseshop",
-      "razmiregeneralstore",
-      "shilojunglestore",
-      "taxfree",
-      "viking_general_store",
-      "werewolfgeneralstore"
-    ]
+    "shops": {
+      "arheinstore": 2,
+      "craftingshop": 2,
+      "craftingshop2": 2,
+      "craftingshop2_free": 2,
+      "craftingshop_free": 2,
+      "death_generalshop": 2,
+      "generaldwarf": 2,
+      "generalshop1": 2,
+      "generalshop2": 2,
+      "generalshop3": 2,
+      "generalshop4": 2,
+      "generalshop5": 2,
+      "generalshop6": 2,
+      "generalshop7": 2,
+      "generalshop8": 2,
+      "generalshopogre": 2,
+      "gnomeshop": 2,
+      "junglestore": 10,
+      "khazardshop": 2,
+      "lighthouseshop": 10,
+      "razmiregeneralstore": 2,
+      "shilojunglestore": 10,
+      "taxfree": 2,
+      "viking_general_store": 10,
+      "werewolfgeneralstore": 2
+    }
   },
   {
     "debugname": "cert_chisel",
@@ -29340,10 +29340,10 @@
     "equipable_item": {
       "wearpos": "body"
     },
-    "shops": [
-      "clotheshop",
-      "fancyclothesstore"
-    ]
+    "shops": {
+      "clotheshop": 1,
+      "fancyclothesstore": 1
+    }
   },
   {
     "debugname": "cert_brown_apron",
@@ -29371,9 +29371,9 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "adventurershop"
-    ]
+    "shops": {
+      "adventurershop": 30
+    }
   },
   {
     "debugname": "cert_ball_of_wool",
@@ -30222,10 +30222,10 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "bedabincampshop",
-      "shantayshop"
-    ]
+    "shops": {
+      "bedabincampshop": 5,
+      "shantayshop": 100
+    }
   },
   {
     "debugname": "cert_water_skin4",
@@ -30334,10 +30334,10 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "bedabincampshop",
-      "shantayshop"
-    ]
+    "shops": {
+      "bedabincampshop": 5,
+      "shantayshop": 100
+    }
   },
   {
     "debugname": "cert_water_skin0",
@@ -30369,9 +30369,9 @@
     "equipable_item": {
       "wearpos": "body"
     },
-    "shops": [
-      "shantayshop"
-    ]
+    "shops": {
+      "shantayshop": 10
+    }
   },
   {
     "debugname": "cert_desert_shirt",
@@ -30403,9 +30403,9 @@
     "equipable_item": {
       "wearpos": "legs"
     },
-    "shops": [
-      "shantayshop"
-    ]
+    "shops": {
+      "shantayshop": 10
+    }
   },
   {
     "debugname": "cert_desert_robe",
@@ -30437,9 +30437,9 @@
     "equipable_item": {
       "wearpos": "feet"
     },
-    "shops": [
-      "shantayshop"
-    ]
+    "shops": {
+      "shantayshop": 10
+    }
   },
   {
     "debugname": "cert_desert_boots",
@@ -30666,9 +30666,9 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "shantayshop"
-    ]
+    "shops": {
+      "shantayshop": 500
+    }
   },
   {
     "debugname": "thpunishrock",
@@ -31119,10 +31119,10 @@
       "0_46_57_43_38",
       "1_49_53_5_60"
     ],
-    "shops": [
-      "arheinstore",
-      "cookeryshop"
-    ]
+    "shops": {
+      "arheinstore": 2,
+      "cookeryshop": 2
+    }
   },
   {
     "debugname": "cert_cake_tin",
@@ -31178,9 +31178,9 @@
       "iop1": "Eat",
       "iop5": "Drop"
     },
-    "shops": [
-      "bakery"
-    ]
+    "shops": {
+      "bakery": 3
+    }
   },
   {
     "debugname": "cert_cake",
@@ -31325,9 +31325,9 @@
       "iop1": "Eat",
       "iop5": "Drop"
     },
-    "shops": [
-      "bakery"
-    ]
+    "shops": {
+      "bakery": 8
+    }
   },
   {
     "debugname": "cert_chocolate_slice",
@@ -31386,9 +31386,9 @@
     "spawn_locations": [
       "0_45_55_26_18"
     ],
-    "shops": [
-      "death_pub"
-    ]
+    "shops": {
+      "death_pub": 12
+    }
   },
   {
     "debugname": "cert_asgarnian_ale",
@@ -31417,10 +31417,10 @@
       "iop1": "Drink",
       "iop5": "Drop"
     },
-    "shops": [
-      "death_pub",
-      "lighthouseshop"
-    ]
+    "shops": {
+      "death_pub": 12,
+      "lighthouseshop": 5
+    }
   },
   {
     "debugname": "cert_wizards_mind_bomb",
@@ -31449,9 +31449,9 @@
       "iop1": "Drink",
       "iop5": "Drop"
     },
-    "shops": [
-      "lighthouseshop"
-    ]
+    "shops": {
+      "lighthouseshop": 5
+    }
   },
   {
     "debugname": "cert_greenmans_ale",
@@ -31513,10 +31513,10 @@
       "0_44_154_47_19",
       "0_44_154_54_22"
     ],
-    "shops": [
-      "death_pub",
-      "lighthouseshop"
-    ]
+    "shops": {
+      "death_pub": 12,
+      "lighthouseshop": 5
+    }
   },
   {
     "debugname": "cert_dwarven_stout",
@@ -31545,9 +31545,9 @@
       "iop1": "Drink",
       "iop5": "Drop"
     },
-    "shops": [
-      "lighthouseshop"
-    ]
+    "shops": {
+      "lighthouseshop": 5
+    }
   },
   {
     "debugname": "cert_grog",
@@ -31587,10 +31587,10 @@
       "0_48_53_8_49",
       "1_51_47_22_25"
     ],
-    "shops": [
-      "boozeshop",
-      "viking_bar"
-    ]
+    "shops": {
+      "boozeshop": 3,
+      "viking_bar": 50
+    }
   },
   {
     "debugname": "cert_beer",
@@ -31658,10 +31658,10 @@
     "spawn_locations": [
       "0_51_47_27_26"
     ],
-    "shops": [
-      "bedabincampshop",
-      "shantayshop"
-    ]
+    "shops": {
+      "bedabincampshop": 5,
+      "shantayshop": 10
+    }
   },
   {
     "debugname": "cert_bowl_water",
@@ -31694,11 +31694,11 @@
       "1_44_52_0_23",
       "1_49_53_4_60"
     ],
-    "shops": [
-      "arheinstore",
-      "cookeryshop",
-      "shantayshop"
-    ]
+    "shops": {
+      "arheinstore": 2,
+      "cookeryshop": 2,
+      "shantayshop": 0
+    }
   },
   {
     "debugname": "cert_bowl_empty",
@@ -31750,28 +31750,28 @@
       "1_50_54_21_41",
       "1_50_54_22_35"
     ],
-    "shops": [
-      "arheinstore",
-      "death_generalshop",
-      "generaldwarf",
-      "generalshop1",
-      "generalshop2",
-      "generalshop3",
-      "generalshop4",
-      "generalshop5",
-      "generalshop6",
-      "generalshop7",
-      "generalshop8",
-      "generalshopogre",
-      "gnomeshop",
-      "khazardshop",
-      "lighthouseshop",
-      "razmiregeneralstore",
-      "shantayshop",
-      "upassgeneralshop",
-      "viking_general_store",
-      "werewolfgeneralstore"
-    ]
+    "shops": {
+      "arheinstore": 10,
+      "death_generalshop": 2,
+      "generaldwarf": 2,
+      "generalshop1": 2,
+      "generalshop2": 2,
+      "generalshop3": 2,
+      "generalshop4": 2,
+      "generalshop5": 2,
+      "generalshop6": 2,
+      "generalshop7": 2,
+      "generalshop8": 2,
+      "generalshopogre": 2,
+      "gnomeshop": 2,
+      "khazardshop": 2,
+      "lighthouseshop": 5,
+      "razmiregeneralstore": 2,
+      "shantayshop": 0,
+      "upassgeneralshop": 2,
+      "viking_general_store": 10,
+      "werewolfgeneralstore": 2
+    }
   },
   {
     "debugname": "cert_bucket_empty",
@@ -31802,10 +31802,10 @@
     "spawn_locations": [
       "0_41_57_61_35"
     ],
-    "shops": [
-      "gnomeshop_heck",
-      "gnomeshop_hudo"
-    ]
+    "shops": {
+      "gnomeshop_heck": 5,
+      "gnomeshop_hudo": 5
+    }
   },
   {
     "debugname": "cert_bucket_milk",
@@ -31838,12 +31838,12 @@
       "0_44_53_4_60",
       "0_44_53_7_57"
     ],
-    "shops": [
-      "bedabincampshop",
-      "lighthouseshop",
-      "shantayshop",
-      "viking_general_store"
-    ]
+    "shops": {
+      "bedabincampshop": 5,
+      "lighthouseshop": 5,
+      "shantayshop": 10,
+      "viking_general_store": 10
+    }
   },
   {
     "debugname": "cert_bucket_water",
@@ -31879,33 +31879,33 @@
       "0_50_53_32_7",
       "2_49_53_8_57"
     ],
-    "shops": [
-      "arheinstore",
-      "cookeryshop",
-      "death_generalshop",
-      "generaldwarf",
-      "generalshop1",
-      "generalshop2",
-      "generalshop3",
-      "generalshop4",
-      "generalshop5",
-      "generalshop6",
-      "generalshop7",
-      "generalshop8",
-      "generalshopogre",
-      "gnomeshop",
-      "junglestore",
-      "khazardshop",
-      "lighthouseshop",
-      "razmiregeneralstore",
-      "regicide_general_shop",
-      "regicide_general_shop_2",
-      "shilojunglestore",
-      "taxfree",
-      "upassgeneralshop",
-      "viking_general_store",
-      "werewolfgeneralstore"
-    ]
+    "shops": {
+      "arheinstore": 2,
+      "cookeryshop": 8,
+      "death_generalshop": 3,
+      "generaldwarf": 3,
+      "generalshop1": 3,
+      "generalshop2": 3,
+      "generalshop3": 3,
+      "generalshop4": 3,
+      "generalshop5": 3,
+      "generalshop6": 3,
+      "generalshop7": 3,
+      "generalshop8": 3,
+      "generalshopogre": 3,
+      "gnomeshop": 3,
+      "junglestore": 3,
+      "khazardshop": 3,
+      "lighthouseshop": 10,
+      "razmiregeneralstore": 3,
+      "regicide_general_shop": 5,
+      "regicide_general_shop_2": 5,
+      "shilojunglestore": 3,
+      "taxfree": 3,
+      "upassgeneralshop": 3,
+      "viking_general_store": 3,
+      "werewolfgeneralstore": 3
+    }
   },
   {
     "debugname": "cert_pot_empty",
@@ -31933,13 +31933,13 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "cookeryshop",
-      "gnomeshop_hudo",
-      "khazardshop",
-      "razmiregeneralstore",
-      "wydinstore"
-    ]
+    "shops": {
+      "cookeryshop": 8,
+      "gnomeshop_hudo": 5,
+      "khazardshop": 30,
+      "razmiregeneralstore": 100,
+      "wydinstore": 3
+    }
   },
   {
     "debugname": "cert_pot_flour",
@@ -31977,29 +31977,29 @@
       "0_51_53_8_17",
       "2_49_53_5_55"
     ],
-    "shops": [
-      "cookeryshop",
-      "death_generalshop",
-      "generaldwarf",
-      "generalshop1",
-      "generalshop2",
-      "generalshop3",
-      "generalshop4",
-      "generalshop5",
-      "generalshop6",
-      "generalshop7",
-      "generalshop8",
-      "generalshopogre",
-      "gnomeshop",
-      "khazardshop",
-      "lighthouseshop",
-      "razmiregeneralstore",
-      "regicide_general_shop",
-      "regicide_general_shop_2",
-      "shantayshop",
-      "taxfree",
-      "werewolfgeneralstore"
-    ]
+    "shops": {
+      "cookeryshop": 1,
+      "death_generalshop": 2,
+      "generaldwarf": 2,
+      "generalshop1": 2,
+      "generalshop2": 2,
+      "generalshop3": 2,
+      "generalshop4": 2,
+      "generalshop5": 2,
+      "generalshop6": 2,
+      "generalshop7": 2,
+      "generalshop8": 2,
+      "generalshopogre": 2,
+      "gnomeshop": 2,
+      "khazardshop": 2,
+      "lighthouseshop": 5,
+      "razmiregeneralstore": 2,
+      "regicide_general_shop": 2,
+      "regicide_general_shop_2": 2,
+      "shantayshop": 0,
+      "taxfree": 2,
+      "werewolfgeneralstore": 2
+    }
   },
   {
     "debugname": "cert_jug_empty",
@@ -32031,11 +32031,11 @@
       "0_40_48_8_30",
       "0_51_49_38_34"
     ],
-    "shops": [
-      "bedabincampshop",
-      "lighthouseshop",
-      "shantayshop"
-    ]
+    "shops": {
+      "bedabincampshop": 5,
+      "lighthouseshop": 5,
+      "shantayshop": 10
+    }
   },
   {
     "debugname": "cert_jug_water",
@@ -32170,10 +32170,10 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "khazardshop",
-      "razmirebuildingstore"
-    ]
+    "shops": {
+      "khazardshop": 500,
+      "razmirebuildingstore": 1000
+    }
   },
   {
     "debugname": "potato",
@@ -32187,12 +32187,12 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "cookeryshop",
-      "gnomeshop_hudo",
-      "viking_general_store",
-      "wydinstore"
-    ]
+    "shops": {
+      "cookeryshop": 5,
+      "gnomeshop_hudo": 3,
+      "viking_general_store": 10,
+      "wydinstore": 1
+    }
   },
   {
     "debugname": "cert_potato",
@@ -32230,9 +32230,9 @@
       "0_50_51_26_37",
       "0_50_51_29_35"
     ],
-    "shops": [
-      "viking_general_store"
-    ]
+    "shops": {
+      "viking_general_store": 10
+    }
   },
   {
     "debugname": "cert_egg",
@@ -32303,9 +32303,9 @@
     "equipable_item": {
       "wearpos": "head"
     },
-    "shops": [
-      "fancyclothesstore"
-    ]
+    "shops": {
+      "fancyclothesstore": 0
+    }
   },
   {
     "debugname": "cert_chefs_hat",
@@ -32338,9 +32338,9 @@
       "0_51_52_7_38",
       "0_51_52_14_46"
     ],
-    "shops": [
-      "wydinstore"
-    ]
+    "shops": {
+      "wydinstore": 1
+    }
   },
   {
     "debugname": "cert_redberries",
@@ -32401,9 +32401,9 @@
       "1_49_53_5_55",
       "2_49_53_4_55"
     ],
-    "shops": [
-      "cookeryshop"
-    ]
+    "shops": {
+      "cookeryshop": 2
+    }
   },
   {
     "debugname": "cert_cooking_apple",
@@ -32431,9 +32431,9 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "gnomeshop_hudo"
-    ]
+    "shops": {
+      "gnomeshop_hudo": 5
+    }
   },
   {
     "debugname": "cert_onion",
@@ -32521,9 +32521,9 @@
     "spawn_locations": [
       "0_45_49_27_10"
     ],
-    "shops": [
-      "wydinstore"
-    ]
+    "shops": {
+      "wydinstore": 3
+    }
   },
   {
     "debugname": "cert_banana",
@@ -32556,11 +32556,11 @@
       "0_50_150_17_22",
       "0_51_49_21_39"
     ],
-    "shops": [
-      "gnomeshop_hudo",
-      "viking_general_store",
-      "wydinstore"
-    ]
+    "shops": {
+      "gnomeshop_hudo": 3,
+      "viking_general_store": 10,
+      "wydinstore": 3
+    }
   },
   {
     "debugname": "cert_cabbage",
@@ -32689,12 +32689,12 @@
       "0_49_53_7_60",
       "0_49_149_16_24"
     ],
-    "shops": [
-      "cookeryshop",
-      "gnomeshop_heck",
-      "gnomeshop_hudo",
-      "wydinstore"
-    ]
+    "shops": {
+      "cookeryshop": 2,
+      "gnomeshop_heck": 5,
+      "gnomeshop_hudo": 8,
+      "wydinstore": 1
+    }
   },
   {
     "debugname": "cert_chocolate_bar",
@@ -32722,10 +32722,10 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "gnomeshop_heck",
-      "gnomeshop_hudo"
-    ]
+    "shops": {
+      "gnomeshop_heck": 5,
+      "gnomeshop_hudo": 5
+    }
   },
   {
     "debugname": "cert_chocolate_dust",
@@ -32771,9 +32771,9 @@
       "0_45_53_6_20",
       "0_45_53_23_49"
     ],
-    "shops": [
-      "teashop"
-    ]
+    "shops": {
+      "teashop": 20
+    }
   },
   {
     "debugname": "cert_cup_of_tea",
@@ -32834,10 +32834,10 @@
       "0_47_57_31_58",
       "0_48_50_15_61"
     ],
-    "shops": [
-      "gnomeshop_hudo",
-      "wydinstore"
-    ]
+    "shops": {
+      "gnomeshop_hudo": 5,
+      "wydinstore": 3
+    }
   },
   {
     "debugname": "cert_tomato",
@@ -32886,10 +32886,10 @@
       "0_47_57_31_59",
       "0_48_50_12_61"
     ],
-    "shops": [
-      "gnomeshop_hudo",
-      "wydinstore"
-    ]
+    "shops": {
+      "gnomeshop_hudo": 5,
+      "wydinstore": 3
+    }
   },
   {
     "debugname": "cert_cheese",
@@ -33009,9 +33009,9 @@
       "1_43_53_54_57",
       "1_51_47_27_25"
     ],
-    "shops": [
-      "boozeshop"
-    ]
+    "shops": {
+      "boozeshop": 1
+    }
   },
   {
     "debugname": "cert_jug_wine",
@@ -33203,9 +33203,9 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "spicestall"
-    ]
+    "shops": {
+      "spicestall": 1
+    }
   },
   {
     "debugname": "cert_spicespot",
@@ -33317,10 +33317,10 @@
       "iop1": "Drink",
       "iop5": "Drop"
     },
-    "shops": [
-      "gnomeshop_heck",
-      "lighthouseshop"
-    ]
+    "shops": {
+      "gnomeshop_heck": 5,
+      "lighthouseshop": 5
+    }
   },
   {
     "debugname": "cert_vodka",
@@ -33349,10 +33349,10 @@
       "iop1": "Drink",
       "iop5": "Drop"
     },
-    "shops": [
-      "gnomeshop_heck",
-      "lighthouseshop"
-    ]
+    "shops": {
+      "gnomeshop_heck": 5,
+      "lighthouseshop": 5
+    }
   },
   {
     "debugname": "cert_whisky",
@@ -33381,10 +33381,10 @@
       "iop1": "Drink",
       "iop5": "Drop"
     },
-    "shops": [
-      "gnomeshop_heck",
-      "lighthouseshop"
-    ]
+    "shops": {
+      "gnomeshop_heck": 5,
+      "lighthouseshop": 5
+    }
   },
   {
     "debugname": "cert_gin",
@@ -33413,10 +33413,10 @@
       "iop1": "Drink",
       "iop5": "Drop"
     },
-    "shops": [
-      "gnomeshop_heck",
-      "lighthouseshop"
-    ]
+    "shops": {
+      "gnomeshop_heck": 5,
+      "lighthouseshop": 5
+    }
   },
   {
     "debugname": "cert_brandy",
@@ -33445,9 +33445,9 @@
       "iop1": "Read",
       "iop5": "Drop"
     },
-    "shops": [
-      "gnomeshop_heck"
-    ]
+    "shops": {
+      "gnomeshop_heck": 5
+    }
   },
   {
     "debugname": "cert_cocktail_guide",
@@ -33475,10 +33475,10 @@
       "iop1": "Inspect",
       "iop5": "Drop"
     },
-    "shops": [
-      "gnomeshop_heck",
-      "gnomeshop_hudo"
-    ]
+    "shops": {
+      "gnomeshop_heck": 5,
+      "gnomeshop_hudo": 5
+    }
   },
   {
     "debugname": "cocktail_glass_empty",
@@ -33527,9 +33527,9 @@
     "spawn_locations": [
       "0_46_46_28_28"
     ],
-    "shops": [
-      "blurberrybar"
-    ]
+    "shops": {
+      "blurberrybar": 10
+    }
   },
   {
     "debugname": "cert_premade_blurberry_special",
@@ -33561,9 +33561,9 @@
     "spawn_locations": [
       "0_37_153_19_18"
     ],
-    "shops": [
-      "blurberrybar"
-    ]
+    "shops": {
+      "blurberrybar": 10
+    }
   },
   {
     "debugname": "cert_premade_choc_saturday",
@@ -33592,9 +33592,9 @@
       "iop1": "Drink",
       "iop5": "Drop"
     },
-    "shops": [
-      "blurberrybar"
-    ]
+    "shops": {
+      "blurberrybar": 10
+    }
   },
   {
     "debugname": "cert_premade_drunk_dragon",
@@ -33623,9 +33623,9 @@
       "iop1": "Drink",
       "iop5": "Drop"
     },
-    "shops": [
-      "blurberrybar"
-    ]
+    "shops": {
+      "blurberrybar": 10
+    }
   },
   {
     "debugname": "cert_premade_fruit_blast",
@@ -33654,9 +33654,9 @@
       "iop1": "Drink",
       "iop5": "Drop"
     },
-    "shops": [
-      "blurberrybar"
-    ]
+    "shops": {
+      "blurberrybar": 10
+    }
   },
   {
     "debugname": "cert_premade_pineapple_punch",
@@ -33685,9 +33685,9 @@
       "iop1": "Drink",
       "iop5": "Drop"
     },
-    "shops": [
-      "blurberrybar"
-    ]
+    "shops": {
+      "blurberrybar": 10
+    }
   },
   {
     "debugname": "cert_premade_sgg",
@@ -33716,9 +33716,9 @@
       "iop1": "Drink",
       "iop5": "Drop"
     },
-    "shops": [
-      "blurberrybar"
-    ]
+    "shops": {
+      "blurberrybar": 10
+    }
   },
   {
     "debugname": "cert_premade_wizard_blizzard",
@@ -34591,10 +34591,10 @@
       "iop1": "Eat",
       "iop5": "Drop"
     },
-    "shops": [
-      "gnomeshop_heck",
-      "gnomeshop_hudo"
-    ]
+    "shops": {
+      "gnomeshop_heck": 5,
+      "gnomeshop_hudo": 5
+    }
   },
   {
     "debugname": "cert_lemon",
@@ -34679,10 +34679,10 @@
       "iop1": "Eat",
       "iop5": "Drop"
     },
-    "shops": [
-      "gnomeshop_heck",
-      "gnomeshop_hudo"
-    ]
+    "shops": {
+      "gnomeshop_heck": 5,
+      "gnomeshop_hudo": 5
+    }
   },
   {
     "debugname": "cert_orange",
@@ -34767,10 +34767,10 @@
       "iop1": "Eat",
       "iop5": "Drop"
     },
-    "shops": [
-      "gnomeshop_heck",
-      "gnomeshop_hudo"
-    ]
+    "shops": {
+      "gnomeshop_heck": 5,
+      "gnomeshop_hudo": 5
+    }
   },
   {
     "debugname": "cert_pineapple",
@@ -34855,10 +34855,10 @@
       "iop1": "Eat",
       "iop5": "Drop"
     },
-    "shops": [
-      "gnomeshop_heck",
-      "gnomeshop_hudo"
-    ]
+    "shops": {
+      "gnomeshop_heck": 5,
+      "gnomeshop_hudo": 5
+    }
   },
   {
     "debugname": "cert_lime",
@@ -34950,10 +34950,10 @@
       "0_41_54_40_20",
       "0_41_54_43_38"
     ],
-    "shops": [
-      "gnomeshop_heck",
-      "gnomeshop_hudo"
-    ]
+    "shops": {
+      "gnomeshop_heck": 3,
+      "gnomeshop_hudo": 3
+    }
   },
   {
     "debugname": "cert_dwellberries",
@@ -34987,10 +34987,10 @@
       "0_41_46_24_19",
       "0_41_46_25_12"
     ],
-    "shops": [
-      "gnomeshop_heck",
-      "gnomeshop_hudo"
-    ]
+    "shops": {
+      "gnomeshop_heck": 3,
+      "gnomeshop_hudo": 5
+    }
   },
   {
     "debugname": "cert_equa_leaves",
@@ -35019,10 +35019,10 @@
       "iop1": "Eat",
       "iop5": "Drop"
     },
-    "shops": [
-      "gnomeshop_heck",
-      "gnomeshop_hudo"
-    ]
+    "shops": {
+      "gnomeshop_heck": 5,
+      "gnomeshop_hudo": 5
+    }
   },
   {
     "debugname": "cert_pot_of_cream",
@@ -35050,10 +35050,10 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "werewolfstore1",
-      "wydinstore"
-    ]
+    "shops": {
+      "werewolfstore1": 10,
+      "wydinstore": 1
+    }
   },
   {
     "debugname": "cert_raw_beef",
@@ -35081,9 +35081,9 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "werewolfstore1"
-    ]
+    "shops": {
+      "werewolfstore1": 10
+    }
   },
   {
     "debugname": "cert_raw_rat_meat",
@@ -35111,9 +35111,9 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "werewolfstore1"
-    ]
+    "shops": {
+      "werewolfstore1": 10
+    }
   },
   {
     "debugname": "cert_raw_bear_meat",
@@ -35141,10 +35141,10 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "werewolfstore1",
-      "wydinstore"
-    ]
+    "shops": {
+      "werewolfstore1": 10,
+      "wydinstore": 1
+    }
   },
   {
     "debugname": "cert_raw_chicken",
@@ -35208,14 +35208,14 @@
       "0_48_53_5_49",
       "0_48_53_8_51"
     ],
-    "shops": [
-      "adventurershop",
-      "gnomeshop",
-      "junglestore",
-      "shilojunglestore",
-      "upassgeneralshop",
-      "viking_general_store"
-    ]
+    "shops": {
+      "adventurershop": 2,
+      "gnomeshop": 2,
+      "junglestore": 2,
+      "shilojunglestore": 2,
+      "upassgeneralshop": 10,
+      "viking_general_store": 2
+    }
   },
   {
     "debugname": "cert_cooked_meat",
@@ -35597,9 +35597,9 @@
       "iop1": "Read",
       "iop5": "Drop"
     },
-    "shops": [
-      "gnomeshop_hudo"
-    ]
+    "shops": {
+      "gnomeshop_hudo": 5
+    }
   },
   {
     "debugname": "cert_giannes_cook_book",
@@ -35627,9 +35627,9 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "gnomeshop_hudo"
-    ]
+    "shops": {
+      "gnomeshop_hudo": 5
+    }
   },
   {
     "debugname": "cert_gnome_spice",
@@ -35657,9 +35657,9 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "gnomeshop_hudo"
-    ]
+    "shops": {
+      "gnomeshop_hudo": 8
+    }
   },
   {
     "debugname": "cert_gianne_dough",
@@ -36324,9 +36324,9 @@
       "iop1": "Eat",
       "iop5": "Drop"
     },
-    "shops": [
-      "giannerestaurant"
-    ]
+    "shops": {
+      "giannerestaurant": 3
+    }
   },
   {
     "debugname": "cert_premade_worm_batta",
@@ -36355,9 +36355,9 @@
       "iop1": "Eat",
       "iop5": "Drop"
     },
-    "shops": [
-      "giannerestaurant"
-    ]
+    "shops": {
+      "giannerestaurant": 3
+    }
   },
   {
     "debugname": "cert_premade_toad_batta",
@@ -36386,9 +36386,9 @@
       "iop1": "Eat",
       "iop5": "Drop"
     },
-    "shops": [
-      "giannerestaurant"
-    ]
+    "shops": {
+      "giannerestaurant": 3
+    }
   },
   {
     "debugname": "cert_premade_cheese+tom_batta",
@@ -36417,9 +36417,9 @@
       "iop1": "Eat",
       "iop5": "Drop"
     },
-    "shops": [
-      "giannerestaurant"
-    ]
+    "shops": {
+      "giannerestaurant": 3
+    }
   },
   {
     "debugname": "cert_premade_fruit_batta",
@@ -36448,9 +36448,9 @@
       "iop1": "Eat",
       "iop5": "Drop"
     },
-    "shops": [
-      "giannerestaurant"
-    ]
+    "shops": {
+      "giannerestaurant": 3
+    }
   },
   {
     "debugname": "cert_premade_vegetable_batta",
@@ -36479,9 +36479,9 @@
       "iop1": "Eat",
       "iop5": "Drop"
     },
-    "shops": [
-      "giannerestaurant"
-    ]
+    "shops": {
+      "giannerestaurant": 3
+    }
   },
   {
     "debugname": "cert_premade_chocolate_bomb",
@@ -36510,9 +36510,9 @@
       "iop1": "Eat",
       "iop5": "Drop"
     },
-    "shops": [
-      "giannerestaurant"
-    ]
+    "shops": {
+      "giannerestaurant": 3
+    }
   },
   {
     "debugname": "cert_premade_tangled_toads_legs",
@@ -36541,9 +36541,9 @@
       "iop1": "Eat",
       "iop5": "Drop"
     },
-    "shops": [
-      "giannerestaurant"
-    ]
+    "shops": {
+      "giannerestaurant": 3
+    }
   },
   {
     "debugname": "cert_premade_worm_hole",
@@ -36572,9 +36572,9 @@
       "iop1": "Eat",
       "iop5": "Drop"
     },
-    "shops": [
-      "giannerestaurant"
-    ]
+    "shops": {
+      "giannerestaurant": 3
+    }
   },
   {
     "debugname": "cert_premade_veg_ball",
@@ -36603,9 +36603,9 @@
       "iop1": "Eat",
       "iop5": "Drop"
     },
-    "shops": [
-      "giannerestaurant"
-    ]
+    "shops": {
+      "giannerestaurant": 3
+    }
   },
   {
     "debugname": "cert_premade_worm_crunchies",
@@ -36634,9 +36634,9 @@
       "iop1": "Eat",
       "iop5": "Drop"
     },
-    "shops": [
-      "giannerestaurant"
-    ]
+    "shops": {
+      "giannerestaurant": 3
+    }
   },
   {
     "debugname": "cert_premade_chocchip_crunchies",
@@ -36665,9 +36665,9 @@
       "iop1": "Eat",
       "iop5": "Drop"
     },
-    "shops": [
-      "giannerestaurant"
-    ]
+    "shops": {
+      "giannerestaurant": 3
+    }
   },
   {
     "debugname": "cert_premade_spicy_crunchies",
@@ -36696,9 +36696,9 @@
       "iop1": "Eat",
       "iop5": "Drop"
     },
-    "shops": [
-      "giannerestaurant"
-    ]
+    "shops": {
+      "giannerestaurant": 3
+    }
   },
   {
     "debugname": "cert_premade_toad_crunchies",
@@ -37254,9 +37254,9 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "pizzabaseshop"
-    ]
+    "shops": {
+      "pizzabaseshop": 30
+    }
   },
   {
     "debugname": "cert_pizza_base",
@@ -37620,16 +37620,16 @@
     "spawn_locations": [
       "0_40_151_4_6"
     ],
-    "shops": [
-      "bakery",
-      "junglestore",
-      "regicide_general_shop",
-      "regicide_general_shop_2",
-      "shilojunglestore",
-      "upassgeneralshop",
-      "viking_general_store",
-      "wydinstore"
-    ]
+    "shops": {
+      "bakery": 10,
+      "junglestore": 10,
+      "regicide_general_shop": 10,
+      "regicide_general_shop_2": 10,
+      "shilojunglestore": 10,
+      "upassgeneralshop": 5,
+      "viking_general_store": 10,
+      "wydinstore": 0
+    }
   },
   {
     "debugname": "cert_bread",
@@ -37691,9 +37691,9 @@
       "1_43_53_61_57",
       "1_49_53_6_55"
     ],
-    "shops": [
-      "cookeryshop"
-    ]
+    "shops": {
+      "cookeryshop": 5
+    }
   },
   {
     "debugname": "cert_piedish",
@@ -37830,9 +37830,9 @@
       "iop1": "Eat",
       "iop5": "Drop"
     },
-    "shops": [
-      "generallegends"
-    ]
+    "shops": {
+      "generallegends": 5
+    }
   },
   {
     "debugname": "cert_apple_pie",
@@ -37889,9 +37889,9 @@
       "iop1": "Eat",
       "iop5": "Drop"
     },
-    "shops": [
-      "upassgeneralshop"
-    ]
+    "shops": {
+      "upassgeneralshop": 10
+    }
   },
   {
     "debugname": "cert_meat_pie",
@@ -38180,32 +38180,32 @@
       "0_46_47_45_53",
       "1_46_52_31_40"
     ],
-    "shops": [
-      "arheinstore",
-      "death_generalshop",
-      "generaldwarf",
-      "generalshop1",
-      "generalshop2",
-      "generalshop3",
-      "generalshop4",
-      "generalshop5",
-      "generalshop6",
-      "generalshop7",
-      "generalshop8",
-      "generalshopogre",
-      "gnomeshop",
-      "junglestore",
-      "khazardshop",
-      "lighthouseshop",
-      "miningstore",
-      "razmiregeneralstore",
-      "shantayshop",
-      "shilojunglestore",
-      "taxfree",
-      "upassgeneralshop",
-      "viking_general_store",
-      "werewolfgeneralstore"
-    ]
+    "shops": {
+      "arheinstore": 5,
+      "death_generalshop": 5,
+      "generaldwarf": 5,
+      "generalshop1": 5,
+      "generalshop2": 5,
+      "generalshop3": 5,
+      "generalshop4": 5,
+      "generalshop5": 5,
+      "generalshop6": 5,
+      "generalshop7": 5,
+      "generalshop8": 5,
+      "generalshopogre": 5,
+      "gnomeshop": 5,
+      "junglestore": 10,
+      "khazardshop": 5,
+      "lighthouseshop": 10,
+      "miningstore": 4,
+      "razmiregeneralstore": 5,
+      "shantayshop": 10,
+      "shilojunglestore": 10,
+      "taxfree": 5,
+      "upassgeneralshop": 3,
+      "viking_general_store": 10,
+      "werewolfgeneralstore": 5
+    }
   },
   {
     "debugname": "cert_hammer",
@@ -38233,12 +38233,12 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "junglestore",
-      "miningstore",
-      "shantayshop",
-      "shilojunglestore"
-    ]
+    "shops": {
+      "junglestore": 10,
+      "miningstore": 0,
+      "shantayshop": 10,
+      "shilojunglestore": 10
+    }
   },
   {
     "debugname": "cert_bronze_bar",
@@ -38269,9 +38269,9 @@
     "spawn_locations": [
       "0_48_57_39_9"
     ],
-    "shops": [
-      "miningstore"
-    ]
+    "shops": {
+      "miningstore": 0
+    }
   },
   {
     "debugname": "cert_iron_bar",
@@ -38326,9 +38326,9 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "silverstall"
-    ]
+    "shops": {
+      "silverstall": 1
+    }
   },
   {
     "debugname": "cert_silver_bar",
@@ -38359,9 +38359,9 @@
     "spawn_locations": [
       "0_49_153_56_30"
     ],
-    "shops": [
-      "miningstore"
-    ]
+    "shops": {
+      "miningstore": 0
+    }
   },
   {
     "debugname": "cert_gold_bar",
@@ -38509,9 +38509,9 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "legendsguildshop"
-    ]
+    "shops": {
+      "legendsguildshop": 1
+    }
   },
   {
     "debugname": "cert_dragonshield_b",
@@ -38955,9 +38955,9 @@
       "strengthbonus": 12,
       "attackrate": 5
     },
-    "shops": [
-      "legendsguildshop"
-    ]
+    "shops": {
+      "legendsguildshop": 4
+    }
   },
   {
     "debugname": "hazeel_scroll",
@@ -39176,9 +39176,9 @@
       "strengthbonus": 2,
       "attackrate": 5
     },
-    "shops": [
-      "magearena_staffshop"
-    ]
+    "shops": {
+      "magearena_staffshop": 5
+    }
   },
   {
     "debugname": "guthix_staff",
@@ -39205,9 +39205,9 @@
       "strengthbonus": 2,
       "attackrate": 5
     },
-    "shops": [
-      "magearena_staffshop"
-    ]
+    "shops": {
+      "magearena_staffshop": 5
+    }
   },
   {
     "debugname": "zamorak_staff",
@@ -39234,9 +39234,9 @@
       "strengthbonus": 2,
       "attackrate": 5
     },
-    "shops": [
-      "magearena_staffshop"
-    ]
+    "shops": {
+      "magearena_staffshop": 5
+    }
   },
   {
     "debugname": "princeskey",
@@ -40785,9 +40785,9 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "duel_rottenfruitshop"
-    ]
+    "shops": {
+      "duel_rottenfruitshop": 2000
+    }
   },
   {
     "debugname": "cert_rotten_tomato",
@@ -40816,9 +40816,9 @@
       "iop1": "Play-with",
       "iop5": "Drop"
     },
-    "shops": [
-      "aprilfoolshorseshop"
-    ]
+    "shops": {
+      "aprilfoolshorseshop": 5
+    }
   },
   {
     "debugname": "cert_horsey_brown",
@@ -40847,9 +40847,9 @@
       "iop1": "Play-with",
       "iop5": "Drop"
     },
-    "shops": [
-      "aprilfoolshorseshop"
-    ]
+    "shops": {
+      "aprilfoolshorseshop": 5
+    }
   },
   {
     "debugname": "cert_horsey_white",
@@ -40878,9 +40878,9 @@
       "iop1": "Play-with",
       "iop5": "Drop"
     },
-    "shops": [
-      "aprilfoolshorseshop"
-    ]
+    "shops": {
+      "aprilfoolshorseshop": 5
+    }
   },
   {
     "debugname": "cert_horsey_black",
@@ -40909,9 +40909,9 @@
       "iop1": "Play-with",
       "iop5": "Drop"
     },
-    "shops": [
-      "aprilfoolshorseshop"
-    ]
+    "shops": {
+      "aprilfoolshorseshop": 5
+    }
   },
   {
     "debugname": "cert_horsey_grey",
@@ -46380,9 +46380,9 @@
       "slashdefence": 1,
       "crushdefence": 1
     },
-    "shops": [
-      "werewolfstore2"
-    ]
+    "shops": {
+      "werewolfstore2": 5
+    }
   },
   {
     "debugname": "cert_wolfenboots_grey",
@@ -46416,9 +46416,9 @@
       "slashdefence": 2,
       "crushdefence": 2
     },
-    "shops": [
-      "werewolfstore2"
-    ]
+    "shops": {
+      "werewolfstore2": 5
+    }
   },
   {
     "debugname": "cert_wolfenrobetop_grey",
@@ -46452,9 +46452,9 @@
       "slashdefence": 2,
       "crushdefence": 2
     },
-    "shops": [
-      "werewolfstore2"
-    ]
+    "shops": {
+      "werewolfstore2": 5
+    }
   },
   {
     "debugname": "cert_wolfenrobebottom_grey",
@@ -46488,9 +46488,9 @@
       "magicattack": 3,
       "magicdefence": 3
     },
-    "shops": [
-      "werewolfstore2"
-    ]
+    "shops": {
+      "werewolfstore2": 5
+    }
   },
   {
     "debugname": "cert_wolfenhat_grey",
@@ -46524,9 +46524,9 @@
       "slashdefence": 1,
       "crushdefence": 2
     },
-    "shops": [
-      "werewolfstore2"
-    ]
+    "shops": {
+      "werewolfstore2": 5
+    }
   },
   {
     "debugname": "cert_wolfengloves_grey",
@@ -46560,9 +46560,9 @@
       "slashdefence": 1,
       "crushdefence": 1
     },
-    "shops": [
-      "werewolfstore2"
-    ]
+    "shops": {
+      "werewolfstore2": 5
+    }
   },
   {
     "debugname": "cert_wolfenboots_crimson",
@@ -46596,9 +46596,9 @@
       "slashdefence": 2,
       "crushdefence": 2
     },
-    "shops": [
-      "werewolfstore2"
-    ]
+    "shops": {
+      "werewolfstore2": 5
+    }
   },
   {
     "debugname": "cert_wolfenrobetop_crimson",
@@ -46632,9 +46632,9 @@
       "slashdefence": 2,
       "crushdefence": 2
     },
-    "shops": [
-      "werewolfstore2"
-    ]
+    "shops": {
+      "werewolfstore2": 5
+    }
   },
   {
     "debugname": "cert_wolfenrobebottom_crimson",
@@ -46668,9 +46668,9 @@
       "magicattack": 3,
       "magicdefence": 3
     },
-    "shops": [
-      "werewolfstore2"
-    ]
+    "shops": {
+      "werewolfstore2": 5
+    }
   },
   {
     "debugname": "cert_wolfenhat_crimson",
@@ -46704,9 +46704,9 @@
       "slashdefence": 1,
       "crushdefence": 2
     },
-    "shops": [
-      "werewolfstore2"
-    ]
+    "shops": {
+      "werewolfstore2": 5
+    }
   },
   {
     "debugname": "cert_wolfengloves_crimson",
@@ -46740,9 +46740,9 @@
       "slashdefence": 1,
       "crushdefence": 1
     },
-    "shops": [
-      "werewolfstore2"
-    ]
+    "shops": {
+      "werewolfstore2": 5
+    }
   },
   {
     "debugname": "cert_wolfenboots_tangerine",
@@ -46776,9 +46776,9 @@
       "slashdefence": 2,
       "crushdefence": 2
     },
-    "shops": [
-      "werewolfstore2"
-    ]
+    "shops": {
+      "werewolfstore2": 5
+    }
   },
   {
     "debugname": "cert_wolfenrobetop_tangerine",
@@ -46812,9 +46812,9 @@
       "slashdefence": 2,
       "crushdefence": 2
     },
-    "shops": [
-      "werewolfstore2"
-    ]
+    "shops": {
+      "werewolfstore2": 5
+    }
   },
   {
     "debugname": "cert_wolfenrobebottom_tangerine",
@@ -46848,9 +46848,9 @@
       "magicattack": 3,
       "magicdefence": 3
     },
-    "shops": [
-      "werewolfstore2"
-    ]
+    "shops": {
+      "werewolfstore2": 5
+    }
   },
   {
     "debugname": "cert_wolfenhat_tangerine",
@@ -46884,9 +46884,9 @@
       "slashdefence": 1,
       "crushdefence": 2
     },
-    "shops": [
-      "werewolfstore2"
-    ]
+    "shops": {
+      "werewolfstore2": 5
+    }
   },
   {
     "debugname": "cert_wolfengloves_tangerine",
@@ -46920,9 +46920,9 @@
       "slashdefence": 1,
       "crushdefence": 1
     },
-    "shops": [
-      "werewolfstore2"
-    ]
+    "shops": {
+      "werewolfstore2": 5
+    }
   },
   {
     "debugname": "cert_wolfenboots_ocean",
@@ -46956,9 +46956,9 @@
       "slashdefence": 2,
       "crushdefence": 2
     },
-    "shops": [
-      "werewolfstore2"
-    ]
+    "shops": {
+      "werewolfstore2": 5
+    }
   },
   {
     "debugname": "cert_wolfenrobetop_ocean",
@@ -46992,9 +46992,9 @@
       "slashdefence": 2,
       "crushdefence": 2
     },
-    "shops": [
-      "werewolfstore2"
-    ]
+    "shops": {
+      "werewolfstore2": 5
+    }
   },
   {
     "debugname": "cert_wolfenrobebottom_ocean",
@@ -47028,9 +47028,9 @@
       "magicattack": 3,
       "magicdefence": 3
     },
-    "shops": [
-      "werewolfstore2"
-    ]
+    "shops": {
+      "werewolfstore2": 5
+    }
   },
   {
     "debugname": "cert_wolfenhat_ocean",
@@ -47064,9 +47064,9 @@
       "slashdefence": 1,
       "crushdefence": 2
     },
-    "shops": [
-      "werewolfstore2"
-    ]
+    "shops": {
+      "werewolfstore2": 5
+    }
   },
   {
     "debugname": "cert_wolfengloves_ocean",
@@ -47100,9 +47100,9 @@
       "slashdefence": 1,
       "crushdefence": 1
     },
-    "shops": [
-      "werewolfstore2"
-    ]
+    "shops": {
+      "werewolfstore2": 5
+    }
   },
   {
     "debugname": "cert_wolfenboots_purple",
@@ -47136,9 +47136,9 @@
       "slashdefence": 2,
       "crushdefence": 2
     },
-    "shops": [
-      "werewolfstore2"
-    ]
+    "shops": {
+      "werewolfstore2": 5
+    }
   },
   {
     "debugname": "cert_wolfenrobetop_purple",
@@ -47172,9 +47172,9 @@
       "slashdefence": 2,
       "crushdefence": 2
     },
-    "shops": [
-      "werewolfstore2"
-    ]
+    "shops": {
+      "werewolfstore2": 5
+    }
   },
   {
     "debugname": "cert_wolfenrobebottom_purple",
@@ -47208,9 +47208,9 @@
       "magicattack": 3,
       "magicdefence": 3
     },
-    "shops": [
-      "werewolfstore2"
-    ]
+    "shops": {
+      "werewolfstore2": 5
+    }
   },
   {
     "debugname": "cert_wolfenhat_purple",
@@ -47244,9 +47244,9 @@
       "slashdefence": 1,
       "crushdefence": 2
     },
-    "shops": [
-      "werewolfstore2"
-    ]
+    "shops": {
+      "werewolfstore2": 5
+    }
   },
   {
     "debugname": "cert_wolfengloves_purple",
@@ -47725,10 +47725,10 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "craftingshop",
-      "craftingshop2"
-    ]
+    "shops": {
+      "craftingshop": 6,
+      "craftingshop2": 6
+    }
   },
   {
     "debugname": "cert_sickle_mould",
@@ -50246,9 +50246,9 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "tbwt_tiadeche_final_inventory"
-    ]
+    "shops": {
+      "tbwt_tiadeche_final_inventory": 10
+    }
   },
   {
     "debugname": "cert_tbwt_raw_karambwan",
@@ -50277,9 +50277,9 @@
       "iop1": "Eat",
       "iop5": "Drop"
     },
-    "shops": [
-      "karamja_fishrestaurant"
-    ]
+    "shops": {
+      "karamja_fishrestaurant": 3
+    }
   },
   {
     "debugname": "cert_tbwt_cooked_karambwan",
@@ -50447,9 +50447,9 @@
     "equipable_item": {
       "wearpos": "weapon"
     },
-    "shops": [
-      "tbwt_tiadeche_final_inventory"
-    ]
+    "shops": {
+      "tbwt_tiadeche_final_inventory": 2
+    }
   },
   {
     "debugname": "cert_tbwt_karambwan_vessel",
@@ -50627,9 +50627,9 @@
       "strengthbonus": 6,
       "attackrate": 6
     },
-    "shops": [
-      "tbwt_tamayu_final_inventory"
-    ]
+    "shops": {
+      "tbwt_tamayu_final_inventory": 10
+    }
   },
   {
     "debugname": "tbwt_iron_spear_kp",
@@ -50653,9 +50653,9 @@
       "strengthbonus": 10,
       "attackrate": 6
     },
-    "shops": [
-      "tbwt_tamayu_final_inventory"
-    ]
+    "shops": {
+      "tbwt_tamayu_final_inventory": 10
+    }
   },
   {
     "debugname": "tbwt_steel_spear_kp",
@@ -50679,9 +50679,9 @@
       "strengthbonus": 12,
       "attackrate": 6
     },
-    "shops": [
-      "tbwt_tamayu_final_inventory"
-    ]
+    "shops": {
+      "tbwt_tamayu_final_inventory": 5
+    }
   },
   {
     "debugname": "tbwt_mithril_spear_kp",
@@ -50705,9 +50705,9 @@
       "strengthbonus": 18,
       "attackrate": 6
     },
-    "shops": [
-      "tbwt_tamayu_final_inventory"
-    ]
+    "shops": {
+      "tbwt_tamayu_final_inventory": 2
+    }
   },
   {
     "debugname": "tbwt_adamant_spear_kp",
@@ -50731,9 +50731,9 @@
       "strengthbonus": 28,
       "attackrate": 6
     },
-    "shops": [
-      "tbwt_tamayu_final_inventory"
-    ]
+    "shops": {
+      "tbwt_tamayu_final_inventory": 0
+    }
   },
   {
     "debugname": "tbwt_rune_spear_kp",
@@ -50757,9 +50757,9 @@
       "strengthbonus": 42,
       "attackrate": 6
     },
-    "shops": [
-      "tbwt_tamayu_final_inventory"
-    ]
+    "shops": {
+      "tbwt_tamayu_final_inventory": 0
+    }
   },
   {
     "debugname": "tbwt_dragon_spear_kp",
@@ -50947,9 +50947,9 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "tbwt_tamayu_final_inventory"
-    ]
+    "shops": {
+      "tbwt_tamayu_final_inventory": 10
+    }
   },
   {
     "debugname": "cert_tbwt_cleaning_cloth",
@@ -50989,10 +50989,10 @@
       "strengthbonus": 8,
       "attackrate": 7
     },
-    "shops": [
-      "regicide_general_shop",
-      "regicide_general_shop_2"
-    ]
+    "shops": {
+      "regicide_general_shop": 10,
+      "regicide_general_shop_2": 10
+    }
   },
   {
     "debugname": "cert_bronze_halberd",
@@ -51032,10 +51032,10 @@
       "strengthbonus": 12,
       "attackrate": 7
     },
-    "shops": [
-      "regicide_general_shop",
-      "regicide_general_shop_2"
-    ]
+    "shops": {
+      "regicide_general_shop": 10,
+      "regicide_general_shop_2": 10
+    }
   },
   {
     "debugname": "cert_iron_halberd",
@@ -51075,10 +51075,10 @@
       "strengthbonus": 20,
       "attackrate": 7
     },
-    "shops": [
-      "regicide_general_shop",
-      "regicide_general_shop_2"
-    ]
+    "shops": {
+      "regicide_general_shop": 10,
+      "regicide_general_shop_2": 10
+    }
   },
   {
     "debugname": "cert_steel_halberd",
@@ -51118,10 +51118,10 @@
       "strengthbonus": 20,
       "attackrate": 7
     },
-    "shops": [
-      "regicide_general_shop",
-      "regicide_general_shop_2"
-    ]
+    "shops": {
+      "regicide_general_shop": 10,
+      "regicide_general_shop_2": 10
+    }
   },
   {
     "debugname": "cert_black_halberd",
@@ -51161,10 +51161,10 @@
       "strengthbonus": 29,
       "attackrate": 7
     },
-    "shops": [
-      "regicide_general_shop",
-      "regicide_general_shop_2"
-    ]
+    "shops": {
+      "regicide_general_shop": 7,
+      "regicide_general_shop_2": 7
+    }
   },
   {
     "debugname": "cert_mithril_halberd",
@@ -51204,10 +51204,10 @@
       "strengthbonus": 42,
       "attackrate": 7
     },
-    "shops": [
-      "regicide_general_shop",
-      "regicide_general_shop_2"
-    ]
+    "shops": {
+      "regicide_general_shop": 7,
+      "regicide_general_shop_2": 7
+    }
   },
   {
     "debugname": "cert_adamant_halberd",
@@ -51247,10 +51247,10 @@
       "strengthbonus": 68,
       "attackrate": 7
     },
-    "shops": [
-      "regicide_general_shop",
-      "regicide_general_shop_2"
-    ]
+    "shops": {
+      "regicide_general_shop": 7,
+      "regicide_general_shop_2": 7
+    }
   },
   {
     "debugname": "cert_rune_halberd",
@@ -51290,9 +51290,9 @@
       "strengthbonus": 89,
       "attackrate": 7
     },
-    "shops": [
-      "regicide_general_shop_2"
-    ]
+    "shops": {
+      "regicide_general_shop_2": 5
+    }
   },
   {
     "debugname": "cert_dragon_halberd",
@@ -53649,9 +53649,9 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "werewolfgeneralstore"
-    ]
+    "shops": {
+      "werewolfgeneralstore": 10
+    }
   },
   {
     "debugname": "cert_empty_dye_bottle",
@@ -54277,9 +54277,9 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "razmirebuildingstore"
-    ]
+    "shops": {
+      "razmirebuildingstore": 1000
+    }
   },
   {
     "debugname": "cert_limestonebrick",
@@ -54334,9 +54334,9 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "razmiregeneralstore"
-    ]
+    "shops": {
+      "razmiregeneralstore": 150
+    }
   },
   {
     "debugname": "cert_oliveoil3",
@@ -57799,9 +57799,9 @@
     "iops": {
       "iop5": "Drop"
     },
-    "shops": [
-      "razmiregeneralstore"
-    ]
+    "shops": {
+      "razmiregeneralstore": 3
+    }
   },
   {
     "debugname": "cert_flamtaer_hammer",
@@ -58710,9 +58710,9 @@
       "magicdefence": 6,
       "rangedefence": 6
     },
-    "shops": [
-      "viking_weapons_shop"
-    ]
+    "shops": {
+      "viking_weapons_shop": 5
+    }
   },
   {
     "debugname": "cert_viking_helmet_range",
@@ -58751,9 +58751,9 @@
       "rangedefence": 30,
       "strengthbonus": 3
     },
-    "shops": [
-      "viking_weapons_shop"
-    ]
+    "shops": {
+      "viking_weapons_shop": 5
+    }
   },
   {
     "debugname": "cert_viking_helmet_crush",
@@ -58792,9 +58792,9 @@
       "crushdefence": 29,
       "rangedefence": 30
     },
-    "shops": [
-      "viking_weapons_shop"
-    ]
+    "shops": {
+      "viking_weapons_shop": 5
+    }
   },
   {
     "debugname": "cert_viking_helmet_slash",
@@ -58835,9 +58835,9 @@
       "crushdefence": 12,
       "magicdefence": 6
     },
-    "shops": [
-      "viking_weapons_shop"
-    ]
+    "shops": {
+      "viking_weapons_shop": 5
+    }
   },
   {
     "debugname": "cert_viking_helmet_magic",
@@ -58916,9 +58916,9 @@
       "crushdefence": 1,
       "rangedefence": 2
     },
-    "shops": [
-      "viking_clothes_shop"
-    ]
+    "shops": {
+      "viking_clothes_shop": 5
+    }
   },
   {
     "debugname": "cert_viking_cloak_green",
@@ -58953,9 +58953,9 @@
       "crushdefence": 1,
       "rangedefence": 2
     },
-    "shops": [
-      "viking_clothes_shop"
-    ]
+    "shops": {
+      "viking_clothes_shop": 5
+    }
   },
   {
     "debugname": "cert_viking_cloak_darkbrown",
@@ -58990,9 +58990,9 @@
       "crushdefence": 1,
       "rangedefence": 2
     },
-    "shops": [
-      "viking_clothes_shop"
-    ]
+    "shops": {
+      "viking_clothes_shop": 5
+    }
   },
   {
     "debugname": "cert_viking_cloak_lightbrown",
@@ -59027,9 +59027,9 @@
       "crushdefence": 1,
       "rangedefence": 2
     },
-    "shops": [
-      "viking_clothes_shop"
-    ]
+    "shops": {
+      "viking_clothes_shop": 5
+    }
   },
   {
     "debugname": "cert_viking_cloak_brown",
@@ -59063,9 +59063,9 @@
       "slashdefence": 2,
       "crushdefence": 2
     },
-    "shops": [
-      "viking_clothes_shop"
-    ]
+    "shops": {
+      "viking_clothes_shop": 5
+    }
   },
   {
     "debugname": "cert_viking_top_darkbrown",
@@ -59099,9 +59099,9 @@
       "slashdefence": 2,
       "crushdefence": 2
     },
-    "shops": [
-      "viking_clothes_shop"
-    ]
+    "shops": {
+      "viking_clothes_shop": 5
+    }
   },
   {
     "debugname": "cert_viking_top_green",
@@ -59135,9 +59135,9 @@
       "slashdefence": 2,
       "crushdefence": 2
     },
-    "shops": [
-      "viking_clothes_shop"
-    ]
+    "shops": {
+      "viking_clothes_shop": 5
+    }
   },
   {
     "debugname": "cert_viking_top_beige",
@@ -59171,9 +59171,9 @@
       "slashdefence": 2,
       "crushdefence": 2
     },
-    "shops": [
-      "viking_clothes_shop"
-    ]
+    "shops": {
+      "viking_clothes_shop": 5
+    }
   },
   {
     "debugname": "cert_viking_top_red",
@@ -59207,9 +59207,9 @@
       "slashdefence": 2,
       "crushdefence": 2
     },
-    "shops": [
-      "viking_clothes_shop"
-    ]
+    "shops": {
+      "viking_clothes_shop": 5
+    }
   },
   {
     "debugname": "cert_viking_top_blue",
@@ -59244,9 +59244,9 @@
       "crushdefence": 1,
       "rangedefence": 2
     },
-    "shops": [
-      "viking_clothes_shop"
-    ]
+    "shops": {
+      "viking_clothes_shop": 5
+    }
   },
   {
     "debugname": "cert_viking_cloak_red",
@@ -59281,9 +59281,9 @@
       "crushdefence": 1,
       "rangedefence": 2
     },
-    "shops": [
-      "viking_clothes_shop"
-    ]
+    "shops": {
+      "viking_clothes_shop": 5
+    }
   },
   {
     "debugname": "cert_viking_cloak_grey",
@@ -59318,9 +59318,9 @@
       "crushdefence": 1,
       "rangedefence": 2
     },
-    "shops": [
-      "viking_clothes_shop"
-    ]
+    "shops": {
+      "viking_clothes_shop": 5
+    }
   },
   {
     "debugname": "cert_viking_cloak_tangerine",
@@ -59355,9 +59355,9 @@
       "crushdefence": 1,
       "rangedefence": 2
     },
-    "shops": [
-      "viking_clothes_shop"
-    ]
+    "shops": {
+      "viking_clothes_shop": 5
+    }
   },
   {
     "debugname": "cert_viking_cloak_ocean",
@@ -59392,9 +59392,9 @@
       "crushdefence": 1,
       "rangedefence": 2
     },
-    "shops": [
-      "viking_clothes_shop"
-    ]
+    "shops": {
+      "viking_clothes_shop": 5
+    }
   },
   {
     "debugname": "cert_viking_cloak_purple",
@@ -59429,9 +59429,9 @@
       "crushdefence": 1,
       "rangedefence": 2
     },
-    "shops": [
-      "viking_clothes_shop"
-    ]
+    "shops": {
+      "viking_clothes_shop": 5
+    }
   },
   {
     "debugname": "cert_viking_cloak_pink",
@@ -59466,9 +59466,9 @@
       "crushdefence": 1,
       "rangedefence": 2
     },
-    "shops": [
-      "viking_clothes_shop"
-    ]
+    "shops": {
+      "viking_clothes_shop": 5
+    }
   },
   {
     "debugname": "cert_viking_cloak_black",
@@ -59502,9 +59502,9 @@
       "slashdefence": 1,
       "crushdefence": 1
     },
-    "shops": [
-      "viking_clothes_shop"
-    ]
+    "shops": {
+      "viking_clothes_shop": 5
+    }
   },
   {
     "debugname": "cert_vikingboots",
@@ -59538,9 +59538,9 @@
       "slashdefence": 2,
       "crushdefence": 2
     },
-    "shops": [
-      "viking_clothes_shop"
-    ]
+    "shops": {
+      "viking_clothes_shop": 5
+    }
   },
   {
     "debugname": "cert_vikingrobetop",
@@ -59574,9 +59574,9 @@
       "slashdefence": 2,
       "crushdefence": 2
     },
-    "shops": [
-      "viking_clothes_shop"
-    ]
+    "shops": {
+      "viking_clothes_shop": 5
+    }
   },
   {
     "debugname": "cert_vikingrobebottom",
@@ -59610,9 +59610,9 @@
       "magicattack": 3,
       "magicdefence": 3
     },
-    "shops": [
-      "viking_clothes_shop"
-    ]
+    "shops": {
+      "viking_clothes_shop": 5
+    }
   },
   {
     "debugname": "cert_vikinghat",
@@ -59646,9 +59646,9 @@
       "slashdefence": 1,
       "crushdefence": 2
     },
-    "shops": [
-      "viking_clothes_shop"
-    ]
+    "shops": {
+      "viking_clothes_shop": 5
+    }
   },
   {
     "debugname": "cert_vikinggloves",
@@ -59677,9 +59677,9 @@
       "iop1": "Drink",
       "iop5": "Drop"
     },
-    "shops": [
-      "viking_bar"
-    ]
+    "shops": {
+      "viking_bar": 20
+    }
   },
   {
     "debugname": "cert_keg_of_beer",
@@ -59711,9 +59711,9 @@
     "spawn_locations": [
       "0_41_57_34_28"
     ],
-    "shops": [
-      "viking_bar"
-    ]
+    "shops": {
+      "viking_bar": 50
+    }
   },
   {
     "debugname": "cert_viking_tankard_full",
