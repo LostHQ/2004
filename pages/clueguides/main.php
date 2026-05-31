@@ -161,5 +161,4 @@ Here is a list of commonly farmed NPCs and their locations.
 For clue rewards you can check our <a href="?p=cluetables">Clue Tables page</a>.<br>
 Select the clue tier you wish to view drops for<br>
 <br>
-</div>
 HTML; }
