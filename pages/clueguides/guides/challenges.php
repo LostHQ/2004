@@ -9,7 +9,7 @@ function getGuideContent($guide) { return <<<HTML
   </tr>
   <tr> 
     <td>How many animals in total<br>are there in the zoo?</td>
-    <td>32</td>
+    <td>40</td>
   </tr>
   <tr> 
     <td>How many cannons does<br>Lumbridge Castle have?</td>
