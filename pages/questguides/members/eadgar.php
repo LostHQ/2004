@@ -21,17 +21,18 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
         <li><div data-progress><canvas itemname="raw_chicken" show-label="inline" amount="5"></canvas></div></li>
         <li><div data-progress><canvas itemname="pineapple_chunks" show-label="inline"></canvas></div></li>
         <li><div data-progress><canvas itemname="vodka" show-label="inline" name-append=" (Gin, Brandy, Whiskey, etc. also works)"></canvas></div></li>
-        <li><div data-progress><canvas itemname="logs" show-label="inline"></canvas></div></li>
+        <li><div data-progress><canvas itemname="logs" show-label="inline" name-replace="1 log (Any except Pyre)"></canvas></div></li>
         <li><div data-progress><canvas itemname="vial_water" show-label="inline"></canvas></div></li>
         <li><div data-progress><canvas itemname="ranarr_weed" show-label="inline"></canvas></div></li>
         <li><div data-progress><canvas itemname="pestle_and_mortar" show-label="inline"></canvas></div></li>
     </ul>
     <h3>Recommended:</h3>
     <ul style="list-style-type: none;">
-        <li><div data-progress><canvas itemname="tinderbox" show-label="inline"></canvas></div></li>
-        <li><div data-progress><canvas itemname="lawrune" show-label="inline" amount="10" name-replace="Teleport to Falador Runes"></canvas></div></li>
-        <li><div data-progress><canvas itemname="lawrune" show-label="inline" amount="10" name-replace="Teleport to Ardougne Runes"></canvas></div></li>
-        <li><div data-progress><canvas itemname="logs" show-label="inline" name-replace="Additional logs"></canvas></div></li>
+        <li><div data-progress><canvas itemname="necklace_of_minigames_8" show-label="inline" name-append=" (Quicker transportation)"></canvas></div></li>
+        <li><div data-progress><canvas itemname="lawrune" show-label="inline" amount="10" name-replace="Teleport to Falador (Quicker Transportation)"></canvas></div></li>
+        <li><div data-progress><canvas itemname="lawrune" show-label="inline" amount="10" name-replace="Teleport to Ardougne (Quicker Transportation)"></canvas></div></li>
+        <li><div data-progress><canvas itemname="logs" show-label="inline" name-replace="1 more log (to dry the thistle)"></canvas></div></li>
+        <li><div data-progress><canvas itemname="tinderbox" show-label="inline" name-append=" (to dry the thistle)"></canvas></div></li>
     </ul>
     <b>Starting Location:</b> Speak to Sanfew in Taverley
     <br><br>
