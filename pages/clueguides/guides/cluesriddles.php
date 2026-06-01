@@ -128,7 +128,7 @@ function getGuideContent($guide) { return <<<HTML
   </tr>
   <tr>
     <td>Search the crates in Draynor Manor</td>
-    <td>Search all possible crates and boxes on the third floor in the room to the left of the professor and machine, north end of room, in Draynor Manor.</td>
+    <td>Crate, top floor of Draynor Manor, near Professor Oddenstein from the Ernest the Chicken quest.</td>
   </tr>
   <tr>
     <td>Search the boxes in one of the tents in Al Kharid.</td>
@@ -156,7 +156,7 @@ function getGuideContent($guide) { return <<<HTML
   </tr>
   <tr>
     <td>Search the drawers in a house in Draynor Village.</td>
-    <td>Crate, top floor of Draynor Manor, near Professor Oddenstein from the Ernest the Chicken quest.</td>
+    <td>As you first enter Draynor going through the lumbridge/draynor manor/falador intersection, go into the first house that you see.</td>
   </tr>
   <tr>
     <td>Search the drawers on the first floor of a building overlooking the Ardougne market.</td>
