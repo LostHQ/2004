@@ -363,19 +363,19 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
     </tr>
     <tr>
         <td>Coins needed to make:</td>
-        <td>1,000</td>
-        <td>1,000</td>
-        <td>32,000</td>
-        <td>37,000</td>
         <td>6,000</td>
+        <td>37,000</td>
+        <td>32,000</td>
+        <td>1,000</td>
+        <td>1,000</td>
     </tr>
     <tr>
         <td>Fine cloth & bark needed:</td>
-        <td>1</td>
-        <td>1</td>
-        <td>3</td>
-        <td>4</td>
         <td>2</td>
+        <td>4</td>
+        <td>3</td>
+        <td>1</td>
+        <td>1</td>
     </tr>
     <tr>
         <th colspan="6">Attack Bonuses</th>
