@@ -26,9 +26,6 @@ function getGuideContent($guide) { return <<<HTML
 </ol>
 <table class="table">
   <tr>
-    <th colspan="2">Medium Clues</th>
-  </tr>
-  <tr>
     <th width="150px">Coordinate:</th>
     <th>Location:</th>
   </tr>

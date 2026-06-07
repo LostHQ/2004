@@ -1,30 +1,8 @@
 <?php
 function getGuideContent($guide) { return <<<HTML
 <h2>Treasure Trails $guide Guide</h2>
-<p>When you get a coordinate clue, it will say something like "04 degrees, 13 minutes North, 12 degrees, 45 minutes East".
-<br><br>
-<h3>Note: When you follow a clue with coordinates, you will need to have the sextant, watch, chart, and clue in your inventory to dig up the treasure.</h3>
 <br>
-<div style="display:flex;justify-content: center;">
-    <canvas itemname="trail_watch" show-label="inline"></canvas>&nbsp;&nbsp;&nbsp;&nbsp;
-    <canvas itemname="trail_sextant" show-label="inline"></canvas>&nbsp;&nbsp;&nbsp;&nbsp;
-    <canvas itemname="trail_chart" show-label="inline"></canvas>
-</div>
-<br><br>
-In order to aquire a sextant, watch, and chart, you first must have a coordinate clue and have either started or completed the <a href="?p=questguides&quest=observatory">Observatory Quest</a>. Once you have met these requirements, the steps are as follows:
-<ol>
-  <li>With the coordinate clue in your inventory, talk to the Observatory professor about Treasure Trails.</li>
-  <li>Head over to Port Khazard and speak to Murphy to obtain a sextant.</li>
-  <li>Speak with Brother Kojo in the Clock Tower for a watch.</li>
-  <li>Finally, go back to the Observatory and speak with the assistant for the chart.</li>
-  <li>Speak to the Observatory professor for the last and final time. Now you can do coordinate scrolls!</li>
-</ol>
-<br>
-<hr>
 <table class="table">
-  <tr>
-    <th colspan="2">Hard Clues</th>
-  </tr>
   <tr>
     <th width="150px">Coordinate:</th>
     <th>Location:</th>

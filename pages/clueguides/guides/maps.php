@@ -1,32 +1,7 @@
 <?php
 function getGuideContent($guide) { return <<<HTML
 <h2>Treasure Trails $guide Guide</h2>
-<h3>Maps</h3>
-<p>Sometimes you might get a clue scroll, and when you open it up to read it, all you see is a map. Your task is now to find out where that place is, and then, like the pirates always do, take the steps shown on your map, and dig where X marks the spot ;) To dig, you'll need your trusty spade. Here's a list of the different maps:
-<table class="table" width="100%">
-  <tr>
-    <th colspan=2>Easy Clues</th>
-  </tr>
-  <tr> 
-    <td><img src="img/clue_guides/maps/easy/champ_guild.png" style="width:200px;" alt="champ_guild"></td>
-    <td>Champions Guild Map<br><br>West of Champions Guild</td>
-  </tr>
-  <tr> 
-    <td><img src="img/clue_guides/maps/easy/varrock_mine.png" style="width:200px;" alt="varrock_mine"></td>
-    <td>Varrock Mine Map<br><br>Dig at the fence at the south-east Varrock mine</td>
-  </tr>
-  <tr> 
-    <td><img src="img/clue_guides/maps/easy/falador_mine.png" style="width:200px;" alt="falador_mine"></td>
-    <td>Falador Useless Rock Area Map<br><br>Fenced area north-east of Falador, south-west of Barbarian Village; full of useless rocks</td>
-  </tr>
-    <td><img src="img/clue_guides/maps/easy/clue_brother_galahad.jpg" style="width:200px;" alt="clue_brother_galahad.jpg"></td>
-    <td>Brother Galahad's house across the river from Coal Trucks.</td>
-  </tr>
-  <tr>
-    <td><img src="img/clue_guides/maps/easy/wiztowermap.gif" style="width:200px;" alt="wiztowermap.gif"></td>
-    <td>Behind the Wizard's Tower</td>
-  </tr>
-</table>
+
 <hr>
 <table class="table" width="100%">
   <tr>
@@ -98,7 +73,7 @@ function getGuideContent($guide) { return <<<HTML
   </tr>
 </table>
 </p>
-<script src="js/clue_puzzle/puzzle_solver.js"></script>
+<script src="/js/clue_puzzle/puzzle_solver.js"></script>
 <script>
   const castleBox = new PuzzleBox('puzzleCanvasCastle', 'castleSolveButton', puzzleSetCastle, 'movesCounterCastle', 'castleNextButton', 'castlePrevButton', 'castleAutoButton');
   const treeBox = new PuzzleBox('puzzleCanvasTree', 'treeSolveButton', puzzleSetTree, 'movesCounterTree', 'treeNextButton', 'treePrevButton', 'treeAutoButton');
