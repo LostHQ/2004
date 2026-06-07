@@ -346,7 +346,7 @@ function getGuideContent($guide) { return <<<HTML
     <td>Brimhaven - Usually walking by the North dock to Ardougne</td>
   </tr>
   <tr>
-    <td>Hazelmere</td>
+    <td><a href="#challenges" class="a">Hazelmere*</a></td>
     <td>House on the green spiders island east of Yanille, second floor </td>
   </tr>
   <tr> 
