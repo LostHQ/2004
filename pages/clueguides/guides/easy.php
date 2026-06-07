@@ -1,8 +1,10 @@
 <?php
 function getGuideContent($guide) { return <<<HTML
 <h2>$guide Guide</h2>
+<p>Quick Links:<br><a href="#maps">Maps</a> | <a href="#riddles">Riddles</a> | <a href="#speakto">Speak to...</a></p>
 <hr>
 <h3>Maps</h3>
+<a name="maps"></a>
 <p>
     Sometimes you might get a clue scroll, and when you open it up to read it, all you see is a map. Your task is now to find out where that place is, and then, like the pirates always do, take the steps shown on your map, and dig where X marks the spot ;) To dig, you'll need your trusty spade. Here's a list of the different maps:
 </p>
@@ -19,6 +21,7 @@ function getGuideContent($guide) { return <<<HTML
     <td><img src="img/clue_guides/maps/easy/falador_mine.png" style="width:200px;" alt="falador_mine"></td>
     <td>Falador Useless Rock Area Map<br><br>Fenced area north-east of Falador, south-west of Barbarian Village; full of useless rocks</td>
   </tr>
+  <tr>
     <td><img src="img/clue_guides/maps/easy/clue_brother_galahad.jpg" style="width:200px;" alt="clue_brother_galahad.jpg"></td>
     <td>Brother Galahad's house across the river from Coal Trucks.</td>
   </tr>
@@ -29,6 +32,7 @@ function getGuideContent($guide) { return <<<HTML
 </table>
 <hr>
 <h3>Riddles</h3>
+<a name="riddles"></a>
 <p>
     Riddles are primarily to test your Runescape knowledge. If you remember most of the stuff you learned through quests and other information, you shouldn't have a problem with these.
 </p>
@@ -236,6 +240,7 @@ function getGuideContent($guide) { return <<<HTML
 </table>
 <hr>
 <h3>Speak to...</h3>
+<a name="speakto"></a>
 <p>
     In treasure trails you will some times get a clue saying something like "Speak to ....". This is a list of the different NPC's that we find on easy treasure trails.
 </p>

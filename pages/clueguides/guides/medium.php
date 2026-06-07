@@ -1,8 +1,10 @@
 <?php
 function getGuideContent($guide) { return <<<HTML
 <h2>$guide Guide</h2>
+<p>Quick Links:<br><a href="#coordinates">Coordinate Clues</a> | <a href="#maps">Maps</a> | <a href="#riddles">Riddles</a> | <a href="#anagrams">Anagrams</a> | <a href="#speakto">Speak to...</a> | <a href="#challenges">Challenge Scrolls</a></p>
 <hr>
 <h3>Coordinate Clues</h3>
+<a name="coordinates"></a>
 <p>
     Note: When you follow a clue with coordinates, you will need to have the sextant, watch, chart, spade, and clue in your inventory to dig up the treasure.
 </p>
@@ -159,6 +161,7 @@ function getGuideContent($guide) { return <<<HTML
 </table>
 <hr>
 <h3>Maps</h3>
+<a name="maps"></a>
 <p>
     Sometimes you might get a clue scroll, and when you open it up to read it, all you see is a map. Your task is now to find out where that place is, and then, like the pirates always do, take the steps shown on your map, and dig where X marks the spot ;) To dig, you'll need your trusty spade. Here's a list of the different maps:
 </p>
@@ -195,6 +198,7 @@ function getGuideContent($guide) { return <<<HTML
 </table>
 <hr>
 <h3>Riddles</h3>
+<a name="riddles"></a>
 <p>
     Riddles are primarily to test your Runescape knowledge. If you remember most of the stuff you learned through quests and other information, you shouldn't have a problem with these.
 </p>
@@ -246,6 +250,7 @@ function getGuideContent($guide) { return <<<HTML
 </table>
 <hr>
 <h3>Anagrams</h3>
+<a name="anagrams"></a>
 <p>
     An anagram is a word where the letters of the original word are rearranged to make a new word. If you get an anagram clue, it will say so on it. There aren't many anagrams in treasure trails, and they aren't hard to figure out. Here's the list:
 </p>
@@ -323,6 +328,7 @@ function getGuideContent($guide) { return <<<HTML
 </table>
 <hr>
 <h3>Speak to...</h3>
+<a name="speakto"></a>
 <p>
     In treasure trails you will some times get a clue saying something like "Speak to ....". This is a list of the different NPC's that we find on medium treasure trails.
 </p>
@@ -362,10 +368,10 @@ function getGuideContent($guide) { return <<<HTML
 </table>
 <hr>
 <h3>Challenge Scrolls</h3>
+<a name="challenges"></a>
 <p>
     * Some NPCs will give you a challenge scroll before letting you advance to the next step. Below are the solutions to these challenges.
 </p>
-<a name="challenges"></a>
 <table class="table">
   <tr> 
     <th>Challenge Clue:</th>

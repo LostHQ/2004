@@ -1,8 +1,10 @@
 <?php
 function getGuideContent($guide) { return <<<HTML
 <h2>$guide Guide</h2>
+<p>Quick Links:<br><a href="#coordinates">Coordinate Clues</a> | <a href="#maps">Maps</a> | <a href="#riddles">Riddles</a> | <a href="#puzzleboxes">Puzzle Boxes</a></p>
 <hr>
 <h3>Coordinate Clues</h3>
+<a name="coordinates"></a>
 <p>
     Note: When you follow a clue with coordinates, you will need to have the sextant, watch, chart, spade, and clue in your inventory to dig up the treasure.
 </p>
@@ -227,6 +229,7 @@ function getGuideContent($guide) { return <<<HTML
 </table>
 <hr>
 <h3>Maps</h3>
+<a name="maps"></a>
 <p>
     Sometimes you might get a clue scroll, and when you open it up to read it, all you see is a map. Your task is now to find out where that place is, and then, like the pirates always do, take the steps shown on your map, and dig where X marks the spot ;) To dig, you'll need your trusty spade. Here's a list of the different maps:
 </p>
@@ -254,6 +257,7 @@ function getGuideContent($guide) { return <<<HTML
 </table>
 <hr>
 <h3>Riddles</h3>
+<a name="riddles"></a>
 <p>
     Riddles are primarily to test your Runescape knowledge. If you remember most of the stuff you learned through quests and other information, you shouldn't have a problem with these.
 </p>
@@ -377,6 +381,7 @@ function getGuideContent($guide) { return <<<HTML
 </table>
 <hr>
 <h3>Puzzles</h3>
+<a name="puzzleboxes"></a>
 <table class="table" width="100%">
   <tr>
     <th>Castle Puzzle Box Solver</th>
