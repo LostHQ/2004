@@ -5,10 +5,7 @@ $meta_data['og:image'] = 'img/sextant.png';
 $guideLookup = [
     'easy' => 'Easy Clues',
     'medium' => 'Medium Clues',
-    'hard' => 'Hard Clues',
-  'coordinates' => 'Coordinates',
-  'maps' => 'Maps & Puzzles',
-  'cluesriddles' => 'Clues/Riddles'
+    'hard' => 'Hard Clues'
 ];
 function getGuideList($guideList) {
   $output = '';
