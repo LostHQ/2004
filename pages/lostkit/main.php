@@ -4,7 +4,6 @@ $meta_data['title'] = 'LostKit';
 $meta_data['og:title'] = $meta_data['title'];
 $meta_data['og:image'] = 'img/tools/LostKit_2.png';
 $guideLookup = [
-    'lostkit' => 'LostKit',
     'lostkitlite' => 'LostKit Lite'
 ];
 
@@ -15,7 +14,7 @@ function getPageContent() {
         echo getSelectionMenu();
     } else {
         $instructionGuide = htmlspecialchars($_GET['instructions']);
-        $filePath = 'pages/tools/instructions/' . $instructionGuide . '.php';
+        $filePath = 'pages/lostkit/instructions/' . $instructionGuide . '.php';
         if (file_exists($filePath)) {
             include $filePath;
             $meta_data['title'] = 'LostKit > ' . $guideLookup[$instructionGuide];
