@@ -12,7 +12,8 @@ $breadcrumbMap = [
     'Wallpapers' => '?p=wallpapers',
     'Changelog' => '?p=changelog',
     'Special Guides' => '?p=specialguides',
-    'Tools' => '?p=tools'
+    'Tools' => '?p=tools',
+    'LostKit' => '?p=lostkit'
 ];
 
 function renderBreadcrumbs() {

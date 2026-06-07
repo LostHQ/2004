@@ -22,6 +22,7 @@ switch ($p) {
     case 'wallpapers':
     case 'specialguides':
     case 'tools':
+    case 'lostkit':
     case 'playerinfo':
         include 'pages/'.$p.'/main.php';
         break;

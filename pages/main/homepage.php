@@ -61,6 +61,12 @@ function getPageContent() { return <<<HTML
             Tools
         </a>
     </div>
+    <div class="menu-item">
+        <a href="/?p=lostkit">
+            <img src="/img/tools/LostKit_2.png"><br><br>
+            LostKit
+        </a>
+    </div>
 </div>
 
 HTML; }
