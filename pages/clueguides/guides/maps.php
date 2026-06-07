@@ -30,40 +30,6 @@ function getGuideContent($guide) { return <<<HTML
 <hr>
 <table class="table" width="100%">
   <tr>
-    <th colspan=2>Medium Clues</th>
-  </tr>
-  <tr> 
-    <td><img src="img/clue_guides/maps/medium/draynor_fishing.png" style="width:200px;" alt="dranyor_fishing"></td>
-    <td>Draynor Fish Spot Map<br><br>South of Draynor Village's bank</td>
-  </tr>
-  <tr> 
-    <td><img src="img/clue_guides/maps/medium/observatory.png" style="width:200px;" alt="observatory"></td>
-    <td>Observatory Map<br><br>West of Tree Gnome Village</td>
-  </tr>
-  <tr>
-    <td><img src="img/clue_guides/maps/medium/clue_McGrubors_wood.png" style="width:200px;" alt="McGrubor's wood"></td>
-    <td>Inside McGrubor's wood, which is west of Seer's village.</td>
-  </tr>
-  <tr>
-    <td><img src="img/clue_guides/maps/medium/clue_hobgoblin_peninsula.png" style="width:200px;" alt="Hobgoblin peninsula"></td>
-    <td>It's on the Hobgoblin peninsula that sticks out west of the Crafting Guild (below the Make over Mage - found directly west after exiting Falador by the south entrance).</td>
-  </tr>
-  <tr> 
-    <td><img src="img/clue_guides/maps/medium/clue_necromancer.png" style="width:200px;" alt="clue_necromancer.png"></td>
-    <td>At the Necromancer peninsula south of East Ardougne. 2 squares west of the small tree as indicated on the clue map.</td>
-  </tr>
-  <tr>
-    <td><img src="img/clue_guides/maps/medium/clue_Rimmington_chemists.png" style="width:200px;" alt="Chemist's house"></td>
-    <td>West of the Chemist's house west of Rimmington (South of Falador below the Crafting Guild).</td>
-  </tr>
-  <tr>
-    <td><img src="img/clue_guides/maps/medium/clue_clock_tower.jpg" style="width:200px;" alt="clock tower"></td>
-    <td>Search a crate on the west side of the Clock Tower, which is south of Ardougne.</td>
-  </tr>
-</table>
-<hr>
-<table class="table" width="100%">
-  <tr>
     <th colspan=2>Hard Clues</th>
   </tr>
   <tr> 

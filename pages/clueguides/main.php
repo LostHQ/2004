@@ -3,8 +3,9 @@ $meta_data['title'] = 'Treasure Trails';
 $meta_data['og:title'] = $meta_data['title'];
 $meta_data['og:image'] = 'img/sextant.png';
 $guideLookup = [
-  'anagrams' => 'Anagrams',
-  'challenges' => 'Challenges',
+    'easy' => 'Easy Clues',
+    'medium' => 'Medium Clues',
+    'hard' => 'Hard Clues',
   'coordinates' => 'Coordinates',
   'maps' => 'Maps & Puzzles',
   'cluesriddles' => 'Clues/Riddles',
@@ -60,7 +61,7 @@ Coordinate clues with you or your treasure will not be revealed.<br><br>
 <table class="table">
   <thead>
     <tr>
-      <th colspan=2>Select your clue type to see<br>the relevant guides for that clue.</th>
+      <th colspan=2>Select your clue type</th>
     </tr>
   </thead>
   <tbody>

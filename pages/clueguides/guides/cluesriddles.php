@@ -217,42 +217,6 @@ function getGuideContent($guide) { return <<<HTML
     <td>Varrock, and the chest says 'property of Black Heather' --&gt; in Bandit camp in wild, slay her for key.</td>
   </tr>
   <tr>
-    <td>In a town where the guards<br>are armed with maces, search<br>the upstairs rooms of the<br>Public House.</td>
-    <td>Ardougne Tavern on the west side of the river, north of the palace. Search the drawers. If it is locked, right-click on it and find out why. You need to kill a guard dog at the nearby Handelmort Mansion for a key.</td>
-  </tr>
-  <tr>
-    <td>In a town where thieves<br>steal from stalls, search for<br>some drawers in the upstairs<br>of a house near the bank.</td>
-    <td>East side of river in East Ardougne - Jerico's house on the <span data-floors="US">2nd floor</span>. You will need to kill a guard to get a key.</td>
-  </tr>
-  <tr>
-    <td>In a town where everyone has<br>perfect vision, seek some<br>locked drawers in a house that<br>sits opposite a workshop.</td>
-    <td>Go to the house in Seers' Village south of the house with the anvils. The drawers will be locked, follow the road north to the Sinclair Mansion or south-west to the Ranging Guild. Kill a chicken to get the key for the drawer.</td>
-  </tr>
-  <tr>
-    <td>In a town where wizards are<br>known to gather, search<br>upstairs in a large<br>house to the north.</td>
-    <td><span data-floors="US">2nd floor</span> of a house in Yanille - North of Magic Guild. You will need to kill a man to get a key for the chest.</td>
-  </tr>
-  <tr>
-    <td>Find a crate close to the monks that like to paaarty!</td>
-    <td>Search the crates in the building with monks south of Ardougne.</td>
-  </tr>
-  <tr>
-    <td>A town with a different sort of night-life is your destination.<br>Search for some crates in one of the houses.</td>
-    <td>In the clothes shop of Canifis, Morytania.</td>
-  </tr>
-  <tr>
-    <td>Go to the village being attacked by trolls, search the drawers in one of the houses.</td>
-    <td>Burthorpe, house with anvils up north. When you try to open the drawers it says "wait til I get my hands on Penda, he's nicked the key again." Go to pub in Burthorpe and kill Penda for key.</td>
-  </tr>
-  <tr>
-    <td>Search the upstairs drawers of a house in a village where pirates are known to have a good time.</td>
-    <td>Across the street from the bar in Brimhaven (2 houses south of Agility Arena, south of the house with a cooking pot symbol.) Go upstairs in that house and search the drawers. It will say "Shiver me timbers" and not allow you to open the chest. Kill the pirate near that house, he will drop a key. Use the key on the drawers.</td>
-  </tr>
-  <tr>
-    <td>In a village made of bamboo, look for some crates under one of the houses.</td>
-    <td>Karamja, in Tai Bwo Wannai, south of Brimhaven</td>
-  </tr>
-  <tr>
     <td>Often examined by learners of what has past, find me where words of wisdom speak volumes.</td>
     <td>Examiner at Digsite, always gives puzzle boxes</td>
   </tr>
