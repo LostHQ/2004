@@ -35,8 +35,8 @@ function getGuideContent($guide) { return <<<HTML
     <td><a href="#" class="image-link" data-image="img/clue_guides/coordinates/0005south.png">00 deg 05 min South<br>
       01 deg 13 min East</a>
     </td>
-    <td>East opposite the Observatory, West of Tree Gnome Village - Dig on the South West 
-      side of the Lonely Willow Tree</td>
+    <td><a href="#" class="map-link" data-map="0_38_49_47_22">East opposite the Observatory, West of Tree Gnome Village - Dig on the South West 
+      side of the Lonely Willow Tree</a></td>
   </tr>
   <tr>
     <td><a href="#" class="image-link" data-image="img/clue_guides/coordinates/0013south.png">00 deg 13 min South<br>

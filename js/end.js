@@ -53,26 +53,57 @@ function progressCheckboxes() {
     });
 }
 /* End check boxes section */
-const modal = document.getElementById("imgModal");
+const imgModal = document.getElementById("imgModal");
 const modalImg = document.getElementById("modalImage");
-const closeBtn = document.getElementById("closeModal");
+const closeImageModal = document.getElementById("closeImageModal");
+const mapModal = document.getElementById("mapModal");
+const mapContent = document.getElementById("map-content");
+const closeMapModal = document.getElementById("closeMapModal");
 
 document.body.addEventListener("click", (e) => {
-    if (!e.target.matches(".image-link")) return;
+    const validLinks = Object.freeze({
+        image: ".image-link",
+        map: ".map-link",
+    });
+    const type = Object.values(validLinks).find((selector) => e.target.matches(selector));
+    if (!type) return;
+
     e.preventDefault();
-    const url = e.target.dataset.image;
-    if (!url) return;
-    modalImg.src = url;
-    modal.style.display = "flex";
+    switch (type) {
+        case validLinks.map:
+            const mapMarkers = e.target.dataset.map;
+            if (!mapMarkers) return;
+            mapContent.innerHTML = `<iframe src="https://tools.losthq.rs/map/?zoom=25&markers=${mapMarkers}" frameborder="0" style="width: 800px; height: 800px;"></iframe>`;
+            mapModal.style.display = "flex";
+            break;
+        case validLinks.image:
+            const imageSrc = e.target.dataset.image;
+            if (!imageSrc) return;
+            modalImg.src = imageSrc;
+            imgModal.style.display = "flex";
+            break;
+        default:
+            return;
+    }
 });
 
-closeBtn.addEventListener("click", () => {
-    modal.style.display = "none";
+closeImageModal.addEventListener("click", () => {
+    imgModal.style.display = "none";
     modalImg.src = "";
 });
-modal.addEventListener("click", (e) => {
-    if (e.target === modal) {
-        modal.style.display = "none";
+imgModal.addEventListener("click", (e) => {
+    if (e.target === imgModal) {
+        imgModal.style.display = "none";
         modalImg.src = "";
+    }
+});
+closeMapModal.addEventListener("click", () => {
+    mapModal.style.display = "none";
+    mapContent.innerHTML = "";
+});
+mapModal.addEventListener("click", (e) => {
+    if (e.target === mapModal) {
+        mapModal.style.display = "none";
+        mapContent.innerHTML = "";
     }
 });

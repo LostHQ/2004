@@ -558,11 +558,12 @@ A.pink:hover {
     display: none;
 }
 
-.image-link {
+.image-link,
+.map-link {
     color: #b2ffb1 !important;
 }
 
-.img-modal {
+.modal {
     display: none;
     position: fixed;
     top: 0;
@@ -575,14 +576,13 @@ A.pink:hover {
     z-index: 1000;
 }
 
-.img-modal img {
-    max-width: 90%;
-    max-height: 90%;
+.modal img {
+    max-width: 900px;
     border: 4px solid white;
     border-radius: 4px;
 }
 
-.img-modal .close-btn {
+.modal .close-btn {
     position: absolute;
     top: 20px;
     right: 30px;

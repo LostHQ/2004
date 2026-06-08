@@ -46,9 +46,13 @@
             <img src="/img/scroll_icon.png" width="19" height="67" alt="Scroll to top">
             <div style="font-size:12px; color:white;">Scroll to Top</div>
         </div>
-        <div class="img-modal" id="imgModal">
-            <span class="close-btn" id="closeModal">&times;</span>
+        <div class="modal" id="imgModal">
+            <span class="close-btn" id="closeImageModal">&times;</span>
             <img src="" alt="Preview" id="modalImage">
+        </div>
+        <div class="modal" id="mapModal">
+            <span class="close-btn" id="closeMapModal">&times;</span>
+            <div id="map-content"></div>
         </div>
     </div>
     <?php echo getJS('js/end.js'); ?>
