@@ -223,24 +223,6 @@ select:hover {
     }
 }
 
-.modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-    z-index: 1000;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: flex;
-    -webkit-justify-content: center;
-    -moz-justify-content: center;
-    justify-content: center;
-    -webkit-align-items: center;
-    -moz-align-items: center;
-    align-items: center;
-}
 
 .modal-content {
     background-color: black;
