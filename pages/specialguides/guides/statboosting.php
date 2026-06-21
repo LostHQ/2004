@@ -32,6 +32,12 @@ There are a bunch of drinks in RuneScape that boost stats. Most of them are diff
         <td>Can be found at most bars, such as Port Sarim, Varrock, and Jolly Bear Inn</td>
     </tr>
     <tr>
+        <td><canvas itemname="viking_tankard_full" show-label="true"></canvas></td>
+        <td>-(10% + 2) Attack<br>+(4% + 2) Strength</td>
+        <td><canvas itemname="coins_25" icon-size="25"></canvas><br>26 coins</td>
+        <td>Rellekka Longhall Bar<br></td>
+    </tr>
+    <tr>
         <td><canvas itemname="dragon_bitter" show-label="true"></canvas></td>
         <td>-(5% + 2) Attack<br>+2 Strength</td>
         <td><canvas itemname="coins_2" icon-size="25"></canvas><br>2 coins</td>
@@ -55,20 +61,12 @@ There are a bunch of drinks in RuneScape that boost stats. Most of them are diff
         <td><canvas itemname="coins_3" icon-size="25"></canvas><br>3 coins</td>
         <td>Dead Man's Chest (Brimhaven)</td>
     </tr>
-    <!-- 2 November 2004 (Rellekka; Beer Tankard is called Beer)
     <tr>
-        <td><canvas itemname="keg_of_beer" show-label="true"></canvas></td>
+        <td><canvas itemname="viking_beerkeg" show-label="true"></canvas></td>
         <td>-(50% + 5) Attack<br>+(10% + 2) Strength</td>
         <td><canvas itemname="coins_250" icon-size="25"></canvas><br>325 coins</td>
         <td>Rellekka Longhall Bar<br></td>
     </tr>
-    <tr>
-        <td><canvas itemname="beer_tankard" show-label="true"></canvas></td>
-        <td>-(10% + 2) Attack<br>+(4% + 2) Strength</td>
-        <td><canvas itemname="coins_25" icon-size="25"></canvas><br>26 coins</td>
-        <td>Rellekka Longhall Bar<br></td>
-    </tr>
-    -->
     <tr>
         <td><canvas itemname="wizards_mind_bomb" show-label="true"></canvas></td>
         <td>-(5% + 1) Attack<br>-(5% + 1) Strength<br>-(5% + 1) Defence<br>+(2% + 2) Magic</td>
@@ -76,6 +74,7 @@ There are a bunch of drinks in RuneScape that boost stats. Most of them are diff
         <td>Rising Sun Inn (Falador)</td>
     </tr>
 </table>
+<br>
 <h3>Stat Boosting Potions</h3>
 Potions are the main way to raise your stats, and they're all made with Herblore. Each one gives a temporary boost to a specific skill. Here's a list of every potion you can make that boosts stats and its Herblore level required to make.
 <br><br>
@@ -99,6 +98,11 @@ Potions are the main way to raise your stats, and they're all made with Herblore
         <td><canvas itemname="3dose1defense" show-label="true"></canvas></td>
         <td>+(10% + 3) Defence</td>
         <td>30</td>
+    </tr>
+    <tr>
+        <td><canvas itemname="3dose1agility" show-label="true"></canvas></td>
+        <td>+3 Agility</td>
+        <td>34</td>
     </tr>
     <tr>
         <td><canvas itemname="3dose2attack" show-label="true"></canvas></td>
@@ -125,7 +129,18 @@ Potions are the main way to raise your stats, and they're all made with Herblore
         <td>+(10% + 4) Ranged</td>
         <td>72</td>
     </tr>
+    <tr>
+        <td><canvas itemname="3dose1magic" show-label="true"></canvas></td>
+        <td>+4 Magic</td>
+        <td>76</td>
+    </tr>
+    <tr>
+        <td><canvas itemname="3dosepotionofzamorak" show-label="true"></canvas></td>
+        <td>+(20% + 2) Attack, +(12% + 2) Strength, -(10% + 2) Defence<br> -12% Hitpoints, +10% Prayer</td>
+        <td>78</td>
+    </tr>
 </table>
+<br>
 <h3>Poison Chalice</h3>
 You can get the Poison Chalice for free from Stankers, who hangs out near the Coal Trucks. When you drink it, it has a completely random effect, but it won't ever drop your Hitpoints below 4. It's also the only item in the game that can randomly boost your Thieving and Crafting levels, which makes it pretty unique.
 <br><br>
@@ -171,6 +186,7 @@ You can get the Poison Chalice for free from Stankers, who hangs out near the Co
         <td>1/32</td>
     </tr>
 </table>
+<br>
 <h3>Kebab</h3>
 Kebabs are a bit unpredictable when eaten. They can heal you, do nothing, or even lower stats, but every once in a while they'll give a small boost to your melee stats. Because of that, they're not very reliable, but they do technically count as a stat-boosting item.
 <br><br>
@@ -211,6 +227,7 @@ Kebabs are a bit unpredictable when eaten. They can heal you, do nothing, or eve
         <td>1/32</td>
     </tr>
 </table>
+<br>
 <h3>Special Attacks</h3>
 A few weapons in RuneScape have special attacks that can temporarily boost your stats. These boosts are unique because they come from using the special attack itself, rather than from food or drink.
 <br><br>
@@ -234,5 +251,5 @@ A few weapons in RuneScape have special attacks that can temporarily boost your 
 <hr>
 This special report was written by Halogod35. Thanks to Sythion and Gerrin for corrections.
 <br><br>
-This special report was entered into the database on Mon, Sep 08, 2025, at 04:54:27 AM by Halogod35 and was last updated on Mon, Sep 16, 2025, at 12:05:09 PM by Halogod35.
+This special report was entered into the database on Mon, Sep 08, 2025, at 04:54:27 AM by Halogod35 and was last updated on Sat, Jun 20, 2026, at 08:31:42 PM by Halogod35.
 HTML; }
