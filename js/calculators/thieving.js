@@ -22,6 +22,8 @@ const stalls = {
     "Tea Stall": { xp: 16, level: 5, itemname: "cup_of_tea" },
     "Silk Stall": { xp: 24, level: 20, itemname: "silk" },
     "Fur Stall": { xp: 36, level: 35, itemname: "fur" },
+    "Fur Stall (Rellekka)": { xp: 36, level: 35, itemname: "grey_wolf_fur" },
+    "Fish Stall (Rellekka)": { xp: 42, level: 42, itemname: "raw_lobster" },
     "Silver Stall": { xp: 54, level: 50, itemname: "silver_ore" },
     "Spice Stall": { xp: 81, level: 65, itemname: "spicespot" },
     "Gem Stall": { xp: 16, level: 75, itemname: "sapphire" },

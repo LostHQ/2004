@@ -92,6 +92,14 @@ function getSkillContent($skill) { return <<<HTML
             <td>35</td>
         </tr>
         <tr>
+            <td>Fur stall (Rellekka)</td>
+            <td>35</td>
+        </tr>
+        <tr>
+            <td>Fish stall (Rellekka)</td>
+            <td>42</td>
+        </tr>
+        <tr>
             <td>Silver stall</td>
             <td>50</td>
         </tr>
