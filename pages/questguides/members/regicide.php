@@ -23,6 +23,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
         <li><div data-progress><canvas itemname="iron_arrow" show-label="inline" amount="2" name-replace="Any arrows (for Underground Pass)"></canvas></div></li>
         <li><div data-progress><canvas itemname="iron_pickaxe" show-label="inline" name-replace="Any pickaxe"></canvas></div></li>
         <li><div data-progress><canvas itemname="spade" show-label="inline" name-append=" (for Underground Pass)"></canvas></div></li>
+        <li><div data-progress><canvas itemname="coal" show-label="inline" name-replace="Coal (10-20)"></canvas></div></li>
     </ul>
     <h3>Recommended:</h3>
     <ul style="list-style-type: none;">
