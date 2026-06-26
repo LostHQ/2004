@@ -48,7 +48,7 @@ clearAllEquipment();
     </td>
 </table>
 <script>loadEquipInterfaceWithStats('equipment-interface-crushdefence', 'equipment-interface-crushdefence-stats', false,
-    'dragon_med_helm',
+    'viking_helmet_crush',
     'cape_of_legends',
     'gnome_amulet',
     'dragon_longsword',
@@ -68,8 +68,8 @@ clearAllEquipment();
     </tr>
     <tr>
         <td>Head</td>
-        <td><canvas itemname="dragon_med_helm" show-label="inline"></canvas></td>
-        <td>+32 Crush Defence</td>
+        <td><canvas itemname="viking_helmet_crush" show-label="inline"></canvas></td>
+        <td>+33 Crush Defence</td>
     </tr>
     <tr>
         <td>Cape</td>
@@ -944,7 +944,7 @@ clearAllEquipment();
 </table>
 *Focus on offensive stats when using overhead prayers.
 <hr>
-This special report was written on LostHQ by Fallnight. Thanks to Geerin, Fran 2004, and Timondg for corrections.
+This special report was written on LostHQ by Fallnight. Thanks to Geerin, Fran 2004, Timondg, and jaish for corrections.
 <br><br>
-This special report was entered into the database on Wed, Jul 30, 2025, at 11:51:20 PM by Halogod35 and was last updated on Thu, May 28, 2026, at 4:02:56 PM by Halogod35.
+This special report was entered into the database on Wed, Jul 30, 2025, at 11:51:20 PM by Halogod35 and was last updated on Fri, Jun 26, 2026, at 6:24:28 PM by Halogod35.
 HTML; }
