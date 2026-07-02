@@ -121,9 +121,14 @@ In order to aquire a sextant, watch, and chart, you first must have a <a href="?
 <br>
 <hr>
 <h3>Clue Droppers</h3>
-For clue droppers you can check our <a href="?p=droptables">Drop Tables page</a>.<br>
-Search for "Clue Scroll"
-<br><br>
+<br>
+<table class="table">
+  <th>Select your clue type</th>
+  <tr><td><a href="?p=itemdb&item=trail_clue_easy_simple001">Easy Clues</a></td></tr>
+  <tr><td><a href="?p=itemdb&item=trail_clue_medium_sextant001">Medium Clues</a></td></tr>
+  <tr><td><a href="?p=itemdb&item=trail_clue_hard_map001">Hard Clues</a></td></tr>
+</table>
+<br>
 <h3>Common Farming Locations</h3>
 Here is a list of commonly farmed NPCs and their locations.
 <table class="table">
