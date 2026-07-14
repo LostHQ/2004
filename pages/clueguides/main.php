@@ -110,7 +110,7 @@ For example "halt us" or "under cook".<br>
 <br>
 <hr>
 <h3>Aquiring Sextant, Watch, and Chart</h3>
-In order to aquire a sextant, watch, and chart, you first must have a <a href="?p=clueguides&guide=coordinates">coordinate clue</a> and have either started or completed the <a href="?p=questguides&quest=observatory">Observatory Quest</a>. Once you have met these requirements, the steps are as follows:
+In order to aquire a sextant, watch, and chart, you first must have a coordinate clue and have either started or completed the <a href="?p=questguides&quest=observatory">Observatory Quest</a>. Once you have met these requirements, the steps are as follows:
 <ol>
   <li>With the coordinate clue in your inventory, talk to the Observatory professor about Treasure Trails.</li>
   <li>Head over to Port Khazard and speak to Murphy to obtain a sextant.</li>
