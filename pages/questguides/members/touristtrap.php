@@ -76,7 +76,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <div data-progress>Once outside go north to Irena and talk to her.</div>
 $questComplete
 <span id="zombiemusiq"></span>
-<iframe width="450" height="253" src="https://www.youtube.com/embed/zg5CuGuf2A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="450" height="253" src="https://www.youtube.com/embed/_zg5CuGuf2A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <hr>
 This quest guide was written by imthecoolest and haxhi4life. Thanks to DRAVAN for corrections.
 <br><br>
