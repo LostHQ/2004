@@ -55,7 +55,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>2</td>
             <td><canvas itemname="mindrune" show-label="true" hide-amount="true"></canvas></td>
             <td><canvas itemname="mind_talisman" show-label="true"></canvas></td>
-            <td>Between Ice Moutain and Goblin Village</td>
+            <td>Between Ice Mountain and Goblin Village</td>
         </tr>
         <tr>
             <td>5</td>
@@ -73,13 +73,13 @@ function getSkillContent($skill) { return <<<HTML
             <td>14</td>
             <td><canvas itemname="firerune" show-label="true" hide-amount="true"></canvas></td>
             <td><canvas itemname="fire_talisman" show-label="true"></canvas></td>
-            <td>North-east of Al Kharik, outside the Duel Arena entrance</td>
+            <td>North-east of Al Kharid, outside the Duel Arena entrance</td>
         </tr>
         <tr>
             <td>20</td>
             <td><canvas itemname="bodyrune" show-label="true" hide-amount="true"></canvas></td>
             <td><canvas itemname="body_talisman" show-label="true"></canvas></td>
-            <td>Between Ice Moutain and Barbarian Village</td>
+            <td>Between Ice Mountain and Barbarian Village</td>
         </tr>
         <tr>
             <td>27</td>
@@ -91,7 +91,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>35</td>
             <td><canvas itemname="chaosrune" show-label="true" hide-amount="true"></canvas></td>
             <td><canvas itemname="chaos_talisman" show-label="true"></canvas></td>
-            <td>Level 9 wilderness, south-east of the Dark Warrior's Fortress</td>
+            <td>Level 9 wilderness, south-east of the Dark Warriors' Fortress</td>
         </tr>
         <tr>
             <td>44</td>
