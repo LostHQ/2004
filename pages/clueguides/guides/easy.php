@@ -151,7 +151,7 @@ function getGuideContent($guide) { return <<<HTML
   </tr>
   <tr>
     <td>Search the drawers in<br>the ground floor of a<br>house in Yanille.</td>
-    <td>Drawers, house to the East of the blacksmith's house in Burthorpe.</td>
+    <td>Drawers, house to the East of the Dragon Inn in Yanille.</td>
   </tr>
   <tr>
     <td>Search the chests in<br>the Dwarven Mine.</td>
