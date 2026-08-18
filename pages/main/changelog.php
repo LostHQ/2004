@@ -8,69 +8,72 @@ function getPageContent() {
     $meta_data['og:image'] = 'img/sword.png';
 
     return <<<HTML
-<div style="display: inline-block; border: 1px solid #ccc;">
-  <table width="100%" class="table">
-    <tr>
-      <th colspan="3">LostHQ is brought to you by</th>
-    </tr>
-    <tr>
-      <td width="50%">Moley</td>
-      <td>Eilert</td>
-    </tr>
-    <tr>
-      <td>Halogod</td>
-      <td>Collin</td>
-    </tr>
-  </table>
-  <table width="100%" class="table">
-    <tr>
-      <th colspan="3">Special thanks to our additional Contributors:</th>
-    </tr>
-    <tr>
-      <td width="50%">Sheeva</td>
-      <td>Akg</td>
-    </tr>
-  </table>
-  <table width="100%" class="table">
-    <tr>
-      <th colspan="3">Bug Hunter's Club:</th>
-    </tr>
-    <tr>
-      <td width="33.33%">Hidaze</td>
-      <td width="33.33%">Hydrated</td>
-      <td width="33.33%">illjim</td>
-    </tr>
-    <tr>
-      <td>Meltii</td>
-      <td>Alprox666</td>
-      <td>Jogizy</td>
-    </tr>
-    <tr>
-      <td>R3dM45k</td>
-      <td>Geerin</td>
-      <td>14k</td>
-    </tr>
-    <tr>
-      <td>Dee</td>
-      <td>Fallnight</td>
-      <td>Fran 2004</td>
-    </tr>
-    <tr>
-      <td>Timondg</td>
-      <td>Shrigis</td>
-      <td>Nsyion</td>
-    </tr>
-    <tr>
-      <td>Sir Tyrael</td>
-      <td>Index</td>
-      <td>Macaron</td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>jaish</td>
-      <td></td>
-    </tr>
-  </table>
+<div style="display: inline-block; width:550px;">
+    <table width="100%" class="table">
+        <tr>
+            <th colspan="3">LostHQ is maintained by</th>
+        </tr>
+        <tr>
+            <td>Halogod</td>
+            <td>Collin</td>
+        </tr>
+        <tr>
+            <th colspan="3">Founding inactive members</th>
+        </tr>
+        <tr>
+            <td width="50%">Moley</td>
+            <td>Eilert</td>
+        </tr>
+    </table>
+    <table width="100%" class="table">
+        <tr>
+            <th colspan="3">Our Contributors</th>
+        </tr>
+        <tr>
+            <td width="33.33%">Akg</td>
+            <td>ewby</td>
+            <td>Sheeva</td>
+        </tr>
+    </table>
+    <br>
+    <table width="100%" class="table">
+        <tr>
+            <th colspan="4">Bug Hunter's Club</th>
+        </tr>
+        <tr>
+            <td width="25%">Hidaze</td>
+            <td width="25%">Hydrated</td>
+            <td width="25%">illjim</td>
+            <td width="25%">Meltii</td>
+        </tr>
+        <tr>
+            <td>Alprox666</td>
+            <td>Jogizy</td>
+            <td>R3dM45k</td>
+            <td>Geerin</td>
+        </tr>
+        <tr>
+            <td>14k</td>
+            <td>Dee</td>
+            <td>Fallnight</td>
+            <td>Fran 2004</td>
+        </tr>
+        <tr>
+            <td>Timondg</td>
+            <td>Shrigis</td>
+            <td>Nsyion</td>
+            <td>Sir Tyrael</td>
+        </tr>
+        <tr>
+            <td>Index</td>
+            <td>Macaron</td>
+            <td>Art_Will</td>
+            <td>jaish</td>
+        </tr>
+        <tr>
+        <td></td>
+        </tr>
+    </table>
 </div>
 <hr>
 <h3>Change Log</h3>
