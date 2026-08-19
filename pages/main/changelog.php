@@ -14,7 +14,7 @@ function getPageContent() {
             <th colspan="3">LostHQ is maintained by</th>
         </tr>
         <tr>
-            <td>Halogod</td>
+            <td width="50%">Halogod</td>
             <td>Collin</td>
         </tr>
         <tr>
@@ -69,9 +69,6 @@ function getPageContent() {
             <td>Macaron</td>
             <td>Art_Will</td>
             <td>jaish</td>
-        </tr>
-        <tr>
-        <td></td>
         </tr>
     </table>
 </div>
