@@ -36,7 +36,7 @@ function getCalcContent() { return <<<HTML
                 <th>Level</th>
                 <th>Item</th>
                 <th>Exp per Item</th>
-                <th>Total Needed</th>
+                <th>Total Materials</th>
             </tr>
         </thead>
         <tbody></tbody>
