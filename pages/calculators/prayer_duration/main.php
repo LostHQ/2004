@@ -12,15 +12,11 @@ function getCalcContent() { return <<<HTML
     <div class="input-group">
         <label>Prayer Level:</label>
         <input type="number" id="prayerLevel" min="1" max="99" value="1">
-    </div>
-    <div id="monasteryBonus">
-        <div class="input-group">
-            <label for="monasteryAltar">Monastery Altar:</label>
-            <select id="monasteryAltar" onchange="runCalc()">
-                <option value="0">No</option>
-                <option value="2">Yes (+2 to prayer)</option>
-            </select>
-        </div>
+        <label for="monasteryAltar">Monastery Altar:</label>
+        <select id="monasteryAltar">
+            <option value="0">No</option>
+            <option value="2">Yes (+2 to prayer)</option>
+        </select>
     </div>
     <h3>Prayer Bonus</h3>
     <div class="input-group">
@@ -66,23 +62,24 @@ function getCalcContent() { return <<<HTML
         </select>
     </div>
     <div class="input-group">
+        <label>Shield:</label>
+        <select id="shield">
+            <option value="0">None</option>
+            <option value="5">God Book (+5)</option>
+        </select>
         <label>Prayer Bonus:</label>
-        <input type="number" id="prayerBonus" min="0" max="24" value="0">
+        <input type="number" id="prayerBonus" min="0" max="29" value="0">
     </div>
     <h3>Click on the prayers you want to activate:</h3>
     <div class="prayer-grid-container">
         <div class="prayer-grid"></div>
     </div>
-    <br><br>
-    <div class="input-group justify-center">
-        <button onclick="runCalc()">Calculate!</button>
-    </div>
-    <hr>
-    <h2>Prayer will last: <span id="prayerDuration" class="gold-text"></span></h2>
+    <br>
+    <h3>Prayer will last: <span id="prayerDuration" class="gold-text"></span></h3>
     <!-- Special message for Rapid Heal -->
     <div id="rapidHealDiv" style="display: none">
-        <h2>Rapid Heal HP restored: <span id="rapidHealText" class="gold-text"></span></h2>
-        <h2>Total HP restored: <span id="totalHpRestoredText" class="gold-text"></span></h2>
+        <h3>Rapid Heal HP restored: <span id="rapidHealText" class="gold-text"></span></h3>
+        <h3>Total HP restored: <span id="totalHpRestoredText" class="gold-text"></span></h3>
     </div>
 </div>
 HTML.getJS('js/calculators/prayer_duration.js'); }

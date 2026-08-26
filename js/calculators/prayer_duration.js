@@ -62,7 +62,7 @@ function initPrayerGrid({ containerSel = ".prayer-grid", sheetCols = 4, displayT
 }
 
 function updatePrayerBonus() {
-    const ids = ["necklace", "weapon", "body", "legs"];
+    const ids = ["necklace", "weapon", "body", "legs", "shield"];
     const totalBonus = ids.map((id) => parseInt(document.getElementById(id).value) || 0).reduce((a, b) => a + b, 0);
     document.getElementById("prayerBonus").value = totalBonus;
     runCalc();
@@ -106,5 +106,13 @@ function runCalc() {
 document.addEventListener("DOMContentLoaded", () => {
     initPrayerGrid();
 
-    ["necklace", "weapon", "body", "legs"].forEach((id) => document.getElementById(id)?.addEventListener("change", updatePrayerBonus));
+    ["necklace", "weapon", "body", "legs", "shield"].forEach((id) => document.getElementById(id)?.addEventListener("change", updatePrayerBonus));
+
+    const selectElements = ["monasteryAltar", "prayerLevel", "prayerBonus"];
+    selectElements.forEach(id => {
+      const element = document.getElementById(id);
+      if (element) {
+        element.addEventListener("input", () => runCalc());
+      }
+    });
 });
