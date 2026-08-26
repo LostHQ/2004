@@ -78,6 +78,7 @@ You need to get all four cogs. Remember, you can only carry one at a time.
 <div data-progress>After climbing down the ladder, follow the passage to a wall. Go through the door and pick up the blue cog.</div>
 <br><br>
 <div data-progress>Go up the ladder, go inside the clock tower, up the staircase to the <span data-floors="US">2nd floor</span> and use the<canvas itemname="bluecog" icon-size="32"></canvas>Blue Cog on the blue pole.</div>
+<hr>
 <h3>Black Cog:</h3>
 <div data-progress>Go down to the dungeon and to the room with the colored bricks. Go through the door where the black brick represents northeast. Go down the path to a door. Behind the door, you will see level 2 giant spiders and the black cog surrounded by fires.</div>
 <br><br>
