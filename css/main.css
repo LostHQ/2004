@@ -925,3 +925,20 @@ img.narrowscroll-bottom {
     top: auto;
     font-size: 28px;
 }
+
+ul.reqs-list {
+    width: 350px;
+    list-style-type: none;
+
+    li {
+        border-bottom: 1px solid #645a00;
+        padding-bottom: 5px;
+        margin-bottom: 5px;
+    }
+
+    li:last-child {
+        border-bottom: none;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+}
