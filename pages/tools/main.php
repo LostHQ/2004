@@ -16,7 +16,7 @@ return <<<HTML
         <li><a href="https://tools.losthq.rs/cluecoordinator" target="_blank">Clue Coordinator</a> - Coordinate Clue Tool</li>
         <li><a href="https://tools.losthq.rs/map" target="_blank">World Map</a> - Original Lost City world map, but with major QOL improvements.</li>
     </ul>
-
+<!--
     <hr>
     <h3>Community tools</h3>
     <p>
@@ -25,5 +25,5 @@ return <<<HTML
     <ul>
         <li><a href="https://www.lostcitylabs.com" target="_blank">Lost City Labs</a> - EHP and hiscore tracking tool created by Anders.</li>
     </ul>
-    
+-->
 HTML; }
