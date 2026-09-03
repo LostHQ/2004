@@ -1,6 +1,8 @@
 <?php
 function getSpecialGuide($currSpecialGuide) { return <<<HTML
 <h2>$currSpecialGuide</h2>
+<a href="?p=calculators&calc=shades">There is a calculator for this mini-game!</a>
+<br><br>
 <h3>Introduction</h3>
 <p>
     Mort'ton shades are the shade floating around in Mort'ton and the tomb nearby. They can be killed and burned for various rewards. For information about the Mort'ton shades quest, click here (link to quest help, Mort'ton shades guide). You must have done this quest in order to burn shades and enter the tomb. Also, we recommend you to permanent cure the shopkeeper Razmire (use serum 207 on flaming fire altar with sanctity over 20% and do the "In search of the Myresque" quest, which provides you with an easier route to Mort'ton

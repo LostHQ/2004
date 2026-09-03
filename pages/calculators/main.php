@@ -21,7 +21,8 @@ class CalculatorType {
         'max_hit',
         'prayer_duration',
         'run_energy',
-        'magic'
+        'magic',
+        'shades'
     ];
 
     public function getName(): ?string { return $this->calcName; }
@@ -76,7 +77,8 @@ function generateCalculatorLinks(): string {
         'high_alch',
         'max_hit',
         'prayer_duration',
-        'run_energy'
+        'run_energy',
+        'shades'
     ];
 
     $generateLinks = function (array $calculators) {
