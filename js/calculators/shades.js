@@ -494,7 +494,7 @@ function runCalc() {
                 });
                 resultsDiv.appendChild(table);
                 window.safeRenderAllSprites();
-                
+
                 // -------------------------
                 // Summary
                 // -------------------------

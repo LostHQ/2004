@@ -60,7 +60,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <div data-progress>Enter the cave and take the raft to Alamone. Talk to him and find out the butler is his spy. He should then attack you. If he doesn't, try again. He is only level 13, so you should be able to kill him fairly easily. He will drop the Carnillean armor.</div>
 <br><br>
-<div data-progress>Leave the island via the raft and exit the cave. (Well, if you want to get one of Ceril's shields for yourself: after you kill Alamone, take the sewer ride back out, then take it back in. Drop your armor that you already have. Wait for Alamone to respawn, then fight him again. He'll drop another one. Yes, he can drop as many as you want. Before returning to Ceril, put the extra armor in the bank, and bring the other armor back to him.)</div>
+<div data-progress>Leave the island via the raft and exit the cave. (Well, if you want to get Carnillean Armour for yourself: after you kill Alamone, take the sewer ride back out, then take it back in. Drop your armor that you already have. Wait for Alamone to respawn, then fight him again. He'll drop another one. Yes, he can drop as many as you want. Before returning to Ceril, put the extra armor in the bank, and bring the other armor back to him.)</div>
 <br><br>
 <div data-progress>Talk to Ceril and give him the armor. Then, tell him about his butler. Ceril won't believe you, so go to the <span data-floors="US">2nd floor</span> and search the butler's cupboard for some poison. Return to Ceril and receive your reward. Quest completed.</div>
 $questComplete
