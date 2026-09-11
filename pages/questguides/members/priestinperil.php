@@ -56,7 +56,7 @@ Here is a picture of the Dungeon:
 <br><br>
 <div data-progress>Go back to the monuments and use a bucket with the well in the middle of them.</div>
 <br><br>
-<div data-progress>Go back to Drezel and use the Water on the vampire. You will find out that the water is not blessed. Talk to Drezel and give the water to him and he will bless it for you.</div>
+<div data-progress>Go back to Drezel and use the Water on the coffin. You will find out that the water is not blessed. Talk to Drezel and give the water to him and he will bless it for you.</div>
 <br><br>
 <div data-progress>Use the blessed water on the coffin, and talk to Drezel again. He will tell you that he will meet you down by the monument.</div>
 <br><br>
