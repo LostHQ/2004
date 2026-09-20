@@ -365,7 +365,7 @@ clearAllEquipment();
     </td>
 </table>
 <script>loadEquipInterfaceWithStats('equipment-interface-magicdefence', 'equipment-interface-magicdefence-stats', false,
-    'robinhoodhat',
+    'viking_helmet_range',
     'zamorak_cape',
     'amulet_of_defence',
     'crossbow',
@@ -385,8 +385,8 @@ clearAllEquipment();
     </tr>
     <tr>
         <td>Head</td>
-        <td><canvas itemname="robinhoodhat" show-label="inline"></canvas></td>
-        <td>+4 Magic Defence</td>
+        <td><canvas itemname="viking_helmet_range" show-label="inline"></canvas></td>
+        <td>+6 Magic Defence</td>
     </tr>
     <tr>
         <td>Cape</td>
@@ -946,5 +946,5 @@ clearAllEquipment();
 <hr>
 This special report was written on LostHQ by Fallnight. Thanks to Geerin, Fran 2004, Timondg, and jaish for corrections.
 <br><br>
-This special report was entered into the database on Wed, Jul 30, 2025, at 11:51:20 PM by Halogod35 and was last updated on Fri, Jun 26, 2026, at 6:24:28 PM by Halogod35.
+This special report was entered into the database on Wed, Jul 30, 2025, at 11:51:20 PM by Halogod35 and was last updated on Sat, Sept 19, 2026, at 10:10:36 PM by Halogod35.
 HTML; }
