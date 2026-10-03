@@ -472,14 +472,12 @@ A.pink:hover {
             margin: 20px auto;
             border-collapse: collapse;
             align-items: center;
-            vertical-align: center;
         }
 
         th,
         td {
             padding: 6px;
             text-align: center;
-            vertical-align: center;
         }
 
         th {
