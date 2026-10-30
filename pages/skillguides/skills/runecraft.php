@@ -157,7 +157,7 @@ function getSkillContent($skill) { return <<<HTML
             </tr>
             <tr>
                 <td><canvas itemname="cosmicrune" show-label="inline" hide-amount="true"></canvas></td>
-                <td>27</td><td>59</td><td>92</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                <td>27</td><td>59</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
             </tr>
             <tr>
                 <td><canvas itemname="chaosrune" show-label="inline" hide-amount="true"></canvas></td>
