@@ -134,7 +134,7 @@ function getGuideContent($guide) { return <<<HTML
     <td>Go across the river. It's the first house there. (tavern?)</td>
   </tr>
   <tr>
-    <td>A crate found in the ground<br>floor of a church is<br>your next location.</td>
+    <td>The crate in the ground<br>floor of a church is<br>your next location.</td>
     <td>Ardougne church - Next to ladder</td>
   </tr>
   <tr>
