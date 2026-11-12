@@ -74,7 +74,7 @@ WARNING: Do not AFK around the jail as the guards can easily kill you.
 <br><br>
 <div data-progress>Use a rope on Lady Keli to tie her up, then use your key on the cell door and talk to the prince. He will take the disguise and run off.</div>
 <br><br>    
-<div data-progress>Return to Hassen in Al Kharid and talk to him... congratz! You're now a friend of Al Kharid and can pass through the gate for free.</div>
+<div data-progress>Return to Hassan in Al Kharid and talk to him... congratz! You're now a friend of Al Kharid and can pass through the gate for free.</div>
 $questComplete
 This quest guide was written on RuneHQ by xxteargodxx. Thanks to Fran 2004 for corrections.
 <br><br>
