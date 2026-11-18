@@ -352,7 +352,7 @@ function getGuideContent($guide) { return <<<HTML
   </tr>
   <tr>
     <td>Read 'How to breed scorpions.'<br>by O.W.Thathurt.</td>
-    <td>Go to the <span data-floors="US">2nd floor</span> of the wizards tower south-southwest of the Seers' Village, search the bookcase on the northern wall. </td>
+    <td>Go to the <span data-floors="US">2nd floor</span> of the Sorcerer's Tower south-southwest of the Seers' Village, search the bookcase on the northern wall. </td>
   </tr>
   <tr>
     <td>A great view - watch<br>the rapidly drying<br>hides get splashed.<br>Check the box you are sitting on.</td>
